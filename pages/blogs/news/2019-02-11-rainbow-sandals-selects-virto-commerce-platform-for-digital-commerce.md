@@ -17,7 +17,6 @@ excerpt: Virto Commerce, a leading provider of digital commerce software, today 
 <p>
     Retailer will improve online experience and efficient ordering across its organization
 </p>
-<img width="400" height="400" src="assets/images/blog/rainbow-sandals-selects-virto-commerce-platform-for-digital-commerce.png" />
 <p>
     Los Angeles, Ca. (Newswire) - February 2019 - Virto Commerce, a leading provider of digital commerce
     software, today announced that Rainbow® Sandals selected the Virto Commerce digital platform to
