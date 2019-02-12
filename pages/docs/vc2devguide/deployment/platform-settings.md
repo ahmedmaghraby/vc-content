@@ -65,7 +65,7 @@ Gets or sets whether bundling and minification of bundle references is enabled.
 <add key="VirtoCommerce:AutoInstallModuleBundles" value="commerce" />
 ```
 
-This parameter defines the module bundles that will be install automatically.
+This parameter defines the module bundles that will be installed automatically.
 
 ### Authentication settings
 
@@ -94,7 +94,7 @@ If set, enforces that emails are non empty, valid, and unique.
 <add key="VirtoCommerce:Authentication:Password.RequireUppercase" value="false" />
 ```
 
-These options specify password policy.
+These options specify password policy requirements.
 
 ### Cookies
 ```
@@ -196,7 +196,7 @@ Default value is 1 hour.
 <add key="VirtoCommerce:Authentication:BearerTokens.RefreshTokenExpireTimeSpan" value="30:00:00:00" />
 ```
 
-RefreshTokenExpireTimeSpan is the life time of the access token.
+RefreshTokenExpireTimeSpan is the life time of the refresh token.
 
 ```
 <add key="VirtoCommerce:Authentication:BearerTokens.LimitedCookiePermissions" value="security:call_api;platform:asset:read;platform:export;background_jobs:manage;content:read;platform:asset:create" />
