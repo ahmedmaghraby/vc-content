@@ -291,7 +291,7 @@ Configures number of Hangfire workers. Assigned to HangfireOptions.WorkerCount.
 
 Specifies notification sending gateway. Could be "Default" or "SendGrid".
 
-#
+# Security
 ```
 <add key="VirtoCommerce:Security:SuppressForcingCredentialsChange" value="false" />
 ```
