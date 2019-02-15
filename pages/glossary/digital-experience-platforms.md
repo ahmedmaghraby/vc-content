@@ -30,7 +30,7 @@ tags :
                 <h1 itemprop="headline" class="glosary-t">Digital Experience Platforms (DXP) Definition and Meaning</h1>
             </div>
             <div class="glossary-article">
-                <img src="assets/images/digital-experience-platforms.jpg" title="Digital Experience Platforms" height="485" width="485"  />
+                <img src="assets/images/digital-experience-platforms.jpg" title="Digital Experience Platforms" height="485" width="485" style="display:block;margin-left:auto;margin-right:auto" />
                 <div class="text">
                     Abbreviated as DXP, a digital experience platform is an integrated software framework meant to engage a broad array of players in the broad array of digital touchpoints.
                     Most organizations deploy DXPs to improve their websites, portals, mobile applications, and other digital experiences. From this definition, DXPs may not be as
