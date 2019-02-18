@@ -15,5 +15,6 @@ tags :
     </div>
 </div>
 <script>
-    $('#rfpDownload').click();
+    var link = document.getElementById('rfpDownload');
+    link.click();
 </script>
