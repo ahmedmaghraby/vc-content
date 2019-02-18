@@ -14,7 +14,7 @@ tags :
     </div>
     <a id="rfpDownload" href="assets/files/ecommerce-sample-rfp-template-by-virto.xlsx" />
 </div>
-{% include 'technologies' %}
 <script>
     $('#rfpDownload').click();
 </script>
+{% include 'technologies' %}
