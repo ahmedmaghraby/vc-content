@@ -63,3 +63,9 @@ tags :
     </div>
 </div>
 {% include 'technologies' %}
+<script>
+    $('#rfp').submit(function() {
+		if (this.checkValidity())
+			window.location.href = '/thanks-for-download-free-sample-rfp';
+	});
+</script>
