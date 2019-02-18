@@ -17,4 +17,3 @@ tags :
 <script>
     $('#rfpDownload').click();
 </script>
-{% include 'technologies' %}
