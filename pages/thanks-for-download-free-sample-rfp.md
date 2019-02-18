@@ -14,6 +14,7 @@ tags :
         <a id="rfpDownload" href="assets/files/ecommerce-sample-rfp-template-by-virto.xlsx"></a>
     </div>
 </div>
+{% include 'technologies' %}
 <script>
     var link = document.getElementById('rfpDownload');
     link.click();
