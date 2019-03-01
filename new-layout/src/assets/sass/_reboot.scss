@@ -1,0 +1,87 @@
+*
+{
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+html
+{
+    font-size: 1rem;
+}
+
+body
+{
+    color: $black;
+    font-family: 'CircularStd';
+    line-height: 1.4;
+
+    &.swipe-open
+    {
+        overflow: hidden;
+    }
+}
+
+a
+{
+    text-decoration: none;
+
+    &:hover
+    {
+        color: $orange;
+    }
+}
+
+// Headings
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+h3
+{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+h1,
+h2
+{
+    margin-bottom: 1.875rem;
+}
+
+@include media-breakpoint-down(sm) {
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    h2
+    {
+        font-size: 1.75rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    h1
+    {
+        font-size: 2.75rem;
+    }
+
+    h2
+    {
+        font-size: 2rem;
+    }
+}

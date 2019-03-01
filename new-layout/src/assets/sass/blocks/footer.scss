@@ -1,0 +1,141 @@
+.footer
+{
+    background: $gray-800;
+    padding: 6.25rem 0;
+
+    &__general
+    {
+        margin-bottom: 3.125rem;
+    }
+
+    &__logo
+    {
+        background: url(images/logo-footer.svg) no-repeat;
+        font-size: 0;
+        height: 2.5rem;
+        margin-bottom: 2.5rem;
+        width: 8.6875rem;
+    }
+
+    &__text
+    {
+        color: $white;
+        font-size: .875rem;
+        opacity: .4;
+    }
+
+    &__t
+    {
+        color: $white;
+        font-size: .875rem;
+        font-weight: bold;
+        margin-bottom: 2.25rem;
+        text-transform: uppercase;
+    }
+
+    .nav__link
+    {
+        color: $white;
+
+        &:hover
+        {
+            color: $orange;
+        }
+    }
+
+    &__link,
+    &__copy
+    {
+        color: $white;
+        display: inline-block;
+        font-size: .875rem;
+        opacity: .4;
+        vertical-align: middle;
+    }
+
+    &__copy
+    {
+        margin-right: 3.125rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        padding: 2.5rem 0;
+
+        &__t
+        {
+            margin-top: 2.5rem;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &__t
+        {
+            cursor: pointer;
+            margin: 0;
+            position: relative;
+
+            &::after
+            {
+                color: #7b7b7e;
+                content: '+';
+                font-size: 1.25rem;
+                position: absolute;
+                right: .625rem;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        &__nav
+        {
+            border-bottom: 1px solid #7b7b7e;
+            margin: 0 .9375rem;
+            padding: .9375rem 0;
+
+            &:nth-of-type(1)
+            {
+                border-top: 1px solid #7b7b7e;
+                margin-top: 1.5rem;
+            }
+        }
+
+        .nav:not(.nav--socials)
+        {
+            max-height: 0;
+            overflow: hidden;
+            transition: all .35s;
+        }
+
+        .nav.nav--opened:not(.nav--socials)
+        {
+            margin-top: 1.5rem;
+            max-height: 30rem;
+        }
+
+        &__other
+        {
+            flex-direction: column-reverse;
+
+            .nav--socials
+            {
+                margin-bottom: 2.5rem;
+            }
+
+            &-text
+            {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        &__copy
+        {
+            margin: 1rem 0 0;
+        }
+
+        &__link
+        {
+            order: -1;
+        }
+    }
+}
