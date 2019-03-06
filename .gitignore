@@ -159,3 +159,5 @@ $RECYCLE.BIN/
 /node_modules
 /theme/cms-content/Pages
 /bower_components
+
+theme/config/drafts/
