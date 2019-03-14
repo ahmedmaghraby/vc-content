@@ -100,10 +100,10 @@ a:hover
 }
 
 .docs ul li,
-.docs ol li
-{
-	padding: 0 0 0 15px;
-	position: relative;
+.docs ol li {
+    padding: 0 0 0 15px;
+    position: relative;
+    word-wrap: break-word;
 }
 
 .docs ul li::before
