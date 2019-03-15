@@ -69,6 +69,7 @@
         ]
     },
     "image-carousel": {
+		"hide": true,
         "name": "Image carousel",
         "icon": "image-carousel",
         "displayField": "name",
@@ -263,6 +264,7 @@
         ]
     },
     "image-with-text-overlay": {
+		"hide": true,
         "name": "Image with text overlay",
         "icon": "fas fa-file-contract",
         "settings": [
@@ -342,6 +344,7 @@
         ]
     },
     "images-layout": {
+		"hide": true,
         "name": "Images layout",
         "icon": "far fa-file-image",
         "settings": [
@@ -476,6 +479,7 @@
         ]
     },
     "textcolumns-with-images": {
+		"hide": true,
         "name": "Text columns with images",
         "icon": "text-columns",
         "settings": [
@@ -571,6 +575,7 @@
         ]
     },
     "category": {
+		"hide": true,
         "name": "Category",
         "icon": "category",
         "settings": [
