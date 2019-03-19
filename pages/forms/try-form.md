@@ -14,7 +14,7 @@ aliases:
 	<div class="columns">
 		<div class="column">
 			<div class="block">
-                <form action="" method="post">
+               <form action="" method="post">
                     <input id="Contact[RedirectUrl]" type="hidden" name="Contact[RedirectUrl]" value="~/thank-you-trial" />
                     <div class="column">
                         <div class="control-group">
@@ -41,25 +41,13 @@ aliases:
                         <input id="Contact[Email]" tabindex="5" type="text" name="Contact[Email]" class="form-input" required="required" autocomplete="email" />
                     </div>
                     <div class="control-group">
-                        <label for="Job Title">Job Title (required)</label>
-                        <input id="Contact[Job Title]" tabindex="6" type="text" name="Contact[Job Title]" class="form-input" required="required" autocomplete="jobtitle" />
-                    </div>
-                    <div class="control-group">
-                        <label for="Message">What region are you located in? (required)</label>
-                        <select id="Contact[Message]" name="Contact[Message]" type="text" class="form-input" required="required" tabindex="7">
-                            <option value="" disabled selected>Please choose:</option>
-                            <option value="North & South America">North & South America</option>
-                            <option value="Europe">Europe</option>
-                            <option value="Asia Pacific">Asia Pacific</option>
-                        </select>
-                    </div>
-                    <div class="control-group">
-                        <label for="Message">What is your Company Revenue? (required)</label>
-                        <select id="Contact[Message]" name="Contact[Message]" type="text" class="form-input" required="required" tabindex="8">
-                            <option value="" disabled selected>Please choose:</option>
-                            <option value="Over $1 Million Anually">Over $1 Million Anually</option>
-                            <option value="Under $1 Million Anually">Under $1 Million Anually</option>
-                            <option value="I'm not sure">I'm not sure</option>
+                        <label for="Message">What describes you best? (required)</label>
+                        <select id="Contact[Message]" name="Contact[Message]" type="text" class="form-input" required="required" tabindex="6">
+                            <option value="" disabled selected>Please, choose</option>
+                            <option value="I am developer trying Virto Commerce">I am developer trying Virto Commerce</option>
+                            <option value="I am non-technical user trying Virto Commerce">I am non-technical user trying Virto Commerce</option>
+                            <option value="I have a solution using different software">I have a solution using different software</option>
+                            <option value="I am creating a solution for a customer">I am creating a solution for a customer</option>
                         </select>
                     </div>
                     <div class="control-group">
@@ -77,7 +65,7 @@ aliases:
 				<ul class="list">
 					<li>
                         <span class="descr">
-                            See how our platform can fit your busienss requirments by getting
+                            See how our platform can fit your business requirements by getting
                             firsthand experience using Virto Commerce. We’ll guide you through our
                             platform, and afterwards you’ll have access to explore Virto
                             Commerce on your own.

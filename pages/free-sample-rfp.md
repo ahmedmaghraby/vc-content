@@ -7,11 +7,33 @@ tags :
 - rfp
 ---
 <div class="roadmap __responsive">
-	<h1 class="section-t">Get started with B2B Ecommerce with this Sample RFP Template</h1>
+	<h1 class="section-t">Get started on B2B Ecommerce with our RFP Template</h1>
     <div class="text">
-        Many companies require an RFP process to select software, and that can be a resource-intensive 3+ month endeavor. We created this template RFP to help get you started.
-        However, another approach is to get there faster with a Proof of Concept -- and Virto can do a POC for free.
-        <a href="/contact-us">Ask us how.</a>
+        Many companies require a Request For Proposal (RFP) process to select ecommerce software, and that effort can be challenge and resource-intensive.<br />
+        To help you get started, we collected the most important business requirements and technical features that a company should ask when researching B2B ecommerce vendors.
+    </div>
+    <div class="text">
+        Who should use this RFP Template?<br />
+        Whether you’re launching a new ecommerce project or replatforming an existing site, this RFP Template serves as a robust resource to help you compare capabilities of several
+        B2B ecommerce vendors.
+    </div>
+    <div class="text">
+        This B2B Ecommerce Template is a great resource for:
+    </div>
+    <ul class="text" style="margin-left:50px">
+        <li>Ecommerce Managers / Digital Commerce Leaders</li>
+        <li>IT Managers and Chief Information Officers</li>
+        <li>Application Developers</li>
+        <li>Agencies and Consultants</li>
+        <li>Chief Marketing Officers, Directors of Marketing</li>
+        <li>Business Analysts</li>
+    </ul>
+    <div class="text">
+        Is there another way to compare Ecommerce vendors?<br />
+        Yes, there is! You can get there faster with a Proof of Concept (POC). In this Virto RFP Template, you’ll see
+        a best-practice recommendation for your evaluation: ask two or three ecommerce vendors to build a Proof of Concept for you. They should be able to do this in two weeks and
+        show you the software in action, as it relates to a challenge in your business.<br />
+        The best news? Virto Commerce will create a POC for free. <a href="mailto:garren@virtoway.com">Ask us how.</a>
     </div>
     <div class="columns">
         <div class="column">
@@ -63,3 +85,9 @@ tags :
     </div>
 </div>
 {% include 'technologies' %}
+<script>
+    $('#rfp').submit(function() {
+		if (this.checkValidity())
+			window.location.href = '/thanks-for-download-free-sample-rfp';
+	});
+</script>
