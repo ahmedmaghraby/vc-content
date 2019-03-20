@@ -30,9 +30,6 @@ tags:
                 <li class="list-item fb">
                     <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-facebook"></i></a>
                 </li>
-                <li class="list-item plus">
-                    <a class="list-link" href="https://plus.google.com/share?url={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-google-plus"></i></a>
-                </li>
                 <li class="list-item tw">
                     <a class="list-link" href="https://twitter.com/intent/tweet?text={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-twitter"></i></a>
                 </li>

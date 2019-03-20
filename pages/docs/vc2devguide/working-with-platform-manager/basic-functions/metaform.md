@@ -2,7 +2,7 @@
 title: Metaform
 description: The article about Angular JS component - metaform - a placeholder (container) control that renders UI content based on provided metadata
 layout: docs
-date: 2016-09-07T10:12:14.553Z
+date: 2019-01-18T10:12:14.553Z
 priority: 8
 ---
 ## Introduction and glossary
@@ -42,7 +42,7 @@ Metaform is implemented as 'vaMetaform' AngularJS directive and has the followi
 
 ## Registering meta-fields
 
-Meta-field registration is usually done in JavaScript code:
+Meta-field registration directly in blade:
 
 ```
 blade.metaFields = [
@@ -71,7 +71,20 @@ blade.metaFields = [
 }];
 ```
 
-Value of **blade.metaFields** could be defined inside AngularJs service and accessible globally in the application. That way **any module could access and change** the fields displayed inside the metaform.
+Meta-field registration can also be done by using Platform-level factory. That way **any module can access and change** the fields displayed inside the metaform:
+1. Reference **'platformWebApp.metaFormsService'** (as metaFormsService) in your module's **run** method;
+1. Create meta-field definitions and register them using 'metaFormsService.registerMetaFields' method.
+
+```
+metaFormsService.registerMetaFields("accountDetails",
+                [
+                    {
+                        name: "isAdministrator",
+                        title: "Is admin",
+                        valueType: "Boolean"
+                    }
+                ]);
+```
 
 ## Meta-field data structure
 

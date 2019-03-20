@@ -74,9 +74,6 @@ tags :
 				<div class="feauture-soc">
 					<span class="feauture-soc_name">Share with <br>friends:</span>
 					<ul class="list __inline __socials">
-						<li class="list-item plus">
-							<a target="_blank" href="https://plus.google.com/u/0/110275588520785121043/posts"></a>
-						</li>
 						<li class="list-item ln">
 							<a target="_blank" href="http://www.linkedin.com/company/virtoway/virto-commerce-788516/product?trk=biz_product"></a>
 						</li>

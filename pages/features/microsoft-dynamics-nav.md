@@ -35,9 +35,6 @@ permalink: features/ecommerce-microsoft-dynamics-nav
 						<li class="list-item fb">
 							<a target="_blank" href="//www.facebook.com/sharer.php?u=https://virtocommerce.com/features/ecommerce-microsoft-dynamics-nav"></a>
 						</li>
-						<li class="list-item plus">
-							<a target="_blank" href="http://plus.google.com/share?url=https://virtocommerce.com/features/ecommerce-microsoft-dynamics-nav"></a>
-						</li>
 						<li class="list-item ln">
 							<a target="_blank" href="http://www.linkedin.com/company/virtoway/virto-commerce-788516/product?trk=biz_product"></a>
 						</li>
