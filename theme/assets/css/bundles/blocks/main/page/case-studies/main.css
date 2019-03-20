@@ -1,0 +1,289 @@
+.studies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -1.25rem;
+    padding-top: 1.5rem;
+}
+
+.studies__item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 2.5rem 1.25rem 0;
+    text-align: left;
+}
+
+@media (max-width: 991.98px) {
+    .studies__item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .studies {
+        margin: 0;
+    }
+
+    .studies__item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 1.25rem 0 0;
+    }
+}
+
+.studies__inner {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border: 1px solid #ced4da;
+    border-radius: .625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1.25rem;
+    height: 100%;
+}
+
+.studies__pic {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+.studies__t {
+    font-size: .875rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.studies__cat {
+    color: #adb5bd;
+    margin-top: .5rem;
+}
+
+.studies__cat, .studies__descr {
+    font-size: .75rem;
+}
+
+.studies__descr {
+    margin: 1rem 0;
+}
+
+.studies .btn {
+    margin-top: auto;
+}
+
+.section--study {
+    padding: 0;
+}
+
+.section--study .section__bg {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url("../i/page/case-studies/bg-bosch.jpg") no-repeat fixed 50% 25%;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.section--study .section__bg::after {
+    background: rgba(12, 16, 21, 0.8);
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.section--study .section__t {
+    font-size: 3.75rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.section--study .section__descr {
+    font-size: 1.625rem;
+    font-weight: bold;
+    max-width: 37.5rem;
+}
+
+.section--study .section__t,
+  .section--study .section__descr {
+    color: #fff;
+    position: relative;
+    text-shadow: 0 0.1875rem 0 #000;
+    z-index: 10;
+}
+
+.section--study .section__sidebar .section__inner {
+    background: #f8f9fa;
+    border-radius: 0.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1.875rem;
+}
+
+@media (max-width: 991.98px) {
+    .section--study .section__sidebar .section__inner .section__pic {
+        margin-right: 1.875rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section--study .section__sidebar .section__inner {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .section--study .section__sidebar .section__inner .section__pic {
+        margin: 0 auto 1.875rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section--study .section__sidebar .section__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .section--study .section__sidebar .section__inner .section__pic {
+        margin-bottom: 1.875rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .section--study .section__sidebar .section__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .section--study .section__sidebar .section__inner .section__pic {
+        margin-bottom: 1.875rem;
+    }
+}
+
+.section--study .section__content,
+  .section--study .section__sidebar {
+    margin-bottom: 3.125rem;
+    margin-top: 3.125rem;
+    text-align: left;
+}
+
+.section--study .section__content > *:first-child {
+    margin-top: 0;
+}
+
+.section--study h3 {
+    margin: 1.875rem 0;
+}
+
+.section--study blockquote {
+    margin: 1.875rem 0;
+}
+
+.section--study p {
+    font-size: .875rem;
+    line-height: 1.7;
+    margin: 1.25rem 0;
+}
+
+@media (max-width: 991.98px) {
+    .section--study .section__bg {
+        height: 30rem;
+        padding: 0 1.875rem;
+    }
+
+    .section--study .section__t {
+        font-size: 3rem;
+    }
+
+    .section--study .section__descr {
+        font-size: 1.375rem;
+    }
+
+    .section--study .section__content,
+    .section--study .section__sidebar {
+        margin-bottom: 0;
+        margin-top: 1.875rem;
+    }
+
+    .section--study .section__sidebar {
+        margin-bottom: 1.875rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section--study .section__bg {
+        height: 23rem;
+        padding: 0 1.25rem;
+    }
+
+    .section--study .section__t {
+        font-size: 2.125rem;
+    }
+
+    .section--study .section__descr {
+        font-size: 1.125rem;
+        max-width: 20rem;
+    }
+
+    .section--study .section__content,
+    .section--study .section__sidebar {
+        margin-bottom: 0;
+        margin-top: 1.25rem;
+    }
+
+    .section--study .section__sidebar {
+        margin-bottom: 1.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .section--study .section__content {
+        margin-right: 4rem;
+    }
+
+    .section--study .section__sidebar {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 19.375rem;
+        flex: 0 0 19.375rem;
+        max-width: 19.375rem;
+    }
+}
