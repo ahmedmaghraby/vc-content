@@ -1,5 +1,5 @@
 ---
-title: Startups
+title: B2X
 date: 2019-03-18
 permalink: solutions/b2x
 ---
@@ -72,61 +72,93 @@ permalink: solutions/b2x
         </div>
         <div class="section section--gray section--bg">
             <div class="section__inner container">
-                <p class="section__descr">
-                    <strong>PRICING.</strong> Virto Commerce provides a responsive pricing engine ideal for B2C customers. Prices can be personalized in real-time based on audience,
-                    campaign, purchase history, geo-location, contracts and other customer-based scenarios.
-                    <ul>
+                <div class="row align-items-lg-center flex-row-reverse">
+                    <div class="section__img col-lg">
+                        <img src="../assets/images/features/pricing.png" alt="" class="section__pic">
+                    </div>
+                    <div class="col-lg-auto section__info">
+                        <h2 class="section__t">Pricing</h2>
+                        <p class="section__descr">
+                            Virto Commerce provides a responsive pricing engine ideal for B2C customers. Prices can be personalized in real-time based on audience, campaign, purchase
+                            history, geo-location, contracts and other customer-based scenarios.
+                        </p>
+                        <ul>
                         <li>Personalized pricing</li>
                         <li>Price lists</li>
                         <li>Tiered pricing</li>
                         <li>Custom currencies (bitcoin, points)</li>
                     </ul>
-                </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section">
             <div class="section__inner container">
-                <p class="section__descr">
-                    <strong>MULTI TENANT.</strong> Built to support complex B2C and B2B2C scenarios, Virto Commerce includes capabilities to create solutions for distributors and
-                    manufacturers. Create complex org structures, allow vendors to accept orders and customize the look and feel of their storefront. Virto’s software allows you to:
-                    <ul>
-                        <li>Create organizations</li>
-                        <li>Vendor store themes and templates</li>
-                        <li>Relate orders to specific vendor/store</li>
-                        <li>Control vendor permissions</li>
-                    </ul>
-                </p>
+                <div class="row align-items-lg-center">
+                    <div class="section__img col-lg">
+                        <img src="../assets/images/features/multi-tenant.png" alt="" class="section__pic">
+                    </div>
+                    <div class="col-lg-auto section__info">
+                        <h2 class="section__t">Multi tenant</h2>
+                        <p class="section__descr">
+                            Built to support complex B2C and B2B2C scenarios, Virto Commerce includes capabilities to create solutions for distributors and manufacturers. Create
+                            complex org structures, allow vendors to accept orders and customize the look and feel of their storefront. Virto’s software allows you to:
+                        </p>
+                        <ul>
+                            <li>Create organizations</li>
+                            <li>Vendor store themes and templates</li>
+                            <li>Relate orders to specific vendor/store</li>
+                            <li>Control vendor permissions</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section section--gray section--bg">
             <div class="section__inner container">
-                <p class="section__descr">
-                    <strong>COMMERCE INTEGRATION PLATFORM.</strong> Virto Commerce is developed using modular architecture with each module exposing a set of REST based API's.
-                    These standards based unified API's provide businesses, agencies, and system integrators with advanced ecommerce capabilities that are easier to consume, manage
-                    and combine with other business systems and frontend technologies. Explore our API.
-                    <ul>
-                        <li>Module architecture</li>
-                        <li>Real-time documentation</li>
-                        <li>REST Oauth and token based authentication</li>
-                        <li>Granular permissions</li>
-                    </ul>
-                </p>
+                <div class="row align-items-lg-center flex-row-reverse">
+                    <div class="section__img col-lg">
+                        <img src="../assets/images/features/commerce-integration-platform.png" alt="" class="section__pic">
+                    </div>
+                    <div class="col-lg-auto section__info">
+                        <h2 class="section__t">Commerce integration platform</h2>
+                        <p class="section__descr">
+                            Virto Commerce is developed using modular architecture with each module exposing a set of REST based API's. These standards based unified API's provide
+                            businesses, agencies, and system integrators with advanced ecommerce capabilities that are easier to consume, manage and combine with other business
+                            systems and frontend technologies. Explore our API.
+                        </p>
+                        <ul>
+                            <li>Module architecture</li>
+                            <li>Real-time documentation</li>
+                            <li>REST Oauth and token based authentication</li>
+                            <li>Granular permissions</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="section">
             <div class="section__inner container">
-                <p class="section__descr">
-                    <strong>d</strong> Virto Commerce provides an industry leading document based order management functionality. It can be integrated into complex enterprise
-                    workflows - including many leading ERP and fulfillment systems.
-                    <ul>
-                        <li>Customer order history</li>
-                        <li>Split shipments</li>
-                        <li>RSplit payments</li>
-                        <li>Punchout support</li>
-                        <li>Quotes & Purchase Orders</li>
-                        <li>Subscription management</li>
-                    </ul>
-                </p>
+                <div class="row align-items-lg-center">
+                    <div class="section__img col-lg">
+                        <img src="../assets/images/features/order-management.png" alt="" class="section__pic">
+                    </div>
+                    <div class="col-lg-auto section__info">
+                        <h2 class="section__t">Order management</h2>
+                        <p class="section__descr">
+                             Virto Commerce provides an industry leading document based order management functionality. It can be integrated into complex enterprise workflows -
+                             including many leading ERP and fulfillment systems.
+                        </p>
+                        <ul>
+                            <li>Customer order history</li>
+                            <li>Split shipments</li>
+                            <li>RSplit payments</li>
+                            <li>Punchout support</li>
+                            <li>Quotes & Purchase Orders</li>
+                            <li>Subscription management</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

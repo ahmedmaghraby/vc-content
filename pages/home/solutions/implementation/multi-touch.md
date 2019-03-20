@@ -1,5 +1,5 @@
 ---
-title: Startups
+title: Multi Touch
 date: 2019-03-18
 permalink: implementation/multi-touch
 ---
