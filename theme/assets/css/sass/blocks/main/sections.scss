@@ -1,0 +1,132 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.section
+{
+    padding: 6.25rem 0;
+    text-align: center;
+
+    &__t
+    {
+        max-width: 52.5rem;
+    }
+
+    &__descr
+    {
+        font-size: 1.125rem;
+    }
+
+    &__pic
+    {
+        max-width: 100%;
+    }
+
+    &__info
+    {
+        text-align: left;
+    }
+
+    &--gray
+    {
+        background: $gray-100;
+    }
+
+    &--pattern
+    {
+        position: relative;
+
+        &::after,
+        &::before
+        {
+            content: ' ';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &::after
+        {
+            background: url(../assets/images/r-pattern.svg) no-repeat;
+            height: 18.5rem;
+            right: 0;
+            width: 12.5rem;
+        }
+
+        &::before
+        {
+            background: url(../assets/images/l-pattern.svg) no-repeat;
+            height: 16.125rem;
+            left: 0;
+            width: 13.25rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__t
+        {
+            max-width: 37.5rem;
+        }
+
+        &--pattern::after,
+        &--pattern::before
+        {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 2.5rem 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+        &__t
+        {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.section--bg
+{
+    .section__t
+    {
+        font-weight: bold;
+        line-height: 1.1;
+    }
+
+    .section__descr
+    {
+        font-size: 1rem;
+        line-height: 1.6;
+
+        & ~ .section__descr
+        {
+            margin-top: 3rem;
+        }
+    }
+
+    .section__pic
+    {
+        max-width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .section__info
+        {
+            flex: 0 0 39.375rem;
+            max-width: 39.375rem;
+            position: relative;
+            z-index: 5;
+        }
+    }
+}
+
+.section--empty
+{
+    .section__t
+    {
+        font-weight: bold;
+        line-height: 1.1;
+        margin-top: 2.5rem;
+    }
+}

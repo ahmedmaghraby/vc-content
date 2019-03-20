@@ -1,0 +1,53 @@
+#layout
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    padding-top: 5rem;
+}
+
+.container
+{
+
+}
+
+.main
+{
+    flex: 1 0 0;
+}
+
+.overlay,
+.dropdown-overlay
+{
+    background: rgba(248,148,6,.3);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2500;
+}
+
+.overlay
+{
+    z-index: 9000;
+}
+
+/* Sections */
+@import "main/sections";
+
+/* Home */
+@import "main/page/home/main";
+
+/* Features */
+@import "main/page/features/main";
+
+/* Contacts */
+@import "main/page/contacts/main";
+
+/* Documentation */
+@import "main/page/docs/main";
+
+/* Case studies */
+@import "main/page/case-studies/main";

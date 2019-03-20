@@ -1,0 +1,39 @@
+%no-select
+{
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+%placeholder
+{
+    &::-webkit-input-placeholder
+    {
+      color: #696969;
+    }
+
+    &::-moz-placeholder
+    {
+      color: #696969;
+    }
+
+    &:-ms-input-placeholder
+    {
+      color: #696969;
+    }
+
+    &:-moz-placeholder
+    {
+      color: #696969;
+    }
+}
+
+%max-width
+{
+    margin: auto;
+    max-width: 72rem;
+    width: 100%;
+}

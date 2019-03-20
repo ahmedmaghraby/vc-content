@@ -3,6 +3,12 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var cssmin = require('gulp-cssmin');
+var plumber = require("gulp-plumber");
+var sass = require("gulp-sass");
+var autoprefixer = require("gulp-autoprefixer");
+var removeComments = require('gulp-strip-css-comments');
+var cssbeautify = require("gulp-cssbeautify");
+var rename = require("gulp-rename");
 
 //files
 var config = {
@@ -18,7 +24,7 @@ gulp.task('scripts', function () {
 });
 
 var configCss = {
-    src: [ 'theme/assets/css/main.css', 'theme/assets/css/fonts.css']
+    src: ['theme/assets/css/bundles/main.css', 'theme/assets/css/fonts.css', 'theme/assets/css/bundles/blocks/**/*.css']
 };
 
 gulp.task('styles', function () {
@@ -28,5 +34,30 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('theme/assets/css/bundles/.'));
 });
 
+var path = {
+    build: {
+        css: "theme/assets/css/bundles/."
+    },
+    src: {
+        css: "theme/assets/css/sass/**/*.scss"
+    }
+};
+
+gulp.task("css:build", function () {
+    gulp.src(path.src.css)
+        .pipe(plumber())
+        .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ["last 5 versions"],
+            cascade: true
+        }))
+        .pipe(removeComments())
+        .pipe(cssbeautify())
+        .pipe(gulp.dest(path.build.css))
+        .pipe(cssmin())
+        .pipe(rename("style.min.css"))
+        .pipe(gulp.dest(path.build.css));
+});
+
 //default tasks
-gulp.task('default', ['scripts', 'styles'], function () { });
+gulp.task('default', ['scripts', 'css:build', 'styles'], function () { });

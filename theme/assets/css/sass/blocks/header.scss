@@ -1,0 +1,187 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.header
+{
+    background: $white;
+    box-shadow: 0 0 .25rem rgba(0,0,0,.25);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 5000;
+
+    &-logo
+    {
+        background: url(../assets/images/logo.svg) no-repeat;
+        font-size: 0;
+        height: 2.5rem;
+        width: 8.6875rem;
+    }
+
+    &-nav
+    {
+        align-items: center;
+        display: flex;
+        position: static;
+
+        .btn
+        {
+            text-transform: uppercase;
+        }
+    }
+
+    .nav
+    {
+        display: flex;
+    }
+
+    .nav__item,
+    .nav__link
+    {
+        display: flex;
+    }
+
+    .nav__item--active
+    {
+        box-shadow: 0 -3px 0 0 $orange inset;
+        transition: all .35s;
+    }
+
+    .nav__item
+    {
+        display: none;
+    }
+
+    .nav__item--try .nav__link
+    {
+        color: $yellow;
+        font-weight: 900;
+    }
+
+    .nav__link
+    {
+        box-sizing: content-box;
+        align-items: center;
+        height: 2.5rem;
+        padding: 1.25rem 0;
+    }
+
+    .dropdown-menu .container
+    {
+        @include media-breakpoint-up(lg) {
+            padding-left: 12.0625rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-left: 18.9375rem;
+        }
+    }
+
+    &-toggle
+    {
+        border-bottom: .125rem solid $black;
+        cursor: pointer;
+        display: none;
+        height: 1.125rem;
+        margin: 0 1.875rem;
+        position: relative;
+        width: 1.5rem;
+
+        &::after,
+        &::before
+        {
+            background: $black;
+            content: ' ';
+            height: .125rem;
+            left: 0;
+            position: absolute;
+            right: 0;
+        }
+
+        &::after
+        {
+            top: 0;
+        }
+
+        &::before
+        {
+            top: .5rem;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        &-logo
+        {
+            background-image: url(../assets/images/logo.svg) no-repeat;
+            width: 2.5rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &-nav .btn
+        {
+            margin-left: 1.25rem;
+        }
+
+        &-toggle
+        {
+            display: block;
+            margin: 0 1.25rem 0 1.875rem;
+        }
+
+        .nav__item--try
+        {
+            display: flex;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &-toggle
+        {
+            margin: 0 .3125rem 0 1.875rem;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        &-nav .btn
+        {
+            margin: 0;
+        }
+
+        &-nav .btn:nth-of-type(1)
+        {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-nav .btn,
+        .nav__item
+        {
+            margin-left: 1.25rem;
+        }
+
+        .nav__item
+        {
+            display: flex;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 6rem;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        &-nav .btn,
+        .nav__item
+        {
+            margin-left: 1.875rem;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 6rem;
+        }
+    }
+}
