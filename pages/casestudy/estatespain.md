@@ -6,7 +6,7 @@ permalink: case-studies/estatespain
 ---
 <div class="main">
     <div class="section section--study">
-        <div class="section__bg">
+        <div class="section__bg" style="background-image:url('/assets/images/casestudies/estatespain.png')">
             <div class="section__t">Estate Spain success story</div>
             <div class="section__descr">Providing maximum scalability and centralization for expanding business internationally</div>
         </div>

@@ -1,3 +1,6 @@
+@import "./theme/assets/css/sass/_extends.scss";
+@import "./theme/assets/css/sass/_variables.scss";
+
 input,
 button,
 textarea,
@@ -42,7 +45,7 @@ textarea
 {
     border: solid 1px $gray-400;
     border-radius: .25rem;
-    color: $gray-400;
+    color: $black;
     font-size: .875rem;
     font-weight: normal;
     height: 2.5rem;

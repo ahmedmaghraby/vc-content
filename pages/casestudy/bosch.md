@@ -6,7 +6,7 @@ permalink: case-studies/bosch
 ---
 <div class="main">
     <div class="section section--study">
-        <div class="section__bg">
+        <div class="section__bg" style="background-image:url('/assets/images/casestudies/bg-bosch.jpg')">
             <div class="section__t">Bosch success story</div>
             <div class="section__descr">Providing maximum scalability and centralization for expanding business internationally</div>
         </div>
