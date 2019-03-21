@@ -98,7 +98,9 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: url("../i/page/case-studies/bg-bosch.jpg") no-repeat fixed 50% 25%;
+    background-attachment: fixed;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;

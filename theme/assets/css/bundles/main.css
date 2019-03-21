@@ -4776,19 +4776,19 @@ blockquote {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #696969;
+    color: #c4c4c4;
 }
 
 .form-control::-moz-placeholder {
-    color: #696969;
+    color: #c4c4c4;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #696969;
+    color: #c4c4c4;
 }
 
 .form-control:-moz-placeholder {
-    color: #696969;
+    color: #c4c4c4;
 }
 
 .swipe {
@@ -5065,6 +5065,7 @@ blockquote {
 
 .header-logo {
     background: url(../assets/images/logo.svg) no-repeat;
+    display: block;
     font-size: 0;
     height: 2.5rem;
     width: 8.6875rem;
@@ -5126,13 +5127,13 @@ blockquote {
 
 @media (min-width: 992px) {
     .header .dropdown-menu .container {
-        padding-left: 12.0625rem;
+        padding-left: 9.0625rem;
     }
 }
 
 @media (min-width: 1200px) {
     .header .dropdown-menu .container {
-        padding-left: 18.9375rem;
+        padding-left: 15.9375rem;
     }
 }
 
@@ -6208,7 +6209,9 @@ solution {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: url("../i/page/case-studies/bg-bosch.jpg") no-repeat fixed 50% 25%;
+    background-attachment: fixed;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6643,6 +6646,22 @@ solution {
     margin-top: 1rem;
 }
 
+.form-control::-webkit-input-placeholder {
+    color: #c4c4c4;
+}
+
+.form-control::-moz-placeholder {
+    color: #c4c4c4;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #c4c4c4;
+}
+
+.form-control:-moz-placeholder {
+    color: #c4c4c4;
+}
+
 input,
 button,
 textarea,
@@ -6684,7 +6703,7 @@ textarea {
 .form-control {
     border: solid 1px #ced4da;
     border-radius: .25rem;
-    color: #ced4da;
+    color: #000;
     font-size: .875rem;
     font-weight: normal;
     height: 2.5rem;
