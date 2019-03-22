@@ -38,7 +38,7 @@
     },
     "header": {
         "name": "Header",
-        "static": "top",
+        "static": "-top",
         "icon": "header",
         "settings": [
             {
@@ -54,7 +54,7 @@
     },
     "footer": {
         "name": "Footer",
-        "static": "bottom",
+        "static": "-bottom",
         "icon": "footer",
         "settings": [
             {
@@ -200,38 +200,6 @@
 				"autofocus": true
             },
             {
-                "id": "url",
-                "label": "Upload picture",
-                "type": "image",
-                "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/yellowstone.jpg",
-                "previewWith": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "size",
-                "label": "Choose image size",
-                "type": "select",
-                "default": "small",
-                "options": [
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    },
-                    {
-                        "label": "Medium",
-                        "value": "medium"
-                    },
-                    {
-                        "label": "Large",
-                        "value": "large"
-                    },
-                    {
-                        "label": "Extra-Large",
-                        "value": "xlarge"
-                    }
-                ]
-            },
-            {
                 "id": "align",
                 "label": "Choose image alignment",
                 "type": "select",
@@ -244,16 +212,16 @@
                     {
                         "label": "Right",
                         "value": "right"
-                    },
-                    {
-                        "label": "Top",
-                        "value": "top"
-                    },
-                    {
-                        "label": "Bottom",
-                        "value": "bottom"
                     }
                 ]
+            },
+            {
+                "id": "url",
+                "label": "Upload picture",
+                "type": "image",
+                "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/yellowstone.jpg",
+                "previewWith": 120,
+                "previewHeight": 80
             },
             {
                 "id": "content",

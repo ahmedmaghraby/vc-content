@@ -1,19 +1,5 @@
-{% if layout != blank %}
-    {% layout layout %}
-{% endif %}
+{% layout 'theme-new' %}
 
 {{ 'js/designer/dist/designer.bundle.js' | asset_url | script_tag }}
 
-<div class="grid">
-
-    <div class="grid-item large--two-thirds push--large--one-sixth">
-
-        <h1>{{ title }}</h1>
-
-        <div id="designer-preview"></div>
-
-    </div>
-
-</div>
-
-
+<div id="designer-preview" class="features-page"></div>
