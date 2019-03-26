@@ -13,12 +13,12 @@ tags :
         To help you get started, we collected the most important business requirements and technical features that a company should ask when researching B2B ecommerce vendors.
     </div>
     <div class="text">
-        Who should use this RFP Template?<br />
+        <b>Who should use this RFP Template?</b><br />
         Whether you’re launching a new ecommerce project or replatforming an existing site, this RFP Template serves as a robust resource to help you compare capabilities of several
         B2B ecommerce vendors.
     </div>
     <div class="text">
-        This B2B Ecommerce Template is a great resource for:
+        <b>This B2B Ecommerce Template is a great resource for:</b>
     </div>
     <ul class="text" style="margin-left:50px">
         <li>Ecommerce Managers / Digital Commerce Leaders</li>
@@ -29,11 +29,11 @@ tags :
         <li>Business Analysts</li>
     </ul>
     <div class="text">
-        Is there another way to compare Ecommerce vendors?<br />
-        Yes, there is! You can get there faster with a Proof of Concept (POC). In this Virto RFP Template, you’ll see
+        <b>Is there another way to compare Ecommerce vendors?</b><br />
+        Yes, there is! You can get there faster with a <b>Proof of Concept (POC)</b>. In this Virto RFP Template, you’ll see
         a best-practice recommendation for your evaluation: ask two or three ecommerce vendors to build a Proof of Concept for you. They should be able to do this in two weeks and
         show you the software in action, as it relates to a challenge in your business.<br />
-        The best news? Virto Commerce will create a POC for free. <a href="mailto:garren@virtoway.com">Ask us how.</a>
+        <b>The best news? Virto Commerce will create a POC for free.</b> <a href="mailto:garren@virtoway.com">Ask us how.</a>
     </div>
     <div class="columns">
         <div class="column">
