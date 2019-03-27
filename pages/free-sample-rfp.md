@@ -9,6 +9,12 @@ tags :
 <div class="roadmap __responsive">
 	<h1 class="section-t">Get started on B2B Ecommerce with our RFP Template</h1>
     <div class="text">
+        <div style="float:right;padding-left:15px">
+            <iframe src="https://www.youtube.com/embed/BZezTvC0604" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%;height:300px"></iframe>
+            <div class="section-t">
+                <strong>Watch this short video to learn how to use our RFP template</strong>
+            </div>
+        </div>
         Many companies require a Request For Proposal (RFP) process to select ecommerce software, and that effort can be challenge and resource-intensive.<br />
         To help you get started, we collected the most important business requirements and technical features that a company should ask when researching B2B ecommerce vendors.
     </div>
