@@ -4,25 +4,39 @@ description: Case Studies - Virto commerce
 date: 2018-11-07
 permalink: case-studies/bosch
 ---
-<div class="main">
-    <div class="section section--study">
-        <div class="section__bg" style="background-image:url('/assets/images/casestudies/bg-bosch.jpg')">
-            <div class="section__t">Bosch success story</div>
-            <div class="section__descr">Providing maximum scalability and centralization for expanding business internationally</div>
+<div class="case-studies" ng-controller="caseStudyController">
+    <div class="header bg-bosch">
+        <div class="bg-container">
+            <div class="inner">
+                <h2>Bosch success story</h2>
+            </div>
         </div>
-        <div class="section__inner container">
-            <div class="row">
-                <div class="section__content col-lg">
-                    <blockquote>
-                        We are a fast growing business, so we need a platform that would not only allow us to expand, but also keep up with the ever growing needs and demands of our sales strategies. Virto Commerce definitely ticks those boxes being easily scalable and extremely flexible. By switching to this solution, we are adopting technologies that will allow us to add new channels easily and customize the product catalog for each of them, while keeping track of the overall sales and assortment. Andreas Kardell, CTO at Proffsmagasinet.se.
-                    </blockquote>
-                    <p>Sweden's Proffsmagasinet is a leading e-commerce company in the Nordic region that provides tools, laser and measuring apparatus and other equipment for professionals in the building trade with multiple payment and delivery options online.</p>
-                    <h3>Challenge</h3>
-                    <p>The company is growing fast! The old system couldn’t keep up with such fast growth and Proffsmagasinet needed to implement lots of new system where the e-commerce platform is the core. Though, the e-commerce platform needed to be able to easily integrate with the ERP system and other third-party systems. Proffsmagasinet wanted to be able to customize the platform according to their need and current business opportunities. The new platform also needed to be able to automatically scale up and down depending on spikes in traffic during campaigns.</p>
-                </div>
-                <div class="section__sidebar col-lg-auto">
-                    {% include 'case-study-download', downloadUrl: "../assets/files/bosch-case-study.pdf", caseName: "bosch" %}
-                </div>
+    </div>
+    <div class="body responsive">
+        <div class="col-w">
+            <div class="col __col-70">
+                <h3>
+                    Bosch Gains Customer Insights and Builds Customer Loyalty Through New eCommerce Solution
+                </h3>
+                <p class="text-gray">Bosch B2B/B2C Platform Case Study</p>
+                <blockquote>
+                    "We chose Virto Commerce because it is the only platform that had the customizability and support options that we need.
+                    From pre-service consultation to technical team support, Virto Commerce was responsive and informative, and most importantly, able to provide valuable insight into our core needs."
+                    ~ Cornelius Munz, BOSCH Digital
+                </blockquote>
+                <h4>CHALLENGE</h4>
+                <p>
+                    Bosch Thermotechnik traditionally did not sell to the end customer, and instead they relied on their distribution channels for that final sale. That approach, however, did not allow Bosch to have any insight into their customers, their behavior, what products they chose, or how they were using them.
+                </p>
+                <h4>SOLUTION</h4>
+                <p>Bosch sought a digital solution to automate the information capture and build customer loyalty as well.</p>
+                <blockquote>
+                    To gain visibility into end customers, Bosch wanted to build a Customer Loyalty program, with points-based purchasing and 14,000+ catalogue items, and selected Virto Commerce to create their eCommerce solution.
+                </blockquote>
+                <br />
+            </div>
+            <div class="col __col-30">
+                {% include 'case-study-download', downloadUrl: "../assets/files/bosch-case-study.pdf", caseName: "bosch" %}
             </div>
         </div>
     </div>
