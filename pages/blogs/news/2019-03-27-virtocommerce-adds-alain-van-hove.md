@@ -1,6 +1,6 @@
 ---
 author: VirtoCommerce 
-category: technical 
+category: virtocommerce-news 
 date: '2019-03-27'
 permalink: blog/virtocommerce-adds-alain-van-hove 
 main-image: ../../assets/images/blog/alain-pr-header.png 
