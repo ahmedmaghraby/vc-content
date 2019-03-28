@@ -1,6 +1,7 @@
 ---
 author: VirtoCommerce 
-category: technical date: '2019-03-27'
+category: technical 
+date: '2019-03-27'
 permalink: blog/virtocommerce-adds-alain-van-hove 
 main-image: ../../assets/images/blog/alain-pr-header.png 
 tags:
@@ -9,6 +10,7 @@ tags:
 - virtocommerce 
 - digital 
 title: Virto Commerce Adds Sales Director to European Team, Virto Commerce adds Alain Van Hove to Team
+excerpt: Virto Commerce Adds Sales Director to European Team Alain Van Hove brings 25 years of experience in software sales and business development
 ---
 
 <p><strong>Virto Commerce Adds Sales Director to European Team</strong></p>
