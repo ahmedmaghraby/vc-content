@@ -9,42 +9,25 @@
     {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
     {% include 'docs-menu', docs_tree: docs_tree %}
 {% else %}
-    <div class="swipe">
-        <div class="swipe__header">
-            <div class="swipe__nav">
-                <div class="swipe__nav-item swipe__nav-item--show">
-                    <a class="swipe__nav-link" href="#">Login</a>
-                </div>
-                <div class="swipe__nav-item">
-                    <div class="swipe__back"></div>
-                </div>
-            </div>
-            <div class="swipe__close ml-auto"></div>
-        </div>
-        <div class="swipe__body">
-            <div class="nav">
-                <ul class="flex-column">
-                    {% for link in menu.links %}
-                        {% assign child_list_handle = link.title | handleize %}
-                    <li class="nav__item">
-                            <a href="{{ link.url }}" data-swipe="opened">{{ link.title | escape }}</a>
-                        {% if linklists[child_list_handle].links.size > 0 %}
-                        <ul class="menu sub-menu">
-                            {% for child_link in linklists[child_list_handle].links %}
-                            <li class="menu-item">
-                                {% if child_link.url contains '/#' %}
-                                    <span>{{ child_link.title  }}</span>
-                                {% else %}
-                                    <a href="{{ child_link.url }}">{{ child_link.title | escape }}</a>
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
+    <ul class="menu">
+        {% for link in menu.links %}
+            {% assign child_list_handle = link.title | handleize %}
+        <li class="menu-item" data-id="swipeli">
+                <a href="{{ link.url }}" data-swipe="opened">{{ link.title | escape }}</a>
+            {% if linklists[child_list_handle].links.size > 0 %}
+            <ul class="menu sub-menu">
+                {% for child_link in linklists[child_list_handle].links %}
+                <li class="menu-item">
+                    {% if child_link.url contains '/#' %}
+                        <span>{{ child_link.title  }}</span>
+                    {% else %}
+                        <a href="{{ child_link.url }}">{{ child_link.title | escape }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 {% endif %}
