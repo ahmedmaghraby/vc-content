@@ -1,0 +1,135 @@
+.footer {
+    background: #343a40;
+    padding: 6.25rem 0;
+}
+
+.footer__general {
+    margin-bottom: 3.125rem;
+}
+
+.footer__logo {
+    background: url(../assets/images/logo-footer.svg) no-repeat;
+    font-size: 0;
+    height: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 8.6875rem;
+}
+
+.footer__text {
+    color: #fff;
+    font-size: .875rem;
+    opacity: .4;
+}
+
+.footer__t {
+    color: #fff;
+    font-size: .875rem;
+    font-weight: bold;
+    margin-bottom: 2.25rem;
+    text-transform: uppercase;
+}
+
+.footer .nav__link {
+    color: #fff;
+}
+
+.footer .nav__link:hover {
+    color: #fd7e14;
+}
+
+.footer__link, .footer__copy {
+    color: #fff;
+    display: inline-block;
+    font-size: .875rem;
+    opacity: .4;
+    vertical-align: middle;
+}
+
+.footer__copy {
+    margin-right: 3.125rem;
+}
+
+@media (max-width: 991.98px) {
+    .footer {
+        padding: 2.5rem 0;
+    }
+
+    .footer__t {
+        margin-top: 2.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer__t {
+        cursor: pointer;
+        margin: 0;
+        position: relative;
+    }
+
+    .footer__t::after {
+        color: #7b7b7e;
+        content: '+';
+        font-size: 1.25rem;
+        position: absolute;
+        right: .625rem;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .footer__nav {
+        border-bottom: 1px solid #7b7b7e;
+        margin: 0 .9375rem;
+        padding: .9375rem 0;
+    }
+
+    .footer__nav:nth-of-type(1) {
+        border-top: 1px solid #7b7b7e;
+        margin-top: 1.5rem;
+    }
+
+    .footer .nav:not(.nav--socials) {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: all .35s;
+        -o-transition: all .35s;
+        transition: all .35s;
+    }
+
+    .footer .nav.nav--opened:not(.nav--socials) {
+        margin-top: 1.5rem;
+        max-height: 30rem;
+    }
+
+    .footer__other {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .footer__other .nav--socials {
+        margin-bottom: 2.5rem;
+    }
+
+    .footer__other-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer__copy {
+        margin: 1rem 0 0;
+    }
+
+    .footer__link {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+}

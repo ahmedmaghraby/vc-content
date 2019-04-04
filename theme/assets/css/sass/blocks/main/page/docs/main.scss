@@ -1,0 +1,254 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.docs
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &__inner
+    {
+        height: inherit;
+    }
+
+    &__header
+    {
+        background: $gray-100;
+
+
+        &-search
+        {
+            background: $gray-200;
+        }
+    }
+
+    &__inner,
+    &__body
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__body
+    {
+        flex: 1 0 auto;
+    }
+
+    &__header-search,
+    &__sidebar
+    {
+        flex: 1 0 100%;
+        padding: 1.25rem 1.875rem;
+        max-width: 100%;
+    }
+
+    &__header-nav,
+    &__content
+    {
+        flex: 1 0 0;
+    }
+
+    .nav__item
+    {
+        display: block;
+        height: auto;
+
+        & ~ .nav__item
+        {
+            margin-top: 1.25rem;
+        }
+
+        &--active
+        {
+            > .nav__link
+            {
+                color: $blue;
+
+                .nav__icon
+                {
+                    transform: rotate(90deg);
+                }
+
+                .path
+                {
+                    fill: $blue;
+                }
+            }
+        }
+    }
+
+    .nav__link
+    {
+        border: none;
+        font-size: .875rem;
+
+        &:hover
+        {
+            color: $blue;
+
+            .path
+            {
+                fill: $blue;
+            }
+        }
+    }
+
+    .nav__icon
+    {
+        height: .8125rem;
+        margin-right: .625rem;
+        width: .4375rem;
+    }
+
+    .path
+    {
+        fill: $black;
+    }
+
+    .nav--sub
+    {
+        padding: 0;
+        margin-left: 1.25rem;
+        margin-top: 1.25rem;
+    }
+
+    &__header-nav
+    {
+        align-items: center;
+        display: flex;
+        padding: 0 1.875rem;
+
+        .nav
+        {
+            &__item
+            {
+                display: inline-block;
+                margin-right: .9375rem;
+                position: relative;
+
+                & ~ .nav__item
+                {
+                    margin-top: 0;
+                }
+
+                &::before
+                {
+                    background: url('../i/page/documentation/chevron.svg') no-repeat;
+                    content: ' ';
+                    display: inline-block;
+                    height: .8125rem;
+                    margin-right: .9375rem;
+                    vertical-align: -1px;
+                    width: .4375rem;
+                }
+
+                &:first-child::before
+                {
+                    display: none;
+                }
+            }
+
+            &__link
+            {
+                color: $blue;
+
+                &:hover
+                {
+                    color: $orange;
+                }
+            }
+        }
+    }
+
+    &__sidebar
+    {
+        background: $gray-100;
+    }
+
+    &__content
+    {
+        padding: 1.875rem;
+
+        h2
+        {
+            margin-bottom: .5rem;
+        }
+
+        h3
+        {
+            margin: 1.875rem 0;
+        }
+
+        p
+        {
+            font-size: .875rem;
+            line-height: 1.6;
+            margin: 1rem 0;
+
+            &:nth-of-type(1)
+            {
+                margin-top: 2rem;
+            }
+        }
+
+        a[href]
+        {
+            align-items: center;
+            color: $blue;
+            display: flex;
+            font-size: .875rem;
+
+            [class*="-ico"]
+            {
+                height: 1.5rem;
+                margin-right: .625rem;
+                width: 1.5rem;
+            }
+
+            .path
+            {
+                fill: $blue;
+            }
+
+            &:hover
+            {
+                color: $orange;
+
+                .path
+                {
+                    fill: $orange;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__header
+        {
+            padding: 1.25rem;
+        }
+
+        &__header-search,
+        &__sidebar
+        {
+            display: none;
+        }
+
+        &__header-nav
+        {
+            .nav__item:not(:last-child)
+            {
+                display: none;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        &__header-search,
+        &__sidebar
+        {
+            flex: 0 0 23.75rem;
+            max-width: 23.75rem;
+        }
+    }
+}

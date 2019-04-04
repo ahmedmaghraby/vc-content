@@ -17,25 +17,37 @@
         </svg>
     </div>
     <div class="cu-body">
-        <p class="contact-info">Call Virto Commerce (US Only) <br />1-800-980-5288</p>
+        <p class="contact-info">
+            Call Virto Commerce (US Only) <br />1-800-980-5288
+        </p>
         <ul class="contact-list">
-            <li><a href="/contact-us">Contact Sales</a></li>
-            <li><a href="/try-now">Try our Demo</a></li>
-            <li><a href="/contact-us">Schedule a Discovery Call</a></li>
-            <li><a href="/estimate-project">Estimate my Project</a></li>
-            <li><a href="/vc-community">Join Developer Community</a></li>
+            <li>
+                <a href="/contact-us">Contact Sales</a>
+            </li>
+            <li>
+                <a href="/try-now">Try our Demo</a>
+            </li>
+            <li>
+                <a href="/contact-us">Schedule a Discovery Call</a>
+            </li>
+            <li>
+                <a href="/estimate-project">Estimate my Project</a>
+            </li>
+            <li>
+                <a href="/vc-community">Join Developer Community</a>
+            </li>
         </ul>
     </div>
 </div>
 {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
 <script>
     $(function () {
-        $('svg.cu-close').on('click', function (event) {
-            $('.cu-dialog').toggle();
-        });
+    $('svg.cu-close').on('click', function (event) {
+    $('.cu-dialog').toggle();
+    });
     });
     function openContactUs(e) {
-        e.preventDefault();
-        $('.cu-dialog').toggle();
+    e.preventDefault();
+    $('.cu-dialog').toggle();
     }
 </script>

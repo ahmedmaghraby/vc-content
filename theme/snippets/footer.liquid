@@ -10,7 +10,7 @@
                     <li class="menu-item">
                         <a class="link-white" href="{{ '/b2b-ecommerce-platform' | absolute_url }}">{{ 'general.b2b_ecommerce' | t }}</a>
                     </li>
-					<li class="menu-item">
+                    <li class="menu-item">
                         <a class="link-white" href="{{ '/shopping-cart' | absolute_url }}">{{ 'general.shopping_cart' | t }}</a>
                     </li>
                     <li class="menu-item">
@@ -21,10 +21,10 @@
                     </li>
                     <li class="menu-item">
                         <a class="link-white" href="{{ '/blog' | absolute_url }}">Blog</a>
-                    </li>                                        
+                    </li>
                     <li class="menu-item">
                         <a class="link-white" href="{{ '/about-us' | absolute_url }}">{{ 'general.about_us' | t }}</a>
-                    </li>                    
+                    </li>
                     <li class="menu-item">
                         <a class="link-white" href="{{ '/contact-us' | absolute_url }}">{{ 'general.contact_us' | t }}</a>
                     </li>
@@ -72,6 +72,9 @@
                     <li class="list-item fb">
                         <a href="https://www.facebook.com/virtocommerce" rel="nofollow" target="_blank"></a>
                     </li>
+                    <li class="list-item plus">
+                        <a href="https://plus.google.com/u/0/110275588520785121043/posts" rel="nofollow" target="_blank"></a>
+                    </li>
                     <li class="list-item ln">
                         <a href="https://www.linkedin.com/groups/Virtocommerce-Users-Group-8116785" rel="nofollow" target="_blank"></a>
                     </li>
@@ -90,7 +93,7 @@
                 <p class="title">{{ 'general.contact_us' | t }}</p>
                 <a class="email" href="/contact-us">Email us</a>
                 <p class="phone">+1 (800) 980-5288</p>
-                <p class="phone">+1 (323) 570-5588</p>                 
+                <p class="phone">+1 (323) 570-5588</p>
                 <p class="title">{{ 'general.news_sign_up.title' | t }}</p>
                 <div class="form-group">
                     <input type="hidden" name="Contact[Subject]" value="Signup for news" />
@@ -99,7 +102,9 @@
                     <button class="button fill no-transparent" type="submit">
                         <i class="fa fa-arrow-right"></i>
                     </button>
-                    <p class="text-12">By submitting my email I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</p>
+                    <p class="text-12">
+                        By submitting my email I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
+                    </p>
                 </div>
             </form>
         </div>
@@ -107,7 +112,9 @@
 </div>
 <div class="footer-copy" id="footer-copy">
     <div class="responsive">
-        <p>Copyright © 2011-{{ 'now' | date: "%Y" }} <a href="/">Virto Commerce - an enterprise Microsoft ecommerce platform</a> ©. All rights reserved BY VIRTO SOLUTIONS LTD</p>
+        <p>
+            Copyright © 2011-{{ 'now' | date: "%Y" }} <a href="/">Virto Commerce - an enterprise Microsoft ecommerce platform</a> ©. All rights reserved BY VIRTO SOLUTIONS LTD
+        </p>
         <ul class="menu __inline">
             <li class="menu-item">
                 <a href="{{ '/terms' | absolute_url }}">{{ 'general.terms' | t }}</a>

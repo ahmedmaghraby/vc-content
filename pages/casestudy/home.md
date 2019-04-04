@@ -27,7 +27,7 @@ permalink: case-studies
                         <img alt="" src="../assets/images/casestudies/proffs.png" />
                     </div>
                     <div class="list-t">Retail Equipment</div>
-                    <div class="list-text">Objective: B2C/B2B Online Store</div>
+                    <div class="list-text">Objective: B2C/B2B Online Store</div>
                     <div class="list-descr">Providing maximum scalability and centralizationfor expanding business internationally</div>
                     <div class="list-btn">
                         <a class="button fill" href="case-studies/proffsmagasinet">View case study</a>
@@ -92,7 +92,7 @@ permalink: case-studies
                         <img src="../assets/images/casestudies/budget-blinds.png" alt="caromba">
                     </div>
                     <div class="list-t">Retail Blinds</div>
-                    <div class="list-text">Objective: B2C/B2B Online Store</div>
+                    <div class="list-text">Objective: B2C/B2B Online Store</div>
                     <div class="list-descr">Flexible solution with maximum customization for the online window-treatment website.</div>
                     <div class="list-btn">
                         <a class="button fill" href="case-studies/blinds">View case study</a>
