@@ -69,7 +69,6 @@
         ]
     },
     "image-carousel": {
-		"hide": true,
         "name": "Image carousel",
         "icon": "image-carousel",
         "displayField": "name",

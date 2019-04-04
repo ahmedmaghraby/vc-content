@@ -4588,14 +4588,14 @@ blockquote {
     }
 
     .swipe__back {
-        background: url(../i/icons/arrow-back.svg) no-repeat;
+        background: url(/themes/assets/images/icons/arrow-back.svg) no-repeat;
         cursor: pointer;
         height: .75rem;
         width: 1.125rem;
     }
 
     .swipe__close {
-        background: url(../i/icons/close.svg) no-repeat;
+        background: url(/themes/assets/images/icons/close.svg) no-repeat;
         cursor: pointer;
         height: 1.1875rem;
         position: absolute;
@@ -4690,7 +4690,7 @@ blockquote {
     }
 
     .swipe .nav__carret {
-        background: url(../i/icons/angle-arrow.svg) no-repeat;
+        background: url(/themes/assets/images/icons/angle-arrow.svg) no-repeat;
         cursor: pointer;
         height: .625rem;
         width: .375rem;
@@ -5129,7 +5129,7 @@ blockquote {
     }
 
     .benefits__actions-control {
-        background: url(../assets/images/home/icons/slider-arrow.svg) no-repeat;
+        background: url(/themes/assets/images/home/icons/slider-arrow.svg) no-repeat;
         cursor: pointer;
         height: 3.125rem;
         margin: 0 .875rem;
@@ -5191,7 +5191,7 @@ blockquote {
 }
 
 .carousel__control {
-    background: url(../assets/images/home/icons/slider-arrow.svg) no-repeat;
+    background: url(/themes/assets/images/home/icons/slider-arrow.svg) no-repeat;
     cursor: pointer;
     height: 3.125rem;
     width: 3.125rem;
@@ -5382,7 +5382,7 @@ blockquote {
     }
 
     .capabilities__actions-control {
-        background: url(../assets/images/home/icons/slider-arrow.svg) no-repeat;
+        background: url(/themes/assets/images/home/icons/slider-arrow.svg) no-repeat;
         cursor: pointer;
         height: 3.125rem;
         margin: 0 .875rem;
@@ -5662,7 +5662,7 @@ blockquote {
 }
 
 .docs__header-nav .nav__item::before {
-    background: url("../i/page/documentation/chevron.svg") no-repeat;
+    background: url("/themes/assets/images/page/documentation/chevron.svg") no-repeat;
     content: ' ';
     display: inline-block;
     height: .8125rem;
@@ -5847,7 +5847,7 @@ blockquote {
 .section--study .section__bg {
     -ms-flex-align: center;
     align-items: center;
-    background: url("../assets/images/case-study/bg-bosch.jpg") no-repeat fixed 50% 25%;
+    background: url("/themes/assets/images/case-study/bg-bosch.jpg") no-repeat fixed 50% 25%;
     background-size: cover;
     display: -ms-flexbox;
     display: flex;
@@ -6391,11 +6391,11 @@ textarea {
 }
 
 .nav--customers .nav__brand--bosch::after {
-    background-image: url(../assets/images/home/customers/bosch-gray.svg);
+    background-image: url(/themes/assets/images/home/customers/bosch-gray.svg);
 }
 
 .nav--customers .nav__brand--bosch::before {
-    background-image: url(../assets/images/home/customers/bosch.svg);
+    background-image: url(/themes/assets/images/home/customers/bosch.svg);
 }
 
 .nav--customers .nav__brand--heineken {
@@ -6404,11 +6404,11 @@ textarea {
 }
 
 .nav--customers .nav__brand--heineken::after {
-    background-image: url(../assets/images/home/customers/heineken-gray.svg);
+    background-image: url(/themes/assets/images/home/customers/heineken-gray.svg);
 }
 
 .nav--customers .nav__brand--heineken::before {
-    background-image: url(../assets/images/home/customers/heineken.svg);
+    background-image: url(/themes/assets/images/home/customers/heineken.svg);
 }
 
 .nav--customers .nav__brand--vivint {
@@ -6417,11 +6417,11 @@ textarea {
 }
 
 .nav--customers .nav__brand--vivint::after {
-    background-image: url(../assets/images/home/customers/vivint-gray.svg);
+    background-image: url(/themes/assets/images/home/customers/vivint-gray.svg);
 }
 
 .nav--customers .nav__brand--vivint::before {
-    background-image: url(../assets/images/home/customers/vivint.svg);
+    background-image: url(/themes/assets/images/home/customers/vivint.svg);
 }
 
 .nav--customers .nav__brand--volvo {
@@ -6430,11 +6430,11 @@ textarea {
 }
 
 .nav--customers .nav__brand--volvo::after {
-    background-image: url(../assets/images/home/customers/volvo-gray.svg);
+    background-image: url(/themes/assets/images/home/customers/volvo-gray.svg);
 }
 
 .nav--customers .nav__brand--volvo::before {
-    background-image: url(../assets/images/home/customers/volvo.svg);
+    background-image: url(/themes/assets/images/home/customers/volvo.svg);
 }
 
 .nav--customers .nav__brand--malt {
@@ -6443,11 +6443,11 @@ textarea {
 }
 
 .nav--customers .nav__brand--malt::after {
-    background-image: url(../assets/images/home/customers/malt-gray.svg);
+    background-image: url(/themes/assets/images/home/customers/malt-gray.svg);
 }
 
 .nav--customers .nav__brand--malt::before {
-    background-image: url(../assets/images/home/customers/malt.svg);
+    background-image: url(/themes/assets/images/home/customers/malt.svg);
 }
 
 .nav--customers .nav__brand::after, .nav--customers .nav__brand::before {
