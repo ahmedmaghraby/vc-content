@@ -231,4 +231,20 @@ $(function () {
         $('.dropdown-menu').removeClass('opened');
         $('.dropdown-overlay').remove();
     });
+
+    var body = $('body');
+    $('.enlarge').on('click', function () {
+        var view = $(this).next();
+        if (view.is(':hidden')) {
+            body.css('overflow-y', 'hidden');
+            view.show();
+        }
+    });
+
+    $('.close').on('click', function () {
+        var view = $(this).parent('.image-view');
+        body.css('overflow-y', 'auto');
+        view.hide();
+        view.scrollTop(0);
+    });
 });
