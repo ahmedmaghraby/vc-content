@@ -43,7 +43,7 @@
 </head>
 <body ng-controller="mainController" ng-cloak>
     {% if can_track %}
-    {% include 'gdpr-cookie-compliance' %}
+        {% include 'gdpr-cookie-compliance' %}
     {% endif %}
     {% include 'apps-identifier' %}
     {% include 'form-become-a-developer' %}
@@ -124,10 +124,6 @@
     </script>
     <script src="//apis.google.com/js/platform.js" async defer></script>
     {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
-    <!-- used for carousel in blocks -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-
     <script>
         $(function () {
             var items = $('.menu.__business-features li a');

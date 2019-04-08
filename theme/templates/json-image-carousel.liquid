@@ -1,11 +1,17 @@
-<div class="section-bg">
+<div class="jsonpage-block">
+
     <div class="fotorama"
-         {% if block.rotate == "True" %} data-autoplay="{{ block.frequency }}" data-arrows="false" data-loop="true" {% endif %}>
+         {% if block.autoRotate %} data-autoplay="{{ block.rotationFrequency }}" data-loop="true" {% endif %}>
         {% for image in block.images %}
         <img src="{{ image.url }}" data-caption="{{ image.title }}" />
         {% endfor %}
     </div>
 </div>
+
+<script>
+    $(".fotorama").fotorama();
+</script>
+
 
 {% comment %}
 
