@@ -34,16 +34,16 @@
         "type": "image-carousel",
         "name": "carousel",
         "width": "small",
-        "rotate": null,
-        "frequency": "5 seconds",
+        "rotate": true,
+        "frequency": "5000",
         "images": [
             {
-                "title": null,
+                "title": "nature",
                 "url": "http://localhost/admin/assets/blogs/yellowstone.jpg",
                 "content": null
             },
             {
-                "title": null,
+                "title": "lightnings",
                 "url": "http://localhost/admin/assets/blogs/Galunggung.jpg",
                 "content": null
             }
