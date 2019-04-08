@@ -113,24 +113,24 @@
                 "default": "5000",
                 "options": [
                     {
-                        "value": "5000",
-                        "label": "5 seconds"
+                        "label": "5000",
+                        "value": "5 seconds"
                     },
                     {
-                        "value": "6000",
-                        "label": "6 seconds"
+                        "label": "6000",
+                        "value": "6 seconds"
                     },
                     {
-                        "value": "7000",
-                        "label": "7 seconds"
+                        "label": "7000",
+                        "value": "7 seconds"
                     },
                     {
-                        "value": "8000",
-                        "label": "8 seconds"
+                        "label": "8000",
+                        "value": "8 seconds"
                     },
                     {
-                        "value": "9000",
-                        "label": "9 seconds"
+                        "label": "9000",
+                        "value": "9 seconds"
                     }
                 ]
             },
