@@ -1,0 +1,30 @@
+<div class="section-bg">
+    {% if block.size == 'xlarge' %}
+    <img style="max-width: 100%;" src="{{ block.url }}" />
+    {% endif %}
+    {% if block.size == 'large' %}
+    <div class="section__inner container">
+        <img style="max-width: 100%;" src="{{ block.url }}" />
+    </div>
+    {% endif %}
+    {% if block.size == 'medium' or block.size == blank %}
+    <div class="section__inner container" style="text-align: center;">
+        <img style="max-width: 50%;" src="{{ block.url }}" />
+    </div>
+    {% endif %}
+    {% if block.size == 'small' %}
+    <div class="section__inner container" style="text-align: center;">
+        <img style="max-width: 20%;" src="{{ block.url }}" />
+    </div>
+    {% endif %}
+</div>
+
+    {% comment %}
+
+    {"id": "name","label": "Block name","type": "string"},
+    {"id": "size","label": "Choose size","type": "select","default": "medium",
+    "options": [{"label": "Small","value": "small"},{"label": "Medium","value": "medium"},
+    {"label": "Large","value": "large"},{"label": "Extra Large","value": "xlarge"}]},
+    {"id": "url","label": "Upload picture","type": "image","previewWidth": 120,"previewHeight": 80}
+
+    {% endcomment %}

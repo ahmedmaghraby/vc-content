@@ -1,0 +1,33 @@
+<section class="section">
+    <div class="section__inner container">
+        <div class="row align-items-lg-center">
+            {% if block.align == 'left' or block.align == blank %}
+            <div class="section__img col-lg">
+                <img src="{{ block.url }}" alt="" class="section__pic">
+            </div>
+            {% endif %}
+            <div class="col-lg-auto section__info">
+                <h2 class="section__t">{{ block.title }}</h2>
+                {{ block.content }}
+            </div>
+            {% if (block.align == 'right') %}
+            <div class="section__img col-lg">
+                <img src="{{ block.url }}" alt="" class="section__pic">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% comment %}
+
+{"id": "name","label": "Block name","type": "string","default": "Image with text"},
+{"id": "title","label": "Title","type": "string"},
+{"id": "url","label": "Upload picture","type": "image","previewWith": 120,"previewHeight": 80},
+{"id": "size","label": "Choose image size","type": "select","default": "small",
+        "options": [{"label": "Small","value": "small"},{"label": "Medium","value": "medium"}]},
+{"id": "align","label": "Choose image alignment","type": "select","default": "left",
+        "options": [{"label": "Left","value": "left"},{"label": "Right","value": "right"}]},
+{"id": "content","label": "Content","type": "text"}
+
+{% endcomment %}

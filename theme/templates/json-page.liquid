@@ -1,0 +1,7 @@
+{% if json_page.settings.layout != blank %}
+    {% layout json_page.settings.layout %}
+{% endif %}
+
+<div class="features-page">
+    {% include 'json-blocks' -%}
+</div>

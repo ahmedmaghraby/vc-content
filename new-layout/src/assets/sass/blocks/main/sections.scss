@@ -1,0 +1,241 @@
+.section
+{
+    padding: 6.25rem 0;
+    text-align: center;
+
+    &__t
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 52.5rem;
+    }
+
+    &__descr
+    {
+        font-size: 1.125rem;
+    }
+
+    &--gray
+    {
+        background: $gray-100;
+    }
+
+    &--pattern
+    {
+        position: relative;
+
+        &::after,
+        &::before
+        {
+            content: ' ';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &::after
+        {
+            background: url(images/r-pattern.svg) no-repeat;
+            height: 18.5rem;
+            right: 0;
+            width: 12.5rem;
+        }
+
+        &::before
+        {
+            background: url(images/l-pattern.svg) no-repeat;
+            height: 16.125rem;
+            left: 0;
+            width: 13.25rem;
+        }
+    }
+
+    &--hp
+    {
+        text-align: left;
+
+        .section__inner
+        {
+            display: flex;
+        }
+
+        .section__descr
+        {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+        }
+
+        .section__pic
+        {
+            max-width: 100%;
+
+            &--mobile
+            {
+                display: none;
+            }
+        }
+
+        .form
+        {
+            display: flex;
+
+            .form-control
+            {
+                flex: 1 0 0;
+            }
+
+            .btn
+            {
+                margin-left: 1.875rem;
+            }
+        }
+    }
+
+    .carousel
+    {
+        position: relative;
+
+        &__container
+        {
+            background: $white;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: .625rem;
+            box-shadow: 0 1.25rem 1.25rem 0 rgba(0,0,0,.1);
+        }
+
+        &__control
+        {
+            background: url(images/slider-arrow.svg) no-repeat;
+            cursor: pointer;
+            height: 3.125rem;
+            width: 3.125rem;
+
+            &--next
+            {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__t
+        {
+            max-width: 37.5rem;
+        }
+
+        &--hp
+        {
+            padding: 2.5rem 0 3.75rem;
+            text-align: center;
+
+            .section__inner > .row
+            {
+                flex-direction: column-reverse;
+            }
+
+            .section__info
+            {
+                margin-top: 3.125rem;
+            }
+        }
+
+        &--pattern::after,
+        &--pattern::before
+        {
+            display: none;
+        }
+
+        .carousel
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 2.5rem;
+            padding: 0;
+
+            &__container
+            {
+                height: 31.25rem;
+                margin-bottom: 3.75rem;
+                width: 100%;
+            }
+
+            &__control
+            {
+                margin: 0 .875rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 2.5rem 0;
+
+        &--hp .section__pic
+        {
+            display: none;
+        }
+
+        &--hp .section__pic--mobile
+        {
+            display: block;
+            width: 100%;
+        }
+
+        &--hp .form
+        {
+            align-items: center;
+            flex-direction: column;
+
+            .form-control
+            {
+                flex: 1 0 auto;
+                width: 100%;
+            }
+
+            .btn
+            {
+                margin: 1.25rem 0 0;
+            }
+        }
+
+        .carousel
+        {
+            &__container
+            {
+                height: 24rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .carousel
+        {
+            margin-top: 5rem;
+            padding: 0 5.625rem;
+
+            &__container
+            {
+                height: 37.5rem;
+            }
+
+            &__control
+            {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+
+                &--prev
+                {
+                    left: 0;
+                }
+
+                &--next
+                {
+                    right: 0;
+                    transform: rotateY(180deg) translateY(-50%);
+                }
+            }
+        }
+    }
+}

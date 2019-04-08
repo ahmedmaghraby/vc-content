@@ -1,0 +1,42 @@
+input,
+button,
+textarea,
+select
+{
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.form-control
+{
+    box-shadow: 0 .625rem 1.25rem 0 rgba(15,88,147,.06);
+    border: solid 1px $gray-200;
+    border-radius: 5rem;
+    color: $gray-400;
+    font-size: .875rem;
+    font-weight: normal;
+    height: 2.5rem;
+    padding: 0 1.875rem;
+
+    @extend %placeholder;
+
+    &--lg
+    {
+        height: 3.75rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: .875rem;
+        height: 2.5rem;
+        padding: 0 1.25rem;
+
+        &--lg
+        {
+            font-size: .875rem;
+            height: 2.5rem;
+            padding: 0 1.25rem;
+        }
+    }
+}
