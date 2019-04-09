@@ -9,22 +9,61 @@ select
     font-weight: inherit;
 }
 
+textarea
+{
+    min-height: 6.25rem;
+    min-width: 100%;
+    max-width: 100%;
+    padding: .625rem;
+}
+
+.form-group
+{
+    margin-bottom: 1.875rem;
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+
+        [class*="col-"] ~ [class*="col-"]
+        {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.form-label
+{
+    display: block;
+    line-height: 1;
+    margin-bottom: .625rem;
+}
+
 .form-control
 {
-    box-shadow: 0 .625rem 1.25rem 0 rgba(15,88,147,.06);
-    border: solid 1px $gray-200;
-    border-radius: 5rem;
+    border: solid 1px $gray-400;
+    border-radius: .25rem;
     color: $gray-400;
     font-size: .875rem;
     font-weight: normal;
     height: 2.5rem;
-    padding: 0 1.875rem;
+    padding: .625rem;
+    width: 100%;
 
     @extend %placeholder;
+
+    &:focus
+    {
+        border-color: darken($gray-400, 15%);
+    }
 
     &--lg
     {
         height: 3.75rem;
+    }
+
+    &--round
+    {
+        border-radius: 4rem;
     }
 
     @include media-breakpoint-down(sm) {
@@ -39,4 +78,10 @@ select
             padding: 0 1.25rem;
         }
     }
+}
+
+.form-descr
+{
+    font-size: .875rem;
+    margin-top: .625rem;
 }

@@ -30,6 +30,7 @@ body
 
 a
 {
+    color: $orange;
     text-decoration: none;
 
     &:hover
@@ -39,20 +40,15 @@ a
 }
 
 // Headings
-h1
-{
-    font-size: 3rem;
-}
-
 h2
 {
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 h3
 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 900;
     margin-bottom: 1.25rem;
 }
 
@@ -60,6 +56,15 @@ h1,
 h2
 {
     margin-bottom: 1.875rem;
+}
+
+blockquote
+{
+    background: $gray-100;
+    border-left: .375rem solid $gray-400;
+    font-size: .875rem;
+    line-height: 1.7;
+    padding: 1.875rem;
 }
 
 @include media-breakpoint-down(sm) {
@@ -77,11 +82,23 @@ h2
 @include media-breakpoint-up(md) {
     h1
     {
-        font-size: 2.75rem;
+        font-size: 2.625rem;
     }
 
     h2
     {
         font-size: 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h1
+    {
+        font-size: 3rem;
+    }
+
+    h2
+    {
+        font-size: 2.5rem;
     }
 }

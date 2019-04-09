@@ -1,0 +1,41 @@
+.solution
+{
+    justify-content: center;
+    padding-top: .875rem;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+}
+
+.solution__item
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.75rem;
+}
+
+.solution__icon
+{
+    height: 5.25rem;
+    margin-bottom: 2rem;
+}
+
+.solution__t
+{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.solution__link
+{
+    color: inherit;
+    font-size: .875rem;
+
+    & ~ .solution__link
+    {
+        margin-top: 1rem;
+    }
+}

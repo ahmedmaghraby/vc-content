@@ -12,7 +12,7 @@
         <meta name="google" content="notranslate">
         <meta name="format-detection" content="telephone=no">
 
-        <title>Virtoccomerce</title>
+        <title>Virtoccomerce / Home</title>
 
 
         <link rel="stylesheet" href="../build/assets/css/style.min.css">
@@ -26,7 +26,7 @@
                 <div class="swipe__header">
                     <div class="swipe__nav">
                         <div class="swipe__nav-item swipe__nav-item--show">
-                            <a href="#" class="btn btn--outline btn--orange">Login</a>
+                            <a class="swipe__nav-link" href="#">Login</a>
                         </div>
                         <div class="swipe__nav-item">
                             <div class="swipe__back"></div>
@@ -35,39 +35,45 @@
                     <div class="swipe__close ml-auto"></div>
                 </div>
                 <div class="swipe__body">
-
                     <div class="nav">
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-1">
-                        <label class="nav__label" for="m-1">
-                            Why Virto
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-2">
-                        <label class="nav__label" for="m-2">
-                            Solutions
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-3">
-                        <label class="nav__label" for="m-3">
-                            Partners
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-4">
-                        <label class="nav__label" for="m-4">
-                            Community
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-5">
-                        <label class="nav__label" for="m-5">
-                            Resources
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-                        <input class="nav__input" type="radio" name="sub-menu" id="m-6">
-                        <label class="nav__label" for="m-6">
-                            About Us
-                            <span class="nav__carret ml-auto"></span>
-                        </label>
-
+                        <ul class="flex-column">
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Why Virto
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Solutions
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Partners
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Community
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Resources
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    About Us
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                        </ul>
                         <div class="nav__content">
                             <ul class="nav flex-column">
                                 <li class="nav__item">
@@ -255,7 +261,7 @@
 
                 </div>
                 <div class="swipe__footer">
-                    <a href="#" class="btn btn--orange btn--expand">Try virto now</a>
+                    <a href="#" class="btn btn--orange btn--expand btn--round">Try virto now</a>
                 </div>
             </div>
             <!-- End Swipe -->
@@ -404,9 +410,13 @@
                                         </div>
                                     </div>
                                 </li>
+                                <li class="nav__item nav__item--try">
+                                    <a class="nav__link" href="#">Try virto now</a>
+                                </li>
+                                <li class="nav__item nav__item--login">
+                                    <a class="nav__link" href="#">Login</a>
+                                </li>
                             </ul>
-                            <a href="#" class="btn btn--orange btn--outline">Login</a>
-                            <a href="#" class="btn btn--orange">Try virto now</a>
                             <a class="header-toggle"></a>
                         </div>
                     </div>
@@ -416,123 +426,125 @@
 
             <!-- Main -->
             <div class="main">
-                <div class="section section--hp">
-                    <div class="section__inner container">
-                        <div class="row align-items-lg-center">
-                            <div class="col-lg">
-                                <div class="section__info">
-                                    <h1 class="section__t">
-                                        Lead Your
-                                        Ecommerce
-                                        Transformation
-                                    </h1>
-                                    <p class="section__descr">Is your business limited by your ecommerce platform? Virto Commerce offers the most innovative .NET B2B ecommerce solution that can grow along with your business.  See why leading enterprises choose Virto Commerce and how we can help your business grow without boundaries. </p>
-                                    <div class="form">
-                                        <input type="text" class="form-control form-control--lg" placeholder="you@mail.com">
-                                        <button class="btn btn--orange btn--lg">Get a free demo</button>
+                <div class="home-page">
+                    <div class="section section--hp">
+                        <div class="section__inner container">
+                            <div class="row align-items-lg-center">
+                                <div class="col-lg">
+                                    <div class="section__info">
+                                        <h1 class="section__t">
+                                            Lead Your
+                                            Ecommerce
+                                            Transformation
+                                        </h1>
+                                        <p class="section__descr">Is your business limited by your ecommerce platform? Virto Commerce offers the most innovative .NET B2B ecommerce solution that can grow along with your business.  See why leading enterprises choose Virto Commerce and how we can help your business grow without boundaries. </p>
+                                        <div class="form">
+                                            <input type="text" class="form-control form-control--round" placeholder="you@mail.com">
+                                            <button class="btn btn--orange btn--round">Get a free demo</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg">
-                                <img src="../build/assets/i/hp-desktop.png" alt="" class="section__pic">
-                                <img src="../build/assets/i/hp-mobile.svg" alt="" class="section__pic section__pic--mobile">
+                                <div class="col-lg">
+                                    <img src="../build/assets/i/page/home/bg.png" alt="" class="section__pic">
+                                    <img src="../build/assets/i/page/home/bg-mobile.svg" alt="" class="section__pic section__pic--mobile">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="section section--gray">
-                    <div class="section__inner container">
-                        <h2 class="section__t">Business Leaders Choose Virto Commerce</h2>
-                        <p class="section__descr">View just a handful of the top companies that use <br>Virto Commerce to power their sales</p>
-                        <ul class="nav nav--customers">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <span class="nav__brand nav__brand--bosch"></span>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <span class="nav__brand nav__brand--heineken"></span>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <span class="nav__brand nav__brand--vivint"></span>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <span class="nav__brand nav__brand--volvo"></span>
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">
-                                    <span class="nav__brand nav__brand--malt"></span>
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="#" class="btn btn--lg">View Our Customer Showcase</a>
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="section__inner container">
-                        <h2 class="section__t">All you need in one place</h2>
-                        <p class="section__descr">Virto Commerce is a flexible B2B ecommerce solution built on .NET <br>that offers powerful tools for enterprises.</p>
-                        <div class="benefits row">
-                            <div class="benefits__item col-md-6 col-lg-3">
-                                <img src="../build/assets/i/benefits/catalog.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Catalog Management</div>
-                                <p class="benefits__descr">Virto’s platform provides sophisticated catalog management capabilities making it simple to manage even the most complex B2B product lists.</p>
-                            </div>
-                            <div class="benefits__item col-md-6 col-lg-3">
-                                <img src="../build/assets/i/benefits/cms.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">CMS</div>
-                                <p class="benefits__descr">Virto Commerce’s powerful CMS  gives both developers and marketers complete control over their store. Virto Commerce is also integrated with many top CMS platforms. </p>
-                            </div>
-                            <div class="benefits__item col-md-6 col-lg-3">
-                                <img src="../build/assets/i/benefits/order.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Order Management</div>
-                                <p class="benefits__descr">Virto Commerce provides industry leading order management functions. They can be integrated into complex enterprise workflows - including many leading ERP and fulfillment systems.</p>
-                            </div>
-                            <div class="benefits__item col-md-6 col-lg-3">
-                                <img src="../build/assets/i/benefits/promotions.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Promotions</div>
-                                <p class="benefits__descr">Simple to use, our promotion engine lets you create a myriad of campaigns without developer assistance.</p>
-                            </div>
-                        </div>
-                        <div class="benefits__actions">
-                            <a href="#" class="benefits__actions-control benefits__actions-control--prev"></a>
-                            <a href="#" class="benefits__actions-control benefits__actions-control--next"></a>
+                    <div class="section section--gray">
+                        <div class="section__inner container">
+                            <h2 class="section__t">Business Leaders Choose Virto Commerce</h2>
+                            <p class="section__descr">View just a handful of the top companies that use <br>Virto Commerce to power their sales</p>
+                            <ul class="nav nav--customers">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <span class="nav__brand nav__brand--bosch"></span>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <span class="nav__brand nav__brand--heineken"></span>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <span class="nav__brand nav__brand--vivint"></span>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <span class="nav__brand nav__brand--volvo"></span>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">
+                                        <span class="nav__brand nav__brand--malt"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn--lg">View Our Customer Showcase</a>
                         </div>
                     </div>
-                </div>
-                <div class="section section--gray">
-                    <div class="section__inner container">
-                        <h2 class="section__t">Trusted by 20.000 business</h2>
-                        <p class="section__descr">Virto Commerce is more than just software – When you use it, you have support from our Virto team of experts, community, and partners worldwide.</p>
-                        <div class="benefits row">
-                            <div class="benefits__item col-md-6 col-lg-4">
-                                <img src="../build/assets/i/benefits/solution.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Expert Solutions</div>
-                                <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
-                                <a href="#" class="benefits__link">Learn more</a>
+                    <div class="section">
+                        <div class="section__inner container">
+                            <h2 class="section__t">All you need in one place</h2>
+                            <p class="section__descr">Virto Commerce is a flexible B2B ecommerce solution built on .NET <br>that offers powerful tools for enterprises.</p>
+                            <div class="benefits row">
+                                <div class="benefits__item col-md-6 col-lg-3">
+                                    <img src="../build/assets/i/page/home/benefits/catalog.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Catalog Management</div>
+                                    <p class="benefits__descr">Virto’s platform provides sophisticated catalog management capabilities making it simple to manage even the most complex B2B product lists.</p>
+                                </div>
+                                <div class="benefits__item col-md-6 col-lg-3">
+                                    <img src="../build/assets/i/page/home/benefits/cms.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">CMS</div>
+                                    <p class="benefits__descr">Virto Commerce’s powerful CMS  gives both developers and marketers complete control over their store. Virto Commerce is also integrated with many top CMS platforms. </p>
+                                </div>
+                                <div class="benefits__item col-md-6 col-lg-3">
+                                    <img src="../build/assets/i/page/home/benefits/order.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Order Management</div>
+                                    <p class="benefits__descr">Virto Commerce provides industry leading order management functions. They can be integrated into complex enterprise workflows - including many leading ERP and fulfillment systems.</p>
+                                </div>
+                                <div class="benefits__item col-md-6 col-lg-3">
+                                    <img src="../build/assets/i/page/home/benefits/promotions.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Promotions</div>
+                                    <p class="benefits__descr">Simple to use, our promotion engine lets you create a myriad of campaigns without developer assistance.</p>
+                                </div>
                             </div>
-                            <div class="benefits__item col-md-6 col-lg-4">
-                                <img src="../build/assets/i/benefits/partners.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Partners</div>
-                                <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
-                                <a href="#" class="benefits__link">Learn more</a>
-                            </div>
-                            <div class="benefits__item col-md-6 col-lg-4">
-                                <img src="../build/assets/i/benefits/community.svg" alt="" class="benefits__icon">
-                                <div class="benefits__t">Community</div>
-                                <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
-                                <a href="#" class="benefits__link">Learn more</a>
+                            <div class="benefits__actions">
+                                <a href="#" class="benefits__actions-control benefits__actions-control--prev"></a>
+                                <a href="#" class="benefits__actions-control benefits__actions-control--next"></a>
                             </div>
                         </div>
-                        <div class="benefits__actions">
-                            <a href="#" class="benefits__actions-control benefits__actions-control--prev"></a>
-                            <a href="#" class="benefits__actions-control benefits__actions-control--next"></a>
+                    </div>
+                    <div class="section section--gray">
+                        <div class="section__inner container">
+                            <h2 class="section__t">Trusted by 20.000 business</h2>
+                            <p class="section__descr">Virto Commerce is more than just software – When you use it, you have support from our Virto team of experts, community, and partners worldwide.</p>
+                            <div class="benefits row">
+                                <div class="benefits__item col-md-6 col-lg-4">
+                                    <img src="../build/assets/i/page/home/benefits/solution.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Expert Solutions</div>
+                                    <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
+                                    <a href="#" class="benefits__link">Learn more</a>
+                                </div>
+                                <div class="benefits__item col-md-6 col-lg-4">
+                                    <img src="../build/assets/i/page/home/benefits/partners.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Partners</div>
+                                    <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
+                                    <a href="#" class="benefits__link">Learn more</a>
+                                </div>
+                                <div class="benefits__item col-md-6 col-lg-4">
+                                    <img src="../build/assets/i/page/home/benefits/community.svg" alt="" class="benefits__icon">
+                                    <div class="benefits__t">Community</div>
+                                    <p class="benefits__descr">Experience seamless collaboration across teams and accelerated creative workflows.</p>
+                                    <a href="#" class="benefits__link">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="benefits__actions">
+                                <a href="#" class="benefits__actions-control benefits__actions-control--prev"></a>
+                                <a href="#" class="benefits__actions-control benefits__actions-control--next"></a>
+                            </div>
                         </div>
                     </div>
                 </div>

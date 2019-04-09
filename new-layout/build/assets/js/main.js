@@ -31,7 +31,12 @@ $(function (){
         $('.overlay').remove();
     });
 
-    $('.nav__label').on('click', function() {
+    $(':not(.nav__content) .nav__item').on('click', function() {
+        var self = $(this);
+        self.addClass('nav__item--active').siblings().removeClass('nav__item--active').addClass('nav__item--animated');
+        self.removeClass('nav__item--animated');
+        $('.nav__content').removeClass('nav__content--opened').eq(self.index()).addClass('nav__content--opened');
+
         $('.swipe__nav-item').removeClass('swipe__nav-item--show');
         $('.swipe__nav-item:nth-child(2)').addClass('swipe__nav-item--show');
     });
@@ -39,7 +44,8 @@ $(function (){
     $('.swipe__back').on('click', function() {
         $('.swipe__nav-item').removeClass('swipe__nav-item--show');
         $('.swipe__nav-item:nth-child(1)').addClass('swipe__nav-item--show');
-        $('.swipe .nav__input').prop('checked', false);
+        $('.nav__content').removeClass('nav__content--opened');
+        $('.nav__item').removeClass('nav__item--animated nav__item--active');
     });
 
     $('body').delegate('.dropdown-overlay', 'click', function() {

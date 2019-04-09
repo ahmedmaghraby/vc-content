@@ -3,20 +3,24 @@
     align-items: center;
     background: $gray-600;
     border: 1px solid $gray-600;
-    border-radius: 5rem;
+    border-radius: .25rem;
     box-sizing: border-box;
     color: $white;
     cursor: pointer;
     display: inline-flex;
     font-size: .875rem;
-    font-weight: bold;
     height: 2.5rem;
-    padding: 0 1.25rem;
+    padding: 0 1.875rem;
 
     &:hover
     {
         background: darken($gray-600, 2%);
         color: $white;
+    }
+
+    &--round
+    {
+        border-radius: 4rem;
     }
 
     &--expand

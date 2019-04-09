@@ -1,21 +1,17 @@
-<div class="roadmap download-pdf">
-    <div class="column width-full">
-        <form name="formCaseStudy" novalidate="">
-            <div ng-init="setCaseStudyForm(formCaseStudy)"></div>
-            <div class="control-group">
-                <input id="Contact[Name]" tabindex="1" type="text" name="Contact[Name]" class="form-input" ng-model="caseStudy.name" required="" placeholder="Your name" />
-                <div class="control-group">
-                    <input id="Contact[Email]" tabindex="3" type="text" name="Contact[Email]" class="form-input" ng-pattern="emailPattern" ng-model="caseStudy.email" required="" placeholder="E-mail" />
-                </div>
-                <div class="control-group">
-                    <a class="button fill width-full text-14" type="submit" ng-disabled="formCaseStudy.$invalid" href="{{ downloadUrl }}" onClick="ga('send', 'event', 'Download', 'CaseStudy', '{{ caseName }}');" target="_blank">Download full case study</a>
-                </div>
-                <div class="control-group">
-                    <label class="text-12">
-                        By clicking «Download full case study» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
-                    </label>
-                </div>
+<div class="section__inner">
+    <img class="section__pic" src="../assets/images/casestudies/subscribe.svg" />
+    <div class="form">
+        <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" />
+            <div class="form-descr">
+                By clicking «Download Case Studies» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.
             </div>
-        </form>
+        </div>
+        <button class="btn btn--orange btn--expand">Download Case Studies</button>
     </div>
 </div>
