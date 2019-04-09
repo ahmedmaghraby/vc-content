@@ -47,6 +47,7 @@
     {% endif %}
 
     {% endcomment %}
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
@@ -59,7 +60,7 @@
     {% comment %}
 
     {% if can_track %}
-        {% include 'gdpr-cookie-compliance' %}
+    {% include 'gdpr-cookie-compliance' %}
     {% endif %}
     {% include 'apps-identifier' %}
     {% include 'form-become-a-developer' %}
@@ -70,7 +71,7 @@
     {% include 'getting-started' %}
     {% assign menu = linklists.main-menu %}
     {% if isAppsStore %}
-        {% assign menu = linklists.apps-menu %}
+    {% assign menu = linklists.apps-menu %}
     {% endif %}
 
     {% endcomment %}
@@ -167,7 +168,8 @@
 
         {% endcomment %}
 
-        {{ '//code.jquery.com/jquery-3.2.1.slim.min.js' | script_tag }}
+        {{ '//code.jquery.com/jquery-3.2.1.min.js' | script_tag }}
+        {{ '//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js' | script_tag }}
         {{ 'main.min.js' | asset_url | script_tag }}
     </div>
 </body>

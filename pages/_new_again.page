@@ -34,8 +34,8 @@
         "type": "image-carousel",
         "name": "carousel",
         "width": "small",
-        "rotate": null,
-        "frequency": "5 seconds",
+        "rotate": true,
+        "frequency": "5000",
         "images": [
             {
                 "title": null,
