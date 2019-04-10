@@ -5232,6 +5232,12 @@ blockquote {
     }
 }
 
+@media (max-width: 991px) {
+    .nav__item--login {
+        display: none;
+    }
+}
+
 #signInContent {
     display: none;
     position: absolute;
@@ -6650,6 +6656,35 @@ solution {
         height: 2.5rem;
         padding: 0 1.25rem;
     }
+}
+
+#tryNow {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: #fd7e14;
+    border: 1px solid #fd7e14;
+    border-radius: .25rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: .875rem;
+    height: 2.5rem;
+    padding: 0 1.875rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tryNow.btn--orange:hover {
+    background: #fd9a47;
+    border-color: #fd9a47;
+    color: #fff;
 }
 
 .dropdown-menu {

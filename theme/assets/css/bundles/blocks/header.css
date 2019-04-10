@@ -178,6 +178,12 @@
     }
 }
 
+@media (max-width: 991px) {
+    .nav__item--login {
+        display: none;
+    }
+}
+
 #signInContent {
     display: none;
     position: absolute;

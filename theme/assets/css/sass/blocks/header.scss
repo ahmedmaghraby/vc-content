@@ -187,7 +187,15 @@
     }
 }
 
-#signInContent {
+@media (max-width: 991px)
+{
+    .nav__item--login {
+        display: none;
+    }
+}
+
+#signInContent
+{
     display: none;
     position: absolute;
     background-color: white;
@@ -201,7 +209,8 @@
     top: 100%;
     z-index: 1000;
 
-    & .col-left {
+    & .col-left
+    {
         background-color: lightgray;
         border-radius: 5px;
         width: 50%;
@@ -209,15 +218,18 @@
         padding: 10px;
     }
 
-    & .col-right {
+    & .col-right
+    {
         float: right;
         height: 100%;
         padding: 10px;
     }
 }
 
-@media (max-width: 450px) {
-    #signInContent {
+@media (max-width: 450px)
+{
+    #signInContent
+    {
         margin-left: 0;
         left: 0;
         width: 100%;
