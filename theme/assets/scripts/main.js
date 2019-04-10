@@ -215,6 +215,14 @@ $(function () {
         }
     });
 
+    $('#signInLink').click(function () {
+        var content = $('#signInContent');
+        if (content.is(':hidden'))
+            content.show();
+        else
+            content.hide();
+    });
+
     $('.header-toggle').on('click', function () {
         $('body').addClass('swipe-open').prepend('<div class="overlay"></div>');
         $('.swipe').addClass('opened');
