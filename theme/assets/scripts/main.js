@@ -178,7 +178,7 @@ $(function () {
         $('[name="Contact[JobId]"]').val(VC.getParameterByName("jid"));
     }
 
-    $('.header .nav__item').on('click', function () {
+    $('.header .nav__item').on('mousemove', function () {
         var self = $(this);
 
         $('.dropdown-overlay').remove();
@@ -188,6 +188,23 @@ $(function () {
         $('.dropdown-menu').removeClass('opened');
 
         if (self.hasClass('nav__item--active')) {
+            self.removeClass('nav__item--active');
+            $('.dropdown-menu', self).removeClass('opened');
+            $('.dropdown-overlay').remove();
+        }
+        else {
+            self.addClass('nav__item--active');
+            $('.dropdown-menu', self).addClass('opened');
+        }
+    });
+
+    $('.dropdown-menu').on('mouseleave', function () {
+        var self = $(this).parent('.nav__item');
+
+        $('.header .nav__item').removeClass('nav__item--active');
+        $('.dropdown-menu').removeClass('opened');
+
+        if (!self.hasClass('nav__item--active')) {
             self.removeClass('nav__item--active');
             $('.dropdown-menu', self).removeClass('opened');
             $('.dropdown-overlay').remove();
