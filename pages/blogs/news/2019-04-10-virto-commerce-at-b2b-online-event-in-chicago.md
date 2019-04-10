@@ -2,13 +2,13 @@
 author: VirtoCommerce 
 category: virtocommerce-news 
 date: '2019-04-10'
-permalink: blog/press-release-b2b-online-chicago
-main-image: ../../assets/images/blog/press-release-b2b-online-chicago.png
+permalink: blog/virto-commerce-at-b2b-online-event-in-chicago
+main-image: ../../assets/images/blog/virto-commerce-at-b2b-online-event-in-chicago.png
 tags:
 - virtocommerce
 - ecommerce
 - b2b
-title: Press Release B2B Online Chicago
+title: Virto Commerce at B2B Online Event in Chicago
 excerpt: Virto Commerce, a leading provider of B2B digital commerce software, will showcase real-world customer solutions using its commerce platform...
 ---
 <p class="text">
