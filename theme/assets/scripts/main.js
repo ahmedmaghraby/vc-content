@@ -215,12 +215,18 @@ $(function () {
         }
     });
 
-    $('#signInLink').click(function () {
-        var content = $('#signInContent');
-        if (content.is(':hidden'))
-            content.show();
+    var signInContent = $('#signInContent');
+    $('#signInLink').click(function (event) {
+        event.stopPropagation();
+        if (signInContent.is(':hidden'))
+            signInContent.show();
         else
-            content.hide();
+            signInContent.hide();
+    });
+
+    $(window).click(function (event) {
+        if (!$(event.target).closest('#signInContent').length && signInContent.is(':visible'))
+            signInContent.hide();
     });
 
     $('.header-toggle').on('click', function () {
