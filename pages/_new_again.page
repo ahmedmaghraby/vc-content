@@ -27,7 +27,7 @@
         "id": 4,
         "type": "text",
         "name": "Lorem",
-        "content": "<p><span style=\"color: rgb(12, 16, 21);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>"
+        "content": "<p class=\"ql-align-right\"><strong style=\"color: rgb(12, 16, 21);\"><em><s><u>Lorem ipsum dolor sit amet, consectet</u></s></em></strong><span style=\"color: rgb(12, 16, 21);\">ur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p><ol><li><span style=\"color: rgb(12, 16, 21);\">fire</span></li><li><span style=\"color: rgb(12, 16, 21);\">water</span></li></ol><p><span style=\"color: rgb(12, 16, 21);\">link to </span><a href=\"www.google.com\" target=\"_blank\" style=\"color: rgb(12, 16, 21);\">google</a><span style=\"color: rgb(12, 16, 21);\"> help to work</span></p>"
     },
     {
         "id": 5,

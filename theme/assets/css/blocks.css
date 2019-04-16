@@ -1,0 +1,12 @@
+.text-block {
+	text-align: left;
+}
+.text-block .ql-align-center {
+  text-align: center;
+}
+.text-block .ql-align-justify {
+  text-align: justify;
+}
+.text-block .ql-align-right {
+  text-align: right;
+}
