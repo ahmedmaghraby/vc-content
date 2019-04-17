@@ -1,0 +1,48 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "image-with-text",
+        "name": "Case studies",
+        "title": "Case studies",
+        "style": "dark",
+        "url": "http://localhost/admin/assets/blogs/bg.png",
+        "content": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p><p><br></p>",
+        "position": "right",
+        "align": "right"
+    },
+    {
+        "id": 3,
+        "type": "textcolumns-with-images",
+        "name": "Solution architecture",
+        "title": "Solution architecture",
+        "style": "light",
+        "content": null,
+        "columns": [
+            {
+                "title": "MANUFACTURER EQUIPMENT",
+                "url": "http://localhost/admin/assets/blogs/bosch.png",
+                "content": "<p><span style=\"color: rgb(179, 183, 208);\">B2C / B2B Customer Loyalty Online Store</span></p><p><br></p><p>Building customer loyalty and gaining customer knowledge through a Customer Loyalty eCommerce Store</p>",
+                "width": "auto"
+            },
+            {
+                "title": "RETAIL EQUIPMENT",
+                "url": "http://localhost/admin/assets/blogs/proffs.png",
+                "content": "<p><span style=\"color: rgb(179, 183, 208);\">B2C/B2B Online Store</span></p><p><br></p><p>Providing maximum scalability and centralizationfor expanding business internationally</p>",
+                "width": "auto"
+            },
+            {
+                "title": "REAL ESTATE AGENCY",
+                "url": "http://localhost/admin/assets/blogs/estatespain-logo.png",
+                "content": "<p><span style=\"color: rgb(179, 183, 208);\">Platform</span></p><p><br></p><p>Specializes in the sale of residential and commercial real estate on the best coasts of Spain.</p>",
+                "width": "auto"
+            }
+        ],
+        "frame": true
+    }
+]
