@@ -2,18 +2,13 @@
     background: #fff;
     bottom: 0;
     display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     position: fixed;
     right: 0;
     top: 0;
-    -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
     transition: all .35s;
     width: 18rem;
     z-index: 9500;
@@ -21,13 +16,11 @@
 
 @media (max-width: 991.98px) {
     .swipe {
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
 
     .swipe.opened {
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -38,9 +31,7 @@
 
     .swipe__header {
         border-bottom: 1px solid #e9ecef;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         height: 5rem;
@@ -62,14 +53,12 @@
         position: absolute;
         right: 1.25rem;
         top: 50%;
-        -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         width: 1.1875rem;
     }
 
     .swipe__nav-item {
-        -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         display: none;
@@ -77,7 +66,6 @@
     }
 
     .swipe__nav-item--show {
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
@@ -88,14 +76,10 @@
     }
 
     .swipe__body {
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
         -ms-flex-direction: colmun;
         flex-direction: colmun;
-        -webkit-box-flex: 1;
         -ms-flex: 1 0 0px;
         flex: 1 0 0;
         overflow-x: hidden;
@@ -109,27 +93,21 @@
     }
 
     .swipe .nav__item {
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         height: 3.125rem;
-        -webkit-transition: all .35s;
-        -o-transition: all .35s;
         transition: all .35s;
     }
 
     .swipe .nav__item--animated, .swipe .nav__item--active {
-        -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
         transform: translateX(-100%);
     }
 
     .swipe .nav__link, .swipe .nav__t {
-        -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         border-bottom: 1px solid #e9ecef;
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         font-size: .875rem;
@@ -153,17 +131,13 @@
     }
 
     .swipe .nav__label {
-        -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         border-bottom: 1px solid #e9ecef;
         cursor: pointer;
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         height: 3.125rem;
-        -webkit-transition: all .35s;
-        -o-transition: all .35s;
         transition: all .35s;
     }
 
@@ -183,10 +157,7 @@
         position: absolute;
         right: 0;
         top: 0;
-        -webkit-transition: all .35s;
-        -o-transition: all .35s;
         transition: all .35s;
-        -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
         transform: translateX(100%);
         z-index: 5;
@@ -195,7 +166,6 @@
     .swipe .nav__content--opened {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -203,7 +173,6 @@
     .swipe .nav__input:nth-of-type(1):checked ~ .nav__content:nth-of-type(1) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -211,7 +180,6 @@
     .swipe .nav__input:nth-of-type(2):checked ~ .nav__content:nth-of-type(2) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -219,7 +187,6 @@
     .swipe .nav__input:nth-of-type(3):checked ~ .nav__content:nth-of-type(3) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -227,7 +194,6 @@
     .swipe .nav__input:nth-of-type(4):checked ~ .nav__content:nth-of-type(4) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -235,7 +201,6 @@
     .swipe .nav__input:nth-of-type(5):checked ~ .nav__content:nth-of-type(5) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
@@ -243,7 +208,6 @@
     .swipe .nav__input:nth-of-type(6):checked ~ .nav__content:nth-of-type(6) {
         max-height: 100rem;
         overflow: visible;
-        -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
     }

@@ -3,18 +3,18 @@
         {% if block.title != blank %}
         <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
-        <div class="studies">
+        <div class="columns">
             {% for column in block.columns %}
-            <div class="studies__item">
-                <div class="studies__inner">
+            <div class="columns__item">
+                <div class="columns__inner">
                     {% if column.url != blank %}
-                    <img src="{{ column.url }}" alt="" class="studies__pic">
+                    <img src="{{ column.url }}" alt="" class="columns__pic">
                     {% endif %}
                     {% if column.title != blank %}
-                    <div class="studies__t">{{ column.title }}</div>
+                    <div class="columns__t">{{ column.title }}</div>
                     {% endif %}
                     {% if column.content != blank %}
-                    <div class="studies__descr">
+                    <div class="columns__descr">
                         {{ column.content }}
                     </div>
                     {% endif %}

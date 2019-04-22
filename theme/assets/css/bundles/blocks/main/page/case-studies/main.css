@@ -1,10 +1,8 @@
 .studies {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 -1.25rem;
@@ -12,9 +10,7 @@
 }
 
 .studies__item {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 33.3333%;
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
@@ -24,7 +20,6 @@
 
 @media (max-width: 991.98px) {
     .studies__item {
-        -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -37,7 +32,6 @@
     }
 
     .studies__item {
-        -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -46,16 +40,12 @@
 }
 
 .studies__inner {
-    -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
     border: 1px solid #ced4da;
     border-radius: .625rem;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 1.25rem;
@@ -95,21 +85,16 @@
 }
 
 .section--study .section__bg {
-    -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     background-attachment: fixed;
     background-position: 50% 25%;
     background-repeat: no-repeat;
     background-size: cover;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     height: 25rem;
@@ -152,7 +137,6 @@
 .section--study .section__sidebar .section__inner {
     background: #f8f9fa;
     border-radius: 0.25rem;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 1.875rem;
@@ -177,8 +161,6 @@
 
 @media (max-width: 575.98px) {
     .section--study .section__sidebar .section__inner {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
@@ -190,8 +172,6 @@
 
 @media (min-width: 992px) {
     .section--study .section__sidebar .section__inner {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
@@ -283,7 +263,6 @@
     }
 
     .section--study .section__sidebar {
-        -webkit-box-flex: 0;
         -ms-flex: 0 0 19.375rem;
         flex: 0 0 19.375rem;
         max-width: 19.375rem;

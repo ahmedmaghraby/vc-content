@@ -4,6 +4,9 @@
 @import "blocks/main";
 @import "blocks/footer";
 
+// Designer blocks
+@import "blocks/columns.scss";
+
 // Components
 @import "components/_breadcrumb";
 @import "components/_buttons";

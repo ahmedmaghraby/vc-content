@@ -31,7 +31,6 @@
     content: ' ';
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -93,7 +92,6 @@
 
 @media (min-width: 992px) {
     .section--bg .section__info {
-        -webkit-box-flex: 0;
         -ms-flex: 0 0 39.375rem;
         flex: 0 0 39.375rem;
         max-width: 39.375rem;
