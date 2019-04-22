@@ -6693,3 +6693,13 @@ textarea {
         padding-bottom: 2.5rem;
     }
 }
+
+@media (max-width: 991px) {
+    div.cookie-bar {
+        display: none;
+    }
+
+    div#layout {
+        margin-top: 20px;
+    }
+}
