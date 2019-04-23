@@ -1,8 +1,10 @@
 .columns {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 -1.25rem;
@@ -15,10 +17,14 @@
 }
 
 .columns__inner {
+    -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 1.25rem;

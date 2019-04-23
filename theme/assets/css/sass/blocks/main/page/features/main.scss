@@ -34,6 +34,12 @@
         }
     }
 
+    p
+    {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
     @include media-breakpoint-up(lg) {
         .section__info
         {
