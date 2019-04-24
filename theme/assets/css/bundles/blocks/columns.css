@@ -65,8 +65,52 @@
 }
 
 .columns .columns-4 {
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
+}
+
+.columns .columns-5 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.columns .align-left {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.columns .align-center {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: center;
+}
+
+.columns .align-right {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.columns.align-columns-left {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.columns.align-columns-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.columns.align-columns-right {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.columns.align-columns-stretch {
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
 }
