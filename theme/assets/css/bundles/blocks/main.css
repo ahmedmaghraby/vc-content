@@ -516,6 +516,11 @@ solution {
     content: '– ';
 }
 
+.features-page p {
+    font-size: 1.250rem;
+    line-height: 1.5;
+}
+
 @media (min-width: 992px) {
     .features-page .section__info {
         -webkit-box-flex: 0;

@@ -44,7 +44,9 @@ permalink: business-need/pricing-tools
         </div>
     </div>
     <div class="container" style="margin-bottom:30px">
-        Please <a href="/contact-us">contact us</a> for more information on the ready to go features Virto Commerce offers, and to learn more about how our
-        scalable architecture is the ideal digital commerce foundation.
+        <p>
+            Please <a href="/contact-us">contact us</a> for more information on the ready to go features Virto Commerce offers, and to learn more about how our
+            scalable architecture is the ideal digital commerce foundation.
+        </p>
     </div>
 </div>
