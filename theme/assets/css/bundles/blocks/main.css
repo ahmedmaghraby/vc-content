@@ -160,9 +160,21 @@
     margin-bottom: 2rem;
 }
 
+.benefits__icon__middle {
+    height: 8.5rem;
+    margin-top: -2.75rem;
+}
+
 .benefits__t {
     font-size: 1.25rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.benefits__t__middle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -510,6 +522,7 @@ solution {
 .features-page li {
     font-size: 1.125rem;
     line-height: 1.5;
+    padding-bottom: 15px;
 }
 
 .features-page li::before {
