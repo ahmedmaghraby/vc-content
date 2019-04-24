@@ -1,5 +1,6 @@
 @media (min-width: 992px) {
     .contacts-page .form {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 30rem;
         flex: 0 0 30rem;
         max-width: 30rem;
@@ -17,14 +18,17 @@
 }
 
 .contacts-page .features__item {
+    -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 2.5rem;
 }
 
 .contacts-page .features__img {
+    -webkit-box-flex: 0;
     -ms-flex: 0 0 3.75rem;
     flex: 0 0 3.75rem;
     margin-right: 1.25rem;
@@ -43,6 +47,7 @@
 
 @media (max-width: 767.98px) {
     .contacts-page .features__item {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -51,6 +56,7 @@
 
 @media (max-width: 575.98px) {
     .contacts-page .features__item {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -59,6 +65,7 @@
 
 @media (min-width: 768px) {
     .contacts-page .features__item {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -67,6 +74,7 @@
 
 @media (min-width: 992px) {
     .contacts-page .features__item {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -75,6 +83,7 @@
 
 @media (min-width: 1200px) {
     .contacts-page .features__item {
+        -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;

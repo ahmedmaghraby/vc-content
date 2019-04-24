@@ -1,9 +1,13 @@
-<section class="section">
+{% if block.style == 'dark' %}
+{% assign cssStyle = 'section--gray' %}
+{% endif %}
+<section class="section {{ cssStyle }} section--bg">
     <div class="section__inner container">
-        <div class="row align-items-lg-center">
-            <div class="text-block">
-                {{ block.content }}
-            </div>
+        {% if block.title != blank %}
+        <h2 class="section__t">{{ block.title }}</h2>
+        {% endif %}
+        <div class="section__descr">
+            {{ block.content }}
         </div>
     </div>
 </section>

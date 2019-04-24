@@ -3,10 +3,15 @@
         {% if block.title != blank %}
         <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
+        {% if block.content != blank %}
+        <div class="section__descr">
+            {{ block.content }}
+        </div>
+        {% endif %}
         <div class="columns">
             {% for column in block.columns %}
-            <div class="columns__item">
-                <div class="columns__inner">
+            <div class="columns__item columns-3">
+                <div class="columns__inner{% if block.frame == 'True' %} has-border{% endif %}">
                     {% if column.url != blank %}
                     <img src="{{ column.url }}" alt="" class="columns__pic">
                     {% endif %}
