@@ -8,15 +8,15 @@
             {{ block.content }}
         </div>
         {% endif %}
-        <div class="columns">
+        <div class="columns {{ block.columnsAlignment }}{% if block.nowrap == 'True' %} nowrap{% endif %}">
             {% for column in block.columns %}
-            <div class="columns__item columns-3">
+            <div class="columns__item {{ block.columnsWidth }}">
                 <div class="columns__inner{% if block.frame == 'True' %} has-border{% endif %}">
                     {% if column.url != blank %}
-                    <img src="{{ column.url }}" alt="" class="columns__pic">
+                    <img src="{{ column.url }}" alt="" class="columns__pic {{ block.imageAlignment }}">
                     {% endif %}
                     {% if column.title != blank %}
-                    <div class="columns__t">{{ column.title }}</div>
+                    <div class="columns__t {{ block.titleAlignment }}">{{ column.title }}</div>
                     {% endif %}
                     {% if column.content != blank %}
                     <div class="columns__descr">

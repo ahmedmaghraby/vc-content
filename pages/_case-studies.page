@@ -28,21 +28,25 @@
                 "title": "MANUFACTURER EQUIPMENT",
                 "url": "http://localhost/admin/assets/blogs/bosch.png",
                 "content": "<p><span style=\"color: rgb(179, 183, 208);\">B2C / B2B Customer Loyalty Online Store</span></p><p><br></p><p>Building customer loyalty and gaining customer knowledge through a Customer Loyalty eCommerce Store</p>",
-                "width": "auto"
+                "width": null
             },
             {
                 "title": "RETAIL EQUIPMENT",
                 "url": "http://localhost/admin/assets/blogs/proffs.png",
                 "content": "<p><span style=\"color: rgb(179, 183, 208);\">B2C/B2B Online Store</span></p><p><br></p><p>Providing maximum scalability and centralizationfor expanding business internationally</p>",
-                "width": "auto"
+                "width": null
             },
             {
                 "title": "REAL ESTATE AGENCY",
                 "url": "http://localhost/admin/assets/blogs/estatespain-logo.png",
                 "content": "<p><span style=\"color: rgb(179, 183, 208);\">Platform</span></p><p><br></p><p>Specializes in the sale of residential and commercial real estate on the best coasts of Spain.</p>",
-                "width": "auto"
+                "width": null
             }
         ],
-        "frame": true
+        "frame": true,
+        "columnsWidth": "columns-3",
+        "imageAlignment": "align-left",
+        "titleAlignment": "align-left",
+        "columnsAlignment": "align-columns-center"
     }
 ]

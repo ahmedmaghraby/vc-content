@@ -4,9 +4,13 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-start;
     margin: 0 -1.25rem;
     padding-top: 1.5rem;
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
 
     &__item {
         padding: 2.5rem 1.25rem 0;
@@ -34,20 +38,51 @@
     &__t {
         font-size: .875rem;
         font-weight: 900;
-        text-transform: uppercase;
     }
 
     &__descr {
         font-size: .75rem;
+        align-self: stretch;
     }
 
-    & .columns-3 {
+    .columns-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .columns-3 {
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
     }
-
-    & .columns-4 {
+    .columns-4 {
         flex: 0 0 25%;
         max-width: 25%;
+    }
+    .columns-5 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .align-left {
+        align-self: flex-start;
+        text-align: left;
+    }
+    .align-center {
+        align-self: center;
+        text-align: center;
+    }
+    .align-right {
+        align-self: flex-end;
+        text-align: right;
+    }
+    &.align-columns-left {
+        justify-content: flex-start;
+    }
+    &.align-columns-center {
+        justify-content: center;
+    }
+    &.align-columns-right {
+        justify-content: flex-end;
+    }
+    &.align-columns-stretch {
+        justify-content: stretch;
     }
 }

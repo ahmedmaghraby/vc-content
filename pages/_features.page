@@ -42,7 +42,11 @@
                 "width": null
             }
         ],
-        "frame": null
+        "frame": false,
+        "columnsWidth": null,
+        "imageAlignment": "align-center",
+        "titleAlignment": "align-center",
+        "columnsAlignment": "align-columns-center"
     },
     {
         "id": 4,
@@ -187,6 +191,65 @@
                 "width": null
             }
         ],
-        "frame": null
+        "frame": null,
+        "columnsWidth": "columns-4",
+        "imageAlignment": "align-left",
+        "titleAlignment": "align-left",
+        "columnsAlignment": "align-columns-left"
+    },
+    {
+        "id": 12,
+        "type": "text",
+        "name": "See how...",
+        "title": "See how Virto Commerce can lead your digital transformation",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": null
+    },
+    {
+        "id": 13,
+        "type": "textcolumns-with-images",
+        "name": "Enterprise ecommerce platform ",
+        "title": "Enterprise ecommerce platform build using cutting-edge web technologies",
+        "style": null,
+        "content": null,
+        "columns": [
+            {
+                "title": null,
+                "url": "http://localhost/admin/assets/blogs/azure.svg",
+                "content": null,
+                "width": null
+            },
+            {
+                "title": null,
+                "url": "http://localhost/admin/assets/blogs/net.png",
+                "content": null,
+                "width": "20%"
+            },
+            {
+                "title": null,
+                "url": "http://localhost/admin/assets/blogs/elastic.svg",
+                "content": null,
+                "width": null
+            },
+            {
+                "title": null,
+                "url": "http://localhost/admin/assets/blogs/angular.svg",
+                "content": null,
+                "width": "20%"
+            },
+            {
+                "title": null,
+                "url": "http://localhost/admin/assets/blogs/ts.svg",
+                "content": null,
+                "width": null
+            }
+        ],
+        "frame": false,
+        "columnsWidth": null,
+        "columnsAlignment": "align-columns-center",
+        "imageAlignment": "align-center",
+        "titleAlignment": "align-center",
+        "nowrap": true
     }
 ]
