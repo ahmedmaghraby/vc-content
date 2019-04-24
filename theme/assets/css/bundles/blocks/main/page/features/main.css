@@ -118,6 +118,7 @@ solution {
 .features-page li {
     font-size: 1.125rem;
     line-height: 1.5;
+    padding-bottom: 15px;
 }
 
 .features-page li::before {
