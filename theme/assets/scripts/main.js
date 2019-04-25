@@ -229,6 +229,50 @@ $(function () {
             signInContent.hide();
     });
 
+    var carousel = $('.carousel__container');
+    var carouselImages = $('.carousel__container img');
+    carouselImages.css('height', '100%').css('display', 'none');
+
+    for (var i = 0; i < carouselImages.length; i++)
+        if (carouselImages[i].width > carousel.width())
+            carouselImages[i].style.width = '99%';
+
+    carouselImages.first().css('display', '');
+
+    var count = carouselImages.length;
+    var counter = 0;
+
+    $('a.carousel__control--prev').click(function () {
+        carouselImages.eq(counter).hide();
+        if (counter == 0)
+            counter = count - 1;
+        else
+            counter--;
+        carouselImages.eq(counter).show();
+
+        clearInterval(timerId);
+        startInterval();
+    });
+
+    var carouselNext = $('a.carousel__control--next');
+    carouselNext.click(function () {
+        carouselImages.eq(counter).hide();
+        if (counter == count - 1)
+            counter = 0;
+        else
+            counter++;
+        carouselImages.eq(counter).show();
+
+        clearInterval(timerId);
+        startInterval();
+    });
+
+    var timerId = '';
+    function startInterval() {
+        timerId = setInterval(function () { carouselNext.click(); }, 7000);
+    };
+    startInterval();
+
     $('.header-toggle').on('click', function () {
         $('body').addClass('swipe-open').prepend('<div class="overlay"></div>');
         $('.swipe').addClass('opened');
