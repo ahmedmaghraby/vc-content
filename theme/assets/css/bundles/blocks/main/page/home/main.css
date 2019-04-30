@@ -135,6 +135,22 @@
     transform: rotateY(180deg);
 }
 
+.carousel-indicators {
+    position: static;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.carousel-indicators li {
+    background-color: #fd7e14;
+}
+
 @media (max-width: 991.98px) {
     .section--hp {
         padding: 2.5rem 0 3.75rem;
