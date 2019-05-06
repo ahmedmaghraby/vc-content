@@ -12,7 +12,9 @@
             </div>
             {% endif %}
             <div class="col-lg-auto section__info">
+                {% if block.title != blank %}
                 <h2 class="section__t">{{ block.title }}</h2>
+                {% endif %}
                 {{ block.content }}
             </div>
             {% if (block.align == 'right') %}

@@ -454,43 +454,7 @@
           }
         ],
         "tab": "Settings"
-      },
-      {
-        "id": "rotate",
-        "label": "Auto-rotate images",
-        "type": "checkbox",
-        "default": true,
-        "tab": "Settings"
-      },
-      {
-        "id": "frequency",
-        "label": "Rotation frequency",
-        "type": "select",
-        "default": "5000",
-        "options": [
-          {
-            "value": "5000",
-            "label": "5 seconds"
-          },
-          {
-            "value": "6000",
-            "label": "6 seconds"
-          },
-          {
-            "value": "7000",
-            "label": "7 seconds"
-          },
-          {
-            "value": "8000",
-            "label": "8 seconds"
-          },
-          {
-            "value": "9000",
-            "label": "9 seconds"
-          }
-        ],
-        "tab": "Settings"
-      },
+      },      
       {
         "id": "images",
         "label": "Images",

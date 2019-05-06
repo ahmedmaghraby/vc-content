@@ -253,5 +253,23 @@
         "imageAlignment": "align-center",
         "titleAlignment": "align-center",
         "nowrap": true
+    },
+    {
+        "id": 14,
+        "type": "image-carousel",
+        "name": "Be inspired",
+        "title": "Be inspired! Check out some leading sites that are powered by Virto Commerce.",
+        "style": null,
+        "images": [
+            {
+                "url": "http://localhost/admin/assets/blogs/kupinatao.png"
+            },
+            {
+                "url": "http://localhost/admin/assets/blogs/bosch.png"
+            },
+            {
+                "url": "http://localhost/admin/assets/blogs/estatespain.png"
+            }
+        ]
     }
 ]

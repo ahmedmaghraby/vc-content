@@ -1,28 +1,29 @@
-<div class="section-bg">
-    <div class="fotorama"
-         {% if block.rotate == "True" %} data-autoplay="{{ block.frequency }}" data-arrows="false" data-loop="true" {% endif %}>
-        {% for image in block.images %}
-        <img src="{{ image.url }}" data-caption="{{ image.title }}" />
-        {% endfor %}
+{% if block.style == 'dark' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
+{% endif %}
+<section class="section {{ cssStyle }} section--bg">
+    <div class="section__inner container">
+        {% if block.title != blank %}
+        <h2 class="section__t">{{ block.title }}</h2>
+        {% endif %}
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel__container carousel-inner">
+                {% for image in block.images %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <img class="d-block w-100 h-100" src="{{ image.url }}" />
+                </div>
+                {% endfor %}
+            </div>
+            <ol class="carousel-indicators">
+                {% for image in block.images %}
+                <li data-target="#carousel" data-slide-to="{{ forloop.index }}" class="{% if forloop.first %}active{% endif %}"></li>
+                {% endfor %}
+            </ol>
+            <a class="carousel__control carousel__control--prev" href="#carousel" role="button" data-slide="prev"></a>
+            <a class="carousel__control carousel__control--next" href="#carousel" role="button" data-slide="next"></a>
+        </div>
     </div>
 </div>
 
-{% comment %}
-
-{ "id": "name", "label": "Block name", "type": "string", "default": "Image carousel" },
-{ "id": "width", "label": "Block width", "type": "select", "default": "screen",
-        "options": [{"label": "Screen", "value": "screen"}, {"label": "Container","value": "container"},{"label": "Small","value": "small"}]},
-{ "id": "rotate", "label": "Auto-rotate images", "type": "checkbox", "default": true },
-{ "id": "frequency", "label": "Rotation frequency", "type": "select", "default": "5000",
-        "options": [{"label": "5000","value": "5 seconds"},{"label": "6000","value": "6 seconds"},
-                    {"label": "7000","value": "7 seconds"},{"label": "8000","value": "8 seconds"},
-                    {"label": "9000","value": "9 seconds"}]},
-{ "id": "images", "label": "Images", "type": "list", "addText": "Add image", "removeText": "Remove image", "displayField": "title",
-        "element": [{"id": "title","label": "Title","type": "string"},
-                    {"id": "url","label": "Upload picture","type": "image","previewWidth": 120,"previewHeight": 80},
-                    {"id": "content","label": "Content","type": "text"}],
-        "default": [{"url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg"},
-                    {"url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Hopetoun_falls.jpg"},
-                    {"url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg"}]}
-
-{% endcomment %}
