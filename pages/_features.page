@@ -12,8 +12,8 @@
         "title": "Agile Ecommerce Platform",
         "style": "dark",
         "align": "right",
-        "url": "http://localhost/admin/assets/blogs/bg.png",
-        "content": "<p><span style=\"background-color: rgb(249, 249, 249); color: rgb(12, 16, 21);\">Virto Commerce is a highly scalable eCommerce product for fast growing and large companies. It provides powerful enterprise-class features right out-of-the-box and gives you the flexibility to create your own unique eCommerce solution while utilizing agile principles.</span></p><p><br></p><p><span style=\"background-color: rgb(249, 249, 249); color: rgb(12, 16, 21);\"><span class=\"ql-cursor\">﻿﻿﻿﻿</span>Multiple store management, advanced promotion engines, dynamic content, as well as advanced product and price management are just a few of the tools at your fingertips with Virto Commerce. With the ability of full customization, you'll be able to achieve your unique business needs, convert browsers to buyers and increase online revenue!</span></p>"
+        "url": "https://vc4test.blob.core.windows.net/blogs/bg.png",
+        "content": "<p><span style=\"background-color: rgb(249, 249, 249); color: rgb(12, 16, 21);\">Virto Commerce is a highly scalable eCommerce product for fast growing and large companies. It provides powerful enterprise-class features right out-of-the-box and gives you the flexibility to create your own unique eCommerce solution while utilizing agile principles.</span></p><p><br></p><p><span style=\"background-color: rgb(249, 249, 249); color: rgb(12, 16, 21);\"><span class=\"ql-cursor\">﻿﻿﻿﻿﻿﻿</span>Multiple store management, advanced promotion engines, dynamic content, as well as advanced product and price management are just a few of the tools at your fingertips with Virto Commerce. With the ability of full customization, you'll be able to achieve your unique business needs, convert browsers to buyers and increase online revenue!</span></p>"
     },
     {
         "id": 3,
@@ -25,19 +25,19 @@
         "columns": [
             {
                 "title": "Commerce modules",
-                "url": "http://localhost/admin/assets/blogs/commerce-modules.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/commerce-modules.svg",
                 "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Pricing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Customers</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Stores</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Content management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Product information management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Orders</a></p>",
                 "width": null
             },
             {
                 "title": "Custom modules",
-                "url": "http://localhost/admin/assets/blogs/custom-modules.svg",
-                "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Integration services (ERP, Taxes)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketplaces (Amazon, Ebay)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Payment methods</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\"><span class=\"ql-cursor\">﻿</span>Shipment Gateway</a></p>",
+                "url": "https://vc4test.blob.core.windows.net/blogs/custom-modules.svg",
+                "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Integration services (ERP, Taxes)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketplaces (Amazon, Ebay)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Payment methods</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\"><span class=\"ql-cursor\">﻿﻿</span>Shipment Gateway</a></p>",
                 "width": null
             },
             {
                 "title": "Platform modules",
-                "url": "http://localhost/admin/assets/blogs/platform-modules.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/platform-modules.svg",
                 "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Security</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Notifications</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Data migration</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Background job</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Assets</a></p>",
                 "width": null
             }
@@ -46,7 +46,8 @@
         "columnsWidth": null,
         "imageAlignment": "align-center",
         "titleAlignment": "align-center",
-        "columnsAlignment": "align-columns-center"
+        "columnsAlignment": "align-columns-center",
+        "nowrap": null
     },
     {
         "id": 4,
@@ -63,7 +64,7 @@
         "title": "Merchandising",
         "style": "light",
         "align": "left",
-        "url": "http://localhost/admin/assets/blogs/merchandising.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/merchandising.png",
         "content": "<p>Our tools are designed for innovative companies where merchants collaborate closely with brand marketers. We provide tools to optimize your offering and drive conversions. With Cross-sells, up-sells, product recommendations and even custom relations you will be able to execute any merchandising plan.</p><p><br></p><ul><li>Cross-sell products</li><li>Up-sell products</li><li>Replacement and accessories</li><li>Recently viewed products</li><li>Machine learning based recommendations</li></ul><p><br></p>"
     },
     {
@@ -73,7 +74,7 @@
         "title": "Pricing",
         "style": "dark",
         "align": "right",
-        "url": "http://localhost/admin/assets/blogs/pricing.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png",
         "content": "<p>Virto Commerce provides a responsive pricing engine. Prices can be personalized in real-time based on audience, campaign, purchase history, geo-location, contracts and other customer-based scenarios.</p><p><br></p><ul><li>Personalized pricing</li><li>Price lists</li><li>B2B pricing</li><li>Tiered pricing</li><li>Custom currencies (bitcoin, points)</li></ul><p><br></p>"
     },
     {
@@ -83,7 +84,7 @@
         "title": "Promotion and Marketing",
         "style": "light",
         "align": "left",
-        "url": "http://localhost/admin/assets/blogs/promotion-and-marketing.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/promotion-and-marketing.png",
         "content": "<p>Our promotion engine lets you create free shipping campaigns, discounts on selected products, coupons for future purchases, and much more! And because it's a simple and easy tool to utilize, you won't be needing any developer assistance. That's a promotions in itself! Promotions can be combined with the marketing system to deliver truly engaging campaigns.</p><p><br></p><ul><li>Product &amp; cart promotions</li><li>Shipping promotions</li><li>Marketing campaigns</li><li>Banners</li></ul><p><br></p>"
     },
     {
@@ -93,7 +94,7 @@
         "title": "Order management",
         "style": "dark",
         "align": "right",
-        "url": "http://localhost/admin/assets/blogs/order-management.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/order-management.png",
         "content": "<p>Virto Commerce provides an industry leading document based order management functionality. It can be integrated into complex enterprise workflows - including many leading ERP and fulfillment systems.</p><p><br></p><ul><li>Customer order history</li><li>Split shipments</li><li>Split payments</li><li>Punchout support</li><li>Quotes &amp; Purchase Orders</li><li>Subscription management</li></ul><p><br></p>"
     },
     {
@@ -103,7 +104,7 @@
         "title": "Content management – CMS",
         "style": "light",
         "align": "left",
-        "url": "http://localhost/admin/assets/blogs/content-management-cms.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/content-management-cms.png",
         "content": "<p>Virto Commerce comes with a simple yet extremely powerful CMS that gives both developers and marketers complete access customizing the store look and feel. Developers can easily create and publish new themes while marketers can create landing pages, blog posts, marketing banners and more. Virto Commerce is also integrated with many industry leading CMS including WordPress, Orchard CMS, Umbraco and any html site to provide even more flexibility.</p><p><br></p><ul><li>Professional themes</li><li>Edit HTML and CSS</li><li>Mobile commerce ready</li><li>Full blogging platform</li><li>Web-based website builder</li></ul><p><br></p>"
     },
     {
@@ -113,7 +114,7 @@
         "title": "Commerce integration platform",
         "style": "light",
         "align": "left",
-        "url": "http://localhost/admin/assets/blogs/commerce-integration-platform.png",
+        "url": "https://vc4test.blob.core.windows.net/blogs/commerce-integration-platform.png",
         "content": "<p>Virto Commerce is developed using modular architecture with each module exposing a set of REST based API's. These standards based unified API's provide businesses, agencies, and system integrators with advanced ecommerce capabilities that are easier to consume, manage and combine with other business systems and frontend technologies. Explore our API.</p><p><br></p><ul><li>Module architecture</li><li>Real-time documentation</li><li>REST Oauth and token based authentication</li><li>Granular permissions</li></ul><p><br></p>"
     },
     {
@@ -126,67 +127,67 @@
         "columns": [
             {
                 "title": "Catalog",
-                "url": "http://localhost/admin/assets/blogs/catalog.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/catalog.svg",
                 "content": "<p>Master &amp; virtual catalogs</p><p>Categories</p><p>Multiple languages</p><p>Multiple currencies</p><p>Physical products</p><p>Digital products</p><p>Subscription products</p><p>Product &amp; category attributes</p>",
                 "width": null
             },
             {
                 "title": "Pricing",
-                "url": "http://localhost/admin/assets/blogs/pricing.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/pricing.svg",
                 "content": "<p>Multiple price lists</p><p>Tiered pricing</p><p>Sale pricing</p><p>Personalized pricing</p><p>Import/Export price list from ERP</p><p>B2B pricing</p><p>Points</p><p>Bitcoin &amp; customer currencies</p>",
                 "width": null
             },
             {
                 "title": "Merchandising",
-                "url": "http://localhost/admin/assets/blogs/merch.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/merch.svg",
                 "content": "<p>Cross-sell products</p><p>Up-sell products</p><p>Replacement products</p><p>Accessories</p><p>Featured products</p><p>Recently viewed products</p><p>Machine learning based recommendations</p>",
                 "width": null
             },
             {
                 "title": "Promotions",
-                "url": "http://localhost/admin/assets/blogs/promotions.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/promotions.svg",
                 "content": "<p>Product promotions</p><p>Shopping cart promotions</p><p>Shipping promotions</p><p>Public-use coupons</p><p>Limited-use coupons</p><p>Private-use coupons</p><p>Build custom promotions engine</p><p>Personalized banners</p>",
                 "width": null
             },
             {
                 "title": "Order Management",
-                "url": "http://localhost/admin/assets/blogs/order.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/order.svg",
                 "content": "<p>Customer order history</p><p>Search orders</p><p>Define &amp; associate documents</p><p>Split order shipments</p><p>Purchase orders</p><p>Punchout</p><p>Subscriptions</p><p>Refunds</p><p>Returns</p><p>Exchanges</p>",
                 "width": null
             },
             {
                 "title": "Cart & Checkout",
-                "url": "http://localhost/admin/assets/blogs/cart.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/cart.svg",
                 "content": "<p>Physical and digital orders</p><p>Anonymous persistent cart</p><p>Registered persistent cart</p><p>Guest user checkout</p><p>Subscription products</p><p>Request for quote</p><p>Punchout</p><p>Wishlists</p><p>Gift registry</p><p>Tax calculations</p><p>Shipping methods</p><p>Payment methods</p><p>Tokenized billing</p><p>Order confirmation</p>",
                 "width": null
             },
             {
                 "title": "Content Management",
-                "url": "http://localhost/admin/assets/blogs/cms.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/cms.svg",
                 "content": "<p>Professional themes</p><p>Edit HTML and CSS</p><p>Brand and customize your store</p><p>Web-based website builder</p><p>Full blogging platform</p><p>Mobile commerce ready</p><p>Create pages</p><p>Multiple stores</p>",
                 "width": null
             },
             {
                 "title": "Customer Profile",
-                "url": "http://localhost/admin/assets/blogs/profile.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/profile.svg",
                 "content": "<p>Account registration</p><p>Profile attributes</p><p>Address book</p><p>Payment methods</p><p>Subscriptions</p><p>Passwords</p><p>Orders</p><p>Invoice PDF</p><p>Quotes</p><p>Segmentation</p><p>Login on behalf</p><p>Customer self-management</p><p>Social login</p>",
                 "width": null
             },
             {
                 "title": "Search and Browse",
-                "url": "http://localhost/admin/assets/blogs/search.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/search.svg",
                 "content": "<p>Keyword product search</p><p>Attribute product search</p><p>Product filtering</p><p>Search engine optimization (SEO)</p><p>Dynamic content and banners</p><p>Facet filtering</p><p>Similar search terms</p><p>Spell checking</p><p>Google Analytics</p>",
                 "width": null
             },
             {
                 "title": "Administration",
-                "url": "http://localhost/admin/assets/blogs/admin.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/admin.svg",
                 "content": "<p>Modules/Extensions Auto Updates</p><p>Data import/export</p><p>Data synchronization</p><p>Backup and restore</p><p>Staging and production environments</p><p>Manage roles and permissions</p><p>REST API permissions</p><p>Active directory and federation</p><p>Email notifications</p><p>SMS notifications</p>",
                 "width": null
             },
             {
                 "title": "Mobile App",
-                "url": "http://localhost/admin/assets/blogs/app.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/app.svg",
                 "content": "<p>Ionic Framework / AngularJS</p><p>Catalog Browsing</p><p>Checkout</p><p>Products and Variations</p><p>Uses Web API</p><p>Source code provided</p><p>iOS and Android</p>",
                 "width": null
             }
@@ -195,7 +196,8 @@
         "columnsWidth": "columns-4",
         "imageAlignment": "align-left",
         "titleAlignment": "align-left",
-        "columnsAlignment": "align-columns-left"
+        "columnsAlignment": "align-columns-left",
+        "nowrap": null
     },
     {
         "id": 12,
@@ -216,31 +218,31 @@
         "columns": [
             {
                 "title": null,
-                "url": "http://localhost/admin/assets/blogs/azure.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/azure.svg",
                 "content": null,
                 "width": null
             },
             {
                 "title": null,
-                "url": "http://localhost/admin/assets/blogs/net.png",
+                "url": "https://vc4test.blob.core.windows.net/blogs/net.png",
                 "content": null,
                 "width": "20%"
             },
             {
                 "title": null,
-                "url": "http://localhost/admin/assets/blogs/elastic.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/elastic.svg",
                 "content": null,
                 "width": null
             },
             {
                 "title": null,
-                "url": "http://localhost/admin/assets/blogs/angular.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/angular.svg",
                 "content": null,
                 "width": "20%"
             },
             {
                 "title": null,
-                "url": "http://localhost/admin/assets/blogs/ts.svg",
+                "url": "https://vc4test.blob.core.windows.net/blogs/ts.svg",
                 "content": null,
                 "width": null
             }
