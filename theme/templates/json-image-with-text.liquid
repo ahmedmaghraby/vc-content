@@ -1,5 +1,7 @@
 {% if block.style == 'dark' %}
-{% assign cssStyle = 'section--gray' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
 {% endif %}
 <section class="section {{ cssStyle }} section--bg">
     <div class="section__inner container">
