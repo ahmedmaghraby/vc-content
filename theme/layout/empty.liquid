@@ -29,14 +29,12 @@
     {{ '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
     {{ 'main-styles.min.css' | asset_url | stylesheet_tag }}
-    {% include 'segment' %}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     <link rel="canonical" href="{{ canonical_url }}" />
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
-    {% include 'autopilot' %}
 </head>
 <body>
     <div id="layout">
@@ -47,32 +45,13 @@
             <footer style="height: 5rem; background: #eee;"></footer>
         </div>
     </div>
-    <script type="text/javascript">
-        var ShareIt = {
-            facebook: function (url) {
-                window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank');
-            },
-            google: function (url) {
-                window.open('https://plus.google.com/share?url=' + encodeURIComponent(url), '_blank');
-            },
-            twitter: function (url) {
-                window.open('https://twitter.com/home?status=' + encodeURIComponent(url), '_blank');
-            },
-            linkedIn: function (url) {
-                window.open('https://www.linkedin.com/cws/share?url=' + encodeURIComponent(url), '_blank');
-            }
-        }
-    </script>
-    <script src="//apis.google.com/js/platform.js" async defer></script>
+
     {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
     {{ '//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js' | script_tag }}
     {{ '//ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js' | script_tag }}
     {{ '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js' | script_tag }}
     {{ '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js' | script_tag }}
 
-    {{ 'app.js' | asset_url | script_tag }}
-    {{ 'services.js' | asset_url | script_tag }}
-    {{ 'main-layout.min.js' | asset_url | script_tag }}
     {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>
 </html>

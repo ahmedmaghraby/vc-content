@@ -12,8 +12,11 @@
             {% for column in block.columns %}
             <div class="columns__item {{ block.columnsWidth }}">
                 <div class="columns__inner{% if block.frame == 'True' %} has-border{% endif %}">
-                    {% if column.url != blank %}
-                    <img src="{{ column.url }}" alt="" class="columns__pic {{ block.imageAlignment }}">
+                    {% if column.image.url != blank %}
+                    <img src="{{ column.image.url }}"
+                        {% if column.image.width != blank %} width="{{column.image.width}}" {% endif %}
+                        {% if column.image.height != blank %} height="{{column.image.height}}" {% endif %}
+                        alt="" class="columns__pic {{ block.imageAlignment }}">
                     {% endif %}
                     {% if column.title != blank %}
                     <div class="columns__t {{ block.titleAlignment }}">{{ column.title }}</div>

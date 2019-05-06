@@ -12,7 +12,7 @@
             <div class="carousel__container carousel-inner">
                 {% for image in block.images %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                    <img class="d-block w-100 h-100" src="{{ image.url }}" />
+                    <img class="d-block w-100 h-100" src="{{ image.image.url }}" />
                 </div>
                 {% endfor %}
             </div>
@@ -27,3 +27,6 @@
     </div>
 </div>
 
+<script>
+    $('#carousel').carousel({ interval: 7000 });
+</script>
