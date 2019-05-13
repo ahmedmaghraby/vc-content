@@ -117,6 +117,10 @@
                     {
                         "value": "left",
                         "label": "Left"
+                    },
+                    {
+                        "value": "background",
+                        "label": "Background"
                     }
                 ],
                 "tab": "Settings"
@@ -537,26 +541,26 @@
                     }
                 ]
             },
-          {
-            "id": "width",
-            "label": "Block width",
-            "type": "select",
-            "default": "screen",
-            "options": [
-              {
-                "label": "Screen",
-                "value": "screen"
-              },
-              {
-                "label": "Container",
-                "value": "container"
-              },
-              {
-                "label": "Small",
-                "value": "small"
-              }
-            ]
-          },
+            {
+                "id": "width",
+                "label": "Block width",
+                "type": "select",
+                "default": "screen",
+                "options": [
+                    {
+                        "label": "Screen",
+                        "value": "screen"
+                    },
+                    {
+                        "label": "Container",
+                        "value": "container"
+                    },
+                    {
+                        "label": "Small",
+                        "value": "small"
+                    }
+                ]
+            },
             {
                 "id": "content",
                 "label": "Content",

@@ -84,7 +84,7 @@
 {
     padding: 0;
 
-    .section__bg
+    &.section--bg, .section__bg
     {
         align-items: center;
         background-attachment: fixed;

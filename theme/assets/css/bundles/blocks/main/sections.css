@@ -15,7 +15,7 @@
     max-width: 100%;
 }
 
-.section__info {
+.section__info, .section__text {
     text-align: left;
 }
 

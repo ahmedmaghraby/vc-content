@@ -5035,7 +5035,7 @@ blockquote {
     max-width: 100%;
 }
 
-.section__info {
+.section__info, .section__text {
     text-align: left;
 }
 
@@ -5928,7 +5928,7 @@ solution {
     padding: 0;
 }
 
-.section--study .section__bg {
+.section--study.section--bg, .section--study .section__bg {
     -ms-flex-align: center;
     align-items: center;
     background-attachment: fixed;
@@ -5946,7 +5946,7 @@ solution {
     position: relative;
 }
 
-.section--study .section__bg::after {
+.section--study.section--bg::after, .section--study .section__bg::after {
     background: rgba(12, 16, 21, 0.8);
     bottom: 0;
     content: ' ';

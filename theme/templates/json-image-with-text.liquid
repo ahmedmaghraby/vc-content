@@ -3,29 +3,39 @@
 {% else %}
     {% assign cssStyle = '' %}
 {% endif %}
-<section class="section {{ cssStyle }} section--bg">
+<section class="section {{ cssStyle }} {% if block.align == 'background' %} section--study {% endif %} section--bg"
+         {% if block.align == 'background' %} style="background: url({{block.image.url}}) 50% 25% no-repeat fixed;" {% endif %}>
     <div class="section__inner container">
         <div class="row align-items-lg-center">
             {% if block.align == 'left' or block.align == blank %}
             <div class="col-lg">
                 <img src="{{ block.image.url }}"
-                    {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
-                    {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
-                    alt="" class="section__pic">
+                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
+                     alt="" class="section__pic">
             </div>
             {% endif %}
+            {% if block.align != 'background' %}
             <div class="col-lg-auto section__info">
                 {% if block.title != blank %}
                 <h2 class="section__t">{{ block.title }}</h2>
                 {% endif %}
                 {{ block.content }}
             </div>
+            {% else %}
+            {% if block.title != blank %}
+            <div class="section__t">{{ block.title }}</div>
+            {% endif %}
+            {% if block.content != blank %}
+            <div class="section__descr">{{ block.content }}</div>
+            {% endif %}
+            {% endif %}
             {% if (block.align == 'right') %}
             <div class="col-lg">
                 <img src="{{ block.image.url }}"
-                    {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
-                    {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
-                    alt="" class="section__pic">
+                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
+                     alt="" class="section__pic">
             </div>
             {% endif %}
         </div>
