@@ -8,7 +8,7 @@
         {% if block.title != blank %}
         <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel slide carousel-block" data-ride="carousel">
             <div class="carousel__container carousel-inner">
                 {% for image in block.images %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
@@ -26,7 +26,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    $('#carousel').carousel({ interval: 7000 });
-</script>
