@@ -5,5 +5,106 @@
         "title": "",
         "permalink": "digitalcommerce/enterprise-ecommerce-architecture",
         "id": 1
+    },
+    {
+        "id": 2,
+        "type": "image-with-text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "align": null,
+        "image": null,
+        "content": null,
+        "url": {
+            "url": null,
+            "urlText": null,
+            "style": null,
+            "flag": true
+        },
+        "url1": {
+            "url": "#",
+            "urlText": "Contact Us to learn more",
+            "style": "btn btn--orange btn--round"
+        },
+        "url2": null
+    },
+    {
+        "id": 3,
+        "type": "contacts-form",
+        "name": null,
+        "title": "What's in it for you?",
+        "style": null,
+        "items": [
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/access.svg"
+                },
+                "text": "Access to latest eCommerce Platfrom features"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/referral.svg"
+                },
+                "text": "Lead generation and referral program"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/comission.svg"
+                },
+                "text": "Generous commissions"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/pr.svg"
+                },
+                "text": "Joint PR & Marketing Activities"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/support.svg"
+                },
+                "text": "Priority Technical Support"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/press.svg"
+                },
+                "text": "Joint press releases"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/license.svg"
+                },
+                "text": "Licenses for testing and evaluating purposes"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/profile.svg"
+                },
+                "text": "Web site presence with partner profile"
+            },
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/story.svg"
+                },
+                "text": "Success story postings"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "In-house developed solutions- that were custom built and seemingly perfect for your business- can create a host of problems in the long run:",
+        "style": "dark",
+        "items": [
+            {
+                "image": {
+                    "url": "http://localhost/admin/assets/blogs/Tilda_Icons_45_quest_route.svg"
+                },
+                "title": "Challenging to Add New Functionality",
+                "text": "<p>As your business grows and evolves, your digital commerce needs will need to change along with it. With old and static architecture, it can be impossible to add the functions you need in a timely manner.</p>\n"
+            }
+        ]
     }
 ]

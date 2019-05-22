@@ -1,5 +1,7 @@
 {% if block.style == 'dark' %}
-{% assign cssStyle = 'section--gray' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
 {% endif %}
 <section class="section {{ cssStyle }} section--bg {{ block.decorator }}">
     <div class="section__inner container">
@@ -9,6 +11,12 @@
         <div class="section__text">
             {{ block.content }}
         </div>
+        {% if block.url != blank and block.url.url != blank %}
+        <div class="section__descr">
+            <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
+        </div>
+        {% endif %}
+
     </div>
 </section>
 
