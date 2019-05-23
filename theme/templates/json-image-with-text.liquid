@@ -4,7 +4,7 @@
     {% assign cssStyle = '' %}
 {% endif %}
 <section class="section {{ cssStyle }} {% if block.align == 'background' %} section--study {% endif %} section--bg"
-         {% if block.align == 'background' %} style="background: url({{block.image.url}}) 50% 25% no-repeat fixed;" {% endif %}>
+         {% if block.align == 'background' %} style="background: url({{block.image.url}}) 50% 25% / cover no-repeat fixed;" {% endif %}>
     <div class="section__inner container">
         <div class="row align-items-lg-center">
             {% if block.align == 'left' %}

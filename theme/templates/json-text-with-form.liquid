@@ -1,0 +1,33 @@
+<div class="section__inner container">
+	<div class="row">
+		<div class="section__content col-lg">
+			{{ block.content }}
+		</div>
+		<div class="section__sidebar col-lg-auto">
+			<div class="section__inner">
+				{% if block.image != blank and block.image.url != blank %}
+				<img class="section__pic" src="{{ block.image.url }}" alt="">
+				{% endif %}
+				<div class="form">
+					<div class="form-group">
+						<label class="form-label">Name</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label class="form-label">Email</label>
+						<input type="text" class="form-control">
+						<div class="form-descr">
+							By clicking «Download Case Studies» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.
+						</div>
+					</div>
+					<button class="btn btn--orange btn--expand">Download Case Studies</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% comment %}
+
+
+{% endcomment %}
