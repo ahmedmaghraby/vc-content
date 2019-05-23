@@ -10,8 +10,8 @@
             {% if block.align == 'left' %}
             <div class="col-lg">
                 <img src="{{ block.image.url }}"
-                     {% if block.image.width !=blank %} width="{{block.image.width}}" {% endif %}
-                     {% if block.image.height !=blank %} height="{{block.image.height}}" {% endif %}
+                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
                      alt="" class="section__pic">
             </div>
             {% endif %}
