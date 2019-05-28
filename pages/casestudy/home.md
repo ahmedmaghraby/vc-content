@@ -28,7 +28,7 @@ permalink: case-studies
                     </div>
                     <div class="list-t">RETAIL & DISTRIBUTION</div>
                     <div class="list-text">Objective: Replatform for Flexible Ordering & Distribution</div>
-                    <div class="list-descr">Online bookseller alignsed online & offline ordering and complex pricing to deliver a faster and more efficient ordering process.</div>
+                    <div class="list-descr">Online bookseller aligned online & offline ordering and complex pricing to deliver a faster and more efficient ordering process.</div>
                     <div class="list-btn">
                         <a class="button fill" href="case-studies/standaard-boekhandel">View case study</a>
                     </div>
