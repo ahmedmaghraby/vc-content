@@ -24,6 +24,19 @@ permalink: case-studies
             <li class="list-item">
                 <div class="list-inner">
                     <div class="list-img">
+                        <img src="../assets/images/casestudies/standaard-boekhandel-logo.png" alt="standaard-boekhandel" />
+                    </div>
+                    <div class="list-t">RETAIL & DISTRIBUTION</div>
+                    <div class="list-text">Objective: Replatform for Flexible Ordering & Distribution</div>
+                    <div class="list-descr">Online bookseller alignsed online & offline ordering and complex pricing to deliver a faster and more efficient ordering process.</div>
+                    <div class="list-btn">
+                        <a class="button fill" href="case-studies/standaard-boekhandel">View case study</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-inner">
+                    <div class="list-img">
                         <img alt="" src="../assets/images/casestudies/proffs.png" />
                     </div>
                     <div class="list-t">Retail Equipment</div>
@@ -187,19 +200,6 @@ permalink: case-studies
                     <div class="list-descr">Specializes in the sale of residential and commercial real estate on the best coasts of Spain.</div>
                     <div class="list-btn">
                         <a class="button fill" href="case-studies/estatespain">View case study</a>
-                    </div>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-inner">
-                    <div class="list-img">
-                        <img src="../assets/images/casestudies/standaard-boekhandel-logo.png" alt="standaard-boekhandel" />
-                    </div>
-                    <div class="list-t">RETAIL & DISTRIBUTION</div>
-                    <div class="list-text">Objective: Replatform for Flexible Ordering & Distribution</div>
-                    <div class="list-descr">Online bookseller alignsed online & offline ordering and complex pricing to deliver a faster and more efficient ordering process.</div>
-                    <div class="list-btn">
-                        <a class="button fill" href="case-studies/standaard-boekhandel">View case study</a>
                     </div>
                 </div>
             </li>
