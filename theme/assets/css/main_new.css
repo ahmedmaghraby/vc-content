@@ -3258,6 +3258,11 @@ input.ng-dirty.ng-invalid {
     background-size: cover;
 }
 
+.bg-standaard-boekhandel {
+    background: url(standaard-boekhandel.png) no-repeat;
+    background-size: cover;
+}
+
 .bg-test1 {
     background: url(cstest1.jpg) no-repeat center center fixed;
     background-size: cover;
