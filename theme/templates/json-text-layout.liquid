@@ -1,0 +1,42 @@
+{% if block.style == 'dark' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
+{% endif %}
+<section class="section {{ cssStyle }}">
+    <div class="section__inner container">
+        {% if block.title != blank %}
+            {% if blockIndex == 1 %}
+                <h1 class="section__t">{{ block.title }}</h1>
+            {% else %}
+                <h2 class="section__t">{{ block.title }}</h2>
+            {% endif %}
+        {% endif %}
+		
+		{% if block.contentTop != blank %}
+		<div class="row section__info mt-5 section__descr">
+			{{ block.contentTop }}
+		</div>
+		{% endif %}
+		
+		<div class="row section__info">
+			<div class="col-lg-6 section__descr">
+				{{ block.contentLeft }}
+			</div>
+			<div class="col-lg-6 section__descr">
+				{{ block.contentRight }}
+			</div>
+		</div>
+
+		{% if block.contentBottom != blank %}
+		<div class="row section__info mt-5 section__descr">
+			{{ block.contentBottom }}
+		</div>
+		{% endif %}
+
+    </div>
+</section>
+
+{% comment %}
+
+{% endcomment %}

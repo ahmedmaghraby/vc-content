@@ -23,7 +23,7 @@
         "name": "Solution architecture",
         "title": "Solution architecture",
         "style": "light",
-        "content": "<p><span style=\"color: rgb(12, 16, 21);\">Virto Commerce Manager, at the core of the Virto Commerce platform provides administration and management tools. Its comprehensive core functionality that can be easily extended with modules and customer capabilities as well as integrated with back-end ERP systems and front-end authentication solutions. Modular architecture supports automatic updates to allow solutions to stay up to date with the latest features and fixes.</span></p>",
+        "content": "<p>Virto Commerce Manager, at the core of the Virto Commerce platform provides administration and management tools. Its comprehensive core functionality that can be easily extended with modules and customer capabilities as well as integrated with back-end ERP systems and front-end authentication solutions. Modular architecture supports automatic updates to allow solutions to stay up to date with the latest features and fixes.</p>\n",
         "columns": [
             {
                 "title": "Commerce modules",
@@ -31,7 +31,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/commerce-modules.svg"
                 },
                 "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Pricing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Customers</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Stores</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Content management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Product information management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Orders</a></p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Custom modules",
@@ -39,15 +40,17 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/custom-modules.svg"
                 },
                 "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Integration services (ERP, Taxes)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketplaces (Amazon, Ebay)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Payment methods</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\"><span class=\"ql-cursor\">﻿﻿</span>Shipment Gateway</a></p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Platform modules",
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/platform-modules.svg"
                 },
-                "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Security</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Notifications</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Data migration</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Background job</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Assets</a></p>",
-                "width": null
+                "content": "<ul>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Security</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Notifications</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Data migration</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Background job</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Assets</a></li>\n</ul>\n",
+                "width": null,
+                "url": null
             }
         ],
         "frame": false,
@@ -150,8 +153,9 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/catalog.svg"
                 },
-                "content": "<p>Master &amp; virtual catalogs</p><p>Categories</p><p>Multiple languages</p><p>Multiple currencies</p><p>Physical products</p><p>Digital products</p><p>Subscription products</p><p>Product &amp; category attributes</p>",
-                "width": null
+                "content": "<ul>\n\t<li>Master &amp; virtual catalogs</li>\n\t<li>Categories</li>\n\t<li>Multiple languages</li>\n\t<li>Multiple currencies</li>\n\t<li>Physical products</li>\n\t<li>Digital products</li>\n\t<li>Subscription products</li>\n\t<li>Product &amp; category attributes</li>\n</ul>\n",
+                "width": null,
+                "url": null
             },
             {
                 "title": "Pricing",
@@ -159,7 +163,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/pricing.svg"
                 },
                 "content": "<p>Multiple price lists</p><p>Tiered pricing</p><p>Sale pricing</p><p>Personalized pricing</p><p>Import/Export price list from ERP</p><p>B2B pricing</p><p>Points</p><p>Bitcoin &amp; customer currencies</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Merchandising",
@@ -167,7 +172,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/merch.svg"
                 },
                 "content": "<p>Cross-sell products</p><p>Up-sell products</p><p>Replacement products</p><p>Accessories</p><p>Featured products</p><p>Recently viewed products</p><p>Machine learning based recommendations</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Promotions",
@@ -175,7 +181,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/promotions.svg"
                 },
                 "content": "<p>Product promotions</p><p>Shopping cart promotions</p><p>Shipping promotions</p><p>Public-use coupons</p><p>Limited-use coupons</p><p>Private-use coupons</p><p>Build custom promotions engine</p><p>Personalized banners</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Order Management",
@@ -183,7 +190,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/order.svg"
                 },
                 "content": "<p>Customer order history</p><p>Search orders</p><p>Define &amp; associate documents</p><p>Split order shipments</p><p>Purchase orders</p><p>Punchout</p><p>Subscriptions</p><p>Refunds</p><p>Returns</p><p>Exchanges</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Cart & Checkout",
@@ -191,7 +199,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/cart.svg"
                 },
                 "content": "<p>Physical and digital orders</p><p>Anonymous persistent cart</p><p>Registered persistent cart</p><p>Guest user checkout</p><p>Subscription products</p><p>Request for quote</p><p>Punchout</p><p>Wishlists</p><p>Gift registry</p><p>Tax calculations</p><p>Shipping methods</p><p>Payment methods</p><p>Tokenized billing</p><p>Order confirmation</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Content Management",
@@ -199,7 +208,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/cms.svg"
                 },
                 "content": "<p>Professional themes</p><p>Edit HTML and CSS</p><p>Brand and customize your store</p><p>Web-based website builder</p><p>Full blogging platform</p><p>Mobile commerce ready</p><p>Create pages</p><p>Multiple stores</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Customer Profile",
@@ -207,7 +217,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/profile.svg"
                 },
                 "content": "<p>Account registration</p><p>Profile attributes</p><p>Address book</p><p>Payment methods</p><p>Subscriptions</p><p>Passwords</p><p>Orders</p><p>Invoice PDF</p><p>Quotes</p><p>Segmentation</p><p>Login on behalf</p><p>Customer self-management</p><p>Social login</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Search and Browse",
@@ -215,7 +226,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/search.svg"
                 },
                 "content": "<p>Keyword product search</p><p>Attribute product search</p><p>Product filtering</p><p>Search engine optimization (SEO)</p><p>Dynamic content and banners</p><p>Facet filtering</p><p>Similar search terms</p><p>Spell checking</p><p>Google Analytics</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Administration",
@@ -223,7 +235,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/admin.svg"
                 },
                 "content": "<p>Modules/Extensions Auto Updates</p><p>Data import/export</p><p>Data synchronization</p><p>Backup and restore</p><p>Staging and production environments</p><p>Manage roles and permissions</p><p>REST API permissions</p><p>Active directory and federation</p><p>Email notifications</p><p>SMS notifications</p>",
-                "width": null
+                "width": null,
+                "url": null
             },
             {
                 "title": "Mobile App",
@@ -231,7 +244,8 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/app.svg"
                 },
                 "content": "<p>Ionic Framework / AngularJS</p><p>Catalog Browsing</p><p>Checkout</p><p>Products and Variations</p><p>Uses Web API</p><p>Source code provided</p><p>iOS and Android</p>",
-                "width": null
+                "width": null,
+                "url": null
             }
         ],
         "frame": null,
