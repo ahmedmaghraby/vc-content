@@ -1,0 +1,140 @@
+// Collumns list
+.list
+{
+    list-style: none;
+
+    li
+    {
+        padding: 0;
+
+        &::before
+        {
+            display: none;
+        }
+    }
+}
+
+.list--columns
+{
+    .list__item
+    {
+        margin-top: 4.75rem;
+        text-align: left;
+    }
+
+    .list__t
+    {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+
+    .list__icon
+    {
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .list__descr
+    {
+        font-size: 1.125rem;
+    }
+
+    ul,
+    ol
+    {
+        li
+        {
+            display: block;
+            font-size: .875rem;
+            line-height: 1.4;
+            min-height: 0;
+            padding: 0;
+
+            & ~ li
+            {
+                margin-top: .625rem;
+            }
+        }
+
+        a
+        {
+            color: inherit;
+
+            &:hover
+            {
+                color: $orange;
+            }
+        }
+    }
+
+    & ~ .list__actions
+    {
+        display: none;
+    }
+
+    &.list--centered
+    {
+        text-align: center;
+
+        .list__item,
+        li
+        {
+            text-align: center;
+        }
+    }
+
+    &.list--right
+    {
+        text-align: right;
+
+        .list__item,
+        li
+        {
+            text-align: right;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .list__item:nth-child(n+4)
+        {
+            display: none;
+        }
+
+        .list__actions
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+
+            &-control
+            {
+                background: url(../i/icons/slider-arrow.svg) no-repeat;
+                cursor: pointer;
+                height: 3.125rem;
+                margin: 0 .875rem;
+                width: 3.125rem;
+
+                &--next
+                {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .list__item:nth-child(n+3)
+        {
+            display: none;
+        }
+    }
+}
+
+.list--capabilities
+{
+    .list__icon
+    {
+        height: 3.125rem;
+    }
+}
