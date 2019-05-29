@@ -301,6 +301,11 @@
     }
 }
 
+.section__inner .section__t {
+    font-weight: bold;
+    line-height: 1.1;
+}
+
 .section--bg .section__t {
     font-weight: bold;
     line-height: 1.1;
