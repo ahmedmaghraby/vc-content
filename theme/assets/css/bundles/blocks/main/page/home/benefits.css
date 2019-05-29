@@ -1,4 +1,5 @@
 .benefits {
+    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 5.625rem;
@@ -55,8 +56,10 @@
     }
 
     .benefits__actions {
+        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         margin-top: 2.5rem;
@@ -71,6 +74,7 @@
     }
 
     .benefits__actions-control--next {
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 }

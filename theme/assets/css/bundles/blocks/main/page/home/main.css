@@ -1,4 +1,5 @@
 .benefits {
+    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 5.625rem;
@@ -55,8 +56,10 @@
     }
 
     .benefits__actions {
+        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         margin-top: 2.5rem;
@@ -71,6 +74,7 @@
     }
 
     .benefits__actions-control--next {
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
     }
 }
@@ -80,6 +84,7 @@
 }
 
 .section--hp .section__inner {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
@@ -99,11 +104,13 @@
 }
 
 .section--hp .form {
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
 .section--hp .form .form-control {
+    -webkit-box-flex: 1;
     -ms-flex: 1 0 0px;
     flex: 1 0 0;
     max-width: 18.75rem;
@@ -121,6 +128,7 @@
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: .625rem;
+    -webkit-box-shadow: 0 1.25rem 1.25rem 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1.25rem 1.25rem 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -132,6 +140,7 @@
 }
 
 .carousel__control--next {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -158,6 +167,8 @@
     }
 
     .section--hp .section__inner > .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
@@ -167,10 +178,12 @@
     }
 
     .carousel {
+        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         margin-top: 2.5rem;
@@ -199,13 +212,17 @@
     }
 
     .section--hp .form {
+        -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
 
     .section--hp .form .form-control {
+        -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
         flex: 1 0 auto;
         width: 100%;
@@ -233,6 +250,7 @@
     .carousel__control {
         position: absolute;
         top: 50%;
+        -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
@@ -243,6 +261,7 @@
 
     .carousel__control--next {
         right: 0;
+        -webkit-transform: rotateY(180deg) translateY(-50%);
         transform: rotateY(180deg) translateY(-50%);
     }
 }
