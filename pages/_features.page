@@ -30,8 +30,7 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/commerce-modules.svg"
                 },
-                "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Pricing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Customers</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Stores</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Content management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketing</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Product information management</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Orders</a></p>",
-                "width": null,
+                "content": "<ul>\n\t<li><a href=\"#\">Pricing</a></li>\n\t<li><a href=\"#\">Customers</a></li>\n\t<li><a href=\"#\">Stores</a></li>\n\t<li><a href=\"#\">Content management</a></li>\n\t<li><a href=\"#\">Marketing</a></li>\n\t<li><a href=\"#\">Product information management</a></li>\n\t<li><a href=\"#\">Orders</a></li>\n</ul>\n",
                 "url": null
             },
             {
@@ -39,8 +38,7 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/custom-modules.svg"
                 },
-                "content": "<p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Integration services (ERP, Taxes)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Marketplaces (Amazon, Ebay)</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\">Payment methods</a></p><p class=\"ql-align-center\"><a href=\"about:blank\" target=\"_blank\" style=\"color: inherit;\"><span class=\"ql-cursor\">﻿﻿</span>Shipment Gateway</a></p>",
-                "width": null,
+                "content": "<ul>\n\t<li><a href=\"#\">Integration services (ERP, Taxes)</a></li>\n\t<li><a href=\"#\">Marketplaces (Amazon, Ebay)</a></li>\n\t<li><a href=\"#\">Payment methods</a></li>\n\t<li><a href=\"#\">Shipment Gateway</a></li>\n</ul>\n",
                 "url": null
             },
             {
@@ -49,7 +47,6 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/platform-modules.svg"
                 },
                 "content": "<ul>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Security</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Notifications</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Data migration</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Background job</a></li>\n\t<li><a href=\"about:blank\" style=\"color: inherit;\" target=\"_blank\">Assets</a></li>\n</ul>\n",
-                "width": null,
                 "url": null
             }
         ],

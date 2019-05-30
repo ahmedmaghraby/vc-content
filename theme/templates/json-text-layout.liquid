@@ -6,34 +6,43 @@
 <section class="section {{ cssStyle }}">
     <div class="section__inner container">
         {% if block.title != blank %}
-            {% if blockIndex == 1 %}
-                <h1 class="section__t">{{ block.title }}</h1>
-            {% else %}
-                <h2 class="section__t">{{ block.title }}</h2>
-            {% endif %}
+            <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
-		
-		{% if block.contentTop != blank %}
-		<div class="row section__info mt-5 section__descr">
-			{{ block.contentTop }}
-		</div>
-		{% endif %}
-		
-		<div class="row section__info">
-			<div class="col-lg-6 section__descr">
-				{{ block.contentLeft }}
-			</div>
-			<div class="col-lg-6 section__descr">
-				{{ block.contentRight }}
-			</div>
-		</div>
+		<div class="section__info">
+		    {% if block.contentTop != blank %}
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="section__descr">
+                        {{ block.contentTop }}
+                    </div>
+                </div>
+            </div>
+		    {% endif %}
 
-		{% if block.contentBottom != blank %}
-		<div class="row section__info mt-5 section__descr">
-			{{ block.contentBottom }}
-		</div>
-		{% endif %}
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__descr">
+                        {{ block.contentLeft }}
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section__descr">
+                        {{ block.contentRight }}
+                    </div>
+                </div>
+            </div>
 
+		    {% if block.contentBottom != blank %}
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="section__descr">
+                        {{ block.contentBottom }}
+                    </div>
+                </div>
+            </div>
+		    {% endif %}
+
+        </div>
     </div>
 </section>
 

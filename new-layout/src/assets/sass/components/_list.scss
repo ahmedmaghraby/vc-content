@@ -1,0 +1,208 @@
+// Collumns list
+.list
+{
+    list-style: none;
+
+    li
+    {
+        padding: 0;
+
+        &::before
+        {
+            display: none;
+        }
+    }
+}
+
+.list--columns
+{
+    .list__item
+    {
+        margin-top: 4.75rem;
+        text-align: left;
+    }
+
+    .list__t
+    {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+
+    .list__icon
+    {
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .list__descr
+    {
+        font-size: 1rem;
+    }
+
+    .list__link
+    {
+        color: $orange;
+        display: inline-block;
+        margin-top: 1.25rem;
+
+        &:hover
+        {
+            color: darken($orange, 2%);
+        }
+    }
+
+    ul,
+    ol
+    {
+        li
+        {
+            display: block;
+            font-size: .875rem;
+            line-height: 1.4;
+            min-height: 0;
+            padding: 0;
+
+            & ~ li
+            {
+                margin-top: .625rem;
+            }
+        }
+
+        a
+        {
+            color: inherit;
+
+            &:hover
+            {
+                color: $orange;
+            }
+        }
+    }
+
+    & ~ .list__actions
+    {
+        display: none;
+    }
+
+    &.list--centered
+    {
+        text-align: center;
+
+        .list__item,
+        li
+        {
+            text-align: center;
+        }
+    }
+
+    &.list--right
+    {
+        text-align: right;
+
+        .list__item,
+        li
+        {
+            text-align: right;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .list__item:nth-child(n+4)
+        {
+            display: none;
+        }
+
+        .list__actions
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+
+            &-control
+            {
+                background: url(../i/icons/slider-arrow.svg) no-repeat;
+                cursor: pointer;
+                height: 3.125rem;
+                margin: 0 .875rem;
+                width: 3.125rem;
+
+                &--next
+                {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .list__item:nth-child(n+3)
+        {
+            display: none;
+        }
+    }
+}
+
+.list--capabilities
+{
+    .list__icon
+    {
+        height: 3.125rem;
+    }
+}
+
+// List cards
+.list--cards
+{
+    .list__item
+    {
+        margin-top: 1.875rem;
+    }
+
+    .list__inner
+    {
+        align-items: flex-start;
+        border: 1px solid $gray-400;
+        border-radius: .625rem;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0 1.875rem;
+        text-align: left;
+    }
+
+    .list__img
+    {
+        border-radius: .625rem .625rem 0 0;
+        flex: 0 0 13.125rem;
+        height: 13.125rem;
+        margin: -1px -1.9375rem 1.25rem;
+        overflow: hidden;
+    }
+
+    .list__pic
+    {
+        border-radius: .625rem .625rem 0 0;
+        display: block;
+        width: 100%;
+    }
+
+    .list__t
+    {
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin-bottom: 1.25rem;
+    }
+
+    .list__descr
+    {
+        color: $gray-500;
+        font-size: .875rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .btn
+    {
+        margin: auto 0 1.25rem;
+    }
+}
