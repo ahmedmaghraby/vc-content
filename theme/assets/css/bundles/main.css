@@ -5718,24 +5718,31 @@ blockquote {
     z-index: 5;
 }
 
+.section--cover .section__sub-t {
+    color: #fd7e14;
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
 .section--cover .section__t {
     font-size: 3rem;
-    font-weight: 900;
+    line-height: 1.2;
     margin-bottom: 1rem;
-    text-transform: uppercase;
 }
 
 .section--cover .section__descr {
     font-size: 1.25rem;
-    font-weight: bold;
-    max-width: 37.5rem;
+    line-height: 1.5;
 }
 
 .section--cover .section__t,
   .section--cover .section__descr {
     color: #fff;
     position: relative;
-    text-shadow: 0 0.1875rem 0 #000;
     z-index: 10;
 }
 
@@ -5766,7 +5773,6 @@ blockquote {
 
     .section--cover .section__descr {
         font-size: 1.125rem;
-        max-width: 20rem;
     }
 }
 
@@ -6955,7 +6961,17 @@ textarea {
 }
 
 .list--columns .list__descr {
-    font-size: 1.125rem;
+    font-size: 1rem;
+}
+
+.list--columns .list__link {
+    color: #fd7e14;
+    display: inline-block;
+    margin-top: 1.25rem;
+}
+
+.list--columns .list__link:hover {
+    color: #fd780a;
 }
 
 .list--columns ul li,
@@ -7041,6 +7057,60 @@ textarea {
 
 .list--capabilities .list__icon {
     height: 3.125rem;
+}
+
+.list--cards .list__item {
+    margin-top: 1.875rem;
+}
+
+.list--cards .list__inner {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border: 1px solid #ced4da;
+    border-radius: .625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 1.875rem;
+    text-align: left;
+}
+
+.list--cards .list__img {
+    border-radius: .625rem .625rem 0 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 13.125rem;
+    flex: 0 0 13.125rem;
+    height: 13.125rem;
+    margin: -1px -1.9375rem 1.25rem;
+    overflow: hidden;
+}
+
+.list--cards .list__pic {
+    border-radius: .625rem .625rem 0 0;
+    display: block;
+    width: 100%;
+}
+
+.list--cards .list__t {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.list--cards .list__descr {
+    color: #adb5bd;
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+}
+
+.list--cards .btn {
+    margin: auto 0 1.25rem;
 }
 
 .nav {

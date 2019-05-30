@@ -412,19 +412,28 @@
         }
     }
 
+    .section__sub-t
+    {
+        color: $orange;
+        font-size: 1.375rem;
+        font-weight: bold;
+        margin-bottom: 2.5rem;
+        position: relative;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+
     .section__t
     {
         font-size: 3rem;
-        font-weight: 900;
+        line-height: 1.2;
         margin-bottom: 1rem;
-        text-transform: uppercase;
     }
 
     .section__descr
     {
         font-size: 1.25rem;
-        font-weight: bold;
-        max-width: 37.5rem;
+        line-height: 1.5;
     }
 
     .section__t,
@@ -432,7 +441,6 @@
     {
         color: $white;
         position: relative;
-        text-shadow: 0 .1875rem 0 $black;
         z-index: 10;
     }
 
@@ -469,7 +477,6 @@
         .section__descr
         {
             font-size: 1.125rem;
-            max-width: 20rem;
         }
     }
 }

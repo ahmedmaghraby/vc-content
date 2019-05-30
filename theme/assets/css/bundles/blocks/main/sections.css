@@ -402,24 +402,31 @@
     z-index: 5;
 }
 
+.section--cover .section__sub-t {
+    color: #fd7e14;
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
 .section--cover .section__t {
     font-size: 3rem;
-    font-weight: 900;
+    line-height: 1.2;
     margin-bottom: 1rem;
-    text-transform: uppercase;
 }
 
 .section--cover .section__descr {
     font-size: 1.25rem;
-    font-weight: bold;
-    max-width: 37.5rem;
+    line-height: 1.5;
 }
 
 .section--cover .section__t,
   .section--cover .section__descr {
     color: #fff;
     position: relative;
-    text-shadow: 0 0.1875rem 0 #000;
     z-index: 10;
 }
 
@@ -450,7 +457,6 @@
 
     .section--cover .section__descr {
         font-size: 1.125rem;
-        max-width: 20rem;
     }
 }
 
