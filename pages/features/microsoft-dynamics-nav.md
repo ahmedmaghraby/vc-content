@@ -20,7 +20,7 @@ permalink: features/ecommerce-microsoft-dynamics-nav
 		<div class="responsive">
 			<div class="column">
 				<div class="feature-info">
-					<p>Status: Testing (<a href="mailto:support@virtocommerce.com?subject=DynamicsNAV">Participate</a>)</p>
+					<p>Status: Feature Request</p>
 					<p>Versions: 2.x</p>
 				</div>
 				<a class="button white large" href="http://help.virtocommerce.com/support/discussions/topics/4000320958" target="_blank">Vote and discuss!</a>
