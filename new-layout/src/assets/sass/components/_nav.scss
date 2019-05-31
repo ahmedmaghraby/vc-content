@@ -5,6 +5,11 @@
     &__item
     {
         font-size: .875rem;
+
+        &::before
+        {
+            display: none;
+        }
     }
 
     &__link
