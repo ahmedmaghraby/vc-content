@@ -31,6 +31,21 @@
         }
     }
 
+    &__num
+    {
+        align-items: center;
+        background: $black;
+        border-radius: 4.375rem;
+        color: $white;
+        display: flex;
+        font-size: 2.5rem;
+        font-weight: 900;
+        justify-content: center;
+        height: 4.375rem;
+        margin-bottom: 2.5rem;
+        width: 4.375rem;
+    }
+
     &__pic
     {
         max-width: 100%;
@@ -236,22 +251,37 @@
 }
 
 .page,
-[class*='-page'] {
-    .section__pic {
+[class*='-page']
+{
+    .section__pic
+    {
         max-width: 75%;
+
+        &--full
+        {
+            max-width: 100%;
+        }
     }
 
-    .section__descr ~ * {
-        margin-bottom: 1.875rem;
-        margin-top: 1.875rem;
+    .section__descr
+    {
+        p + *,
+        ul,
+        ol
+        {
+            margin-bottom: 1.875rem;
+            margin-top: 1.875rem;
+        }
     }
 
     ul,
-    ol {
+    ol
+    {
         list-style: none;
         position: relative;
 
-        li {
+        li
+        {
             align-items: center;
             display: flex;
             flex: 0 0 1.75rem;
@@ -261,7 +291,8 @@
             padding-left: 2.5rem;
             position: relative;
 
-            &::before {
+            &::before
+            {
                 background: url('../assets/images/icons/icon-list.svg') no-repeat scroll 0 0;
                 content: ' ';
                 height: 1.75rem;
@@ -271,17 +302,21 @@
                 width: 1.75rem;
             }
 
-            & ~ li {
+            & ~ li
+            {
                 margin-top: .625rem;
             }
         }
     }
 
-    ol {
+    ol
+    {
         counter-reset: num;
 
-        li {
-            &::before {
+        li
+        {
+            &::before
+            {
                 align-items: center;
                 background: $orange;
                 border-radius: 1.75rem;
@@ -294,7 +329,8 @@
     }
 
     @include media-breakpoint-up(lg) {
-        .row .section__info {
+        .row .section__info
+        {
             flex: 0 0 41.25rem;
             max-width: 41.25rem;
         }
@@ -323,7 +359,7 @@
         font-size: 1rem;
         line-height: 1.6;
 
-        & ~ .section__descr
+        * ~ .section__descr
         {
             margin-top: 3rem;
         }
@@ -352,18 +388,20 @@
     .section__bg
     {
         align-items: center;
-        /*background: url('../assets/images/casestudies/bg-bosch.jpg') no-repeat fixed 50% 25%;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 25%;
         background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 25rem;
+        height: 31.25rem;
         overflow: hidden;
         position: relative;
 
         &::after
         {
-            background: rgba(12,16,21,.8);
+            background: rgba(0,0,0,.55);
             bottom: 0;
             content: ' ';
             left: 0;
@@ -374,19 +412,28 @@
         }
     }
 
+    .section__sub-t
+    {
+        color: $orange;
+        font-size: 1.375rem;
+        font-weight: bold;
+        margin-bottom: 2.5rem;
+        position: relative;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+
     .section__t
     {
-        font-size: 3.75rem;
-        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1.2;
         margin-bottom: 1rem;
-        text-transform: uppercase;
     }
 
     .section__descr
     {
-        font-size: 1.625rem;
-        font-weight: bold;
-        max-width: 37.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
     }
 
     .section__t,
@@ -394,7 +441,6 @@
     {
         color: $white;
         position: relative;
-        text-shadow: 0 .1875rem 0 $black;
         z-index: 10;
     }
 
@@ -431,7 +477,6 @@
         .section__descr
         {
             font-size: 1.125rem;
-            max-width: 20rem;
         }
     }
 }

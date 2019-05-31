@@ -3,7 +3,7 @@
 {% else %}
     {% assign cssStyle = '' %}
 {% endif %}
-<div class="section {{ cssStyle }} section--bg ">
+<div class="section {{ cssStyle }}">
     <div class="section__inner container">
         {% if block.title != blank %}
         <h2 class="section__t">{{ block.title }}</h2>
@@ -13,10 +13,10 @@
             {{ block.content }}
         </div>
         {% endif %}
-        <div class="columns {{ block.columnsAlignment }}{% if block.nowrap == 'True' %} nowrap{% endif %}">
+        <div class="list list--columns list--centered row">
             {% for column in block.columns %}
-            <div class="columns__item {{ block.columnsWidth }}">
-                <div class="columns__inner{% if block.frame == 'True' %} has-border{% endif %}">
+            <div class="list__item col-md-6 col-lg-4">
+                <div class="{% if block.frame == 'True' %}has-border{% endif %}">
                     {% if column.image.url != blank %}
                     <img src="{{ column.image.url }}"
                          {% if column.image.width != blank %} width="{{column.image.width}}" {% endif %}
@@ -24,29 +24,14 @@
                          alt="" class="columns__pic {{ block.imageAlignment }}">
                     {% endif %}
                     {% if column.title != blank %}
-                    <div class="columns__t {{ block.titleAlignment }}">{{ column.title }}</div>
+                    <div class="list__t {{ block.titleAlignment }}">{{ column.title }}</div>
                     {% endif %}
                     {% if column.content != blank %}
-                    <div class="columns__descr">
-                        {{ column.content }}
-                    </div>
-                    {% endif %}
-                    {% if block.url1 != blank and block.url1.url != blank %}
-                    <div class="section__descr">
-                        <a href="{{ block.url1.url }}" class="{{ block.url1.style }}">{{ block.url1.urlText }}</a>
-                        {% if block.url2 != blank and block.url2.url != blank %}
-                        <a href="{{ block.url2.url }}" class="{{ block.url2.style }}">{{ block.url2.urlText }}</a>
-                        {% endif %}
-                    </div>
+                    {{ column.content }}
                     {% endif %}
                     {% if block.url != blank and block.url.url != blank %}
-                    <div class="section__descr">
-                        <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
-                    </div>
+                    <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
                     {% endif %}
-
-
-                    <!-- <a href="#" class="btn btn--orange btn--round">View case study</a> -->
                 </div>
             </div>
             {% endfor %}
