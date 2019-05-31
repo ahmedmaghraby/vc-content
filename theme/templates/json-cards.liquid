@@ -1,0 +1,34 @@
+{% if block.style == 'dark' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
+{% endif %}
+<div class="section {{ cssStyle }}">
+    <div class="section__inner container">
+        <h2 class="section__t">{{ block.title }}</h2>
+        <div class="list list--cards row">
+            {% for item in block.items %}
+            <div class="list__item col-md-6 col-lg-4">
+                <div class="list__inner">
+                    {% if item.image != blank and item.image.url != blank %}
+                    <div class="list__img">
+                        <img src="{{ item.image.url }}" alt="" class="list__pic">
+                    </div>
+                    {% endif %}
+                    <div class="list__t">{{ item.title }}</div>
+                    <div class="list__descr">
+                        {{ item.text }}
+                    </div>
+                    {% if item.link != blank and item.link.url != blank %}
+                    <a href="{{ item.link.url }}" class="btn {{ item.link.style }}">{{ item.link.urlText }}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% comment %}
+
+
+{% endcomment %}
