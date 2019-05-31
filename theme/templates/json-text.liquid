@@ -3,25 +3,25 @@
 {% else %}
     {% assign cssStyle = '' %}
 {% endif %}
-<section class="section {{ cssStyle }} {{ block.decorator }}">
+<div class="section {{ cssStyle }} {{ block.decorator }}">
     <div class="section__inner container">
         {% if block.title != blank %}
-            <h2 class="section__t">{{ block.title }}</h2>
+        <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}
             {% if block.url != blank and block.url.url != blank %}
-                <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
+            <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
             {% endif %}
         </div>
         {% elsif block.url != blank and block.url.url != blank %}
-            <div class="section__descr">
-                <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
-            </div>
+        <div class="section__descr">
+            <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
+        </div>
         {% endif %}
     </div>
-</section>
+</div>
 
 {% comment %}
 

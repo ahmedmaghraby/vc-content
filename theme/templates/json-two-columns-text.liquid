@@ -1,0 +1,43 @@
+{% if block.style == 'dark' %}
+    {% assign cssStyle = 'section--gray' %}
+{% else %}
+    {% assign cssStyle = '' %}
+{% endif %}
+
+<div class="section {{ cssStyle }}">
+	<div class="section__inner container">
+		<div class="section__info">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="section__descr section__descr--small">Who is Virto Commerce for? Experts in B2B digital commerce, in addition to being an ideal solution for manufacturers and distributors, we are experts at putting together solutions for: </div>
+				</div>
+				<div class="col-lg-6">
+					<ul>
+						<li>SaaS: We have the knowledge to deal with some of the digital commerce challenges SaaS businesses encounter during their growth</li>
+						<li>Customers that sell digital commerce solutions: Our platform's architecture allows you to build layers – enabling custom builds of new industry specific digital commerce solutions for your end customer</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="section__descr">In today's fast paced economy, startups - at all stages- can't afford to base their business on the wrong technological infrastructure. Many of the top players in digital commerce offer good looking solutions that turn out to be monolithic, rigid and inflexible – certainly not right for rapidly growing businesses. Choosing the right technology enables you to focus on business growth – not IT. </div>
+				</div>
+				<div class="col-lg-6">
+					<div class="section__descr">Packed with features you need to build your store, Virto Commerce's open-source community edition offers you the functionality to go online by offering an affordable yet fully featured enterprise class platform. As your revenue and business grows, your solution can grow with you – every step of the way. For startups building solutions using our technology, for example SaaS businesses, we provide a flexible license model – something our competitors don't offer.</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col">
+					<div class="section__descr">Entrepreneurs ourselves, we keep Virto Commerce open source and are eager to help guide other innovative companies on their digital transformation journey. Additionally, Virto Commerce is extremely interested in investing in innovative and ambitious startups that use our technology – we make selective investments in businesses we think can disrupt their markets. With Virto Commerce as your partner, you don't need to waste precious time thinking about technology – we handle it, and you focus on your business, value proposition, and strategy. </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% comment %}
+
+{"id": "name","label": "Block name","type": "string","default": "Text"},
+{"id": "content","label": "Content","type": "text","default": "Lorem ipsum dolor sit amet, consectetur ..." }
+
+{% endcomment %}
