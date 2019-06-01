@@ -64,17 +64,16 @@
         align-items: center;
         height: 2.5rem;
         padding: 1.25rem 0;
-        font-size: 16px;
     }
 
     .dropdown-menu .container
     {
         @include media-breakpoint-up(lg) {
-            padding-left: 11.25rem;
+            padding-left: 12.0625rem;
         }
 
         @include media-breakpoint-up(xl) {
-            padding-left: 19.075rem;
+            padding-left: 18.9375rem;
         }
     }
 
@@ -113,7 +112,7 @@
     @include media-breakpoint-down(lg) {
         &-logo
         {
-            background-image: url(../assets/images/logo.svg) no-repeat;
+            background-image: url(../assets/images/logo-mobile.svg) no-repeat;
             width: 2.5rem;
         }
     }
@@ -126,8 +125,6 @@
 
         &-toggle
         {
-            position: absolute;
-            right: 15px;
             display: block;
             margin: 0 1.25rem 0 1.875rem;
         }
@@ -168,6 +165,11 @@
         {
             display: flex;
         }
+
+        .nav__item--login
+        {
+            margin-left: 6rem;
+        }
     }
 
     @include media-breakpoint-up(xl) {
@@ -176,67 +178,10 @@
         {
             margin-left: 1.875rem;
         }
-    }
-}
 
-@media (max-width: 991px)
-{
-    .nav__item--login {
-        display: none;
-    }
-}
-
-#signInContent
-{
-    display: none;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    height: 250px;
-    width: 400px;
-    margin-left: -315px;
-    padding: 15px;
-    bottom: 50px;
-    top: 100%;
-    z-index: 1000;
-
-    & .col-left
-    {
-        background-color: lightgray;
-        border-radius: 5px;
-        width: 50%;
-        height: 100%;
-        padding: 10px;
-    }
-
-    & .col-right
-    {
-        float: right;
-        height: 100%;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 450px)
-{
-    #signInContent
-    {
-        margin-left: 0;
-        left: 0;
-        width: 100%;
-    }
-}
-
-@media (min-width: 992px)
-{
-    .space-between
-    {
-        justify-content: space-between;
-    }
-
-    .nav__item--login
-    {
-        margin-left: 7rem;
+        .nav__item--login
+        {
+            margin-left: 6rem;
+        }
     }
 }

@@ -133,7 +133,7 @@
 }
 
 .carousel__control {
-    background: url(../assets/images/home/icons/slider-arrow.svg) no-repeat;
+    background: url(../assets/images/icons/slider-arrow.svg) no-repeat;
     cursor: pointer;
     height: 3.125rem;
     width: 3.125rem;
@@ -142,22 +142,6 @@
 .carousel__control--next {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-}
-
-.carousel-indicators {
-    position: static;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-@media (max-width: 992px) {
-    .carousel-indicators {
-        display: none;
-    }
-}
-
-.carousel-indicators li {
-    background-color: #fd7e14;
 }
 
 @media (max-width: 991.98px) {

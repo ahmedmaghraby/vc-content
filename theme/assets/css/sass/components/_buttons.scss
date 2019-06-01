@@ -61,11 +61,17 @@
         }
     }
 
-    &--outline
+    &--white
     {
         background: $white;
-        border-color: inherit;
+        border-color: $white;
         color: inherit;
+
+        &:hover
+        {
+            background: darken($white, 5%);
+            color: inherit;
+        }
     }
 
     @include media-breakpoint-down(sm) {
@@ -74,29 +80,5 @@
             height: 2.5rem;
             padding: 0 1.25rem;
         }
-    }
-}
-
-#tryNow
-{
-    text-transform: uppercase;
-    background: $orange;
-    border: 1px solid $orange;
-    border-radius: .25rem;
-    box-sizing: border-box;
-    color: $white;
-    cursor: pointer;
-    display: inline-flex;
-    font-size: .875rem;
-    height: 2.5rem;
-    padding: 0 1.875rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    &.btn--orange:hover
-    {
-        background: lighten($orange, 10%);
-        border-color: lighten($orange, 10%);
-        color: $white;
     }
 }

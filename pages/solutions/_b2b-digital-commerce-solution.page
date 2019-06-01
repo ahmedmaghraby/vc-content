@@ -60,5 +60,26 @@
                 }
             }
         ]
+    },
+    {
+        "id": 4,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Architecture overview",
+        "subTitle": null,
+        "image": {
+            "url": "http://localhost/admin/assets/blogs/bg.jpg"
+        },
+        "content": "<p>Your business can&#39;t afford to keep using&nbsp;<br />\nlimiting ecommerce platforms.</p>\n",
+        "url1": {
+            "url": "google.com",
+            "urlText": "google test",
+            "style": "btn--white"
+        },
+        "url2": {
+            "url": "google.com",
+            "urlText": "google too",
+            "style": "btn--orange"
+        }
     }
 ]

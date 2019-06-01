@@ -4588,14 +4588,14 @@ blockquote {
     }
 
     .swipe__back {
-        background: url(../i/icons/arrow-back.svg) no-repeat;
+        background: url(../assets/images/icons/arrow-back.svg) no-repeat;
         cursor: pointer;
         height: .75rem;
         width: 1.125rem;
     }
 
     .swipe__close {
-        background: url(../i/icons/close.svg) no-repeat;
+        background: url(../assets/images/icons/close.svg) no-repeat;
         cursor: pointer;
         height: 1.1875rem;
         position: absolute;
@@ -4690,7 +4690,7 @@ blockquote {
     }
 
     .swipe .nav__carret {
-        background: url(../i/icons/angle-arrow.svg) no-repeat;
+        background: url(../assets/images/icons/angle-arrow.svg) no-repeat;
         cursor: pointer;
         height: .625rem;
         width: .375rem;
@@ -5662,7 +5662,7 @@ blockquote {
 }
 
 .docs__header-nav .nav__item::before {
-    background: url("../i/page/documentation/chevron.svg") no-repeat;
+    background: url("../assets/images/page/documentation/chevron.svg") no-repeat;
     content: ' ';
     display: inline-block;
     height: .8125rem;

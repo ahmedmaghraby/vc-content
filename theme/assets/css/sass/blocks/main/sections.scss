@@ -5,9 +5,20 @@
     padding: 6.25rem 0;
     text-align: center;
 
+    .row
+    {
+        text-align: left;
+    }
+
     &__t
     {
-        max-width: 52.5rem;
+        font-weight: 900;
+        line-height: 1.2;
+
+        &:not(:first-child)
+        {
+            margin-top: 3.75rem;
+        }
     }
 
     &__descr
@@ -31,6 +42,11 @@
         }
     }
 
+    &__info
+    {
+        text-align: left;
+    }
+
     &__num
     {
         align-items: center;
@@ -49,11 +65,6 @@
     &__pic
     {
         max-width: 100%;
-    }
-
-    &__info
-    {
-        text-align: left;
     }
 
     &--gray
@@ -175,6 +186,37 @@
         }
     }
 
+    .form-horizontal
+    {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        .form-control,
+        .btn
+        {
+            flex: 0 0 15rem;
+            margin-right: 1.25rem;
+            width: 15rem;
+        }
+
+        .btn
+        {
+            justify-content: center;
+            padding: 0;
+        }
+
+        .form-descr
+        {
+            width: 18rem;
+        }
+
+        > *
+        {
+            margin-top: 1.25rem;
+        }
+    }
+
     @include media-breakpoint-down(md) {
         .section__bg
         {
@@ -263,14 +305,28 @@
         }
     }
 
+    .section__icon
+    {
+        height: 3.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .section__divider
+    {
+        background: $gray-300;
+        height: .125rem;
+        margin-bottom: 6.25rem;
+        margin-top: 4.5rem;
+        width: 100%;
+    }
+
     .section__descr
     {
-        p + *,
+        p,
         ul,
         ol
         {
             margin-bottom: 1.875rem;
-            margin-top: 1.875rem;
         }
     }
 
@@ -328,21 +384,30 @@
         }
     }
 
+    ul.custom
+    {
+        li
+        {
+            &::before
+            {
+                align-items: center;
+                background: $orange;
+                border-radius: 1.75rem;
+                content: attr(data-name);
+                display: flex;
+                font-size: 1rem;
+                font-weight: bold;
+                justify-content: center;
+            }
+        }
+    }
+
     @include media-breakpoint-up(lg) {
         .row .section__info
         {
             flex: 0 0 41.25rem;
             max-width: 41.25rem;
         }
-    }
-}
-
-.section__inner
-{
-    .section__t
-    {
-        font-weight: bold;
-        line-height: 1.1;
     }
 }
 
@@ -428,6 +493,11 @@
         font-size: 3rem;
         line-height: 1.2;
         margin-bottom: 1rem;
+
+        &:not(:first-child)
+        {
+            margin-top: 0;
+        }
     }
 
     .section__descr
@@ -442,6 +512,21 @@
         color: $white;
         position: relative;
         z-index: 10;
+    }
+
+    .section__actions
+    {
+        display: flex;
+        position: relative;
+        z-index: 10;
+
+        .btn
+        {
+            justify-content: center;
+            margin: .625rem;
+            padding: 0;
+            width: 17.5rem;
+        }
     }
 
     @include media-breakpoint-down(md) {

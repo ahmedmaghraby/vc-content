@@ -3,8 +3,17 @@
     text-align: center;
 }
 
+.section .row {
+    text-align: left;
+}
+
 .section__t {
-    max-width: 52.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.section__t:not(:first-child) {
+    margin-top: 3.75rem;
 }
 
 .section__descr {
@@ -22,6 +31,10 @@
 
 .section__descr--medium {
     font-size: 1.25rem;
+}
+
+.section__info {
+    text-align: left;
 }
 
 .section__num {
@@ -46,10 +59,6 @@
 
 .section__pic {
     max-width: 100%;
-}
-
-.section__info {
-    text-align: left;
 }
 
 .section--gray {
@@ -164,6 +173,41 @@
     margin: 1.25rem 0;
 }
 
+.section .form-horizontal {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.section .form-horizontal .form-control,
+    .section .form-horizontal .btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 15rem;
+    flex: 0 0 15rem;
+    margin-right: 1.25rem;
+    width: 15rem;
+}
+
+.section .form-horizontal .btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.section .form-horizontal .form-descr {
+    width: 18rem;
+}
+
+.section .form-horizontal > * {
+    margin-top: 1.25rem;
+}
+
 @media (max-width: 991.98px) {
     .section .section__bg {
         height: 30rem;
@@ -240,14 +284,28 @@
     max-width: 100%;
 }
 
-.page .section__descr p + *,
+.page .section__icon,
+[class*='-page'] .section__icon {
+    height: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.page .section__divider,
+[class*='-page'] .section__divider {
+    background: #dee2e6;
+    height: .125rem;
+    margin-bottom: 6.25rem;
+    margin-top: 4.5rem;
+    width: 100%;
+}
+
+.page .section__descr p,
 .page .section__descr ul,
 .page .section__descr ol,
-[class*='-page'] .section__descr p + *,
+[class*='-page'] .section__descr p,
 [class*='-page'] .section__descr ul,
 [class*='-page'] .section__descr ol {
     margin-bottom: 1.875rem;
-    margin-top: 1.875rem;
 }
 
 .page ul,
@@ -320,6 +378,24 @@
     justify-content: center;
 }
 
+.page ul.custom li::before,
+[class*='-page'] ul.custom li::before {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fd7e14;
+    border-radius: 1.75rem;
+    content: attr(data-name);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 @media (min-width: 992px) {
     .page .row .section__info,
   [class*='-page'] .row .section__info {
@@ -328,11 +404,6 @@
         flex: 0 0 41.25rem;
         max-width: 41.25rem;
     }
-}
-
-.section__inner .section__t {
-    font-weight: bold;
-    line-height: 1.1;
 }
 
 .section--bg .section__t {
@@ -418,6 +489,10 @@
     margin-bottom: 1rem;
 }
 
+.section--cover .section__t:not(:first-child) {
+    margin-top: 0;
+}
+
 .section--cover .section__descr {
     font-size: 1.25rem;
     line-height: 1.5;
@@ -428,6 +503,23 @@
     color: #fff;
     position: relative;
     z-index: 10;
+}
+
+.section--cover .section__actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.section--cover .section__actions .btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: .625rem;
+    padding: 0;
+    width: 17.5rem;
 }
 
 @media (max-width: 991.98px) {

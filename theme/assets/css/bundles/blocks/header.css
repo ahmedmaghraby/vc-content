@@ -68,18 +68,17 @@
     align-items: center;
     height: 2.5rem;
     padding: 1.25rem 0;
-    font-size: 16px;
 }
 
 @media (min-width: 992px) {
     .header .dropdown-menu .container {
-        padding-left: 11.25rem;
+        padding-left: 12.0625rem;
     }
 }
 
 @media (min-width: 1200px) {
     .header .dropdown-menu .container {
-        padding-left: 19.075rem;
+        padding-left: 18.9375rem;
     }
 }
 
@@ -112,7 +111,7 @@
 
 @media (max-width: 1199.98px) {
     .header-logo {
-        background-image: url(../assets/images/logo.svg) no-repeat;
+        background-image: url(../assets/images/logo-mobile.svg) no-repeat;
         width: 2.5rem;
     }
 }
@@ -123,8 +122,6 @@
     }
 
     .header-toggle {
-        position: absolute;
-        right: 15px;
         display: block;
         margin: 0 1.25rem 0 1.875rem;
     }
@@ -163,6 +160,10 @@
         display: -ms-flexbox;
         display: flex;
     }
+
+    .header .nav__item--login {
+        margin-left: 6rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -170,60 +171,8 @@
     .header .nav__item {
         margin-left: 1.875rem;
     }
-}
 
-@media (max-width: 991px) {
-    .nav__item--login {
-        display: none;
-    }
-}
-
-#signInContent {
-    display: none;
-    position: absolute;
-    background-color: white;
-    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    height: 250px;
-    width: 400px;
-    margin-left: -315px;
-    padding: 15px;
-    bottom: 50px;
-    top: 100%;
-    z-index: 1000;
-}
-
-#signInContent .col-left {
-    background-color: lightgray;
-    border-radius: 5px;
-    width: 50%;
-    height: 100%;
-    padding: 10px;
-}
-
-#signInContent .col-right {
-    float: right;
-    height: 100%;
-    padding: 10px;
-}
-
-@media (max-width: 450px) {
-    #signInContent {
-        margin-left: 0;
-        left: 0;
-        width: 100%;
-    }
-}
-
-@media (min-width: 992px) {
-    .space-between {
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-    }
-
-    .nav__item--login {
-        margin-left: 7rem;
+    .header .nav__item--login {
+        margin-left: 6rem;
     }
 }

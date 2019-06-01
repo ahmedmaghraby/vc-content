@@ -35,6 +35,19 @@
         margin-bottom: 1rem;
     }
 
+    .list__pic
+    {
+        margin-bottom: 1.875rem;
+        max-width: 21rem;
+    }
+
+    .list__text
+    {
+        color: $gray-400;
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+
     .list__descr
     {
         font-size: 1rem;
@@ -121,7 +134,7 @@
 
             &-control
             {
-                background: url(../i/icons/slider-arrow.svg) no-repeat;
+                background: url(../assets/images/icons/slider-arrow.svg) no-repeat;
                 cursor: pointer;
                 height: 3.125rem;
                 margin: 0 .875rem;
@@ -204,5 +217,14 @@
     .btn
     {
         margin: auto 0 1.25rem;
+    }
+}
+
+.list--our-offices
+{
+    .list__descr
+    {
+        font-size: 1.125rem;
+        line-height: 1.8;
     }
 }

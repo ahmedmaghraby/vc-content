@@ -11,11 +11,12 @@
         <div class="section__descr">
             {{ block.content }}
         </div>
-        {% elsif block.url1 != blank and block.url1.url != blank %}
+        {% endif %}
+        {% if block.url1 != blank and block.url1.url != blank %}
         <div class="section__actions">
-            <a href="{{ block.url1.url }}" class="{{ block.url1.style }}">{{ block.url1.urlText }}</a>
+            <a href="{{ block.url1.url }}" class="btn {{ block.url1.style }}">{{ block.url1.urlText }}</a>
             {% if block.url2 != blank and block.url2.url != blank %}
-            <a href="{{ block.url2.url }}" class="{{ block.url2.style }}">{{ block.url2.urlText }}</a>
+            <a href="{{ block.url2.url }}" class="btn {{ block.url2.style }}">{{ block.url2.urlText }}</a>
             {% endif %}
         </div>
         {% endif %}
