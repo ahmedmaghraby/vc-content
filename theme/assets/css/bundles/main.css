@@ -5092,6 +5092,7 @@ blockquote .author {
 }
 
 .header-logo {
+    display: block;
     background: url(../assets/images/logo.svg) no-repeat;
     font-size: 0;
     height: 2.5rem;
@@ -6912,7 +6913,7 @@ textarea {
 .form-control {
     border: solid 1px #ced4da;
     border-radius: .25rem;
-    color: #ced4da;
+    color: #000;
     font-size: .875rem;
     font-weight: normal;
     height: 2.5rem;

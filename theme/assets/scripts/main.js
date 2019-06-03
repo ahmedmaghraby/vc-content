@@ -222,7 +222,6 @@ $(function () {
             signInContent.show();
         else
             signInContent.hide();
-        alert(arr[0]);
     });
 
     $(window).click(function (event) {
