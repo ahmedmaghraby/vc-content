@@ -2,7 +2,7 @@
 title: As an admin, I want to set a recommended price for products in the price list so that customer see it in storefront
 description: As an admin, I want to set a recommended price for products in the price list so that customer see it in storefront
 layout: docs
-date: 2019-06-**03**
+date: 2019-06-04
 priority: 1
 ---
 ## Audience
