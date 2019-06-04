@@ -5,10 +5,12 @@
 {% endif %}
 <div class="section {{ cssStyle }}">
     <div class="section__inner container">
+        <h2 class="section__t">{{ block.title }}</h2>
+        {% if block.intro != blank %}
         <div class="section__descr">
             {{ block.intro }}
         </div>
-        <h2 class="section__t">{{ block.title }}</h2>
+        {% endif %}
         <div class="list list--columns row">
             {% for item in block.items %}
             <div class="list__item {{ block.colStyle }}">
