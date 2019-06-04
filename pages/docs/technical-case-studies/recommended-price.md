@@ -10,13 +10,13 @@ priority: 1
 For Business Analyst, Solution Consultant, Solution Architect.
 
 ## Overview
-
+Give your users more control and flexibility around product prices by adding a new price's type. Then, manager can do things like set recommended product price with default prices and display it on sales channel.
 
 ## Functional overview
 
 ### User stories
 
-#### 1. As an admin, I want to set a recommended price for products in the price list to show it to a customer in a storefront
+#### As an admin, I want to set a recommended price for products in the price list to show it to a customer in a storefront
 
 **Scenario 1.** Admin registers a recommended price for a product
 
@@ -25,9 +25,9 @@ For Business Analyst, Solution Consultant, Solution Architect.
 
 **Generalization:** This is the story about adding a new price column into the price list, similar to "sales price" or other kinds of prices
 
-![Recommended Price in Admin UI](docs/technical-case-studies/media/image2019-5-21_12-7-38.png)
+![Recommended Price in Admin UI](../../assets/images/technical-case-studies/image2019-5-17_18-40-56.png)
 
-#### 2. As a storefront client, I want to VirtoCommerce Price Module API returns the VirtoCommerce.Domain.Pricing.Model.Price model with a recommended price
+#### As a storefront client, I want to VirtoCommerce Price Module API returns the VirtoCommerce.Domain.Pricing.Model.Price model with a recommended price
 
 **Scenario 1.** VirtoCommerce Price model is extended with the recommended price property.
 1. Open VirtoCommerce Solution REST API documentation.
@@ -41,27 +41,29 @@ For Business Analyst, Solution Consultant, Solution Architect.
 
 **Generalization:** This is the story about extending Price model with a new property "recommend" price.
 
-![Recommended Price in Rest API](docs/technical-case-studies/media/image2019-5-17_18-40-56.png)
+![Recommended Price in Rest API](../../assets/images/technical-case-studies/image2019-5-21_12-7-38.png)
 
 ## Non-functional overview
 
-**Effort (story points):** 2 – Small changes, development is required (1-2 days)
+**Effort (story points):**
+
+2 – Small changes, development is required (1-2 days)
 
 
 ## For Team Lead
 
 This case study shows how to extend the standard Pricing Module by adding a field to the Price entity.
 
-## How to implement: an overview
+### How to implement: an overview
 
 This is one of the simplest examples how to extend the Pricing Module. To implement the example, you should use the standard template Pricing Module extension https://github.com/VirtoCommerce/vc-visualstudio-templates
 
-## How to implement: step by step instruction for Developers
+### How to implement: step by step instruction for Developers
 
-### Pre-conditions
+#### Pre-conditions
 Nope
 
-### Steps
+#### Steps
 1.	Create Pricing Module extension solution from the template 
 1.	Fill in **module.manifest** file
 1.	Connect extension module with the platform
@@ -79,12 +81,10 @@ Nope
 1.	Add **Recommended** column into **Price** grid in Platform manager UI (**Web project, module.js**)
 1.	Extend Localization file for **Recommended** field (**Web project**)
 
-### Expected Result
+#### Expected Result
 Recommended column added into the Price
 
-## How to implement: Source Code (Code examples)
-You can use this sample
-https://github.com/VirtoCommerce/vc-samples/tree/master/External.PriceModule
+### How to implement: Source Code (Code examples)
+You can use this sample https://github.com/VirtoCommerce/vc-samples/tree/master/External.PriceModule
 
-You can use ready to use Visual Studio Template to create Virto Commerce 2.x Pricing Module extension.
-https://github.com/VirtoCommerce/vc-visualstudio-templates
+You can use ready to use Visual Studio Template to create Virto Commerce 2.x Pricing Module extension https://github.com/VirtoCommerce/vc-visualstudio-templates
