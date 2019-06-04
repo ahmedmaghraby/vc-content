@@ -19,9 +19,9 @@
                 {% endif %}
                 <div class="section__descr">
                     {{ block.content }}
-                    {% if block.url1 != blank and block.url1.url != blank %}
+                    {% if block.url1 != blank and block.url1.urlText != blank %}
                     <a href="{{ block.url1.url }}" class="{{ block.url1.style }}">{{ block.url1.urlText }}</a>
-                    {% if block.url2 != blank and block.url2.url != blank %}
+                    {% if block.url2 != blank and block.url2.urlText != blank %}
                     <a href="{{ block.url2.url }}" class="{{ block.url2.style }}">{{ block.url2.urlText }}</a>
                     {% endif %}
                     {% endif %}

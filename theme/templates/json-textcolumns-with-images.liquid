@@ -29,7 +29,7 @@
                     {% if column.content != blank %}
                     {{ column.content }}
                     {% endif %}
-                    {% if block.url != blank and block.url.url != blank %}
+                    {% if block.url != blank and block.url.urlText != blank %}
                     <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
                     {% endif %}
                 </div>

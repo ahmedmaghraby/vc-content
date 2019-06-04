@@ -19,7 +19,7 @@
                     <div class="list__descr">
                         {{ item.text }}
                     </div>
-                    {% if item.link != blank and item.link.url != blank %}
+                    {% if item.link != blank and item.link.urlText != blank %}
                     <a href="{{ item.link.url }}" class="btn {{ item.link.style }}">{{ item.link.urlText }}</a>
                     {% endif %}
                 </div>
