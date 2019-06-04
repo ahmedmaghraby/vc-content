@@ -1,7 +1,7 @@
 ---
 author: VirtoCommerce
 category: virtocommerce-news
-date: '2019-06-04'
+date: '2019-06-05'
 permalink: blog/press-release-for-virto-v3
 main-image: ../../assets/images/blog/press-release-for-virto-v3.png
 tags:
@@ -39,7 +39,7 @@ excerpt: ​​Virto Commerce, a leading B2B digital commerce platform, today la
 <p class="text">
     What's New with Virto Commerce Version 3
 </p>
-<ul class="text">
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Platform Compatible: ASP.NET Core is cross-platform – which means Virto Commerce can run on macOS, Linux and Windows.
     </li>
@@ -53,10 +53,6 @@ excerpt: ​​Virto Commerce, a leading B2B digital commerce platform, today la
     <li>
         Extensible: Architecture changes lead to extensibility improvements, and that means that the development of features will be cheaper for clients and partner solution
         development.
-    </li>
-    <li>
-        20 Modules: New modules and migrated modules now are on V3 Core. Notification functionality which was spread by the system will be consolidated in a new Notification module
-        with transparent structure.
     </li>
 </ul>
 <p class="text">
