@@ -162,6 +162,20 @@
                     { "value": "benefits__link", "label": "Link"},
                     { "value": "btn btn--orange btn--round", "label": "Round orange"}
                 ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -225,6 +239,20 @@
                     { "value": "btn--orange", "label": "Orange button" },
                     { "value": "btn--white", "label": "White button" }
                 ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -313,6 +341,20 @@
                         "content": "Mount Galunggung is an active stratovolcano in West Java, Indonesia. <a href='https://en.wikipedia.org/wiki/Galunggung'>See more on Wiki</a>"
                     }
                 ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -388,6 +430,20 @@
                     { "value": "benefits__link", "label": "Link"},
                     { "value": "btn btn--orange btn--round", "label": "Round orange"}
                 ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -453,6 +509,20 @@
                     }
                 ],
                 "default": [ ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -544,6 +614,20 @@
                     }
                 ],
                 "default": [ ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -556,6 +640,7 @@
                 "label": "Block name",
                 "type": "string",
                 "default": "Simple image",
+                "tab": "Settings",
                 "autofocus": true
             },
             {
@@ -570,6 +655,7 @@
                 "label": "Block style",
                 "type": "select",
                 "default": "light",
+                "tab": "Settings",
                 "options": [
                     {
                         "value": "light",
@@ -588,6 +674,20 @@
                 "previewWidth": 120,
                 "previewHeight": 80,
                 "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bajkał_lake.jpg"
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": false
             }
         ]
     },
@@ -601,6 +701,37 @@
                 "label": "Block name",
                 "type": "string",
                 "default": "Image with text"
+            },
+            {
+                "id": "style",
+                "label": "Block style",
+                "type": "select",
+                "default": "light",
+                "tab": "Settings",
+                "options": [
+                    {
+                        "value": "light",
+                        "label": "Light"
+                    },
+                    {
+                        "value": "dark",
+                        "label": "Dark"
+                    }
+                ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": true
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": true
             }
         ]
     },
@@ -846,13 +977,13 @@
                 "removeText": "Remove image",
                 "displayField": "title",
                 "element": [
-                  {
-                    "id": "image",
-                    "label": "Upload picture",
-                    "type": "image",
-                    "previewWidth": 120,
-                    "previewHeight": 80
-                  }
+                    {
+                        "id": "image",
+                        "label": "Upload picture",
+                        "type": "image",
+                        "previewWidth": 120,
+                        "previewHeight": 80
+                    }
                 ],
                 "default": [
                     {
@@ -1048,13 +1179,13 @@
         "icon": "category",
         "hide": true,
         "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Category",
-                "autofocus": true
-            },
+          {
+            "id": "name",
+            "label": "Block name",
+            "type": "string",
+            "default": "Category",
+            "autofocus": true
+          },
             {
                 "id": "title",
                 "label": "Title",

@@ -1,9 +1,10 @@
-<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == True %} section--small-top {% endif %} {% if block.noBottom == True %} section--small-bottom {% endif %}">
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.no_top == True %} section--small-top {% endif %} {% if block.no_bottom == True %} section--small-bottom {% endif %}">
     <div class="section__inner container">
         {% if block.title != blank %}
             <h2 class="section__t">{{ block.title }}</h2>
         {% endif %}
-		<div class="section__info">
+		<div class="section__info">
+
 		    {% if block.contentTop != blank %}
             <div class="row mt-5">
                 <div class="col">
