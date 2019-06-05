@@ -2,21 +2,21 @@
     font-family: 'CircularStd';
     font-style: normal;
     font-weight: 300;
-    src: local("Circular Std Book"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.otf");
+    src: local("Circular Std Book"), url("../../fonts/CircularStd-Book.woff") format("woff"), url("../../fonts/CircularStd-Book.otf");
 }
 
 @font-face {
     font-family: 'CircularStd';
   font-style: normal;
   font-weight: bold;
-  src: local("Circular Std Bold"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.otf");
+  src: local("Circular Std Bold"), url("../../fonts/CircularStd-Bold.woff") format("woff"), url("../../fonts/CircularStd-Bold.otf");
 }
 
 @font-face {
     font-family: 'CircularStd';
   font-style: normal;
   font-weight: 900;
-  src: local("Circular Std Black"), url("../fonts/CircularStd-Black.woff") format("woff"), url("../fonts/CircularStd-Black.otf");
+  src: local("Circular Std Black"), url("../../fonts/CircularStd-Black.woff") format("woff"), url("../../fonts/CircularStd-Black.otf");
 }
 
 /*!
@@ -4811,6 +4811,7 @@ blockquote .author {
 
 .header-logo {
     background: url("../../images/redesign/logo.svg") no-repeat;
+    display: block;
     font-size: 0;
     height: 2.5rem;
     width: 8.6875rem;
@@ -4848,28 +4849,35 @@ blockquote .author {
     display: none;
 }
 
-.header .nav__item--try .nav__link {
-    color: #ffc107;
-    font-weight: 900;
+.header .nav__item--try {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header .nav__item--try .btn {
+    margin: 1.25rem 0;
 }
 
 .header .nav__link {
     box-sizing: content-box;
     -ms-flex-align: center;
     align-items: center;
+    font-size: 1rem;
     height: 2.5rem;
     padding: 1.25rem 0;
 }
 
 @media (min-width: 992px) {
     .header .dropdown-menu .container {
-        padding-left: 12.0625rem;
+        padding-left: 11.875rem;
     }
 }
 
 @media (min-width: 1200px) {
     .header .dropdown-menu .container {
-        padding-left: 18.9375rem;
+        padding-left: 19.625rem;
     }
 }
 
@@ -4904,6 +4912,10 @@ blockquote .author {
     .header-logo {
         width: 2.5rem;
     }
+
+    .header .nav__item--login {
+        display: none;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -4913,7 +4925,8 @@ blockquote .author {
 
     .header-toggle {
         display: block;
-        margin: 0 1.25rem 0 1.875rem;
+        position: absolute;
+        right: .9375rem;
     }
 
     .header .nav__item--try {
@@ -4961,7 +4974,7 @@ blockquote .author {
     }
 
     .header .nav__item--login {
-        margin-left: 6rem;
+        margin-left: 7rem;
     }
 }
 
@@ -5061,6 +5074,14 @@ blockquote .author {
 
 .section--no-padding {
     padding: 0;
+}
+
+.section--small-bottom {
+    padding-bottom: 1.875rem;
+}
+
+.section--small-top {
+    padding-top: 1.875rem;
 }
 
 .section--pattern {
@@ -6299,6 +6320,7 @@ blockquote .author {
     border-top: 1px solid #d3d3d3;
     display: none;
     left: 0;
+    margin: 0;
     padding: 2.5rem 0;
     position: absolute;
     right: 0;
