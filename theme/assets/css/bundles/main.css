@@ -2,21 +2,21 @@
     font-family: 'CircularStd';
     font-style: normal;
     font-weight: 300;
-    src: local("Circular Std Book"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.otf");
+    src: local("Circular Std Book"), url("../../fonts/CircularStd-Book.woff") format("woff"), url("../../fonts/CircularStd-Book.otf");
 }
 
 @font-face {
     font-family: 'CircularStd';
   font-style: normal;
   font-weight: bold;
-  src: local("Circular Std Bold"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.otf");
+  src: local("Circular Std Bold"), url("../../fonts/CircularStd-Bold.woff") format("woff"), url("../../fonts/CircularStd-Bold.otf");
 }
 
 @font-face {
     font-family: 'CircularStd';
   font-style: normal;
   font-weight: 900;
-  src: local("Circular Std Black"), url("../fonts/CircularStd-Black.woff") format("woff"), url("../fonts/CircularStd-Black.otf");
+  src: local("Circular Std Black"), url("../../fonts/CircularStd-Black.woff") format("woff"), url("../../fonts/CircularStd-Black.otf");
 }
 
 /*!
@@ -5061,6 +5061,14 @@ blockquote .author {
 
 .section--no-padding {
     padding: 0;
+}
+
+.section--small-bottom {
+    padding-bottom: 1.875rem;
+}
+
+.section--small-top {
+    padding-top: 1.875rem;
 }
 
 .section--pattern {
