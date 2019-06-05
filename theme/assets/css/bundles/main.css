@@ -5157,6 +5157,10 @@ blockquote .author {
     }
 }
 
+.section .section__sidebar .nav__item {
+    padding: 0;
+}
+
 .section .section__content,
   .section .section__sidebar {
     margin-bottom: 3.125rem;
@@ -5168,18 +5172,27 @@ blockquote .author {
     margin-top: 0;
 }
 
-.section .section__content h3 {
-    margin: 1.875rem 0;
-}
-
-.section .section__content blockquote {
-    margin: 1.875rem 0;
-}
-
 .section .section__content p {
-    font-size: .875rem;
-    line-height: 1.7;
+    font-size: 1.125rem;
+    line-height: 1.5;
     margin: 1.25rem 0;
+}
+
+.section .section__content-header {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1.875rem;
+}
+
+.section .section__content-header .section__t {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.section .section__content-header .btn {
+    margin-left: auto;
 }
 
 .section .form-horizontal {
@@ -5268,7 +5281,7 @@ blockquote .author {
     }
 
     .section .section__content {
-        margin-right: 4rem;
+        margin-left: 4rem;
     }
 
     .section .section__sidebar {

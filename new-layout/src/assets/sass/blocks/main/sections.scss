@@ -159,6 +159,11 @@
                 }
             }
         }
+
+        .nav__item
+        {
+            padding: 0;
+        }
     }
 
     .section__content,
@@ -176,21 +181,29 @@
             margin-top: 0;
         }
 
-        h3
-        {
-            margin: 1.875rem 0;
-        }
-
-        blockquote
-        {
-            margin: 1.875rem 0;
-        }
-
         p
         {
-            font-size: .875rem;
-            line-height: 1.7;
+            font-size: 1.125rem;
+            line-height: 1.5;
             margin: 1.25rem 0;
+        }
+
+        &-header
+        {
+            align-items: center;
+            display: flex;
+            margin-bottom: 1.875rem;
+
+            .section__t
+            {
+                font-size: 2.5rem;
+                margin: 0;
+            }
+
+            .btn
+            {
+                margin-left: auto;
+            }
         }
     }
 
@@ -289,7 +302,7 @@
 
         .section__content
         {
-            margin-right: 4rem;
+            margin-left: 4rem;
         }
 
         .section__sidebar
