@@ -37,7 +37,7 @@
 
         &__back
         {
-            background: url(../i/icons/arrow-back.svg) no-repeat;
+            background: url($tpl-img-url + 'icons/arrow-back.svg') no-repeat;
             cursor: pointer;
             height: .75rem;
             width: 1.125rem;
@@ -45,7 +45,7 @@
 
         &__close
         {
-            background: url(../i/icons/close.svg) no-repeat;
+            background: url($tpl-img-url + 'icons/close.svg') no-repeat;
             cursor: pointer;
             height: 1.1875rem;
             position: absolute;
@@ -142,7 +142,7 @@
 
             &__carret
             {
-                background: url(../i/icons/angle-arrow.svg) no-repeat;
+                background: url($tpl-img-url + 'icons/angle-arrow.svg') no-repeat;
                 cursor: pointer;
                 height: .625rem;
                 width: .375rem;

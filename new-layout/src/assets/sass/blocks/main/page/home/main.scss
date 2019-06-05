@@ -55,7 +55,7 @@
 
     &__control
     {
-        background: url(../i/icons/slider-arrow.svg) no-repeat;
+        background: url($tpl-img-url + 'icons/slider-arrow.svg') no-repeat;
         cursor: pointer;
         height: 3.125rem;
         width: 3.125rem;

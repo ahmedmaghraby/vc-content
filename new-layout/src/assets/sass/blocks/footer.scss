@@ -10,7 +10,7 @@
 
     &__logo
     {
-        background: url(../i/logo-footer.svg) no-repeat;
+        background: url($tpl-img-url + 'logo-footer.svg') no-repeat;
         font-size: 0;
         height: 2.5rem;
         margin-bottom: 2.5rem;

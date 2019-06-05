@@ -90,7 +90,7 @@
 
         &::after
         {
-            background: url(../i/r-pattern.svg) no-repeat;
+            background: url($tpl-img-url + 'r-pattern.svg') no-repeat;
             height: 18.5rem;
             right: 0;
             width: 12.5rem;
@@ -98,7 +98,7 @@
 
         &::before
         {
-            background: url(../i/l-pattern.svg) no-repeat;
+            background: url($tpl-img-url + 'l-pattern.svg') no-repeat;
             height: 16.125rem;
             left: 0;
             width: 13.25rem;
@@ -347,7 +347,7 @@
 
             &::before
             {
-                background: url('../i/icons/icon-list.svg') no-repeat scroll 0 0;
+                background: url($tpl-img-url + 'icons/icon-list.svg') no-repeat scroll 0 0;
                 content: ' ';
                 height: 1.75rem;
                 left: 0;
