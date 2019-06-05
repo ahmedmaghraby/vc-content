@@ -11,6 +11,7 @@
     &-logo
     {
         background: url($tpl-img-url + 'logo.svg') no-repeat;
+        display: block;
         font-size: 0;
         height: 2.5rem;
         width: 8.6875rem;
@@ -50,16 +51,22 @@
         display: none;
     }
 
-    .nav__item--try .nav__link
+    .nav__item--try
     {
-        color: $yellow;
-        font-weight: 900;
+        align-items: center;
+        display: flex;
+
+        .btn
+        {
+            margin: 1.25rem 0;
+        }
     }
 
     .nav__link
     {
         box-sizing: content-box;
         align-items: center;
+        font-size: 1rem;
         height: 2.5rem;
         padding: 1.25rem 0;
     }
@@ -67,11 +74,11 @@
     .dropdown-menu .container
     {
         @include media-breakpoint-up(lg) {
-            padding-left: 12.0625rem;
+            padding-left: 11.875rem;
         }
 
         @include media-breakpoint-up(xl) {
-            padding-left: 18.9375rem;
+            padding-left: 19.625rem;
         }
     }
 
@@ -112,6 +119,11 @@
         {
             width: 2.5rem;
         }
+
+        .nav__item--login
+        {
+            display: none;
+        }
     }
 
     @include media-breakpoint-down(md) {
@@ -123,7 +135,8 @@
         &-toggle
         {
             display: block;
-            margin: 0 1.25rem 0 1.875rem;
+            position: absolute;
+            right: .9375rem;
         }
 
         .nav__item--try
@@ -178,7 +191,7 @@
 
         .nav__item--login
         {
-            margin-left: 6rem;
+            margin-left: 7rem;
         }
     }
 }
