@@ -1,0 +1,32 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "case-studies/gifts",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": null,
+        "title": "first title",
+        "style": null,
+        "decorator": null,
+        "content": "<p>text in block</p>\n",
+        "url": null
+    },
+    {
+        "id": 1,
+        "type": "divider"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>text in block</p>\n",
+        "url": null
+    }
+]
