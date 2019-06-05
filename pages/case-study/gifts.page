@@ -16,17 +16,17 @@
         "url": null
     },
     {
-        "id": 1,
+        "id": 3,
         "type": "divider"
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "text",
         "name": null,
         "title": null,
         "style": null,
         "decorator": null,
-        "content": "<p>text in block</p>\n",
+        "content": "<p>text in second block</p>\n",
         "url": null
     }
 ]

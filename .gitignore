@@ -156,7 +156,7 @@ $RECYCLE.BIN/
 .vscode/
 /node_modules
 /node_modules
-/node_modules
+/new-layout/node_modules
 /theme/cms-content/Pages
 /bower_components
 
