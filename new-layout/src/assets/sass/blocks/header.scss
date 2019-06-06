@@ -157,11 +157,6 @@
         {
             margin: 0;
         }
-
-        &-nav .btn:nth-of-type(1)
-        {
-            display: none;
-        }
     }
 
     @include media-breakpoint-up(lg) {

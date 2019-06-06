@@ -228,3 +228,45 @@
         line-height: 1.8;
     }
 }
+
+.list--breadcrumb
+{
+    align-items: center;
+    display: flex;
+    margin-bottom: 2.5rem;
+
+    .list__item
+    {
+        color: $orange;
+        font-size: .875rem;
+
+        & ~ .list__item
+        {
+            margin-left: .9375rem;
+            padding-left: .9375rem;
+            position: relative;
+
+            &::before
+            {
+                background: url($tpl-img-url + 'icons/arrow-chevron.svg') no-repeat scroll 0 0;
+                content: ' ';
+                display: block;
+                height: .8125rem;
+                left: 0;
+                position: absolute;
+                top: .125rem;
+                width: .4375rem;
+            }
+        }
+    }
+
+    .list__link
+    {
+        color: $black;
+
+        &:hover
+        {
+            color: $orange;
+        }
+    }
+}
