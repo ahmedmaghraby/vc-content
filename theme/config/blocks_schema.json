@@ -498,11 +498,6 @@
                 "displayField": "title",
                 "element": [
                     {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
                         "id": "text",
                         "label": "Text",
                         "type": "text"
@@ -688,6 +683,69 @@
                 "type": "checkbox",
                 "tab": "Settings",
                 "default": false
+            }
+        ]
+    },
+    "download-case-studies-form": {
+        "name": "Download Case studies form",
+        "icon": "image-text",
+        "displayField": "name",
+        "settings": [
+            {
+                "id": "name",
+                "label": "Block name",
+                "type": "string",
+                "tab": "Settings",
+                "default": "Download Case studies form"
+            },
+            {
+                "id": "style",
+                "label": "Block style",
+                "type": "select",
+                "default": "light",
+                "tab": "Settings",
+                "options": [
+                    {
+                        "value": "light",
+                        "label": "Light"
+                    },
+                    {
+                        "value": "dark",
+                        "label": "Dark"
+                    }
+                ]
+            },
+            {
+                "id": "noTop",
+                "label": "Remove top margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": true
+            },
+            {
+                "id": "noBottom",
+                "label": "Remove bottom margin",
+                "type": "checkbox",
+                "tab": "Settings",
+                "default": true
+            },
+            {
+                "id": "title",
+                "label": "Title",
+                "type": "string",
+                "default": "Download Case Studies"
+            },
+            {
+                "id": "buttonText",
+                "label": "Button text",
+                "type": "string",
+                "default": "Download Case Studies"
+            },
+            {
+                "id": "description",
+                "label": "Description",
+                "type": "text",
+                "default": "By clicking «Download Case Studies» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
             }
         ]
     },
@@ -1179,26 +1237,26 @@
         "icon": "category",
         "hide": true,
         "settings": [
-          {
-            "id": "name",
-            "label": "Block name",
-            "type": "string",
-            "default": "Category",
-            "autofocus": true
-          },
+            {
+                "id": "name",
+                "label": "Block name",
+                "type": "string",
+                "default": "Category",
+                "autofocus": true
+            },
             {
                 "id": "title",
                 "label": "Title",
                 "type": "string",
                 "default": "Headphones"
             },
-            {
-                "id": "categoryId",
-                "label": "Category id",
-                "type": "string",
-                "default": "",
-                "placeholder": "Enter category id"
-            }
+          {
+            "id": "categoryId",
+            "label": "Category id",
+            "type": "string",
+            "default": "",
+            "placeholder": "Enter category id"
+          }
         ]
     }
 }
