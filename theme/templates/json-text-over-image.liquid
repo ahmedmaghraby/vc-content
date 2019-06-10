@@ -1,4 +1,4 @@
-<div class="section section--cover {% if block.style == 'dark' %} section--gray {% endif %} {% if block.no_top == True %} section--small-top {% endif %} {% if block.no_bottom == True %} section--small-bottom {% endif %}">
+<div class="section section--cover{% if block.style == 'dark' %} section--gray{% endif %}{% if block.no_top == true %} section--small-top{% endif %}{% if block.no_bottom == true %} section--small-bottom{% endif %}{% if block.no_pad == true %} section--no-padding{% endif %}">
     <div class="section__bg" style="background-image: url('{{ block.image.url }}');">
 
         {% if block.subTitle != blank %}
