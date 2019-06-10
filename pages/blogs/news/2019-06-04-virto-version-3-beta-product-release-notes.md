@@ -11,14 +11,13 @@ tags:
 title: Virto Version 3 Beta Product Release Notes
 excerpt: Virto Commerce is pleased to release the beta version of its platform, Virto Commerce Version 3. This release provides
 ---
-<h2>Virto Version 3 Product Release Notes</h2>
 <strong class="text">Executive summary</strong>
 <p class="text">
     Virto Commerce is pleased to release the beta version of its platform, Virto Commerce Version 3. This release provides innovative advancements in core architecture, increased
     speed, and new or improved modules. Business users will appreciate the benefits of decreased time to market for the solution – allowing faster uptime for transactions.
 </p>
 <strong class="text">What were our objective when starting development project on VC platform v3?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Change primary technology stack to .NET Core for the platform application and all key modules.
     </li>
@@ -35,7 +34,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
 </ul>
 <p class="text"> These Virto Commerce Release Notes below are a subset of the larger list of changes in migration to ASP.NET Core.</p>
 <strong class="text">What does Virto V3 provide to developers and architects?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Improved extensibility and unification to increase the development speed and decrease time to market.
     </li>
@@ -44,7 +43,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">What technological stack did we apply?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         <strong>.NET Core, ASP.NET Core 2.2</strong> as base framework
     </li>
@@ -74,7 +73,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">What architectural changes were implemented?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Configuration: NET Core configuration paradigm (configuration providers and POCO classes IOptions) replaces old .NET Framework Configuration
     </li>
@@ -104,7 +103,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">Platform changes</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Solution changes: solution structure, startup.cs
     </li>
@@ -116,7 +115,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">What was changed in modules?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Core module: CoreModule.Domain project is terminated
     </li>
@@ -135,7 +134,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
 </ul>
 <strong class="text">Which modules were migrated?</strong>
 <p class="text">The following <a href="https://github.com/VirtoCommerce/vc-platform-core/tree/master/Modules">modules</a> were migrated</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>Cart</li>
     <li>Catalog</li>
     <li>Content</li>
@@ -154,7 +153,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
 </ul>
 <strong class="text">Which modules were added?</strong>
 <p class="text">VirtoCommerce.Notifications module 3.0 includes:</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Functionality which was spread across the system is shifted to dedicated module
     </li>
@@ -181,7 +180,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <p class="text">Tax module 3.0</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         The tax calculation functionality which was spread across the system is shifted to a dedicated module which is now responsible for tax settings and calculation
     </li>
@@ -190,7 +189,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <p class="text">Shipping module 3.0</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         The shipping costs calculation functionality which was spread across the system is shifted to a dedicated module which is now responsible for shipping methods, related
         settings and shipping costs calculation
@@ -200,7 +199,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <p class="text">Payment module 3.0</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         The payment methods functionality and integrations which were spread across the system are shifted to a dedicated module which is now responsible for payment methods and
         related settings
@@ -210,13 +209,13 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <p class="text">Search module 3.0</p>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         The new module is a single integration point for search engines integration
     </li>
 </ul>
 <strong class="text">Which modules were deleted?</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         Smart cashing module
     </li>
@@ -225,7 +224,7 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">Release status note</strong>
-<ul>
+<ul class="text" style="margin-left:25px;word-break:break-word;">
     <li>
         We inspire you to try and investigate the new version of the system and give us your feedback
     </li>
@@ -241,5 +240,5 @@ excerpt: Virto Commerce is pleased to release the beta version of its platform, 
     </li>
 </ul>
 <strong class="text">Screenshots</strong>
-<img src="../../assets/images/blog/virto-version-3-beta-product-release-notes-screen1" />
-<img src="../../assets/images/blog/virto-version-3-beta-product-release-notes-screen2" />
+<img src="/assets/images/blog/virto-version-3-beta-product-release-notes-screen1.png" />
+<img src="/assets/images/blog/virto-version-3-beta-product-release-notes-screen2.png" />
