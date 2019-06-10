@@ -6,7 +6,9 @@ permalink: blog/virto-version-3-beta-product-release-notes
 main-image: ../../assets/images/blog/virto-version-3-beta-product-release-notes.png
 tags:
 - virtocommerce
-title: Virto Version 3 Beta: Product Release Notes
+- beta
+- release
+title: Virto Version 3 Beta Product Release Notes
 excerpt: Virto Commerce is pleased to release the beta version of its platform, Virto Commerce Version 3. This release provides
 ---
 <h2>Virto Version 3 Product Release Notes</h2>
