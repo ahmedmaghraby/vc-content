@@ -3263,6 +3263,11 @@ input.ng-dirty.ng-invalid {
     background-size: cover;
 }
 
+.bg-lavazza {
+    background: url(bg-lavazza.png) no-repeat;
+    background-size: cover;
+}
+
 .bg-test1 {
     background: url(cstest1.jpg) no-repeat center center fixed;
     background-size: cover;

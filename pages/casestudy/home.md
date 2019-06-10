@@ -24,6 +24,19 @@ permalink: case-studies
             <li class="list-item">
                 <div class="list-inner">
                     <div class="list-img">
+                        <img src="../assets/images/casestudies/lavazza-logo.jpeg" alt="lavazza">
+                    </div>
+                    <div class="list-t">COFFEE RETAILER & DISTRIBUTOR</div>
+                    <div class="list-text">Objective: B2B & B2C Online Store Platform</div>
+                    <div class="list-descr">Created new, Unified ecommerce platform for B2B & B2C and gained insights into customer behavior.</div>
+                    <div class="list-btn">
+                        <a class="button fill" href="case-studies/lavazza">View case study</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="list-inner">
+                    <div class="list-img">
                         <img src="../assets/images/casestudies/standaard-boekhandel-logo.png" alt="standaard-boekhandel" />
                     </div>
                     <div class="list-t">RETAIL & DISTRIBUTION</div>
