@@ -5025,6 +5025,7 @@ blockquote .author {
 .section__descr {
     font-size: 1.125rem;
     margin-bottom: 1.875rem;
+    text-align: left;
 }
 
 .section__descr--gray {

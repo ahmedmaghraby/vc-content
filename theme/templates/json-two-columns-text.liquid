@@ -1,4 +1,4 @@
-<div class="section{% if block.style == 'dark' %} section--gray{% endif %}{% if block.no_top == true %} section--small-top{% endif %}{% if block.no_bottom == true %} section--small-bottom{% endif %}{% if block.no_pad == true %} section--no-padding{% endif %}">
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
 	<div class="section__inner container">
         {% if block.title != blank %}
         <h2 class="section__t">{{ block.title }}</h2>
