@@ -5307,8 +5307,6 @@ blockquote .author {
 [class*='-page'] .section__divider {
     background: #d3d3d3;
     height: .125rem;
-    margin-bottom: 6.25rem;
-    margin-top: 4.5rem;
     width: 100%;
 }
 
