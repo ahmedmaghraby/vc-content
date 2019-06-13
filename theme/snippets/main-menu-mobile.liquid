@@ -20,45 +20,12 @@
         </div>
         <div class="swipe__close ml-auto"></div>
     </div>
-    <!--<div class="swipe__body">
-        <div class="nav">
-            <ul class="flex-column">
-                {% for link in menu.links %}
-                    {% assign child_list_handle = link.title | handleize %}
-                    <li class="nav__item">
-                        <a class="nav__link">{{ link.title | escape }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-            {% for link in menu.links %}
-                <div class="nav_content">
-                    <ul class="nav flex-column">
-                        {% assign child_list_handle = link.title | handleize %}
-                        <li class="nav__item">
-                            <div class="nav__t">{{ link.title | escape }}</div>
-                        </li>
-                        {% if linklists[child_list_handle].links.size > 0 %}
-                            {% for child_link in linklists[child_list_handle].links %}
-                                <li class="nav__item">
-                                    {% if child_link.url contains '/#' %}
-                                        <span>{{ child_link.title  }}</span>
-                                    {% else %}
-                                        <a class="nav__link" href="{{ child_link.url }}">{{ child_link.title | escape }}</a>
-                                    {% endif %}
-                                </li>
-                            {% endfor %}
-                        {% endif %}
-                    </ul>
-                </div>
-            {% endfor %}
-        </div>
-    </div>-->
     <div class="swipe__body">
         <div class="nav">
             <ul class="flex-column">
                 <li class="nav__item">
                     <a class="nav__link">
-                        Why Virto,?
+                        Why Virto?
                         <span class="nav__carret ml-auto"></span>
                     </a>
                 </li>
