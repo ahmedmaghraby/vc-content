@@ -4984,6 +4984,41 @@ blockquote .author {
     padding-top: 5rem;
 }
 
+.cookie-bar {
+    background: #f0f0f0;
+    bottom: 0;
+    font-size: .875rem;
+    left: 0;
+    padding: .625rem;
+    position: fixed;
+    right: 0;
+    z-index: 5000;
+}
+
+.cookie-bar a[href] {
+    margin-left: .25rem;
+}
+
+.cookie-bar__inner {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.cookie-bar .btn {
+    margin-left: auto;
+    margin-top: .625rem;
+}
+
+@media (max-width: 575.98px) {
+    .cookie-bar .btn {
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
 .main {
     -ms-flex: 1 0 0px;
     flex: 1 0 0;

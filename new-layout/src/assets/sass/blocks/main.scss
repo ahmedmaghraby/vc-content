@@ -7,6 +7,43 @@
     padding-top: 5rem;
 }
 
+.cookie-bar
+{
+    background: $gray-200;
+    bottom: 0;
+    font-size: .875rem;
+    left: 0;
+    padding: .625rem;
+    position: fixed;
+    right: 0;
+    z-index: 5000;
+
+    a[href]
+    {
+        margin-left: .25rem;
+    }
+
+    &__inner
+    {
+        align-items: center;
+        display: flex;
+    }
+
+    .btn
+    {
+        margin-left: auto;
+        margin-top: .625rem;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .btn
+        {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
 .container
 {
 
