@@ -23,6 +23,7 @@
     {
         font-size: 1.125rem;
         margin-bottom: 1.875rem;
+		text-align: left;
 
         &--gray
         {
@@ -336,8 +337,6 @@
     {
         background: $gray-300;
         height: .125rem;
-        margin-bottom: 6.25rem;
-        margin-top: 4.5rem;
         width: 100%;
     }
 

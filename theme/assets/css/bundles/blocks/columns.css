@@ -1,10 +1,8 @@
 .columns {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
     margin: 0 -1.25rem;
@@ -22,14 +20,10 @@
 }
 
 .columns__inner {
-    -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 1.25rem;
@@ -54,32 +48,29 @@
 .columns__descr {
     font-size: .75rem;
     -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
     align-self: stretch;
 }
 
 .columns .columns-2 {
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
 }
 
 .columns .columns-3 {
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 33.3333%;
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
 }
 
 .columns .columns-4 {
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
 }
 
 .columns .columns-5 {
-    -webkit-box-flex: 0;
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
     max-width: 20%;
@@ -93,6 +84,7 @@
 
 .columns .align-center {
     -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     text-align: center;
 }
@@ -104,25 +96,21 @@
 }
 
 .columns.align-columns-left {
-    -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
 
 .columns.align-columns-center {
-    -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
 }
 
 .columns.align-columns-right {
-    -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
 .columns.align-columns-stretch {
-    -webkit-box-pack: stretch;
     -ms-flex-pack: stretch;
     justify-content: stretch;
 }
