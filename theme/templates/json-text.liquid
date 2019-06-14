@@ -6,14 +6,10 @@
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}
-            {% if block.url != blank and block.url.urlText != blank %}
-            <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
-            {% endif %}
         </div>
-        {% elsif block.url != blank and block.url.urlText != blank %}
-        <div class="section__descr">
-            <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
-        </div>
+        {% endif %}
+        {% if block.url != blank and block.url.urlText != blank %}
+        <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
         {% endif %}
     </div>
 </div>

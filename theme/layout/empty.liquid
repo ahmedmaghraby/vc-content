@@ -24,10 +24,6 @@
     {% else %}
     <title>Enterprise ASP.NET open-source Microsoft e-commerce platform - Virto Commerce</title>
     {% endif %}
-    {{ '//fonts.googleapis.com/css?family=Lato' | stylesheet_tag }}
-    {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
-    {{ '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700' | stylesheet_tag }}
-    {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
     {{ 'style.min.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
@@ -45,13 +41,5 @@
             <footer style="height: 5rem; background: #eee;"></footer>
         </div>
     </div>
-
-    {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
-    {{ '//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js' | script_tag }}
-    {{ '//ajax.aspnetcdn.com/ajax/mvc/5.2.3/jquery.validate.unobtrusive.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js' | script_tag }}
-    <script src="/tilda/js/bootstrap.min.js"></script>
-    {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>
 </html>
