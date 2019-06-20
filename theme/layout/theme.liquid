@@ -52,6 +52,15 @@
         </div>
     </div>
     {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
+    <script>
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
+    </script>
     {{ 'js/main.js' | asset_url | script_tag }}
 </body>
 </html>

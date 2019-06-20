@@ -53,5 +53,4 @@ $(function () {
         $('.dropdown-menu').removeClass('opened');
         $('.dropdown-overlay').remove();
     });
-
 });
