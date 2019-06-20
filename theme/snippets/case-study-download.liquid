@@ -8,7 +8,7 @@
                     <input id="Contact[Email]" tabindex="3" type="text" name="Contact[Email]" class="form-input" ng-pattern="emailPattern" ng-model="caseStudy.email" required="" placeholder="E-mail" />
                 </div>
                 <div class="control-group">
-                    <input class="button fill width-full text-14" type="submit" ng-disabled="formCaseStudy.$invalid" href="{{ downloadUrl }}" onClick="ga('send', 'event', 'Download', 'CaseStudy', '{{ caseName }}');" target="_blank" value="Download full case study" />
+                    <input class="button fill width-full text-14" type="submit" ng-disabled="formCaseStudy.$valid" href="{{ downloadUrl }}" onClick="ga('send', 'event', 'Download', 'CaseStudy', '{{ caseName }}');" target="_blank" value="Download full case study" />
                 </div>
                 <div class="control-group">
                     <label class="text-12">
