@@ -3,12 +3,14 @@
         <form name="formCaseStudy" novalidate="">
             <div ng-init="setCaseStudyForm(formCaseStudy)"></div>
             <div class="control-group">
-                <input id="Contact[Name]" tabindex="1" type="text" name="Contact[Name]" class="form-input" ng-model="caseStudy.name" required="" placeholder="Your name" />
+                <div class="control-group">
+                    <input id="Contact[Name]" tabindex="1" type="text" name="Contact[Name]" class="form-input" ng-model="caseStudy.name" required="" placeholder="Your name" />
+                </div>
                 <div class="control-group">
                     <input id="Contact[Email]" tabindex="3" type="text" name="Contact[Email]" class="form-input" ng-pattern="emailPattern" ng-model="caseStudy.email" required="" placeholder="E-mail" />
                 </div>
                 <div class="control-group">
-                    <input class="button fill width-full text-14" type="submit" ng-disabled="formCaseStudy.$valid" href="{{ downloadUrl }}" onClick="ga('send', 'event', 'Download', 'CaseStudy', '{{ caseName }}');" target="_blank" value="Download full case study" />
+                    <input class="button fill width-full text-14" type="submit" target="_blank" value="Download full case study" />
                 </div>
                 <div class="control-group">
                     <label class="text-12">
@@ -17,6 +19,13 @@
                 </div>
             </div>
         </form>
+        <a id="download" href="{{downloadUrl}}"></a>
     </div>
-    <script type="text/javascript">(function(o){var b="https://fastgull.io/anywhere/",t="826b5c2a62d44b678c87131c7774abef2599dcd397ae42c0a88136863a6ab76e",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+    <script type="text/javascript">
+        (function(o){var b="https://fastgull.io/anywhere/",t="826b5c2a62d44b678c87131c7774abef2599dcd397ae42c0a88136863a6ab76e",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});
+        $('input[type="submit"]').click(function (e) {
+            $('#download')[0].click();
+            ga('send', 'event', 'Download', 'CaseStudy', '{{ caseName }}');
+        });
+    </script>
 </div>
