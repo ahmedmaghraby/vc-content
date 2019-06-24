@@ -762,6 +762,30 @@
                 ]
             },
             {
+                "id": "size",
+                "label": "Block size",
+                "type": "select",
+                "default": "middle",
+                "options": [
+                    {
+                        "value": "normal",
+                        "label": "Normal"
+                    },
+                    {
+                        "value": "middle",
+                        "label": "Middle"
+                    },
+                    {
+                        "value": "block",
+                        "label": "Block"
+                    },
+                    {
+                        "value": "page",
+                        "label": "Page"
+                    }
+                ]
+            },
+            {
                 "id": "image",
                 "label": "Upload picture",
                 "type": "image",
@@ -1356,27 +1380,27 @@
         "name": "Category",
         "icon": "category",
         "hide": true,
-      "settings": [
-        {
-          "id": "name",
-          "label": "Block name",
-          "type": "string",
-          "default": "Category",
-          "autofocus": true
-        },
-        {
-          "id": "title",
-          "label": "Title",
-          "type": "string",
-          "default": "Headphones"
-        },
-        {
-          "id": "categoryId",
-          "label": "Category id",
-          "type": "string",
-          "default": "",
-          "placeholder": "Enter category id"
-        }
-      ]
+        "settings": [
+            {
+                "id": "name",
+                "label": "Block name",
+                "type": "string",
+                "default": "Category",
+                "autofocus": true
+            },
+            {
+                "id": "title",
+                "label": "Title",
+                "type": "string",
+                "default": "Headphones"
+            },
+          {
+            "id": "categoryId",
+            "label": "Category id",
+            "type": "string",
+            "default": "",
+            "placeholder": "Enter category id"
+          }
+        ]
     }
 }

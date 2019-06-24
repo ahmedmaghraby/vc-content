@@ -5330,7 +5330,7 @@ blockquote .author {
 
 .page .section__pic--full,
   [class*='-page'] .section__pic--full {
-    max-width: 100%;
+    width: 100%;
 }
 
 .page .section__icon,

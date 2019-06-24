@@ -26,10 +26,43 @@
         "id": 4,
         "type": "text",
         "name": null,
-        "title": null,
+        "title": "",
         "style": null,
         "decorator": null,
         "content": "<p>text in second block</p>\n",
-        "url": null
+        "url": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "normal",
+        "image": {
+            "url": "http://localhost/admin/assets/blogs/yellowstone.jpg"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Block title",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/agiledefinitionheader.png"
+        },
+        "content": "<p>Short block content</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     }
 ]
