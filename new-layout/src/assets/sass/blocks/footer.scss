@@ -33,6 +33,19 @@
         text-transform: uppercase;
     }
 
+	&__signup
+	{
+		margin-top: 1.25rem;
+		.label
+		{
+			margin-bottom: 1.25rem;
+		}
+		.form
+		{
+			display: flex;
+		}
+	}
+	
     .nav__link
     {
         color: $white;

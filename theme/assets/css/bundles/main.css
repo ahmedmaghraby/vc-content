@@ -5075,6 +5075,10 @@ blockquote .author {
     font-size: 1.25rem;
 }
 
+.section__descr--centered {
+    text-align: center;
+}
+
 .section__info {
     text-align: left;
 }
@@ -6310,6 +6314,19 @@ blockquote .author {
     font-weight: bold;
     margin-bottom: 2.25rem;
     text-transform: uppercase;
+}
+
+.footer__signup {
+    margin-top: 1.25rem;
+}
+
+.footer__signup .label {
+    margin-bottom: 1.25rem;
+}
+
+.footer__signup .form {
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .footer .nav__link {
