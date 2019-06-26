@@ -11,7 +11,7 @@
             {% for item in block.fields %}
 
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if (item.fullrow == true) or (thecycle == 'odd' and forloop.last != true) %}
+            {% if item.fullrow == true or thecycle == 'odd' and forloop.last != true %}
             <div class="form-group row">
             {% endif %}
                 <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
@@ -25,7 +25,9 @@
             {% if thecycle == 'even' or forloop.last or item.fullrow == true %}
     		</div>
             {% endif %}
+
             {% endfor %}
+
             <div class="form-group row">
                 <div class="col-md">
                     {% if block.outtro != blank %}
