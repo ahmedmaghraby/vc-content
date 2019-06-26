@@ -1,0 +1,76 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% if block.title != blank %}
+        <h2 class="section__t">{{ block.title }}</h2>
+        {% endif %}
+        <div class="section__info--center-block">
+            {% if block.intro != blank %}
+            <div class="section__descr">{{ block.intro }}</div>
+            {% endif %}
+
+            {% for item in block.fields %}
+
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if (item.fullrow == true) or (thecycle == 'odd' and forloop.last != true) %}
+            <div class="form-group row">
+            {% endif %}
+                <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
+                    <label class="form-label">{{ item.label }}</label>
+                    {% if item.type == 'textarea' %}
+                    <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                    {% else %}
+                    <input type="text" class="form-control" name="{{ item.name }}">
+                    {% endif %}
+                </div>
+            {% if thecycle == 'even' or forloop.last or item.fullrow == true %}
+    		</div>
+            {% endif %}
+            {% endfor %}
+            <div class="form-group row">
+                <div class="col-md">
+                    {% if block.outtro != blank %}
+                    <div class="form-descr">By clicking «Send Message» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.</div>
+                    {% endif %}
+                    {% if block.buttonText != blank %}
+                    <div class="section__descr--centered">
+                        <button class="btn btn--orange">{{ block.buttonText }}</button>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% comment %}
+
+    content
+
+    { "id": "title", "label": "Title", "type": "string" },
+    { "id": "intro", "label": "Intro", "type": "text" },
+    { "id": "fields", "label": "Fields", "type": "list",
+        "element": [
+            { "id": "label", "type": "string" },
+            { "id": "name", "type": "string" },
+            { "id": "type", "type": "select",
+                "options": [ { "value": "text", "label": "String" }, { "value": "textarea", "label": "Textarea" } ] },
+            { "id": "fullrow", "type": "checkbox" }
+    ]},
+    { "id": "outtro", "label": "Outtro", "type": "text" },
+    { "id": "buttonText", "label": "Button text", "type": "string" }
+
+    settings
+
+    { "id": "name", "label": "Block name", "type": "string" },
+    { "id": "style", "label": "Block style", "type": "select", "default": "light",
+        "options": [ { "value": "light", "label": "Light" }, { "value": "dark", "label": "Dark" } ]},
+    { "id": "noTop", "label": "Remove top margin", "type": "checkbox" },
+    { "id": "noBottom", "label": "Remove bottom margin", "type": "checkbox" },
+    { "id": "noPad", "label": "Remove paddings", "type": "checkbox" },
+
+
+there is need a state where i should store the following
+1) row started (should be finished after second input and after fullrow input)
+2) row didn't started (should be started when non-fullrow input renders)
+
+{% endcomment %}

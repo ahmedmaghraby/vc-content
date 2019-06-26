@@ -46,6 +46,15 @@
 		}
 	}
 	
+	.partner a
+	{
+		display: block;
+		background: url($tpl-img-url + 'microsoft.png') center center/contain no-repeat;
+		font-size: 0;
+		height: 53px;
+		margin: 20px 0;
+	}
+	
     .nav__link
     {
         color: $white;

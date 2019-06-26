@@ -48,6 +48,13 @@
     &__info
     {
         text-align: left;
+		
+		&--center-block
+		{
+			width: 41.25rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
     }
 
     &__num

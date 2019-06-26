@@ -5083,6 +5083,12 @@ blockquote .author {
     text-align: left;
 }
 
+.section__info--center-block {
+    width: 41.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section__num {
     -ms-flex-align: center;
     align-items: center;
@@ -6327,6 +6333,14 @@ blockquote .author {
 .footer__signup .form {
     display: -ms-flexbox;
     display: flex;
+}
+
+.footer .partner a {
+    display: block;
+    background: url("../../images/redesign/microsoft.png") center center/contain no-repeat;
+    font-size: 0;
+    height: 53px;
+    margin: 20px 0;
 }
 
 .footer .nav__link {
