@@ -2,7 +2,6 @@
 author: VirtoCommerce
 category: virtocommerce-news
 date: '2019-06-04'
-published: false
 permalink: blog/virto-version-3-beta-product-release-notes
 main-image: ../../assets/images/blog/virto-version-3-beta-product-release-notes.png
 tags:
