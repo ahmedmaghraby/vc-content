@@ -2,6 +2,7 @@
 author: VirtoCommerce
 category: virtocommerce-news
 date: '2019-06-05'
+published: false
 permalink: blog/press-release-for-virto-v3
 main-image: ../../assets/images/blog/press-release-for-virto-v3.png
 tags:
