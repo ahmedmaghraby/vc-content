@@ -31,7 +31,7 @@
             <div class="form-group row">
                 <div class="col-md">
                     {% if block.outtro != blank %}
-                    <div class="form-descr">By clicking «Send Message» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.</div>
+                    <div class="form-descr">{{ block.outtro }}</div>
                     {% endif %}
                     {% if block.buttonText != blank %}
                     <div class="section__descr--centered">
