@@ -8,30 +8,40 @@
             <div class="section__descr">{{ block.intro }}</div>
             {% endif %}
 
+            {% assign rowStarted = false %}
+
             {% for item in block.fields %}
 
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if item.fullrow == true or thecycle == 'odd' and forloop.last != true %}
-            <div class="form-group row">
-            {% endif %}
+                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                {% if item.fullrow == true and rowStarted == true %}
+                    </div>
+                    {% assign rowStarted = false %}
+                {% endif %}
+
+                {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
+                    {% assign rowStarted = true %}
+                    {% assign thecycle = 'odd' %}
+                    <div class="form-group row">
+                {% endif %}
                 <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
                     <label class="form-label">{{ item.label }}</label>
                     {% if item.type == 'textarea' %}
-                    <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                        <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
                     {% else %}
-                    <input type="text" class="form-control" name="{{ item.name }}">
+                        <input type="text" class="form-control" name="{{ item.name }}">
                     {% endif %}
                 </div>
-            {% if thecycle == 'even' or forloop.last or item.fullrow == true %}
-    		</div>
-            {% endif %}
+                {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
+    		        </div>
+                    {% assign rowStarted = false %}
+                {% endif %}
 
             {% endfor %}
 
             <div class="form-group row">
                 <div class="col-md">
                     {% if block.outtro != blank %}
-                    <div class="form-descr">By clicking «Send Message» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.</div>
+                    <div class="form-descr">{{ block.outtro }}</div>
                     {% endif %}
                     {% if block.buttonText != blank %}
                     <div class="section__descr--centered">

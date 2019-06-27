@@ -64,5 +64,68 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "fullrow": true
+            },
+            {
+                "label": "Job Title",
+                "name": "jobtitle",
+                "type": "text",
+                "fullrow": true
+            },
+            {
+                "label": "Website",
+                "name": "website",
+                "type": "text",
+                "fullrow": false
+            },
+            {
+                "label": "Region",
+                "name": "region",
+                "type": "text",
+                "fullrow": false
+            },
+            {
+                "label": "Comments",
+                "name": "comments",
+                "type": "textarea",
+                "fullrow": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Send Message"
     }
 ]
