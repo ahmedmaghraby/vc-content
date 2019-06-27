@@ -5365,6 +5365,15 @@ blockquote .author {
     margin-bottom: 1.875rem;
 }
 
+.page .section__descr p li,
+  .page .section__descr ul li,
+  .page .section__descr ol li,
+  [class*='-page'] .section__descr p li,
+  [class*='-page'] .section__descr ul li,
+  [class*='-page'] .section__descr ol li {
+    display: list-item;
+}
+
 .page ul,
 .page ol,
 [class*='-page'] ul,

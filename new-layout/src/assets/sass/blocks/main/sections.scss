@@ -358,6 +358,11 @@
         ol
         {
             margin-bottom: 1.875rem;
+			
+			li
+			{
+				display: list-item;
+			}
         }
     }
 
@@ -393,6 +398,7 @@
             {
                 margin-top: .625rem;
             }
+			
         }
     }
 
