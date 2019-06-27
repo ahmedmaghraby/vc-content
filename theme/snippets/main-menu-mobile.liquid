@@ -7,7 +7,8 @@
     </form>
     {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'url' %}
     {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
-    {% include 'docs-menu', docs_tree: docs_tree %}
+    {% assign docs_tree = docs_tree %}
+    {% include 'docs-menu' %}
 {% else %}
     <ul class="menu">
         {% for link in menu.links %}

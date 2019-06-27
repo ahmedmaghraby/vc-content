@@ -4,9 +4,9 @@
             <div class="title-w">
                 {% if search.performed %}
                     {% if search.results_count == 0 %}
-                        <h2 class="t">{{ 'general.search.no_results_html' | t: terms: search.terms }}</h2>
+                        <h2 class="t">{{ 'general.search.no_results_html' | t: search.terms }}</h2>
                     {% else %}
-                        <h2 class="t">{{ 'general.search.results_for_html' | t: terms: search.terms }}</h2>
+                        <h2 class="t">{{ 'general.search.results_for_html' | t: search.terms }}</h2>
                     {% endif %}
                 {% else %}
                     {% comment %}
@@ -19,7 +19,7 @@
                 </div>
             </div>
             {% if search.results_count > 0 %}
-                {% paginate search.results by 15 %}
+                {% paginator =  search.results | paginate 15 %}
                     <div class="list __items __inline">
                         <ul class="main">
                             {% for product in search.results %}
@@ -27,20 +27,19 @@
                             {% endfor %}
                         </ul>
                     </div>
-                    {% if paginate.pages > 1 %}
+                    {% if paginator.pages > 1 %}
                         <div class="text-center">
                             {% include 'pagination-custom' %}
                         </div>
                     {% endif %}
-                {% endpaginate %}
             {% endif %}
         </div>
     </div>
 {% else %}
     {% if search.results_count == 0 %}
-        <h1>{{ 'general.search.no_results_html' | t: terms: search.terms }}</h1>
+        <h1>{{ 'general.search.no_results_html' | t: search.terms }}</h1>
     {% else %}
-        <h1>{{ 'general.search.results_for_html' | t: terms: search.terms }}</h1>
+        <h1>{{ 'general.search.results_for_html' | t: search.terms }}</h1>
     {% endif %}
     <hr />
     {% if search.results_count > 0 %}

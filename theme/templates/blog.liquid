@@ -2,10 +2,11 @@
     <div class="posts __responsive" itemprop="blogPosts">
         {% assign sticked_article = blog.articles | where: 'Url', '==', settings.blog_sticked_article_url | first %}
         {% assign page_size = 9 %}
-
-        {% include 'blog-categories-item', categories: blog.categories %}
-
-        {% include 'blog-list-item', article: sticked_article, style: "double" %}
+        {% assign categories = blog.categories %}
+        {% include 'blog-categories-item' %}
+        {% assign article = sticked_article %}
+        {% assign style = "double" %}
+        {% include 'blog-list-item' %}
         {% assign articles = blog.articles | where: 'Url', '!=', sticked_article.url %}
         {% if blog_search.category != nil %}
             {% assign articles = articles | where: 'Category', '==', blog_search.category %}
@@ -13,7 +14,9 @@
             {% assign articles = articles | where: 'Tags', 'contains', blog_search.tag %}
         {% endif %}
         {% for article in articles %}
-            {% include 'blog-list-item', article: article, style: "single" %}
+            {% assign article = article %}
+            {% assign style = "single" %}
+            {% include 'blog-list-item' %}
             {% if forloop.index == page_size %}
                 {% break %}
             {% endif %}

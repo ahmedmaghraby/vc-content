@@ -1,7 +1,7 @@
 <li class="list-item">
     <a class="list-link" href="{{ product.url | absolute_url }}">
         {% if product.metafields.properties.InProcess == true %}
-            <div class="list-item-bar">In progress</div> 
+            <div class="list-item-bar">In progress</div>
         {% endif %}
         <div class="top-bg">
             <svg xmlns="http://www.w3.org/2000/svg">
@@ -12,7 +12,7 @@
                 </defs>
                 <image width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ product.featured_image.src }}" filter="url({{ canonical_url }}#blur)"></image>
             </svg>
-        </div>    
+        </div>
         <figure class="image-outer">
             <img alt="" class="list-img" onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.featured_image.src }}" />
         </figure>

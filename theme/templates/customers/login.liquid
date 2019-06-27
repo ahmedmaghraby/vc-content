@@ -19,7 +19,7 @@
                         <!--<a class="btn btn-default btn-lg btn-block" href="account/externallogin?authType=StackExchange&returnUrl=/vccom/vc-community"><i class="fa fa-stack-overflow"></i> Log in with StackExchange</a>-->
                     </div>
                     <p class="text-center">&mdash; {{ 'common.or' | t }}  &mdash;</p>
-                    {% form 'customer_login' %}
+                    <form accept-charset="UTF-8" action="{{ '~/account/login' | absolute_url }}" method="post" id="customer_login" name="customer_login">
 
                     {% include 'form-errors-custom' %}
                     <div class="control-group">
@@ -34,7 +34,8 @@
                     <div class="control-group">
                         <a href="/account/invite" class="button fill width-full" tabindex="2">Sign in for a free account</a>
                     </div>
-                    {% endform %}
+                    {{ antiforgery }}
+                    </form>
                     <div class="" align="center">
                         <a href="{{ '/account/forgotpassword' | absolute_url }}">{{ 'customer.login.forgot_password' | t }}</a>
                     </div>

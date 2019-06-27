@@ -23,7 +23,9 @@
                             <div class="date" itemprop="datePublished">{{ article.created_at | date: "%b %d, %Y" }}</div>
                         </div>
                     </div>
-                    {% include 'blog-list-tags', tags: article.tags, position: "top" %}
+                    {% assign tags = article.tags %}
+                    {% assign position = "top" %}
+                    {% include 'blog-list-tags' %}
                 </div>
                 <div class="post-descr">
                     <div class="inner" itemprop="articleBody">
@@ -31,7 +33,9 @@
                     </div>
                 </div>
                 <div class="post-meta">
-                    {% include 'blog-list-tags', tags: article.tags, position: "bottom" %}
+                    {% assign tags = article.tags %}
+                    {% assign position = "bottom" %}
+                    {% include 'blog-list-tags' %}
                     <ul class="socials list">
                         <li class="list-item fb">
                             <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ article.url | full_url }}" target="_blank"><i class="list-ico fa fa-facebook"></i></a>
@@ -53,7 +57,8 @@
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
     {% if blog.trending_articles %}
-        {% include 'blog-trending-list', articles: blog.trending_articles %}
+        {% assign articles = blog.trending_articles %}
+        {% include 'blog-trending-list' %}
     {% endif %}
     <div class="posts __responsive">
         <div class="post post-triple post-detail">

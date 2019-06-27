@@ -33,8 +33,8 @@
         "search": {
             "placeholder": "Search",
             "title": "Search for products on our site",
-            "no_results_html": "Your search for \"{{ terms }}\" did not yield any results",
-            "results_for_html": "Your search for \"{{ terms }}\" revealed the following:"
+            "no_results_html": "Your search for \"{0}\" did not yield any results",
+            "results_for_html": "Your search for \"{0}\" revealed the following:"
         },
         "news_sign_up": {
             "title": "Signup for news",
@@ -56,7 +56,7 @@
         "e_procurement_software": "E procurement software",
         "forms": {
             "post_error": "Sorry, looks like something went wrong. Please correct the following and submit again:",
-            "post_field_error_html": "The <strong>{{ field }}</strong> {{ error }}"
+            "post_field_error_html": "The <strong>{0}</strong> {1}"
         }
     },
     "main_page": {
@@ -420,7 +420,7 @@
         },
         "reset_password": {
             "title": "Reset account password",
-            "subtext": "Enter a new password for {{ email }}",
+            "subtext": "Enter a new password for {0}",
             "password": "Password",
             "password_confirm": "Confirm Password",
             "submit": "Reset Password"

@@ -4,7 +4,7 @@
   <li class="list-item">
     <a class="list-link" href="{{ article.url | absolute_url }}">{{ article.title }}</a>
     <time class="list-date" pubdate datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-      <em class="text-light">{{ article.published_at | date: format: 'month_day_year' }}</em>
+      <em class="text-light">{{ article.published_at | date: 'month_day_year' }}</em>
     </time>
   </li>
 {% endfor %}
