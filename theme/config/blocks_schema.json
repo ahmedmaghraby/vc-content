@@ -975,10 +975,20 @@
                                 "label": "String"
                             },
                             {
+                                "value": "select",
+                                "label": "Select"
+                            },
+                            {
                                 "value": "textarea",
                                 "label": "Textarea"
                             }
                         ]
+                    },
+                    {
+                        "id": "data",
+                        "label": "Additional data",
+                        "type": "string",
+                        "info": "Semicolon separated values"
                     },
                     {
                         "id": "fullrow",

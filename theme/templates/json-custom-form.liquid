@@ -27,6 +27,13 @@
                     <label class="form-label">{{ item.label }}</label>
                     {% if item.type == 'textarea' %}
                         <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                    {% elsif item.type == 'select' %}
+                        {% assign options = item.data | split: ";" %}
+                        <select class="form-control" name="{{ item.name }}">
+                            {% for opt in options %}
+                                <option value="{{opt}}">{{opt}}</option>
+                            {% endfor %}
+                        </select>
                     {% else %}
                         <input type="text" class="form-control" name="{{ item.name }}">
                     {% endif %}

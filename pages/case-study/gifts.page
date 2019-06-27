@@ -80,48 +80,56 @@
                 "label": "Full name",
                 "name": "fullname",
                 "type": "text",
+                "data": null,
                 "fullrow": false
             },
             {
                 "label": "Email",
                 "name": "email",
                 "type": "text",
+                "data": null,
                 "fullrow": false
             },
             {
                 "label": "Phone",
                 "name": "phone",
                 "type": "text",
+                "data": null,
                 "fullrow": false
             },
             {
                 "label": "Company",
                 "name": "company",
                 "type": "text",
+                "data": null,
                 "fullrow": true
             },
             {
                 "label": "Job Title",
                 "name": "jobtitle",
                 "type": "text",
+                "data": null,
                 "fullrow": true
             },
             {
                 "label": "Website",
                 "name": "website",
                 "type": "text",
+                "data": null,
                 "fullrow": false
             },
             {
                 "label": "Region",
                 "name": "region",
-                "type": "text",
-                "fullrow": false
+                "type": "select",
+                "data": "russia;usa;denmark",
+                "fullrow": true
             },
             {
                 "label": "Comments",
                 "name": "comments",
                 "type": "textarea",
+                "data": null,
                 "fullrow": true
             }
         ],
