@@ -9,54 +9,55 @@
             {% endif %}
 
             {% assign rowStarted = false %}
+            <form>
+                {% for item in block.fields %}
 
-            {% for item in block.fields %}
+                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                    {% if item.fullrow == true and rowStarted == true %}
+                        </div>
+                        {% assign rowStarted = false %}
+                    {% endif %}
 
-                {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                {% if item.fullrow == true and rowStarted == true %}
+                    {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
+                        {% assign rowStarted = true %}
+                        {% assign thecycle = 'odd' %}
+                        <div class="form-group row">
+                    {% endif %}
+                    <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
+                        <label class="form-label">{{ item.label }}</label>
+                        {% if item.type == 'textarea' %}
+                            <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                        {% elsif item.type == 'select' %}
+                            {% assign options = item.data | split: ";" %}
+                            <select class="form-control" name="{{ item.name }}">
+                                {% for opt in options %}
+                                    <option value="{{opt}}">{{opt}}</option>
+                                {% endfor %}
+                            </select>
+                        {% else %}
+                            <input type="text" class="form-control" name="{{ item.name }}">
+                        {% endif %}
                     </div>
-                    {% assign rowStarted = false %}
-                {% endif %}
-
-                {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
-                    {% assign rowStarted = true %}
-                    {% assign thecycle = 'odd' %}
-                    <div class="form-group row">
-                {% endif %}
-                <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
-                    <label class="form-label">{{ item.label }}</label>
-                    {% if item.type == 'textarea' %}
-                        <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
-                    {% elsif item.type == 'select' %}
-                        {% assign options = item.data | split: ";" %}
-                        <select class="form-control" name="{{ item.name }}">
-                            {% for opt in options %}
-                                <option value="{{opt}}">{{opt}}</option>
-                            {% endfor %}
-                        </select>
-                    {% else %}
-                        <input type="text" class="form-control" name="{{ item.name }}">
+                    {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
+    		            </div>
+                        {% assign rowStarted = false %}
                     {% endif %}
-                </div>
-                {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
-    		        </div>
-                    {% assign rowStarted = false %}
-                {% endif %}
 
-            {% endfor %}
+                {% endfor %}
 
-            <div class="form-group row">
-                <div class="col-md">
-                    {% if block.outtro != blank %}
-                    <div class="form-descr">{{ block.outtro }}</div>
-                    {% endif %}
-                    {% if block.buttonText != blank %}
-                    <div class="section__descr--centered">
-                        <button class="btn btn--orange">{{ block.buttonText }}</button>
+                <div class="form-group row">
+                    <div class="col-md">
+                        {% if block.outtro != blank %}
+                        <div class="form-descr">{{ block.outtro }}</div>
+                        {% endif %}
+                        {% if block.buttonText != blank %}
+                        <div class="section__descr--centered">
+                            <button class="btn btn--orange">{{ block.buttonText }}</button>
+                        </div>
+                        {% endif %}
                     </div>
-                    {% endif %}
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
