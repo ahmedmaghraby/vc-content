@@ -1,0 +1,156 @@
+[
+    {
+        "type": "settings",
+        "title": "Become a Virto Commerce Partner",
+        "permalink": "partners/become-partner",
+        "header": "Apply to Become a Virto Commerce Partner",
+        "id": 1,
+        "layout": "theme"
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Join the Virto Commerce Partner Network",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/agiledefinitionheader.png"
+        },
+        "content": "<p style=\"text-align: center;\">Virto Commerce provides a robust program to support our partners every step along the way.&nbsp;From training and support to marketing &ndash; we work hand and hand with you to ensure success.</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">Our partner program consists of both Solution Partners and Technology Partners. Being a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce for your customers.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Benefits of Becoming a Virto Commerce Solution Partner",
+        "intro": "<p style=\"text-align: center;\">Our solution partner network consists of digital agencies highly experienced in implementing customized ecommerce solutions.</p>\n",
+        "style": "light",
+        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/architect.png"
+                },
+                "title": "Expert Services",
+                "text": "<ul>\n\t<li>Dedicated Technical Account</li>\n\t<li>Architecture &amp; Design Review</li>\n\t<li>Consulting &amp; Implementation</li>\n</ul>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                },
+                "title": "Support",
+                "text": "<ul>\n\t<li>24/7 Premium Support</li>\n\t<li>Tech-savvy Platform Support</li>\n\t<li>Documented API &amp; Case Studies</li>\n</ul>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/mkting.png"
+                },
+                "title": "Marketing",
+                "text": "<p>Joint Branding</p>\n\n<p>Sales &amp; Marketing Collateral</p>\n\n<p>Partner Fund</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/training2.png"
+                },
+                "title": "Training",
+                "text": "<p>Developer &amp; Architect Classroom</p>\n\n<p>Professional Certification</p>\n\n<p>Business User e-Learning</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Job Title",
+                "name": "jobtitle",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Website",
+                "name": "website",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Region",
+                "name": "region",
+                "type": "text",
+                "data": null,
+                "fullrow": true
+            },
+            {
+                "label": "Comments",
+                "name": "comments",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Inquire about Partnership"
+    }
+]
