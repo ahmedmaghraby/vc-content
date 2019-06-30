@@ -87,7 +87,7 @@
                         <span></span>
                         <span></span>
                     </a>
-                    {% assign menu = linklists.main-menu %}
+                    {% assign menu = linklists['main-menu'] %}
                     {% include 'main-menu-static' %}
                 </header>
             </div>
@@ -103,7 +103,8 @@
 
                             {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'url' %}
                             {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
-                            {% include 'docs-menu', docs_tree: docs_tree %}
+                            {% assign docs_tree = docs_tree %}
+                            {% include 'docs-menu' %}
 
                         </div>
                     </div>
@@ -135,7 +136,8 @@
                                 <img itemprop="logo" src="{{ 'logo.jpg' | asset_url }}" />
                             </div>
                             <div id="breadcrumbs">
-                                {% include 'docs-breadcrumbs', docs_tree: docs_tree %}
+                                {% assign docs_tree = docs_tree %}
+                                {% include 'docs-breadcrumbs' %}
                             </div>
                             <div ng-init="getCurrentArticleUrl('{{page.url}}')" id="page-content">
                                 <h1 itemprop="headline">{{ page.title }}</h1>
@@ -150,7 +152,7 @@
                                                 By <a href="https://github.com/virtocommerce" target="_blank"><span itemprop="name">Virto Commerce</span></a>
                                             </div> -->
                                             <div>
-                                                Updated: <span itemprop="datePublished">{{ page.published_at | date: '%m/%d/%Y %I:%M %p' }}</span>
+                                                Updated: <span itemprop="datePublished">{{ page.published_at | date: '%m/%d/yyyy %I:%M %p' }}</span>
                                             </div>
                                             <div>Contributors:</div>
                                             <ul ng-if="authors" class="list list-contributors">
@@ -174,7 +176,8 @@
                             </div>
                             {% if template != 'search' %}
                             <div id="topics">
-                                {% include 'docs-topics', docs_tree: docs_tree %}
+                                {% assign docs_tree = docs_tree %}
+                                {% include 'docs-topics' %}
                                 {% include 'disqus' %}
                             </div>
                             {% endif %}

@@ -5,7 +5,7 @@
             <div class="slider-item">
                 <figure class="slider-outer">
                     <a class="slider-pic">
-                        <img class="slider-img" itemprop="image" src="{% if product.featured_image.src %}{{ product.featured_image.src }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" />
+                        <img class="slider-img" itemprop="image" src="{% if product.featured_image.url %}{{ product.featured_image.url }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" />
                     </a>
                 </figure>
             </div>
@@ -13,7 +13,7 @@
         <div class="extension-detail">
             <div class="extension-detail_inner __col-w">
                 <div class="extension-info col __col-60">
-                    <h1 class="extension-t">{{ product.selected_or_first_available_variant.title }}</h1>
+                    <h1 class="extension-t">{{ product.title }}</h1>
                     <div class="reviews-links">
                         <a class="link __ucase" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a>
                     </div>

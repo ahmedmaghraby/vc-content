@@ -1,4 +1,4 @@
---- 
+---
 title: Purchase Order Management Software. Purchase Order Management System
 description: With this unique Purchase Order Management System by Virto Commerce you will get the features that will improve your sales management with functionality that is truly unique among competitors. Learn more about advantages of using our Purchase Order Management Software in this article.
 date: 2017-09-22
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/purchase-order-management-software-1.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -56,7 +56,10 @@ tags :
         <br>
         <img alt="Purchase Order Management System" src="../assets/images/oms-poms-pim-screenshot-1.jpg" />
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 987 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% assign ratingCount = 987 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

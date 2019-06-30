@@ -8,7 +8,7 @@ ogtitle: Order management software
 ogsitename: Virtocommerce
 twittercard: summary
 twittertitle: Order management software
-twitterdescription: Features of order management software by Virto Commerce. This system can be integrated into complex enterprise workflows - including many leading OMS, IMS, ERP. 
+twitterdescription: Features of order management software by Virto Commerce. This system can be integrated into complex enterprise workflows - including many leading OMS, IMS, ERP.
 twittersite: Virtocommerce
 tags:
 - order management software
@@ -192,7 +192,10 @@ tags:
                     </div>
                 </section>
                 {% include 'micro-mark-publisher' %}
-                {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 987 %}
+                {% assign bestRating = 5 %}
+                {% assign ratingValue = 4.4 %}
+                {% assign ratingCount = 987 %}
+                {% include 'micro-mark-rating' %}
                 <div class="buttons">
                     <a class="button fill" href="/try-now">Try It Now</a>
                     <a class="button fill" href="/contact-us">Request Information & Personal Demo</a>

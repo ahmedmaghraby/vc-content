@@ -52,7 +52,10 @@ description: The agile B2B e-commerce solution. The best B2B ecommerce software 
         </div>
     </section> -->
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 1784 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% ratingCount = 1784 %}
+        {% include 'micro-mark-rating' %}
         <section class="costumers" data-name="section">
             <ul class="list responsive">
                 <li class="list-item">

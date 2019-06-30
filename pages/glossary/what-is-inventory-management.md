@@ -1,11 +1,11 @@
---- 
-title: Inventory management definition and meaning - What is inventory management? 
+---
+title: Inventory management definition and meaning - What is inventory management?
 description: What is inventory management? How to unitize inventory management techniques to achieve the best results?  Learn more about it in this article.
 date: 2017-08-23
 canonical: https://virtocommerce.com/glossary/what-is-inventory-management
 permalink: glossary/what-is-inventory-management
 ogimage: ../../assets/images/what-is-inventory-management.jpg
-ogtitle: Inventory management definition - What is inventory management? 
+ogtitle: Inventory management definition - What is inventory management?
 ogsitename: Virtocommerce
 twittercard: summary
 twittertitle: Virto Commerce
@@ -13,11 +13,11 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/what-is-inventory-management.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
 - inventory management
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -56,7 +56,10 @@ tags :
         <p class="text">Many small businesses rely on excel spreadsheets for their inventory management, but once your business starts growing, those become extremely limiting. To save yourself the trouble of dealing with all sorts of stock-related issues, look for a cloud-based inventory management system that tracks inventory movement across all your sales channels in real time. It will significantly reduce your risk of overselling.</p>
         <p class="text">One of the main advantages of switching to inventory management software is automation of the whole process - you won’t have to worry about overselling by accident or missing reorder points. It will also help reduce the likelihood of human error. Plus, it will save you a significant amount of time that you could allocate to growing your business.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 984 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.4 %}
+        {% assign ratingCount = 984 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

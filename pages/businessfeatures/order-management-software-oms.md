@@ -192,7 +192,10 @@ tags:
                     </div>
                 </section>
                 {% include 'micro-mark-publisher' %}
-                {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 987 %}
+                {% assign bestRating = 5 %}
+                {% assign ratingValue = 4.4 %}
+                {% assign ratingCount = 987 %}
+                {% include 'micro-mark-rating' %}
                 <div class="buttons">
                     <a class="button fill" href="/try-now">Try It Now</a>
                     <a class="button fill" href="/contact-us">Request Information & Personal Demo</a>

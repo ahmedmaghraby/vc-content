@@ -1,6 +1,6 @@
 ---
 title: Hosted Shopping Cart
-description: A shopping cart hosting is a unique solution. By using it, you get the same level of personal service as you would with a web-developer, while at the same time using the great power of hosting from the shopping cart itself. 
+description: A shopping cart hosting is a unique solution. By using it, you get the same level of personal service as you would with a web-developer, while at the same time using the great power of hosting from the shopping cart itself.
 date: 2017-06-01
 canonical: https://virtocommerce.com/glossary/hosted-shopping-cart
 permalink: glossary/hosted-shopping-cart
@@ -147,7 +147,10 @@ tags:
             </div>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 1851 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.5 %}
+        {% assign ratingCount = 1851 %}
+        {% include 'micro-mark-rating' %}
     </div>
     <div class="buttons">
         <a class="button fill" href="/try-now">Try It Now</a>

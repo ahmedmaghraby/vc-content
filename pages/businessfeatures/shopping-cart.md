@@ -12,7 +12,7 @@ twittertitle: Virto Commerce
 twitterdescription: Virto Commerce is a powerful ecommerce platform that includes everything you need to create an online store and sell online. Try it free with Free Community License
 twitterimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
 twittersite: Virtocommerce
-tags : 
+tags :
 - shopping-cart
 - cart
 - commerce
@@ -105,7 +105,10 @@ tags :
                 </ul>
             </div>
             {% include 'micro-mark-publisher' %}
-            {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.9, ratingCount: 1789 %}
+            {% assign bestRating = 5 %}
+            {% assign ratingValue = 4.9 %}
+            {% assign ratingCount = 1789 %}
+            {% include 'micro-mark-rating' %}
             <div class="buttons columns" style="word-spacing: normal;">
                 <a class="button fill" href="/try-now">Try It Now</a>
                 <a class="button fill" href="/contact-us">Request Information & Personal Demo</a>

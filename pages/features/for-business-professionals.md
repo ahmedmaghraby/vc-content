@@ -4,7 +4,7 @@ description: Agile ecommerce platform for b2c and b2b
 date: 2014-01-30
 permalink: features/for-business-professionals
 aliases: product
-tags : 
+tags :
 - for-business-professionals
 - business
 - business-professionals
@@ -43,7 +43,7 @@ tags :
             <div class="section-cnt">
                 <div class="section-text">
                     <div class="section-t">Catalog & Product Information Management (PIM)</div>
-                    <p>Our ecommerce platform provides sophisticated catalog management capabilities making it simple and elegant to manage even the most complex B2C and <a href="/b2b-ecommerce-platform">B2B</a> product lists. Manage digital and physical products using flexible properties structures. Virto Commerce catalog can be configured to handle all your catalog information, or integrated with 3rd party <a href="/product-information-management-software">PIM</a> or CMS solutions. All digital assets can be configured to be stored in popular Content Distribution Networks (CDN). For a global business, platform supports multiple catalogs, languages, taxes and storefronts.</p>
+                    <p>Our ecommerce platform provides sophisticated catalog management capabilities making it simple and elegant to manage even the most complex B2C and <a href="/b2b-ecommerce-platform">B2B</a> product lists. Manage digital and physical products using flexible properties structures. Virto Commerce catalog can be configured to handle all your catalog information, or integrated with 3rd party <a href="/product-information-management-software-pim">PIM</a> or CMS solutions. All digital assets can be configured to be stored in popular Content Distribution Networks (CDN). For a global business, platform supports multiple catalogs, languages, taxes and storefronts.</p>
                     <ul class="list">
                         <li>Multiple store catalogs</li>
                         <li>Physical products</li>
@@ -101,7 +101,7 @@ tags :
                     <div class="section-t">Promotions & Marketing</div>
                     <p>Our promotion engine lets you create free shipping campaigns, discounts on selected products, coupons for future purchases, and much more! And because it's a simple and easy tool to utilize, you won't be needing any developer assistance. That's a promotions in itself! Promotions can be combined with the marketing system to deliver truly engaging campaigns.</p>
                     <ul class="list">
-                        <li>Product & <a href="/shopping-cart">cart promotions</a></li>
+                        <li>Product & <a href="/asp-net-shopping-cart">cart promotions</a></li>
                         <li>Shipping promotions</li>
                         <li>Marketing campaigns</li>
                         <li>Banners</li>
@@ -137,7 +137,7 @@ tags :
                     <div class="section-t">Content Management (CMS)</div>
                     <p>Virto Commerce comes with a simple yet extremely powerful CMS that gives both developers and marketers complete access customizing the store look and feel. Developers can easily create and publish new themes while marketers can create landing pages, blog posts, marketing banners and more. Virto Commerce is also integrated with many industry leading CMS including <a href="/features/wordpress-ecommerce">WordPress</a>, <a href="/features/orchard-cms-ecommerce">Orchard CMS</a>, <a href="/features/umbraco-cms-ecommerce">Umbraco</a> and any html site to provide even more flexibility.</p>
                     <ul class="list">
-                        <li>Professional themes</li> 
+                        <li>Professional themes</li>
                         <li>Edit HTML and CSS</li>
                         <li>Mobile commerce ready</li>
                         <li>Full blogging platform</li>
@@ -308,9 +308,9 @@ tags :
                         <li>Payment methods</li>
                         <li>Subscriptions</li>
                         <li>Passwords</li>
-                        <li>Orders</li>                            
-                        <li>Invoice PDF</li>      
-                        <li>Quotes</li>                            
+                        <li>Orders</li>
+                        <li>Invoice PDF</li>
+                        <li>Quotes</li>
                         <li>Segmentation</li>
                         <li>Login on behalf</li>
                         <li>Customer self-management</li>
