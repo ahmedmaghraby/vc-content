@@ -8,7 +8,7 @@
         "layout": "theme"
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Join the Virto Commerce Partner Network",
@@ -24,13 +24,13 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
         "style": "light",
-        "decorator": "none",
-        "content": "<h3 style=\"text-align: center;\">Our partner program consists of both Solution Partners and Technology Partners. Being a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce for your customers.</h3>\n",
+        "decorator": "section--pattern",
+        "content": "<h3 style=\"text-align:center\">Our partner program consists of both Solution Partners and Technology Partners. Being a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce for your customers.</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
@@ -41,7 +41,7 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Benefits of Becoming a Virto Commerce Solution Partner",
@@ -83,7 +83,7 @@
         "noPad": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "custom-form",
         "name": "Custom form",
         "style": "light",
@@ -152,5 +152,83 @@
         ],
         "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
         "buttonText": "Inquire about Partnership"
+    },
+    {
+        "id": 6,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.1</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Job Title",
+                "name": "jobtitle",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Website",
+                "name": "website",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Region",
+                "name": "region",
+                "type": "text",
+                "data": null,
+                "fullrow": true
+            },
+            {
+                "label": "Comments",
+                "name": "comments",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true
+            },
+            {
+                "label": "region",
+                "name": "region",
+                "type": "select",
+                "data": "qwer;asdf;zcxv",
+                "fullrow": null
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Send Message"
     }
 ]

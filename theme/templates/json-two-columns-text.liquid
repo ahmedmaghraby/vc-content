@@ -9,12 +9,17 @@
                 {{ block.contentBefore }}
             </div>
             {% endif %}
+            {% assign thecycle = '' %}
             {% for item in block.items %}
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'odd' %}
+                {% assign thecycle = 'even' %}
+            {% else %}
+                {% assign thecycle = 'odd' %}
+            {% endif %}
             {% if thecycle == 'odd' and forloop.last != true %}
                 <div class="row">
             {% endif %}
-            {% if thecycle == 'odd' and forloop.last %}
+            {% if thecycle == 'odd' and forloop.last == true %}
                 <div class="row mt-5">
                     <div class="col">
             {% else %}
