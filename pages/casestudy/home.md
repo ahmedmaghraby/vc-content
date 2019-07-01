@@ -21,7 +21,7 @@ permalink: case-studies
                     </div>
                 </div>
             </li>
-            <!--<li class="list-item">
+            <li class="list-item">
                 <div class="list-inner">
                     <div class="list-img">
                         <img src="../assets/images/casestudies/lavazza-logo.jpeg" alt="lavazza">
@@ -46,7 +46,7 @@ permalink: case-studies
                         <a class="button fill" href="case-studies/standaard-boekhandel">View case study</a>
                     </div>
                 </div>
-            </li>-->
+            </li>
             <li class="list-item">
                 <div class="list-inner">
                     <div class="list-img">
