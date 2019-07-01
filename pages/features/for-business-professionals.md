@@ -101,7 +101,7 @@ tags :
                     <div class="section-t">Promotions & Marketing</div>
                     <p>Our promotion engine lets you create free shipping campaigns, discounts on selected products, coupons for future purchases, and much more! And because it's a simple and easy tool to utilize, you won't be needing any developer assistance. That's a promotions in itself! Promotions can be combined with the marketing system to deliver truly engaging campaigns.</p>
                     <ul class="list">
-                        <li>Product & <a href="/asp-net-shopping-cart">cart promotions</a></li>
+                        <li>Product & <a href="/shopping-cart">cart promotions</a></li>
                         <li>Shipping promotions</li>
                         <li>Marketing campaigns</li>
                         <li>Banners</li>
