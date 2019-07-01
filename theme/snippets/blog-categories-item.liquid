@@ -3,7 +3,7 @@
         <div class="post-media categories">
             <h1 class="categories-t">Virto Commerce Enterprise eCommerce Blog</h1>
             <ul class="menu">
-                {% paginate categories by 5 %}
+                {{ paginator = categories | paginate 20 }}
                     {% for category in categories %}
                         <li class="menu-item">
                             {% assign category_handle = category | handleize %}
@@ -12,7 +12,9 @@
                             <a class="menu-link" href="{{ category_url | absolute_url }}">{{ "blogs.categories." | append: category | t }}</a>
                         </li>
                     {% endfor %}
-                {% endpaginate %}
+                    {% if paginator.pages > 1 %}
+                    {% include 'pagination-custom' %}
+                    {% endif %}
             </ul>
             {% assign current_url = 'https://virtocommerce.com/blog' %}
             {% assign title = 'Virto Commerce Enterprise eCommerce Blog' %}

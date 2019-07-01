@@ -34,7 +34,7 @@ permalink: case-studies/cifereca
                 <p>This is Cifereca's fist impresiion on the market, so we had zero room for error.</p>
             </div>
             <div class="col __col-30">
-                {% assign downloadUrl = "../assets/files/niteco-cifereca-case-study.pdf"%}
+                {% assign downloadUrl = "../assets/files/niteco-cifereca-case-study.pdf" %}
                 {% assign caseName = "сifereca" %}
                 {% include 'case-study-download' %}
             </div>

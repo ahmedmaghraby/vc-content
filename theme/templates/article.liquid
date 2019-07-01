@@ -3,7 +3,8 @@
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
     <div class="posts __responsive">
-        {% include 'blog-categories-item', categories: blog.categories %}
+        {% assign categories = blog.categories %}
+        {% include 'blog-categories-item' %}
         <div class="post post-double post-detail">
             <div class="post-inner">
                 <div class="post-media{% if article.image_url == nil %} no-image{% endif %}" style="background-image: url('{{ article.image_url }}');">
@@ -20,7 +21,7 @@
                         <div class="post-logo"><img src="{{ 'logo-mini.png' | asset_url }}" /></div>
                         <div class="post-author">
                             <div class="author" itemprop="author">{{ article.author }}</div>
-                            <div class="date" itemprop="datePublished">{{ article.created_at | date: "%b %d, %Y" }}</div>
+                            <div class="date" itemprop="datePublished">{{ article.created_at | date: "MMM dd, yyyy" }}</div>
                         </div>
                     </div>
                     {% assign tags = article.tags %}
