@@ -20,13 +20,15 @@ permalink: case-studies/estatespain
                 </p>
                 <blockquote>
                     "We selected Virto Commerce to replace our ecommerce solution because of its ability to scale quickly to other countries and languages - and for its ability to create and maintain a large property catalog. Virto allowed us to maintain 24/7 availability, which is critical to our international business." said Olga Lomko, CEO of Estate-Spain.com
-                </blockquote>       
+                </blockquote>
                 <p>
                     Estate-Spain.com started with a basic site builder and quickly outgrew it. They found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.
                 </p>
             </div>
             <div class="col __col-30">
-                {% include 'case-study-download', downloadUrl: "../assets/files/estatespain-case-study.pdf", caseName: "eminent" %}
+                {% assign downloadUrl = "../assets/files/estatespain-case-study.pdf" %}
+                {% assign caseName = "eminent" %}
+                {% include 'case-study-download' %}
             </div>
         </div>
     </div>

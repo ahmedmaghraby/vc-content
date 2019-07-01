@@ -32,7 +32,9 @@ permalink: case-studies/standaard-boekhandel
                     previous commerce tool, they wanted to migrate to a more flexible and sustainable platform.</p>
             </div>
             <div class="col __col-30">
-                {% include 'case-study-download', downloadUrl: "../assets/files/standaard-boekhandel-case-study.pdf", caseName: "standaard-boekhandel" %}
+                {% assign downloadUrl = "../assets/files/standaard-boekhandel-case-study.pdf" %}
+                {% assign caseName = "standaard-boekhandel" %}
+                {% include 'case-study-download' %}
             </div>
         </div>
     </div>

@@ -48,7 +48,9 @@ permalink: case-studies/proffsmagasinet
                 </p>
             </div>
             <div class="col __col-30">
-                {% include 'case-study-download', downloadUrl: "../assets/files/case-study-proffs.pdf", caseName: "proffsmagasinet" %}
+                {% assign downloadUrl = "../assets/files/case-study-proffs.pdf" %}
+                {% assign caseName = "proffsmagasinet" %}
+                {% include 'case-study-download' %}
             </div>
         </div>
     </div>
