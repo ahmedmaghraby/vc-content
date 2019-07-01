@@ -179,7 +179,10 @@ tags :
                 <p>All these Shopify alternatives are known for their great simplicity, intuitive design and tremendous efforts put into customer support. Get on the board and start your online store right now!</p>
             </div>
             {% include 'micro-mark-publisher' %}
-            {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
+            {% assign bestRating = 5 %}
+            {% assign ratingValue = 4.7 %}
+            {% assign ratingCount = 785 %}
+            {% include 'micro-mark-rating' %}
             <h2 class="glosary-sub-t">B2B Ecommerce Case Studies from Virto Commerce</h2>
             <div class="glosary-article">
                 <ul class="list list-studios">

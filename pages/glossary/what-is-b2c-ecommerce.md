@@ -1,8 +1,8 @@
---- 
+---
 title: What is B2C ecommerce?
 description: What is B2C ecommerce? Business to consumer ecommerce description
-date: 2017-03-13 
-canonical: https://virtocommerce.com/glossary/what-is-b2c-ecommerce 
+date: 2017-03-13
+canonical: https://virtocommerce.com/glossary/what-is-b2c-ecommerce
 permalink: glossary/what-is-b2c-ecommerce
 ogimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
 ogtitle: What is B2C (business 2 consumer). Definition&Information | Glossary Virto Commerce.
@@ -126,7 +126,10 @@ tags :
             </li>
         </ol>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 976 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.5 %}
+        {% assign ratingCount = 976 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information &amp; Demo</a>

@@ -1,4 +1,4 @@
---- 
+---
 title: Elasticpath alternatives and competitors
 description: Elasticpath platform offers a great ecommerce solution for the businesses that offer digital services online. It provides advanced features like personalized merchandising, product information management and native website builder that come right out of the box, but like every platform out there, this one has its downsides. So let's look at  Elastic Path alternatives and competitors.
 date: 2017-09-08
@@ -13,11 +13,11 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/elastic-path-alternatives.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
 - SAAS Platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -50,7 +50,8 @@ tags :
         <p class="text">
             If these issues look like they might be deal breakers for you, here are some of the most popular Elastic Path alternatives.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/elastic-path-alternatives' %}
+        {% assign current_url = 'glossary/elastic-path-alternatives' %}
+        {% include 'vc-magento-banner' %}
         <div class="section-title">Demandware</div>
         <div class="col-w">
             <div class="col __col-30">
@@ -100,7 +101,8 @@ tags :
                 <img alt="Elasticpath Alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
         </div>
-        {% include 'vc-magento-banner' with current_url : 'glossary/elastic-path-alternatives' %}
+        {% assign current_url = 'glossary/elastic-path-alternatives'%}
+        {% include 'vc-magento-banner' %}
         <p class="text">
             <a href="{{ 'https://virtocommerce.com/b2b-ecommerce-platform' | absolute_url }}">This platform</a> can be used by any kind of business of any size. Whether it is a small one or an enterprise-level company, the platform will provide the necessary functionality and some nifty additional features relevant to your field.
         </p>
@@ -111,7 +113,10 @@ tags :
             Its flexible pricing lets you save greatly in the long run by. And the way its functionality is built allows your business to achieve great customer satisfaction and increase conversion rates without hiring any customer support team members.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 1047 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.7 %}
+        {% assign ratingCount = 1047 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

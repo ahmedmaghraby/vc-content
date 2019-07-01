@@ -1,4 +1,4 @@
---- 
+---
 title: Product recommendation engine. Ecommerce recommendation system.
 description: Our Azure-based recommendation engine personalizes the products each customer sees at different times and consequently you get higher conversion rates on every view and the buyers find what they want right at the time they are ready to make a purchase. This article helps you to know what makes product recommendation so great and why is it a smart idea to invest in a product recommendation engine for your eCommerce business.
 date: 2017-10-12
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/product-recommendation-engine.jpeg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -61,6 +61,9 @@ tags :
         <p class="text">Uses the purchase history of each specific customer to recommend products unique to that customer.</p>
         <p class="text">For example, after a customer purchased a phone from the store they are taken to the order processing pages, where underneath their current order they would get recommended a variety of different cases for the exact phone they have purchased aiming to encourage a second purchase.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4 %}
+        {% ratingCount = 485 %}
+        {% include 'micro-mark-rating' %}
     </div>
 </section>

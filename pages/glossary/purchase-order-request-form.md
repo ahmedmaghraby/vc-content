@@ -1,11 +1,11 @@
---- 
-title: Purchase Order Request Form 
+---
+title: Purchase Order Request Form
 description: What is Purchase Order Request Form? Learn more about benefits of using it, steps in Purchase Order Process and much more in this article.
 date: 2017-11-29
 canonical: https://virtocommerce.com/glossary/purchase-order-request-form
 permalink: glossary/purchase-order-request-form
 ogimage: ../../assets/images/purchase-order-request-form.jpg
-ogtitle: Purchase Order Request Form 
+ogtitle: Purchase Order Request Form
 ogsitename: Virtocommerce
 twittercard: summary
 twittertitle: Virto Commerce
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/purchase-order-request-form.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -76,7 +76,10 @@ tags :
         <div class="section-title">Conclusion</div>
         <p class="text">PO can be used as a document that enhances the purchase process and allows for a better understanding between the customer and the supplier. It also gives your business an opportunity to appear professional and expand its reach. At the same time, by implementing PO in your practices, you will build valuable connections that will last a long time. </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 759 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.5 %}
+        {% assign ratingCount = 759 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

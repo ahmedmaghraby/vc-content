@@ -1,7 +1,7 @@
---- 
+---
 title: SAAS Ecommerce - Definition | Glossary Virto Commerce
 description: What are the opportunities of using SAAS eCommerce Platforms? Learn more in our ecommerce SAAS article.
-date: 2017-06-07 
+date: 2017-06-07
 canonical: https://virtocommerce.com/glossary/saas-ecommerce
 permalink: glossary/saas-ecommerce
 ogimage: ../../assets/images/saas-ecommerce.png
@@ -13,11 +13,11 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/saas-ecommerce.png
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
 - SAAS Platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -144,7 +144,10 @@ tags :
             All sorts of businesses can have many benefits from using SAAS applications. Businesses looking for a big variety of features and those who prioritize integration and automation can get what they need most. Those who want to have modern design and those who enjoy providing excellent customer experience to the clients will achieve their goals, too. Overall, SAAS platforms offer the ease of creating a website, featuring immense amount of options and excellent scalability. And most importantly, e-commerce SAAS platforms provide a good fit for the majority of your business goals online, allow you to be realistic with your business strategy and deliver the most pleasant shopping experience to your clients.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 889 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% assign ratingCount = 889 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

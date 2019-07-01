@@ -56,7 +56,8 @@ tags :
         <p class="text">
             While Episerver is a very dynamic and flexible platform that works well for large and medium-sized businesses, it doesn’t hurt to have a look at a few Episerver alternatives that might work better when it comes to choosing the right CMS for your business.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/episerver-alternatives' %}
+        {% assign current_url = 'glossary/episerver-alternatives' %}
+        {% include 'vc-magento-banner' %}
         <div class="section-title">Wordpress</div>
         <div class="col-w">
             <div class="col __col-30">
@@ -105,7 +106,8 @@ tags :
         <p class="text">
             The engaging Virto Commerce community can also help you achieve the most out of your developing process and enhance the already robust features of the <a href="{{ 'https://virtocommerce.com/b2b-ecommerce-platform' | absolute_url }}">platform</a>. Virto Commerce’s own application store allows you to find the best add-ons and plugins that will help expand your options of customizing even more.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/episerver-alternatives' %}
+        {% assign current_url = 'glossary/episerver-alternatives' %}
+        {% include 'vc-magento-banner' %}
         <p class="text">
             With the platform’s modern architecture, you can enhance the performance of your website and easily replace existing modules when needed. By using Virto Commerce as an Episerver alternative, you can fully engage into using its agile features to the fullest. Deploy your website via Microsoft Cloud and scale it using Virto Commerce’s rich resources and multichannel solutions. With CMS like Virto Commerce, you can easily set up a web store and start selling beyond your business hours.
         </p>
@@ -113,7 +115,10 @@ tags :
             The right CMS platform can be a very important element in reaching the success of your business. While there are undoubtedly great features in Episerver, it lacks some important functionality that is available with some of the Episerver competitors. We have done this brief overview of the available options, so you can choose the one that works best for your particular business.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 1687 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.7 %}
+        {% assign ratingCount = 1687 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

@@ -115,7 +115,10 @@ tags:
             <iframe width="400" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 678 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% assign ratingCount = 678 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/contact-us">Request Information & Demo</a>
             <a class="button fill" href="/download-whitepaper">Download Cloud Whitepaper</a>

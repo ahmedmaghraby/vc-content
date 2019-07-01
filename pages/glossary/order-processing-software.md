@@ -1,7 +1,7 @@
---- 
+---
 title: Order processing software. Order fulfillment and tracking software
-description: Virto Commerce’s order processing software is very flexible and easy to integrate into your existing order management system. Learn more about benefits and opportunities of using order fulfillment software in this article. 
-date: 2017-10-19 
+description: Virto Commerce’s order processing software is very flexible and easy to integrate into your existing order management system. Learn more about benefits and opportunities of using order fulfillment software in this article.
+date: 2017-10-19
 canonical: https://virtocommerce.com/glossary/order-processing-software
 permalink: glossary/order-processing-software
 ogimage: ../../assets/images/order-processing-software.jpg
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/order-processing-software.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -93,7 +93,10 @@ tags :
             An order tracking system by Virto Commerce introduces the best practices when it comes to order fulfillment and helps manufacturers, wholesalers, and distributors reduce costs, improve customer support and start selling globally without the pain of processing orders manually. Virto Commerce allows you to consolidate and process your orders across multiple sales channels with seamless tracking.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 1278 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% assign ratingCount = 1278 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

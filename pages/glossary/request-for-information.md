@@ -1,11 +1,11 @@
---- 
-title: Request for Information 
+---
+title: Request for Information
 description: What is Request for Information (RFI)? What are advantages and disadvantages of using RFI in your business process? Are there any differences between RFI and RFP? Learn it and much more in this article.
 date: 2017-11-30
 canonical: https://virtocommerce.com/glossary/request-for-information
 permalink: glossary/request-for-information
 ogimage: ../../assets/images/request-for-information.jpg
-ogtitle: Request for Information 
+ogtitle: Request for Information
 ogsitename: Virtocommerce
 twittercard: summary
 twittertitle: Virto Commerce
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/request-for-information.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -91,7 +91,10 @@ tags :
         <div class="section-title">Conclusion </div>
         <p class="text">An RFI can be used as a powerful tool in attracting potential suppliers to your projects as well as building valuable business connections that will serve you best in the long run. It is simple to compile and has a natural format to follow, yet remaining very professional and to the point. A well-composed request for information can present you as a company that cares about professionalism and wants to incorporate the best business practices in its operation. </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 875 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.8 %}
+        {% assign ratingCount = 875 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

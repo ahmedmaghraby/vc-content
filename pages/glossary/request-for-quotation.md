@@ -1,4 +1,4 @@
---- 
+---
 title: Request for Quote
 description: What is a Request for quotation (RFQ)? How to create it? What are advantages and disadvantages of using RFQ in your business process? Learn it and much more in this article.
 date: 2017-11-27
@@ -13,10 +13,10 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/request-for-quotation.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -65,7 +65,10 @@ tags :
         <div class="section-title">Conclusion</div>
         <p class="text">The process of requesting for proposal is one of the most influential tools for the buyer to inquire additional information about the price on the supplier market. It is vital for mid-large companies to figure out how to run the RFQ process efficiently. Consider the request for quotation is like a bonding between a husband and wife. It is essential to find the right supplier for your business as this connection can be advantageous for years ahead. Nurturing this relationship is vital for both sides. The strategy is important, and you always have to remember that while conducting the request for quotation.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 874 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.6 %}
+        {% assign ratingCount =  874 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

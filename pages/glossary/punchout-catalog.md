@@ -1,6 +1,6 @@
 ---
 title: Punchout Catalog Definition, How does punch out catalog work? | Glossary Virto Commerce.
-description: How does punchout catalog work? The definition of punch out catalog. 
+description: How does punchout catalog work? The definition of punch out catalog.
 date: 2014-01-30
 canonical: https://virtocommerce.com/glossary/punchout-catalog
 permalink: glossary/punchout-catalog
@@ -13,7 +13,7 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: https://virtocommerce.com/assets/images/punchout-catalog.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - glossary
 - punchout-catalog
 ---
@@ -57,7 +57,10 @@ tags :
             <p>The punch out catalog increases <a href="{{ '/order-management-software' | absolute_url }}">order</a> accuracy and speed of processing, and these factors always affect the customers’ loyalty and satisfaction.</p>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 424 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.6 %}
+        {% assign ratingCount = 424 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

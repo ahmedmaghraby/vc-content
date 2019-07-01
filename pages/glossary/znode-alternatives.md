@@ -1,11 +1,11 @@
---- 
+---
 title: Znode alternatives and competitors
 description: Znode is a great ecommerce platform with a wide range of opportunities, but there are some alternative solutions and Znode competitors that you should check out. Learn more about it in this article.
 date: 2017-09-05
 canonical: https://virtocommerce.com/glossary/znode-alternatives
 permalink: glossary/znode-alternatives
 ogimage: ../../assets/images/znode-alternatives.jpg
-ogtitle: Znode alternatives 
+ogtitle: Znode alternatives
 ogsitename: Virtocommerce
 twittercard: summary
 twittertitle: Virto Commerce
@@ -13,11 +13,11 @@ twitterdescription: Virto Commerce is a powerful ecommerce platform that include
 twitterimage: ../../assets/images/znode-alternatives.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - ecommerce
 - ecommerce platform
 - SAAS Platform
-- virtocommerce 
+- virtocommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -50,7 +50,8 @@ tags :
         <p class="text">
             If this is the case for you, here are some alternative solutions and Znode competitors.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/znode-alternatives' %}
+        {% assign current_url = 'glossary/znode-alternatives' %}
+        {% include 'vc-magento-banner' %}
         <div class="section-title">Big Cartel</div>
         <div class="col-w">
             <div class="col __col-30">
@@ -104,7 +105,8 @@ tags :
                 The community is very active and gives you the necessary support along the way of setting up your web store. The solution is very flexible in its usage, allowing you to have as much freedom as you need, while at the same time, having the most complicated processes already set up. Overall it’s an affordable all-in-one solution for all of your e-commerce needs with the possibility of web-hosting adaptation.
             </div>
         </div>
-        {% include 'vc-magento-banner' with current_url : 'glossary/znode-alternatives' %}
+        {% assign current_url = 'glossary/znode-alternatives' %}
+        {% include 'vc-magento-banner' %}
         <div class="section-title">Virto Commerce</div>
         <div class="col-w">
             <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
@@ -116,7 +118,10 @@ tags :
             </div>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 784 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.6 %}
+        {% assign ratingCount = 784 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/try-now">Try It Now</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

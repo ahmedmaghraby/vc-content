@@ -13,7 +13,7 @@ twitterdescription: What is B2B2C ecommerce? What does it mean? Learn more about
 twitterimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
 twittersite: Virtocommerce
 layout: glossary
-tags : 
+tags :
 - glossary
 - punchout-catalog
 ---
@@ -53,7 +53,10 @@ tags :
             <p>With you being determined on adopting the new business model, don’t fool yourself that this approach does not require a big amount of effort put into customer acquisition. It is a wrong way to think that you will get a bulk load of clients with the B2B2C model. If the only motivation you have is to avoid effort, then your business will not enjoy this ecommerce format and generate profit out of it.</p>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.3, ratingCount: 875 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4.3 %}
+        {% assign ratingCount = 875 %}
+        {% include 'micro-mark-rating' %}
         <div class="buttons">
             <a class="button fill" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
             <a class="button fill" href="/contact-us">Request Information & Demo</a>

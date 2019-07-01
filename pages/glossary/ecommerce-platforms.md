@@ -349,7 +349,10 @@ tags:
                 </div>
             </div>
             {% include 'micro-mark-publisher' %}
-            {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
+            {% assign bestRating = 5 %}
+            {% assign ratingValue = 4.7 %}
+            {% assign ratingCount = 785 %}
+            {% include 'micro-mark-rating' %}
         </div>
     </div>
     <div class="glosary-nav">

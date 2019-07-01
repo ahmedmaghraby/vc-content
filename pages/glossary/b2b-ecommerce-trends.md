@@ -195,7 +195,10 @@ tags :
             <a class="button fill" href="/contact-us">Request Information & Demo</a>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
+        {% assign bestRating = 5 %}
+        {% assign ratingValue = 4 %}
+        {% assign ratingCount = 485 %}
+        {% include 'micro-mark-rating' %}
     </div>
     <div class="blog" style="background: #fff; padding: 0; padding-bottom: 40px;">
         <div style="margin-top: 40px; text-align: center;">
