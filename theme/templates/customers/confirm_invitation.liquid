@@ -4,34 +4,36 @@
     <div class="columns">
         <div class="block">
             <div class="column">
-                {% form 'confirm_invitation' %}
-                {% include 'form-errors-custom' %}
+                <form accept-charset="UTF-8" action="{{ '~/account/confirminvitation' | absolute_url }}" method="post" id="confirm_invitation" name="confirm_invitation">
+                    {% include 'form-errors-custom' %}
 
-                <input type="hidden" value="{{ form.email }}" name="customer[email]">
-                <input type="hidden" value="{{ form.email }}" name="customer[user_name]">
-                <input type="hidden" value="{{ form.organization_id }}" name="customer[organization_id]">
-                <input type="hidden" value="{{ form.token }}" name="customer[token]">
+                    <input type="hidden" value="{{ form.email }}" name="customer[email]">
+                    <input type="hidden" value="{{ form.email }}" name="customer[user_name]">
+                    <input type="hidden" value="{{ form.organization_id }}" name="customer[organization_id]">
+                    <input type="hidden" value="{{ form.token }}" name="customer[token]">
 
-                <div class="control-group">
-                    <label for="first_name" class="hidden-label text-left">First name (required)</label>
-                    <input type="text" value="" class="form-input" name="customer[first_name]" id="first_name" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.errors contains "first_name" %} class="error" {% endif %} autocapitalize="words" autofocus>
-                </div>
-                <div class="control-group">
-                    <label for="last_name" class="hidden-label text-left">Last name (required)</label>
-                    <input type="text" value="" class="form-input" name="customer[last_name]" id="last_name" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.errors contains "last_name" %} class="error" {% endif %} autocapitalize="words">
-                </div>
-                <div class="control-group">
-                    <label for="create_password" class="hidden-label text-left">Password (required)</label>
-                    <input type="password" value="" class="form-input" name="customer[password]" id="create_password" placeholder="{{ 'customer.register.password' | t }}" {% if form.errors contains "password" %} class="error" {% endif %}>
-                </div>
-                <div class="control-group">
-                    <label for="confirm_password" class="hidden-label text-left">Confirm password (required)</label>
-                    <input type="password" value="" class="form-input" name="customer[password_confirm]" id="confirm_password" placeholder="{{ 'customer.register.password_confirm' | t }}">
-                </div>
-                <p style="margin-right: 20px;">
-                    <input style="width: 100%;" type="submit" class="button fill no-transparent" value="Activate">
+                    <div class="control-group">
+                        <label for="first_name" class="hidden-label text-left">First name (required)</label>
+                        <input type="text" value="" class="form-input" name="customer[first_name]" id="first_name" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.errors contains "first_name" %} class="error" {% endif %} autocapitalize="words" autofocus>
+                    </div>
+                    <div class="control-group">
+                        <label for="last_name" class="hidden-label text-left">Last name (required)</label>
+                        <input type="text" value="" class="form-input" name="customer[last_name]" id="last_name" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.errors contains "last_name" %} class="error" {% endif %} autocapitalize="words">
+                    </div>
+                    <div class="control-group">
+                        <label for="create_password" class="hidden-label text-left">Password (required)</label>
+                        <input type="password" value="" class="form-input" name="customer[password]" id="create_password" placeholder="{{ 'customer.register.password' | t }}" {% if form.errors contains "password" %} class="error" {% endif %}>
+                    </div>
+                    <div class="control-group">
+                        <label for="confirm_password" class="hidden-label text-left">Confirm password (required)</label>
+                        <input type="password" value="" class="form-input" name="customer[password_confirm]" id="confirm_password" placeholder="{{ 'customer.register.password_confirm' | t }}">
+                    </div>
+                    <p style="margin-right: 20px;">
+                        <input style="width: 100%;" type="submit" class="button fill no-transparent" value="Activate">
+                    </p>
+                    {{ antiforgery }}
+                </form>
             </div>
-            {% endform %}
         </div>
     </div>
 </div>
