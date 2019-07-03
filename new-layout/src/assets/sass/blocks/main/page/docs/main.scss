@@ -189,14 +189,14 @@
             }
         }
 
-        a[href]
+        .edit-link
         {
             align-items: center;
             color: $blue;
             display: flex;
             font-size: .875rem;
 
-            [class*="-ico"]
+            &__ico
             {
                 height: 1.5rem;
                 margin-right: .625rem;

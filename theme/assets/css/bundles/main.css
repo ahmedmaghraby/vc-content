@@ -6042,7 +6042,7 @@ blockquote .author {
     margin-top: 2rem;
 }
 
-.docs__content a[href] {
+.docs__content .edit-link {
     -ms-flex-align: center;
     align-items: center;
     color: #43b0e6;
@@ -6051,21 +6051,21 @@ blockquote .author {
     font-size: .875rem;
 }
 
-.docs__content a[href] [class*="-ico"] {
+.docs__content .edit-link__ico {
     height: 1.5rem;
     margin-right: .625rem;
     width: 1.5rem;
 }
 
-.docs__content a[href] .path {
+.docs__content .edit-link .path {
     fill: #43b0e6;
 }
 
-.docs__content a[href]:hover {
+.docs__content .edit-link:hover {
     color: #ffb608;
 }
 
-.docs__content a[href]:hover .path {
+.docs__content .edit-link:hover .path {
     fill: #ffb608;
 }
 
@@ -6298,6 +6298,22 @@ blockquote .author {
         flex: 0 0 23.75rem;
         max-width: 23.75rem;
     }
+}
+
+.page-404 {
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.page-404 .page__pic {
+    height: 18.75rem;
+    margin-bottom: 3.125rem;
+    width: 20.875rem;
+}
+
+.page-404 .page__descr {
+    font-size: 1.125rem;
+    margin-bottom: 2.5rem;
 }
 
 .footer {
