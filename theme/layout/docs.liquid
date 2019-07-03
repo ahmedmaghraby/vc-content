@@ -97,7 +97,12 @@
                         {% include 'docs-menu' %}
                         <div class="docs__content">
                             {{ content_for_layout }}
-                            {% include 'disqus' %}
+                            {% if template != 'search' %}
+                            <div id="topics">
+                                {% include 'docs-topics', docs_tree: docs_tree %}
+                                {% include 'disqus' %}
+                            </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
