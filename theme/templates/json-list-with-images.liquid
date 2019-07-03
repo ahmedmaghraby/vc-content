@@ -1,6 +1,12 @@
 <div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
     <div class="section__inner container">
-        <h2 class="section__t">{{ block.title }}</h2>
+        {% if block.title != blank %}
+            {% if block.h1 == 'True' %}
+            <h1 class="section__t">{{ block.title }}</h1>
+            {% else %}
+            <h2 class="section__t">{{ block.title }}</h2>
+            {% endif %}
+        {% endif %}
         {% if block.intro != blank %}
         <div class="section__descr">
             {{ block.intro }}
