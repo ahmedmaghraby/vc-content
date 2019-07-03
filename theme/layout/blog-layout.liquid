@@ -88,10 +88,7 @@
 
     {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
-    {{ 'reset.css' | asset_url | stylesheet_tag }}
-    {{ 'main.css' | asset_url | stylesheet_tag }}
-    {{ 'main-styles.min.css' | asset_url | stylesheet_tag }}
-    {{ 'responsive.css' | asset_url | stylesheet_tag }}
+    {{ 'style.min.css' | asset_url | stylesheet_tag }}
 
     {% include 'google-tag-manager-head' %}
     {{ content_for_header }}
@@ -155,17 +152,6 @@
         <div class="layout-canvas">
             <div class="swipe">
                 {% include 'main-menu-mobile' %}
-            </div>
-            <div class="header-wrap">
-                <header class="responsive" role="banner">
-                    <a class="logo" href="{{ '/' | absolute_url }}"></a>
-                    <a class="mobile-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                    {% include 'main-menu-static' %}
-                </header>
             </div>
             <article class="main" role="main">
                 {{ content_for_layout }}
