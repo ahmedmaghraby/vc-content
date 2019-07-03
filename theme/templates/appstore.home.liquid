@@ -5,7 +5,7 @@
             <div class="info-descr">{{ 'apps.category.contact_us_slogan' | t }}</div>
             <a class="btn __medium __round __red __ucase" ng-click="showBecomeADeveloperForm()">{{ 'apps.category.become_a_developer' | t }}</a>
         </div>
-    </div>    
+    </div>
         <div class="items __responsive">
             <div class="title-w">
                 <h1 class="t">{{ collections['featured'].title }}</h1>
@@ -16,9 +16,10 @@
                 </ul>
             </div>
             <div class="list __items __inline">
+                {% assign featured_products = collections['featured'].products %}
+                {{ paginator = featured_products | paginate 5 '{"SortBy": "createddate:desc", "ResponseGroup" : "Default, ItemProperties"}' }}
                 <ul class="main">
-                  {% assign featured_products = collections['featured'].products | sort:"createddate:desc" %}
-                  {% for product in featured_products limit: 5 %}
+                  {% for product in featured_products %}
                     {% include 'grid-item' %}
                   {% endfor %}
                 </ul>
@@ -30,12 +31,11 @@
             </div>
             <div class="list __items __inline">
                 <ul class="main">
-                   {% assign new_extensions = collections['new-extensions'].products | sort:"createddate:desc" %}
-                   {% for product in new_extensions limit: 5 %}
+                   {% assign new_extensions = collections['new-extensions'].products %}
+                   {{ paginator = new_extensions | paginate 5 '{"SortBy": "createddate:desc", "ResponseGroup" : "Default, ItemProperties"}' }}
+                   {% for product in new_extensions %}
                         {% include 'grid-item' %}
                     {% endfor %}
                 </ul>
-            </div>
         </div>
-   
 </div>

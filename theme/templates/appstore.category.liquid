@@ -1,6 +1,6 @@
 <div class="apps">
     {% include 'breadcrumb' %}
-    {% paginator = collection.products | paginate 30 %}
+    {{ paginator = collection.products | paginate 30 '{"ResponseGroup" : "Default, ItemProperties"}' }}
     <div class="items __responsive">
             <div class="title-w">
                 <h1 class="t">{{ collection.title }}</h1>

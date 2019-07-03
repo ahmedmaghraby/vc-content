@@ -19,7 +19,7 @@
                 </div>
             </div>
             {% if search.results_count > 0 %}
-                {% paginator =  search.results | paginate 15 %}
+                {{ paginator =  search.results | paginate 15 '{"ResponseGroup" : "Default, ItemProperties"}' }}
                     <div class="list __items __inline">
                         <ul class="main">
                             {% for product in search.results %}
