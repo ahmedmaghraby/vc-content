@@ -14,7 +14,7 @@
         {% for link in menu.links %}
             {% assign child_list_handle = link.title | handleize %}
         <li class="menu-item" data-id="swipeli">
-                <a href="{{ link.url }}" data-swipe="opened">{{ link.title | escape }}</a>
+                <a href="{{ link.url | absolute_url }}" data-swipe="opened">{{ link.title | escape }}</a>
             {% if linklists[child_list_handle].links.size > 0 %}
             <ul class="menu sub-menu">
                 {% for child_link in linklists[child_list_handle].links %}
@@ -22,7 +22,7 @@
                     {% if child_link.url contains '/#' %}
                         <span>{{ child_link.title  }}</span>
                     {% else %}
-                        <a href="{{ child_link.url }}">{{ child_link.title | escape }}</a>
+                        <a href="{{ child_link.url | absolute_url }}">{{ child_link.title | escape }}</a>
                     {% endif %}
                 </li>
                 {% endfor %}
