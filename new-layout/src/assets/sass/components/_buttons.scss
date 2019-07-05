@@ -65,12 +65,12 @@
     {
         background: $white;
         border-color: $white;
-        color: inherit;
+        color: $black;
 
         &:hover
         {
             background: darken($white, 5%);
-            color: inherit;
+            color: $black;
         }
     }
 
