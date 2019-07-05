@@ -37,3 +37,79 @@
     max-width: 72rem;
     width: 100%;
 }
+
+%ul-and-ol
+{
+    ul,
+    ol
+    {
+        list-style: none;
+        position: relative;
+
+        li
+        {
+            align-items: center;
+            display: flex;
+            flex: 0 0 1.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            min-height: 1.75rem;
+            padding-left: 2.5rem;
+            position: relative;
+
+            &::before
+            {
+                background: url($tpl-img-url + 'icons/icon-list.svg') no-repeat scroll 0 0;
+                content: ' ';
+                height: 1.75rem;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 1.75rem;
+            }
+
+            & ~ li
+            {
+                margin-top: .625rem;
+            }
+
+        }
+    }
+
+    ol
+    {
+        counter-reset: num;
+
+        li
+        {
+            &::before
+            {
+                align-items: center;
+                background: $orange;
+                border-radius: 1.75rem;
+                content: counter(num);
+                counter-increment: num;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    ul.custom
+    {
+        li
+        {
+            &::before
+            {
+                align-items: center;
+                background: $orange;
+                border-radius: 1.75rem;
+                content: attr(data-name);
+                display: flex;
+                font-size: 1rem;
+                font-weight: bold;
+                justify-content: center;
+            }
+        }
+    }
+}
