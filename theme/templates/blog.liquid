@@ -32,6 +32,8 @@
         {{ settings.blog.sticked_article_url }}
     </div>
 
+    {% comment %}
+
     <div class="posts __responsive" ng-if="articles || articles.length">
         {% include 'blog-list-item-js' %}
     </div>
@@ -43,6 +45,7 @@
     {% endif %}
 
     {% include 'blog-trending-list' %}
+    {% endcomment %}
 </div>
 <script>
     window.blogName = '{{ blog.handle }}';
