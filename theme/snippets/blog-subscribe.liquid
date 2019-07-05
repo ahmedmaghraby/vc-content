@@ -1,0 +1,28 @@
+<div class="blog-sidebar">
+    <div class="blog-sidebar__inner">
+        <img class="blog-sidebar__pic" src="{{ 'bell.svg' | asset_url }}" alt="">
+        <div class="blog-sidebar__t">Sign up to our newsletter</div>
+        <form class="form">
+            <input type="text" class="form-control" placeholder="Enter your email">
+            <button class="btn btn--orange">Subscribe</button>
+        </form>
+        <p>... or follow the events on <br>social networks</p>
+        <div class="list list--socials">
+            {% assign current_url = 'https://virtocommerce.com/blog' %}
+            {% assign title = 'Virto Commerce Enterprise eCommerce Blog' %}
+            {% if article %}
+            {% assign current_url = article.url | full_url %}
+            {% assign title = article.title %}
+            {% endif %}
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ current_url }}" target="_blank" class="list__item">
+                <img class="blog-sidebar__pic" src="{{ 'fb.svg' | asset_url }}" alt="">
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ current_url }}&title={{ title }}&summary={{ article.excerpt }}&source=" target="_blank" class="list__item">
+                <img class="blog-sidebar__pic" src="{{ 'plus.svg' | asset_url }}" alt="">
+            </a>
+            <a href="https://twitter.com/intent/tweet?text={{ current_url }}" target="_blank" class="list__item">
+                <img class="blog-sidebar__pic" src="{{ 'tw.svg' | asset_url }}" alt="">
+            </a>
+        </div>
+    </div>
+</div>

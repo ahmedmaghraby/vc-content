@@ -1,23 +1,34 @@
 <div class="blog" itemtype="http://schema.org/Blog" itemscope ng-controller="blogController">
-    <div class="posts __responsive" itemprop="blogPosts">
+    <div class="posts __responsive container" itemprop="blogPosts">
+        <h1 class="blog__t">Virto Commerce Enterprise eCommerce Blog</h1>
+        <div class="list list--tags">
+            {% for category in blog.categories %}
+                {% assign category_handle = category | handleize %}
+                {% assign blog_url = '~/blogs/' | append: blog.handle  %}
+                {% assign category_url = '/blog/category/' | append: category %}
+                <a class="list__item" href="{{ category_url | absolute_url }}">{{ "blogs.categories." | append: category | t }}</a>
+            {% endfor %}
+        </div>
+
         {% assign sticked_article = blog.articles | where: 'Url', '==', settings.blog_sticked_article_url | first %}
         {% assign page_size = 9 %}
-
-        {% include 'blog-categories-item', categories: blog.categories %}
-
-        {% include 'blog-list-item', article: sticked_article, style: "double" %}
+        <div class="blog-main">
+            {% include 'blog-sticked-item', article: sticked_article %}
+            {% include 'blog-subscribe'%}
+        </div>
         {% assign articles = blog.articles | where: 'Url', '!=', sticked_article.url %}
         {% if blog_search.category != nil %}
             {% assign articles = articles | where: 'Category', '==', blog_search.category %}
         {% elseif blog_search.tag != nil %}
             {% assign articles = articles | where: 'Tags', 'contains', blog_search.tag %}
         {% endif %}
-        {% for article in articles %}
-            {% include 'blog-list-item', article: article, style: "single" %}
-            {% if forloop.index == page_size %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
+        <div class="list list--posts">            {% for article in articles %}
+                {% include 'blog-list-item', article: article, style: "single" %}
+                {% if forloop.index == page_size %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+        </div>
         {{ settings.blog.sticked_article_url }}
     </div>
 

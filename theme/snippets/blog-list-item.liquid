@@ -1,36 +1,28 @@
-﻿{% if style == "double" %}
-    {% assign article_css_class = "post post-double" %}
-{% else %}
-    {% assign article_css_class = "post post-single" %}
-{% endif %}
-
-<div class="{{ article_css_class }}" itemprop="blogPost">
-    <div class="post-inner">
-        <div class="post-media{% if article.image_url == nil %} no-image{% endif %}" style="background-image: url('{{ article.image_url }}');">
-            {% if article.category %}
-                <div class="category-name">{{ "blogs.categories." | append: article.category | t }}</div>
-            {% endif %}
-            <h3><a href="{{ article.url | absolute_url }}" itemprop="headline">{{ article.title }}</a></h3>
+<div class="list__item">
+    <a href="{{ article.url | absolute_url }}">
+        <img src="{{ article.image_url }}" alt="" class="list__bg">
+    </a>
+    <div class="list__category" data-name="{{ article.category }}">{{ "blogs.categories." | append: article.category | t }}</div>
+    <div class="list__info">
+        <div class="list__t">{{ article.title }}</div>
+        <div class="list__descr">
+            {{ article.excerpt }}
         </div>
-        <div class="post-descr" itemprop="description">{{ article.excerpt }} <a href="{{ article.url | absolute_url }}">Read more...</a></div>
         {% if article.tags.size > 0 %}
-            <div class="post-tags">
-                <ul class="tags list">
-                    {% for tag in article.tags limit:3 %}
-                        <li class="list-item">
-                            {% assign tag_url = '/blog/tag/' | append: tag  %}
-                            <a class="list-link" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+        <div class="list list--tags">
+            {% for tag in article.tags limit:3 %}
+                {% assign tag_url = '/blog/tag/' | append: tag  %}
+                <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
+            {% endfor %}
+        </div>
         {% endif %}
-        <div class="post-other">
-            <div class="post-logo"><img src="{{ 'logo-mini.png' | asset_url }}" /></div>
-            <div class="post-author">
-                <div class="author" itemprop="author">{{ article.author }}</div>
-                <div class="date" itemprop="datePublished">{{ article.created_at | date: "%b %d, %Y" }}</div>
+        <div class="list__author">
+            <div class="list__author-logo"></div>
+            <div class="list__author-text">
+                <div class="list__author-name">{{ article.author }}</div>
+                <div class="list__author-date">{{ article.created_at | date: "%b %d, %Y" }}</div>
             </div>
         </div>
     </div>
 </div>
+
