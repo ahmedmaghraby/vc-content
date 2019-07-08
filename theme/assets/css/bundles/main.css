@@ -6646,6 +6646,8 @@ blockquote .author {
 .blog .list--tags {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: auto;
 }
 
@@ -6734,7 +6736,9 @@ blockquote .author {
 .blog .list--posts .list__bg {
     border-radius: .5rem .5rem 0 0;
     display: block;
-    max-width: 100%;
+    min-height: 10rem;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .blog .list--posts .list__category {

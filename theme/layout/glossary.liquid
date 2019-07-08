@@ -75,7 +75,7 @@
                 <!-- TODO: Fix main-menu for mobile -->
                 {% include 'main-menu-mobile' %}
             </div>
-            
+
             <article class="main" role="main">
                 <div class="glossary container">
                     {% include 'glossary-left-menu' %}
@@ -138,5 +138,6 @@
     {{ 'app.js' | asset_url | script_tag }}
     {{ 'services.js' | asset_url | script_tag }}
     {{ 'main-layout.min.js' | asset_url | script_tag }}
+    {{ 'js/main.js' | asset_url | script_tag }}
 </body>
 </html>
