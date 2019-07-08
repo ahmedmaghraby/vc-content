@@ -1,4 +1,31 @@
 <div class="blog" itemtype="http://schema.org/Article" itemscope>
+    <div class="container">
+        <h1 class="blog__t">
+            <a class="blog__t-ico" href="{{ '/blog' | absolute_url }}">
+                <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-100.000000, -130.000000)"><g transform="translate(100.000000, 130.000000)"><rect class="fill" x="0" y="0" width="44" height="44" rx="22"></rect><path d="M30.924,21.00225 L14.42,21.00225 L19.715,15.70725 C20.106,15.31625 20.106,14.68425 19.715,14.29325 C19.324,13.90225 18.692,13.90225 18.301,14.29325 L11.313,21.28125 C11.21,21.37925 11.129,21.49525 11.075,21.62825 C11.048,21.69625 11.045,21.76925 11.033,21.83925 C11.024,21.89525 11,21.94425 11,22.00225 C11,22.00325 11.001,22.00425 11.001,22.00525 C11,22.26225 11.097,22.51925 11.293,22.71525 L18.301,29.72325 C18.496,29.91825 18.752,30.01625 19.008,30.01625 C19.264,30.01625 19.52,29.91825 19.715,29.72325 C20.106,29.33225 20.106,28.69925 19.715,28.30925 L14.408,23.00225 L30.924,23.00225 C31.477,23.00225 31.924,22.55525 31.924,22.00225 C31.924,21.44925 31.477,21.00225 30.924,21.00225" fill="#FFFFFF"></path></g></g></g></svg>
+            </a>
+            {{ article.title }}
+        </h1>
+
+        <!-- Blog main -->
+        <div class="blog-main">
+            <div class="blog-content">
+                <img src="{{ article.image_url }}" alt="">
+                {{ article.content | render }}
+            </div>
+            {% include 'blog-subscribe', cssClass: 'collapsed', article: article %}
+        </div>
+        <!-- End Blog main -->
+
+
+
+    </div>
+</div>
+<!---------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------->
+{% comment %}
+<div class="blog" itemtype="http://schema.org/Article" itemscope>
     <div class="posts __responsive">
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
@@ -45,15 +72,15 @@
                     </ul>
                 </div>
                 {% if article.comments_count > 0 %}
-                    <div class="post-comments">
-                    </div>
+                <div class="post-comments">
+                </div>
                 {% endif %}
             </div>
         </div>
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
     {% if blog.trending_articles %}
-        {% include 'blog-trending-list', articles: blog.trending_articles %}
+    {% include 'blog-trending-list', articles: blog.trending_articles %}
     {% endif %}
     <div class="posts __responsive">
         <div class="post post-triple post-detail">
@@ -63,3 +90,4 @@
         </div>
     </div>
 </div>
+{% endcomment %}
