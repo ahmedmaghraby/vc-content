@@ -6,12 +6,31 @@
             </a>
             {{ article.title }}
         </h1>
-
+        <div class="blog__meta">
+            <div class="blog__date">{{ article.created_at | date: "%b %d, %Y" }}</div>
+            <div class="list list--tags list--tags-small ml-auto">
+                {% for tag in article.tags %}
+                    {% assign tag_url = '/blog/tag/' | append: tag  %}
+                    <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
+                {% endfor %}
+            </div>
+        </div>
         <!-- Blog main -->
         <div class="blog-main">
             <div class="blog-content">
                 <img src="{{ article.image_url }}" alt="">
                 {{ article.content | render }}
+                <div class="blog__meta">
+                    <div class="list list--tags list--tags-small">
+                        {% for tag in article.tags %}
+                            {% assign tag_url = '/blog/tag/' | append: tag  %}
+                            <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
+                        {% endfor %}
+                    </div>
+                    <div class="list list--socials">
+                        {% include 'blog-socials', article: article %}
+                    </div>
+                </div>
             </div>
             {% include 'blog-subscribe', cssClass: 'collapsed', article: article %}
         </div>
