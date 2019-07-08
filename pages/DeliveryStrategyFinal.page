@@ -1,0 +1,131 @@
+[
+    {
+        "type": "settings",
+        "title": "Ecommerce Implementation and Delivery",
+        "permalink": "b2b-ecommerce-integration",
+        "header": "B2B Ecommerce Integration",
+        "description": "",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Delivery Strategy",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Rectangle Copy (2).png"
+        },
+        "content": "<p>Find The Right Partner To Implement Your Digital Commerce Solution</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": true
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "The first and most critical step on the road to ecommerce success is about people - and choosing the right team to deliver your solution. Everything else is secondary. ",
+        "style": "light",
+        "decorator": "none",
+        "content": "",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": " ",
+        "style": "dark",
+        "decorator": "none",
+        "content": "<h3>It seems like there are a vast number of available companies who can manage your implementation - however that is an illusion, and here&#39;s why:</h3>\n\n<ul>\n\t<li>\n\t<p>Many ecommerce vendors might claim to have a vast network of partners, but in most cases, they are just companies that paid a partner fee, and never implemented a solution using their partner&#39;s platform.</p>\n\t</li>\n\t<li>\n\t<p>Implementation partners rely on your solution provider greatly during the delivery process, and your partner and ecommerce solution provider need to be a <strong>close knit team </strong>that can work in tandem.</p>\n\t</li>\n\t<li>\n\t<p>Great implementation partners specializing in ecommerce are few and far between - their services are in great demand, and they have their pick of projects to choose from.</p>\n\t</li>\n\t<li>\n\t<p>The right partner might not be a household name- many companies have been burned by top consulting firms, who couldn&#39;t deliver on expensive ecommerce contracts since they didn&#39;t have the specialized knowledge that a partner focused solely on ecommerce has gained.</p>\n\t</li>\n\t<li><strong>A great ecommerce partner will be able to work with bad architecture, but a poor partner will be lost even with the best architecture.</strong></li>\n</ul>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "After choosing a partner, how do you enable them to deliver a complex ecommerce solution?",
+        "intro": "<p style=\"text-align:center\"><strong>By choosing the right technology for your partner:</strong></p>\n",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/modular.png"
+                },
+                "title": "Top Technology",
+                "text": "<p>The top implementation partners want to work with the top technology. Developers don&#39;t want to work with antiquated software. They prefer modular, scalable and agile platforms that give them the flexibility they need to deliver custom solutions.&nbsp;</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/opensource.png"
+                },
+                "title": "Open Source",
+                "text": "<p>Top developers aren&#39;t interested in closed source solutions. They want to work with open source vendors, where they can immediately access the source code.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/transparency.png"
+                },
+                "title": "In Depth Research",
+                "text": "<p>Hastily picking a top rated platform recommended by a consulting firm, or influencer, could be a grave mistake - you need to truly explore to find what&#39;s right for your business model and future plans.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "Text",
+        "title": "Start Planning Your Ecommerce Future Now",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p class=\"section__descr--medium\"><strong>Great partners aren&#39;t waiting around.</strong>&nbsp;You need to plan ahead to engage with a top partner and to have them work in a team with your ecommerce vendor. As a team, they can efficiently implement their preferred modular solution with an agile, time tested and proven delivery process.&nbsp;&nbsp;<br />\n&nbsp;</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "hidden": false
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "Find a Virto Commerce Certified Implementation Partner and Start Your Journey Today",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "",
+        "url": {
+            "urlText": "Find a Certified Virto Commerce Partner",
+            "url": "/find-partner",
+            "style": "btn btn--orange btn--lg"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

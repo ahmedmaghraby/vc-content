@@ -1,0 +1,86 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce Case Studies",
+        "permalink": "case-studies",
+        "header": "Virto Commerce Case Studies and Success Stories",
+        "description": "View B2B and B2C Enterprise Ecommerce Case and Solution Stories",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Virto Commerce Success Stories",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/kaleidico-26MJGnCM0Wc-unsplash (1).jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "cards",
+        "name": "Text",
+        "title": "Many industry leaders have built their ecommerce solutions on Virto Commerce.  View just a handful of our success stories here:",
+        "style": "light",
+        "items": [
+            {
+                "title": "Bosch ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                },
+                "text": "<p>When Bosch needed a custom designed customer loyalty platform, they came to Virto Commerce.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/case-studies/bosch"
+                }
+            },
+            {
+                "title": "Lavazza ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                },
+                "text": "<p>Created new, Unified ecommerce platform for B2B &amp; B2C and gained insights into customer behavior.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                }
+            },
+            {
+                "title": "Estate Spain",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
+                },
+                "text": "<p>Estate-Spain.com&nbsp;found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/estatespain"
+                }
+            },
+            {
+                "title": "Proffsmagasinet",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
+                },
+                "text": "<p>Virto Commerce helped one of Sweden&#39;s top manufacturers expand internationally.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

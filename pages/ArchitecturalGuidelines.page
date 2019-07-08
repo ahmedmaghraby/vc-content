@@ -1,0 +1,51 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "download-architectural-guidelines",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Virto Commerce Architectural Guidelines ",
+        "subTitle": " ",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (10).png"
+        },
+        "content": "<p>Get a bird&#39;s eye view of our technology&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "image-with-text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "align": "right",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-04 at 2.54.00 PM.png"
+        },
+        "content": "<p>Virto Commerce is an API-driven, headless ecommerce platform, designed to build large and complex digital commerce solutions for B2B, B2C or B2B2C business, marketplaces and derived SaaS commerce platforms.</p>\n\n<p>The architecture of the platform consists of a Microsoft based stack of technologies, an Agile development process, and DevOps to overcome technological, business and organizational challenges in competitive markets.&nbsp;</p>\n\n<p>Download our Architectural Guidelines for an in-depth technical look at how our platform is designed.&nbsp;<br />\n&nbsp;</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 4,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Architectural Guidelines",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

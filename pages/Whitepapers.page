@@ -1,0 +1,117 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce Whitepapers, Learn about complex B2B Ecommerce Platforms and Solutions",
+        "permalink": "whitepapers",
+        "header": "View Virto Commerce's Whitepapers",
+        "description": "B2B Ecommerce Whitepapers, Learn about complex B2B Ecommerce Platforms and Solutions",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Ecommerce White Papers",
+        "h1": null,
+        "subTitle": "Virto Commerce Ecommerce Education",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/william-iven-jrh5lAq-mIs-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "intro",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">Experts in enterprise and B2B ecommerce, Virto Commerce has put together a collection of informative white papers on the top issues companies face in their ecommerce journeys.&nbsp;&nbsp;Please feel free to download and share our whitepapers, and if you have any topics that you think we should explore, please <a href=\"https://virtocommerce.com/contact-us\">contact us</a>.&nbsp; We are always looking for new ways to help guide our customers through the complicated world of enterprise ecommerce.&nbsp;&nbsp;</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "Top 5 B2B Ecommerce Challenges & Solutions",
+        "h1": null,
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p style=\"text-align: center;\">B2B ecommerce has specific business model and process challenges which require customized solutions or special software platform. In this whitepaper we&#39;ll provide top 5 challenges that B2B ecommerce websites face and their best solutions.</p>\n",
+        "url": {
+            "urlText": "Download Whitepaper",
+            "url": "https://virtocommerce.com/download-b2b-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "cloud wp",
+        "title": "Top 5 Benefits of the Cloud for Ecommerce",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align: center;\">Every ecommerce company is looking for ways to grow sales, improve go-to-market speed and accelerate performance. In this whitepaper we&#39;ll provide 5 insights and key benefits of the switch to cloud ecommerce solution.</p>\n",
+        "url": {
+            "urlText": "Download Whitepaper",
+            "url": "https://virtocommerce.com/download-cloud-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "top 4 ent",
+        "title": "Top 4 Challenges of Enterprise Ecommerce",
+        "h1": null,
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p style=\"text-align: center;\">In this whitepaper we&#39;ll provide top 4 challenges that enterprise ecommerce websites face and their best solutions.</p>\n",
+        "url": {
+            "urlText": "Download Whitepaper",
+            "url": "https://virtocommerce.com/enterprise-ecommerce-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "migration wp",
+        "title": "Common pains of Ecommerce Website Migration and How To Avoid Them",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align: center;\">This Virto Commerce whitepaper provides insight on how to avoid and overcome the typical ecommerce platform migration problems.</p>\n",
+        "url": {
+            "urlText": "Download Whitepaper",
+            "url": "https://virtocommerce.com/migration-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

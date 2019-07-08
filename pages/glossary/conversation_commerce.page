@@ -1,0 +1,124 @@
+[
+    {
+        "type": "settings",
+        "title": "Conversational Commerce Definition and Meaning | Glossary VirtoCommerce",
+        "permalink": "glossary/conversation-commerce",
+        "header": "Conversational Commerce Definition and Meaning. A Simple Look at the Key Components of Conversational Commerce",
+        "id": 1,
+        "description": "A Simple Look at the Key Components of Conversational Commerce",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Conversational Commerce: Definition ",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION ",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/brooke-lark-W1B2LpQOBxA-unsplash.jpg"
+        },
+        "content": "<p>what does conversational commerce mean?&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<p>Conversational commerce is a non specific term describing technology that&#39;s driven by voice and messaging interactions which transcend all modern communication systems The branches of conversational commerce which we will review include Bots, Advanced Notifications and Chat.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Types of Conversational Commerce ",
+        "intro": null,
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bot.png"
+                },
+                "title": "Bots",
+                "text": "<p>Bots continue to grab the attention of both the geeks and developers. We are now seeing many people creating bots of different kinds. Shockingly though, these bots have been in existence for more than 50 years. However, the improvements in the messaging services, the success in machine learning, and the emergence of large sets of data have all created a perfect platform for conversational commerce bots to grow. The most popular ones are as follows: Command line bots - These interfaces usually put a robust command shell on everything. They are designed to perform different tasks like ordering an Uber, extracting data from Google Analytics, and more. Chatbots - These bots offer a two-way conversation system. They have received both positive and negative attention mostly because of their deep learning ventures. Their primary objective is to make sure that if you are running a business, you can easily talk to your customers at affordable rates. Personal assistants - Another considerable stride in conversational commerce is the emergence of bots that can accomplish tasks for a person, answer different questions and respond to various commands.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/noftify.png"
+                },
+                "title": "Advanced Notifications",
+                "text": "<p>We are all used to getting timely alerts through push, email or instant messaging services as we interact with apps and companies. Whether it&#39;s confirming a delivery or a message notifying you that your flight has been canceled, constant proactive notifications are an effective and simple method of boosting the way you communicate with different companies. Now, thanks to conversational commerce, sending these notifications is getting more interesting. They can include maps, directions, contacts, social media, and even boarding passes. Here, every announcement is an invitation to a conversation.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/chat.png"
+                },
+                "title": "In App Chats",
+                "text": "<p>Chats in apps offer a conversational commerce platform of complete functionality. One thing you will notice with this technological innovation is that every conversation is smart and valuable. Such is because they already have a clear idea of the services you need from the app. So, if you are using an Uber app, when you contact your driver, he or she knows who you are, and what you require. It&#39;s also important to mention that the &#39;chats in apps&#39; platform is different from other messaging services. When the chat is in the app, as the customer, the only person you will be talking to is the company. This ensures credibility and efficiency of this remarkable conversational commerce system.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "cards",
+        "name": null,
+        "title": "Explore Virto's Ecommerce Education Center",
+        "style": null,
+        "items": [
+            {
+                "title": "Hosted Shopping Cart",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>What is a hosted shopping cart?&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/hosted-shopping-cart",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is dead stock?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn what dead stock is, and how to manage it.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-a-dead-stock",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is inventory management? Some inventory management tips your business can use to it&#39;s advantage.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://www.virtocommerce.com/glossary/what-is-inventory-management",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": null
+    }
+]

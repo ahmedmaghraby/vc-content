@@ -1,0 +1,151 @@
+[
+    {
+        "type": "settings",
+        "title": "Request for Information",
+        "permalink": "glossary/request-for-information",
+        "id": 1,
+        "header": "Request for Information",
+        "description": "What is Request for Information (RFI)? What are advantages and disadvantages of using RFI in your business process? Are there any differences between RFI and RFP? Learn it and much more in this article.",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Request for Information (RFI) Definition",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/x8jAhFXd.png"
+        },
+        "content": "<p>What is a request for information?</p>\n",
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "contentBefore": "<p>A Request for Information (RFI) is a type of business process in which the company is collecting written information about the capabilities of other companies. Typically, it follows the customer-supplier chain and is written in a format that can be used to compare multiple suppliers.</p>\n",
+        "items": [
+            {
+                "text": "<p>Using an RFI can be very beneficial to your business as it can help you make a decision on what to do next based on the information that has been provided to you by suppliers. Therefore, an RFI is an excellent tool for finding the right suppliers when it is combined with a request for proposal (RFP), and a request for quotation (RFQ). RFIs are also widely used in developing a business strategy, selecting the pool of the right suppliers for your RFPs and RFQs as well as simply preparing for more complicated processes of creation of those types of requests. The entire RFI process can be executed online with the option of collecting information and conversations in specific databases. The easiest and the most efficient way of delivering RFIs is via email.</p>\n"
+            },
+            {
+                "text": "<p>Remember, that an RFI is a solicitation that can be sent to a broad base of potential suppliers to gather essential information as a prepping process for an RFP or an RFQ. It is also helpful in developing a business strategy and building a database for later negotiations about:</p>\n\n<ol>\n\t<li>Suppliers, including facilities, finances, products, and services</li>\n\t<li>The state of the market</li>\n\t<li>Dynamics of the market</li>\n\t<li>Trends and factors that drive change in the market</li>\n\t<li>Pricing strategies</li>\n\t<li>Competition in the supplier market</li>\n\t<li>Range of products or services offered by a particular supplier</li>\n\t<li>Focus and plans that are provided by the supplier</li>\n</ol>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": null,
+        "title": "RFI vs. RFP",
+        "style": null,
+        "decorator": null,
+        "content": "<p>An RFI is the least formal way of enquiring about information of any kind, and it implies less commitment. Making inquiries from a specific supplier does not necessarily put you in the place of needing to hire the for your project. While asking for an RFI, you don&#39;t have to share your own company&#39;s details or much information about the project you are working on. With an RFI, you focus on the vendor&#39;s ability to aid in the project you have in mind.</p>\n\n<p>With an RFP (Request for Proposal), vendors get to know your project and suggest how they will aid in achieving your goals. An RFP also includes the pricing information about the products or services that will be provided. Therefore, it also requires you to share information about your project with the vendor. Virto Commerce has prepared a free RFP template you can download to guide your digital commerce vendor selection process.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Advantages and Disadvantages of Using a Request for Information",
+        "style": null,
+        "decorator": null,
+        "content": "<p>The main advantage of an RFI is that the form requires a minimal amount of knowledge about the type of work that the supplier will do in the end. It also releases the vendor from bidding or having to provide any kind of financial information. RFIs are also very useful for small projects. There is no need for the suppliers to send lots of descriptions and documentation, which means you can quickly make your decision with less paperwork to process. It is helpful to get to know companies in a concise time and create your pool of bidders who you would later invite to the RFP or RFQ process. An RFI is an excellent tool for introducing two business partners to each other.</p>\n\n<p>However, the primary disadvantage of using RFIs is that the supplier may not send information to a company unless he sees a real commitment to future cooperation. Writing a structured response to your request can be time and money consuming and result in the absence of any obligation. Besides, RFIs typically contain a collection of basic facts and statements about the company that you can easily find online, all by yourself. Companies do not want to commit and typically wouldn&#39;t create a special RFI just for you. If you would like to gain detailed knowledge about certain companies, try inviting them to compete in the RFP or RFQ process instead.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": null,
+        "title": "RFI Best Practices",
+        "style": null,
+        "decorator": null,
+        "content": "<p>RFI Best Practices</p>\n\n<p>RFIs give potential bidders a signal about the competition that will ensue for a product or service. It lets the vendors know that you are a potential client seeking formal and structured information, while it also shows that you respect their time by only requesting essentials. Keeping that in mind, you can also enhance the process by following the below best practices:</p>\n\n<p>Follow an already established format. Gather all the information in a formal and organized manner that will help you compare multiple companies at the same time.</p>\n\n<p>Be specific about the information you need. If your request is accurate and clear, it gives the supplier the ability to respond to it precisely and make more sense to you in the end. The vaguer you are with your request, the harder it will be for the supplier to understand what you are looking for.</p>\n\n<p>Ask for only the appropriate information in your request. Limit the information you request to the following points:</p>\n\n<ul>\n\t<li>Vendor&#39;s capability to deliver the product or service</li>\n\t<li>Other info like personnel or facilities that can be provided during the project execution</li>\n\t<li>Financial statements</li>\n\t<li>Goals that the supplier might have for this partnership</li>\n\t<li>It is also a good practice to research the quality of the services provided by the supplier company on your own.</li>\n\t<li>Try not to request pricing information. A Request for information is an introductory stage in the process of attracting companies to cooperate. There is another type of request that asks for a price for services, which is a Request for Quotation. It usually follows the request for information and allows you to inquire additional details about services and products specific supplier can offer.</li>\n</ul>\n\n<p>Build relationships. Be polite and considerate. Keep the right goal in your mind. Remember that the most important thing for you is to establish a valuable relationship with your supplier who may later become your business partner. The success of the partnership is proportional to the level of consideration you put into communicating clearly and politely. Begin with adequately organized initial requests and timely responses.</p>\n\n<p>Be aware of the costs. You must remember that the suppliers face costs in order to provide information to you. The more information you ask for during the RFI process, the more time they spend compiling the report. In the end, they will add those expenses to their final pricing models.</p>\n\n<p>Be aware of the time. It takes time to compile and respond to your request for information. Yes, it does take less time to respond to an RFI than it does to an RFP or an RFQ. However, in general, expect to receive a response within one week as it is the minimum time required for the supplier to respond. As a standard, allow for a two-week turnaround in case the volume of data is significant. Never rush the process, but also don&#39;t allow suppliers to get back to you months later.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": null,
+        "title": "Download our RFP Template",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Virto Commerce has put together a RFP template to help guide your ecommerce vendor selection process.&nbsp; Download it here and use it to start your journey.&nbsp;</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/free-sample-RFP",
+            "urlText": "Download Now",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore the Virto Ecommerce Learning Center:",
+        "style": "light",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/hosted-shopping-cart"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

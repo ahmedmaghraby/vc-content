@@ -1,0 +1,215 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "enterprise-ecommerce-architecture1",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Architecture Overview",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/bg_architecture_overview.jpg"
+        },
+        "content": "<p>Your business can&#39;t afford to keep using limiting ecommerce platforms</p>\n",
+        "url1": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Contact us to learn more",
+            "style": "btn--orange"
+        },
+        "url2": {
+            "url": "https://virtocommerce.com/docs",
+            "urlText": "Download our architecture guidelines",
+            "style": "btn--white"
+        }
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>When you&#39;re choosing a digital commerce foundation, the architecture is the DNA and heart of your solution. Basing your digital commerce future on monolithic, inflexible, and outdated architecture can seriously hamper the growth and agility of your business.</p>\n",
+        "url": null
+    },
+    {
+        "id": 4,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "In-house developed ecommerce solutions are risky.  Those homegrown, custom-built tools  may seem perfect for your business -  but they can create long term difficulties.",
+        "style": null,
+        "contentBefore": null,
+        "items": []
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": null,
+        "title": null,
+        "intro": "",
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/new-functionality.png"
+                },
+                "title": "Too Challenging to Add New Functionality",
+                "text": "<p>As your business grows and evolves, your digital commerce needs will change as well. With old and static architecture, it can be impossible to add the functions you need in a timely manner.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/team-turnover.png"
+                },
+                "title": "Team Turnover Means Losing Human Capital",
+                "text": "<p>The risk of employee turnover in your development team is high, and with every developer who chooses a new path, you lose years of knowledge capital as they walk out the door. Get ahead of technology brain-drain, and replace obsolete software solutions with maintainable platform, while you have knowledgeable team resources on hand. Plus, your development team will benefit too, as they will keep their skillsets sharp, rather than working to maintain antiquated tools.</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": null,
+        "title": null,
+        "intro": null,
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/total-cost.png"
+                },
+                "title": "Homegrown = High Total Cost of Ownership",
+                "text": "<p>Holding on to homegrown ecommerce solutions or monolithic, rigid architecture, your total cost of ownership is constantly increasing, with high development costs to maintain the solution and to add new features to keep it current. The cost of scaling an old solution outweighs the benefits gained from keeping it.</p>\n"
+            },
+            {
+                "image": null,
+                "title": null,
+                "text": null
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": null,
+        "title": "Get To Market Faster",
+        "style": null,
+        "decorator": null,
+        "content": "<p>Virto Commerce offers a leading .NET, open source digital commerce platform chosen by leading companies like Bosch, Heineken, Volvo, Rainbow Sandals and more. They came to Virto Commerce frustrated with the digital commerce architecture provided by other solutions, and knew that they needed the endless flexibility, extensibility and scalability Virto offers, unmatched in the market.</p>\n",
+        "url": null
+    },
+    {
+        "id": 8,
+        "type": "list-with-images",
+        "name": null,
+        "title": null,
+        "intro": null,
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/open-source.png"
+                },
+                "title": "Open Source",
+                "text": "<p>Virto Commerce&#39;s open source architecture enables you to start your digital commerce journey rapidly. There&#39;s no new technology for your development team to learn, and being open source, our source code is fully available for use without any contracts or hurdles.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/modular.png"
+                },
+                "title": "Modular",
+                "text": "<p>The most modular and scalable digital commerce foundation available. Virto Commerce&#39;s architecture allows you to pick and choose exactly what features and services you want to incorporate in your technology stack.</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "list-with-images",
+        "name": null,
+        "title": null,
+        "intro": null,
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/delivery-process.png"
+                },
+                "title": "Delivery Process",
+                "text": "<p>Our implementation process guides you every step of the way. We begin with a proof of concept, then move on to an MVP, and incorporate your actual feedback into the final delivery of your solution. Once your solution is delivered, Virto Commerce is your long-term partner and will support your solution and the features you need.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/maintainability.png"
+                },
+                "title": "Maintainability",
+                "text": "<p>Virto Commerce releases new functionality weekly, and our customers influence our roadmap, ensuring that we develop the items that the market needs.</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "text",
+        "name": null,
+        "title": "Ready to get started?",
+        "style": null,
+        "decorator": null,
+        "content": "<p>Download our Architecture Guidelines to get a 360 degree view of our architecture.</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/docs",
+            "urlText": "Download now",
+            "style": "btn btn--orange btn--round"
+        }
+    },
+    {
+        "id": 11,
+        "type": "cards",
+        "name": null,
+        "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions",
+        "style": null,
+        "items": [
+            {
+                "title": "Hosted Shopping Carts",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bg_backorder.jpg"
+                },
+                "text": "<p>Benefits and Reviews of Top Hosting Shopping Cart&nbsp;Solution</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/docs",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bg_backorder.jpg"
+                },
+                "text": "<p>Learn more how to handle backorders and fulfilment.</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/docs",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bg_invent_management.jpg"
+                },
+                "text": "<p>What is inventory management?</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/docs",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ]
+    }
+]

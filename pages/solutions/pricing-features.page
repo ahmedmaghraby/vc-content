@@ -1,0 +1,155 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce Pricing Tools for Enterprise Ecommerce",
+        "permalink": "b2b-ecommerce-pricing-tools",
+        "header": "Enterprise Ecommerce Pricing Tools and Features",
+        "description": "Our B2B Ecommerce Platform with Complex Pricing Tools for Enterprise Ecommerce .",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Enterprise Ecommerce Complex Pricing Tools",
+        "h1": true,
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/john-schnobrich-FlPc9_VocJ4-unsplash.jpg"
+        },
+        "content": "<p>Pricing Features Built for the Complexity of B2B Digital Commerce</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>B2B ecommerce involves complex pricing models &ndash; from contract-based pricing to tiered pricing and discounts. Virto Commerce offers the most flexible and scalable digital commerce solution available that enables you to build the pricing functionality you need. Additionally, we offer robust out-of-the-box pricing functionality to get you started.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Pricing Tools Designed for B2B Ecommerce",
+        "h1": null,
+        "intro": "<h3 style=\"text-align: center;\">Customize pricing strategies for different customers with Virto Commerce</h3>\n",
+        "style": "light",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_1.png"
+                },
+                "title": "Discounting & Scheduled Price Changes",
+                "text": "<p>There are a variety of different discounts that can be applied, and you can specify a discount for each product on your price list.</p>\n\n<p>Prices can be changed based on a pre-determined schedule</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_3.png"
+                },
+                "title": "Tiered Pricing",
+                "text": "<p>Prices can be determined depending on product quantity purchased.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_5.png"
+                },
+                "title": "Multiple Price Lists & Custom Pricing",
+                "text": "<p>Include the same product in multiple price lists. Additionally, each catalog you manage can have its own price list.</p>\n\n<p>&nbsp;Specify rules and conditions to give a pre-set price to a specific group of customers- even to individual customers.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
+                },
+                "title": "Custom Currencies",
+                "text": "<p>Prices can be defined in custom currencies (bitcoin or loyalty points, for example).</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "contact us",
+        "title": "Learn More About Virto Commerce Today",
+        "h1": null,
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Get a demo of our enterprise level ecommerce platform, and explore all the ready to go features and functionalities available.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Request a Demo",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore More Features Readily Available to Get You To Market Faster. ",
+        "h1": null,
+        "style": "light",
+        "items": [
+            {
+                "title": "Order Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                },
+                "text": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
+                "link": {
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/features/b2b-ecommerce-order-management"
+                }
+            },
+            {
+                "title": "Content Management System (CMS)",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Multi-tenant (1).png"
+                },
+                "text": "<p>Virto Commerce offers a powerful, yet simple CMS that will delight both marketers and developers.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/b2b-cms"
+                }
+            },
+            {
+                "title": "Marketing & Promotions",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Promotion and Marketing.png"
+                },
+                "text": "<p>Our marketing tools will ensure you grow revenue and customer loyalty.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/b2b-ecommerce-marketing-tools"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

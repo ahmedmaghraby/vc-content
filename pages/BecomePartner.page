@@ -2,7 +2,7 @@
     {
         "type": "settings",
         "title": "Become a Virto Commerce Partner",
-        "permalink": "partners/become-partner",
+        "permalink": "become-partner",
         "header": "Apply to Become a Virto Commerce Partner",
         "id": 1,
         "layout": "theme"
@@ -14,9 +14,9 @@
         "title": "Join the Virto Commerce Partner Network",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/agiledefinitionheader.png"
+            "url": "https://vc4test.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
         },
-        "content": "<p style=\"text-align: center;\">Virto Commerce provides a robust program to support our partners every step along the way.&nbsp;From training and support to marketing &ndash; we work hand and hand with you to ensure success.</p>\n",
+        "content": "<p style=\"text-align:center\">Virto Commerce provides a robust program to support our partners every step along the way.<br />\nFrom training and support to marketing &ndash; we work hand and hand with you to ensure success.</p>\n",
         "url1": null,
         "url2": null,
         "noTop": null,
@@ -29,12 +29,12 @@
         "name": "Text",
         "title": "",
         "style": "light",
-        "decorator": "section--pattern",
-        "content": "<h3 style=\"text-align:center\">Our partner program consists of both Solution Partners and Technology Partners. Being a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce for your customers.</h3>\n",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\">Our partner program consists of both Solution Partners and Technology Partners. Becoming&nbsp;a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce solutions for your customers.&nbsp;</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
-            "style": "btn--orange btn--round"
+            "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
@@ -122,23 +122,9 @@
                 "fullrow": false
             },
             {
-                "label": "Job Title",
-                "name": "jobtitle",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
                 "label": "Website",
-                "name": "website",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Region",
-                "name": "region",
-                "type": "text",
+                "name": null,
+                "type": null,
                 "data": null,
                 "fullrow": true
             },
@@ -150,85 +136,7 @@
                 "fullrow": true
             }
         ],
-        "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "outtro": "<p>By clicking &laquo;Inquire about Partnership&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
         "buttonText": "Inquire about Partnership"
-    },
-    {
-        "id": 6,
-        "type": "custom-form",
-        "name": "Custom form",
-        "style": "light",
-        "noTop": true,
-        "noBottom": true,
-        "noPad": true,
-        "title": "Join our network",
-        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.1</p>\n",
-        "fields": [
-            {
-                "label": "Full name",
-                "name": "fullname",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Email",
-                "name": "email",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Phone",
-                "name": "phone",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Company",
-                "name": "company",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Job Title",
-                "name": "jobtitle",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Website",
-                "name": "website",
-                "type": "text",
-                "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Region",
-                "name": "region",
-                "type": "text",
-                "data": null,
-                "fullrow": true
-            },
-            {
-                "label": "Comments",
-                "name": "comments",
-                "type": "textarea",
-                "data": null,
-                "fullrow": true
-            },
-            {
-                "label": "region",
-                "name": "region",
-                "type": "select",
-                "data": "qwer;asdf;zcxv",
-                "fullrow": null
-            }
-        ],
-        "outtro": "<p>By clicking &laquo;Send Message&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
-        "buttonText": "Send Message"
     }
 ]

@@ -284,13 +284,6 @@ Selects Hangfire storage type. Assigned to HangfireOptions.JobStorageType.
 
 Configures number of Hangfire workers. Assigned to HangfireOptions.WorkerCount.
 
-### Redis cache
-```
-<add key="VirtoCommerce:Cache:Redis:ChannelName" value="NameOfUsedChannel" />
-```
-
-Specifies channel name used by Redis. You could connect different platform instances to one Redis server by setting different channel names for instances serving different sites. If option is not specified, default "CacheManagerBackplane" channel name is used, means all recieved messages are handled by all instances connected to Redis server.
-
 # Notifications
 ```
 <add key="VirtoCommerce:Notifications:Gateway" value="Default" />

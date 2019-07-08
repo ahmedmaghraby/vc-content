@@ -1,0 +1,152 @@
+[
+    {
+        "type": "settings",
+        "title": "What is a backorder? Backorder definition and meaning",
+        "permalink": "glossary/what-is-backorder",
+        "id": 1,
+        "header": "What is a backorder? Backorder definition and meaning.",
+        "description": "What does Backorder mean? Why is it important for retail to know how to deal with it? Learn more about backorder definitions and meaning in this article."
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Define: Backorder",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/bg_backorder.jpg"
+        },
+        "content": "<p>What is backorder?</p>\n",
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "The challenge of back orders and how to address them:",
+        "style": null,
+        "contentBefore": "",
+        "items": [
+            {
+                "text": "<p>Backorders are a good thing. To define backorder, just think of having more orders than you have products in stock &ndash; this is what it ultimately comes down to when we ask a question of &quot;what does backordered mean?&quot; It can be a dream come true for any retail business, however, it can become a big challenge if you don&#39;t know how to deal with it.&nbsp;</p>\n"
+            },
+            {
+                "text": "<p>Here is a common situation: You get a sales order, but there are one or two items in it that are out of stock. Not a big deal, right? You simply make a&nbsp;<a href=\"https://virtocommerce.com/glossary/purchase-order-management-software\">purchase order</a>&nbsp;for the missing items and let your customer know when the backordered items are going to be available.&nbsp;</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>Now, imagine you&#39;re managing hundreds of different orders per day, many having back ordered items. Spread across several sales orders you get a multitude of products backordered meaning you need to consolidate all the out of stock products from multiple sales orders into a purchase order. If the items that fall under the &quot;out of stock&quot; definition must be purchased from different suppliers &ndash; now what does backorder mean for your business?</p>\n",
+        "url": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Dealing with Backorders",
+        "intro": "<p>The logistics of dealing with backorders can be extremely challenging for retailers. In order to fulfill back orders efficiently a retail business needs to:</p>\n\n<ul>\n\t<li>Make sure all the sale orders with items on backorder are accurately recorded</li>\n\t<li>Place a purchase order for these items with the supplier</li>\n\t<li>Upon re-stocking, go through all the recorded sales orders to match these to the correct purchase order</li>\n</ul>\n",
+        "style": null,
+        "colStyle": null,
+        "items": [],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Best customer service practices when dealing with backorders:",
+        "style": null,
+        "contentBefore": null,
+        "items": [
+            {
+                "text": "<p>Once you reach a point of having too many backorders to effectively fulfill them, using spreadsheets won&#39;t be enough anymore. At this stage, you might want to consider getting a proper&nbsp;<a href=\"https://virtocommerce.com/glossary/what-is-inventory-management\">inventory management</a>&nbsp;system that will automatically consolidate and track back orders for you.</p>\n"
+            },
+            {
+                "text": "<p>Offering to get products backordered means increased sales and more customers. However, it is important to remember what backorder is - you are essentially asking your customers to pay for a product in advance. Naturally, they&#39;ll be worried and expecting regular updates, so timely communication is essential.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>Customers waiting for their backordered products will expect&nbsp;to receive shipping notifications on the shipping date they&#39;ve been provided. So always keeping your customers in the loop in case of any delays or changes will help avoid complaints and help maintain your company&#39;s reputation. Send out regular emails, update buyers, provide estimated times of arrival, and you&#39;ll keep your happy customers loyal. Also key: a good inventory tracking system will help you can keep track of backorders and make sure your customers aren&#39;t left waiting for too long.</p>\n",
+        "url": null,
+        "noTop": true,
+        "noBottom": false,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "cards",
+        "name": null,
+        "title": "Explore Virto's Ecommerce Education Center",
+        "style": null,
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Benefits and reviews of the top hosted shopping cart solutions</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/hosted-shopping-cart",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Deadstock? ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>What is deadstock and how can your business better manage it?&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-a-deadstock",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Inventory Management?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce and how can you better manage your inventory?</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

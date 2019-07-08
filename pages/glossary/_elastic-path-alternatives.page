@@ -1,0 +1,131 @@
+[
+    {
+        "type": "settings",
+        "title": "Elastic Path Alternatives and Competitors",
+        "permalink": "glossary/elastic-path-alternatives",
+        "id": 1,
+        "header": "Elasticpath alternatives and competitors",
+        "description": "Elasticpath platform offers a great ecommerce solution for the businesses that offer digital services online. It provides advanced features like personalized merchandising, product information management and native website builder that come right out of the box, but like every platform out there, this one has its downsides. So let's look at Elastic Path alternatives and competitors",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Elastic Path Alternatives and Competitors",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/E886A301-7A4B-452B-A206-6DBBAA10E967.png"
+        },
+        "content": null,
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<h3>An API based digital commerce solution, Elastic Path also offers advanced features like personalized merchandising, product information management and native website builder that come right out of the box.&nbsp;</h3>\n\n<h3>Another important factor to consider is that Elastic Path is an open-source platform, which can bring you advanced features to enable a better customer experience. This solution does not require installation of enormous amounts of plugins.&nbsp;</h3>\n\n<p>Despite the enormous range of features provided, its open source code can be a downside for some users. Most business owners are not that tech savvy, so they might have a hard time working with the source code. Its lack of blogging software that is becoming more and more common across all solutions can also be a challenge. If this is a critical feature for your business, you might have to install another platform for content management, thus reducing the response speed of the website. All of these issues might cause you to look for an elastic path alternative.&nbsp;</p>\n\n<p>There are many alternatives to Elastic Path - a few are listed below.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Elastic Path Alternatives",
+        "style": "dark",
+        "contentBefore": "<h3 style=\"text-align: center;\">There are many factors to consider when choosing a hosted shopping cart and ecommerce platform.&nbsp;Below are reviews of the top Elastic Path Competitors:</h3>\n",
+        "items": [
+            {
+                "text": "<ul>\n\t<li><strong>Salesforce Commerce Cloud</strong></li>\n</ul>\n\n<p>Salesforce Commerce Cloud offers the features of channel management and content management that Elasticpath lacks. This Elasticpath alternative is a cloud based SaaS platform, meaning you wouldn&#39;t have to worry about maintaining its infrastructure. With its vast template library you can easily build an eye-catching website and implement the best UX practices within it.&nbsp;<br />\nOne negative about this alternative to Elasticpath is its human resource requirements, meaning you need to hire a professional programmer. However, you are looking for an enterprise solution and have the development power and resources to manage Commerce Cloud&#39;s top features and practices, it&#39;s worth a look.&nbsp;</p>\n"
+            },
+            {
+                "text": "<ul>\n\t<li><strong>Ecwid</strong></li>\n</ul>\n\n<p>With this platform you can embed a personal web store into an already existing page, so you won&#39;t need to go through the entire sophisticated process of setting it up yourself. The web store requires almost no technical experience, as Ecwid&#39;s builder is intuitive. It also entitles you to use a large amount of built in tools to design your perfect shopping cart, but lacks the flexibility of open source solutions. Ecwid is more appropriate for a small business just getting started online.&nbsp;</p>\n"
+            },
+            {
+                "text": "<ul>\n\t<li><strong>Virto Commerce </strong></li>\n</ul>\n\n<p>When choosing Virto Commerce as an Elasticpath alternative, you can be confident that you are using the platform that is best suited for any of your digital commerce needs. Virto Commerce offers an open source solution, however, there will be no stress involved for a person who is not all that familiar with coding. Thanks to cutting edge .NET 4.6 framework and technologies like Angular and Liquid on which the platform is built upon, it provides easy set-up and operation. You will be able to build your website in no time and start selling quickly.&nbsp;</p>\n\n<p>Virto Commerce can be used by any kind of business, any size. Both for startups or enterprise-level companies, Virto Commerce will provide the necessary functionality and some value-added features to empower your digital transformation.&nbsp;</p>\n\n<p>The simplicity of the platform&#39;s user interface and its agile technologies will allow you to market your business quickly and easily. After creating your store, you can deploy it using the leading reliable and secure Microsoft Cloud and scale it with sophisticated multi-channel solutions that other Elastic Path alternatives lack.&nbsp;</p>\n\n<p>Its flexible pricing lets you save funds for other parts of your business. Virto Commerce&#39;s functionality is built to allow your business to achieve great customer satisfaction and increase conversion rates without hiring any customer support team members.&nbsp;</p>\n"
+            },
+            {
+                "text": "<ul>\n\t<li><strong>Magento</strong></li>\n</ul>\n\n<p>If you are an enterprise company that has development resources, you should also consider Magento as another Elasticpath alternative. It offers flexibility due to its open source code, customizability with Magento&#39;s agile features, extensions, and plugins that expand your options.</p>\n\n<p>However, Magento&#39;s monolithic architecture makes it challenging and expensive to add new functionality to your store, and implementing Magento requires a team of Magento developers.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Virto Commerce",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Our Virto Commerce platform, unlike Elastic Path, is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Virto Commerce is the most flexible and scalable .NET platform available today.</p>\n",
+        "url": {
+            "url": "https://www.virtocommerce.com/contact-us",
+            "urlText": "Get a Demo",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": null,
+        "title": "Explore Virto Commerce's Digital Commerce Education Center",
+        "style": null,
+        "items": [
+            {
+                "title": "Hosted Shopping Carts",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hosted-shopping.jpg"
+                },
+                "text": "<p>Benefits and Reviews of Top Hosted Shopping Cart Solutions</p>\n",
+                "link": {
+                    "url": "https://www.virtocommerce.com/glossary/hosted-shopping-cart",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Backorder? ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/what-backorder.jpg"
+                },
+                "text": "<p>Learn more about how to handle backorders and fufillment</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/invetory-management.jpg"
+                },
+                "text": "<p>What is Inventory Management?</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

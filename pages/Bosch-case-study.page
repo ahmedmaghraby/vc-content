@@ -1,0 +1,136 @@
+[
+    {
+        "type": "settings",
+        "title": "Ecommerce Loyalty Platform Creation Story",
+        "permalink": "case-studies/bosch",
+        "id": 1,
+        "header": "Bosch Case Study",
+        "description": "Read About Creation of an Ecommerce Customer Loyalty Portal for Bosch."
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Bosch Success Story",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+        },
+        "content": "<p>Bosch gains customer insights and builds customer loyalty through new ecommerce Solution</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": true
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": " ",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>&quot;We chose Virto Commerce because it is the only platform that had the customizability and support options that we need. From pre-service consultation to technical team support, Virto Commerce was responsive and informative, and most importantly, able to provide valuable insight into our core needs.&quot;~ Cornelius Munz, BOSCH Digital</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "image",
+        "name": "Simple image",
+        "title": "",
+        "style": "light",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "two-columns-text",
+        "name": "Text",
+        "title": "",
+        "style": "dark",
+        "contentBefore": "",
+        "items": [
+            {
+                "text": "<p><strong>CHALLENGE:</strong><br />\nBosch Thermotechnik traditionally did not sell to the end customer, and instead they relied on their distribution channels for that final sale. That approach, however, did not allow Bosch to have any insight into their customers, their behavior, what products they chose, or how they were using them.</p>\n"
+            },
+            {
+                "text": "<p><strong>SOLUTION:</strong><br />\nBosch sought a digital solution to automate the information capture and build customer loyalty as well.<br />\n<br />\nTo gain visibility into end customers, Bosch wanted to build a Customer Loyalty program, with points-based purchasing and 14,000+ catalogue items, and selected Virto Commerce to create their ecommerce solution.</p>\n"
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "View More Virto Commerce Success Stories",
+        "style": "light",
+        "items": [
+            {
+                "title": "Lavazza Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                },
+                "text": "<p>See how Lavazza and their partner, rb2, implemented a complex B2B and B2C solution for Lavazza Nederland.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                }
+            },
+            {
+                "title": "Estate Spain Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
+                },
+                "text": "<p>Estate Spain outgrew their ecommerce system - see how they used Virto Commerce to build a new solution in response to their explosive growth.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/estatespain"
+                }
+            },
+            {
+                "title": "Proffsmagasinet Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-29 at 10.50.54 AM.png"
+                },
+                "text": "<p>Read how Virto Commerce enabled a top Swedish manufacturer&#39;s international expansion and digital transformation.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

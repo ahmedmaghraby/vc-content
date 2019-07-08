@@ -1,0 +1,132 @@
+[
+    {
+        "type": "settings",
+        "title": "How to calculate safety stock? Safety stock formula and calculation.",
+        "permalink": "glossary/how-to-calculate-safety-stock",
+        "description": "How to protect your business against unexpected incidents without upsetting customers and compromising your professional reputation? This is where calculating safety stock comes handy. Learn more about safety stock formula and calculation in this article.",
+        "header": "How to calculate safety stock? Safety stock formula and calculation.",
+        "id": 1,
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "How can you calculate safety stock?                          Safety stock formula and calculation.",
+        "h1": true,
+        "subTitle": "Virto Commerce B2B Ecommerce Education",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/chuttersnap-kyCNGGKCvyw-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\">Safety stock is emergency stock meant to help you account for emergency circumstances &ndash; any circumstances that can cause you to run out of product. Some examples are breakdowns of production machinery, aweather-related troubles affecting your stock or deliveries, unpredicted surges in your product&#39;s popularity leaving your supplier unable to match demands- basically, anything unexpected.</h3>\n\n<p>Supply chain problems happen, and as a retail business, you need to be prepared to face them. Backorders work, but they come with the risk of losing sales and customer loyalty. So, how do you protect your business against unexpected incidents without upsetting customers and compromising your professional reputation? This is where calculating safety stock comes in handy.&nbsp;<br />\n<br />\nSo, what is safety stock? Safety stock is an inventory formula retailers use to determine the emergency stock needed to keep on hand. This is the extra stock of products they need to have in case of unforeseen circumstances that can put them on the verge of selling out. You need to have enough product to weather storms, but not so much so that you end up with carrying costs that are too high for your sales level. While this sounds straightforward, the trick is to know how to calculate inventory in order to determine the optimal stocking level. It&#39;s important to remember that sales don&#39;t only have to cover the sold products&#39; own carrying costs, but the carrying costs of the safety stock as well.&nbsp;</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "hidden": false
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "Calculating safety stock formula - inventory equation",
+        "h1": null,
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p><strong>How do you calculate safety stock?&nbsp;</strong><br />\n<br />\nSafety stock calculation is simple. You just need to have your purchase and sales orders data available. Once you do, use this simple safety stock formula, also known as the &quot;inventory equation&quot;:&nbsp;<br />\n<br />\n<strong>Safety stock = (Maximum daily usage * Maximum lead time in days) &ndash; (Average daily usage * Average lead time in days).&nbsp;</strong><br />\n<br />\nHere&#39;s a retailer&#39;s inventory formula example to illustrate how the safety stock calculator works:&nbsp;<br />\n<br />\nA souvenir retailer, &quot;From Russia With Love&quot; based in New York City sells Gzel tea sets from Russia. On average, it takes about 40 (average lead time in days) days to get the tea sets made and shipped from Russia to NYC. The company sells about 15 sets a day (average daily usage), but on good days sales can go as high as 25 (maximum daily usage). Unfortunately, in Russia, there is often heavy snow and roads are not always reliable, which sometimes results in longer lead times, up to 55 days (maximum lead time in days).&nbsp;<br />\n<br />\nNow, how do we calculate inventory? Using the safety stock equation above, their optimal stocking level formula would be:&nbsp;<br />\n<br />\n(25 x 55) - (15 x 40) = 775&nbsp;<br />\n<br />\nWith this, we have determined that the From Russia With Love souvenir store would always need to carry about 775 tea sets as safety stock (especially in winter when the weather conditions in Russia are harsh).&nbsp;<br />\n<br />\nThis is basically all there is to know about how to calculate safety stock. Your stock holding formula will help your business navigate safely through all the fluctuations in demand and lead time.&nbsp;<br />\n<br />\nDepending on the products you&#39;re selling, you may need to adjust that stock holding formula to seasonal changes. During peak seasons, sales may increase drastically requiring more safety stock. But once the peak season is over, you would want to start reducing your safety stock levels to lower your carrying costs.&nbsp;</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "What is a buffer stock level (or safety stock levels) and how do they affect the Reorder Point?",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>A buffer stock level is essentially another term in inventory management used to describe a level of extra stock that is kept to account for uncertainties in supply and demand. Now that you know what a safety stock level is and how to calculate average stock level and determine exactly how much safety stock you need - use that when deciding on your reordering quantity. Calculate safety stock and document it in your order management software to help with your reorder point calculations.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore Virto Commerce's Ecommerce Education Center",
+        "h1": null,
+        "style": "dark",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-cart"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

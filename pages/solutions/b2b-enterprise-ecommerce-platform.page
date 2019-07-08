@@ -1,0 +1,129 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "solutions/b2b-enterprise-ecommerce-platform",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": null,
+        "title": "B2B Ecommerce Built for Enterprises",
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/b2b_ecommerce built for enterprises_hero.png"
+        },
+        "content": "<p>Don&#39;t get left behind by using outdated and monolithic architecture.</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>The digital commerce landscape is crowded with a myriad of affordable solutions for small businesses, B2C, and growing companies. But large enterprises need something different &ndash; a solution that is custom built to support their goals, customer journey, and brand. Virto Commerce offers you unlimited flexibility &ndash; which is why top brands like Heineken, Bosch and Volvo trust their online commerce to Virto Commerce.</p>\n",
+        "url": null
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Architecture Designed For Enterprise",
+        "intro": "<p>With a strong architectural foundation, unparalleled expertise and limitless flexibility, Virto Commerce is built for enterprise. Download our detailed Architecture Guidelines for a detailed understanding our of architectural excellence.</p>\n",
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Ideal for Complex B2B Ecommerce",
+                "text": "<p>Virto Commerce specializes in handling complex digital commerce implementations with a high volume of data and products.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Scalable",
+                "text": "<p>Virto Commerce meets all requirements you have for flexibility and scalability. Our platform is quickly scalable to handle new regions, seasonal peaks, and other challenges that might call for rapid business expansions.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Modular",
+                "text": "<p>Use what you need, replace what you don&#39;t. Virto Commerce is designed to be a flexible and non-monolithic framework where each part can be replaced or changed when needed. This design paradigm minimizes risks of upgrading or creating ecommerce solution.&nbsp;</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Built for Cloud",
+                "text": "<p>Built on Microsoft Azure, the top cloud choice for enterprise infrastructure, our cloud native architecture supports microservice integration, increasing usability, maintainability and overall agility.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Secure",
+                "text": "<p>Virto Commerce experts work with your development team to provide constant support and make sure your code is secure, optimized, and fast.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "title": "Technical Expertise",
+                "text": "<p>Virto Commerce&#39;s expert team has the technical know-how needed when you encounter complex problems. Ecommerce for enterprise isn&#39;t simple &ndash; and you need a team that understands the platform&#39;s architecture inside and out to ensure implementation goes smoothly.</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p><strong>Virto Commerce is Your Long-Term Ecommerce Partner.</strong>&nbsp;Our enterprise customers are of utmost importance to us and are in a unique position of being able to influence our roadmap.&nbsp;<br />\nVirto Commerce continuously incorporates customer feedback into product development to ensure that we consistently offer value-added features and upgrades. Take advantage by providing feedback to shape the product to your specifications, helping you achieve your goals and reduce your development time and costs.</p>\n",
+        "url": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Virto Commerce",
+        "style": null,
+        "decorator": null,
+        "content": "<p>Our Virto Commerce platform is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Learn more about our agile development approach in this blog post.</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+        }
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": null,
+        "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions",
+        "style": null,
+        "items": [
+            {
+                "title": "Hosted Shopping Carts",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/placeholder_icon.png"
+                },
+                "text": "<p>Benefits and Reviews of Top Hosted Shopping Cart Solutions</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "type": "settings",
+        "title": "Find a B2B or B2C Enterprise Ecommerce Implementation Partner",
+        "permalink": "find-partner",
+        "header": "Find a B2B or B2C Ecommerce Implementation Partner",
+        "description": "Find a B2B or B2C Enterprise Ecommerce Implementation Partner from our list of certified ecommerce implementation agencies and experts.",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Looking For an Ecommerce Implementation Guide?",
+        "h1": true,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/kaleidico-3V8xo5Gbusk-unsplash.jpg"
+        },
+        "content": "<p>Use a Virto Commerce certified partner to steamline your integration process.</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\">Virto Commerce has a worldwide network of implementation partners. Our partners are carefully selected and provide expertise to deliver successful B2B ecommerce solutions for small, medium, and large businesses.&nbsp;<br />\nComplete the form below and we will contact you to discuss your project in more detail and find the best partner to fit for your needs.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "custom-form",
+        "name": "",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Find an Ecommerce Partner",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch to match you to the best partner for your busines.&nbsp;</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Website",
+                "name": "website",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Region",
+                "name": "region",
+                "type": "select",
+                "data": "Americas ; EMEA ; APAC",
+                "fullrow": false
+            },
+            {
+                "label": "Please tell us a bit about your project and company.",
+                "name": "comments",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Find a Partner&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Find a Partner"
+    }
+]

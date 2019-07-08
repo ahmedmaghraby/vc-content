@@ -1,0 +1,65 @@
+[
+    {
+        "type": "settings",
+        "title": "Thank You For Your Interest in Our Partners",
+        "permalink": "thank-you-find-partner",
+        "header": "Thank You For Your Interest in Our Partners",
+        "description": "Thank You For Your Interest in Our Partners",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<h2>Thanks for your interest in working with one of our implementation partners.&nbsp; Someone from our team will be in touch shortly.&nbsp; If you need immediate assistance, please call us at +1 800 980 5288.&nbsp;</h2>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "cards",
+        "name": "Text",
+        "title": "In the meanwhile, please view the following case studies, of implementations done with our partners:",
+        "h1": null,
+        "style": "light",
+        "items": [
+            {
+                "title": "Lavazza Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.21.16 PM.png"
+                },
+                "text": "<p>See how our partner, rb2, used Virto Commerce to implement a complex B2B and B2C solution for Lavazza.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                }
+            },
+            {
+                "title": "Standard Boekhandel Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.28.11 PM.png"
+                },
+                "text": "<p>Belgium&#39;s largest bookseller replaced their solution with Virto Commerce to deliver a better customer experience.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

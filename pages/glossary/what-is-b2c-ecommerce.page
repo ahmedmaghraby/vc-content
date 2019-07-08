@@ -1,0 +1,188 @@
+[
+    {
+        "type": "settings",
+        "title": "Best B2C Ecommerce Platforms in 2019 - Reviews",
+        "permalink": "glossary/what-is-b2c-ecommerce",
+        "header": "What are the best B2C ecommerce platforms?",
+        "description": "What are the best B2C Ecommerce Platforms? Read reviews of the top platforms in 2019 that you should consider.",
+        "id": 1,
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "What are the best B2C ecommerce platforms?",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/charles-ZQ1TGdfXOkE-unsplash.jpg"
+        },
+        "content": "<p>And what is B2C ecommerce?</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": true
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<p>B2C, the acronym for &quot;business-to-consumer&quot;, is a business model based on transactions between a company, that sells products or services, and individual customers who are the end-users of these products. Typically the commerce transaction goes through a company website with an online catalog managed by the seller.</p>\n\n<p>What choices does a B2C vendor have when it comes to choosing an ecommerce platform? Many &ndash; and it can be hard to differentiate between ecommerce vendors. Things to consider are: the size of your catalog, the complexity of your product, and the growth you project in your business. Just like with B2B ecommerce, B2C companies need to choose a platform that is agile, flexible, and will be able to change along with the fast pace of their business needs.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "B2C Ecommerce Challenges",
+        "intro": "<h3 style=\"text-align:center\">Things to think about before choosing a new B2C digital commerce solution:</h3>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/traffic.png"
+                },
+                "title": "Driving Consumer Traffic",
+                "text": "<p>If Google does not know your name, you do not exist. Additionally B2C companies need to think about other local search engines &ndash; Baidu, Naver, Yandex, and Yahoo in Japan for example. Search engine marketing and optimization (SEO) are the lifeblood of any online business. Typically, consumers click on a link from the first or second page of search results. A B2C website must be optimized to attract traffic; its very structure, architecture, and content management system must work seamlessly, and the choice of a website platform is vital for your success.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/payment.png"
+                },
+                "title": "Payment Processing",
+                "text": "<p>A lot of customers are hesitant to submit their personal data to websites due to safety reasons. SSL encryption, PCI compliance and other trust marks have proven to increase online clients&#39; confidence and are key for B2C and B2B ecommerce transactions.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/cs.png"
+                },
+                "title": "Customer Support",
+                "text": "<p>The cost of acquiring a new consumer is almost ten times higher than of maintaining an existing customer, who typically spends 60% more than a new client. An optimized customer experience encourages visitors to become loyal customers, so emphasis must be placed on improving retention. There are many strategies that help make clients feel appreciated. B2C online shopping needs to provide a seamless experience, it needs to motivate clients to become your partners, and eventually your brand&#39;s advocates. These tactics can be supported with powerful, easy to use tools that help deliver engaging promotions, campaigns and loyalty programs.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/productfind.png"
+                },
+                "title": "Product Findability",
+                "text": "<p>Online stores continue to become simpler, more intuitive, and flashy. The convenience of on-site search and navigation is the key component of usability. The associations, exact jargon, abbreviations, autocomplete suggestions of the search dictionary, filters and refinements, clear product hierarchy - these are essential features that dramatically lift conversion rates. If a client can&#39;t find a product, they can&#39;t buy it. An online store platform must contain usability-related tools to make the search process as easy as possible.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": null,
+        "title": "B2C Ecommerce Platform Reviews",
+        "intro": "<h3 style=\"text-align: center;\">There are many factors to consider when choosing a B2C ecommerce platform. Below are some B2C ecommerce platform reviews:</h3>\n",
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": null,
+                "title": "Shopify",
+                "text": "<p>Shopify is one of the most popular ecommerce platforms to build a feature-rich online store upon without any special web development knowledge. The solution is easy to use and comes with a huge set of store templates. Among the cons is the high price, and lack of migration options, upon canceling your Shopify account your store will be deleted &ndash; which is a major hurdle.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "Volusion",
+                "text": "<p>Volusion offers a marketing focused platform with a user-friendly search engine and powerful inventory, as well as promotion and shipping tools. The weak points are customer support and unstable hosting servers.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "Virto Commerce",
+                "text": "<p>Virto Commerce is an open-source ecommerce product available for both on-premise and cloud-based hosting. The platform&#39;s capabilities include its architecture (designed for complete scalability), and a powerful set of marketing features for a precise customization of your store. Virto Commerce&#39;s mobile friendly support is great for small startups, as well as for enterprise-level B2C and B2B websites, which demand full and flexible customization. They also offer a free Proof of Concept so you can ensure that Virto Commerce is the right solution for you before committing. <a href=\"https://virtocommerce.com/solutions/b2x-b2c-ecommerce\">Learn more about Virto Commerce for B2C.</a></p>\n"
+            },
+            {
+                "image": null,
+                "title": "Magento",
+                "text": "<p>Magento is an open-source platform that allows you to create a self-hosted store with scalable architecture and powerful SEO features. But coding skills are required to customize the platform to your needs. And you would have to host Magento solution on your own server. Not the best choice for a small company or for a newbie - Magento is not really the ideal B2C solution.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "BigCommerce",
+                "text": "<p>BigCommerce allows you to easily create a store with a built-in mobile friendly website. The solution has cost-effective plans for small online stores, and a lot of features provided are great for a small store, however, extensive enterprise-class customization would be a challenge.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": null,
+        "title": "Learn more about Virto Commerce",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">A top choice for both enterprise B2C and B2B Ecommerce - Virto Commerce is the ideal choice for flexible and scalable ecommerce that can handle even the most complex ecommerce challenges.&nbsp;</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Get a Demo of Virto Commerce for B2C",
+            "style": "btn btn--orange btn--lg"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "Learn More About Ecommerce in Our Education Center:",
+        "style": "light",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "Hosted Shopping Cart Definition and Uses",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "#"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": null
+    }
+]

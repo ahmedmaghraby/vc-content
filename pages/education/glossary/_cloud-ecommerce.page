@@ -1,0 +1,187 @@
+[
+    {
+        "type": "settings",
+        "title": "Cloud Ecommerce Platforms and Solutions",
+        "permalink": "glossary/cloud-ecommerce-solution",
+        "id": 1,
+        "header": "Cloud Ecommerce Solutions",
+        "description": "Cloud ecommerce solutions - IaaS, PaaS and SaaS models. The difference between various cloud-based application types"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "What is Cloud Ecommerce?",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/ru6qu_gK.png"
+        },
+        "content": null,
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<h3>The term cloud ecommerce refers to the process of outsourcing of a remote network of servers hosted on the Internet to use application services, store and process data. Cloud ecommerce solutions provide a wide range of benefits over traditional on-premise digital commerce solutions. Within the last ten years, cloud-based commerce has grown exponentially due to the efficiency of the cloud &ndash; cloud-based services save time and money.</h3>\n",
+        "url": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Benefits of Cloud Ecommerce",
+        "intro": null,
+        "style": null,
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/scalable.png"
+                },
+                "title": "Scalability on Demand ",
+                "text": "<p>Traffic variability due to seasonal spikes creates a unique situation for suppliers and retailers. Required hardware needs to have capacity that conforms to the traffic peaks (ex. Black Friday, Cyber Monday, etc.) even though most of the year this capacity is not needed. The cloud offers an elastic solution, that allows for substantial variations in workload and meets the needs for seasonal or hourly promotional spikes in traffic. Cloud ecommerce solution resources can be scaled up and down to support your actual needs.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/secure.png"
+                },
+                "title": "Security",
+                "text": "<p>Save time on risk assessment and data defense, so that you can focus on your business! When hosting your business in the cloud, you don&#39;t need to worry about maintaining and monitoring your servers. Security and protection of your network, physical facilities, applications, including data encryption and customers&#39;<br />\npersonal data safety can be excluded from the list of your concerns. Cloud hosting providers complete third-party certifications, and proper security is a priority for them. Additionally, the constant accessibility of your website and regular data backups ensure that your online presence will be available without any data loss in case of an emergency.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/payment.png"
+                },
+                "title": "Cost Effective Performance ",
+                "text": "<p>The cloud is a perfect place for an ecommerce solution because you can pay for resources only when you need them. A cloud solution may save a company over 70% of the costs associated with building static environments scaled for traffic peaks - the hardware that may only be in use a few days a year. With cloud, you only pay for what you use.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/saas.png"
+                },
+                "title": "Easy accessibility from any place ",
+                "text": "<p>If your business operates in multiple countries, a cloud-based solution offers clear advantages considering the speed required to roll out and manage an ecommerce application. With a digital commerce cloud you have a remote network of servers that responds dynamically to your demands to deliver content fast no matter where your customer is.</p>\n"
+            }
+        ],
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": null,
+        "title": "How Should I Evaluate Digital Commerce Vendors?",
+        "intro": "<h3 style=\"text-align: center;\">Cloud computing services fall under several distinct categories. Each of these models or their combinations allows you to create the perfect foundation for your ecommerce suite.</h3>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "IaaS (Infrastructure as a Service)",
+                "text": "<p>This type of cloud service focuses on providing on-demand data storage on disks and virtual servers. Customers purchase a remote datacenter infrastructure service instead of having to purchase their own hardware. Examples include cloud services offered by established well-known brands, such as Amazon and Microsoft.</p>\n"
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "PaaS (Platform as a Service)",
+                "text": "<p>A cloud development platform that allows its users to develop, manage, and launch applications within a self-service portal with a ready-to-use cloud computing infrastructure. Most platforms provide the basics so that you don&#39;t have to start from scratch. The operating system is supported and frequently upgraded, and the services for your ecommerce solution can be built using certain modules.</p>\n\n<p>Examples of Platform-as-a-Service are Google App Engine, Cloudfy, and Cloudsuite.</p>\n"
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "SaaS (Software as a Service)",
+                "text": "<p>Software-as-a-Service means that a third-party hosting service provider gives clients access to various cloud ecommerce solutions on a pay-as-you-go basis.</p>\n\n<p>This service type is very popular among ecommerce vendors, and applications allow your business to improve customer experience and expand your store with advanced features, such as smart shopping carts or mobile-friendly applications. Among the most popular SaaS solutions are Salesforce, NetSuite, Slack and others.</p>\n\n<p>An optimal choice for an e-commerce business however would be a solution that combines a platform with a ready-to-use set of software tools. In other words, PaaS and SaaS built specifically for digital commerce. Our cloud-based ecommerce technology - Virto Commerce, is considered one of the best e-commerce platforms available for B2B and enterprise customers, please click to learn more about Virto Commerce for B2B, B2C and Startups.</p>\n"
+            }
+        ],
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": null,
+        "title": "Virto Commerce: A Cloud Based Ecommerce Solution",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">Learn more about Virto Commerce, an enterprise level ecommerce platform that was designed for cloud.&nbsp;</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Get a Demo",
+            "style": "btn btn--orange btn--round"
+        },
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "Learn More About Digital Commerce in Virto Commerce's Ecommerce Education Center:",
+        "h1": null,
+        "style": "light",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/hosted-shopping-cart"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

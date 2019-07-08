@@ -1,0 +1,148 @@
+[
+    {
+        "type": "settings",
+        "title": "Thing Commerce Definition and Meaning | Glossary VirtoCommerce",
+        "permalink": "glossary/thing-commerce",
+        "id": 1,
+        "header": "Thing Commerce Definition and Meaning | Glossary VirtoCommerce",
+        "description": "How is \"Thing Commerce\" Transforming the Way We Do Business?",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Thing Commerce: What is Thing Commerce?",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION ",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (7).png"
+        },
+        "content": null,
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<h3>Starting from our smartphones, the increased levels of connections in the world are changing industries at an alarming rate. For many brands interested in taking full advantage of thing commerce, it&#39;s key to find a way to connect their services to the internet.</h3>\n\n<p>Thing commerce creates an improved visibility fulfillment process that enables retailers to meet demands of online customers. Thing commerce further allows companies to track all orders from the moment they are placed until the time they arrive in the &#39;hands&#39; of the consumer. Each part of inventory is monitored using a robust management system that automatically locates all goods from whichever location they are stored in.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": null,
+        "title": "Thing Commerce is Simplifying Certain Automated Processes ",
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p>Because all durable goods require constant replenishment, for example- detergents and printer ink - there&#39;s an excellent opportunity to automate their ordering process. Thanks to thing commerce, you can streamline the entire process by measuring the frequency of how oftend a particular family orders items they use on a regular basis.</p>\n\n<p>Thing commerce can also enable accurate measuring of the durable product itself. For instance, GE and Whirlpool Appliances have integrated the Amazon Dash Replenishment service into their business to allow automatic reordering or supplies based on their consumption.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Helps Manufacturers of Durable Goods to Establish Long-Term Relationships with Their End-Consumer ",
+        "style": "dark",
+        "decorator": null,
+        "content": "<p>Manufacturers are currently producing refrigerators and washing machines with lifecycles of 15 to 20 years. This limits interaction with their consumers. However, with thing commerce, they can establish a relationship through connected appliances and remain in the minds of their customers for an extended period. For example, manufactures of printers offer services for cartridge replacement.</p>\n\n<p>Apart from just creating a long-term relationship with consumers, thing commerce can help businesses create fresh business models for loyal customers. For instance, they could adopt service-based business models by offering things such as:</p>\n\n<ul>\n\t<li>Performance analytics</li>\n\t<li>Remote monitoring</li>\n\t<li>Predictive maintenence</li>\n</ul>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": null,
+        "title": "They Can Access More Data to Help in Influencing Consumer Decisions ",
+        "style": "dark",
+        "decorator": null,
+        "content": "<p>The growth of thing commerce means that there&#39;s more data for marketers to use to gain insight into the behaviors of their customers. Using this additional information, they can adopt better methods of appealing to consumer&#39;s needs as well as influence them to purchase their products.</p>\n\n<p>Now the greatest challenge will be finding ways of navigating through the large volume of brand-new data. If done correctly, this massive chunk of data will eventually allow marketers to effectively tailor their services and products to the needs of large consumer groups.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": null,
+        "title": "Conclusion",
+        "style": "dark",
+        "decorator": null,
+        "content": "<p>While the rise of thing commerce in the era of the internet of things is not without challenges, the above opportunities make it worth the investment. As a company head or business owner, remember that it&#39;s always good to give your customers what they want, when they want it, before anyone else &ndash; and thing commerce truly enables you to anticipate their needs, building loyalty and in turn, revenue.&nbsp;&nbsp;</p>\n",
+        "url": null
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "name": null,
+        "title": "Want to learn more about cutting edge  ecommerce?",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Contact Virto Commerce and our experts would be happy to discuss how thing commerce is important to your business.&nbsp;&nbsp;</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--lg"
+        }
+    },
+    {
+        "id": 9,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore Virto's Ecommerce Education Center",
+        "style": "light",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-cart"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

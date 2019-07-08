@@ -1,0 +1,213 @@
+[
+    {
+        "type": "settings",
+        "title": ".NET Open Source Enterprise Ecommerce Architecture for B2B and B2C ecommerce I Virto Commerce",
+        "permalink": "enterprise-ecommerce-architecture",
+        "description": "Enterprise .NET B2B Ecommerce Platform Ideal for Enterprise and Midsize Manufacturers, Distributers, and Retailers.",
+        "header": ".NET Enterprise Ecommerce Architecture Overview",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Architecture Overview",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (10).png"
+        },
+        "content": "<p>The Future is Now. Rely on Architectural Excellence to Power Your Business For Years To Come.</p>\n",
+        "url1": {
+            "url": "#",
+            "urlText": "Download Our Detailed Architecture Guidelines",
+            "style": "btn--orange"
+        },
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\">The Right Architecture: Critical For Successful Ecommerce.&nbsp;<br />\nDon&#39;t be left behind. Start your ecommerce journey today&nbsp;and grow fearlessly with flexible and future-proof architecture.</h3>\n\n<p>Whether you&#39;re looking to embark on your digital commerce journey, considering changing your existing solution provider, or thinking about phasing out a home grown, legacy solution that you&#39;ve outgrown &ndash; you need to build your new solution on the most flexible and scalable architecture available,<strong>&nbsp;as using the wrong technology can greatly slow down your ecommerce business.&nbsp;</strong><br />\n<br />\nWhile the potential problem of outgrowing your ecommerce platform is not top of mind- it can happen sooner than you think. Ecommerce is a rapidly changing industry and constantly evolving. You can&#39;t predict what trend will be crucial for your business next year, or further into the future.&nbsp;<strong>The only thing you can do to be prepared in this environment is to rely on architecture that is designed for constant and fast-paced change.&nbsp;</strong></p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "",
+        "title": "Architecture types to avoid",
+        "intro": "<h3 style=\"text-align: center;\">The wrong architecture will lead to missed business opportunities and let your competitors pass you by as you waste time and money. Every dollar and hour invested in the wrong technology today&nbsp;&nbsp;will just add to the cost and hassle of moving from that solution in the future.&nbsp;</h3>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/monolith.png"
+                },
+                "title": "Monolithic Architecture",
+                "text": "<p>In a monolithic solution, all components are interconnected. If any individual part needs to be updated, the whole application has to be rewritten. This slows down new features, forces you to grow your development team and greatly limits your ecommerce speed to market.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/saas.png"
+                },
+                "title": "SaaS Solutions",
+                "text": "<p>These solutions are suitable for a very small and basic store only. They don&#39;t allow you to modify the solution based on your business needs, and you lack control over the performance, continuity and security. As your business grows, your SaaS solution won&#39;t be able to grow along with you.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/legacy.png"
+                },
+                "title": "Homegrown Solutions",
+                "text": "<p>Legacy solutions are expensive and challenging to maintain. To truly create enterprise software, you need to create a software company within your business, causing you to lose focus. Your team can be more productive when relying on a vendor who provides a flexible platform, where custom functionality can be built on top of it.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/closedsource.png"
+                },
+                "title": "Closed Source",
+                "text": "<p>Closed architecture makes your innovations dependent on your vendor&#39;s road maps - you can&#39;t make your system changes on your own in a rapid fashion. This makes it much harder to customize your solution, as the vendor releases functionality required for the masses, rather than personalized features for you. Its&nbsp;also a long term problem&nbsp;to find developers who are specialists in a particular type of closed software.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "dark",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\"><strong>If you are relying on any of the above architecture types it&#39;s time to focus efforts on moving to a completely new solution.</strong></h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Navigate the Future by Choosing the Right Architecture",
+        "intro": "<p style=\"text-align:center\"><strong>Virto Commerce offers an open source .NET platform to mitigate the risks of using the wrong architecture</strong></p>\n",
+        "style": "light",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/databasearch.png"
+                },
+                "title": "Architectural Excellence",
+                "text": "<p>Our modular architecture is the opposite of monolithic - very adaptable to changes and the addition of new functionality. Virto Commerce&#39;s architecture was designed and is constantly improved based on feedback from our customers, which include Fortune 500 leaders like&nbsp;<u>Bosch,&nbsp;</u>Volvo and Heineken. We get your ecommerce core right and deliver functional enablers which makes it easy for our partners and clients to build up their required features on top of our architecture. You focus on development, we create a long term rapidly evolving ecommerce platform.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/opensource.png"
+                },
+                "title": "Open Source",
+                "text": "<p>Virto Commerce is fully open source with it&#39;s code in GitHub. We have no hidden technical teams or problems. Developers can access our code and make an educated decision on what they see. Extend our system and adapt it to your business.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/flexilbe.png"
+                },
+                "title": "Flexible and Extensible Platform",
+                "text": "<p>Our platform is easy to customize and scale. We believe in reducing implementation efforts - there is no need to start off with external plugins without the idea of which fit for your business. Design and evolve your solution and its functionality on top of our platform, which is built 100% to your requirements.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/partners.png"
+                },
+                "title": "Strategic Partner Network",
+                "text": "<p>iVrto Commerce knows&nbsp;<strong>the quality of our partners is critical for our customers to be successful</strong>. We are extremely choosy when deciding what partners to bring on board, and have processes in place to ensure partners keep improving their skills implementing Virto Commerce.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "Download our Architecture Guidelines to get a 360 degree in-depth view of our agile and flexible architecture.",
+        "style": "dark",
+        "decorator": "none",
+        "content": "",
+        "url": {
+            "urlText": "Download Now",
+            "url": "#",
+            "style": "btn btn--orange btn--lg"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "cards",
+        "name": "Text",
+        "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions:",
+        "style": "light",
+        "items": [
+            {
+                "title": "Bosch Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                },
+                "text": "<p>When Bosch needed a custom designed customer loyalty platform, they came to Virto Commerce.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "http://www.virtocommerce.com/case-studies/bosch"
+                }
+            },
+            {
+                "title": "Estate Spain Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
+                },
+                "text": "<p>Estate-Spain.com&nbsp;found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/estatespain"
+                }
+            },
+            {
+                "title": "Lavazza Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                },
+                "text": "<p>See how Lavazza leveraged Virto Commerce&#39;s unique architecture to develop a B2B and B2C solution.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/lavazza",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

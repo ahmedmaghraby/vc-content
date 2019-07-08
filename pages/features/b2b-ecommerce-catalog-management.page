@@ -1,0 +1,123 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce Product & Catalog Information Managment Features (PIM)",
+        "permalink": "b2b-ecommerce-catalog-management",
+        "header": "B2B Ecommerce Product & Catalog Information Managment Features (PIM)",
+        "description": "Ecommerce Catalog and Product Management for B2B Enterprises, Manufacturers and Distributors",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "B2B Ecommerce Product & Catalog Information <br> Managment Features (PIM) ",
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (8).png"
+        },
+        "content": null,
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": " ",
+        "style": null,
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">Manage complex B2B and B2C product lists with Virto Commerce&#39;s sophisticated catalog management functionality. Our Catalog Information Management solution allows you to enrich your product information, create catalogs, and distribute to your sales channels.&nbsp;</h3>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Get to Market Faster",
+        "style": null,
+        "contentBefore": null,
+        "items": [
+            {
+                "text": "<p>Configure &amp; manage all your catalog information or integrate with 3rd party PIM or CMS solutions with the Virto Commerce catalog. All digital assets can be configured to be stored in popular Content Distribution Networks (CDN).</p>\n\n<p>For a global business, our platform supports multiple catalogs, languages, taxes and storefronts.</p>\n"
+            },
+            {
+                "text": "<ul>\n\t<li>Manage Multiple Store Catalogs and Virtual Catalogs</li>\n\t<li>Supports Both Digital &amp; Physical Products</li>\n\t<li>Personalize B2B Catalogs for Specific Products</li>\n\t<li>Enables Externally Linked Catalogs</li>\n\t<li>Allows Customization of Product Properties</li>\n\t<li>Includes Multi Store SEO Features</li>\n\t<li>Supports Product Variations and Tags</li>\n\t<li>API Available for Easy Catalog Integration with External Software</li>\n</ul>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Learn More About Our B2B Ecommerce Platform. ",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">And all the other features we offer out-of-the-box, yet designed for complex B2B digital commerce</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Get a Demo",
+            "style": "btn btn--orange btn--lg"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": null,
+        "title": "Explore More Features - Readily Available to Get You to Market Faster",
+        "style": null,
+        "items": [
+            {
+                "title": "Pricing Tools",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
+                },
+                "text": "<p>Pricing tools to support complex B2B pricing tiers and scenarios</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/features/b2b-ecommerce-pricing-tools",
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Marketing & Promotions",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Promotion and Marketing.png"
+                },
+                "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Order Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                },
+                "text": "<p>Virto Commerce provides order management tools to handle even the most complicated B2B fulfillment requirements.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/b2b-ecommerce-order-management",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

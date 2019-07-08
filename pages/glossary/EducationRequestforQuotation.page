@@ -1,0 +1,146 @@
+[
+    {
+        "type": "settings",
+        "title": "Request for Quote",
+        "permalink": "glossary/request-for-quotation",
+        "id": 1,
+        "description": "What is a Request for quotation (RFQ)? How to create it? What are advantages and disadvantages of using RFQ in your business process? Learn it and much more in this article.",
+        "header": "Request for Quotation",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Request for Quotation (RFQ) ",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (6).png"
+        },
+        "content": "<p>What is a request for quotation?&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<p>A request for quotation (RFQ) is a process in which the company invites outside vendors and suppliers to bid on specific products or services. Typically, a request for quotation is&nbsp;a request for pricing of items you know your business needs, however, it should always involve more than just the cost per item. With a request for quotation, you can provide thorough information about your project and requirements. The more detailed specifications you make, the more accurate quotes you will get.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "The Difference Between RFQs, RFIs and RFPs ",
+        "intro": "<p>If you are a B2B vendor, you&#39;re likely accustomed to sending and receiving RFPs, RFIs and RFQs while working with clients interested in your products and services.</p>\n\n<p>There is a definite difference between a request for quotation, request for information and request for proposal. All three have several common features. However, each one has clear distinctions, and understanding those differences will vastly improve your experience when searching for a vendor. Typically, a request for quotation, or RFQs are used to inquire about the price of a specific product or service need of your business. RFPs, on the other hand, can be used to invite suppliers to create new solutions for your company and throw some ideas about the accompanying costs of the projects.</p>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": null,
+                "title": "Request for Information (RFI) ",
+                "text": "<p>RFI stands for &quot;request for information&quot;. The RFI is essentially a document used by companies that don&#39;t have a very clear idea of the marketplace they&#39;re looking to enter and want to gain an understanding on the range of options in their chosen space. An RFI is a more exploratory document, so it would make the most sense to ask open ended questions, ones that allow the vendor to talk about its full range of services or relevant products. Typically, an RFI would describe the overall business challenges you are currently facing and allow the vendor to come up with their response on how they can add value. Frequently the vendor will describe its position on the market (like its specialty or preferred field for example), how it licenses its product, and what kind of costs you can anticipate.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "Request for Proposal (RFP)",
+                "text": "<p>An RFP is what typically follows an RFI. A &quot;Request for Proposal&quot; requires vendors to provide options for a solution to a customer&#39;s ongoing challenges or business needs. An RFP should be more specific and detailed on what a company is looking for. It should outline the goals for the project and state specific requirements for the work that&#39;s being requested.</p>\n\n<p>A request for proposal needs to be thorough and precise, as it may be the deciding factor for successful execution of a project. It must be specific about what you want from your suppliers, but at the same time not too focused on creating various requirements as it can limit the bidders&#39; creativity and innovation. Virto Commerce has put together an extremely thorough RFP Template that you can download and use to compare digital commerce vendors.</p>\n"
+            },
+            {
+                "image": null,
+                "title": null,
+                "text": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "The RFQ Process",
+        "style": null,
+        "decorator": null,
+        "content": "<p>RFQ, or Request for Quotation is an even more detailed version of the previous types of documents that defines the exact specifications of what&#39;s required. Unlike the RFP, which allows the vendor to have some flexibility on suggesting various solutions to the company&#39;s listed challenges, a request for quotation&nbsp;doesn&#39;t leave space for creativity, but rather it demands that the vendor provides a quote on the specific project.</p>\n\n<p>The crucial part of creating a request for quotation&nbsp;(RFQ) is preparation. It incorporates gathering of all the essential documents and recreating the process from an invitation to a closing of the deal. There are three types of RFQs that you can select from: standard, catalog, and bid. The differences between them, lie in the number of products that you order for a single time and the type of the product. Using a catalog RFQ, you can purchase high-volume items and make orders that are supplied to you on a regular basis. With the standard RFQ, you can place a quote on a fixed quantity of a specific product that you don&#39;t purchase very often. As far as bid RFQ goes, you can use it to order, for example, equipment that has never been requested before. Also, while executing the preparation process, consider the number of potential participants in the bid: ideal would be three to eight vendors.</p>\n\n<p>After you have decided on the type of RFQ, the next step is gathering documents. These include invitations and descriptions of the bid, terms and conditions, pricing templates, qualification requirements along with the questionnaire, and awarding criteria. In the request, describe your company, the project you are pursuing and all the other information that is necessary for the supplier to know. All the information submitted should be clear and concise. Attach terms and conditions as legal framework for the bid.</p>\n\n<p>Pricing templates give guidelines to participants to follow in submitting a bid. Have a specific price breakdown based on the category of the product as well as delivery of specific cost drivers.</p>\n\n<p>When it finally comes time to choose a supplier, consider the following criteria:</p>\n\n<ul>\n\t<li>Quality of the services or products</li>\n\t<li>Price for quality offered</li>\n\t<li>Risks and returns associated with the products and suppliers</li>\n</ul>\n\n<p>The next last step is awarding, and awarding criteria greatly comes in handy with this step of the RFQ process. In the awarding process, try to invite as many different people from your company as you can to decide. Make sure you keep a memo of how many total bids you received, how many you chose, who voted what and the reasons for why you chose the winning bids. The final step in the RFQ process is closing. After you have selected your winner, it is helpful to conduct a final meeting to sign the contract. By taking care of the general terms and conditions in the preparation process, it should be a quick process, with minimal negotiation. Also, get used to giving feedback to all the participants of the bidding, not only the awarded ones. As a good business practice, it ensures that you will be able to keep connections with valuable suppliers. Keep your options close to you until signing the contract. Make sure to give thanks to all participants in your RFQ process.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Learn more about B2B Ecommerce",
+        "subTitle": "",
+        "image": null,
+        "content": "<p>Contact our ecommerce experts today</p>\n",
+        "url1": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Get in Touch",
+            "style": "btn--orange"
+        },
+        "url2": null
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": null,
+        "title": "Explore Virto Commerce's Ecommerce Education Center",
+        "style": null,
+        "items": [
+            {
+                "title": "What is Inventory Management ?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>Learn how to better manage inventory in this article.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Hosted Shopping Cart",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>What is a hosted shopping cart? Read reviews of the top hosted shopping carts.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-cart",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Dead Stock? ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>What is deadstock? Learn how to manage dead stock and how it affects your business.&nbsp;&nbsp;</p>\n",
+                "link": {
+                    "url": "https://www.virtocommerce.com/glossary/what-is-a-deadstock",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

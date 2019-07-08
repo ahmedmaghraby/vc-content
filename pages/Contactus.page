@@ -1,0 +1,105 @@
+[
+    {
+        "type": "settings",
+        "title": "Get a Demo",
+        "permalink": "contact-us",
+        "header": "Request a Virto Commerce Demo",
+        "id": 1,
+        "description": "Get a Demo of our .NET, Open Source, Flexible and Scalable Ecommerce platform."
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Request a Demo",
+        "subTitle": "Get in Touch",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/berkeley-communications-WEDDt-u3q3o-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": true
+    },
+    {
+        "id": 3,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Get a Demo",
+        "intro": "<p>Please fill out the below form, and someone from team will be in touch shortly to schedule a demo at your convenience.&nbsp;</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Job Title",
+                "name": "jobtitle",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Website",
+                "name": "website",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Region",
+                "name": "region",
+                "type": "select",
+                "data": "Americas ; EMEA ; APAC",
+                "fullrow": false
+            },
+            {
+                "label": "How Would You Describe Yourself? ",
+                "name": "Please select from the following",
+                "type": "select",
+                "data": "I am a business or technical user; I am a developer interested in trying Virto Commerce ; I am creating a solution for a client",
+                "fullrow": false
+            },
+            {
+                "label": "Please tell us about your project, or use this space for any other comments or questions you have.  ",
+                "name": "comments",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Request Demo"
+    }
+]

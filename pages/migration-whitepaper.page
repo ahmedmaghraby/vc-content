@@ -1,0 +1,57 @@
+[
+    {
+        "type": "settings",
+        "title": "Ecommerce Website Migration  Issues and how to avoid them",
+        "permalink": "migration-whitepaper",
+        "header": "Ecommerce Website Migration  Issues and how to avoid them",
+        "description": "Ecommerce Website Migration Issues and how to avoid them.  Learn more about common migration challenges in this white paper.",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Common Issues with Ecommerce Website Migration and How to Avoid Them",
+        "h1": true,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/agiledefinitionheader.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">This Virto Commerce whitepaper provides insight on how to avoid and overcome&nbsp;typical ecommerce platform migration problems.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download White Paper",
+        "buttonText": "Download White Paper",
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

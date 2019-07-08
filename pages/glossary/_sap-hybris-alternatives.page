@@ -1,0 +1,137 @@
+[
+    {
+        "type": "settings",
+        "title": "SAP Hybris Alternatives and Competitors",
+        "permalink": "glossary/sap-hybris-alternatives",
+        "id": 1,
+        "header": "SAP Hybris Commerce Cloud Alternatives",
+        "description": "Learn about SAP Hybris and Enterprise Ecommerce  Platform Alternatives.",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "SAP Hybris Alternatives and Competitors",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/dpAJZxUZ.png"
+        },
+        "content": "<p>What are SaaS digital commerce platforms?</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<p>When choosing the right ecommerce platform for your enterprise business, you will not have the myriad of solutions available to small and midsize businesses &ndash; you will want to focus on evaluating a few platforms, including SAP Hybris and it&#39;s competitors: Salesforce Commerce Cloud, Shopify, Magento and Virto Commerce. As B2B ecommerce experts, we get a lot of questions from customers trying to evaluate SAP Hybris vs Magento vs other B2B ecommerce platforms. We will look at SAP Hybris and one of it&#39;s main alternatives, Magento, as well as Virto Commerce &ndash; a rapidly growing B2B ecommerce platform utilized by Heineken, Volvo, Rainbow Sandals and a variety of enterprise businesses.</p>\n\n<p>SAP Commerce Cloud (recently rebranded from SAP Hybris) is one of the most well-known cloud ecommerce platforms available. Around since the 1990s, the platform helped usher in the big dotcom boom of the early 2000s.</p>\n\n<p>Since its inception, it has evolved into a highly agile ecommerce platform for both B2B and B2C selling, with modules and accelerators that have been developed for specific industries like grocery, education, insurance and apparel.</p>\n\n<p>In addition to these plug and use modules that can customize the platform for specific industries, it can also be integrated with other SAP Cloud platforms for a seamless ecommerce process from the front to back ends.</p>\n\n<p>SAP Commerce Cloud can be used by non-tech savvy ecommerce store owners, as it comes with many ready-to-use templates for common ecommerce functions, including promotions. It is highly customizable, integrates well with other services and is scalable to handle large shopping days.</p>\n",
+        "url": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": null,
+        "title": "Why switch from SAP (Hybris) Commerce Cloud? ",
+        "style": null,
+        "decorator": null,
+        "content": "<p>As good as SAP Commerce Cloud is, the platform does have some drawbacks. Most notably, since it uses some older functionality, it could stand for an update to its Content Management System and some of the aforementioned modules. While you don&#39;t need to be tech savvy to use the platform, those who are will be able to get better use out of it.</p>\n\n<p>Unlike platforms that have the value of being open source, SAP Hybris is a closed platform. It&#39;s not flexible and easy to customize &ndash; greatly limiting your business. With the rapid pace of ecommerce change, using a platform that doesn&#39;t offer agility and extensibility could prove to be an expensive mistake in the long run, as replatforming or changing your SAP Commerce Cloud solution is quite pricey and time consuming.</p>\n\n<p>The out-of-the-box promotion templates are useful, but if you can&#39;t find one that fits your exact needs, customizing them will require more advanced technical knowledge.</p>\n\n<p>If you are a small operation and you don&#39;t have a dedicated IT team, SAP Commerce Cloud could pose a problem since it doesn&#39;t have the comprehensive support and guidance that other platforms on the market offer.</p>\n",
+        "url": null
+    },
+    {
+        "id": 5,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Alternatives to SAP Hybris",
+        "style": null,
+        "contentBefore": "<p>There are myriad alternatives for B2B ecommerce platforms. We will look at the positives and negatives of top SAP Hybris competitors that you may consider switching to.</p>\n",
+        "items": [
+            {
+                "title": "Virto Commerce",
+                "text": "<p>Virto Commerce is the most agile and extensible ecommerce platform available. Specifically designed for enterprise B2B ecommerce, its enterprise clients around the world include: Volvo, Bosch, Heineken, Vivint Smart Home and Rainbow Sandals.</p>\n"
+            },
+            {
+                "title": "Pros",
+                "text": "<ul>\n\t<li>If you&#39;re in the B2B space, this ecommerce solution is specifically designed for your business. Virto Commerce&#39;s .NET open source platform offers no limits to customization, and future proofs your business as the platform grows and changes as your business needs change.</li>\n\t<li>The architecture is easy to work with and configure and it is easily scalable. As an Azure .Net open source platform, you have full control over the code and development of your site.</li>\n\t<li>Virto Commerce has tools to help new store owners, including documentation, samples, forums, tech-support and an enterprise edition to help B2B sellers.</li>\n\t<li>Their leadership team has decades of B2B and enterprise ecommerce experience that they can leverage to help your store succeed.</li>\n</ul>\n"
+            },
+            {
+                "title": "Episerver",
+                "text": "<p>An intuitive ecommerce platform, Episerver has a great personalization engine and an easy-to-use content management platform.</p>\n"
+            },
+            {
+                "title": "Pros",
+                "text": "<p>As mentioned above, Episerver has fantastic personalization capabilities and its content management is a dream to use. In addition to that, its account management is simple to get the hang of. It also integrates with other tools quite well, particularly with other Episerve SaaS tools like AI. On top of all that, it is generally a fast platform.</p>\n"
+            },
+            {
+                "title": "Magento",
+                "text": "<p>An intuitive ecommerce platform, Episerver has a great personalization engine and an easy-to-use content management platform.</p>\n"
+            },
+            {
+                "title": "Pros",
+                "text": "<ul>\n\t<li>Probably its most well known feature is its flexibility. Being open source, that means anyone using it can go into the source code and tinker with it for complete customization. It also allows for easy third party integration.</li>\n\t<li>Its large user community means you can find support for issues you have quite easily online, plus they are always developing useful plugins for it.</li>\n</ul>\n"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": null,
+        "title": "Virto Commerce",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Our Virto Commerce platform is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Learn more about our agile development approach in this blog post.</p>\n",
+        "url": {
+            "url": "contacts",
+            "urlText": "Contact Us",
+            "style": "btn btn--orange btn--round"
+        }
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": null,
+        "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions",
+        "style": null,
+        "items": [
+            {
+                "title": "Hosted Shopping Carts",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
+                },
+                "text": "<p>Benefits and Reviews of Top Hosted Shopping Cart Solutions</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Backorder? ",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
+                },
+                "text": "<p>Learn more about how to handle backorders and fufillment</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
+                },
+                "text": "<p>What is Inventory Management?</p>\n",
+                "link": {
+                    "url": null,
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,221 @@
+[
+    {
+        "header": "Free Enterprise Level Ecommerce Platform for Startups",
+        "type": "settings",
+        "title": "Free Enterprise Level Ecommerce Platform for Startups",
+        "permalink": "solutions/startup-ecommerce-platform",
+        "id": 1,
+        "description": "Free Fully Featured Ecommerce Platform - Built for Enterprise, Free for Startups!"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "AFFORDABLE AND POWERFUL  ECOMMERCE FOR STARTUPS",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/ecommerce-bg.png"
+        },
+        "content": "<p>Power your business with a fully featured&nbsp;<br />\nenterprise level digital commerce platform</p>\n",
+        "url1": {
+            "url": "",
+            "urlText": "",
+            "style": "btn--white"
+        },
+        "url2": null,
+        "subTitle": null
+    },
+    {
+        "id": 3,
+        "type": "image-with-text",
+        "name": null,
+        "title": "Affordable",
+        "style": "light",
+        "align": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/aforadable.png"
+        },
+        "content": "<p>Harness the power of a platform built for enterprise at a price point that fits into your budget. Virto Commerce chooses to keep our platform open source and accessible &ndash; we want to power the world&#39;s future leading businesses and let you focus your budget on innovation.</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 4,
+        "type": "image-with-text",
+        "name": null,
+        "title": "Scalability",
+        "style": "light",
+        "align": "right",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Scalability.png"
+        },
+        "content": "<p>Think big. Your business is going to grow, so don&#39;t waste valuable time choosing a platform that can&#39;t grow along with it. Whatever your long term vision is, Virto Commerce can support it. The flexibility offered by Virto Commerce means you never have to look for a new platform. Virto Commerce has deployed solutions globally and supports multi lingual and multi-currency needs.</p>\n",
+        "url1": null,
+        "url2": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "image-with-text",
+        "name": null,
+        "title": "Partner Community",
+        "style": "light",
+        "align": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Partner Community.png"
+        },
+        "content": "<p>Virto Commerce works with a group of trusted partners who can work with you to implement a custom solution on time and within budget. Our partners are based around the world and have delivered solutions to companies in a myriad of industries. Contact us to find the right implementation partner for you.</p>\n",
+        "url1": {
+            "url": null,
+            "urlText": null,
+            "style": "btn btn--orange btn--round"
+        },
+        "url2": null
+    },
+    {
+        "id": 6,
+        "type": "image-with-text",
+        "name": null,
+        "title": "Ready to Use Functionality",
+        "style": "dark",
+        "align": "right",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Ready to Use Functionality.png"
+        },
+        "content": "<p>Virto Commerce offers out-of-the-box features to help startups get their online businesses up and running quickly. Order management, marketing tools, content management system (CMS) - are all included in our community edition.</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 7,
+        "type": "image-with-text",
+        "name": null,
+        "title": "The Choice of Business  Leaders",
+        "style": "dark",
+        "align": "right",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/choice-of-business-leaders.png"
+        },
+        "content": "<p>Virto Commerce is the trusted digital commerce partner for a myriad of global businesses including Volvo, Heineken, Rainbow Sandals and more.</p>\n\n<p><a href=\"#\">View case studies to see how we helped enterprises expand into new commerce segments.</a></p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 8,
+        "type": "two-columns-text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "contentBefore": "<p><strong>Who is Virto Commerce for?&nbsp;</strong><br />\nIn addition to being an ideal solution for manufacturers and distributors, we are experts at putting together solutions for:</p>\n",
+        "items": [
+            {
+                "title": "SaaS",
+                "text": "<p><strong>SaaS: </strong>We have the knowledge to deal with some of the digital commerce challenges SaaS businesses encounter during their growth</p>\n"
+            },
+            {
+                "title": null,
+                "text": "<p><strong>Customers that sell digital commerce solutions: </strong>Our platform&#39;s architecture allows you to build layers &ndash; enabling custom builds of new industry specific digital commerce solutions for your end customer</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "name": null,
+        "title": "Key Benefits of Virto<br>Commerce for Startups",
+        "style": null,
+        "decorator": null,
+        "content": null,
+        "url": null
+    },
+    {
+        "id": 10,
+        "type": "text-layout",
+        "name": null,
+        "title": null,
+        "style": null,
+        "contentTop": null,
+        "contentLeft": "<p>Who is Virto Commerce for? Experts in B2B digital commerce, in addition to being an ideal solution for manufacturers and distributors, we are experts at putting together solutions for:</p>\n",
+        "contentRight": "<ul>\n\t<li>SaaS: We have the knowledge to deal with some of the digital commerce challenges SaaS businesses encounter during their growth</li>\n\t<li>Customers that sell digital commerce solutions: Our platform&#39;s architecture allows you to build layers &ndash; enabling custom builds of new industry specific digital commerce solutions for your end customer</li>\n</ul>\n",
+        "contentBottom": null
+    },
+    {
+        "id": 11,
+        "type": "text-layout",
+        "name": null,
+        "title": null,
+        "style": null,
+        "contentTop": null,
+        "contentLeft": "<p>In today&#39;s fast paced economy, startups - at all stages- can&#39;t afford to base their business on the wrong technological infrastructure. Many of the top players in digital commerce offer good looking solutions that turn out to be monolithic, rigid and inflexible &ndash; certainly not right for rapidly growing businesses. Choosing the right technology enables you to focus on business growth &ndash; not IT.</p>\n",
+        "contentRight": "<p>Packed with features you need to build your store, Virto Commerce&#39;s open-source community edition offers you the functionality to go online by offering an affordable yet fully featured enterprise class platform. As your revenue and business grows, your solution can grow with you &ndash; every step of the way. For startups building solutions using our technology, for example SaaS businesses, we provide a flexible license model &ndash; something our competitors don&#39;t offer.</p>\n",
+        "contentBottom": "<p>Entrepreneurs ourselves, we keep Virto Commerce open source and are eager to help guide other innovative companies on their digital transformation journey. Additionally, Virto Commerce is extremely interested in investing in innovative and ambitious startups that use our technology &ndash; we make selective investments in businesses we think can disrupt their markets. With Virto Commerce as your partner, you don&#39;t need to waste precious time thinking about technology &ndash; we handle it, and you focus on your business, value proposition, and strategy.</p>\n"
+    },
+    {
+        "id": 12,
+        "type": "two-columns-text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "contentBefore": null,
+        "items": [
+            {
+                "title": null,
+                "text": "<p>In today&#39;s fast paced economy, startups - at all stages- can&#39;t afford to base their business on the wrong technological infrastructure. Many of the top players in digital commerce offer good looking solutions that turn out to be monolithic, rigid and inflexible &ndash; certainly not right for rapidly growing businesses. Choosing the right technology enables you to focus on business growth &ndash; not IT.&nbsp;</p>\n"
+            },
+            {
+                "title": null,
+                "text": "<p>Packed with features you need to build your store, Virto Commerce&#39;s open-source community edition offers you the functionality to go online by offering an affordable yet fully featured enterprise class platform. As your revenue and business grows, your solution can grow with you &ndash; every step of the way. For startups building solutions using our technology, for example SaaS businesses, we provide a flexible license model &ndash; something our competitors don&#39;t offer.</p>\n"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "type": "text",
+        "name": null,
+        "title": "",
+        "style": null,
+        "decorator": null,
+        "content": "<p>Entrepreneurs ourselves, we keep Virto Commerce open source and are eager to help guide other innovative companies on their digital transformation journey. Additionally, Virto Commerce is extremely interested in investing in innovative and ambitious startups that use our technology &ndash; we make selective investments in businesses we think can disrupt their markets. With Virto Commerce as your partner, you don&#39;t need to waste precious time thinking about technology &ndash; we handle it, and you focus on your business, value proposition, and strategy.</p>\n",
+        "url": null
+    },
+    {
+        "id": 14,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Ready to Get Started? ",
+        "subTitle": null,
+        "image": {
+            "url": null
+        },
+        "content": "<p>Contact us now to learn more about our Community Edition, and Virto Commerce can grow along with your business.</p>\n",
+        "url1": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Get in Touch",
+            "style": "btn--orange"
+        },
+        "url2": null
+    },
+    {
+        "id": 15,
+        "type": "cards",
+        "name": null,
+        "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions",
+        "style": null,
+        "items": [
+            {
+                "title": "Bosch Case Study",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                },
+                "text": "<p>Learn How Bosch Created a Customer Portal Using Virto</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/bosch",
+                    "urlText": "View Case Study",
+                    "style": null
+                }
+            }
+        ]
+    }
+]

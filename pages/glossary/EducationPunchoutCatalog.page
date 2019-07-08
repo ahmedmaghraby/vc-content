@@ -1,0 +1,135 @@
+[
+    {
+        "type": "settings",
+        "title": "Punchout Catalog Definition, How does a punch out catalog work? | Education Virto Commerce.",
+        "permalink": "glossary/punchout-catalog",
+        "id": 1,
+        "description": "How does a punchout catalog work? The definition of punch out catalog.",
+        "header": "How does a punchout catalog work? The definition of punch out catalog.",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Punch Out Catalog: Definition",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (5).png"
+        },
+        "content": "<p>what is a punch out catalog?&nbsp;</p>\n",
+        "url1": null,
+        "url2": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<p>A punch out catalog is an e-procurement solution that provides access to the supplier&#39;s catalog from the vendor&#39;s website interface. In other words, a customer &quot;punches out&quot; a procurement application to the original site, gets access to the supplier&#39;s catalog, and can then add items to a shopping cart.</p>\n\n<p>With a punchout catalog,&nbsp;the supplier does not receive an order when a customer makes a purchase. Instead, all items from the shopping cart are processed within the buyer&#39;s e-procurement system. The customer might not even notice that he had entered another site&#39;s catalogue.</p>\n\n<p>In more technical terms, a punchout catalog is an online vendor catalog that has been enhanced via an open catalog interface to support PunchOut Procurement associated with a PunchOut website. The punchout ecommerce solution enables the direct connection between ERP or an e-procurement system of the buyer and the storefront of the supplier. A punchout catalogue is a convenient way for customers to browse suppliers&#39; catalogues and place orders from within their existing e-procurement system.&nbsp; Punchout catalogs are essential in conducting efficient ecommerce.&nbsp;</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Top Punch Out Catalog Questions",
+        "intro": null,
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": null,
+                "title": "How does a punch out catalog work? ",
+                "text": "<p>Punchout catalogues are based upon an Open Catalog Interface (OCI), one of the standard formats used by SAP Supplier Relationship Management, ORDIGES Purchase-to-Pay, Microsoft Dynamics AX and other ERP/Purchasing Systems, which connects to external punch out online catalogs. When a customer leaves the buyer&#39;s site, the punchout sends the login request and connects the buyer&#39;s and supplier&#39;s systems. The storefront displays items, prices, description, purchase terms, and other information, so the customers can add the requested items to their shopping cart. Then the cart is brought back to the buyer&#39;s e-procurement system as a requisition and is processed using the company&#39;s standard system workflow steps and financial approvals. The order is sent to the supplier after the purchase has been approved by the buyer.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "What is a punch out website? ",
+                "text": "<p>A punchout site is an ecommerce website that lets a buyer make purchases from a supplier&#39;s website through the Buyer&#39;s own procurement application. The PunchOut Website has the ability to communicate directly with the buying organization&#39;s procurement system through cXML. cXML allows programs to modify and validate documents without prior knowledge of their form. The Buying organization exits or &quot;punches out&quot; of their company&#39;s system and links to the supplier&#39;s web-based catalog to select and add items to their shopping cart. Pertinent information about the transaction is delivered to the appropriate channels during the connection.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "What is punch out procurement? ",
+                "text": "<p>Punchout procurement is a type of interaction between a vendor&#39;s web storefront and a buyer&#39;s procurement application. It can include business-to-business (B2B), business-to-consumer (B2C) or business-to-government (B2G) communications.</p>\n"
+            },
+            {
+                "image": null,
+                "title": "What is a supplier catalog? ",
+                "text": "<p>A supplier&#39;s catalog is a seller&#39;s itemized listing of products for sale. Such catalogs can be connected and maintained as punchout catalogs on a buyer&#39;s website and be available to the larger target audience. A buyer displays the full range of suppliers&#39; products on their own website with pricing and description taken from the suppliers&#39; system.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Learn more from the B2B digital commerce experts",
+        "subTitle": "",
+        "image": null,
+        "content": "<p>Contact Virto Commerce today to learn more about our ecommerce solutions</p>\n",
+        "url1": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Contact Us",
+            "style": "btn--orange"
+        },
+        "url2": null
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": null,
+        "title": "Explore Virto Commerce's Digital Commerce Education Center",
+        "style": null,
+        "items": [
+            {
+                "title": "What is Inventory Management?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>Learn how to better manage inventory in this article.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Hosted Shopping Carts",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>What is a hosted shopping cart? Read reviews of the top hosted shopping carts.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-cart",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "What is Dead Stock?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn about dead stock and what it means for your business.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/what-is-a-deadstock",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": null
+    }
+]

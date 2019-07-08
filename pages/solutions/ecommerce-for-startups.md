@@ -1,7 +1,7 @@
 ---
-title: ECommerce For Startups
-date: 2019-05-29
-permalink: solutions/ecommerce-for-startups
+date: '2019-05-29'
+title: 'ECommerce For Startups'
+
 ---
 <div class="main">
     <div class="page">

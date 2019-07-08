@@ -1,0 +1,146 @@
+[
+    {
+        "type": "settings",
+        "title": "Hosted Shopping Cart",
+        "permalink": "glossary/hosted-shopping-cart",
+        "layout": "glossary",
+        "description": "A shopping cart hosting is a unique solution. By using it, you get the same level of personal service as you would with a web-developer, while at the same time using the great power of hosting from the shopping cart itself.",
+        "header": "Hosted Shopping cart",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Hosted Shopping Carts",
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+        },
+        "content": "<p>What are the best hosted shopping carts?&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": true
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>A hosted shopping cart is a unique solution that provides you with hosting for your website through the servers of a shopping cart provider. As a business owner, you do not have to install or download all the e-commerce software as it is being taken care of by your shopping cart provider.&nbsp;<br />\n<br />\nBy using a hosted shopping cart solution, you get the same level of personal service as you would with a web-developer, with the ease of out of the box software. Hosted shopping carts also include detailed control panels, which allow you to upload and promote your products, set discounts and deals, upload any necessary product information, determine payment options and shipping methods, etc. There is no need for you to be bothered with any code or concerned about the security of your web store when you use one of the many hosted shopping carts available. The shopping cart hosting platform does that all for you.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "Benefits of a Hosted Shopping Cart Solution",
+        "style": "light",
+        "decorator": "none",
+        "content": "<ul>\n\t<li>\n\t<p><strong>Customer Support.</strong> Hosted shopping carts provide a top-notch level of customer support and always take care of the server side of things, allowing you to focus directly on achieving your business goals.</p>\n\t</li>\n\t<li>\n\t<p><strong>Easy to Personalize.&nbsp;</strong>Quickly pick a design for your hosted shopping cart&nbsp;by choosing from dozens of templates available. You can style and personalize it however you want in a minimal amount of time, making them a great solution for up and coming businesses. The work is in adding your products to the site, uploading images, selecting payment and shipment options as well as making sure that your website is rich with compelling content.</p>\n\t</li>\n\t<li>\n\t<p><strong>Affordable.&nbsp;</strong>No need to overpay for your server &ndash; you can pay just a monthly subscription fee for the time you want your website running. The monthly fee includes hosting, access to your admin&#39;s panel and 24/7 customer service.</p>\n\t</li>\n</ul>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "two-columns-text",
+        "name": "Text",
+        "title": "Universal Features Offered by Hosted Shopping Carts",
+        "style": "light",
+        "contentBefore": "<p style=\"text-align:center\">Now that we have determined the benefits of using hosted shopping carts for growing your business, look at some of the core features that will allow you to sell your products on the Internet successfully.</p>\n",
+        "items": [
+            {
+                "text": "<ul>\n\t<li><strong>Functional Product Images</strong></li>\n</ul>\n\n<p>It is a &quot;must have&quot; for a hosted shopping cart integration to allow you to upload high-resolution product images, as it is customers&#39; only opportunity to see the product and be impressed by it. Another key item is the ability to resize pictures to your needs since the bigger (and the clearer) the image is the better. Look for carts that give you the opportunity to zoom in on products.</p>\n\n<ul>\n\t<li><strong>Easy Navigation</strong></li>\n</ul>\n\n<p>Take care of your customers by offering them streamlined navigation. Include some filtering options, so they can find exactly what they want. Make sure that the hosted shopping cart provider will provide it for you by specifying that you need it to be data-driven and programmatic.</p>\n\n<ul>\n\t<li><strong>Deals and Discounts</strong></li>\n</ul>\n\n<p>Deal shoppers love to use their coupons. With multiple services that can provide coupons, your website needs to be able to receive them and promote special deals which are key in driving campaign ROI.</p>\n"
+            },
+            {
+                "text": "<ul>\n\t<li><strong>Product Reviews</strong></li>\n</ul>\n\n<p>Product reviews have shown their beneficial influence on conversion rates as research suggests that more than 70% of internet buyers trust product reviews posted online.&nbsp;<strong>Reviews help customers make product choices and convert them. In order to capitalize on the power of customer reviews,</strong>&nbsp;you have to look for a hosted shopping cart&nbsp;<a href=\"https://virtocommerce.com/glossary/best-ecommerce-platforms\">platform</a>&nbsp;that allows you to include product reviews or has a way to implement third-party product reviews.</p>\n\n<ul>\n\t<li><strong>Fast &amp; Easy Checkout</strong></li>\n</ul>\n\n<p>Checkout is the final moment of the purchase and you, as the owner have to go out of your way to make the checkout process painless to your customer. Remember that clients always look for the shortest line and want to complete the final steps as fast as possible. To do that, you need to ensure that your checkout form has very few fields and is located on a single page. By doing this, you will promote the user-friendliness of the website and allow for better conversion rates.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "Text",
+        "title": "Hosted Shopping Cart Reviews",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">There are many factors to consider when choosing a hosted shopping cart. Below are reviews of the top options:</h3>\n\n<ul>\n\t<li><strong>Shopify</strong></li>\n</ul>\n\n<p>If you are striving for a perfect balance between the convenience of having an already set up website - that allows you a good degree of control-&nbsp;<a href=\"https://virtocommerce.com/glossary/shopify-alternatives\">Shopify</a>&nbsp;is a great choice. It is highly valued in the community for providing businesses with a fair amount of control. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a great variety of tools to alter your store. Another great thing is the presence of their AppStore, where you can find useful plugins for creating and customizing your website. Despite all of its great features, Shopify lacks good content marketing functionality. Shopify offers trials where you can see whether this hosted cart solution is the right fit for you.</p>\n\n<ul>\n\t<li><strong>Opencart</strong></li>\n</ul>\n\n<p>A free and open course solution well suited to small businesses, OpenCart is an option to consider. Its clients value Opencart for the top-notch security protocols that do not allow any of your data to get lost, while keeping track of any activity on the website. Another great benefit is the availability of SEO-optimization for any article that you post for the product. The platform is flexible and very easy to use and provides an inexpensive solution for all your e-commerce needs.</p>\n\n<ul>\n\t<li><strong>Virto Commerce</strong></li>\n</ul>\n\n<p>The enterprise-level e-commerce solution that is fully open-source. It is based on .NET 4.6 with extensive use of IoC, EF, AngularJS, Liquid, MVC and many other cutting edge technology advancements. If you need to manage high volumes of items, this is the platform that can provide product catalogs with along with extensive marketing and promotion capabilities. Virto Commerce provides is a well-built solution that eliminates the problem of creating a store for complex B2B companies. It&#39;s modern technology will allow you to set up a website in less than an hour, bringing such incredible features to you as technical documentation, tech support, SEO functionality and more. Virto Commerce is built on Microsoft&#39;s leading .NET architecture- allowing you full control over customizing your site.</p>\n\n<ul>\n\t<li><strong>PinnacleCart</strong></li>\n</ul>\n\n<p>If you want to set up a store&#39;s website right out of the box and don&#39;t want to bother with a huge amount of options available, then, PinnacleCart is worth considering. New and bright templates, various marketing tools, great SEO features make PinnacleCart great for a B2C online-only shop. They also provide a 14-day free trial, giving small businesses a chance to set up a store and test transactions. Thanks to it, you can select from 30 different payment gateways, as the platform does not charge any setup fee. Compared to Shopify, they are a much cheaper option. However, smaller packages provide the lesser amount of bandwidth and disc storage, which can damage your website&#39;s capacity.</p>\n\n<ul>\n\t<li><strong>UltraCart</strong></li>\n</ul>\n\n<p>UltraCart is a good option if you want your website to be loaded with features, while at the same time not bursting your budget. This shopping cart hosting comes with a great number of tools that will help you make more sales; it is built on enterprise-level hardware, and it always takes care of any updates, security concerns or technical aspects. Just like any other platform, it supports all the leading credit card processing gateways and works with many payment methods. Great customer support and technical documentation especially make this shopping cart platform stand out among others.</p>\n\n<ul>\n\t<li><strong>ShopIntegrator</strong></li>\n</ul>\n\n<p>A pretty basic and cheaply priced shopping cart hosting platform that provides regular features like template selection, easy connection with the payment processor, secure hosting, mobile e-commerce and so on. While it offers a Multi-Store Management, it lacks any inventory, SEO or Promotions management, marketing tools and loyalty programs.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "Learn More About Ecommerce",
+        "style": "light",
+        "items": [
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>What is Backorder? Learn more on how to handle backorders and fulfillment.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            },
+            {
+                "title": "Saas Ecommerce",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/austin-distel-wawEfYdpkag-unsplash.jpg"
+                },
+                "text": "<p>What is SaaS (Software as a Service) ecommerce and what are the best SaaS Ecommerce platforms?</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/glossary/saas-ecommerce",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

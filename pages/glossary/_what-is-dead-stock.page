@@ -1,0 +1,123 @@
+[
+    {
+        "type": "settings",
+        "title": "What is a dead stock? Dead stock definition and meaning",
+        "permalink": "glossary/what-is-a -dead-stock",
+        "id": 1,
+        "description": "What does dead stock mean? Why is it critical to find  the correct approach to dead inventory management? Learn more about it in this article.",
+        "header": "What is a dead stock? Dead stock definition and meaning",
+        "layout": "glossary"
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Definition: Dead Stock?",
+        "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/what-is-dead.png"
+        },
+        "content": null,
+        "url1": null,
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "Answer",
+        "style": null,
+        "decorator": null,
+        "content": "<h3>Dead stock is essentially a stock of products that are not likely to ever leave the shelves. Products might be selling well, but with every change of seasonal collections, with every inventory re-stock there&#39;s an ever growing pile of products that just don&#39;t sell and the additional weight they add to your business is dragging it down. That is referred to as dead stock (or deadstock/headstock).</h3>\n\n<p>A common mistake made by retail businesses is not getting rid of their dead stock, meaning these products continue to occupy space in the warehouse and slowly drain valuable finances which could be allocated towards business&#39; growth.</p>\n\n<p>What does headstock mean for your business? To get a better idea, try calculating carrying costs you have by holding on to the items that define deadstock. Look at your storage costs - the rental costs for warehouses, the money spent on utilities, insurance, security, and equipment, etc. All these costs would need to be offset by the revenue from product sales, however as deadstock items are not making any sales, they keep adding to costs instead of helping to cover them.</p>\n\n<p>Another important topic here is missed opportunities, because headstock is essentially shelf space that is lost that could be holding more of your top selling products.</p>\n\n<p>The correct approach to dead inventory management is critical &ndash; and can really increase your ROI.</p>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "How Do I Get Rid of Dead Stock?",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Now, that we have answered the question of &ldquo;what is dead stock/ what is headstock?&rdquo; let&rsquo;s look at a few ways to fix dead stock issues:</h3>\n\n<p><strong>Return Products to the Supplier</strong>:&nbsp;If the stock has arrived recently and you have realized quickly that they are not going to be received well by your customer base, the items are likely still current and there&#39;s enough room in the return policy, so you may be able to send the slow moving products back to the supplier. Often times in this case the supplier will accept them, but will most likely offer you credit instead of paying back cash. There&#39;s also a high chance the supplier will charge a restocking fee of about 10% upon the return of the merchandise, so be prepared to take a small loss.</p>\n\n<p><strong>Create bundles and market deadstock with better selling items:&nbsp;</strong> If returning is not an option or you simply decide to hold off on paying that restocking fee and give your dead stock one last chance, try bundling those items with more current products, and offer a discount on the set. Of course, your profit margins will be smaller in this case, but it&#39;s better than having those items sitting in your warehouse creating more storage costs - at the very least you&#39;ll be able to get the cost price back and break even. Another option is to use your dead stock as giveaways. Customers love freebies and you can use those to encourage them to spend more by setting a qualifying purchase limit. For example, &quot;Buy 5 shirts and get a free hat&quot; or &quot;Spend $150 and get a free gift&quot;. Offering good value for money is the key here. Consumers would not want to pay for items they don&#39;t like enough, but a free gift or a good discount is likely to change their mind and may encourage more spending.</p>\n\n<p><strong>Donate it:&nbsp;</strong> Now, this option might not apply to every country or business, but if you&#39;re a clothing retailer in the USA, this may work for you. Say, you have discovered some dead stock items in your warehouse from several years ago lying around. The chance of selling them is next to none at this point. Returning is not an option anymore either, but the items are still new and in great condition. Rather than simply throwing it away, you can at least claim a tax write-off by donating them to charity. Charitable organizations will be glad to take the load off your shoulders, plus some good karma never hurt anyone. You will need a written agreement with the charity, stating that the items were donated at no cost and signed receipts for your business to deduct the market value of the inventory from your taxes. Also, if your donations are used directly to care for the ill, needy, or infants, you can get even more tax breaks from the IRS.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": null,
+        "title": "Better Manage Inventory With the Right Ecommerce Platform",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Virto Commerce provides a .NET enterprise ecommerce platform utilized by top manufacturers and distributers.&nbsp; Virto provides robust inventory management functionalities to help you avoid dead stock.&nbsp;</p>\n",
+        "url": {
+            "url": "https://www.virtocommerce.com/contact-us",
+            "urlText": "Get a Virto Commerce Demo",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore the Virto Commerce Ecommerce Education Center:",
+        "style": "light",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/hosted-shopping-cart"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://www.virtocommerce.com/glossary/inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

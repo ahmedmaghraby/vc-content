@@ -1,0 +1,151 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce .NET Platform Training and Consulting",
+        "permalink": "b2b-ecommerce-implementation",
+        "header": "Ecommerce Training & Services",
+        "description": "Comprehensive architect and developer training, courses, and consulting services for .NET, open source B2B ecommerce implementations.",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "Digital Commerce Training & Services",
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/austin-distel-wawEfYdpkag-unsplash.jpg"
+        },
+        "content": "<p>Our services are designed to support partners throughout their entire lifecycle from sales to design, implementation, deployment and post-sales&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": "",
+        "style": null,
+        "decorator": null,
+        "content": "<h3 style=\"text-align:center\">Virto Commerce ensures your success by providing a worldwide community of digital commerce experts who work with partners to achieve their ecommerce implementation goals. You receive the essential tools, support, expertise, and strategy to guide your ecommerce technical expertise to the next level.&nbsp;</h3>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Partner Services",
+        "intro": "<p style=\"text-align:center\">Value-added services to ensure successful implementations</p>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                },
+                "title": "Technical Account Manager",
+                "text": "<p>A Virto Commerce Technical Account Manager is your dedicated resource and mentor. They help facilitate best practice discussions, help identify implementation issues, and connect with other Virto Commerce experts and support teams.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/review.png"
+                },
+                "title": "Review Services",
+                "text": "<p>Our partner review services consist of multiple types of reviews and recommendations from Virto Commerce Experts. They include: business requirements reviews, architecture reviews, delivery reviews and post production reviews and recommendations.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Training",
+        "intro": "<h3 style=\"text-align:center\">Virto Commerce offers a variety of training options to our partners - please&nbsp;<a href=\"http://virtocommerce.com/training\">view our upcoming training schedule. </a></h3>\n",
+        "style": null,
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": null,
+                "title": "Developer Training Courses",
+                "text": "<ul>\n\t<li>VC Fundamentals - 1 Day</li>\n\t<li>Architect Great Solutions - 2 Day</li>\n\t<li>&nbsp;</li>\n</ul>\n"
+            },
+            {
+                "image": null,
+                "title": "Architect Training Courses",
+                "text": "<ul>\n\t<li>VC Fundamentals &ndash; 1 day&nbsp;</li>\n\t<li>Developing VC modules &ndash; 2 days</li>\n\t<li>Developing Storefront Apps &ndash; 1 day&nbsp;</li>\n</ul>\n"
+            },
+            {
+                "image": null,
+                "title": "Business User Training Courses",
+                "text": "<ul>\n\t<li>VC Fundamentals &ndash; 1 day</li>\n\t<li>Configuring VC solutions &ndash; 1 day&nbsp;</li>\n</ul>\n"
+            },
+            {
+                "image": null,
+                "title": "Public Training",
+                "text": "<ul>\n\t<li>Based on first-come-first-served approach&nbsp;</li>\n\t<li>Scheduled once every month in the VC Vilnius Training Centre&nbsp;</li>\n\t<li>Mixed classed with employees coming from any partner organization&nbsp;</li>\n\t<li>Maximum of 10 students per a group&nbsp;</li>\n</ul>\n"
+            },
+            {
+                "image": null,
+                "title": "Private Training",
+                "text": "<ul>\n\t<li>Conducted privately for one partner organization&nbsp;</li>\n\t<li>Flexible scheduling&nbsp;</li>\n\t<li>Available at the VC Vilnius Training Centre or a Partner&#39;s classroom&nbsp;</li>\n\t<li>Maximum of 5 students per a trainer&nbsp;</li>\n</ul>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": null,
+        "title": "Virto Commerce Professional Certification",
+        "intro": "<p style=\"text-align:center\">Certify your team to become Virto Commerce developers and architects</p>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/architect.png"
+                },
+                "title": "Architect Certification",
+                "text": "<p>Complimentary to the Training Program&nbsp;</p>\n\n<p>Only for those who have completed implementation&nbsp;</p>\n\n<p>Requires Pre-Certification material to be shared&nbsp;</p>\n\n<p>Expires in 12 months&nbsp;</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/developer.png"
+                },
+                "title": "Developer Certification",
+                "text": "<p>Complimentary to the Training Program&nbsp;</p>\n\n<p>Only for those who have completed implementation&nbsp;</p>\n\n<p>Requires Pre-Certification material to be shared&nbsp;</p>\n\n<p>Expires in 12 months&nbsp;</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": null,
+        "title": "Become a Virto Commerce Expert",
+        "style": null,
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align:center\">Contact us today to learn more about the training &amp; services we offer our partners</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/become-partner",
+            "urlText": "Get in Touch",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

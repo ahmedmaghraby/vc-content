@@ -1,0 +1,57 @@
+[
+    {
+        "type": "settings",
+        "title": "Download the Top 5 B2B Ecommerce Challenges and Solutions Whitepaper",
+        "permalink": "download-b2b-whitepaper",
+        "header": "Download the Top 5 B2B Ecommerce Challenges and Solutions Whitepaper",
+        "description": "Download the Top 5 B2B Ecommerce Challenges and Solutions Whitepaper",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Top 5 B2B Ecommerce Challenges White Paper",
+        "h1": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/charlize-birdsinger-7b49gfsgQZY-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">B2B ecommerce has specific business model and process challenges which require customized solutions or special software platform. In this whitepaper we&#39;ll provide top 5 challenges that B2B ecommerce websites face and their best solutions.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download White Paper",
+        "buttonText": "Download White Paper",
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]
