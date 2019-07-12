@@ -1,5 +1,5 @@
 <div class="list__item">
-    <a class="list__bg" href="{{ article.url | absolute_url }}" style="background-image: url({{ article.image_url }});"></a>
+    <a class="list__bg" href="{{ article.url | absolute_url }}" style="background-image: url({% if article.image_url != blank %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></a>
     <div class="list__category" data-name="{{ article.category }}">{{ "blogs.categories." | append: article.category | t }}</div>
     <div class="list__info">
         <div class="list__t">{{ article.title }}</div>

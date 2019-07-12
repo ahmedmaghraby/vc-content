@@ -22,7 +22,8 @@
         {% elseif blog_search.tag != nil %}
             {% assign articles = articles | where: 'Tags', 'contains', blog_search.tag %}
         {% endif %}
-        <div class="list list--posts">            {% for article in articles %}
+        <div class="list list--posts">
+            {% for article in articles %}
                 {% include 'blog-list-item', article: article, style: "single" %}
                 {% if forloop.index == page_size %}
                     {% break %}
