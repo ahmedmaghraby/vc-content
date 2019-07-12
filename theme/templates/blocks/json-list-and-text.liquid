@@ -1,0 +1,24 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% if block.title != blank %}
+        {% if block.h1 == 'True' %}
+        <h1 class="section__t section__t--large section__t--gray">{{ block.title }}</h1>
+        {% else %}
+        <h2 class="section__t section__t--large section__t--gray">{{ block.title }}</h2>
+        {% endif %}
+        {% endif %}
+        <div class="row list list--aside">
+            <div class="list__sidebar col-md-auto">
+                {% for item in block.list %}
+                <div class="list__item">
+                    <div class="list__num">{{ forloop.index }}</div>
+                    <div class="list__descr">{{ item.text }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="list__content col-md">
+                {{ block.content }}
+            </div>
+        </div>
+    </div>
+</div>

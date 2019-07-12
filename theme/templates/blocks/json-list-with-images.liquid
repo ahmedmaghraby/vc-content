@@ -2,9 +2,9 @@
     <div class="section__inner container">
         {% if block.title != blank %}
             {% if block.h1 == 'True' %}
-            <h1 class="section__t">{{ block.title }}</h1>
+            <h1 class="section__t {{ block.titleStyle }}">{{ block.title }}</h1>
             {% else %}
-            <h2 class="section__t">{{ block.title }}</h2>
+            <h2 class="section__t {{ block.titleStyle }}">{{ block.title }}</h2>
             {% endif %}
         {% endif %}
         {% if block.intro != blank %}
@@ -15,7 +15,7 @@
         <div class="list list--columns row">
             {% for item in block.items %}
             <div class="list__item {{ block.colStyle }}">
-                <img src="{{ item.image.url }}" alt="" class="list__icon">
+                <img src="{{ item.image.url }}" alt="" class="list__icon {{ item.iconStyle }}">
                 {% if item.title != blank %}
                 <div class="list__t">{{ item.title }}</div>
                 {% endif %}

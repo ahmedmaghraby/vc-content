@@ -68,6 +68,159 @@
       }
     ]
   },
+  "decorated-hero": {
+    "name": "Decorated hero",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "h1",
+        "label": "Set header as H1",
+        "default": false,
+        "tab": "Settings",
+        "type": "checkbox"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "list-and-text": {
+    "name": "List and text",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "h1",
+        "label": "Set header as H1",
+        "default": false,
+        "tab": "Settings",
+        "type": "checkbox"
+      },
+      {
+        "id": "list",
+        "label": "List items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "text"
+          }
+        ],
+        "default": [
+          {
+            "text": "Out-of-the box solutions don’t fit startups"
+          },
+          {
+            "text": "Licensing doesn’t work for startup’s business models"
+          },
+          {
+            "text": "It is hard to find qualified experts to achieve MVP fast"
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
   "image-with-text": {
     "name": "Image with text",
     "icon": "image-text",
@@ -715,6 +868,23 @@
         "type": "checkbox"
       },
       {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": "",
+        "options": [
+          {
+            "value": "",
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
         "id": "intro",
         "label": "Intro",
         "type": "text",
@@ -782,28 +952,48 @@
             "id": "text",
             "label": "Text",
             "type": "text"
+          },
+          {
+            "id": "iconStyle",
+            "label": "Icon style",
+            "type": "select",
+            "default": "",
+            "options": [
+              {
+                "value": "",
+                "label": "Normal"
+              },
+              {
+                "value": "list__icon--mini",
+                "label": "Small"
+              }
+            ]
           }
         ],
         "default": [
           {
             "image": { "url": "https://vc4test.blob.core.windows.net/blogs/icon_1.png" },
             "title": "Conditional Promotions",
-            "text": "<p>Flexible promotion module provides the right targeted incentives to specific customers for certain products or categories.</p>"
+            "text": "<p>Flexible promotion module provides the right targeted incentives to specific customers for certain products or categories.</p>",
+            "iconStyle": ""
           },
           {
             "image": { "url": "https://vc4test.blob.core.windows.net/blogs/icon_3.png" },
             "title": "Coupons &amp; Tracking",
-            "text": "<p>Use promo codes and coupons to run targeted promotions, and easily track the results and revenue for each coupon.</p>"
+            "text": "<p>Use promo codes and coupons to run targeted promotions, and easily track the results and revenue for each coupon.</p>",
+            "iconStyle": ""
           },
           {
             "image": { "url": "https://vc4test.blob.core.windows.net/blogs/icon_5.png" },
             "title": "Minimum Advertised Price (MAP) Support Tools",
-            "text": "<p>Ensure that third party sellers are not hurting your brand by selling your products at prices lower than they should be.</p>"
+            "text": "<p>Ensure that third party sellers are not hurting your brand by selling your products at prices lower than they should be.</p>",
+            "iconStyle": ""
           },
           {
             "image": { "url": "https://vc4test.blob.core.windows.net/blogs/icon_2.png" },
             "title": "Customer Segmenting",
-            "text": "<p>Leverage the flexibility to segment your customers endlessly, ensuring they received promotions targeted exactly to their wants and needs.</p>"
+            "text": "<p>Leverage the flexibility to segment your customers endlessly, ensuring they received promotions targeted exactly to their wants and needs.</p>",
+            "iconStyle": ""
           }
         ]
       },
