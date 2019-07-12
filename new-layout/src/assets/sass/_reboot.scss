@@ -88,51 +88,60 @@ blockquote
 }
 
 @include media-breakpoint-down(sm) {
-    h1
+    h1,
+    h1.section__t--large
     {
         font-size: 2rem;
     }
 
-    h2
+    h2,
+    h2.section__t--large
     {
         font-size: 1.75rem;
     }
 
-    h3
+    h3,
+    h3.section__t--large
     {
         font-size: 1.375rem;
     }
 }
 
 @include media-breakpoint-up(md) {
-    h1
+    h1,
+    h1.section__t--large
     {
         font-size: 2.625rem;
     }
 
-    h2
+    h2,
+    h2.section__t--large
     {
         font-size: 2rem;
     }
 
-    h3
+    h3,
+    h3.section__t--large
     {
         font-size: 1.375rem;
     }
 }
 
 @include media-breakpoint-up(lg) {
-    h1
+    h1,
+    .section__t--large
     {
         font-size: 3rem;
     }
 
-    h2
+    h2,
+    h2.section__t--large
     {
         font-size: 2.5rem;
     }
 
-    h3
+    h3,
+    h3.section__t--large
     {
         font-size: 1.375rem;
     }

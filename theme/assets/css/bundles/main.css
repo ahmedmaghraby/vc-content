@@ -4517,43 +4517,52 @@ blockquote .author {
 }
 
 @media (max-width: 767.98px) {
-    h1 {
+    h1,
+  h1.section__t--large {
         font-size: 2rem;
     }
 
-    h2 {
+    h2,
+  h2.section__t--large {
         font-size: 1.75rem;
     }
 
-    h3 {
+    h3,
+  h3.section__t--large {
         font-size: 1.375rem;
     }
 }
 
 @media (min-width: 768px) {
-    h1 {
+    h1,
+  h1.section__t--large {
         font-size: 2.625rem;
     }
 
-    h2 {
+    h2,
+  h2.section__t--large {
         font-size: 2rem;
     }
 
-    h3 {
+    h3,
+  h3.section__t--large {
         font-size: 1.375rem;
     }
 }
 
 @media (min-width: 992px) {
-    h1 {
+    h1,
+  .section__t--large {
         font-size: 3rem;
     }
 
-    h2 {
+    h2,
+  h2.section__t--large {
         font-size: 2.5rem;
     }
 
-    h3 {
+    h3,
+  h3.section__t--large {
         font-size: 1.375rem;
     }
 }
@@ -5137,6 +5146,14 @@ blockquote .author {
     margin-top: 3.75rem;
 }
 
+.section__t--gray {
+    color: #c7c7c7;
+}
+
+.section__t--large {
+    font-size: 3.125rem;
+}
+
 .section__descr {
     font-size: 1.125rem;
     margin-bottom: 1.875rem;
@@ -5157,6 +5174,11 @@ blockquote .author {
 
 .section__descr--centered {
     text-align: center;
+}
+
+.section__descr a.link-large {
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .section__info {
@@ -5607,6 +5629,92 @@ blockquote .author {
     margin-top: 2.5rem;
 }
 
+.section--bg-pattern {
+    padding: 11.5rem 0;
+    position: relative;
+    text-align: left;
+}
+
+.section--bg-pattern::after, .section--bg-pattern::before {
+    content: ' ';
+    position: absolute;
+}
+
+.section--bg-pattern::after {
+    background: #f8f8f8;
+    bottom: 5.25rem;
+    left: 5rem;
+    right: 0;
+    top: 2.875rem;
+    z-index: 1;
+}
+
+.section--bg-pattern::before {
+    background: url("../../images/redesign/page/how-startups/pattern.svg") repeat scroll 0 0.375rem;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 50%;
+}
+
+@media (max-width: 991.98px) {
+    .section--bg-pattern {
+        padding: 2.5rem 0;
+    }
+
+    .section--bg-pattern::after {
+        bottom: 0;
+        top: 0;
+    }
+
+    .section--bg-pattern::before {
+        display: none;
+    }
+}
+
+.section--bg-pattern .section__inner {
+    position: relative;
+    z-index: 10;
+}
+
+.section--bg-pattern .section__descr {
+    font-size: 1.375rem;
+}
+
+.ready {
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: .125rem solid #e9e6e6;
+    border-top: .125rem solid #e9e6e6;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2.25rem 0;
+}
+
+.ready__t {
+    font-size: 1.875rem;
+    font-weight: 900;
+}
+
+@media (min-width: 992px) {
+    .ready .btn {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ready {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ready .btn {
+        margin-top: .625rem;
+    }
+}
+
 .section--hp {
     text-align: left;
 }
@@ -5905,8 +6013,6 @@ blockquote .author {
 .docs__inner, .docs__body {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
 }
 
 .docs__body {
@@ -6136,7 +6242,7 @@ blockquote .author {
 .studies__inner {
     -ms-flex-align: start;
     align-items: flex-start;
-    border: 1px solid #cfd2e6;
+    border: 1px solid #c7c7c7;
     border-radius: .625rem;
     display: -ms-flexbox;
     display: flex;
@@ -7233,7 +7339,7 @@ textarea {
 }
 
 .form-control {
-    border: solid 1px #cfd2e6;
+    border: solid 1px #c7c7c7;
     border-radius: .25rem;
     color: #0c1015;
     font-size: .875rem;
@@ -7244,7 +7350,7 @@ textarea {
 }
 
 .form-control:focus {
-    border-color: #9da3cc;
+    border-color: #a1a1a1;
 }
 
 .form-control--lg {
@@ -7302,13 +7408,17 @@ textarea {
     margin-bottom: 1rem;
 }
 
+.list--columns .list__icon--mini {
+    height: 2.5rem;
+}
+
 .list--columns .list__pic {
     margin-bottom: 1.875rem;
     max-width: 21rem;
 }
 
 .list--columns .list__text {
-    color: #cfd2e6;
+    color: #c7c7c7;
     font-size: 1rem;
     margin-bottom: 1.25rem;
 }
@@ -7325,6 +7435,14 @@ textarea {
 
 .list--columns .list__link:hover {
     color: #fdb200;
+}
+
+.list--columns .list__num {
+    color: #0c1015;
+    font-size: 3.75rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 1.25rem;
 }
 
 .list--columns ul li,
@@ -7416,7 +7534,7 @@ textarea {
 .list--cards .list__inner {
     -ms-flex-align: start;
     align-items: flex-start;
-    border: 1px solid #cfd2e6;
+    border: 1px solid #c7c7c7;
     border-radius: .625rem;
     display: -ms-flexbox;
     display: flex;
@@ -7499,6 +7617,44 @@ textarea {
 
 .list--breadcrumb .list__link:hover {
     color: #ffb608;
+}
+
+.list--aside .list__sidebar {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -ms-flex: 0 0 20rem;
+    flex: 0 0 20rem;
+    max-width: 20rem;
+}
+
+.list--aside .list__sidebar .list__item ~ .list__item {
+    margin-top: 1.875rem;
+}
+
+.list--aside .list__sidebar .list__num {
+    font-size: 3.75rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.list--aside .list__sidebar .list__descr {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.list--aside .list__content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.list--aside .list__content p ~ p {
+    margin-top: 1.25rem;
+}
+
+@media (max-width: 991.98px) {
+    .list--aside .list__content {
+        margin-top: 1.25rem;
+    }
 }
 
 .nav {
