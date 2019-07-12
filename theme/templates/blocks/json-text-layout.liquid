@@ -1,0 +1,51 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% if block.title != blank %}
+            {% if block.h1 == 'True' %}
+            <h1 class="section__t">{{ block.title }}</h1>
+            {% else %}
+            <h2 class="section__t">{{ block.title }}</h2>
+            {% endif %}
+        {% endif %}
+		<div class="section__info">
+
+		    {% if block.contentTop != blank %}
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="section__descr">
+                        {{ block.contentTop }}
+                    </div>
+                </div>
+            </div>
+		    {% endif %}
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__descr">
+                        {{ block.contentLeft }}
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section__descr">
+                        {{ block.contentRight }}
+                    </div>
+                </div>
+            </div>
+
+		    {% if block.contentBottom != blank %}
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="section__descr">
+                        {{ block.contentBottom }}
+                    </div>
+                </div>
+            </div>
+		    {% endif %}
+
+        </div>
+    </div>
+</div>
+
+{% comment %}
+
+{% endcomment %}

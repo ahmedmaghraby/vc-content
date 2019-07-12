@@ -1,6 +1,6 @@
 {% for item in json_page.blocks -%}
     {% if item.hidden != 'True' %}
-        {% assign templateName = "json-"|append:item.type -%}
+        {% assign templateName = "blocks/json-"|append:item.type -%}
         {% include templateName, block: item -%}
     {% endif %}
 {% endfor -%}
