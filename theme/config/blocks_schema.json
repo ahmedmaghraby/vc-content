@@ -319,6 +319,10 @@
             "label": "Link"
           },
           {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
             "value": "btn btn--orange btn--round",
             "label": "Round orange"
           }
@@ -346,6 +350,10 @@
           {
             "value": "benefits__link",
             "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
           },
           {
             "value": "btn btn--orange btn--round",
@@ -711,13 +719,20 @@
             "label": "Link"
           },
           {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
             "value": "btn btn--orange btn--round",
             "label": "Round orange"
           }
         ],
         "default": {
-          "urlText": "Read more",
-          "url": "#",
+          "url": {
+            "url": "#",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+          },
           "style": "btn--orange btn--round"
         }
       },
@@ -871,10 +886,10 @@
         "id": "titleStyle",
         "label": "Title style",
         "type": "select",
-        "default": "",
+        "default": null,
         "options": [
           {
-            "value": "",
+            "value": null,
             "label": "Standard"
           },
           {
@@ -913,6 +928,10 @@
         "type": "select",
         "default": "col-lg-6",
         "options": [
+          {
+            "value": "col-lg-12",
+            "label": "1 per row"
+          },
           {
             "value": "col-lg-6",
             "label": "2 per row"
@@ -957,15 +976,48 @@
             "id": "iconStyle",
             "label": "Icon style",
             "type": "select",
-            "default": "",
+            "default": null,
             "options": [
               {
-                "value": "",
+                "value": null,
                 "label": "Normal"
               },
               {
                 "value": "list__icon--mini",
                 "label": "Small"
+              }
+            ]
+          },
+          {
+            "id": "url",
+            "label": "Link",
+            "type": "url",
+            "textLabel": "Text",
+            "styleLabel": "Link style",
+            "styles": [
+              {
+                "value": "btn",
+                "label": "Button"
+              },
+              {
+                "value": "btn btn--orange btn--lg",
+                "label": "Orange button"
+              },
+              {
+                "value": "btn btn--lg",
+                "label": "Gray button"
+              },
+              {
+                "value": "benefits__link",
+                "label": "Link"
+              },
+              {
+                "value": "link-large",
+                "label": "Large link"
+              },
+              {
+                "value": "btn btn--orange btn--round",
+                "label": "Round orange"
               }
             ]
           }
@@ -996,6 +1048,106 @@
             "iconStyle": ""
           }
         ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "text-with-button": {
+    "name": "Text with button",
+    "icon": "text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text",
+        "tab": "Settings"
+      },
+      {
+        "id": "text",
+        "label": "Text",
+        "type": "string",
+        "default": "Ready to get started?",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "url",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ],
+        "default": {
+          "url": {
+            "url": "#",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+          },
+          "style": "btn--orange btn--round"
+        }
       },
       {
         "id": "noTop",
@@ -1576,6 +1728,10 @@
               {
                 "value": "benefits__link",
                 "label": "Link"
+              },
+              {
+                "value": "link-large",
+                "label": "Large link"
               },
               {
                 "value": "btn btn--orange btn--round",

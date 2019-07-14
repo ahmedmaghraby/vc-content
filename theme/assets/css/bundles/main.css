@@ -5176,7 +5176,7 @@ blockquote .author {
     text-align: center;
 }
 
-.section__descr a.link-large {
+.section a.link-large {
     font-size: 1.5rem;
     font-weight: 900;
 }
