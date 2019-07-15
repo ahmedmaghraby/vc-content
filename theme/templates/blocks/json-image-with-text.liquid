@@ -10,9 +10,9 @@
             <div class="col-lg-auto section__info">
                 {% if block.title != blank %}
                     {% if block.h1 == true %}
-                    <h1 class="section__t">{{ block.title }}</h1>
+                    <h1 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h1>
                     {% else %}
-                    <h2 class="section__t">{{ block.title }}</h2>
+                    <h2 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h2>
                     {% endif %}
                 {% endif %}
                 <div class="section__descr">
