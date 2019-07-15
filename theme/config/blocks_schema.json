@@ -184,6 +184,23 @@
         ]
       },
       {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": null,
+        "options": [
+          {
+            "value": null,
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
         "id": "list",
         "label": "List items",
         "type": "list",
