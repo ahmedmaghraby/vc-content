@@ -167,6 +167,23 @@
         "type": "checkbox"
       },
       {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
         "id": "list",
         "label": "List items",
         "type": "list",
@@ -246,6 +263,23 @@
         "default": false,
         "tab": "Settings",
         "type": "checkbox"
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
       },
       {
         "id": "style",
@@ -411,6 +445,23 @@
         "type": "checkbox"
       },
       {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
         "id": "subTitle",
         "label": "Subtitle",
         "type": "string",
@@ -512,6 +563,23 @@
         "default": false,
         "tab": "Settings",
         "type": "checkbox"
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
       },
       {
         "id": "style",
@@ -656,6 +724,23 @@
         "type": "checkbox"
       },
       {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
         "id": "style",
         "label": "Block style",
         "type": "select",
@@ -786,6 +871,40 @@
         "type": "checkbox"
       },
       {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": null,
+        "options": [
+          {
+            "value": null,
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
         "id": "style",
         "label": "Block style",
         "type": "select",
@@ -881,6 +1000,23 @@
         "default": false,
         "tab": "Settings",
         "type": "checkbox"
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
       },
       {
         "id": "titleStyle",

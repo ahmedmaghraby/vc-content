@@ -5,9 +5,9 @@
         {% endif %}
         {% if block.title != blank %}
             {% if block.h1 == 'True' %}
-            <h1 class="section__t">{{ block.title }}</h1>
+            <h1 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h1>
             {% else %}
-            <h2 class="section__t">{{ block.title }}</h2>
+            <h2 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h2>
             {% endif %}
         {% endif %}
         {% if block.content != blank %}
