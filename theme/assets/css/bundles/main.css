@@ -5154,6 +5154,10 @@ blockquote .author {
     font-size: 3.125rem;
 }
 
+.section__t--left-alignment {
+    text-align: left;
+}
+
 .section__descr {
     font-size: 1.125rem;
     margin-bottom: 1.875rem;
