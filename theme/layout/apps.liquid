@@ -63,24 +63,7 @@
                 <!-- TODO: Fix main-menu for mobile -->
                 {% include 'main-menu-mobile' %}
             </div>
-            <div class="header-wrap">
-                <header class="responsive" role="banner">
-                    {% if isAppsStore %}
-                    <a class="appstore-logo logo" href="{{ '/apps' | absolute_url }}"></a>
-                    {% else %}
-                    <a class="logo" href="{{ '/' | absolute_url }}"></a>
-                    {% endif %}
-                    <a class="mobile-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                    {% include 'main-menu' %}
-                    <div class="head-search">
-                        {% include 'search-bar' %}
-                    </div>
-                </header>
-            </div>
+            {% include 'main-menu' %}
             <article class="main" role="main">
                 {{ content_for_layout }}
             </article>

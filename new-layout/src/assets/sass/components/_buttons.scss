@@ -18,6 +18,12 @@
         color: $white;
     }
 
+	&--block
+	{
+		justify-content: center;
+		width: 100%;
+	}
+
     &--round
     {
         border-radius: 4rem;
@@ -53,6 +59,30 @@
         {
             border-color: $orange;
             color: $orange;
+
+            &:hover
+            {
+                color: $white;
+            }
+        }
+    }
+
+	&--red
+	{
+        background: $red;
+        border-color: $red;
+        color: $white;
+
+        &:hover
+        {
+            background: darken($red, 2%);
+            color: $white;
+        }
+
+        &.btn--outline
+        {
+            border-color: $red;
+            color: $red;
 
             &:hover
             {

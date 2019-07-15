@@ -1,3 +1,110 @@
+.list.__inline,
+.menu.__inline {
+    display: block;
+    word-spacing: -5px
+}
+
+ 
+
+.list .list-item,
+.menu .menu-item {
+    margin: 0;
+    padding: 0;
+    text-indent: 0
+}
+
+ 
+
+.list.__inline .list-item,
+.menu.__inline .menu-item {
+    display: inline-block;
+    word-spacing: 0
+}
+
+ 
+
+.list .list-item:before,
+.menu .menu-item:before {
+    display: none
+}
+
+ 
+
+.list.__rating,
+.rating {
+    display: inline-block;
+    height: 15px;
+    position: relative;
+    vertical-align: top;
+    width: 96px
+}
+
+ 
+
+.list.__rating {
+    height: 21px;
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+    width: 105px
+}
+
+ 
+
+.list.__rating .list-item,
+.rating,
+.rating .rating-progress {
+    background-image: url(rating.png);
+    background-repeat: repeat-x
+}
+
+ 
+
+.list.__rating .list-item {
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 20px
+}
+
+ 
+
+.rating .rating-progress {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 25
+}
+
+ 
+
+.rating.__bad .rating-progress {
+    width: 20%
+}
+
+ 
+
+.rating.__not-bad .rating-progress {
+    width: 40%
+}
+
+ 
+
+.rating.__normal .rating-progress {
+    width: 60%
+}
+
+ 
+
+.rating.__good .rating-progress {
+    width: 80%
+}
+
+ 
+
+.rating.__nice .rating-progress {
+    width: 100%
+}
+
 .appstore-logo {
     background: url(appstore-logo.png) no-repeat;
     font-size: 0;

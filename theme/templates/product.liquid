@@ -2,7 +2,7 @@
 
 <div class="apps">
     {% include 'breadcrumb' %}
-    <div class="extension __responsive clearfix">
+    <div class="extension container">
         <div class="extension-slider __left">
             <div class="slider-item">
                 <figure class="slider-outer">
@@ -62,7 +62,7 @@
         </div>
     </div>
     {% if product.images.size > 1 %}
-    <div class="gallery __responsive">
+    <div class="gallery container">
         <div class="gallery-list">
             {% for image in product.images %}
             <div class="gallery-item">
@@ -76,11 +76,11 @@
     {% endif %}
     {% if product.metafields.properties.Overview.size > 0 %}
     <div class="tabs">
-        <ul class="menu __inline __tabs __responsive">
+        <ul class="menu __inline __tabs container">
             <li class="menu-item __selected">{{ 'apps.product.overview' | t }}</li>
         </ul>
         <div class="tab-content">
-            <div class="content-inner __responsive">
+            <div class="content-inner container">
                 {{ product.metafields.properties.Overview }}
             </div>
         </div>
