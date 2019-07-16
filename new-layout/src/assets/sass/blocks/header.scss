@@ -70,6 +70,25 @@
         height: 2.5rem;
         padding: 1.25rem 0;
     }
+	
+	.form--search
+	{
+		position: relative;
+		
+		.btn
+		{
+			position: absolute;
+			right: calc(.25rem + .9375rem);
+			top: .25rem;
+			bottom: .25rem;
+			height: auto;
+		}
+		
+		.form-control
+		{
+			width: 16rem;
+		}
+	}
 
     .dropdown-menu .container
     {
@@ -127,6 +146,11 @@
     }
 
     @include media-breakpoint-down(md) {
+		[class*='-logo']
+		{
+			margin: 1.25rem 0;
+		}
+		
         &-nav .btn
         {
             margin-left: 1.25rem;

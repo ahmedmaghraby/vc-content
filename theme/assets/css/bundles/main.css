@@ -4958,6 +4958,22 @@ blockquote .author {
     padding: 1.25rem 0;
 }
 
+.header .form--search {
+    position: relative;
+}
+
+.header .form--search .btn {
+    position: absolute;
+    right: calc(.25rem + .9375rem);
+    top: .25rem;
+    bottom: .25rem;
+    height: auto;
+}
+
+.header .form--search .form-control {
+    width: 16rem;
+}
+
 @media (min-width: 992px) {
     .header .dropdown-menu .container {
         padding-left: 11.875rem;
@@ -5008,6 +5024,10 @@ blockquote .author {
 }
 
 @media (max-width: 991.98px) {
+    .header [class*='-logo'] {
+        margin: 1.25rem 0;
+    }
+
     .header-nav .btn {
         margin-left: 1.25rem;
     }
@@ -7071,6 +7091,265 @@ blockquote .author {
     display: none;
 }
 
+.clearfix:after {
+    clear: both;
+    display: block;
+    font-size: 0;
+    content: ' ';
+}
+
+.__col-w,
+.col-w {
+    word-spacing: -5px;
+}
+
+.breadcrumbs {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.pagination-custom {
+    border-top: 1px solid #e6e6e6;
+    padding: 15px 0 0;
+}
+
+.pagination-custom li {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.breadcrumbs .menu-item {
+    font-size: 12px;
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 0 16px 0 0;
+}
+
+.breadcrumbs .menu-item::after {
+    background: url(breadcrumbs-divider.png) no-repeat;
+    height: 9px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 5px;
+    content: ' ';
+}
+
+.breadcrumbs .menu-item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs .menu-link {
+    color: #888;
+    text-decoration: underline;
+}
+
+ul.breadcrumbs {
+    padding-left: 30px;
+}
+
+ul.breadcrumbs > li {
+    display: inline;
+    font-size: 14px;
+}
+
+ul.breadcrumbs > li + li::before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    word-spacing: 0;
+    box-sizing: border-box;
+}
+
+.col.__col-20 {
+    width: 20%;
+}
+
+.col.__col-25 {
+    width: 25%;
+}
+
+.col.__col-30 {
+    width: 30%;
+}
+
+.col.__col-40 {
+    width: 40%;
+}
+
+.col.__col-33 {
+    width: 33.3333%;
+}
+
+.col.__col-60 {
+    width: 60%;
+}
+
+.col.__col-70 {
+    width: 70%;
+}
+
+.col.__col-75 {
+    width: 75%;
+}
+
+.col.__col-80 {
+    width: 80%;
+}
+
+.tabs {
+    margin: 30px 0 0;
+}
+
+.tab-t {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.tab-t + p {
+    margin-top: 0;
+}
+
+.menu.__tabs .menu-item {
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    color: #b7b7b7;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: text-top;
+    width: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+.menu.__tabs .menu-item + .menu-item {
+    margin: 0 0 0 10px;
+}
+
+.menu.__tabs .menu-item.__selected,
+.no-touch .menu.__tabs .menu-item:hover {
+    background-color: #f4f4f4;
+    color: #888;
+}
+
+.menu.__tabs .menu-item::after {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.tabs .tab-content {
+    background: #f4f4f4;
+}
+
+.tabs .tab-content .content-inner {
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+
+.tab-content .content-inner ol,
+.tab-content .content-inner p,
+.tab-content .content-inner ul {
+    text-align: left;
+}
+
+.tab-content .content-inner ol,
+.tab-content .content-inner ul {
+    list-style: inside;
+    margin: 20px 0;
+}
+
+.tab-content .content-inner ol {
+    list-style: decimal inside;
+}
+
+.capabilities .list li,
+.list,
+.list.__plans .list-item ul,
+.menu,
+.tab-content .content-inner .list,
+.tab-content .content-inner .menu,
+.try-now .list,
+.vc-comunity .vc-content .list-descr ul {
+    list-style: none;
+}
+
+.tab-content .content-inner .tab-img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.tab-content .content-inner .tab-img.__i-left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.tab-content .content-inner .tab-img.__i-list {
+    clear: both;
+    display: block;
+}
+
+.tab-img img {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.tab-img.__i-list img {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.__left {
+    float: left;
+}
+
+.__right {
+    float: right;
+}
+
+.__round {
+    border-radius: 40px;
+}
+
+.__ucase {
+    text-transform: uppercase;
+}
+
+.__lcase {
+    text-transform: lowercase;
+}
+
+.__inline,
+.__show {
+    display: inline-block;
+}
+
+.__hide {
+    display: none;
+}
+
+.__block {
+    display: block;
+}
+
 .list.__rating,
 .rating {
     display: inline-block;
@@ -7660,6 +7939,19 @@ blockquote .author {
 }
 
 @media (max-width: 991.98px) {
+    .col,
+  .col.__col-25,
+  .col.__col-30,
+  .col.__col-33,
+  .col.__col-40,
+  .col.__col-60,
+  .col.__col-70,
+  .col.__col-75,
+  .col.__col-80 {
+        display: block;
+        width: auto;
+    }
+
     .apps .items {
         margin-top: 30px;
     }
