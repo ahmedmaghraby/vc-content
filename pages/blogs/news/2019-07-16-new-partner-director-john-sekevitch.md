@@ -13,7 +13,7 @@ excerpt: ​​John Sekevitch brings over 20 years of experience in leading chan
 <p class="text" style="text-align:center">
 	John Sekevitch brings over 20 years of experience in leading channels and business development for ecommerce and technology companies
 </p>
-<img src="/assets/images/blog/john-sekevitch.png" width="250" height="250" />
+<img src="/assets/images/blog/john-sekevitch.png" height="200" />
 <p class="text">
 	LOS ANGELES, CA. - Virto Commerce, a leading provider of B2B ecommerce software, today announced the appointment of John Sekevitch
 	as Partner Director for North America to supercharge its commitment to partner channel development. With decades of extensive
