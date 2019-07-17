@@ -8,13 +8,25 @@
     top: 0;
     z-index: 5000;
 
+    &-inner
+    {
+        position: relative;
+    }
+
     &-logo
     {
-        background: url($tpl-img-url + 'logo.svg') no-repeat;
+        background: url($tpl-img-url + 'logo.svg') no-repeat scroll 0 0;
         display: block;
         font-size: 0;
         height: 2.5rem;
         width: 8.6875rem;
+
+        &--apps
+        {
+            background-image: url($tpl-img-url + 'logo-apps.png');
+            height: 3rem;
+            width: 9.1875rem;
+        }
     }
 
     &-nav
@@ -69,25 +81,26 @@
         font-size: 1rem;
         height: 2.5rem;
         padding: 1.25rem 0;
+
+        &:hover
+        {
+            color: $orange;
+        }
     }
-	
+
 	.form--search
 	{
-		position: relative;
-		
-		.btn
-		{
-			position: absolute;
-			right: calc(.25rem + .9375rem);
-			top: .25rem;
-			bottom: .25rem;
-			height: auto;
-		}
-		
-		.form-control
-		{
-			width: 16rem;
-		}
+        @include media-breakpoint-up(lg) {
+            width: 16rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-right: 3.5rem;
+        }
+
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
 	}
 
     .dropdown-menu .container
@@ -107,7 +120,6 @@
         cursor: pointer;
         display: none;
         height: 1.125rem;
-        margin: 0 1.875rem;
         position: relative;
         width: 1.5rem;
 
@@ -137,6 +149,11 @@
         &-logo
         {
             width: 2.5rem;
+
+            &--apps
+            {
+                width: 9.1875rem;
+            }
         }
 
         .nav__item--login
@@ -150,7 +167,7 @@
 		{
 			margin: 1.25rem 0;
 		}
-		
+
         &-nav .btn
         {
             margin-left: 1.25rem;
@@ -166,13 +183,6 @@
         .nav__item--try
         {
             display: flex;
-        }
-    }
-
-    @include media-breakpoint-down(sm) {
-        &-toggle
-        {
-            margin: 0 .3125rem 0 1.875rem;
         }
     }
 

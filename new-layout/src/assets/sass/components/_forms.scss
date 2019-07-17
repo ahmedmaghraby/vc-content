@@ -85,3 +85,23 @@ textarea
     font-size: .875rem;
     margin-top: .625rem;
 }
+
+.form--search
+{
+    position: relative;
+
+    .btn
+    {
+        position: absolute;
+        right: .25rem;
+        top: .25rem;
+        bottom: .25rem;
+        height: auto;
+        padding: 0 .625rem;
+    }
+
+    .form-control
+    {
+        width: 100%;
+    }
+}

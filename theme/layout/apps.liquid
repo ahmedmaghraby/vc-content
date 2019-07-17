@@ -59,10 +59,7 @@
 
     <div id="layout">
         <div class="layout-canvas">
-            <div class="swipe">
-                <!-- TODO: Fix main-menu for mobile -->
-                {% include 'main-menu-mobile' %}
-            </div>
+            {% include 'main-menu-mobile-apps' %}
             {% include 'main-menu' %}
             <article class="main" role="main">
                 {{ content_for_layout }}

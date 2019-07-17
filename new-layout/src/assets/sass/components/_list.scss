@@ -333,3 +333,50 @@
         }
     }
 }
+
+.list--paging
+{
+    display: flex;
+    margin-top: 2.5rem;
+
+    .list__item
+    {
+        align-items: center;
+        background: $white;
+        border: 1px solid $gray-300;
+        box-sizing: border-box;
+        color: inherit;
+        display: flex;
+        font-size: .875rem;
+        font-weight: normal;
+        justify-content: center;
+        height: 2.5rem;
+        margin-right: -1px;
+        width: 2.5rem;
+
+        &:first-child
+        {
+            border-bottom-left-radius: $border-radius;
+            border-top-left-radius: $border-radius;
+        }
+
+        &:last-child
+        {
+            border-bottom-right-radius: $border-radius;
+            border-top-right-radius: $border-radius;
+        }
+
+        &--prev,
+        &--next
+        {
+            width: 4.375rem;
+        }
+
+        &:hover
+        {
+            background: $orange;
+            border-color: $orange;
+            color: $white;
+        }
+    }
+}

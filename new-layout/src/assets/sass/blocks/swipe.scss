@@ -73,6 +73,11 @@
             font-size: .875rem;
         }
 
+        .form--search
+        {
+            width: calc(100% - 2.5rem);
+        }
+
         &__body
         {
             display: flex;
