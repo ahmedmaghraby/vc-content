@@ -1,102 +1,63 @@
 {% layout 'apps' %}
 
-<div class="apps">
+<div class="apps container">
     {% include 'breadcrumb' %}
-    <div class="extension container clearfix">
-        <div class="extension-slider __left">
-            <div class="slider-item">
-                <figure class="slider-outer">
-                    <a class="slider-pic">
-                        <img class="slider-img" itemprop="image" src="{% if product.featured_image.src %}{{ product.featured_image.src }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" />
-                    </a>
-                </figure>
+    <div class="apps__detail row">
+        <div class="col-md-auto">
+            <div class="apps__detail-item">
+                <img src="{% if product.featured_image.src %}{{ product.featured_image.src }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" alt="">
             </div>
-        </div>
-        <div class="extension-detail">
-            <div class="extension-detail_inner __col-w">
-                <div class="extension-info col __col-60">
-                    <h1 class="extension-t">{{ product.selected_or_first_available_variant.title }}</h1>
-                    <div class="reviews-links">
-                        <a class="link __ucase" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a>
-                    </div>
+        </div>
+        <div class="col-md">
+            <div class="apps__detail-info row">
+                <div class="apps__detail-general col-lg">
+                    <div class="apps__detail-t">{{ product.selected_or_first_available_variant.title }}</div>
+                    <!-- a class="apps__detail-link apps__detail-link--review" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a -->
                     {% if product.metafields.properties.Description.size > 0 %}
-                    <div class="extension-descr" itemprop="description">{{ product.metafields.properties.Description }}</div>
+                        <div class="apps__detail-descr">{{ product.metafields.properties.Description }}</div>
                     {% endif %}
-                    <div class="extension-actions">
+                    <div class="apps__detail-actions">
                         {% if product.metafields.properties.ProjectLink.size > 0%}
-                        <a href="{{ product.metafields.properties.ProjectLink }}" class="button fill" target="_blank">Project</a>
-                        {% endif %}
-                        {% if product.metafields.properties.DownloadLink.size > 0%}
-                        <a href="{{ product.metafields.properties.DownloadLink }}" class="button fill" target="_blank">Download</a>
+                            <a href="{{ product.metafields.properties.ProjectLink }}" class="btn btn--orange" target="_blank">Project</a>
+                            {% endif %}
+                            {% if product.metafields.properties.DownloadLink.size > 0%}
+                            <a href="{{ product.metafields.properties.DownloadLink }}" class="btn btn--orange" target="_blank">Download</a>
                         {% endif %}
                     </div>
                 </div>
-                <div class="extension-links col __col-40">
-                    <div class="extension-canvas __right">
-                        <img class="extension-img" src="{{ product.vendor.logo_url }}" />
+                <div class="apps__detail-other col-lg-auto">
+                    <div class="apps__detail-author">
+                        <img src="{{ product.vendor.logo_url }}" alt="">
+                        <a class="apps__detail-link" href="{{ '~/' | append: product.vendor.handle | absolute_url }}">{{ product.vendor.name }}</a>
+                        <a class="apps__detail-link apps__detail-link--gray" style="cursor:pointer;" ng-click="showContactVendorForm()">{{ 'apps.product.contact_developer' | t }}</a>
                     </div>
-                    <ul class="menu">
-                        <li class="menu-item __author">
-                            <a class="menu-link" href="{{ '~/' | append: product.vendor.handle | absolute_url }}">{{ product.vendor.name }}</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-link" style="cursor:pointer;" ng-click="showContactVendorForm()">{{ 'apps.product.contact_developer' | t }}</a>
-                        </li>
-                    </ul>
-                    <div class="socials">
-                        <div class="social-t">{{ 'apps.product.share' | t }}</div>
-                        <ul class="list __inline __socials bg">
-                            <li class="list-item fb">
-                                <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ product.url | full_url }}" target="_blank"></a>
+                    <div class="apps__detail-socials">
+                        <h2>Share</h2>
+                        <ul class="nav nav--socials">
+                            <li class="nav__item">
+                                <a href="http://www.twitter.com/share?url={{ product.url | full_url }}" class="nav__link nav__link--tw" target="_blank"></a>
                             </li>
-                            <li class="list-item twit">
-                                <a class="list-link" href="http://www.twitter.com/share?url={{ product.url | full_url }}" target="_blank"></a>
+                            <li class="nav__item">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ product.url | full_url }}" class="nav__link nav__link--fb" target="_blank"></a>
                             </li>
-                            <li class="list-item ln">
-                                <a class="list-link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ product.url | full_url }}&amp;title={{ product.name }}&amp;source={{ '/' | full_url }}" target="_blank"></a>
+                            <li class="nav__item">
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ product.url | full_url }}&amp;title={{ product.name }}&amp;source={{ '/' | full_url }}" class="nav__link nav__link--in" target="_blank"></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
-    {% if product.images.size > 1 %}
-    <div class="gallery container">
-        <div class="gallery-list">
-            {% for image in product.images %}
-            <div class="gallery-item">
-                <a href="{{ image.src }}">
-                    <img alt="" src="{{ image.src }}" />
-                </a>
-            </div>
-            {%endfor %}
-        </div>
-    </div>
-    {% endif %}
     {% if product.metafields.properties.Overview.size > 0 %}
     <div class="tabs">
-        <ul class="menu __inline __tabs container">
-            <li class="menu-item __selected">{{ 'apps.product.overview' | t }}</li>
-        </ul>
-        <div class="tab-content">
-            <div class="content-inner container">
-                {{ product.metafields.properties.Overview }}
-            </div>
+        <input class="tabs__input" type="radio" name="tabs" id="tab-1" checked>
+        <label for="tab-1" class="tabs__item">{{ 'apps.product.overview' | t }}</label>
+
+        <div class="tabs__content">
+            {{ product.metafields.properties.Overview }}
         </div>
     </div>
     {% endif %}
 </div>
-
-{{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
-{{ 'jquery.magnific-popup.js' | asset_url | script_tag }}
-
-<script type="text/javascript">
-    if ($('.gallery-list').length) {
-        $('.gallery-list').magnificPopup({
-            delegate: 'a', // child items selector, by clicking on it popup will open
-            type: 'image',
-            gallery: { enabled: true }
-        });
-    }
-</script>
