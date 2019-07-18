@@ -9,14 +9,14 @@
         "layout": "glossary"
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "B2B Ecommerce Trends in 2019 and 2020",
         "h1": true,
         "subTitle": "Virto Commerce B2B Ecommerce Education",
         "image": {
-            "url": null
+            "url": "https://vc4test.blob.core.windows.net/blogs/helloquence-5fNmWej4tAA-unsplash.jpg"
         },
         "content": "",
         "url1": null,
@@ -26,32 +26,14 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
         "h1": null,
         "style": "light",
         "decorator": "none",
-        "content": "<h3 style=\"text-align: center;\">B2B Ecommerce is rapidly changing, so before we can start to think about the future, let&#39;s look at some trends of the past few years before predicting the future.&nbsp;</h3>\n",
-        "url": {
-            "urlText": "",
-            "url": "",
-            "style": "btn--orange btn--round"
-        },
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null
-    },
-    {
-        "id": 3,
-        "type": "text",
-        "name": "Text",
-        "title": "Trends in 2017",
-        "h1": null,
-        "style": "light",
-        "decorator": "none",
-        "content": "<p><strong>Technology investments grew.</strong>&nbsp;The latest development trends of B2B e-commerce marketplaces have made them a more favorable option for wholesalers, rather than retail stores. B2B companies have become robust and very adaptable to changes. Let&rsquo;s take the example of Virto Commerce e-commerce platform. It is very affordable and flexible to use. Investing in the integration of platforms like this will allow your business to grow rapidly as well as give you the smoothest experience of expanding your outreach.</p>\n\n<p><strong>B2B e-commerce went mobile.</strong>&nbsp;One of the biggest B2B eCommerce trends in 2017&nbsp;is the accessibility of marketplaces on mobile platforms. M-commerce is accessible to its customers and is now becoming a fast-growing platform. It is easy to use; the client can access the platform anytime and from anywhere, and place orders on product quickly. On top of that, it does not take a lot of resources to open a mobile app for a platform. As recent Frankwatching research suggests, around 52% of B2B customers prefer to buy their products using their smartphones.. To provide the best experience for your customers, you need to invest in mobile usability and marketing heavily. This trend will most likely continue to evolve in 2020 as more and more purchasing decisions will be made while on a mobile device.&nbsp;</p>\n\n<p><strong>The customer experience is essential.</strong>&nbsp;The UX should be the primary focus for the retailers who sell their products at B2B marketplaces. Good UX helps with conversion of by passers on your web-store into loyal customers and promotes your website as one that is convenient to navigate. This B2B e-commerce trend plays a big role in differentiation and profitability, as buyers always demand high-resolution product images, an exact description of the product, rich content, including many answers on F.A.Q.s, etc. Use your platform not only to sell products but to educate and inform buyers about the industry.</p>\n\n<p><strong>Multichannel.</strong>&nbsp;There are two main sales models in the B2B industry. You may have your well-designed website and sell your product locally, but still not reach maximum profits. Allow your business to reach out to big platforms that connect thousands of manufacturers and are now becoming a vital place for the online presence for B2B sellers. Besides creating a responsive and perfectly-designed website, we highly recommend dedicating some time to Omni channeling your online presence as the marketplaces have become much more attractive to manufacturers, wholesalers, and distributors.</p>\n",
+        "content": "<h3 style=\"text-align:center\">B2B Ecommerce is rapidly changing, so before we can start to think about the future, let&#39;s look at some trends of the past few years before predicting the future.&nbsp;</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
@@ -64,19 +46,37 @@
     {
         "id": 4,
         "type": "text",
-        "name": "2018",
-        "title": "B2B Ecommerce Trends in 2018",
+        "name": "Text",
+        "title": "Trends in 2017",
         "h1": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p><strong>Omnichannel customer care.&nbsp;</strong>Following the trend of great customer experiences that was present earlier,&nbsp;omnichannel customer care has appeared. The customer service that was present only via e-mails is now unacceptable. B2B customers require even more attention than&nbsp;<a href=\"https://virtocommerce.com/glossary/what-is-b2c-ecommerce\">B2C</a>,&nbsp;and for that level of service websites need to have online customer service chats, the availability of web calls and a laser focus on the individual customer experience. This includes optimizing navigation for customer&nbsp;needs, adding search filters and other helpful tools.&nbsp;</p>\n\n<p><strong>Video Marketing.</strong>&nbsp;Video content marketing&nbsp;as a strategy is gaining more and more prominence in the increasingly crowded B2B marketplace. It has become the standard for increasing audiences and is extremely effective in attracting and retaining customers.</p>\n\n<p><strong>Switching to open-source.</strong>&nbsp;As B2B e-commerce companies have to adapt to an ever-changing battlefield, making them open-source will most likely give them&nbsp;out-of-the-box functionality and make them easier to configure and update. We can see this clearly by using Virto Commerce as an example. Virto Commerce, which is open source, has recently become one of the most prominent open-source platforms, serving various customers, ranging from wholesalers and distributors of complex products to those who sell only maintenance products.&nbsp; Their customers sought out open source solutions after outgrowing&nbsp;closed source, monolithic ecommerce platforms.&nbsp;</p>\n\n<p><strong>Focus on global markets.</strong>&nbsp;The most important thing for an owner of a B2B&nbsp;<a href=\"https://virtocommerce.com/glossary/ecommerce-platforms\">e-commerce platform</a>&nbsp;is to concentrate beyond thei&nbsp;local area, beyond the existing customer base. Despite risks, there is still money to be gained in&nbsp;the ever-growing Asian markets. Expanding to Asia may entail selling products in local currencies, accepting local methods of payment, and providing&nbsp;an entirely different customer experience that is oriented towards a different culture, with different laws and government regulations.</p>\n\n<p><strong>Fast implementation &amp; integration.</strong>&nbsp;Implementation speeds have increased drastically in&nbsp;recent years. It no longer takes months to implement a B2B e-commerce platform. These days you can complete the entire process in just a few weeks, ensuring you can get to market quickly and efficiently.</p>\n\n<p><strong>Flexible payment options.</strong>&nbsp;Being able to process a variety of digital forms of payment can be very complicated, but is absolutely critical for e-commerce companies &nbsp;Not offering a buyer the flexibility to pay with their preferred method is likely to result in the loss of a sale. B2B platforms offer a variety of payment options, like PayPal, invoicing, e-checks,&nbsp;commercial cards, physical checks, purchase orders, etc.</p>\n",
+        "content": "<p><strong>Technology investments grew.</strong>&nbsp;The latest development trends of B2B e-commerce marketplaces have made them a more favorable option for wholesalers, rather than retail stores. B2B companies have become robust and very adaptable to changes. Let&rsquo;s take the example of Virto Commerce e-commerce platform. It is very affordable and flexible to use. Investing in the integration of platforms like this will allow your business to grow rapidly as well as give you the smoothest experience of expanding your outreach.</p>\n\n<p><strong>B2B e-commerce went mobile.</strong>&nbsp;One of the biggest B2B eCommerce trends in 2017&nbsp;is the accessibility of marketplaces on mobile platforms. M-commerce is accessible to its customers and is now becoming a fast-growing platform. It is easy to use; the client can access the platform anytime and from anywhere, and place orders on product quickly. On top of that, it does not take a lot of resources to open a mobile app for a platform. As recent Frankwatching research suggests, around 52% of B2B customers prefer to buy their products using their smartphones.. To provide the best experience for your customers, you need to invest in mobile usability and marketing heavily. This trend will most likely continue to evolve in 2020 as more and more purchasing decisions will be made while on a mobile device.&nbsp;</p>\n\n<p><strong>The customer experience is essential.</strong>&nbsp;The UX should be the primary focus for the retailers who sell their products at B2B marketplaces. Good UX helps with conversion of by passers on your web-store into loyal customers and promotes your website as one that is convenient to navigate. This B2B e-commerce trend plays a big role in differentiation and profitability, as buyers always demand high-resolution product images, an exact description of the product, rich content, including many answers on F.A.Q.s, etc. Use your platform not only to sell products but to educate and inform buyers about the industry.</p>\n\n<p><strong>Multichannel.</strong>&nbsp;There are two main sales models in the B2B industry. You may have your well-designed website and sell your product locally, but still not reach maximum profits. Allow your business to reach out to big platforms that connect thousands of manufacturers and are now becoming a vital place for the online presence for B2B sellers. Besides creating a responsive and perfectly-designed website, we highly recommend dedicating some time to Omni channeling your online presence as the marketplaces have become much more attractive to manufacturers, wholesalers, and distributors.</p>\n",
         "url": {
             "urlText": "",
             "url": "",
             "style": "btn--orange btn--round"
         },
         "noTop": true,
-        "noBottom": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "2018",
+        "title": "B2B Ecommerce Trends in 2018",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p><strong>Omnichannel customer care.&nbsp;</strong>Following the trend of great customer experiences that was present earlier,&nbsp;omnichannel customer care has appeared. The customer service that was present only via e-mails is now unacceptable. B2B customers require even more attention than&nbsp;<a href=\"https://virtocommerce.com/glossary/what-is-b2c-ecommerce\">B2C</a>,&nbsp;and for that level of service websites need to have online customer service chats, the availability of web calls and a laser focus on the individual customer experience. This includes optimizing navigation for customer&nbsp;needs, adding search filters and other helpful tools.&nbsp;</p>\n\n<p><strong>Video Marketing.</strong>&nbsp;Video content marketing&nbsp;as a strategy is gaining more and more prominence in the increasingly crowded B2B marketplace. It has become the standard for increasing audiences and is extremely effective in attracting and retaining customers.</p>\n\n<p><strong>Switching to open-source.</strong>&nbsp;As B2B e-commerce companies have to adapt to an ever-changing battlefield, making them open-source will most likely give them&nbsp;out-of-the-box functionality and make them easier to configure and update. We can see this clearly by using Virto Commerce as an example. Virto Commerce, which is open source, has recently become one of the most prominent open-source platforms, serving various customers, ranging from wholesalers and distributors of complex products to those who sell only maintenance products.&nbsp; Their customers sought out open source solutions after outgrowing&nbsp;closed source, monolithic ecommerce platforms.&nbsp;</p>\n\n<p><strong>Focus on global markets.</strong>&nbsp;The most important thing for an owner of a B2B&nbsp; e-commerce platform is to concentrate beyond thei&nbsp;local area, beyond the existing customer base. Despite risks, there is still money to be gained in&nbsp;the ever-growing Asian markets. Expanding to Asia may entail selling products in local currencies, accepting local methods of payment, and providing&nbsp;an entirely different customer experience that is oriented towards a different culture, with different laws and government regulations.</p>\n\n<p><strong>Fast implementation &amp; integration.</strong>&nbsp;Implementation speeds have increased drastically in&nbsp;recent years. It no longer takes months to implement a B2B e-commerce platform. These days you can complete the entire process in just a few weeks, ensuring you can get to market quickly and efficiently.</p>\n\n<p><strong>Flexible payment options.</strong>&nbsp;Being able to process a variety of digital forms of payment can be very complicated, but is absolutely critical for e-commerce companies &nbsp;Not offering a buyer the flexibility to pay with their preferred method is likely to result in the loss of a sale. B2B platforms offer a variety of payment options, like PayPal, invoicing, e-checks,&nbsp;commercial cards, physical checks, purchase orders, etc.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
         "noPad": null
     },
     {
@@ -93,6 +93,55 @@
             "url": "",
             "style": "btn--orange btn--round"
         },
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore Virto Commerce's Ecommerce Education Center",
+        "h1": null,
+        "style": "dark",
+        "items": [
+            {
+                "title": "What is a Hosted Shopping Cart?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                },
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-carts"
+                }
+            },
+            {
+                "title": "Inventory Management",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                },
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
+                }
+            },
+            {
+                "title": "What is Backorder?",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                },
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
+                }
+            }
+        ],
         "noTop": null,
         "noBottom": null,
         "noPad": null

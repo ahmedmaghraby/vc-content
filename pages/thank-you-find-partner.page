@@ -8,7 +8,7 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -26,17 +26,17 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "cards",
         "name": "Text",
-        "title": "In the meanwhile, please view the following case studies, of implementations done with our partners:",
+        "title": "In the meanwhile, please explore the following Virto Commerce Case Studies:",
         "h1": null,
         "style": "light",
         "items": [
             {
                 "title": "Lavazza Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.21.16 PM.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
                 },
                 "text": "<p>See how our partner, rb2, used Virto Commerce to implement a complex B2B and B2C solution for Lavazza.&nbsp;</p>\n",
                 "link": {
@@ -56,10 +56,23 @@
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
+            },
+            {
+                "title": "Bosch Success Story",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch2.png"
+                },
+                "text": "<p>When Bosch needed to create a customer loyalty portal to capitalize on an untapped opportunity, they came to Virto Commerce.&nbsp;&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/bosch",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     }
 ]

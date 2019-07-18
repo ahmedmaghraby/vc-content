@@ -1,12 +1,14 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "B2B . NET Ecommerce Platform for Small Business",
         "permalink": "solutions/ecommerce-platform-small-business",
-        "id": 1
+        "id": 1,
+        "header": "B2B . NET Ecommerce Platform for Small Business",
+        "description": "B2B . NET Ecommerce Platform for Small Business - Ideal for Manufacturers, Distributors and Retailers"
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": null,
         "title": "Scalable Digital Commerce for Small Businesses",
@@ -19,156 +21,133 @@
         "url2": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": null,
         "title": "",
         "style": null,
         "decorator": null,
-        "content": "<p>The world of B2B ecommerce can be overwhelming- there are many platforms available, and with a limited budget and IT resources, getting your online presence up and running can seem daunting. Offering an enterprise level platform along with the personalized service that only a small company can offer, Virto Commerce offers the ideal combination of a flexible solution and consulting services to power small businesses to success.</p>\n\n<p>Quickly growing companies need a flexible and scalable solution that is cost-effective and can support your company&#39;s long term growth trajectory. There are risks down the line to choosing an entry level platform - replatforming in the future can greatly hurt your profitability.</p>\n\n<p>Packed with features you need to build and run your store, Virto Commerce offers you the essential functionality you need to take your business online. As your revenue and business grows, your digital commerce platform can grow with you &ndash; every step of the way.</p>\n",
-        "url": null
+        "content": "<h3>The world of B2B ecommerce can be overwhelming- there are many platforms available, and with a limited budget and IT resources, getting your online presence up and running can seem daunting. Offering an enterprise level platform along with the personalized service that only a small company can offer, Virto Commerce offers the ideal combination of a flexible solution and consulting services to power small businesses to success.</h3>\n\n<h3>Quickly growing companies need a flexible and scalable solution that is cost-effective and can support your company&#39;s long term growth trajectory. There are risks down the line to choosing an entry level platform - replatforming in the future can greatly hurt your profitability.</h3>\n\n<h3>Packed with features you need to build and run your store, Virto Commerce offers you the essential functionality you need to take your business online. As your revenue and business grows, your digital commerce platform can grow with you &ndash; every step of the way.</h3>\n",
+        "url": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
-        "id": 3,
+        "id": 12,
         "type": "text",
-        "name": null,
-        "title": "Why Should Growing Companies  Choose Virto Commerce?",
-        "style": null,
-        "decorator": null,
-        "content": null,
-        "url": null
-    },
-    {
-        "id": 4,
-        "type": "image-with-text",
-        "name": null,
-        "title": "The Choice of Business Leaders",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/1.png"
-        },
-        "content": "<p>Virto Commerce is the trusted digital commerce partner for a myriad of global businesses including Volvo, Heineken, Rainbow Sandals and more.</p>\n",
-        "url1": {
-            "url": null,
-            "urlText": "View case studies to see how we helped enterprises expand into new commerce segments.",
-            "style": "benefits__link"
-        },
-        "url2": null
-    },
-    {
-        "id": 5,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Scalability",
+        "name": "Text",
+        "title": "Small Businesses Face Unique Ecommerce Challenges",
+        "h1": null,
         "style": "dark",
-        "align": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/2.png"
-        },
-        "content": "<p>Think big. Your business is going to grow, so don&#39;t waste valuable time choosing a platform that can&#39;t grow along with it. Whatever your long term vision is, Virto Commerce can support it. The flexibility offered by Virto Commerce means you never have to look for a new platform. Virto Commerce has deployed solutions globally and supports multi lingual and multi-currency needs.</p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 6,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Ready to Use Functionality",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/3.png"
-        },
-        "content": "<p>Virto Commerce offers out-of-the-box features to help startups get their online businesses up and running quickly. Order management, marketing tools, content management system (CMS) - are all included in our community edition.</p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 7,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Expert Delivery Process",
-        "style": "dark",
-        "align": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/4.png"
-        },
-        "content": "<p>Don&#39;t be scared off by the complexity of implementing an ecommerce platform. Virto Commerce&#39;s experienced team has a defined set of best practices gained from implementing deployments around the globe. We leverage our proprietary process to make sure that you are quickly up and running. Read more about our structured delivery process, to implement your solution quickly and within budget.</p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 8,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Partner Community",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/5.png"
-        },
-        "content": "<p>Virto Commerce works with a group of trusted partners who can work with you to smoothly implement a custom solution based on your requirements. Our partners are based around the world and have delivered solutions to companies in a myriad of industries. Contact us to find the right implementation partner for you.</p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 9,
-        "type": "text",
-        "name": null,
-        "title": "Agile Development Platform: Virto Commerce",
-        "style": "dark",
-        "decorator": "section--pattern",
-        "content": "<p>Our Virto Commerce platform is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Learn more about our agile development approach in this blog post.</p>\n",
+        "decorator": "none",
+        "content": "<ul>\n\t<li>If you take what looks to be the easy path - selecting an out-of-the-box (and inflexible) platform, you will need to re-build your ecommerce solution every time your business changes.&nbsp; The pace of business is unpredictable - you don&#39;t know what lies ahead.&nbsp; Picking a flexible solution now- that was designed to support enterprise ecommerce - ensures that your team can focus on business evolution, not finding a new ecommerce solution.&nbsp;</li>\n\t<li>You might be considering building an in-house solution.&nbsp; Building an ecommerce platform requires a technology company within your business.&nbsp; This creates additional risks of being dependant on your internal technical specialists.&nbsp;</li>\n\t<li>Legacy solutions are also a risk to your business.&nbsp; The more time and money you continue to invest in an unsustainable platform, the more work you create down the line as you will eventually need to sunset that solution when your business requirements change.&nbsp;&nbsp;</li>\n</ul>\n",
         "url": {
-            "url": "contacts",
-            "urlText": "Contact Us",
-            "style": "btn btn--orange btn--round"
-        }
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 13,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Virto Commerce: An Ideal Solution for Growing Companies",
+        "h1": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/DKhsmb05.png"
+                },
+                "title": "The Choice of Business Leaders",
+                "text": "<p>Virto Commerce is the trusted digital commerce partner for a myriad of global businesses including Volvo, Heineken, Rainbow Sandals and more.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                },
+                "title": "Ready to Use Functionality",
+                "text": "<p>Virto Commerce offers out-of-the-box features to help startups get their online businesses up and running quickly. Order management, marketing tools, content management system (CMS) - are all included in our community edition.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_1 (1).png"
+                },
+                "title": "Expert Delivery Process",
+                "text": "<p>Don&#39;t be scared off by the complexity of implementing an ecommerce platform. Virto Commerce&#39;s experienced team has a defined set of best practices gained from implementing deployments around the globe. We leverage our proprietary process to make sure that you are quickly up and running. Read more about our structured delivery process, to implement your solution quickly and within budget.</p>\n"
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_2.png"
+                },
+                "title": "Expert Partner Community",
+                "text": "<p>Virto Commerce works with a group of trusted partners who can work with you to smoothly implement a custom solution based on your requirements. Our partners are based around the world and have delivered solutions to companies in a myriad of industries. Contact us to find the right implementation partner for you.</p>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 10,
+        "type": "text",
+        "name": null,
+        "title": "Get Started on Your Ecommerce Journey Today. ",
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p>Contact us to get a demo of Virto Commerce and to learn how our flexible platform can power your business for years to come.&nbsp;</p>\n",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Request a Demo",
+            "style": "btn btn--orange btn--round"
+        },
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 11,
         "type": "cards",
         "name": null,
         "title": "View success stories of customers who leverage Virto for their digital commerce solutions:",
         "style": null,
         "items": [
             {
-                "title": "Hosted Shopping Carts",
+                "title": "Bosch Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
                 },
-                "text": "<p>Benefits and Reviews of Top Hosted Shopping Cart Solutions</p>\n",
+                "text": "<p>See how Virto Commerce created a customer loyalty platform for Bosch.&nbsp;</p>\n",
                 "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/case-studies/bosch",
                     "urlText": "Read more",
                     "style": "btn--orange btn--round"
                 }
             },
             {
-                "title": "What is Backorder? ",
+                "title": "Standard Boekhandel Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.28.11 PM.png"
                 },
-                "text": "<p>Learn more about how to handle backorders and fufillment</p>\n",
+                "text": "<p>When Belgium&#39;s largest book seller needed a new solution, they turned to Virto Commerce.&nbsp;</p>\n",
                 "link": {
-                    "url": null,
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round"
-                }
-            },
-            {
-                "title": "Inventory Management",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/400x300.png"
-                },
-                "text": "<p>What is Inventory Management?</p>\n",
-                "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
                     "urlText": "Read more",
                     "style": "btn--orange btn--round"
                 }
             }
-        ]
+        ],
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     }
 ]

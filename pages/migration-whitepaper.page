@@ -8,14 +8,14 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Common Issues with Ecommerce Website Migration and How to Avoid Them",
         "h1": true,
-        "subTitle": null,
+        "subTitle": "Virto Commerce Ecommerce Education",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/agiledefinitionheader.png"
+            "url": "https://vc4test.blob.core.windows.net/blogs/imgix-klWUhr-wPJ8-unsplash.jpg"
         },
         "content": "",
         "url1": null,
@@ -25,14 +25,14 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
         "h1": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p style=\"text-align:center\">This Virto Commerce whitepaper provides insight on how to avoid and overcome&nbsp;typical ecommerce platform migration problems.</p>\n",
+        "content": "<h3 style=\"text-align: center;\">Ecommerce migrations require all hands on deck to be successful, especially at the enterprise level.&nbsp; This Virto Commerce whitepaper provides insight on how to avoid and overcome&nbsp;typical ecommerce platform migration problems, and steps to achieving migration success.&nbsp;</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
@@ -43,7 +43,7 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "download-case-studies-form",
         "name": "Download Case studies form",
         "style": "light",

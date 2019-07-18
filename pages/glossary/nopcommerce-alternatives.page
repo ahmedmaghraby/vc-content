@@ -134,11 +134,11 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
                 },
-                "text": "Learn more on how to handle backorders and fulfillment",
+                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "#"
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder"
                 }
             }
         ],

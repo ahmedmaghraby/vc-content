@@ -39,8 +39,9 @@
             "style": "btn--orange btn--round"
         },
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
@@ -56,15 +57,16 @@
             "style": "btn--orange btn--round"
         },
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 5,
         "type": "two-columns-text",
         "name": "Text",
         "title": "Universal Features Offered by Hosted Shopping Carts",
-        "style": "light",
+        "style": "dark",
         "contentBefore": "<p style=\"text-align:center\">Now that we have determined the benefits of using hosted shopping carts for growing your business, look at some of the core features that will allow you to sell your products on the Internet successfully.</p>\n",
         "items": [
             {
@@ -75,8 +77,9 @@
             }
         ],
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 6,
@@ -85,11 +88,30 @@
         "title": "Hosted Shopping Cart Reviews",
         "style": "light",
         "decorator": "none",
-        "content": "<h3 style=\"text-align: center;\">There are many factors to consider when choosing a hosted shopping cart. Below are reviews of the top options:</h3>\n\n<ul>\n\t<li><strong>Shopify</strong></li>\n</ul>\n\n<p>If you are striving for a perfect balance between the convenience of having an already set up website - that allows you a good degree of control-&nbsp;<a href=\"https://virtocommerce.com/glossary/shopify-alternatives\">Shopify</a>&nbsp;is a great choice. It is highly valued in the community for providing businesses with a fair amount of control. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a great variety of tools to alter your store. Another great thing is the presence of their AppStore, where you can find useful plugins for creating and customizing your website. Despite all of its great features, Shopify lacks good content marketing functionality. Shopify offers trials where you can see whether this hosted cart solution is the right fit for you.</p>\n\n<ul>\n\t<li><strong>Opencart</strong></li>\n</ul>\n\n<p>A free and open course solution well suited to small businesses, OpenCart is an option to consider. Its clients value Opencart for the top-notch security protocols that do not allow any of your data to get lost, while keeping track of any activity on the website. Another great benefit is the availability of SEO-optimization for any article that you post for the product. The platform is flexible and very easy to use and provides an inexpensive solution for all your e-commerce needs.</p>\n\n<ul>\n\t<li><strong>Virto Commerce</strong></li>\n</ul>\n\n<p>The enterprise-level e-commerce solution that is fully open-source. It is based on .NET 4.6 with extensive use of IoC, EF, AngularJS, Liquid, MVC and many other cutting edge technology advancements. If you need to manage high volumes of items, this is the platform that can provide product catalogs with along with extensive marketing and promotion capabilities. Virto Commerce provides is a well-built solution that eliminates the problem of creating a store for complex B2B companies. It&#39;s modern technology will allow you to set up a website in less than an hour, bringing such incredible features to you as technical documentation, tech support, SEO functionality and more. Virto Commerce is built on Microsoft&#39;s leading .NET architecture- allowing you full control over customizing your site.</p>\n\n<ul>\n\t<li><strong>PinnacleCart</strong></li>\n</ul>\n\n<p>If you want to set up a store&#39;s website right out of the box and don&#39;t want to bother with a huge amount of options available, then, PinnacleCart is worth considering. New and bright templates, various marketing tools, great SEO features make PinnacleCart great for a B2C online-only shop. They also provide a 14-day free trial, giving small businesses a chance to set up a store and test transactions. Thanks to it, you can select from 30 different payment gateways, as the platform does not charge any setup fee. Compared to Shopify, they are a much cheaper option. However, smaller packages provide the lesser amount of bandwidth and disc storage, which can damage your website&#39;s capacity.</p>\n\n<ul>\n\t<li><strong>UltraCart</strong></li>\n</ul>\n\n<p>UltraCart is a good option if you want your website to be loaded with features, while at the same time not bursting your budget. This shopping cart hosting comes with a great number of tools that will help you make more sales; it is built on enterprise-level hardware, and it always takes care of any updates, security concerns or technical aspects. Just like any other platform, it supports all the leading credit card processing gateways and works with many payment methods. Great customer support and technical documentation especially make this shopping cart platform stand out among others.</p>\n\n<ul>\n\t<li><strong>ShopIntegrator</strong></li>\n</ul>\n\n<p>A pretty basic and cheaply priced shopping cart hosting platform that provides regular features like template selection, easy connection with the payment processor, secure hosting, mobile e-commerce and so on. While it offers a Multi-Store Management, it lacks any inventory, SEO or Promotions management, marketing tools and loyalty programs.</p>\n",
+        "content": "<h3 style=\"text-align:center\">There are many factors to consider when choosing a hosted shopping cart. Below are reviews of the top options:</h3>\n\n<ul>\n\t<li><strong>Shopify</strong></li>\n</ul>\n\n<p>If you are striving for a perfect balance between the convenience of having an already set up website - that allows you a good degree of control-&nbsp;<a href=\"https://virtocommerce.com/glossary/shopify-alternatives\">Shopify</a>&nbsp;is a great choice. It is highly valued in the community for providing businesses with a fair amount of control. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a great variety of tools to alter your store. Another great thing is the presence of their AppStore, where you can find useful plugins for creating and customizing your website. Despite all of its great features, Shopify lacks good content marketing functionality. Shopify offers trials where you can see whether this hosted cart solution is the right fit for you.</p>\n\n<ul>\n\t<li><strong>Opencart</strong></li>\n</ul>\n\n<p>A free and open course solution well suited to small businesses, OpenCart is an option to consider. Its clients value Opencart for the top-notch security protocols that do not allow any of your data to get lost, while keeping track of any activity on the website. Another great benefit is the availability of SEO-optimization for any article that you post for the product. The platform is flexible and very easy to use and provides an inexpensive solution for all your e-commerce needs.</p>\n\n<ul>\n\t<li><strong>Virto Commerce</strong></li>\n</ul>\n\n<p>The enterprise-level e-commerce solution that is fully open-source. It is based on .NET 4.6 with extensive use of IoC, EF, AngularJS, Liquid, MVC and many other cutting edge technology advancements. If you need to manage high volumes of items, this is the platform that can provide product catalogs with along with extensive marketing and promotion capabilities. Virto Commerce provides is a well-built solution that eliminates the problem of creating a store for complex B2B companies. It&#39;s modern technology will allow you to set up a website in less than an hour, bringing such incredible features to you as technical documentation, tech support, SEO functionality and more. Virto Commerce is built on Microsoft&#39;s leading .NET architecture- allowing you full control over customizing your site.</p>\n\n<ul>\n\t<li><strong>PinnacleCart</strong></li>\n</ul>\n\n<p>If you want to set up a store&#39;s website right out of the box and don&#39;t want to bother with a huge amount of options available, then, PinnacleCart is worth considering. New and bright templates, various marketing tools, great SEO features make PinnacleCart great for a B2C online-only shop. They also provide a 14-day free trial, giving small businesses a chance to set up a store and test transactions. Thanks to it, you can select from 30 different payment gateways, as the platform does not charge any setup fee. Compared to Shopify, they are a much cheaper option. However, smaller packages provide the lesser amount of bandwidth and disc storage, which can damage your website&#39;s capacity.</p>\n\n<ul>\n\t<li><strong>UltraCart</strong></li>\n</ul>\n\n<p>UltraCart is a good option if you want your website to be loaded with features, while at the same time not bursting your budget. This shopping cart hosting comes with a great number of tools that will help you make more sales; it is built on enterprise-level hardware, and it always takes care of any updates, security concerns or technical aspects. Just like any other platform, it supports all the leading credit card processing gateways and works with many payment methods. Great customer support and technical documentation especially make this shopping cart platform stand out among others.</p>\n\n<ul>\n\t<li><strong>ShopIntegrator</strong></li>\n</ul>\n\n<p>A pretty basic and cheaply priced shopping cart hosting platform that provides regular features like template selection, easy connection with the payment processor, secure hosting, mobile e-commerce and so on. While it offers a Multi-Store Management, it lacks any inventory, SEO or Promotions management, marketing tools and loyalty programs.</p>\n",
         "url": {
             "urlText": "",
             "url": "",
             "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "name": "CTA",
+        "title": "Learn More about Virto Commerce",
+        "h1": null,
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">Virto Commerce is one of the best enterprise level ecommerce and hosted shopping cart solutions available.&nbsp; Get more information about Virto Commerce by exploring our&nbsp;<a href=\"http://www.virtocommerce.com\">website</a>&nbsp;or requesting a demo.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Get in Touch",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
@@ -99,7 +121,7 @@
         "id": 7,
         "type": "cards",
         "name": "Text",
-        "title": "Learn More About Ecommerce",
+        "title": "Learn More About Ecommerce in Virto's Ecommerce Education Center",
         "style": "light",
         "items": [
             {
@@ -141,6 +163,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

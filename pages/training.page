@@ -1,0 +1,333 @@
+[
+    {
+        "type": "settings",
+        "title": "Virto Commerce  Ecommerce Developer and Solution Architect Training Courses",
+        "permalink": "training",
+        "header": "Virto Commerce Developer and Solution Architect Training Courses",
+        "description": "Virto Commerce Ecommerce Developer and Solution Architect Training Courses",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Virto Commerce Training Courses",
+        "h1": true,
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/training.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "Virto Commerce offers instructor led training courses in two distinct tracks: Developer Training and Solution Architect Training. See our upcoming class dates and descriptions below.",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Virto Commerce Developer Training",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "",
+        "style": "dark",
+        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Audience",
+                "text": "<p>Upper-intermediate and advanced web and backend developers.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Duration",
+                "text": "<p>4 days</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Class Size",
+                "text": "<p>Up to 5 Students</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Prerequisites",
+                "text": "<p>Comfortable using Visual Studio, ASP.NET, Web API, C#, HTML and Angular.</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "Developer Training Upcoming Sessions & Course Overview",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p><strong>Upcoming Sessions</strong><br />\n<br />\nOffered Online: July 22 - 25<br />\nIn Vilnius: August 26 - 29<br />\n<br />\n<strong>Course Overview</strong><br />\n<br />\nThis course is the most effective way to start development of your complex e-commerce solution using our platform and its broad range of additional modules and APIs. It is an instructor-led training course, incorporating real-world examples of enterprise B2B e-commerce deployments and best practices. You will learn how to develop the solution by using Virto Commerce platform.&nbsp;<br />\n<br />\nStudents during this course will master Virto Commerce&#39;s (VC) capabilities, features and best practices for using it in real-life projects. VC provides a powerful framework for quick start and the out of the box functionality fulfils basic typical scenarios. The flexibility and extensibility techniques are key topics for developers used.&nbsp;<br />\n<br />\n<strong>After students complete this course, they will:&nbsp;</strong><br />\n&nbsp;</p>\n\n<ul>\n\t<li>Understand the benefits of Virto Commerce</li>\n\t<li>Be familiar with the Virto Commerce design principles, technologies and tools</li>\n\t<li>Understand how to extend, customize and support current functionality</li>\n\t<li>Build applications that matches enterprise business requirements</li>\n</ul>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "list-with-images",
+        "name": "Developer training modules",
+        "title": "Developer Training Modules",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<h3 style=\"text-align:center\">Enrich your Virto Commerce skills with additional developer training</h3>\n",
+        "style": "dark",
+        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VVC-900 VIRTO COMMERCE FUNDAMENTALS",
+                "text": "<p>Interested in Virto Commerce, but aren&#39;t quite sure what it can do for you? This half day course is the place to start.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VC-100 CONFIGURE VIRTO COMMERCE SOLUTIONS",
+                "text": "<p>Learn how to configure Virto Commerce modules to handle E-Commerce solution in this half day course.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VC-200 DEVELOPING VIRTO COMMERCE MODULES",
+                "text": "<p>In this two day course, master Virto Commerce&#39;s (VC) capabilities, features and best practices for using it in real-life projects.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VC-201 DEVELOPING STOREFRONT APPLICATIONS",
+                "text": "<p>Learn how to develop front edn solutions using Virto Commerce</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "Virto Commerce Solution Architect Training",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Audience",
+                "text": "<p>Senior developers and Solution Architects</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Duration",
+                "text": "<p>2 days</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Class Size",
+                "text": "<p>Up to 5 students</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Prerequisites",
+                "text": "<p>Comfortable using Azure, Visual Studio, ASP.NET, Web API and C#.</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p><strong>Upcoming Sessions</strong><br />\nOffered Online: &nbsp;August 14 - 15<br />\nIn Vilnius: September 11 - 12<br />\n<br />\n<strong>Course Overview</strong><br />\n<br />\nThis course is the most effective way to start designing your complex e-commerce solution using our platform and its broad range of additional modules and APIs. It&#39;s an instructor-led training course, incorporating real-world examples of enterprise B2B e-commerce deployments and best practices. You will learn how to design, build and continuously improve the architecture of your solution.&nbsp;<br />\n<br />\nStudents during this course will master Virto Commerce&#39;s (VC) capabilities, features and best practices for using it in real-life projects. Virto Commerce is designed as an API-driven, headless e-commerce platform to help building large and complex digital commerce solutions for B2B, B2C or B2B2C businesses, marketplaces and derived SaaS commerce platforms.&nbsp;<br />\n<br />\n<strong>After students complete this course, they will:&nbsp;</strong></p>\n\n<ul>\n\t<li>Understand the benefits of Virto Commerce architecture</li>\n\t<li>Be familiar with the Virto Commerce design principles, technologies and tools&nbsp;</li>\n\t<li>Be able to incorporate security into your architecture design&nbsp;</li>\n\t<li>Scale system to handle the load, identifying network bottlenecks and optimizing storage performance&nbsp;</li>\n\t<li>Handle infrastructure and service failure recover from the loss&nbsp;</li>\n\t<li>Design for efficiency and operations</li>\n\t<li>Integrate the solution with other business ecosystem.</li>\n</ul>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 10,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Solution Architect Modules",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<h3 style=\"text-align:center\">Enhance your Virto Commerce skills with additional developer training</h3>\n",
+        "style": "dark",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VC-900 VIRTO COMMERCE FUNDAMENTALS",
+                "text": "<p>Interested in Virto Commerce, but aren&#39;t quite sure what it can do for you? This half day course is the place to start.</p>\n",
+                "iconStyle": "",
+                "url": {
+                    "url": "",
+                    "urlText": "",
+                    "style": null
+                }
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "VC-300 ARCHITECT GREAT SOLUTIONS ",
+                "text": "<p>Learn how to design and build secure, scalable, performant solutions on Virto Commerce platform by examining the core principles found in every good architecture in this 1.5 day class.&nbsp;</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "name": "Text",
+        "title": "Contact Us To Learn More About Virto Commerce Training and To Register",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Contact Us"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

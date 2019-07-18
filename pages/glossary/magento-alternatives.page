@@ -57,7 +57,7 @@
             "url": "",
             "style": "btn--orange btn--round"
         },
-        "noTop": null,
+        "noTop": true,
         "noBottom": null,
         "noPad": null
     },
@@ -123,65 +123,47 @@
         "noPad": null
     },
     {
-        "id": 7,
-        "type": "text",
-        "name": "Text",
-        "title": "Learn More About Virto Commerce",
-        "h1": null,
-        "style": "dark",
-        "decorator": "section--pattern",
-        "content": "<p style=\"text-align:center\">Virto Commerce is a top open source .NET competitor to Magento that is ideal for enterprise ecommerce.&nbsp;</p>\n",
-        "url": {
-            "urlText": "Get a Demo",
-            "url": "https://www.virtocommerce.com/contact-us",
-            "style": "btn btn--orange btn--round"
-        },
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null
-    },
-    {
         "id": 8,
         "type": "cards",
         "name": "Text",
-        "title": "Explore Virto Commerce's Ecommerce Education Center:",
+        "title": "Learn More About Virto Commerce, One of the Top Magento Competitors: ",
         "h1": null,
-        "style": "light",
+        "style": "dark",
         "items": [
             {
-                "title": "Episerver Alternatives",
+                "title": "Virto Commerce Architecture Overview",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/robert-horvick-1R4uPYipCFM-unsplash.jpg"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/Multi-tenant (1).png"
                 },
-                "text": "<p>Learn more about Episerver and some Episerver Alternative ecommerce platforms.&nbsp;</p>\n",
+                "text": "<p>Learn about our .NET scalable architecture, and download our architecture guidelines.</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://www.virtocommerce.com/glossary/episerver-alternatives"
+                    "url": "https://virtocommerce.com/enterprise-ecommerce-architecture"
                 }
             },
             {
-                "title": "Inventory Management",
+                "title": "Virto Commerce Pricing Tools",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
                 },
-                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
+                "text": "<p>Explore Virto Commerce&#39;s robust tools to enable complex ecommerce pricing schemes.</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://www.virtocommerce.com/glossary/what-is-inventory-management"
+                    "url": "https://virtocommerce.com/b2b-ecommerce-pricing-tools"
                 }
             },
             {
-                "title": "What is Backorder?",
+                "title": "Virto Commerce Delivery Strategy and Partner Network",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/HERO.png"
                 },
-                "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
+                "text": "<p>Learn about our partner network and how we get you to market faster.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://www.virtocommerce.com/glossary/what-is-backorder"
+                    "url": "https://virtocommerce.com/b2b-ecommerce-implementation"
                 }
             }
         ],

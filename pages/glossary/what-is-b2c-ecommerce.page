@@ -148,11 +148,11 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
                 },
-                "text": "Hosted Shopping Cart Definition and Uses",
+                "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "#"
+                    "url": "https://virtocommerce.com/glossary/hosted-shopping-cart"
                 }
             },
             {

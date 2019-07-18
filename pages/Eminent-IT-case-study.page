@@ -1,0 +1,98 @@
+[
+    {
+        "type": "settings",
+        "title": "Eminent IT Case Study - Ecommerce for the US Government",
+        "permalink": "case-studies/eminent",
+        "header": "Eminent IT Case Study - Ecommerce for the US Government",
+        "description": "Eminent IT Case Study - Ecommerce for the US Government",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Eminent Success Story",
+        "h1": true,
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero (11).png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": false,
+        "noBottom": false,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>&quot;We chose Virto Commerce for the Executive Office of the US Government supply chain solution because it is the only platform that could meet our business user requirements to provide the modern eCommerce shopping experience we wanted, as well as the technical requirements of being customizable, flexible, secure and built on a Microsoft .NET technology stack.&quot;</h3>\n\n<h3>~ Isaac Barns, Vice President, Eminent IT</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "image",
+        "name": "Simple image",
+        "title": "",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/pic1 (1).png"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>To improve the supply chain ordering process and tracking, the Executive Office of the US Government wanted an improved eCommerce system customized to accommodate their approval and tracking process business requirements.</h3>\n\n<h3>CHALLENGE</h3>\n\n<p>The Executive Office of the US Government wanted to improve its supply chain solution for internal product ordering, approval, and tracking management. They contracted with Eminent IT, a technology consulting firm specializing in working with government and modernizing the customer experience of both citizen-facing and internal services by replacing obsolete legacy applications, systems, and business processes. The US Governement needed a new system to improve its supply chain ordering online, delivery of products, and tracking.</p>\n\n<h3>SOLUTION</h3>\n\n<p>For the Executive Office of the US Government, Eminent IT assessed several tools and selected Virto Commerce for the eCommerce supply chain solution. The team implemented Virto Commerce as the interface to manage the supply chain and all product orders that is sourced and pulls from multiple organization to fulfill product orders.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download The Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

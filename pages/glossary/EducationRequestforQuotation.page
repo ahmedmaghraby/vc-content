@@ -84,16 +84,20 @@
         "id": 6,
         "type": "text-over-image",
         "name": null,
-        "title": "Learn more about B2B Ecommerce",
+        "title": "Learn more about Virto Commerce",
         "subTitle": "",
         "image": null,
-        "content": "<p>Contact our ecommerce experts today</p>\n",
+        "content": "<p>Request a demo of our leading .NET Open Source Ecommerce Platform today.&nbsp; Virto Commerce is the perfect platform for enterprise, B2B, or B2C ecommerce.&nbsp;</p>\n",
         "url1": {
             "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Get in Touch",
+            "urlText": "Request a Demo",
             "style": "btn--orange"
         },
-        "url2": null
+        "url2": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 7,

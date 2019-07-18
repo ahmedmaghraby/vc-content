@@ -30,18 +30,19 @@
         "title": " ",
         "style": null,
         "decorator": "none",
-        "content": "<h3 style=\"text-align: center;\">Manage complex B2B and B2C product lists with Virto Commerce&#39;s sophisticated catalog management functionality. Our Catalog Information Management solution allows you to enrich your product information, create catalogs, and distribute to your sales channels.&nbsp;</h3>\n",
+        "content": "<h3 style=\"text-align:center\">Manage complex B2B and B2C product lists with Virto Commerce&#39;s sophisticated catalog management functionality. Our Catalog Information Management solution allows you to enrich your product information, create catalogs, and distribute to your sales channels.&nbsp;</h3>\n",
         "url": null,
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
         "type": "two-columns-text",
         "name": null,
         "title": "Get to Market Faster",
-        "style": null,
+        "style": "dark",
         "contentBefore": null,
         "items": [
             {
@@ -53,31 +54,33 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 5,
         "type": "text",
         "name": null,
-        "title": "Learn More About Our B2B Ecommerce Platform. ",
-        "style": "dark",
+        "title": "Try our Product Information Management Tools",
+        "style": "light",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">And all the other features we offer out-of-the-box, yet designed for complex B2B digital commerce</p>\n",
+        "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers - designed for enterprise ecommerce.</p>\n",
         "url": {
             "url": "https://virtocommerce.com/contact-us",
             "urlText": "Get a Demo",
-            "style": "btn btn--orange btn--lg"
+            "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 6,
         "type": "cards",
         "name": null,
         "title": "Explore More Features - Readily Available to Get You to Market Faster",
-        "style": null,
+        "style": "dark",
         "items": [
             {
                 "title": "Pricing Tools",
@@ -86,7 +89,7 @@
                 },
                 "text": "<p>Pricing tools to support complex B2B pricing tiers and scenarios</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-pricing-tools",
+                    "url": "https://virtocommerce.com/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -98,7 +101,7 @@
                 },
                 "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
                 "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/b2b-ecommerce-marketing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -118,6 +121,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

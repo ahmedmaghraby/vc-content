@@ -1,0 +1,198 @@
+[
+    {
+        "type": "settings",
+        "title": ".NET Ecommerce Platform for Startups",
+        "permalink": "solutions/startup-ecommerce-platform",
+        "id": 1,
+        "header": ".NET Ecommerce Platform for Startups",
+        "description": ".NET Ecommerce Platform for Startups"
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "How startups can get an advantage by leveraging ecommerce platforms",
+        "h1": null,
+        "content": "<p>For any startup there is a choice- to use an existing ecommerce solution, or design and develop an in-house solution. It often seems that developing in-house will fit your MVP better, however, using an existing solution may bring your MVP vision to life more quickly.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "What are the top ecommerce challenges faced by startups?",
+        "style": "light",
+        "h1": null,
+        "list": [
+            {
+                "text": "Out-of-the box solutions don’t fit startups"
+            },
+            {
+                "text": "<p>Licensing doesn&rsquo;t fit many&nbsp;startup business models</p>\n"
+            },
+            {
+                "text": "<p>It&#39;s challenging to to find qualified experts to build your MVP fast</p>\n"
+            }
+        ],
+        "content": "<p>Startups aim to break an existing business model based on either&nbsp;new technology or new business approaches. Since startups do new and creative things via ecommerce, they face a challenge: inflexible out-of-the-box solutions don&rsquo;t fit innovative models by design, and they are too expensive for an MVP. &nbsp;</p>\n\n<p>Traditional licensing is another challenge, as traditional licensing models are structured for traditional business models and practices, but not for companies with disruptive business models.</p>\n\n<p>The third critical problem is the lack of relevant ecommerce experience and expertise to deliver an MVP.&nbsp; Startup MVPs&nbsp;are about minimizing time and costs. It&#39;s essential to select the quickest way to MVP, which is not always obvious, and move forward as fast as possible.</p>\n\n<p>Its necessary to&nbsp;find a reliable ecommerce partner who will handle these risks: help to define the MVP scope properly so that your business model will be implemented the cheapest way and delivered in a timely manner.</p>\n",
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray"
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Top Startup Ecommerce Platform Implementation Risks",
+        "h1": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon-1.svg"
+                },
+                "title": "",
+                "text": "<h4>Starting with inflexible&nbsp;out-of-the-box&nbsp;platform&nbsp;makes changing direction&nbsp;painful&nbsp;</h4>\n",
+                "iconStyle": "list__icon--mini",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon-2.svg"
+                },
+                "title": "",
+                "text": "<h4>Traditional licensing makes it impossible for your business to scale</h4>\n",
+                "iconStyle": "list__icon--mini",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/icon-3.svg"
+                },
+                "title": "",
+                "text": "<h4>An in-house solution means there will be&nbsp;critical dependencies on technical employees&nbsp;</h4>\n",
+                "iconStyle": "list__icon--mini",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "titleStyle": "section__t--gray",
+        "titleAlignment": "section__t--left-alignment"
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>By selecting an inflexible platform as the basis of your business, you ensure you will have to&nbsp;invest a lot into development or adopt your business model,&nbsp; forcing a&nbsp;re-build of your&nbsp;solution every time your business direction changes.</p>\n\n<p>There is high risk that a lot of time and effort will be spent on delivering functionality which is not valuable for customers,&nbsp;and therefore&nbsp;doesn&rsquo;t bring traction. Even if it&#39;s&nbsp;possible to create your desired&nbsp;functionality at the end of the project,&nbsp;it will take significant additional time and money.</p>\n\n<p>The lack of experience when&nbsp;selecting ecommerce solutions can kill a startup due to the reasons listed. Facing these challenges, startups often decide to&nbsp;build&nbsp;a unique in-house solution because it looks deceitfully cheap.</p>\n\n<p>Building an in-house solution often brings same problems (too long, too expensive) together with additional overheads, such as a risk of dependency on internal technical specialists.&nbsp; Imagine only a few people n the world&nbsp;know&nbsp;how to maintain your solution - it&#39;s a risky proposition.&nbsp;</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "titleAlignment": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "The Solution: A customizable and extensive platform",
+        "h1": null,
+        "titleStyle": "section__t--gray",
+        "intro": "<p>Due to our customizable and extensible platform and modular architecture, the Virto Commerce platform is designed to be adoptive and flexible. We provide enablers for building up a solution of any complexity on top of the platform with minimal&nbsp;time, costs and risks.</p>\n\n<p>Based on our experience with startups we realize the license-related challenges which startups face.&nbsp;Being a market disruptor ourselves, we respect and facilitate market disruptors. That is why we developed specific licensing models which fit startups and companies who are introducing new&nbsp; disruptive business models and practices into the ecommerce market.</p>\n\n<p>Virto Commerce&nbsp;has extensive successful experience in facilitating startup MVPs and we share our experience (both technical and management) with our partners and customers.</p>\n\n<p>Our partners, together with Virto Commerce, help&nbsp;startups to resolve the expertise issues they face. We help our clients to select the right implementation partner and engage our experts when needed to guarantee a successful project.&nbsp;</p>\n",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "I",
+                "text": "<h4>Virto Commerce platform is designed for fast MVP delivery&nbsp;</h4>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "II",
+                "text": "<h4 class=\"section__descr--gray\">Our license model fits startups</h4>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "III",
+                "text": "<h4 class=\"section__descr--gray\">We have startups experience, and provide reliable technical expertise</h4>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": "section__t--left-alignment"
+    },
+    {
+        "id": 7,
+        "type": "text-with-button",
+        "name": "Text",
+        "text": "Ready to get started?",
+        "style": "light",
+        "url": {
+            "url": "#",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Contact us"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": true
+    },
+    {
+        "id": 8,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How to run a real estate startup and win within 6 months",
+        "h1": null,
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-lg-12",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/estate.svg"
+                },
+                "title": "",
+                "text": "<p>Before finding Virto Commerce, the team initially built the site in a basic website builder called Tilda, and immediately saw its limitations upon launch. The main disadvantage was that they could not create a catalog online with search or filter functionality.</p>\n\n<p>Despite its challenges, the site kept growing, so they knew it was important to develop the site infrastructure further. In the first year, they collected 840 purchase applications, grew a newsletter list of 1,322 contacts, sold 29 properties for a total of &euro;4.2 million, and hosted 2,300 webpages.</p>\n\n<p>The team transferred the current version of the Estate-Spain.com front end to a new Virto Commerce platform in three months, within budget, and on time. The solution also included a robust administrator panel. The team collaborated to tackle a lengthy list of technical requirements, business requirements, and desired features.</p>\n",
+                "iconStyle": "",
+                "url": {
+                    "url": "https://virtocommerce.com/case-studies/estatespain",
+                    "urlText": "Download the Full Case Study",
+                    "style": "link-large"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": "section__t--left-alignment"
+    }
+]

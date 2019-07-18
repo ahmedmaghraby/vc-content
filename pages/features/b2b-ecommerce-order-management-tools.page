@@ -14,11 +14,15 @@
         "title": "B2B Ecommerce Order Management Features",
         "subTitle": "",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/HERO.png"
+            "url": "https://vc4test.blob.core.windows.net/blogs/elevate-dI-aXC7DWpQ-unsplash.jpg"
         },
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
         "url1": null,
-        "url2": null
+        "url2": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 3,
@@ -26,11 +30,12 @@
         "name": null,
         "title": null,
         "style": null,
-        "contentBefore": "<h3 style=\"text-align: center;\">B2B customers expect more from vendors, and they won&#39;t settle for a poor order management process. Overlooking order management and giving your customers a subpar buying journey will lead to unsatisfied buyers and loss of revenue. As new generations of buyers are even more tech savvy, streamlined order management is the backbone of your B2B digital commerce solution.&nbsp;<br />\n<br />\nVirto Commerce provides industry leading order management functions that can be integrated into complex enterprise workflows - including many leading ERP and fulfillment systems. See just a few of the order management features available in our solution below.</h3>\n",
+        "contentBefore": "<h3 style=\"text-align:center\">B2B customers expect more from vendors, and they won&#39;t settle for a poor order management process. Overlooking order management and giving your customers a subpar buying journey will lead to unsatisfied buyers and loss of revenue. As new generations of buyers are even more tech savvy, streamlined order management is the backbone of your B2B digital commerce solution.&nbsp;<br />\n<br />\nVirto Commerce provides industry leading order management functions that can be integrated into complex enterprise workflows - including many leading ERP and fulfillment systems. See just a few of the order management features available in our solution below.</h3>\n",
         "items": [],
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
@@ -38,7 +43,7 @@
         "name": null,
         "title": "Seamlessly Manage Customer Transactions: Order management features built for B2B ecommerce",
         "intro": "",
-        "style": null,
+        "style": "dark",
         "colStyle": "col-lg-6",
         "items": [
             {
@@ -46,62 +51,70 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon1.png"
                 },
                 "title": "Full Customer Order History",
-                "text": "<p>Get to know your clients better and personalize their experience with access to their historical sales data &amp; patterns.</p>\n"
+                "text": "<p>Get to know your clients better and personalize their experience with access to their historical sales data &amp; patterns.</p>\n",
+                "iconStyle": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon2.png"
                 },
                 "title": "Invoices & POs",
-                "text": "<p>Create invoices, quotes and purchase orders. Quickly generate customized quotes and POs for clients.</p>\n"
+                "text": "<p>Create invoices, quotes and purchase orders. Quickly generate customized quotes and POs for clients.</p>\n",
+                "iconStyle": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon3.png"
                 },
                 "title": "Order Status Updates",
-                "text": "<p>Keep track of customer orders with order tracking notifications.</p>\n"
+                "text": "<p>Keep track of customer orders with order tracking notifications.</p>\n",
+                "iconStyle": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon4.png"
                 },
                 "title": "Splitting Shipments and Payments",
-                "text": "<p>Separate shipments and billing addresses as needed.</p>\n"
+                "text": "<p>Separate shipments and billing addresses as needed.</p>\n",
+                "iconStyle": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon5.png"
                 },
                 "title": "Easy Access to Financial Data",
-                "text": "<p>Quickly retrieve the critical financial records you need.</p>\n"
+                "text": "<p>Quickly retrieve the critical financial records you need.</p>\n",
+                "iconStyle": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon6.png"
                 },
                 "title": "Full Scheduled Recurring Order and Subscription Management Capabilities",
-                "text": "<p>Easily fulfill orders on custom schedules and manage all aspects of customer subscriptions.</p>\n"
+                "text": "<p>Easily fulfill orders on custom schedules and manage all aspects of customer subscriptions.</p>\n",
+                "iconStyle": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null,
+        "titleStyle": null
     },
     {
-        "id": 5,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Ready to Get Started? ",
-        "subTitle": "Get To Market Faster. <br>Learn More About Our Ready To Go Features",
-        "image": null,
-        "content": "",
-        "url1": {
+        "id": 7,
+        "type": "text",
+        "name": "CTA",
+        "title": "Try Virto Commerce's Order Management Tools Today",
+        "h1": null,
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers to help you get to market faster.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Read more",
             "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Get a Demo",
-            "style": "btn--orange"
+            "style": "btn btn--orange btn--round"
         },
-        "url2": null,
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -110,8 +123,8 @@
         "id": 6,
         "type": "cards",
         "name": "Text",
-        "title": "Explore Features Readily Available  <br>To Get You To Market Faster",
-        "style": "light",
+        "title": "Explore More Features Readily Available  <br>To Get You To Market Faster",
+        "style": "dark",
         "items": [
             {
                 "title": "Pricing Tools and Features",
@@ -122,7 +135,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-pricing-tools"
+                    "url": "https://virtocommerce.com/b2b-ecommerce-pricing-tools"
                 }
             },
             {
@@ -152,6 +165,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

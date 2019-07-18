@@ -32,8 +32,12 @@
         "title": null,
         "style": "dark",
         "decorator": null,
-        "content": "<p>Order processing software is software that is specifically tailored to manage businesses&#39; time properly by reducing the length of the sales order processing. With good order processing software, your business will be able to improve operational efficiency, increase revenues, eliminate billing errors, and deliver the highest level of customer satisfaction. Additionally, the right order fulfillment software enables you to track order-to-cash processes and to integrate unique billing capabilities.</p>\n\n<p>Virto Commerce&#39;s order processing software is very flexible and easy to integrate into your existing order management system. Our order processing software is capable of handling high volumes of purchases at any given time, giving you the ability to easily manage and scale order flows, making it ideal if you are looking for enterprise or B2B order processing software.</p>\n",
-        "url": null
+        "content": "<h3>Order processing software is software that is specifically tailored to manage businesses&#39; time properly by reducing the length of the sales order processing. With good order processing software, your business will be able to improve operational efficiency, increase revenues, eliminate billing errors, and deliver the highest level of customer satisfaction. Additionally, the right order fulfillment software enables you to track order-to-cash processes and to integrate unique billing capabilities.</h3>\n\n<p>Virto Commerce&#39;s order processing software is very flexible and easy to integrate into your existing order management system. Our order processing software is capable of handling high volumes of purchases at any given time, giving you the ability to easily manage and scale order flows, making it ideal if you are looking for enterprise or B2B order processing software.</p>\n",
+        "url": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 4,
@@ -47,14 +51,21 @@
             {
                 "image": null,
                 "title": "",
-                "text": "<ul>\n\t<li>Order tracking software should integrate business process across all branches of the company.</li>\n\t<li>Price tracking systems to account for discounts and price rules</li>\n\t<li>Enhances sales order processing by integrating faster invoicing, billing and record creation</li>\n</ul>\n"
+                "text": "<p>Order tracking software should integrate business process across all branches of the company.</p>\n\n<p>Price tracking systems to account for discounts and price rules</p>\n\n<p>Enhances sales order processing by integrating faster invoicing, billing and record creation</p>\n",
+                "iconStyle": null
             },
             {
                 "image": null,
                 "title": null,
-                "text": "<ul>\n\t<li>Sales order tracking software needs to enable tracking the shipping process through major delivery companies, such as USPS, UPS, and FedEx.</li>\n\t<li>It should provide great return processes with quick authorizations and turn around time</li>\n</ul>\n"
+                "text": "<ul>\n\t<li>Sales order tracking software needs to enable tracking the shipping process through major delivery companies, such as USPS, UPS, and FedEx.</li>\n\t<li>It should provide great return processes with quick authorizations and turn around time</li>\n</ul>\n",
+                "iconStyle": null
             }
-        ]
+        ],
+        "h1": null,
+        "titleStyle": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 5,
@@ -63,7 +74,29 @@
         "title": "Learn More about Order Processing",
         "style": null,
         "decorator": null,
-        "content": "<p><strong>Multi-Channel Order Processing&nbsp;</strong><br />\n<br />\nToday, multi-channel is a major concept in B2B ecommerce and your order fulfillment software needs to be up to the test. Advanced order tracking software will help you streamline and centralize your operations. The main functions it needs to be able to perform are:&nbsp;</p>\n\n<ul>\n\t<li>Syncing orders&nbsp;</li>\n\t<li>Handling returns and refunds</li>\n</ul>\n\n<p><strong>Aligning Your Organization</strong>&nbsp;<br />\n<br />\nIn addition to unifying order processing from different channels, your order processing software needs to allow for all the key stakeholders in the process to be able to work together and communicate effectively. Far too often, the stakeholders simply don&#39;t have the right technology to focus on the most valuable aspects of their work. In order to address that every sales order needs to be properly documented and fully visible to all the necessary team members, so that team members are free to optimize their daily tasks.&nbsp;<br />\n<br />\nThe right order processing software will unify all your stakeholders within a centralized system from sales and service reps to executives, to fulfillment specialists and finance managers. Such collaborative setup of your order fulfillment software also helps the customer-supplier relationship thrive.&nbsp;</p>\n\n<p><strong>Benefits of using an Order Fulfillment System&nbsp;</strong><br />\n<br />\nThe main benefit of using B2B order fulfillment software is faster turnaround times and the ability to implement order tracking software. Other than that, the main advantages are:&nbsp;</p>\n\n<ul>\n\t<li>Automated invoices on payment terms and billing processes&nbsp;</li>\n\t<li>Backorder Management.</li>\n\t<li>Tracking the inventory, registering of the new arrived items for backorders, and moving the orders to processing so that they can be shipped&nbsp;</li>\n\t<li>Stronger Customer Relationships. Order self-service along with the ability to inquire order, delivery, and payment information for the customer helps increase customer satisfaction</li>\n\t<li>Improved cash flow among your finance and sales departments&nbsp;</li>\n\t<li>A more streamlined process of order management. Reduced times for reports creation, full control of the quote and order processing with an intelligent workflow for approval routing, pricing, and special discounts&nbsp;</li>\n\t<li>Improved efficiency of order processing. A good system will allow you to ship products from multiple warehouses and automate order routes to the correct fulfillment center. Plus, a B2B multi-channel inventory management solution will let you send orders from any sales channel to your centralized system, saving massive amounts of time on a daily basis</li>\n\t<li>Order Combining and Prioritization. Batch orders in bulk and set processing priorities&nbsp;</li>\n\t<li>Improved sales thanks to order tracking software&nbsp;</li>\n\t<li>Multi-Tier Support. To allow your order tracking software grow with your retail and wholesale business - accommodating flexible pricing options and order management capabilities&nbsp;</li>\n\t<li>Reduced costs by eliminating manual data entry&nbsp;</li>\n\t<li>Increased data control due to the absence of human error in the process of using order fulfillment software&nbsp;</li>\n\t<li>Improved business performance with the ability to ship faster&nbsp;</li>\n\t<li>Increased customer satisfaction because of the reduced load of paperwork on your team, which enables them to service your customers at their best abilities. Having a good B2B enterprise order fulfillment system can be extremely beneficial for your business and will increase ROI.&nbsp;</li>\n</ul>\n\n<p>Virto Commerce&#39;s order tracking software introduces the best practices when it comes to order fulfillment and helps manufacturers, wholesalers, and distributors reduce costs, improve customer support and start selling globally without the pain of processing orders manually. Virto Commerce allows you to consolidate and process your orders across multiple sales channels with seamless tracking.</p>\n",
-        "url": null
+        "content": "<p><strong>Multi-Channel Order Processing&nbsp;</strong><br />\n<br />\nToday, multi-channel is a major concept in B2B ecommerce and your order fulfillment software needs to be up to the test. Advanced order tracking software will help you streamline and centralize your operations. The main functions it needs to be able to perform are:&nbsp;</p>\n\n<ul>\n\t<li>Syncing orders&nbsp;</li>\n\t<li>Handling returns and refunds</li>\n</ul>\n\n<p><strong>Aligning Your Organization</strong>&nbsp;<br />\n<br />\nIn addition to unifying order processing from different channels, your order processing software needs to allow for all the key stakeholders in the process to be able to work together and communicate effectively. Far too often, the stakeholders simply don&#39;t have the right technology to focus on the most valuable aspects of their work. In order to address that every sales order needs to be properly documented and fully visible to all the necessary team members, so that team members are free to optimize their daily tasks.&nbsp;<br />\n<br />\nThe right order processing software will unify all your stakeholders within a centralized system from sales and service reps to executives, to fulfillment specialists and finance managers. Such collaborative setup of your order fulfillment software also helps the customer-supplier relationship thrive.&nbsp;</p>\n\n<p><strong>Benefits of using an Order Fulfillment System&nbsp;</strong><br />\n<br />\nThe main benefit of using B2B order fulfillment software is faster turnaround times and the ability to implement order tracking software. Other than that, the main advantages are:&nbsp;</p>\n\n<ul>\n\t<li>Automated invoices on payment terms and billing processes&nbsp;</li>\n\t<li>Backorder Management.</li>\n\t<li>Tracking the inventory, registering of the new arrived items for backorders, and moving the orders to processing so that they can be shipped&nbsp;</li>\n\t<li>Stronger Customer Relationships. Order self-service along with the ability to inquire order, delivery, and payment information for the customer helps increase customer satisfaction</li>\n\t<li>Improved cash flow among your finance and sales departments&nbsp;</li>\n\t<li>A more streamlined process of order management. Reduced times for reports creation, full control of the quote and order processing with an intelligent workflow for approval routing, pricing, and special discounts&nbsp;</li>\n\t<li>Improved efficiency of order processing. A good system will allow you to ship products from multiple warehouses and automate order routes to the correct fulfillment center. Plus, a B2B multi-channel inventory management solution will let you send orders from any sales channel to your centralized system, saving massive amounts of time on a daily basis</li>\n\t<li>Order Combining and Prioritization. Batch orders in bulk and set processing priorities&nbsp;</li>\n\t<li>Improved sales thanks to order tracking software&nbsp;</li>\n\t<li>Multi-Tier Support. To allow your order tracking software grow with your retail and wholesale business - accommodating flexible pricing options and order management capabilities&nbsp;</li>\n\t<li>Reduced costs by eliminating manual data entry&nbsp;</li>\n\t<li>Increased data control due to the absence of human error in the process of using order fulfillment software&nbsp;</li>\n\t<li>Improved business performance with the ability to ship faster&nbsp;</li>\n\t<li>Increased customer satisfaction because of the reduced load of paperwork on your team, which enables them to service your customers at their best abilities. Having a good B2B enterprise order fulfillment system can be extremely beneficial for your business and will increase ROI.&nbsp;</li>\n</ul>\n",
+        "url": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "Text",
+        "title": "Try Virto Commerce's Order Tracking Software",
+        "h1": null,
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">Virto Commerce&#39;s order tracking software introduces the best practices when it comes to order fulfillment and helps manufacturers, wholesalers, and distributors reduce costs, improve customer support and start selling globally without the pain of processing orders manually. Virto Commerce allows you to consolidate and process your orders across multiple sales channels with seamless tracking.&nbsp; Contact us for more details.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Get in Touch",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     }
 ]

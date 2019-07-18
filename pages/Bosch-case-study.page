@@ -31,15 +31,16 @@
         "title": " ",
         "style": "light",
         "decorator": "none",
-        "content": "<h3>&quot;We chose Virto Commerce because it is the only platform that had the customizability and support options that we need. From pre-service consultation to technical team support, Virto Commerce was responsive and informative, and most importantly, able to provide valuable insight into our core needs.&quot;~ Cornelius Munz, BOSCH Digital</h3>\n",
+        "content": "<h3>&quot;We chose Virto Commerce because it is the only platform that had the customizability and support options that we need. From pre-service consultation to technical team support, Virto Commerce was responsive and informative, and most importantly, able to provide valuable insight into our core needs.&quot;~ Cornelius Munz, BOSCH Digital&nbsp;</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
             "style": "btn--orange btn--round"
         },
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,

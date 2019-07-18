@@ -44,7 +44,7 @@
         "name": null,
         "title": "Benefits of Cloud Ecommerce",
         "intro": null,
-        "style": null,
+        "style": "dark",
         "colStyle": "col-lg-6",
         "items": [
             {
@@ -86,8 +86,8 @@
         "type": "list-with-images",
         "name": null,
         "title": "How Should I Evaluate Digital Commerce Vendors?",
-        "intro": "<h3 style=\"text-align: center;\">Cloud computing services fall under several distinct categories. Each of these models or their combinations allows you to create the perfect foundation for your ecommerce suite.</h3>\n",
-        "style": "dark",
+        "intro": "<h3 style=\"text-align:center\">Cloud computing services fall under several distinct categories. Each of these models or their combinations allows you to create the perfect foundation for your ecommerce suite.</h3>\n",
+        "style": "light",
         "colStyle": "col-lg-6",
         "items": [
             {
@@ -124,7 +124,7 @@
         "title": "Virto Commerce: A Cloud Based Ecommerce Solution",
         "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">Learn more about Virto Commerce, an enterprise level ecommerce platform that was designed for cloud.&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Learn more about Virto Commerce, an enterprise level ecommerce platform that was designed for cloud.&nbsp;</p>\n",
         "url": {
             "url": "https://virtocommerce.com/contact-us",
             "urlText": "Get a Demo",

@@ -43,8 +43,8 @@
         "type": "two-columns-text",
         "name": null,
         "title": "Elastic Path Alternatives",
-        "style": "dark",
-        "contentBefore": "<h3 style=\"text-align: center;\">There are many factors to consider when choosing a hosted shopping cart and ecommerce platform.&nbsp;Below are reviews of the top Elastic Path Competitors:</h3>\n",
+        "style": "light",
+        "contentBefore": "<h3 style=\"text-align:center\">There are many factors to consider when choosing a hosted shopping cart and ecommerce platform.&nbsp;Below are reviews of the top Elastic Path Competitors:</h3>\n",
         "items": [
             {
                 "text": "<ul>\n\t<li><strong>Salesforce Commerce Cloud</strong></li>\n</ul>\n\n<p>Salesforce Commerce Cloud offers the features of channel management and content management that Elasticpath lacks. This Elasticpath alternative is a cloud based SaaS platform, meaning you wouldn&#39;t have to worry about maintaining its infrastructure. With its vast template library you can easily build an eye-catching website and implement the best UX practices within it.&nbsp;<br />\nOne negative about this alternative to Elasticpath is its human resource requirements, meaning you need to hire a professional programmer. However, you are looking for an enterprise solution and have the development power and resources to manage Commerce Cloud&#39;s top features and practices, it&#39;s worth a look.&nbsp;</p>\n"
@@ -61,24 +61,26 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 5,
         "type": "text",
         "name": null,
-        "title": "Virto Commerce",
+        "title": "Learn More About Virto Commerce",
         "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p>Our Virto Commerce platform, unlike Elastic Path, is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Virto Commerce is the most flexible and scalable .NET platform available today.</p>\n",
+        "content": "<p style=\"text-align:center\">Our Virto Commerce platform, unlike Elastic Path, is an example of a 100% agile platform &ndash; it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Virto Commerce is the most flexible and scalable .NET platform available today.</p>\n",
         "url": {
             "url": "https://www.virtocommerce.com/contact-us",
-            "urlText": "Get a Demo",
+            "urlText": "Request a Demo Today",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 6,
@@ -116,9 +118,9 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/invetory-management.jpg"
                 },
-                "text": "<p>What is Inventory Management?</p>\n",
+                "text": "<p>What is Inventory Management? Learn about inventory management for ecommerce in this article.&nbsp;</p>\n",
                 "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -126,6 +128,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

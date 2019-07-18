@@ -77,7 +77,7 @@
             "style": "btn--orange btn--round"
         },
         "noTop": null,
-        "noBottom": null,
+        "noBottom": true,
         "noPad": null
     },
     {

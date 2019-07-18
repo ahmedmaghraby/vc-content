@@ -41,8 +41,9 @@
             }
         ],
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
@@ -92,13 +93,14 @@
         "decorator": "section--pattern",
         "content": "<p>Virto Commerce has put together a RFP template to help guide your ecommerce vendor selection process.&nbsp; Download it here and use it to start your journey.&nbsp;</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/free-sample-RFP",
+            "url": "https://virtocommerce.com/glossary/request-for-proposal",
             "urlText": "Download Now",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 8,

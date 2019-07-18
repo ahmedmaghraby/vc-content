@@ -1,0 +1,98 @@
+[
+    {
+        "type": "settings",
+        "title": "Lavazza B2C and B2B Ecommerce Case Study",
+        "permalink": "case-studies/lavazza",
+        "header": "Lavazza B2C and B2B Ecommerce Case Study",
+        "description": "Lavazza Nederland B2C and B2B Ecommerce Case Study",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Lavazza Success Story",
+        "h1": null,
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>&quot;We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need -- today and long-term. With Virto, the product options are customizable for both B2B and B2C activities - and that improved customer ordering experiences and streamlined our processes.&quot; -- rb2 ecommerce team</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h4>THE CHALLENGE</h4>\n\n<p>Lavazza Nederland needed a new ecommerce platform because their current solution was outdated and no longer aligned with the current or future goals. They needed to respond to both B2B and B2C customers&#39; needs for a better online shopping experience, personalized transactions, up-to-date customer insights, and product information. The implementation was technically complex because other systems needed to link and integrate seamlessly across Lavaza&#39;s ecosystem. Furthermore, the B2B and B2C activities had to be unified to streamline workflow and avoid managing multiple catalogs and duplicate work on the backend. Lavazza searched for a robust and flexible ecommerce platform and selected Virto Commerce because it could handle this data integration, be deployed in multiple countries, and was both flexible and scalable.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

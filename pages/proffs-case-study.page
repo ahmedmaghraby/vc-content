@@ -1,0 +1,98 @@
+[
+    {
+        "type": "settings",
+        "title": "Proffsmagasinet  Ecommerce Case Study",
+        "permalink": "case-studies/proffsmagasinet",
+        "header": "Proffsmagasinet Case Study",
+        "description": "Proffsmagasinet  Ecommerce Case Study",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Proffsmagasinet Success Story",
+        "h1": null,
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>We are a fast growing business, so we need a platform that would not only allow us to expand, but also keep up with the ever growing needs and demands of our sales strategies. Virto Commerce definitely ticks those boxes being easily scalable and extremely flexible. By switching to this solution, we are adopting technologies that will allow us to add new channels easily and customize the product catalog for each of them, while keeping track of the overall sales and assortment.&nbsp;Andreas Kardell, CTO at Proffsmagasinet.se.</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Providing Maximum Scalability and Centralization for a Business Expanding Internationally</h3>\n\n<p>Sweden&#39;s Proffsmagasinet is a leading e-commerce company in the Nordic region that provides tools, laser and measuring apparatus and other equipment for professionals in the building trade with multiple payment and delivery options online.</p>\n\n<h4>CHALLENGE</h4>\n\n<p>Proffsmagasinet grew so fast, that the old system couldn&rsquo;t keep up with such fast growth and Proffsmagasinet needed to implement lots of new system where the e-commerce platform is the core. Though, the e-commerce platform needed to be able to easily integrate with the ERP system and other third-party systems. Proffsmagasinet wanted to be able to customize the platform according to their need and current business opportunities. The new platform also needed to be able to automatically scale up and down depending on spikes in traffic during campaigns.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download the Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

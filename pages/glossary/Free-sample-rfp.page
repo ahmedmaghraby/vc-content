@@ -1,0 +1,88 @@
+[
+    {
+        "type": "settings",
+        "title": "Free Ecommerce RFP Template for Download.",
+        "permalink": "glossary/request-for-proposal",
+        "header": "Free Ecommerce RFP Template for Download",
+        "description": "Free Ecommerce RFP Template for Download.   Download our excel template to guide your Ecommerce RFP process.",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Free Downloadable RFP Template for Ecommerce Platform Evaluations",
+        "h1": null,
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/helloquence-5fNmWej4tAA-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "Get started on B2B Ecommerce with our RFP (Request for Proposal) Template",
+        "h1": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3><a href=\"https://www.youtube.com/watch?time_continue=6&amp;v=BZezTvC0604\">Watch this video to learn how to use the RFP Template</a></h3>\n\n<h3>Many companies require a Request For Proposal (RFP) process to select ecommerce software, and that effort can be challenge and resource-intensive. To help you get started, we collected the most important business requirements and technical features that a company should ask when researching B2B ecommerce vendors.</h3>\n\n<p><strong>Who should use this RFP Template?</strong><br />\nWhether you&rsquo;re launching a new ecommerce project or replatforming an existing site, this RFP Template serves as a robust resource to help you compare capabilities of several B2B ecommerce vendors.</p>\n\n<p><strong>This B2B Ecommerce Template is a great resource for:</strong></p>\n\n<ul>\n\t<li>Ecommerce Managers / Digital Commerce Leaders</li>\n\t<li>IT Managers and Chief Information Officers</li>\n\t<li>Application Developers</li>\n\t<li>Agencies and Consultants</li>\n\t<li>Chief Marketing Officers, Directors of Marketing</li>\n\t<li>Business Analysts</li>\n</ul>\n\n<p><strong>Is there another way to compare Ecommerce vendors?</strong><br />\nYes, there is! You can get there faster with a&nbsp;<strong>Proof of Concept (POC)</strong>. In this Virto RFP Template, you&rsquo;ll see a best-practice recommendation for your evaluation: ask two or three ecommerce vendors to build a Proof of Concept for you. They should be able to do this in two weeks and show you the software in action, as it relates to a challenge in your business.<br />\n<strong>The best news? Virto Commerce will create a POC for free.</strong>&nbsp;&nbsp;</p>\n",
+        "url": {
+            "urlText": "Request a Free Proof of Concept or a Demo Today.",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "custom-form",
+        "name": "Doownload",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download the RFP Template",
+        "intro": "<p>Please fill out the below form to download the RFP Template in Excel.&nbsp;</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Download Now"
+    }
+]

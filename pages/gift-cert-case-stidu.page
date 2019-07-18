@@ -1,0 +1,98 @@
+[
+    {
+        "type": "settings",
+        "title": "Gift Certificates.com White Labeled Ecommerce Case Study",
+        "permalink": "https://virtocommerce.com/case-studies/gift",
+        "header": "Gift Certificates.com White Labeled Ecommerce Case Study",
+        "description": "Gift Certificates.com White Labeled Ecommerce Case Study",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Giftcertificates.com Success Story",
+        "h1": null,
+        "titleAlignment": null,
+        "subTitle": "",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.29.22 PM.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>The new platform takes advantage of a lot of the latest thoughts on high performance, high quality software development. By adopting this solution, we are adopting technologies that will allow us to better structure how we build the rest of our systems internally. It&rsquo;s the flagship for our reengineering of our technology practices.&nbsp;Kevin Cory, VP-Technology and Strategic Planning, GC Incentives.</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.29.22 PM.png"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Transforming a Complex Legacy System to an Agile,&nbsp;Easily Scalable Platform</h3>\n\n<p>GiftCertificates.com B2B/B2C Platform Case Study</p>\n\n<h4>CHALLENGE</h4>\n\n<p>As a major provider of gift card incentives, GC Incentives&rsquo; ecommerce platform included more than 300 merchants, housed 5000 different company sites, and served 10 million users. A high degree of customization was required to meet the variable needs of each company. Because the platform was outsourced, it hindered GC Incentive&rsquo;s ability to quickly add new capabilities and services in response to those needs. In addition, over time unique sites were created for each company, leading to a large number of multiple redundancies of similar solutions and an unwieldy level of complexity.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

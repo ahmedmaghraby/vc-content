@@ -31,75 +31,125 @@
         "title": null,
         "style": null,
         "decorator": null,
-        "content": "<p><strong>Personalization is the key concept B2B companies need to embrace as consumers expect a consistent experience across web, mobile, and other touch points.</strong></p>\n\n<p>To manage an omni-channel user experience, enterprise Business leaders like Amazon and Netflix utilize headless commerce as they know traditional digital commerce platforms can&#39;t change fast enough to keep up with the pace of the consumer market. Additionally, a traditional ecommerce platform lacks the flexibility B2B businesses need to quickly APIfy other providers, data or solutions into their ecommerce front end, providing a coherent user experience across multi touch points.</p>\n\n<p>Choosing a platform with a traditional approach may be ok for a small store, but B2B businesses who strive to provide consistency across channels should consider more flexible platforms. Virto Commerce&#39;s headless architecture separates the content presentation layer that your end customers see from the back end business logic and functional layer. This makes Virto Commerce&#39;s platform superior for B2B and other large businesses as it allows for flexibility, is extensible, provides a personalized B2C like experience, and doesn&#39;t restrict your growth. Headless design allows for unlimited customization, more flexibility in content delivery and a better user experience overall.</p>\n",
-        "url": null
+        "content": "<h3><strong>Personalization is the key concept B2B companies need to embrace as consumers expect a consistent experience across web, mobile, and other touch points.</strong></h3>\n\n<p>To manage an omni-channel user experience, enterprise Business leaders like Amazon and Netflix utilize headless commerce as they know traditional digital commerce platforms can&#39;t change fast enough to keep up with the pace of the consumer market. Additionally, a traditional ecommerce platform lacks the flexibility B2B businesses need to quickly APIfy other providers, data or solutions into their ecommerce front end, providing a coherent user experience across multi touch points.</p>\n\n<p>Choosing a platform with a traditional approach may be ok for a small store, but B2B businesses who strive to provide consistency across channels should consider more flexible platforms. Virto Commerce&#39;s headless architecture separates the content presentation layer that your end customers see from the back end business logic and functional layer. This makes Virto Commerce&#39;s platform superior for B2B and other large businesses as it allows for flexibility, is extensible, provides a personalized B2C like experience, and doesn&#39;t restrict your growth. Headless design allows for unlimited customization, more flexibility in content delivery and a better user experience overall.</p>\n",
+        "url": null,
+        "h1": null,
+        "titleAlignment": null,
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 4,
         "type": "list-with-images",
-        "name": null,
-        "title": "Advantages of Virto Commerce for B2B Omni-Channel Experiences",
-        "intro": "<p>Personalize multi touch user experiences through our headless digital commerce platform</p>\n",
+        "name": "List with images",
+        "title": "Advantages of Virto Commerce for Omni-Channel Experiences",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<p style=\"text-align:center\"><strong>Personalize multi touch user experiences through our headless digital commerce platform</strong></p>\n",
         "style": "dark",
-        "colStyle": null,
+        "colStyle": "col-md-6 col-lg-4",
         "items": [
             {
-                "image": null,
-                "title": "Cost savings through a long term partnership",
-                "text": "<p>With an out of the box solution, you run the risk of outgrowing your platform. Headless ensures you won&#39;t sink funding into an investment that can only support your business for a fixed amount of time.&nbsp;<br />\n<br />\nThe decoupled user interface allows you to make more frequent and more cost-effective updates as your needs evolve. With a headless, flexible platform &ndash; that supports micro services &ndash; you aren&#39;t tied down to specific solutions. You can pick and choose between different services and add and remove pieces as needs change.&nbsp;</p>\n"
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/payment.png"
+                },
+                "title": "Reduced Total Cost of Ownership",
+                "text": "<p>With an out of the box solution, you run the risk of outgrowing your platform. Headless ensures you won&#39;t sink funding into an investment that can only support your business for a fixed amount of time.&nbsp;<br />\n<br />\nThe decoupled user interface allows you to make more frequent and more cost-effective updates as your needs evolve. With a headless, flexible platform &ndash; that supports micro services &ndash; you aren&#39;t tied down to specific solutions. You can pick and choose between different services and add and remove pieces as needs change.&nbsp;</p>\n",
+                "iconStyle": "",
+                "url": null
             },
             {
-                "image": null,
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/scalable.png"
+                },
                 "title": "Endless extensibility for an omni-channel user experience",
-                "text": "<p>Perfect for the complexities of B2B ecommerce, Virto Commerce&#39;s platform has endless personalization options, providing the best user experience for your customers. Headless makes this possible, allowing you to assemble a customized, tightly integrated experience with the fastest time to value.</p>\n"
+                "text": "<p>Perfect for the complexities of B2B ecommerce, Virto Commerce&#39;s platform has endless personalization options, providing the best user experience for your customers. Headless makes this possible, allowing you to assemble a customized, tightly integrated experience with the fastest time to value.</p>\n",
+                "iconStyle": "",
+                "url": null
             },
             {
-                "image": null,
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/globe.png"
+                },
                 "title": "Supports expansion into other business lines",
-                "text": "<p>Once your platform is set up, using Virto Commerce&#39;s expert implementation process (link), it&#39;s simple to deploy in additional geographies, making Virto Commerce ideal for international enterprises.</p>\n"
+                "text": "<p>Once your platform is set up, using Virto Commerce&#39;s expert implementation process (link), it&#39;s simple to deploy in additional geographies, making Virto Commerce ideal for international enterprises</p>\n",
+                "iconStyle": "",
+                "url": null
             }
-        ]
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 5,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Ready to get started? ",
-        "subTitle": null,
-        "image": null,
-        "content": "<p>Contact us now to learn more about our customized digital commerce solutions, and to request a free Proof of Concept</p>\n",
-        "url1": {
-            "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Contact Us",
-            "style": "btn--orange"
+        "type": "text",
+        "name": "CTA",
+        "title": "Download our Architectural Guidelines for a closer look at our headless, flexible and scalable architecture",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "",
+        "url": {
+            "url": "https://virtocommerce.com/download-architectural-guidelines",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Download Now"
         },
-        "url2": null
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 6,
         "type": "cards",
         "name": null,
         "title": "View success stories of enterprises who leverage Virto for their digital commerce solutions:",
-        "style": null,
+        "style": "dark",
         "items": [
             {
                 "title": "Bosch Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch2.png"
                 },
-                "text": "<p>Learn how Bosch created a customer portal using Virto Commerce.</p>\n",
+                "text": "<p>Learn how Bosch created a&nbsp; customized customer loyalty portal using Virto Commerce.</p>\n",
                 "link": {
                     "url": "https://virtocommerce.com/case-studies/bosch",
-                    "urlText": "Bosch Case Study",
+                    "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
             },
             {
-                "title": null,
-                "image": null,
-                "text": null,
-                "link": null
+                "title": "Lavazza Case Study",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+                },
+                "text": "<p>When Lavazza Nederland needed a complex B2B and B2C solution, they turned to Virto Commerce.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/lavazza",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Standaard Boekhandel Case Study",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/standard.png"
+                },
+                "text": "<p>Belgium&#39;s largest book seller outgrew their monolothic ecommerce platform.&nbsp; They moved over to Virto Commerce for the flexibility they needed.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
             }
-        ]
+        ],
+        "h1": null,
+        "titleAlignment": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     }
 ]

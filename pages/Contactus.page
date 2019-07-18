@@ -11,7 +11,7 @@
         "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
-        "title": "Request a Demo",
+        "title": "Request a  Virto Commerce Demo",
         "subTitle": "Get in Touch",
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/berkeley-communications-WEDDt-u3q3o-unsplash.jpg"
@@ -32,8 +32,8 @@
         "noTop": true,
         "noBottom": true,
         "noPad": true,
-        "title": "Get a Demo",
-        "intro": "<p>Please fill out the below form, and someone from team will be in touch shortly to schedule a demo at your convenience.&nbsp;</p>\n",
+        "title": "Get in Touch",
+        "intro": "<p>Please fill out the below form, and someone from team will be in touch shortly to schedule a demo at your convenience, or answer any questions you have about our platform.&nbsp;</p>\n",
         "fields": [
             {
                 "label": "Full name",
@@ -88,8 +88,8 @@
                 "label": "How Would You Describe Yourself? ",
                 "name": "Please select from the following",
                 "type": "select",
-                "data": "I am a business or technical user; I am a developer interested in trying Virto Commerce ; I am creating a solution for a client",
-                "fullrow": false
+                "data": "I am a business or technical user who needs/has an ecommerce platform; I am a developer interested in trying Virto Commerce ; I am creating a solution for a client",
+                "fullrow": true
             },
             {
                 "label": "Please tell us about your project, or use this space for any other comments or questions you have.  ",

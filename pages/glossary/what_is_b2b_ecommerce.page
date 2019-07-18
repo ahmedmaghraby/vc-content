@@ -14,7 +14,9 @@
         "name": null,
         "title": "What is Business to Business Ecommerce?  ",
         "subTitle": "VIRTO COMMERCE B2B DIGITAL COMMERCE EDUCATION",
-        "image": null,
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/sean-pollock-PhYq704ffdA-unsplash.jpg"
+        },
         "content": "<p>Learn about B2B Ecommerce, or business to business e commerce</p>\n",
         "url1": null,
         "url2": null,
@@ -112,13 +114,13 @@
         "id": 7,
         "type": "text",
         "name": null,
-        "title": "Virto Commerce offers a B2B Ecommerce Solution that meets all your scalability and flexibility needs",
-        "style": null,
+        "title": "Virto Commerce offers an ideal B2B Ecommerce Platform",
+        "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">Learn more about our excellence in architecture, and explore our <a href=\"https://virtocommerce.com/case-studies\">case studies</a>&nbsp;to see why we were chosen by Bosch, Vivint, Volvo and other top companies.&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Learn more about our excellence in architecture, and explore our <a href=\"https://virtocommerce.com/case-studies\">case studies</a>&nbsp;to see why we were chosen by Bosch, Vivint, Volvo and other top companies.&nbsp;</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Get a Demo",
+            "url": "https://virtocommerce.com/b2b-ecommerce-solution",
+            "urlText": "Learn More",
             "style": "btn btn--orange btn--lg"
         },
         "h1": true,

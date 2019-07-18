@@ -86,19 +86,22 @@
         "noPad": null
     },
     {
-        "id": 6,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Want to speak to ecommerce experts?",
-        "subTitle": "",
-        "image": null,
-        "content": "<p>Contact Virto Commerce, creators of the most flexible ecommerce solution available</p>\n",
-        "url1": {
+        "id": 8,
+        "type": "text",
+        "name": "CTA",
+        "title": "Learn More About Virto Commerce",
+        "h1": null,
+        "style": "dark",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">A .NET open source ecommerce solution, Virto Commerce is the perfect ecommerce platform to handle the large volumes of orders&nbsp; that B2B companies handle.&nbsp; Request a demo to find out how Virto Commerce can help your business grow for years to come.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Get a Demo",
             "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Contact us",
-            "style": "btn--orange"
+            "style": "btn btn--orange btn--round"
         },
-        "url2": null
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 7,

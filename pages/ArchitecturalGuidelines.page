@@ -1,9 +1,10 @@
 [
     {
         "type": "settings",
-        "title": "",
-        "permalink": "download-architectural-guidelines",
-        "id": 1
+        "title": "Download our B2B Enterprise Ecommerce Architecture Details",
+        "permalink": "download-arch-guidelines",
+        "id": 1,
+        "header": "Download Virto Commerce's Architectural Guidelines"
     },
     {
         "id": 2,

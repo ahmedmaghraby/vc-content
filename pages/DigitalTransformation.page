@@ -11,14 +11,19 @@
         "id": 2,
         "type": "text-over-image",
         "name": null,
-        "title": "YOU CAN'T AFFORD TO POSTPONE YOUR DIGITAL TRANSFORMATION",
+        "title": "You Can't Afford To Postpone Your Digital Transformation",
         "subTitle": null,
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/digitaltransheader.png"
         },
         "content": "<p>Prepare yourself for unlimited business growth</p>\n",
         "url1": null,
-        "url2": null
+        "url2": null,
+        "h1": null,
+        "titleAlignment": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 3,
@@ -77,7 +82,7 @@
         "name": null,
         "title": "You Can't Afford to Postpone Your Transformation. ",
         "style": "dark",
-        "contentBefore": "<p>Your success in this rapidly changing environment depends on business agility -- being prepared for anything. By going digital, be ready to overcome obstacles along the way, from competition to consumer expectations to changing technologies. Manage all this without losing sight of internal priorities, timeline, and budget.&nbsp;&nbsp;</p>\n\n<p>Every day and dollar you continue to invest in the wrong solution, just adds to your costs down the line.&nbsp; If you are considering replacing a legacy solution, outgrowing monolithic architure or an out-of-the-box platform, your digital transformation needs to start as soon as possible to avoid negative effects to your business&nbsp;in the near future.&nbsp;</p>\n",
+        "contentBefore": "<p>Your success in this rapidly changing environment depends on business agility -- being prepared for anything. By going digital, be ready to overcome obstacles along the way, from competition to consumer expectations to changing technologies. You need to manage all this without losing sight of internal priorities, timeline, and budget.&nbsp;&nbsp;</p>\n\n<p>Every day and dollar you continue to invest in the wrong solution, just adds to your costs down the line.&nbsp; If you are considering replacing a legacy solution, outgrowing monolithic architure or an out-of-the-box platform, your digital transformation needs to start as soon as possible to avoid negative effects to your business&nbsp;in the near future.&nbsp;</p>\n",
         "items": [
             {
                 "text": null
@@ -85,7 +90,8 @@
         ],
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 7,
@@ -101,49 +107,62 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/roadmap.png"
                 },
                 "title": "Implementation Planning",
-                "text": "<p>Experience You Can Leverage. The Virto (COUP) Cross-Organizational Unified Process provides our enterprise customers with a rubric for structuring a robust and cohesive human resources organization built to support an evolving commerce ecosystem. Virto Commerce&#39;s leadership team is composed of passionate and seasoned B2B ecommerce experts who built our platform from the ground up. They know our architecture inside and out and how to use it to solve your most complex business and technical issues.&nbsp;</p>\n"
+                "text": "<p>Experience You Can Leverage. The Virto (COUP) Cross-Organizational Unified Process provides our enterprise customers with a rubric for structuring a robust and cohesive human resources organization built to support an evolving commerce ecosystem. Virto Commerce&#39;s leadership team is composed of passionate and seasoned B2B ecommerce experts who built our platform from the ground up. They know our architecture inside and out and how to use it to solve your most complex business and technical issues.&nbsp;</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/business leaders.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/user.svg"
                 },
                 "title": "Worldwide Partner Network",
-                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"https://virtocommerce.com/find-b2b-ecommerce-partner\">Contact us to find the best partner to fit your needs.</a></p>\n"
+                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"https://virtocommerce.com/find-b2b-ecommerce-partner\">Contact us to find the best partner to fit your needs.</a></p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/process.png"
                 },
                 "title": "Defined Delivery Process",
-                "text": "<p>Virto Commerce has a clear process that we use to get your perfect platform implemented on time and within budget. <a href=\"https://virtocommerce.com/delivery-plan\">Download our Delivery Plan&nbsp;</a>to understand how we structure our implementations.</p>\n"
+                "text": "<p>Virto Commerce has a clear process that we use to get your perfect platform implemented on time and within budget. <a href=\"https://virtocommerce.com/delivery-plan\">Download our Delivery Plan&nbsp;</a>to understand how we structure our implementations.</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_4.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bolt.svg"
                 },
                 "title": "Get to Market Faster",
-                "text": "<p>The Virto Platform accelerates development timelines with enterprise out of the box commerce tools and a scalable, API-based, microservices architecture, facilitating tremendous opportunities for serious enterprise digital commerce solutions.</p>\n"
+                "text": "<p>The Virto Platform accelerates development timelines with enterprise out of the box commerce tools and a scalable, API-based, microservices architecture, facilitating tremendous opportunities for serious enterprise digital commerce solutions.</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/modular.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/settings.svg"
                 },
                 "title": "Create a Customized User Experience",
-                "text": "<p>The customer experience is at the center of your digital transformation. Consumers are increasingly savvy and expect consistent journeys across a variety of touch points. Their expectation is a seamless and personalized journey for every need -- from transactions as simple as buying their morning coffee to far more complicated B2B transactions.</p>\n"
+                "text": "<p>The customer experience is at the center of your digital transformation. Consumers are increasingly savvy and expect consistent journeys across a variety of touch points. Their expectation is a seamless and personalized journey for every need -- from transactions as simple as buying their morning coffee to far more complicated B2B transactions.</p>\n",
+                "iconStyle": null,
+                "url": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 8,
         "type": "text",
         "name": "Text",
-        "title": "Start Now.  Contact Us Today To Transform Your Ecommerce. ",
+        "title": "Start Now.  Contact Us Today To Begin Your Digital Transformation ",
         "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align:center\">Contact Us Today To Transform Your Ecommerce.&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Reach out to get a demo of Virto Commerce, and discuss how our&nbsp; flexible and scalable .NET ecommerce platform can be the foundation of your ecommerce journey.&nbsp;</p>\n",
         "url": {
             "urlText": "Get in Touch",
             "url": "https://virtocommerce.com/contact-us",
@@ -151,7 +170,8 @@
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 9,

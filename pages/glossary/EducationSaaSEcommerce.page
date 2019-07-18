@@ -32,11 +32,12 @@
         "title": "Answer",
         "style": null,
         "decorator": null,
-        "content": "<h3 style=\"text-align: center;\">Software as a Service or SaaS is a way of delivering services over the Internet, particularly SaaS refers to providing hosted applications and SaaS applications run on a provider&#39;s servers.</h3>\n",
+        "content": "<h3 style=\"text-align:center\">Software as a Service or SaaS is a way of delivering services over the Internet, particularly SaaS refers to providing hosted applications and SaaS applications run on a provider&#39;s servers.</h3>\n",
         "url": null,
         "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
@@ -61,8 +62,9 @@
         "content": "<p>SaaS has become hugely popular among business owners. At least 40% of online stores are based on SaaS ecommerce solutions, and 90% of all the stores use at least some form of SaaS service. First of all, by using SAAS, you do not need to buy expensive software. Second of all, there is no coding experience required. All of the website building is based on &quot;drag and drop&quot; operations. You get a whole set of functionalities with the ability to get the perfect site, specifically crafted for your needs. Also, ecommerce SaaS platforms like Intershop, Magento, and 3dcart are very scalable and can be easily adapted to any user&#39;s needs by offering a good amount of different applications, extensions, and plug-ins. Moreover, cloud-based SaaS platforms provides an easy way to connect to a single database that will hold any of the relevant website information. Lastly, you will always be able to enjoy working on your site by accessing your platform from any device imaginable without painful additional software installations.</p>\n",
         "url": null,
         "noTop": false,
-        "noBottom": null,
-        "noPad": null
+        "noBottom": true,
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 6,
@@ -72,7 +74,11 @@
         "style": null,
         "decorator": null,
         "content": "<p>There are certain pros and cons to each solution. In the end, it all comes down to what works best for your business. Traditionally, companies used to get on premise ecommerce solutions. They would obtain an enterprise software license, then install and maintain the required hardware and software within their own or controlled physical location. The biggest advantage of this solution is full control over everything that has to do with the company&#39;s ecommerce system down to every physical server and every software tweak. The downside is that your company will be the one responsible for setting up and constantly maintaining the hardware (and carrying all the costs associated with it) and re-calibrating all the software customizations every time there is an update.</p>\n\n<p>SaaS ecommerce solutions, on the other hand, are owned, maintained and managed remotely by the software provider. The provider will deliver your ecommerce SaaS software and take care of updating it on a regular basis, as well as maintaining the hardware infrastructure. The solution will be available to you and accessible from anywhere by simply logging in online and financed on a pay-as-you-go or a subscription basis based on use metrics.</p>\n",
-        "url": null
+        "url": null,
+        "h1": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 7,
@@ -117,11 +123,29 @@
         "noPad": null
     },
     {
+        "id": 9,
+        "type": "text",
+        "name": "cta",
+        "title": "Don't Wait Any Longer. Try One of The Top SaaS Ecommerce Platforms on The Market. ",
+        "h1": null,
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">Get a demo of Virto Commerce, and you will see how our .NET enterprise level ecommerce platform can power businesses of all sizes, in all industries, to ecommerce success.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Request a Demo",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
         "id": 8,
         "type": "cards",
         "name": null,
         "title": "Learn More About Digital Commerce in Virto Commerce's B2B Ecommerce Education Center",
-        "style": null,
+        "style": "dark",
         "items": [
             {
                 "title": "Hosted Shopping Cart",
@@ -162,6 +186,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

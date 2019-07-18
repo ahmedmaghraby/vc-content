@@ -36,7 +36,8 @@
         "url": null,
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 4,
@@ -62,15 +63,16 @@
         "title": "Learn More About Virto Commerce",
         "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p>A .NET open source ecommerce platform, Virto Commerce is a top 3dCart alternative and the most flexible enterprise ecommerce platform available, and can be customized to meet all of your complex ecommerce requirements.&nbsp;</p>\n",
+        "content": "<p style=\"text-align: center;\">A .NET open source ecommerce platform, Virto Commerce is a top 3dCart alternative and the most flexible enterprise ecommerce platform available, and can be customized to meet all of your complex ecommerce requirements.&nbsp;</p>\n",
         "url": {
             "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Get a Demo",
+            "urlText": "Get a Demo of Virto Commerce",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
         "id": 6,
@@ -98,7 +100,7 @@
                 },
                 "text": "<p>Learn more about how to handle backorders and fufillment</p>\n",
                 "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/glossary/what-is-backorder",
                     "urlText": "Read more",
                     "style": "btn--orange btn--round"
                 }
@@ -110,7 +112,7 @@
                 },
                 "text": "<p>What is Inventory Management?</p>\n",
                 "link": {
-                    "url": null,
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management",
                     "urlText": "Read more",
                     "style": "btn--orange btn--round"
                 }
@@ -118,6 +120,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

@@ -48,7 +48,7 @@
         "noPad": null
     },
     {
-        "id": 6,
+        "id": 5,
         "type": "two-columns-text",
         "name": null,
         "title": "Best Alternatives to Episerver:",
@@ -67,7 +67,7 @@
         "noPad": null
     },
     {
-        "id": 7,
+        "id": 6,
         "type": "two-columns-text",
         "name": null,
         "title": "",
@@ -85,7 +85,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "type": "two-columns-text",
         "name": null,
         "title": "",
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "type": "two-columns-text",
         "name": null,
         "title": "",
@@ -121,13 +121,13 @@
         ]
     },
     {
-        "id": 10,
+        "id": 9,
         "type": "text",
         "name": null,
         "title": "Get a Demo of Virto Commerce",
         "style": null,
         "decorator": "section--pattern",
-        "content": "<p>A .NET open source ecommerce platform, Virto Commerce is a top Episerver alternative and the most flexible enterprise ecommerce platform available, and can be customized to meet all of your complex ecommerce requirements.&nbsp;</p>\n",
+        "content": "<p style=\"text-align: center;\">A .NET open source ecommerce platform, Virto Commerce is a top Episerver alternative and the most flexible enterprise ecommerce platform available, and can be customized to meet even your most complex ecommerce requirements.&nbsp;</p>\n",
         "url": {
             "url": "https://virtocommerce.com/contact-us",
             "urlText": "Get a Demo",
@@ -135,14 +135,15 @@
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
-        "id": 11,
+        "id": 10,
         "type": "cards",
         "name": "Text",
         "title": "Explore Our Ecommerce Education Center:",
-        "style": "light",
+        "style": "dark",
         "items": [
             {
                 "title": "Elastic Path Alternatives & Competitors",
@@ -161,11 +162,11 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
                 },
-                "text": "What is Inventory Management? Why is it important in ecommerce?",
+                "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "#"
+                    "url": "https://virtocommerce.com/glossary/what-is-inventory-management"
                 }
             },
             {
@@ -173,16 +174,17 @@
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
                 },
-                "text": "Learn more on how to handle backorders and fulfillment",
+                "text": "<p>Learn more on how to handle backorders and fulfillment.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "#"
+                    "url": "https://www.virtocommerce.com/glossary/what-is-backorder"
                 }
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

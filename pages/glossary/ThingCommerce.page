@@ -88,21 +88,25 @@
         "type": "text",
         "name": null,
         "title": "Want to learn more about cutting edge  ecommerce?",
-        "style": "dark",
+        "style": "light",
         "decorator": "section--pattern",
-        "content": "<p>Contact Virto Commerce and our experts would be happy to discuss how thing commerce is important to your business.&nbsp;&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Contact Virto Commerce, creators of the most extensible .NET ecommerce platform available. Our experts would be happy to discuss how you can integrate thing commerce into your ecommerce platform.&nbsp;</p>\n",
         "url": {
             "url": "https://virtocommerce.com/contact-us",
             "urlText": "Contact us",
             "style": "btn btn--orange btn--lg"
-        }
+        },
+        "h1": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 9,
         "type": "cards",
         "name": "Text",
         "title": "Explore Virto's Ecommerce Education Center",
-        "style": "light",
+        "style": "dark",
         "items": [
             {
                 "title": "What is a Hosted Shopping Cart?",
@@ -143,6 +147,7 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     }
 ]

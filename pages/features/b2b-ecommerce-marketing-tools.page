@@ -10,15 +10,19 @@
     {
         "id": 2,
         "type": "text-over-image",
-        "name": null,
+        "name": "header",
         "title": "B2B Ecommerce Marketing & Promotion Features",
         "subTitle": "",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/hero.png"
+            "url": "https://vc4test.blob.core.windows.net/blogs/jj-ying-UcI5OAPD820-unsplash.jpg"
         },
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and build loyalty with promotion features built especially for B2B companies.</p>\n",
         "url1": null,
-        "url2": null
+        "url2": null,
+        "h1": true,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     },
     {
         "id": 3,
@@ -39,7 +43,7 @@
         "name": null,
         "title": "Grow Revenue and Customer Loyalty <br> With Robust Marketing Features",
         "intro": "",
-        "style": null,
+        "style": "dark",
         "colStyle": "col-lg-6",
         "items": [
             {
@@ -85,24 +89,25 @@
                 "text": "<p>Create customized shipping promotions to increase revenue per customer and brand loyalty.</p>\n"
             }
         ],
-        "noTop": null,
+        "noTop": false,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "h1": null
     },
     {
-        "id": 5,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Learn more about Virto Commerce's marketing tools",
-        "subTitle": "Get To Market Faster",
-        "image": null,
-        "content": null,
-        "url1": {
+        "id": 7,
+        "type": "text",
+        "name": "CTA",
+        "title": "Learn More About Virto Commerce's Marketing Tools.  ",
+        "h1": null,
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align: center;\">Request a demo today to see all the features and functionality Virto Commerce offers to help you grow your revenue through targeted marketing and promotions.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Request a Demo",
             "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Get a Demo",
-            "style": "btn--orange"
+            "style": "btn btn--orange btn--round"
         },
-        "url2": null,
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -112,7 +117,7 @@
         "type": "cards",
         "name": null,
         "title": "Explore Features Readily Available  <br>To Get You To Market Faster",
-        "style": null,
+        "style": "dark",
         "items": [
             {
                 "title": "Order Management ",
