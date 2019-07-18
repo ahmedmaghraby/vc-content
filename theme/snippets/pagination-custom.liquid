@@ -7,7 +7,7 @@
     {% if part.is_link %}
         <a class="list__item" href="{{ part.url }}" title="">{{ part.title }}</a>
     {% else %}
-        <span class="list__item">{{ part.title }}</span>
+        <span class="list__item list__item--active">{{ part.title }}</span>
     {% endif %}
   {% endfor %}
 

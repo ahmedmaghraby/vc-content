@@ -283,6 +283,11 @@
             color: $orange;
         }
     }
+	
+	@include media-breakpoint-down(xs)
+	{
+		display: none;
+	}
 }
 
 .list--aside
@@ -372,7 +377,8 @@
             width: 4.375rem;
         }
 
-        &:hover
+        &:hover,
+        &--active
         {
             background: $orange;
             border-color: $orange;

@@ -7270,6 +7270,7 @@ blockquote .author {
     border: 1px solid #d3d3d3;
     border-radius: .5rem;
     position: relative;
+    overflow: hidden;
 }
 
 .apps__detail-item > img {
@@ -7992,6 +7993,12 @@ textarea {
     color: #ffb608;
 }
 
+@media (max-width: 575.98px) {
+    .list--breadcrumb {
+        display: none;
+    }
+}
+
 .list--aside .list__sidebar {
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -8068,7 +8075,7 @@ textarea {
     width: 4.375rem;
 }
 
-.list--paging .list__item:hover {
+.list--paging .list__item:hover, .list--paging .list__item--active {
     background: #ffb608;
     border-color: #ffb608;
     color: #fff;
