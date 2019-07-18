@@ -33,20 +33,20 @@
         {{ settings.blog.sticked_article_url }}
     </div>
 
-    {% comment %}
-
-    <div class="posts __responsive" ng-if="articles || articles.length">
-        {% include 'blog-list-item-js' %}
+    <div class="posts __responsive container" ng-if="articles || articles.length">
+        <div class="list list--posts">
+            {% include 'blog-list-item-js' %}
+        </div>
     </div>
 
     {% if articles.size > page_size %}
-        <div class="more __responsive" ng-if="!isLastPage">
-            <a class="button fill" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
+        <div class="more __responsive container" ng-if="!isLastPage">
+            <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
         </div>
     {% endif %}
 
     {% include 'blog-trending-list' %}
-    {% endcomment %}
+
 </div>
 <script>
     window.blogName = '{{ blog.handle }}';

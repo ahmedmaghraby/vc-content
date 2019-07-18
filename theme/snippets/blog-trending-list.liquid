@@ -1,6 +1,6 @@
-<div class="trending __responsive">
-    <div class="trending-t">Trending articles</div>
-    <div class="trending-list">
+<div class="posts trending __responsive container">
+    <div class="blog__t">Trending articles</div>
+    <div class="list list--posts">
         {% if settings.blog_trending_article_url_1 %}
             {% assign article = blog.articles | where: 'Url', '==', settings.blog_trending_article_url_1 | first %}
             {% include 'blog-list-item', article: article, style: "single" %}
