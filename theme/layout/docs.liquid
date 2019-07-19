@@ -80,17 +80,16 @@
                 <div class="docs">
                     <div class="docs__header">
                         <div class="docs__inner container">
-                            <!--<div class="docs__header-search">
-                                <input type="text" placeholder="Search documentation… " class="form-control">
+                            <div class="docs__header-search">
+                                <form class="form" action="{{ '/content/search' | absolute_url }}" method="post">
+                                    <input name="SearchIn" id="SearchIn" type="hidden" value="/docs">
+                                    <input name="Layout" id="Layout" type="hidden" value="docs">
+                                    <input class="form-control" name="Keyword" id="Keyword" type="search" placeholder="Search documentation…" required="required" value="{{ search.terms }}">
+                                </form>
                             </div>
                             <div class="docs__header-nav">
-                                <ul class="nav">
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">Joint PR & Marketing Activities</a>
-                                    </li>
-                                    <li class="nav__item">System Requirements - Virto Commerce 2 Developer Guide</li>
-                                </ul>
-                            </div>-->
+                                {% include 'docs-breadcrumbs' %}
+                            </div>
                         </div>
                     </div>
                     <div class="docs__body container">

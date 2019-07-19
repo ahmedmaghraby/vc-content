@@ -39,6 +39,15 @@ a
     }
 }
 
+img
+{
+	&.img--expanded
+	{
+		width: 100%;
+		display: block;
+	}
+}
+
 // Headings
 h2
 {

@@ -18,7 +18,7 @@
         <!-- Blog main -->
         <div class="blog-main">
             <div class="blog-content">
-                <img src="{{ article.image_url }}" alt="">
+                <div class="blog-hero" style="background-image: url({% if article.image_url != blank %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></div>
                 {{ article.content | render }}
                 <div class="blog__meta">
                     <div class="list list--tags list--tags-small">

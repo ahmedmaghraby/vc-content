@@ -1,10 +1,18 @@
 ---
-title: As an admin, I want to set a recommended price for products in the price list so that customer see it in storefront
-description: As an admin, I want to set a recommended price for products in the price list so that customer see it in storefront
+title: Technical Case Studies
+description: A collection of technical case studies with architecture diagrams, value stream mapping examples, code, and other artifacts coupled with step by step details and learning resources. The stories showcase how Virto Commerce, customers, and partners are building solutions utilizing Virto Commerce and open source technologies to solve real world business challenges that cover small to large enterprises of varying industries around the world.
 layout: docs
+permalink: docs/technical-case-studies
 date: 2019-06-04
 priority: 1
 ---
+## Welcome to the Virto Commerce Technical Case Studies
+A collection of technical case studies with architecture diagrams, value stream mapping examples, code, and other artifacts coupled with step by step details and learning resources.
+The stories showcase how Virto Commerce, customers, and partners are building solutions utilizing Virto Commerce and open source technologies to solve real world business challenges that cover small to large enterprises of varying industries around the world.
+
+## Audience
+These Technical Case Studies has been prepared for the business-analyst, solution architect and senior developer to help them understand Virto Commerce capabilities and best-practices.
+
 ## Audience
 
 For Business Analyst, Solution Consultant, Solution Architect.

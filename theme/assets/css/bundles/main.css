@@ -4475,6 +4475,11 @@ a:hover {
     color: #dc3545;
 }
 
+img.img--expanded {
+    width: 100%;
+    display: block;
+}
+
 h2 {
     font-weight: bold;
 }
@@ -6552,6 +6557,26 @@ blockquote .author {
     .blog-main {
         margin-top: .3125rem;
     }
+}
+
+.blog-hero {
+    background-size: cover;
+    background-position: 50%;
+    height: 22rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+    border-radius: .625rem;
+    overflow: hidden;
+}
+
+.blog-hero::after {
+    content: ' ';
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .blog-content {
