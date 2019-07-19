@@ -56,7 +56,7 @@ aliases:
                     <div class="control-group">
                         <label class="text-14">By clicking «Start your journey now!» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</label>
                     </div>
-                     <input name="__fraudProtect1" type="hidden" value="I hate all hackers"/>                        
+                    
                 </form>
 			</div>
 		</div>
