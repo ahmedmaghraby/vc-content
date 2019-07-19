@@ -3,9 +3,9 @@
         <div class="section__info">
 			<h2 class="section__t">{{ block.title }}</h2>
 			<form class="form-horizontal">
-				<input placeholder="Your email" type="text" class="form-control">
-				<input placeholder="John Smith" type="text" class="form-control">
-				<a href="#" class="btn btn--orange">{{ block.buttonText }}</a>
+				<input name="CaseStudy[Email]" placeholder="Your email" type="text" class="form-control" />
+				<input name="CaseStudy[Name]" placeholder="John Smith" type="text" class="form-control" />
+				<input type="submit" class="btn btn--orange" value="{{ block.buttonText }}" />
 				<div class="form-descr">
 					{{ block.description }}
 				</div>
