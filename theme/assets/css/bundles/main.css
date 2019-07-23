@@ -5196,7 +5196,6 @@ blockquote .author {
 }
 
 .section__descr {
-    font-size: 1.125rem;
     margin-bottom: 1.875rem;
     text-align: left;
 }
@@ -7675,6 +7674,10 @@ textarea {
     padding: .625rem;
 }
 
+.form {
+    text-align: left;
+}
+
 .form-group {
     margin-bottom: 1.875rem;
 }
@@ -7999,7 +8002,7 @@ textarea {
     }
 }
 
-.list--aside .list__sidebar {
+.list--text .list__sidebar {
     -ms-flex-item-align: start;
     align-self: flex-start;
     -ms-flex: 0 0 20rem;
@@ -8007,34 +8010,55 @@ textarea {
     max-width: 20rem;
 }
 
-.list--aside .list__sidebar .list__item ~ .list__item {
+.list--text .list__sidebar .list__item ~ .list__item {
     margin-top: 1.875rem;
 }
 
-.list--aside .list__sidebar .list__num {
+.list--text .list__sidebar .list__num {
     font-size: 3.75rem;
     font-weight: 900;
     line-height: 1;
 }
 
-.list--aside .list__sidebar .list__descr {
+.list--text .list__sidebar .list__descr {
     font-size: 1.125rem;
     font-weight: 500;
 }
 
-.list--aside .list__content p {
+.list--text .list__content p {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.list--aside .list__content p ~ p {
+.list--text .list__content p ~ p {
     margin-top: 1.25rem;
 }
 
 @media (max-width: 991.98px) {
-    .list--aside .list__content {
+    .list--text .list__content {
         margin-top: 1.25rem;
     }
+}
+
+.list--text.horizontal {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.list--text.horizontal .list__sidebar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+    max-width: 100%;
+}
+
+.list--text.horizontal .list__sidebar .list__item ~ .list__item {
+    margin-top: 0;
+}
+
+.list--text.horizontal .list__content {
+    margin-top: 2.5rem;
 }
 
 .list--paging {
