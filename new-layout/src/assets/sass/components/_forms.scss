@@ -110,3 +110,20 @@ textarea
         width: 100%;
     }
 }
+
+.form-actions
+{
+    align-items: center;
+    display: flex;
+
+    .btn
+    {
+        color: $white;
+        margin-right: 1.25rem;
+    }
+
+    a
+    {
+        color: inherit;
+    }
+}

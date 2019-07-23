@@ -17,7 +17,64 @@
 
         <link rel="stylesheet" href="../../theme/assets/css/bundles/style.min.css">
     </head>
-    <body>
+    <body class="modal-open">
+
+        <div class="modal-overlay fade"></div>
+        <div class="modal">
+            <div class="modal-dialog modal-dialog--centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        Write a review
+                        <a class="modal-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                                <path class="fill" fill-rule="evenodd" d="M10.914 9.5l7.793-7.793A.999.999 0 1 0 17.293.293L9.5 8.086 1.707.293A.999.999 0 1 0 .293 1.707L8.086 9.5.293 17.293a.999.999 0 1 0 1.414 1.414L9.5 10.914l7.793 7.793a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L10.914 9.5z"/>
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="rating">
+                            <div class="rating__t">Please select rating</div>
+                            <div class="list list--rating">
+                                <input class="list__input" type="checkbox" name="stars" id="s-1">
+                                <label class="list__item" for="s-1"></label>
+                                <input class="list__input" type="checkbox" name="stars" id="s-2">
+                                <label class="list__item" for="s-2"></label>
+                                <input class="list__input" type="checkbox" name="stars" id="s-3">
+                                <label class="list__item" for="s-3"></label>
+                                <input class="list__input" type="checkbox" name="stars" id="s-4">
+                                <label class="list__item" for="s-4"></label>
+                                <input class="list__input" type="checkbox" name="stars" id="s-5">
+                                <label class="list__item" for="s-5"></label>
+                            </div>
+                            <div class="rating__eval rating__eval--active" data-name="Bad">Bad</div>
+                            <div class="rating__eval" data-name="Not bad">Not bad</div>
+                            <div class="rating__eval" data-name="Normal">Normal</div>
+                            <div class="rating__eval" data-name="Good">Good</div>
+                            <div class="rating__eval" data-name="Nice">Nice</div>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label class="form-label">Your email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Your full name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Your comment</label>
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <a href="#" class="btn btn--orange">Submit</a>
+                                <a href="#">Cancel</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="layout">
 
