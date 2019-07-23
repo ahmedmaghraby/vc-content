@@ -283,14 +283,14 @@
             color: $orange;
         }
     }
-	
+
 	@include media-breakpoint-down(xs)
 	{
 		display: none;
 	}
 }
 
-.list--aside
+.list--text
 {
     .list__sidebar
     {
@@ -335,6 +335,28 @@
         .list__content
         {
             margin-top: 1.25rem;
+        }
+    }
+
+    &.horizontal
+    {
+        flex-direction: column;
+
+        .list__sidebar
+        {
+            display: flex;
+            flex: 1 0 0;
+            max-width: 100%;
+
+            .list__item ~ .list__item
+            {
+                margin-top: 0;
+            }
+        }
+
+        .list__content
+        {
+            margin-top: 2.5rem;
         }
     }
 }

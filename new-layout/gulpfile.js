@@ -26,7 +26,6 @@ var path = {
         html: "build/",
         js: "build/assets/js/",
         css: "../theme/assets/css/bundles",
-        img_dev: "build/assets/i",
         img_prod: "../theme/assets/images/redesign",
         fonts: "build/assets/fonts/"
     },
@@ -111,7 +110,6 @@ gulp.task("image:build", function () {
             svgoPlugins: [{removeViewBox: false}],
             interlaced: true
         }))
-        .pipe(gulp.dest(path.build.img_dev))
         .pipe(gulp.dest(path.build.img_prod));
 });
 
