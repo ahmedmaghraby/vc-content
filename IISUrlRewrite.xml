@@ -210,6 +210,10 @@
             </conditions>
             <action type="Redirect" url="https://{C:2}/{R:1}" redirectType="Permanent"/>
         </rule>
+        <rule name="redirect licence activate to the new admin" stopProcessing="true">
+            <match url="^admin/api/licenses/activate/(.+)" />
+            <action type="Redirect" url="https://vc-admin-prod.azurewebsites.net/api/licenses/activate/{R:1}" redirectType="Permanent"/>
+        </rule>
         <!--
     <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true">
         <match url="\w*b2b-ecommerce$" />
