@@ -112,4 +112,23 @@
             }
         }
     }
+
+    ul.no-style
+    {
+        li
+        {
+            font-size: 1.125rem;
+            padding: 0;
+
+            &::before
+            {
+                display: none;
+            }
+
+            & ~ li
+            {
+                margin-top: 0;
+            }
+        }
+    }
 }

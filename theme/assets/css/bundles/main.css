@@ -4667,6 +4667,19 @@ blockquote .author {
     justify-content: center;
 }
 
+.page ul.no-style li, [class*='-page'] ul.no-style li, .blog-content ul.no-style li {
+    font-size: 1.125rem;
+    padding: 0;
+}
+
+.page ul.no-style li::before, [class*='-page'] ul.no-style li::before, .blog-content ul.no-style li::before {
+    display: none;
+}
+
+.page ul.no-style li ~ li, [class*='-page'] ul.no-style li ~ li, .blog-content ul.no-style li ~ li {
+    margin-top: 0;
+}
+
 .swipe {
     background: #fff;
     bottom: 0;
@@ -8154,6 +8167,12 @@ textarea {
     content: ' ';
     display: block;
     height: 3.125rem;
+}
+
+.list--team .list__link {
+    color: #0089cb;
+    font-size: 1.125rem;
+    font-weight: bold;
 }
 
 .modal-open .modal {
