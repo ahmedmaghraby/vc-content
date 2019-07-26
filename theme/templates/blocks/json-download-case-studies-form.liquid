@@ -2,7 +2,7 @@
     <div class="section__inner container">
         <div class="section__info">
 			<h2 class="section__t">{{ block.title }}</h2>
-			<form class="form-horizontal" action="{{ block.downloadUrl }}">
+			<form class="form-horizontal" action="{{ block.downloadUrl }}" onsubmit="window.location.href=$(this).attr('action')">
 				<input name="CaseStudy[Email]" placeholder="Your email" type="text" class="form-control" />
 				<input name="CaseStudy[Name]" placeholder="John Smith" type="text" class="form-control" />
 				<input type="submit" class="btn btn--orange" value="{{ block.buttonText }}" />
