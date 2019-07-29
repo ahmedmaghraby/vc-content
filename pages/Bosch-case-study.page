@@ -84,6 +84,7 @@
         "noPad": true,
         "title": "Download Full Case Study",
         "buttonText": "Download Now",
+        "downloadUrl": "/assets/files/bosch-case-study.pdf",
         "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
     },
     {

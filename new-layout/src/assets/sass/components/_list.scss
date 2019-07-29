@@ -55,7 +55,18 @@
 
     .list__descr
     {
-        font-size: 1rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+
+        &--small
+        {
+            font-size: .875rem;
+        }
+
+        &--medium
+        {
+            font-size: 1rem;
+        }
     }
 
     .list__link
@@ -77,6 +88,22 @@
         font-weight: 900;
         line-height: 1;
         margin-bottom: 1.25rem;
+    }
+
+    .list__map
+    {
+        margin-bottom: 1.25rem;
+        position: relative;
+
+        &::after
+        {
+            background: #eee;
+            content: ' ';
+            display: block;
+            height: 12.5rem;
+            position: relative;
+            z-index: -1;
+        }
     }
 
     ul,
@@ -135,11 +162,6 @@
     }
 
     @include media-breakpoint-down(sm) {
-        .list__item:nth-child(n+4)
-        {
-            display: none;
-        }
-
         .list__actions
         {
             display: flex;
@@ -159,13 +181,6 @@
                     transform: rotateY(180deg);
                 }
             }
-        }
-    }
-
-    @include media-breakpoint-down(xs) {
-        .list__item:nth-child(n+3)
-        {
-            display: none;
         }
     }
 }
@@ -234,15 +249,6 @@
     }
 }
 
-.list--our-offices
-{
-    .list__descr
-    {
-        font-size: 1.125rem;
-        line-height: 1.8;
-    }
-}
-
 .list--breadcrumb
 {
     align-items: center;
@@ -283,14 +289,14 @@
             color: $orange;
         }
     }
-	
+
 	@include media-breakpoint-down(xs)
 	{
 		display: none;
 	}
 }
 
-.list--aside
+.list--text
 {
     .list__sidebar
     {
@@ -335,6 +341,28 @@
         .list__content
         {
             margin-top: 1.25rem;
+        }
+    }
+
+    &.horizontal
+    {
+        flex-direction: column;
+
+        .list__sidebar
+        {
+            display: flex;
+            flex: 1 0 0;
+            max-width: 100%;
+
+            .list__item ~ .list__item
+            {
+                margin-top: 0;
+            }
+        }
+
+        .list__content
+        {
+            margin-top: 2.5rem;
         }
     }
 }
@@ -384,5 +412,59 @@
             border-color: $orange;
             color: $white;
         }
+    }
+}
+
+.list--pics
+{
+    display: flex;
+    justify-content: space-evenly;
+
+    .list__item
+    {
+        border-radius: 3.125rem;
+        height: 3.125rem;
+        margin: 1.25rem;
+        overflow: hidden;
+        position: relative;
+        width: 3.125rem;
+
+        &::after
+        {
+            background: #333;
+            content: ' ';
+            display: block;
+            height: 3.125rem;
+        }
+    }
+}
+
+.list--team
+{
+    .list__link
+    {
+        color: #0089cb;
+        font-size: 1.125rem;
+        font-weight: bold;
+    }
+}
+
+.list--contributors
+{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    .list__item
+    {
+        margin-right: .625rem;
+    }
+
+    .list__pic
+    {
+        border-radius: 1.875rem;
+        width: 1.875rem;
+        height: 1.875rem;
+        box-shadow: 0 0 0 .125rem rgba(0,0,0,.1);
     }
 }

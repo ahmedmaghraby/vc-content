@@ -17,6 +17,11 @@ textarea
     padding: .625rem;
 }
 
+.form
+{
+    text-align: left;
+}
+
 .form-group
 {
     margin-bottom: 1.875rem;
@@ -103,5 +108,22 @@ textarea
     .form-control
     {
         width: 100%;
+    }
+}
+
+.form-actions
+{
+    align-items: center;
+    display: flex;
+
+    .btn
+    {
+        color: $white;
+        margin-right: 1.25rem;
+    }
+
+    a
+    {
+        color: inherit;
     }
 }
