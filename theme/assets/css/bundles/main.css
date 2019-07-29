@@ -6202,31 +6202,88 @@ blockquote .author {
     margin-top: 2rem;
 }
 
-.docs__content .edit-link {
+.docs .docs-contributors {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.docs .docs-contributors__author {
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.docs .docs-contributors__author-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.docs .docs-contributors__author-img {
+    border-radius: 1.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    background-size: contain;
+}
+
+.docs .docs-contributors__date, .docs .docs-contributors__t {
+    font-size: .875rem;
+    line-height: 1.6;
+}
+
+.docs .docs-contributors__link {
     -ms-flex-align: center;
     align-items: center;
     color: #43b0e6;
     display: -ms-flexbox;
     display: flex;
     font-size: .875rem;
+    margin-left: auto;
 }
 
-.docs__content .edit-link__ico {
+.docs .docs-contributors__link .path {
+    fill: #43b0e6;
+}
+
+.docs .docs-contributors__link:hover {
+    color: #ffb608;
+}
+
+.docs .docs-contributors__link:hover .path {
+    fill: #ffb608;
+}
+
+.docs .docs-contributors__ico {
     height: 1.5rem;
     margin-right: .625rem;
     width: 1.5rem;
 }
 
-.docs__content .edit-link .path {
-    fill: #43b0e6;
+.docs .docs-contributors .see-all {
+    color: #43b0e6;
+    font-size: .875rem;
+    cursor: pointer;
 }
 
-.docs__content .edit-link:hover {
+.docs .docs-contributors .see-all:hover {
     color: #ffb608;
 }
 
-.docs__content .edit-link:hover .path {
-    fill: #ffb608;
+.docs ul {
+    list-style: outside;
+    padding-left: 1rem;
+    line-height: 1.6;
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+}
+
+.docs ul li {
+    color: #43b0e6;
+}
+
+.docs ul li:hover {
+    color: #ffb608;
 }
 
 @media (max-width: 991.98px) {
@@ -8169,6 +8226,24 @@ textarea {
     color: #0089cb;
     font-size: 1.125rem;
     font-weight: bold;
+}
+
+.list--contributors {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.list--contributors .list__item {
+    margin-right: .625rem;
+}
+
+.list--contributors .list__pic {
+    border-radius: 1.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    box-shadow: 0 0 0 0.125rem rgba(0, 0, 0, 0.1);
 }
 
 .modal-open .modal {

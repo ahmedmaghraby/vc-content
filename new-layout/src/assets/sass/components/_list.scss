@@ -448,3 +448,23 @@
         font-weight: bold;
     }
 }
+
+.list--contributors
+{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    .list__item
+    {
+        margin-right: .625rem;
+    }
+
+    .list__pic
+    {
+        border-radius: 1.875rem;
+        width: 1.875rem;
+        height: 1.875rem;
+        box-shadow: 0 0 0 .125rem rgba(0,0,0,.1);
+    }
+}
