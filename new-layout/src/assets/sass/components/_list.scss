@@ -418,23 +418,54 @@
 .list--pics
 {
     display: flex;
-    justify-content: space-evenly;
 
     .list__item
     {
         border-radius: 3.125rem;
         height: 3.125rem;
-        margin: 1.25rem;
+        margin: 1.4rem;
         overflow: hidden;
         position: relative;
         width: 3.125rem;
 
         &::after
         {
-            background: #333;
+            background: #eee;
             content: ' ';
             display: block;
-            height: 3.125rem;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        @for $i from 1 through 38
+        {
+            &:nth-child(#{$i}) .list__pic
+            {
+                animation-delay: $i * .01s;
+            }
+        }
+    }
+
+    .list__pic
+    {
+        animation: fade 1 .35s ease forwards;
+        display: block;
+        max-width: 100%;
+        opacity: 0;
+        position: relative;
+        transition: all .35s ease;
+        z-index: 5;
+    }
+
+    @keyframes fade
+    {
+        100%
+        {
+            opacity: 1;
         }
     }
 }
