@@ -77,3 +77,8 @@
         margin-top: auto;
     }
 }
+
+input.ng-touched.ng-invalid
+{
+    border-color: #E32636;
+}
