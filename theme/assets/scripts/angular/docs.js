@@ -11,16 +11,16 @@ storefrontApp.controller('docsController', ['$scope', '$http', '$location', '$co
     $scope.showAll = false;
     $scope.loading = true;
     $scope.getCurrentArticleUrl = function (articleUrl) {
-        var commitsEndpoint = "/repos/virtocommerce/vc-content/commits?path="
+        var commitsEndpoint = "/repos/virtocommerce/vc-content/commits?path=";
         var githubAPI = "https://api.github.com";
         $http.get(githubAPI + commitsEndpoint + '/pages/' + articleUrl + '.md').then(function (resp) {
-          var article = [];
+            var article = [];
             _.each(resp.data, function (z) {
                 article.push(z.author);
-            })
+            });
             $scope.authors = _.map(_.groupBy(article,
                 function (author) {
-                    if(author == null) // handle null exception
+                    if (author == null) // handle null exception
                         return "";
                     return author.login;
                 }),
@@ -28,8 +28,8 @@ storefrontApp.controller('docsController', ['$scope', '$http', '$location', '$co
                     return grouped[0];
                 });
             $scope.loading = false;
-        })
-    }
+        });
+    };
 
 	$scope.moment = moment;
     $scope.navigateUrl = function (url, event) {
