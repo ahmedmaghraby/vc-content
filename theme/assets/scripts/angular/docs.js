@@ -31,7 +31,7 @@ storefrontApp.controller('docsController', ['$scope', '$http', '$location', '$co
         });
     };
 
-	$scope.moment = moment;
+    $scope.moment = moment;
     $scope.navigateUrl = function (url, event) {
         event.preventDefault();
         event.stopPropagation();
@@ -45,18 +45,13 @@ storefrontApp.controller('docsController', ['$scope', '$http', '$location', '$co
             _.each(codeBlocks, function (codeBlock) {
                 hljs.highlightBlock(codeBlock);
             });
-            var content = $compile(newDoc.getElementById('page-content').childNodes)($scope);
-            angular.element(window.document.getElementById('page-content')).html(content);
-            var menu = $compile(newDoc.getElementById('menu'))($scope);
-            angular.element(window.document.getElementById('menu')).html(menu);
+            compileElement(newDoc, 'page-content');
+            compileElement(newDoc, 'menu');
             var bodyElement = window.document.getElementsByTagName('body')[0];
             angular.element(bodyElement).removeClass('__opened');
-            var menuMobile = $compile(newDoc.getElementById('menu-mobile').childNodes)($scope);
-            angular.element(window.document.getElementById('menu-mobile')).html(menuMobile);
-            var breadcrumbs = $compile(newDoc.getElementById('breadcrumbs').childNodes)($scope);
-            angular.element(window.document.getElementById('breadcrumbs')).html(breadcrumbs);
-            var topics = $compile(newDoc.getElementById('topics'))($scope);
-            angular.element(window.document.getElementById('topics')).html(topics);
+            compileElement(newDoc, 'menu-mobile');
+            compileElement(newDoc, 'breadcrumbs');
+            compileElement(newDoc, 'topics');
             window.document.getElementsByTagName('title')[0].innerText = newDoc.getElementsByTagName('title')[0].innerText;
             $scope.loading = false;
             $scope.disqus = DISQUS;
@@ -68,15 +63,23 @@ storefrontApp.controller('docsController', ['$scope', '$http', '$location', '$co
                 }
             });
         });
+    };
+
+    $scope.timeSpan = function (input) {
+        var m = moment(input);
+        var valid = m.isValid();
+
+        if (valid)
+            return m.fromNow();
+        else
+            return input;
+    };
+
+    function compileElement(doc, elementId) {
+        var element = doc.getElementById(elementId);
+        if (element && element.childNodes) {
+            var content = $compile(element.childNodes)($scope);
+            angular.element(window.document.getElementById(elementId)).html(content);
+        }
     }
-	
-	$scope.timeSpan = function(input) {
-		var m = moment(input);
-		var valid = m.isValid();
-		
-		if (valid)
-			return m.fromNow();
-		else
-			return input;
-	}
-}])
+}]);
