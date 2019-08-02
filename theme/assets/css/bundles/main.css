@@ -5239,7 +5239,7 @@ blockquote .author {
 }
 
 .section__info--center-block {
-    width: 41.25rem;
+    max-width: 41.25rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -5642,8 +5642,7 @@ blockquote .author {
     -ms-flex-pack: center;
     justify-content: center;
     margin: .625rem;
-    padding: 0;
-    width: 17.5rem;
+    min-width: 17.5rem;
 }
 
 @media (max-width: 991.98px) {
@@ -5696,7 +5695,7 @@ blockquote .author {
 .section--bg-pattern::after {
     background: #f8f8f8;
     bottom: 5.25rem;
-    left: 5rem;
+    left: 0;
     right: 0;
     top: 2.875rem;
     z-index: 1;
@@ -7547,6 +7546,21 @@ input.ng-touched.ng-invalid {
         transform: translateY(-50%);
     }
 
+    .footer__t + .nav:not(.nav--socials) {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .35s;
+    }
+
+    .footer__t--opened::after {
+        content: '-';
+    }
+
+    .footer__t--opened + .nav:not(.nav--socials) {
+        margin-top: 1.5rem;
+        max-height: 30rem;
+    }
+
     .footer__nav {
         border-bottom: 1px solid #7b7b7e;
         margin: 0 .9375rem;
@@ -7556,17 +7570,6 @@ input.ng-touched.ng-invalid {
     .footer__nav:nth-of-type(1) {
         border-top: 1px solid #7b7b7e;
         margin-top: 1.5rem;
-    }
-
-    .footer .nav:not(.nav--socials) {
-        max-height: 0;
-        overflow: hidden;
-        transition: all .35s;
-    }
-
-    .footer .nav.nav--opened:not(.nav--socials) {
-        margin-top: 1.5rem;
-        max-height: 30rem;
     }
 
     .footer__other {
@@ -8211,7 +8214,7 @@ textarea {
 .list--pics .list__item {
     border-radius: 3.125rem;
     height: 3.125rem;
-    margin: 1.4rem;
+    margin: 1.35rem;
     overflow: hidden;
     position: relative;
     width: 3.125rem;
@@ -8403,6 +8406,15 @@ textarea {
     font-weight: bold;
 }
 
+.list--team .list__descr > a {
+    color: #0c1015;
+    cursor: pointer;
+}
+
+.list--team .list__descr > a:hover {
+    color: #ffb608;
+}
+
 .list--contributors {
     display: -ms-flexbox;
     display: flex;
@@ -8517,8 +8529,45 @@ textarea {
     margin-left: auto;
 }
 
+.modal-header--bg-white {
+    background-color: #fff;
+}
+
 .modal-body {
     padding: 1.875rem;
+}
+
+.modal .member {
+    margin-top: -1.875rem;
+}
+
+.modal .member__t {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.modal .member__text {
+    color: #cfd2e6;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.modal .member__descr {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.modal .member__link {
+    color: #43b0e6;
+    display: inline-block;
+    margin-top: 1.25rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.modal .member__link:hover {
+    color: #fdb200;
 }
 
 .modal .rating {

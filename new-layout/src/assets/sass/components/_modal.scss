@@ -92,11 +92,55 @@
             cursor: pointer;
             margin-left: auto;
         }
+
+        &--bg-white
+        {
+            background-color: $white;
+        }
     }
 
     &-body
     {
         padding: 1.875rem;
+    }
+
+    .member
+    {
+        margin-top: -1.875rem;
+
+        &__t
+        {
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+
+        &__text
+        {
+            color: $gray-400;
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+        &__descr
+        {
+            font-size: 1.125rem;
+            line-height: 1.5;
+        }
+
+        &__link
+        {
+            color: $blue;
+            display: inline-block;
+            margin-top: 1.25rem;
+            font-weight: 600;
+            font-size: 18px;
+
+            &:hover
+            {
+                color: darken($orange, 2%);
+            }
+        }
     }
 
     .rating

@@ -106,6 +106,27 @@
                 top: 50%;
                 transform: translateY(-50%);
             }
+
+            & + .nav:not(.nav--socials)
+            {
+                max-height: 0;
+                overflow: hidden;
+                transition: all .35s;
+            }
+
+            &--opened
+            {
+                &::after
+                {
+                    content: '-';
+                }
+
+                & + .nav:not(.nav--socials)
+                {
+                    margin-top: 1.5rem;
+                    max-height: 30rem;
+                }
+            }
         }
 
         &__nav
@@ -119,19 +140,6 @@
                 border-top: 1px solid #7b7b7e;
                 margin-top: 1.5rem;
             }
-        }
-
-        .nav:not(.nav--socials)
-        {
-            max-height: 0;
-            overflow: hidden;
-            transition: all .35s;
-        }
-
-        .nav.nav--opened:not(.nav--socials)
-        {
-            margin-top: 1.5rem;
-            max-height: 30rem;
         }
 
         &__other
