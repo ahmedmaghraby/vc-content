@@ -1479,6 +1479,12 @@
         "default": "Download Case Studies"
       },
       {
+        "id": "downloadUrl",
+        "label": "File",
+        "type": "file",
+        "default": "Choose file"
+      },
+      {
         "id": "description",
         "label": "Description",
         "type": "text",
