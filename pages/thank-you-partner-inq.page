@@ -29,7 +29,7 @@
         "title": "",
         "style": "light",
         "decorator": "none",
-        "content": "<h3 style=\"text-align: center;\">Thanks For Expressing Interest in Our Partner Program.</h3>\n\n<h3 style=\"text-align: center;\">We have received your inquiry, and someone will be in touch shortly.&nbsp;&nbsp;</h3>\n",
+        "content": "<h3 style=\"text-align:center\">Thanks For Expressing Interest in Our Partner Program.</h3>\n\n<h3 style=\"text-align:center\">We have received your inquiry, and someone will be in touch shortly.&nbsp;&nbsp;</h3>\n",
         "url": {
             "urlText": "",
             "url": "",
@@ -37,7 +37,9 @@
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null
     },
     {
         "id": 4,
@@ -55,7 +57,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
                 }
             },
             {
@@ -67,12 +69,26 @@
                 "link": {
                     "urlText": "Read More",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/bosch"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
+                }
+            },
+            {
+                "title": "Standaard Boekhandel Case Study",
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/standard.png"
+                },
+                "text": "<p>Belgium&#39;s largest book seller needed a replacement ecommerce platform for their monolithic solution.&nbsp;&nbsp;</p>\n",
+                "link": {
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
                 }
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null
     }
 ]

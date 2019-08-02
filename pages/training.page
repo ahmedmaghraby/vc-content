@@ -8,11 +8,11 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Virto Commerce Training Courses",
-        "h1": true,
+        "headerStyle": "h1",
         "titleAlignment": null,
         "subTitle": null,
         "image": {
@@ -26,11 +26,11 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "Virto Commerce offers instructor led training courses in two distinct tracks: Developer Training and Solution Architect Training. See our upcoming class dates and descriptions below.",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -48,11 +48,11 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Virto Commerce Developer Training",
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "",
@@ -101,11 +101,11 @@
         "noPad": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "text",
         "name": "Text",
         "title": "Developer Training Upcoming Sessions & Course Overview",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -123,11 +123,11 @@
         "noPad": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "list-with-images",
         "name": "Developer training modules",
         "title": "Developer Training Modules",
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "<h3 style=\"text-align:center\">Enrich your Virto Commerce skills with additional developer training</h3>\n",
@@ -180,7 +180,7 @@
         "type": "text",
         "name": "Text",
         "title": "Virto Commerce Solution Architect Training",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -202,7 +202,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "",
@@ -255,7 +255,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "dark",
         "decorator": "none",
@@ -277,7 +277,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Solution Architect Modules",
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "<h3 style=\"text-align:center\">Enhance your Virto Commerce skills with additional developer training</h3>\n",
@@ -316,13 +316,13 @@
         "type": "text",
         "name": "Text",
         "title": "Contact Us To Learn More About Virto Commerce Training and To Register",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "section--pattern",
         "content": "",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Contact Us"
         },

@@ -3,13 +3,7 @@
         {% if block.subTitle != blank %}
         <div class="section__sub-t">{{ block.subTitle }}</div>
         {% endif %}
-        {% if block.title != blank %}
-            {% if block.h1 == 'True' %}
-            <h1 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h1>
-            {% else %}
-            <h2 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h2>
-            {% endif %}
-        {% endif %}
+        {% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}

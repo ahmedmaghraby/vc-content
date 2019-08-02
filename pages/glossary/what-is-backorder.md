@@ -1,6 +1,6 @@
 ---
 title: What is a backorder? Backorder definition and meaning
-description: What does Backorder mean? Why is it important for retail how to deal with it? Learn more about backorder definitions and meaning in this article.
+description: What does Backorder mean? Why is it important for retail to know how to deal with it? Learn more about backorder definitions and meaning in this article.
 date: 2017-08-21
 canonical: https://virtocommerce.com/glossary/what-is-backorder
 permalink: glossary/what-is-backorder

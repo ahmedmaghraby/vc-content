@@ -19,7 +19,7 @@
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
         "url1": null,
         "url2": null,
-        "h1": null,
+        
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -98,26 +98,27 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null,
+        
         "titleStyle": null
     },
     {
-        "id": 7,
+        "id": 5,
         "type": "text",
         "name": "CTA",
         "title": "Try Virto Commerce's Order Management Tools Today",
-        "h1": null,
+        
         "style": "light",
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers to help you get to market faster.&nbsp;</p>\n",
         "url": {
             "urlText": "Read more",
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     },
     {
         "id": 6,
@@ -135,7 +136,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/b2b-ecommerce-pricing-tools"
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools"
                 }
             },
             {
@@ -147,7 +148,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/b2b-cms"
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-cms"
                 }
             },
             {
@@ -159,13 +160,14 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/b2b-ecommerce-marketing-tools"
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-marketing-tools"
                 }
             }
         ],
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     }
 ]

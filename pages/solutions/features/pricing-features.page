@@ -12,7 +12,7 @@
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Enterprise Ecommerce Complex Pricing Tools",
-        "h1": true,
+        "headerStyle": "h1",
         "subTitle": "",
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/john-schnobrich-FlPc9_VocJ4-unsplash.jpg"
@@ -29,7 +29,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "style": "light",
         "decorator": "none",
         "content": "<h3>B2B ecommerce involves complex pricing models &ndash; from contract-based pricing to tiered pricing and discounts. Virto Commerce offers the most flexible and scalable digital commerce solution available that enables you to build the pricing functionality you need. Additionally, we offer robust out-of-the-box pricing functionality to get you started.</h3>\n",
@@ -47,7 +47,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Pricing Tools Designed for B2B Ecommerce",
-        "h1": null,
+        
         "intro": "<h3 style=\"text-align: center;\">Customize pricing strategies for different customers with Virto Commerce</h3>\n",
         "style": "light",
         "colStyle": "col-lg-6",
@@ -90,7 +90,7 @@
         "type": "text",
         "name": "contact us",
         "title": "Learn More About Virto Commerce Today",
-        "h1": null,
+        
         "style": "dark",
         "decorator": "section--pattern",
         "content": "<p>Get a demo of our enterprise level ecommerce platform, and explore all the ready to go features and functionalities available.&nbsp;</p>\n",
@@ -108,7 +108,7 @@
         "type": "cards",
         "name": "Text",
         "title": "Explore More Features Readily Available to Get You To Market Faster. ",
-        "h1": null,
+        
         "style": "light",
         "items": [
             {

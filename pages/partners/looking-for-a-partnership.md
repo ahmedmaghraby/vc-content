@@ -1,7 +1,8 @@
 ---
-title: Looking for a Partnership?
-date: 2019-03-18
-permalink: partners/looking-for-a-partnership
+date: '2019-03-18'
+permalink: find-implementation-partner
+title: 'Looking for a Partnership?'
+
 ---
 <div class="main">
     <div class="section__inner container">

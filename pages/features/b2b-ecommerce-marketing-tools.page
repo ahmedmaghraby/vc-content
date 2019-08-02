@@ -19,7 +19,7 @@
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and build loyalty with promotion features built especially for B2B companies.</p>\n",
         "url1": null,
         "url2": null,
-        "h1": true,
+        "headerStyle": "h1",
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -27,15 +27,17 @@
     {
         "id": 3,
         "type": "text",
-        "name": null,
-        "title": " ",
+        "name": " text",
+        "title": "",
         "style": null,
         "decorator": null,
-        "content": "<h3 style=\"text-align: center;\">B2B sales online are competitive, and your marketing team needs the ability to increase revenue and customer loyalty through targeted promotions. Consumers expect personalized promotions and rewards, and by not creating customized marketing campaigns, you risk losing business to your competitors. To keep your customers engaged, Virto Commerce offers a variety of promotional tools.</h3>\n",
+        "content": "<h3 style=\"text-align:center\">B2B sales online are competitive, and your marketing team needs the ability to increase revenue and customer loyalty through targeted promotions. Consumers expect personalized promotions and rewards, and by not creating customized marketing campaigns, you risk losing business to your competitors. To keep your customers engaged, Virto Commerce offers a variety of promotional tools.</h3>\n",
         "url": null,
         "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null
     },
     {
         "id": 4,
@@ -95,22 +97,23 @@
         "h1": null
     },
     {
-        "id": 7,
+        "id": 5,
         "type": "text",
         "name": "CTA",
         "title": "Learn More About Virto Commerce's Marketing Tools.  ",
-        "h1": null,
+        
         "style": "light",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">Request a demo today to see all the features and functionality Virto Commerce offers to help you grow your revenue through targeted marketing and promotions.&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers to help you grow your revenue through targeted marketing and promotions.&nbsp;</p>\n",
         "url": {
             "urlText": "Request a Demo",
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     },
     {
         "id": 6,
@@ -126,7 +129,7 @@
                 },
                 "text": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-order-management",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-order-management",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -138,7 +141,7 @@
                 },
                 "text": "<p>Pricing Features Built for the Complexity of B2B Digital Commerce</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-pricing-tools",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -150,7 +153,7 @@
                 },
                 "text": "<p>Virto Commerce offers a powerful, yet simple CMS that will delight both marketers and developers.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-cms",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-cms",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -160,6 +163,7 @@
         "noBottom": null,
         "noPad": null,
         "hidden": false,
-        "h1": null
+        
+        "titleAlignment": null
     }
 ]

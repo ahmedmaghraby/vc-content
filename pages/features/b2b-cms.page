@@ -33,9 +33,10 @@
         "content": "<h3 style=\"text-align:center\">Virto Commerce comes with a simple yet extremely powerful CMS that gives both developers and marketers complete access to customize your store&#39;s look and feel. Developers can easily create and publish new themes, while marketers can create landing pages, blog posts, marketing banners, and more. Virto Commerce is also integrated with many industry leading CMS including WordPress, Orchard CMS, Umbraco and any html site to provide even more flexibility.&nbsp;</h3>\n",
         "url": null,
         "noTop": null,
-        "noBottom": null,
+        "noBottom": true,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     },
     {
         "id": 4,
@@ -71,7 +72,7 @@
                 },
                 "text": "<p>Explore our B2B pricing features specially designed for complex B2B pricing scenarios.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-pricing-tools",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -83,7 +84,7 @@
                 },
                 "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-ecommerce-marketing-tools",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-marketing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -95,7 +96,7 @@
                 },
                 "text": "<p>Virto Commerce provides order management tools to handle even the most complicated B2B fulfillment requirements.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-ecommerce-order-management",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-order-management",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -104,14 +105,15 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     },
     {
         "id": 6,
         "type": "text",
         "name": "CTA",
         "title": "Learn More About Virto Commerce CMS and Marketing Tools - Designed For Enterprise Ecommerce",
-        "h1": null,
+        
         "style": "light",
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Get a demo of our .NET B2B ecommerce platform today, and explore all the features that we offer.&nbsp;</p>\n",

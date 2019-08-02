@@ -25,19 +25,6 @@ tags:
         <div itemprop="mainEntityOfPage" class="head __cart">
             <h1 itemprop="headline" class="title">Cloud ecommerce solutions</h1>
         </div>
-        <div class="blog b2b-e-commerce">
-            <ul class="socials list" style="margin-top: 20px;">
-                <li class="list-item fb">
-                    <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-facebook"></i></a>
-                </li>
-                <li class="list-item tw">
-                    <a class="list-link" href="https://twitter.com/intent/tweet?text={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-twitter"></i></a>
-                </li>
-                <li class="list-item in">
-                    <a class="list-link" href="https://www.linkedin.com/shareArticle?mini=true&url={{ '/glossary/cloud-ecommerce-solution' | absolute_url }}" target="_blank"><i class="list-ico fa fa-linkedin"></i></a>
-                </li>
-            </ul>
-        </div>
         <div class="text">
             <p>The term "cloud e-commerce" refers to the process of outsourcing of a remote network of servers hosted on the Internet to use application services, store and process data. Essentially, it is a cloud-based e-commerce versus software installed on a local server.</p>
             <p>Cloud ecommerce solutions provide a wide range of benefits over traditional on-premise storage. Within the last ten years cloud has gained popularity due to reduced complexity and lower cost of maintenance. Nowadays, cloud ecommerce has become become the most optimal solution model on the market.</p>

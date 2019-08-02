@@ -18,7 +18,6 @@
         "content": "<p>Get a bird&#39;s eye view of our technology&nbsp;</p>\n",
         "url1": null,
         "url2": null,
-        "h1": null,
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -47,6 +46,7 @@
         "noPad": true,
         "title": "Download Architectural Guidelines",
         "buttonText": "Download Now",
-        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/Virto Commerce Architectural Guidelines_1.pdf"
     }
 ]

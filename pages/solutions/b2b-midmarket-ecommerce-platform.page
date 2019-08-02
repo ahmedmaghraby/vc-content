@@ -2,7 +2,7 @@
     {
         "type": "settings",
         "title": "Mid-Market .NET Ecommerce Platform for Manufacturers, Distributors, Retailers, Wholesalers.",
-        "permalink": "solutions/b2b-midmarket-ecommerce-platform",
+        "permalink": "b2b-midmarket-ecommerce-platform",
         "id": 1,
         "header": "Mid Size Company B2B Ecommerce Platform",
         "description": "Mid-Market .NET Open Source Ecommerce Platform for Manufacturers, Distributors, Retailers, Wholesalers."
@@ -12,7 +12,7 @@
         "type": "decorated-hero",
         "name": "Text over image",
         "title": "How can mid-market companies overcome their main ecommerce challenges? ",
-        "h1": true,
+        "headerStyle": "h1",
         "content": "<p>Mid-market companies already have high and constantly growing business complexity - close to enterprises - however they don&rsquo;t have enterprise-scale budgets. In terms of ecommerce, that means all projects should be very results-focused, provide good ROI and still deliver a reliable basis for further growth.&nbsp;</p>\n",
         "noTop": null,
         "noBottom": null,
@@ -24,7 +24,7 @@
         "name": "Text over image",
         "title": "Top Ecommerce Challenges Faced by Mid-Market Companies",
         "style": "light",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -48,7 +48,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Top Ecommerce Implementation Risks for Mid-Market Companies",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -90,7 +90,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -112,7 +112,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Does Virto Commerce Resolves These Risks?",
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -156,7 +156,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -180,7 +180,7 @@
         "text": "Reach Out To Our Experts             ",
         "style": "light",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Contact Us"
         },
@@ -193,7 +193,7 @@
         "type": "text",
         "name": "proffs",
         "title": "Proffsmagasinet: Providing Maximum scalability and centralization for expanding business internationally ",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "style": "light",
         "decorator": "none",
@@ -215,13 +215,13 @@
         "type": "text",
         "name": "proffs text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
         "content": "<p>Sweden&#39;s Proffsmagasinet is a leading e-commerce company in the Nordic region that provides tools, laser and measuring apparatus and other equipment for professionals in the building trade with multiple payment and delivery options online.<br />\nThe old system couldn&rsquo;t keep up with such fast growth and Proffsmagasinet needed to implement lots of new systems where the e-commerce platform would be the core. The e-commerce platform needed to be able to easily integrate with Proffsmagasinet&#39;s&nbsp;ERP system and other third-party systems.&nbsp;</p>\n\n<p>Proffsmagasinet wanted to be able to customize the platform according to their needs and current business opportunities. The new platform also needed to be able to automatically scale up and down depending on spikes in traffic during campaigns. In addition, the project needed to stay within a limited budget.</p>\n\n<p>All of Proffsmagasinet&#39;s requirements are now live on Virto Commerce&#39;s platform, which has the&nbsp;required standard plus&nbsp;exclusive features and is fully controlled, customized and adapted by Proffsmagasinet. The new solution is fully cloud-based and features a new DevOps process, and a module system&nbsp; that allows updating in small independent pieces.&nbsp;</p>\n\n<p>The new system allows for easy addition of new channels in the&nbsp;same channels or new ones, and enables addition&nbsp;of new channels in same or new regions with an access to the shared catalog that can be easily updated and used across the business.</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/case-studies/proffsmagasinet",
+            "url": "http://vc-public-test.azurewebsites.net/case-studies/proffsmagasinet",
             "style": "link-large",
             "urlText": "Download the Case Study"
         },

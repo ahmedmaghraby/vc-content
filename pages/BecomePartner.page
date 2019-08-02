@@ -8,86 +8,177 @@
         "layout": "theme"
     },
     {
-        "id": 2,
-        "type": "text-over-image",
-        "name": "Text over image",
-        "title": "Join the Virto Commerce Partner Network",
-        "subTitle": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
-        },
-        "content": "<p style=\"text-align:center\">Virto Commerce provides a robust program to support our partners every step along the way.<br />\nFrom training and support to marketing &ndash; we work hand and hand with you to ensure success.</p>\n",
-        "url1": null,
-        "url2": null,
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null,
-        "h1": null
-    },
-    {
-        "id": 3,
-        "type": "text",
-        "name": "Text",
-        "title": "",
-        "style": "light",
-        "decorator": "none",
-        "content": "<h3 style=\"text-align:center\">Our partner program consists of both Solution Partners and Technology Partners. Becoming&nbsp;a Virto Commerce partner will give you access to all the resources and tools you need to successfully implement Virto Commerce solutions for your customers.&nbsp;</h3>\n",
-        "url": {
-            "urlText": "",
-            "url": "",
-            "style": "btn btn--orange btn--round"
-        },
+        "id": 6,
+        "type": "decorated-hero",
+        "name": "title",
+        "title": "Modular Microsoft .NET Enterprise B2B Ecommerce Platform",
+        "headerStyle": "h1",
+        "content": "<p>A huge ecosystem of IT companies and enterprise solutions are built on top of Microsoft technologies. Virto Commerce&#39;s&nbsp;platform, being an enterprise ecommerce B2B platform built on Microsoft .NET technology, closes the existing gap in the ecosystem.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null
     },
     {
-        "id": 4,
+        "id": 7,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Virto Commerce's platform: A Modular Microsoft .NET Enterprise Ecommerce Platform for B2B",
+        "style": "light",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "text": "<p>B2B enterprise ecommerce market with a Microsoft .NET solution</p>\n"
+            },
+            {
+                "text": "<p>Solution which facilitates customer digital transformation and growth</p>\n"
+            },
+            {
+                "text": "<p>Solution loved by developers</p>\n"
+            }
+        ],
+        "content": "<p>The B2B enterprise ecommerce market is growing drastically. According to Gartner, this is one of the most rapidly growing enterprise software markets. Enterprise-level software implementations are&nbsp;demanded by a huge amount of&nbsp;companies. Offering reliable B2B focused solutions opens up the enterprise B2B ecommerce market for IT service companies.</p>\n\n<p>Our system is designed to be implemented by small sequential agile products, which brings real value for&nbsp;customers, fast. It perfectly supports customer digital transformation. The opportunity to embed an API-based modular e-commerce solution by small steps facilitates the customer&rsquo;s internal processes transformation and leaves room to react to market feedback.</p>\n\n<p>Virto Commerce is a very technical focused company&nbsp;where the architectural&nbsp;excellence and code quality are a part of our core values. We aim to make implementation teams trust our product and that is why we treat our partners as first-line customers.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 8,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "Benefits of Becoming a Virto Commerce Solution Partner",
-        "intro": "<p style=\"text-align: center;\">Our solution partner network consists of digital agencies highly experienced in implementing customized ecommerce solutions.</p>\n",
+        "title": "Why Do Customers Need Virto Commerce Solutions? ",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
         "style": "light",
-        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "colStyle": "col-md-6 col-lg-4",
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/architect.png"
+                    "url": null
                 },
-                "title": "Expert Services",
-                "text": "<ul>\n\t<li>Dedicated Technical Account</li>\n\t<li>Architecture &amp; Design Review</li>\n\t<li>Consulting &amp; Implementation</li>\n</ul>\n"
+                "title": "Designed to solve B2B enterprise ecommerce cases",
+                "text": "",
+                "iconStyle": "",
+                "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                    "url": null
                 },
-                "title": "Support",
-                "text": "<ul>\n\t<li>24/7 Premium Support</li>\n\t<li>Tech-savvy Platform Support</li>\n\t<li>Documented API &amp; Case Studies</li>\n</ul>\n"
+                "title": "Fits for companies of any size - from startups to multi-national enterprises",
+                "text": "",
+                "iconStyle": "",
+                "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/mkting.png"
+                    "url": null
                 },
-                "title": "Marketing",
-                "text": "<p>Joint Branding</p>\n\n<p>Sales &amp; Marketing Collateral</p>\n\n<p>Partner Fund</p>\n"
-            },
-            {
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/training2.png"
-                },
-                "title": "Training",
-                "text": "<p>Developer &amp; Architect Classroom</p>\n\n<p>Professional Certification</p>\n\n<p>Business User e-Learning</p>\n"
+                "title": "Flexible solution for agile implementation of projects of any complexity",
+                "text": "",
+                "iconStyle": "",
+                "url": null
             }
         ],
-        "noTop": null,
-        "noBottom": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Enterprise-scale customers require the delivering of functionality which 100% fits their complicated processes and practices. It makes traditional out-of-the-box features useless, the same for B2C designed applications. Virto Commerce&#39;s&nbsp;platform is a customizable and&nbsp;extensible platform, which was initially designed to implement complex custom B2B scenarios on top of it.</p>\n\n<p>Due to the modular architecture and good extensibility model,&nbsp; the Virto Commerce&nbsp;platform is perfectly applicable for complex ecommerce cases of companies of any sizes, starting with startups with disruptive business models, all the way to Fortune 500 companies. Working with the Virto Commerce platform, our partners scale by delivering the platform to companies of almost any industry, size or business complexity.</p>\n\n<p>Virto Commerce is very efficient in managing agile implementation projects. We believe in agile development with fast release cycles where&nbsp;customers can quickly derive value. That is why we created software which can be implemented through short projects, versus never ending&nbsp;painful projects with unexpected results. Start acting locally and continue step-by-step by adding new features, regions, stakeholders, and integrations.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 10,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Why Would Partners Choose Virto Commerce? ",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Opportunities: conquer new niches and make your customers happy",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Technology: smart, open, modern",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Attitude: We work with partners, we work for partners",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Having the Virto Commerce platform in your portfolio, which fits medium and enterprise B2B ecommerce perfectly, and written on Microsoft .NET, enables our partners to enter the rapidly growing B2B ecommerce market.&nbsp;&nbsp;An agile approach to implementation projects allows you to deliver value to customers fast and continuously work with them facilitating their further growth.</p>\n\n<p>Virto Commerce is a very technically focused company where the architecture excellence and code quality are a part of core values. We aim to make implementation teams want to work with our software and trust it: modular architecture, modern technologies, open code.</p>\n\n<p>Virto Commerce is also a technical product-focused company. While we have significant implementation experience with the Virto Commerce platform, we are not aiming to grow as a service company. Our goal is to serve end customers through our reliable partners, without competing with them. That is why we are committed to building long term relationships with our partners.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
         "noPad": null
     },
     {
         "id": 5,
         "type": "custom-form",
         "name": "Custom form",
-        "style": "light",
+        "style": "dark",
         "noTop": true,
         "noBottom": true,
         "noPad": true,

@@ -22,7 +22,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": true
+        "headerStyle": "h1"
     },
     {
         "id": 3,
@@ -89,48 +89,14 @@
     },
     {
         "id": 7,
-        "type": "cards",
-        "name": "Text",
-        "title": "View More Virto Commerce Success Stories",
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
         "style": "light",
-        "items": [
-            {
-                "title": "Lavazza Success Story",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
-                },
-                "text": "<p>See how Lavazza and their partner, rb2, implemented a complex B2B and B2C solution for Lavazza Nederland.&nbsp;</p>\n",
-                "link": {
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
-                }
-            },
-            {
-                "title": "Estate Spain Success Story",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
-                },
-                "text": "<p>Estate Spain outgrew their ecommerce system - see how they used Virto Commerce to build a new solution in response to their explosive growth.</p>\n",
-                "link": {
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/estatespain"
-                }
-            },
-            {
-                "title": "Proffsmagasinet Success Story",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-29 at 10.50.54 AM.png"
-                },
-                "text": "<p>Read how Virto Commerce enabled a top Swedish manufacturer&#39;s international expansion and digital transformation.</p>\n",
-                "link": {
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet"
-                }
-            }
-        ],
+        "size": "middle",
+        "image": {
+            "url": "https://vc4test.blob.core.windows.net/blogs/hero.png"
+        },
         "noTop": null,
         "noBottom": null,
         "noPad": null

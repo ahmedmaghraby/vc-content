@@ -8,11 +8,11 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Estate Spain Success Story",
-        "h1": null,
+        
         "titleAlignment": null,
         "subTitle": null,
         "image": {
@@ -26,11 +26,11 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -48,7 +48,7 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "image",
         "name": "Simple image",
         "title": "Block title",
@@ -62,11 +62,11 @@
         "noPad": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -84,7 +84,7 @@
         "noPad": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "download-case-studies-form",
         "name": "Download Case studies form",
         "style": "dark",
@@ -93,6 +93,7 @@
         "noPad": true,
         "title": "Download the Full Case Study",
         "buttonText": "Download Now",
-        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/estatespain-case-study.pdf"
     }
 ]

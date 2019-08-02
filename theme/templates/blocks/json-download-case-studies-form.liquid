@@ -3,7 +3,7 @@
 <div ng-controller="caseStudyController" class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
     <div class="section__inner container">
         <div class="section__info">
-			<h2 class="section__t">{{ block.title }}</h2>
+			{% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
 			<form class="form-horizontal" ng-submit="submit('{{ block.downloadUrl }}')" name="caseStudyForm">
                 <div ng-init="setCaseStudyForm(caseStudyForm)"></div>
 				<input type="text" id="CaseStudy[Email]" class="form-control" name="CaseStudy[Email]" placeholder="Your email" ng-model="email" required ng-pattern="emailPattern" />

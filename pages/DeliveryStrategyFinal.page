@@ -2,7 +2,7 @@
     {
         "type": "settings",
         "title": "Ecommerce Implementation and Delivery",
-        "permalink": "b2b-ecommerce-integration",
+        "permalink": "b2b-ecommerce-implementation",
         "header": "B2B Ecommerce Integration",
         "description": "",
         "id": 1
@@ -22,7 +22,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": true
+        "headerStyle": "h1"
     },
     {
         "id": 3,
@@ -121,11 +121,13 @@
         "content": "",
         "url": {
             "urlText": "Find a Certified Virto Commerce Partner",
-            "url": "/find-partner",
+            "url": "https://vc-public-test.azurewebsites.net/find-partner",
             "style": "btn btn--orange btn--lg"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null
     }
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "googlefb3482d54338d317.html",
+        "header": "googleverification",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text",
+        "name": "Text",
+        "title": "Block title",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>google-site-verification: googlefb3482d54338d317.html</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

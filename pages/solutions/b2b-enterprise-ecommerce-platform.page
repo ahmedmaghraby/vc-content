@@ -1,19 +1,19 @@
 [
     {
         "type": "settings",
-        "title": ".NET Open Source Enterprise B2B Ecommerce Platform,",
-        "permalink": "solutions/b2b-enterprise-ecommerce-platform",
+        "title": "Enterprise ecommerce platform. Software from VirtoCommerce",
+        "permalink": "b2b-enterprise-ecommerce-platform",
         "id": 1,
         "header": ".NET Enterprise Ecommerce Platform",
-        "description": "Leading .NET Open Source Enterprise B2B Ecommerce Platform, Perfect for Complex Ecommerce"
+        "description": "Leading Open Source Enterprise B2B Ecommerce Platform, Perfect for Complex Ecommerce"
     },
     {
         "id": 2,
         "type": "decorated-hero",
         "name": "Text over image",
         "title": "How Can Enterprises Overcome Ecommerce Challenges? ",
-        "h1": null,
-        "content": "<p>The main ecommerce challenges enterprises encounter when implementing enterprise ecommerce platforms is due to their general business complexity&nbsp;and size which makes long run planning and execution complicated. The right approach to ecommerce projects is required to overcome roadblocks.&nbsp;</p>\n",
+        "headerStyle": "h1",
+        "content": "<h2>The main ecommerce challenges enterprises encounter when implementing enterprise ecommerce platforms is due to their general business complexity&nbsp;and size which makes long run planning and execution complicated. The right approach to ecommerce projects is required to overcome roadblocks.&nbsp;</h2>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -24,7 +24,7 @@
         "name": "Text over image",
         "title": "Main Ecommerce Challenges Faced By Enterprises",
         "style": "light",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -48,7 +48,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Top Enterprise Ecommerce Platform Implementation Risks",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -92,7 +92,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -114,7 +114,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Does Virto Commerce Resolve These Risks?",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -158,7 +158,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -182,7 +182,7 @@
         "text": "Reach Out to Our Experts",
         "style": "light",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Contact Us"
         },
@@ -191,20 +191,31 @@
         "noPad": null
     },
     {
-        "id": 9,
-        "type": "text",
-        "name": "bosch",
+        "id": 10,
+        "type": "list-with-images",
+        "name": "List with images",
         "title": "Bosch: gaining customer insights through new digital outlets",
-        "h1": null,
+        
         "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
         "style": "light",
-        "decorator": "none",
-        "content": "<p>Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.</p>\n\n<p>Bosch knew they wanted to use a pre-existing ecommerce solution, as opposed to developing their own. To do this, Bosch needed to choose a software that is based on the Microsoft technology stack, which is their internal technology. Furthermore, the chosen platform needed to be extremely customizable to accommodate Bosch&rsquo;s complex integrations and specific requirements.</p>\n\n<p>This project was the first ecommerce implementation for Bosch, so to help with the learning curve, Virto Commerce held an onsite kick-off workshop with Bosch&rsquo;s technical team.<br />\nBosch Thermotechnik now has a Customer Loyalty Portal that allows Bosch to gain valuable customer insight and build strong customer relationships. With the portal built on Virto Commerce Bosch Customer Loyalty Portal serves as a long-term solution that grows with Bosch and its future business needs.</p>\n",
-        "url": {
-            "url": "https://virtocommerce.com/case-studies/bosch",
-            "style": "link-large",
-            "urlText": "Download Case Study"
-        },
+        "colStyle": "col-lg-12",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch.png"
+                },
+                "title": null,
+                "text": "<p>Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.</p>\n\n<p>&nbsp;</p>\n\n<p>Bosch knew they wanted to use a pre-existing ecommerce solution, as opposed to developing their own. To do this, Bosch needed to choose a software that is based on the Microsoft technology stack, which is their internal technology. Furthermore, the chosen platform needed to be extremely customizable to accommodate Bosch&rsquo;s complex integrations and specific requirements.</p>\n\n<p>&nbsp;</p>\n\n<p>This project was the first ecommerce implementation for Bosch, so to help with the learning curve, Virto Commerce held an onsite kick-off workshop with Bosch&rsquo;s technical team.<br />\nBosch Thermotechnik now has a Customer Loyalty Portal that allows Bosch to gain valuable customer insight and build strong customer relationships. With the portal built on Virto Commerce Bosch Customer Loyalty Portal serves as a long-term solution that grows with Bosch and its future business needs.</p>\n\n<p>&nbsp;</p>\n",
+                "iconStyle": null,
+                "url": {
+                    "url": "/case-studies/bosch",
+                    "urlText": "Download the Full Case Study",
+                    "style": "link-large"
+                }
+            }
+        ],
         "noTop": true,
         "noBottom": null,
         "noPad": null

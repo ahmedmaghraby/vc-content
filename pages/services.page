@@ -9,16 +9,11 @@
     },
     {
         "id": 2,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Digital Commerce Training & Services",
-        "subTitle": "",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/austin-distel-wawEfYdpkag-unsplash.jpg"
-        },
-        "content": "<p>Our services are designed to support partners throughout their entire lifecycle from sales to design, implementation, deployment and post-sales&nbsp;</p>\n",
-        "url1": null,
-        "url2": null,
+        "type": "decorated-hero",
+        "name": "title",
+        "title": "Ecommerce Partner Services",
+        "headerStyle": "h1",
+        "content": "",
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -47,46 +42,71 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                    "url": "https://vc4test.blob.core.windows.net/blogs/support.png"
                 },
-                "title": "Technical Account Manager",
-                "text": "<p>A Virto Commerce Technical Account Manager is your dedicated resource and mentor. They help facilitate best practice discussions, help identify implementation issues, and connect with other Virto Commerce experts and support teams.</p>\n"
+                "title": "Support",
+                "text": "<p>We provide tech-savvy 24/7 support aimed to solve platform-related issues during implementation.</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/review.png"
                 },
-                "title": "Review Services",
-                "text": "<p>Our partner review services consist of multiple types of reviews and recommendations from Virto Commerce Experts. They include: business requirements reviews, architecture reviews, delivery reviews and post production reviews and recommendations.</p>\n"
+                "title": "Expert Services",
+                "text": "<p>Our experts are ready to review and give first-hand recommendations to help your solution succeed.</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/cs.png"
+                },
+                "title": "Professional Services",
+                "text": "<p>Our highly experienced teams are ready to boost your implementation resources to achieve business objectives</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                },
+                "title": "Technical Account Manager",
+                "text": "<p>A Virto Commerce Technical Account Manager is your dedicated resource and mentor. They help facilitate best practice discussions, help identify implementation issues, and connect with other Virto Commerce experts and support teams</p>\n",
+                "iconStyle": null,
+                "url": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 5,
         "type": "list-with-images",
         "name": null,
         "title": "Training",
-        "intro": "<h3 style=\"text-align:center\">Virto Commerce offers a variety of training options to our partners - please&nbsp;<a href=\"http://virtocommerce.com/training\">view our upcoming training schedule. </a></h3>\n",
+        "intro": "<h3 style=\"text-align:center\">Virto Commerce offers a variety of training options to our partners - please&nbsp;<a href=\"http://vc-public-test.azurewebsites.net/training\">view our upcoming training schedule. </a></h3>\n",
         "style": null,
         "colStyle": "col-md-6 col-lg-4",
         "items": [
             {
                 "image": null,
                 "title": "Developer Training Courses",
-                "text": "<ul>\n\t<li>VC Fundamentals - 1 Day</li>\n\t<li>Architect Great Solutions - 2 Day</li>\n\t<li>&nbsp;</li>\n</ul>\n"
+                "text": "<ul>\n\t<li>Duration: 4 days</li>\n\t<li>Audience: Upper intermediate and advanced web and<br />\n\tbackend developers</li>\n\t<li>Modules:</li>\n\t<li>Virto Commerce Fundamentals</li>\n\t<li>Configure Virto Commerce</li>\n\t<li>Developing Virto Commerce Modules</li>\n\t<li>Developing Storefront Applications</li>\n\t<li>&nbsp;</li>\n</ul>\n"
             },
             {
                 "image": null,
                 "title": "Architect Training Courses",
-                "text": "<ul>\n\t<li>VC Fundamentals &ndash; 1 day&nbsp;</li>\n\t<li>Developing VC modules &ndash; 2 days</li>\n\t<li>Developing Storefront Apps &ndash; 1 day&nbsp;</li>\n</ul>\n"
+                "text": "<ul>\n\t<li>Duration: 2&nbsp;days</li>\n\t<li>Audience: Solution Architect and advanced developers</li>\n\t<li>Modules:</li>\n\t<li>Virto Commerce Fundamentals</li>\n\t<li>Architect Great Solutions</li>\n</ul>\n"
             },
             {
                 "image": null,
                 "title": "Business User Training Courses",
-                "text": "<ul>\n\t<li>VC Fundamentals &ndash; 1 day</li>\n\t<li>Configuring VC solutions &ndash; 1 day&nbsp;</li>\n</ul>\n"
+                "text": "<ul>\n\t<li>Duration: 1&nbsp;day</li>\n\t<li>Audience: Business users and Content managers</li>\n\t<li>Modules:</li>\n\t<li>Virto Commerce Fundamentals</li>\n\t<li>Configure Virto Commerce</li>\n</ul>\n"
             },
             {
                 "image": null,
@@ -101,7 +121,10 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 6,
