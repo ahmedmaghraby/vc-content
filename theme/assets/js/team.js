@@ -5,7 +5,6 @@ $(function () {
     var interval = 3000;
     var container = $('.list--pics');
     if (container.length) {
-        container.css({ opacity: 0 });
         var items = $('.list__item', container);
         var images = $('.list__item img', container);
         //images.hide();
@@ -21,7 +20,6 @@ $(function () {
         var countInRow = 0;
         var top = 0;
         var visibleUrls = [];
-        var invisibleUrls = [];
         items.each(function () {
             var $this = $(this);
             if (top === 0) {
@@ -36,14 +34,16 @@ $(function () {
         items.each(function (index) {
             if (index >= displayCount) {
                 $(this).remove();
-                invisibleUrls.push(visibleUrls[index]);
             }
         });
-        visibleUrls.splice(displayCount, visibleUrls.length - displayCount);
+        var invisibleUrls = visibleUrls.splice(displayCount, visibleUrls.length - displayCount);
+        console.log(visibleUrls);
+        console.log(invisibleUrls);
         container.animate({ opacity: 1 }, 1000);
         setInterval(function () {
             var newImg = Math.floor(invisibleUrls.length * Math.random());
             var oldImg = Math.floor(visibleUrls.length * Math.random());
+            console.log(invisibleUrls[newImg], visibleUrls[oldImg]);
             var newUrl = invisibleUrls[newImg];
             invisibleUrls[newImg] = visibleUrls[oldImg];
             visibleUrls[oldImg] = newUrl;
