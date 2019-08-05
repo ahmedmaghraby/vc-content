@@ -158,6 +158,14 @@
         {
             font-size: .875rem;
         }
+		
+		.actions
+        {
+            .btn
+            {
+                margin-right: .625rem;
+            }
+        }
     }
 
     @include media-breakpoint-down(md) {

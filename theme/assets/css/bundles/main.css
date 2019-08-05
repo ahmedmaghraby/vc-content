@@ -6570,6 +6570,10 @@ input.ng-touched.ng-invalid {
     font-size: .875rem;
 }
 
+.glossary__content .actions .btn {
+    margin-right: .625rem;
+}
+
 @media (max-width: 991.98px) {
     .glossary__sidebar {
         display: none;
