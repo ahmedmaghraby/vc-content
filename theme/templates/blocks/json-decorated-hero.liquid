@@ -1,6 +1,6 @@
 <div class="section section--bg-pattern {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
     <div class="section__inner container">
-        {% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
+        {% include 'blocks/block-title', block %}
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}

@@ -10,6 +10,11 @@
         "type": "string"
       },
       {
+        "id": "published",
+        "label": "Published",
+        "type":  "boolean"
+      },
+      {
         "id": "permalink",
         "label": "Permalink",
         "type": "string"
@@ -88,8 +93,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -186,8 +191,8 @@
         "tab": "Settings"
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -248,6 +253,14 @@
           {
             "value": "section__t--gray",
             "label": "Gray"
+          },
+          {
+            "value": "section__t--large",
+            "label": "Large"
+          },
+          {
+            "value": "section__t--large section__t--gray",
+            "label":  "Large gray"
           }
         ],
         "tab": "Settings"
@@ -327,8 +340,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -533,8 +546,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -679,8 +692,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -864,8 +877,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -1037,8 +1050,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -1194,8 +1207,8 @@
         "autofocus": true
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",
@@ -1654,8 +1667,8 @@
         ]
       },
       {
-        "id": "headerStyle",
-        "label": "Header style",
+        "id": "headerType",
+        "label": "Header type",
         "default": "like-h2",
         "tab": "Settings",
         "type": "select",

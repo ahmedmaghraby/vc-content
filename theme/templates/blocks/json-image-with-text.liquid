@@ -8,7 +8,7 @@
                      alt="" class="section__pic">
             </div>
             <div class="col-lg-auto section__info">
-                {% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
+                {% include 'blocks/block-title', block %}
                 <div class="section__descr">
                     {{ block.content }}
                     {% if block.url1 != blank and block.url1.urlText != blank %}

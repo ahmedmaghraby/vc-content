@@ -3,7 +3,7 @@
         {% if block.subTitle != blank %}
         <div class="section__sub-t">{{ block.subTitle }}</div>
         {% endif %}
-        {% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
+        {% include 'blocks/block-title', block %}
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}
