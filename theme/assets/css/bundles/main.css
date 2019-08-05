@@ -6543,8 +6543,8 @@ input.ng-touched.ng-invalid {
     padding: 1.875rem 0 1.875rem 1.875rem;
 }
 
-.glossary__content .glossary-t,
-    .glossary__content .glossary-sub-t {
+.glossary__content .glosary-t,
+    .glossary__content .glosary-sub-t {
     background: #eee;
     font-size: 1.25rem;
     font-weight: 700;
@@ -6553,7 +6553,7 @@ input.ng-touched.ng-invalid {
     text-transform: uppercase;
 }
 
-.glossary__content .glossary-sub-t {
+.glossary__content .glosary-sub-t {
     font-size: 1.125rem;
 }
 
@@ -6630,7 +6630,7 @@ input.ng-touched.ng-invalid {
 
 .glossary__content .glosary .glosary-videos .video {
     margin: 0 0 1rem;
-    margin-bottom: 56.25%;
+    padding-bottom: 56.25%;
     position: relative;
 }
 
@@ -6642,7 +6642,13 @@ input.ng-touched.ng-invalid {
     width: 100%;
 }
 
-.glossary__content .glosary .glosary-videos .glosary-nav {
+.glossary__content .glosary .glosary-videos .btn {
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.glossary__content .glosary-nav {
     background: #eee;
     display: -ms-flexbox;
     display: flex;
@@ -6651,8 +6657,10 @@ input.ng-touched.ng-invalid {
     padding: 1.25rem 0;
 }
 
-.glossary__content .glosary .glosary-videos .glosary-nav .btn {
+.glossary__content .glosary-nav .btn {
     margin: 0 .625rem;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 12.5rem;
 }
 
@@ -8440,6 +8448,7 @@ textarea {
 .list--pics {
     display: -ms-flexbox;
     display: flex;
+    opacity: 0;
 }
 
 .list--pics .list__item {
@@ -8463,172 +8472,11 @@ textarea {
     z-index: 1;
 }
 
-.list--pics .list__item:nth-child(1) .list__pic {
-    animation-delay: 0.01s;
-}
-
-.list--pics .list__item:nth-child(2) .list__pic {
-    animation-delay: 0.02s;
-}
-
-.list--pics .list__item:nth-child(3) .list__pic {
-    animation-delay: 0.03s;
-}
-
-.list--pics .list__item:nth-child(4) .list__pic {
-    animation-delay: 0.04s;
-}
-
-.list--pics .list__item:nth-child(5) .list__pic {
-    animation-delay: 0.05s;
-}
-
-.list--pics .list__item:nth-child(6) .list__pic {
-    animation-delay: 0.06s;
-}
-
-.list--pics .list__item:nth-child(7) .list__pic {
-    animation-delay: 0.07s;
-}
-
-.list--pics .list__item:nth-child(8) .list__pic {
-    animation-delay: 0.08s;
-}
-
-.list--pics .list__item:nth-child(9) .list__pic {
-    animation-delay: 0.09s;
-}
-
-.list--pics .list__item:nth-child(10) .list__pic {
-    animation-delay: 0.1s;
-}
-
-.list--pics .list__item:nth-child(11) .list__pic {
-    animation-delay: 0.11s;
-}
-
-.list--pics .list__item:nth-child(12) .list__pic {
-    animation-delay: 0.12s;
-}
-
-.list--pics .list__item:nth-child(13) .list__pic {
-    animation-delay: 0.13s;
-}
-
-.list--pics .list__item:nth-child(14) .list__pic {
-    animation-delay: 0.14s;
-}
-
-.list--pics .list__item:nth-child(15) .list__pic {
-    animation-delay: 0.15s;
-}
-
-.list--pics .list__item:nth-child(16) .list__pic {
-    animation-delay: 0.16s;
-}
-
-.list--pics .list__item:nth-child(17) .list__pic {
-    animation-delay: 0.17s;
-}
-
-.list--pics .list__item:nth-child(18) .list__pic {
-    animation-delay: 0.18s;
-}
-
-.list--pics .list__item:nth-child(19) .list__pic {
-    animation-delay: 0.19s;
-}
-
-.list--pics .list__item:nth-child(20) .list__pic {
-    animation-delay: 0.2s;
-}
-
-.list--pics .list__item:nth-child(21) .list__pic {
-    animation-delay: 0.21s;
-}
-
-.list--pics .list__item:nth-child(22) .list__pic {
-    animation-delay: 0.22s;
-}
-
-.list--pics .list__item:nth-child(23) .list__pic {
-    animation-delay: 0.23s;
-}
-
-.list--pics .list__item:nth-child(24) .list__pic {
-    animation-delay: 0.24s;
-}
-
-.list--pics .list__item:nth-child(25) .list__pic {
-    animation-delay: 0.25s;
-}
-
-.list--pics .list__item:nth-child(26) .list__pic {
-    animation-delay: 0.26s;
-}
-
-.list--pics .list__item:nth-child(27) .list__pic {
-    animation-delay: 0.27s;
-}
-
-.list--pics .list__item:nth-child(28) .list__pic {
-    animation-delay: 0.28s;
-}
-
-.list--pics .list__item:nth-child(29) .list__pic {
-    animation-delay: 0.29s;
-}
-
-.list--pics .list__item:nth-child(30) .list__pic {
-    animation-delay: 0.3s;
-}
-
-.list--pics .list__item:nth-child(31) .list__pic {
-    animation-delay: 0.31s;
-}
-
-.list--pics .list__item:nth-child(32) .list__pic {
-    animation-delay: 0.32s;
-}
-
-.list--pics .list__item:nth-child(33) .list__pic {
-    animation-delay: 0.33s;
-}
-
-.list--pics .list__item:nth-child(34) .list__pic {
-    animation-delay: 0.34s;
-}
-
-.list--pics .list__item:nth-child(35) .list__pic {
-    animation-delay: 0.35s;
-}
-
-.list--pics .list__item:nth-child(36) .list__pic {
-    animation-delay: 0.36s;
-}
-
-.list--pics .list__item:nth-child(37) .list__pic {
-    animation-delay: 0.37s;
-}
-
-.list--pics .list__item:nth-child(38) .list__pic {
-    animation-delay: 0.38s;
-}
-
 .list--pics .list__pic {
-    animation: fade 1 .35s ease forwards;
     display: block;
     max-width: 100%;
-    opacity: 0;
     position: relative;
-    transition: all .35s ease;
     z-index: 5;
-}
-
-@keyframes fade {
-    100% {
-        opacity: 1;
-    }
 }
 
 .list--team .list__link {

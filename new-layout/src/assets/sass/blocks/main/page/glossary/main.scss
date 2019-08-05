@@ -208,7 +208,7 @@
             .video
             {
                 margin: 0 0 1rem;
-                margin-bottom: 56.25%;
+                padding-bottom: 56.25%;
                 position: relative;
             }
 
@@ -218,6 +218,12 @@
                 left: 0;
                 position: absolute;
                 top: 0;
+                width: 100%;
+            }
+
+            .btn
+            {
+                justify-content: center;
                 width: 100%;
             }
         }
@@ -232,6 +238,7 @@
             .btn
             {
                 margin: 0 .625rem;
+                justify-content: center;
                 width: 12.5rem;
             }
         }
