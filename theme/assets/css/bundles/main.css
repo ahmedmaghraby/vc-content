@@ -6486,6 +6486,19 @@ input.ng-touched.ng-invalid {
     margin-top: 1.25rem;
 }
 
+.glossary .nav__item--active > .nav__link {
+    color: #ffb608;
+}
+
+.glossary .nav__item--active > .nav__link .nav__icon {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.glossary .nav__item--active > .nav__link .path {
+    fill: #ffb608;
+}
+
 .glossary .nav__item--dropdown .nav__icon {
     display: inline-block;
 }
@@ -6495,11 +6508,11 @@ input.ng-touched.ng-invalid {
     font-size: .875rem;
 }
 
-.glossary .nav__link:hover, .glossary .nav__link--active {
+.glossary .nav__link:hover {
     color: #ffb608;
 }
 
-.glossary .nav__link:hover .path, .glossary .nav__link--active .path {
+.glossary .nav__link:hover .path {
     fill: #ffb608;
 }
 
@@ -6526,11 +6539,12 @@ input.ng-touched.ng-invalid {
 }
 
 .glossary__content {
+    font-style: .875rem;
     padding: 1.875rem 0 1.875rem 1.875rem;
 }
 
-.glossary__content .glossary__t,
-    .glossary__content .glossary__sub-t {
+.glossary__content .glossary-t,
+    .glossary__content .glossary-sub-t {
     background: #eee;
     font-size: 1.25rem;
     font-weight: 700;
@@ -6539,7 +6553,7 @@ input.ng-touched.ng-invalid {
     text-transform: uppercase;
 }
 
-.glossary__content .glossary__sub-t {
+.glossary__content .glossary-sub-t {
     font-size: 1.125rem;
 }
 
@@ -6556,6 +6570,7 @@ input.ng-touched.ng-invalid {
 
 .glossary__content .text {
     color: #72778e;
+    margin: 1rem 0;
 }
 
 .glossary__content ul {
@@ -6563,15 +6578,82 @@ input.ng-touched.ng-invalid {
 }
 
 .glossary__content ol {
-    padding-left: .9375rem;
+    list-style-position: inside;
 }
 
 .glossary__content .business-cnt .text {
     font-size: .875rem;
 }
 
+.glossary__content .actions {
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .glossary__content .actions .btn {
     margin-right: .625rem;
+}
+
+.glossary__content .glosary-article {
+    margin-bottom: 3.125rem;
+}
+
+.glossary__content .glosary .glosary-article .glosary-pic {
+    float: left;
+    margin: 0 1.875rem 1.25rem 0;
+    max-width: 16.25rem;
+    width: 100%;
+}
+
+.glossary__content .glosary .glosary-videos {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1.25rem 0;
+}
+
+.glossary__content .glosary .glosary-videos.center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.glossary__content .glosary .glosary-videos .list-item {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    width: 50%;
+}
+
+@media (max-width: 991.98px) {
+    .glossary__content .glosary .glosary-videos .list-item {
+        width: 100%;
+    }
+}
+
+.glossary__content .glosary .glosary-videos .video {
+    margin: 0 0 1rem;
+    margin-bottom: 56.25%;
+    position: relative;
+}
+
+.glossary__content .glosary .glosary-videos iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.glossary__content .glosary .glosary-videos .glosary-nav {
+    background: #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.glossary__content .glosary .glosary-videos .glosary-nav .btn {
+    margin: 0 .625rem;
+    width: 12.5rem;
 }
 
 @media (max-width: 991.98px) {
@@ -8122,16 +8204,18 @@ textarea {
 
 .list--cards .list__img {
     border-radius: .625rem .625rem 0 0;
-    -ms-flex: 0 0 13.125rem;
-    flex: 0 0 13.125rem;
-    height: 13.125rem;
-    margin: -1px -1.9375rem 1.25rem;
+    -ms-flex: 0 0 11rem;
+    flex: 0 0 11rem;
+    height: 11rem;
+    margin: -1px -1.875rem 1.25rem;
     overflow: hidden;
+    width: calc(100% + 3.75rem);
 }
 
 .list--cards .list__pic {
     border-radius: .625rem .625rem 0 0;
     display: block;
+    margin: 0;
     width: 100%;
 }
 

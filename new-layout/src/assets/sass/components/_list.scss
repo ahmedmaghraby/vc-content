@@ -216,16 +216,18 @@
     .list__img
     {
         border-radius: .625rem .625rem 0 0;
-        flex: 0 0 13.125rem;
-        height: 13.125rem;
-        margin: -1px -1.9375rem 1.25rem;
+        flex: 0 0 11rem;
+        height: 11rem;
+        margin: -1px -1.875rem 1.25rem;
         overflow: hidden;
+        width: calc(100% + 3.75rem);
     }
 
     .list__pic
     {
         border-radius: .625rem .625rem 0 0;
         display: block;
+        margin: 0;
         width: 100%;
     }
 
