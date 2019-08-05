@@ -301,11 +301,16 @@
     .list__sidebar
     {
         align-self: flex-start;
+        counter-reset: list;
         flex: 0 0 20rem;
         max-width: 20rem;
 
         .list__item
         {
+            counter-increment: list;
+            flex-grow: 1;
+            padding: 0;
+
             & ~ .list__item
             {
                 margin-top: 1.875rem;
@@ -314,9 +319,15 @@
 
         .list__num
         {
-            font-size: 3.75rem;
-            font-weight: 900;
             line-height: 1;
+            position: relative;
+
+            &::after
+            {
+                content: counter(list);
+                font-size: 3.75rem;
+                font-weight: 900;
+            }
         }
 
         .list__descr
@@ -344,15 +355,24 @@
         }
     }
 
-    &.horizontal
+    &.list--horizontal
     {
-        flex-direction: column;
+        .list__sidebar-inner
+        {
+            display: flex;
+            margin: 0 -.9375rem;
+        }
 
         .list__sidebar
         {
             display: flex;
-            flex: 1 0 0;
+            flex: 1 0 auto;
             max-width: 100%;
+
+            .list__item
+            {
+                padding: 0 .9375rem;
+            }
 
             .list__item ~ .list__item
             {
@@ -363,6 +383,53 @@
         .list__content
         {
             margin-top: 2.5rem;
+        }
+    }
+
+    &.list--latin
+    {
+        .list__num::after
+        {
+            content: counter(list, upper-latin);
+        }
+    }
+
+    &.list--roman
+    {
+        .list__num::after
+        {
+            content: counter(list, upper-roman);
+        }
+    }
+
+    &.list--reverse
+    {
+        flex-direction: row-reverse;
+    }
+
+    &.list--horizontal-reverse
+    {
+        flex-direction: column-reverse;
+
+        .list__sidebar
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .list__sidebar-inner
+        {
+            display: flex;
+        }
+
+        .list__item ~ .list__item
+        {
+            margin-top: 0;
+        }
+
+        .list__content
+        {
+            margin: 0 0 2.5rem;
         }
     }
 }
