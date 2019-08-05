@@ -27,6 +27,7 @@
     {{ '//fonts.googleapis.com/css?family=Lato' | stylesheet_tag }}
     {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css' | stylesheet_tag }}
     {{ 'style.min.css' | asset_url | stylesheet_tag }}
     <script type="text/javascript">
         var appInsights=window.appInsights||function(config){
@@ -177,6 +178,7 @@
     {{ 'js/main.js' | asset_url | script_tag }}
     <script>
             var BASE_URL = '{{ "/" | full_url }}';
+            hljs.initHighlightingOnLoad();
     </script>
     <script src="//apis.google.com/js/platform.js" async defer></script>
 </body>
