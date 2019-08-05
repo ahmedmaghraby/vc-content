@@ -4484,18 +4484,22 @@ img.img--expanded {
     display: block;
 }
 
-h2, .like-h2 {
+h2,
+.like-h2 {
     font-weight: bold;
 }
 
-h3, .like-h3 {
+h3,
+.like-h3 {
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 1.25rem;
 }
 
 h1,
-h2, .like-h1, .like-h2 {
+h2,
+.like-h1,
+.like-h2 {
     margin-bottom: 1.875rem;
 }
 
@@ -4535,54 +4539,72 @@ code {
     text-align: left;
 }
 
-@media (max-width: 767.98px) {
-    h1,
-  h1.section__t--large, .like-h1, .like-h1.section__t--large {
-        font-size: 2rem;
-    }
-
-    h2,
-  h2.section__t--large, .like-h2, .like-h2.section__t--large {
-        font-size: 1.75rem;
-    }
-
-    h3,
-  h3.section__t--large, .like-h3, .like-h3.section__t--large {
-        font-size: 1.375rem;
-    }
-}
-
 @media (min-width: 768px) {
     h1,
-  h1.section__t--large, .like-h1, .like-h1.section__t--large {
+  h1.section__t--large,
+  .like-h1,
+  .like-h1.section__t--large {
         font-size: 2.625rem;
     }
 
     h2,
-  h2.section__t--large, .like-h2, .like-h2.section__t--large {
+  h2.section__t--large,
+  .like-h2,
+  .like-h2.section__t--large {
         font-size: 2rem;
     }
 
     h3,
-  h3.section__t--large, .like-h3, .like-h.section__t--large {
+  h3.section__t--large,
+  .like-h3,
+  .like-h.section__t--large {
         font-size: 1.375rem;
     }
 }
 
 @media (min-width: 992px) {
     h1,
-  h1.section__t--large, .like-h1, .like-h1.section__t--large {
+  h1.section__t--large,
+  .like-h1,
+  .like-h1.section__t--large {
         font-size: 3rem;
     }
 
     h2,
-  h2.section__t--large, .like-h2, .like-h2.section__t--large {
+  h2.section__t--large,
+  .like-h2,
+  .like-h2.section__t--large {
         font-size: 2.5rem;
     }
 
     h3,
-  h3.section__t--large, .like-h3, .like-h3.section__t--large {
-        font-size: 1.375rem;
+  h3.section__t--large,
+  .like-h3,
+  .like-h3.section__t--large {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    h1,
+  h1.section__t--large,
+  .like-h1,
+  .like-h1.section__t--large {
+        font-size: 2rem;
+    }
+
+    h2,
+  h2.section__t--large,
+  .like-h2,
+  .like-h2.section__t--large {
+        font-size: 1.75rem;
+    }
+
+    h3,
+  h3.section__t--large,
+  .like-h3,
+  .like-h3.section__t--large {
+        font-size: 1.125rem;
     }
 }
 
@@ -5236,6 +5258,10 @@ code {
     font-size: 1rem;
 }
 
+.section__descr--normal {
+    font-size: inherit;
+}
+
 .section__descr--medium {
     font-size: 1.25rem;
 }
@@ -5670,7 +5696,8 @@ code {
         font-size: 3rem;
     }
 
-    .section--cover .section__descr {
+    .section--cover .section__descr,
+    .section--cover h3 {
         font-size: 1.375rem;
     }
 }
@@ -5685,7 +5712,8 @@ code {
         font-size: 2.125rem;
     }
 
-    .section--cover .section__descr {
+    .section--cover .section__descr,
+    .section--cover h3 {
         font-size: 1.125rem;
     }
 }
@@ -6197,6 +6225,7 @@ code {
 .docs__content {
     min-width: 23.75rem;
     padding: 1.875rem;
+    font-size: .875rem;
 }
 
 .docs__content h2 {
@@ -6215,6 +6244,24 @@ code {
 
 .docs__content p:nth-of-type(1) {
     margin-top: 2rem;
+}
+
+.docs__content img {
+    display: block;
+    margin: 1rem 0;
+    max-width: 100%;
+}
+
+.docs__content .text {
+    color: #72778e;
+}
+
+.docs__content ul {
+    list-style: none;
+}
+
+.docs__content ol {
+    padding-left: .9375rem;
 }
 
 .docs .docs-contributors {
@@ -6439,19 +6486,6 @@ input.ng-touched.ng-invalid {
     margin-top: 1.25rem;
 }
 
-.glossary .nav__item--active > .nav__link {
-    color: #ffb608;
-}
-
-.glossary .nav__item--active > .nav__link .nav__icon {
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.glossary .nav__item--active > .nav__link .path {
-    fill: #ffb608;
-}
-
 .glossary .nav__item--dropdown .nav__icon {
     display: inline-block;
 }
@@ -6461,11 +6495,11 @@ input.ng-touched.ng-invalid {
     font-size: .875rem;
 }
 
-.glossary .nav__link:hover {
+.glossary .nav__link:hover, .glossary .nav__link--active {
     color: #ffb608;
 }
 
-.glossary .nav__link:hover .path {
+.glossary .nav__link:hover .path, .glossary .nav__link--active .path {
     fill: #ffb608;
 }
 
@@ -6529,7 +6563,7 @@ input.ng-touched.ng-invalid {
 }
 
 .glossary__content ol {
-    padding-left: 1.75rem;
+    padding-left: .9375rem;
 }
 
 .glossary__content .business-cnt .text {

@@ -166,6 +166,7 @@
     {
         min-width: 23.75rem;
         padding: 1.875rem;
+		font-size: .875rem;
 
         h2
         {
@@ -187,6 +188,28 @@
             {
                 margin-top: 2rem;
             }
+        }
+		
+        img
+        {
+            display: block;
+            margin: 1rem 0;
+            max-width: 100%;
+        }
+
+        .text
+        {
+            color: $gray-600;
+        }
+
+        ul
+        {
+            list-style: none;
+        }
+
+        ol
+        {
+            padding-left: .9375rem;
         }
     }
 

@@ -27,7 +27,7 @@
             margin-top: 1.25rem;
         }
 
-        &--active
+/*        &--active
         {
             > .nav__link
             {
@@ -43,7 +43,7 @@
                     fill: $orange;
                 }
             }
-        }
+        }*/		
 
         &--dropdown
         {
@@ -59,7 +59,7 @@
         border: none;
         font-size: .875rem;
 
-        &:hover
+        &:hover, &--active
         {
             color: $orange;
 
@@ -151,7 +151,7 @@
 
         ol
         {
-            padding-left: 1.75rem;
+            padding-left: .9375rem;
         }
 
         .business-cnt .text

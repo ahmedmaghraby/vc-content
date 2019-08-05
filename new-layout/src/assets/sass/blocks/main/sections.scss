@@ -49,10 +49,16 @@
             font-size: 1rem;
         }
 
+		&--normal
+		{
+			font-size: inherit;
+		}
+
         &--medium
         {
             font-size: 1.25rem;
         }
+		
 		&--centered
 		{
 			text-align: center;
@@ -527,7 +533,8 @@
             font-size: 3rem;
         }
 
-        .section__descr
+        .section__descr,
+		h3
         {
             font-size: 1.375rem;
         }
@@ -545,7 +552,8 @@
             font-size: 2.125rem;
         }
 
-        .section__descr
+        .section__descr,
+		h3
         {
             font-size: 1.125rem;
         }
