@@ -487,6 +487,7 @@
 .list--pics
 {
     display: flex;
+    opacity: 0;
 
     .list__item
     {
@@ -509,33 +510,14 @@
             width: 100%;
             z-index: 1;
         }
-
-        @for $i from 1 through 38
-        {
-            &:nth-child(#{$i}) .list__pic
-            {
-                animation-delay: $i * .01s;
-            }
-        }
     }
 
     .list__pic
     {
-        animation: fade 1 .35s ease forwards;
         display: block;
         max-width: 100%;
-        opacity: 0;
         position: relative;
-        transition: all .35s ease;
         z-index: 5;
-    }
-
-    @keyframes fade
-    {
-        100%
-        {
-            opacity: 1;
-        }
     }
 }
 
