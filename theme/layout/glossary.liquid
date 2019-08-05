@@ -48,13 +48,16 @@
             (i[r].q = i[r].q || []).push(arguments)
         }, i[r].l = 1 * new Date(); a = s.createElement(o),
             m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'gdga');
 
         ga('create', 'UA-490257-44', 'auto');
         ga('send', 'pageview');
     </script>
 </head>
 <body ng-controller="mainController">
+    {% if can_track %}
+    {% include 'gdpr-cookie-compliance' %}
+    {% endif %}
     <div class="google-like">
         <div class="g-plusone" data-href="https://virtocommerce.com" data-size="tall"></div>
     </div>
@@ -108,6 +111,15 @@
             var BASE_URL = '{{ "/" | full_url }}';
     </script>
     {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
+    <script>
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
+    </script>
     {{ 'js/main.js' | asset_url | script_tag }}
 </body>
 </html>

@@ -56,6 +56,9 @@
     </script>
 </head>
 <body ng-controller="docsController">
+    {% if can_track %}
+    {% include 'gdpr-cookie-compliance' %}
+    {% endif %}
     <div class="google-like">
         <div class="g-plusone" data-href="https://virtocommerce.com" data-size="tall"></div>
     </div>
@@ -177,6 +180,15 @@
     {{ 'themes/assets/scripts/angular/docs.js' | script_tag }}
     {{ 'js/main.js' | asset_url | script_tag }}
     <script>
+        var BASE_URL = '{{ "/" | full_url }}';
+
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
             var BASE_URL = '{{ "/" | full_url }}';
             hljs.initHighlightingOnLoad();
     </script>
