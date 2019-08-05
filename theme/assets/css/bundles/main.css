@@ -6190,6 +6190,7 @@ code {
 }
 
 .docs__content {
+    min-width: 23.75rem;
     padding: 1.875rem;
 }
 
@@ -6421,6 +6422,7 @@ input.ng-touched.ng-invalid {
 .glossary__content {
     -ms-flex: 1 0 0px;
     flex: 1 0 0;
+    min-width: 23.75rem;
 }
 
 .glossary .nav__item {

@@ -561,6 +561,7 @@
                             <p>Welcome to the Virto Commerce 2 Developer Guide Documentation. Here you can find all the materials from installing Virto Commerce to customizing it. Start with the Introduction to the platform and then continue to evaluate by installing locally, microsoft cloud (azure) or web platform installer.</p>
                             <h3>Storage requirements</h3>
                             <p>Precompiled Virto Commerce Manager <a href="#">with</a> storefront take about 130 MB. When using the Deploy to Azure button on GitHub, the Azure web app downloads the source code and compiles it on the Azure web app - this takes about 800 MB.This means even the F1 (free) service plan is enough to host both web applications. S2 has 50 GB of storage, which is more than enough for both applications and product assets (images) of very large catalog. So when choosing between S2 and P2 you should only consider the performance of these instances.</p>
+                            <pre><code class="">&lt;<span class="hljs-keyword">add</span> name=<span class="hljs-string">"VirtoCommerce"</span> connectionString=<span class="hljs-string">"Data Source=(local);Initial Catalog=VirtoCommerce2;Persist Security Info=True;User       ID=virto;Password=virto;MultipleActiveResultSets=True;Connect Timeout=420"</span> providerName=<span class="hljs-string">"System.Data.SqlClient"</span> /&gt;</code></pre>
                         </div>
                     </div>
                 </div>
