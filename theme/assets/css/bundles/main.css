@@ -4520,6 +4520,16 @@ blockquote .author {
     margin-top: 1rem;
 }
 
+code {
+    background: #f0f0f0;
+    border: 1px solid #e2e2e2;
+    display: block;
+    margin: 1.25rem 0;
+    overflow-x: auto;
+    padding: .5rem;
+    text-align: left;
+}
+
 @media (max-width: 767.98px) {
     h1,
   h1.section__t--large, .like-h1, .like-h1.section__t--large {
