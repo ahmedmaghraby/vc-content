@@ -8,11 +8,11 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Top Enterprise Ecommerce Challenges",
-        "h1": null,
+        
         "subTitle": "Virto Commerce Ecommerce Education",
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/sean-pollock-PhYq704ffdA-unsplash.jpg"
@@ -25,11 +25,11 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "style": "light",
         "decorator": "none",
         "content": "<h3 style=\"text-align: center;\">It&#39;s a common myth that Enterprise e-commerce is essentially just a bigger version of a normal online store. This is not correct. Running a business at an enterprise level is a completely different journey. There are multiple factors that come into play once a business grows to the enterprise level, making ecommerce complex due to many different stakeholders, all with unique and sometimes competing requirements. In this white paper we&#39;ll provide the top 4 challenges that enterprise ecommerce websites face and their best solutions.</h3>\n",
@@ -43,15 +43,16 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "download-case-studies-form",
         "name": "Download Case studies form",
-        "style": "light",
+        "style": "dark",
         "noTop": true,
         "noBottom": true,
         "noPad": true,
         "title": "Download White Paper",
         "buttonText": "Download White Paper",
-        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/whitepaper-ecommerce-platform-migration-problems.pdf"
     }
 ]

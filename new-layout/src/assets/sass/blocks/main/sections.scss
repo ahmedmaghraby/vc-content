@@ -27,7 +27,7 @@
         {
             font-size: 3.125rem;
         }
-		
+
 		&--left-alignment
 		{
 			text-align: left;
@@ -36,7 +36,6 @@
 
     &__descr
     {
-        font-size: 1.125rem;
         margin-bottom: 1.875rem;
 		text-align: left;
 
@@ -73,7 +72,7 @@
 
 		&--center-block
 		{
-			width: 41.25rem;
+			max-width: 41.25rem;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -512,8 +511,7 @@
         {
             justify-content: center;
             margin: .625rem;
-            padding: 0;
-            width: 17.5rem;
+            min-width: 17.5rem;
         }
     }
 
@@ -581,7 +579,7 @@
     {
         background: $gray-100;
         bottom: 5.25rem;
-        left: 5rem;
+        left: 0;
         right: 0;
         top: 2.875rem;
         z-index: 1;

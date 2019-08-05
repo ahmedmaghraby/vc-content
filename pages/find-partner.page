@@ -12,7 +12,7 @@
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Looking For an Ecommerce Implementation Guide?",
-        "h1": true,
+        "headerStyle": "h1",
         "subTitle": null,
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/kaleidico-3V8xo5Gbusk-unsplash.jpg"
@@ -29,7 +29,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "style": "light",
         "decorator": "none",
         "content": "<h3 style=\"text-align:center\">Virto Commerce has a worldwide network of implementation partners. Our partners are carefully selected and provide expertise to deliver successful B2B ecommerce solutions for small, medium, and large businesses.&nbsp;<br />\nComplete the form below and we will contact you to discuss your project in more detail and find the best partner to fit for your needs.</h3>\n",

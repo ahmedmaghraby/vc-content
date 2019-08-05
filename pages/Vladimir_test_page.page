@@ -1,0 +1,38 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text",
+        "name": "Text",
+        "title": "This is a simple text block",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Text block content</p>\n",
+        "url": {
+            "urlText": "Read more",
+            "url": "#",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 2,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Case Studies",
+        "buttonText": "Download Case Studies",
+        "downloadUrl": "Browse...",
+        "description": "<p>By clicking &laquo;Download Case Studies&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+    }
+]

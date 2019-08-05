@@ -187,20 +187,48 @@
                 margin-top: 2rem;
             }
         }
+    }
 
-        .edit-link
+    .docs-contributors
+    {
+        display: flex;
+        align-items: flex-start;
+
+        &__author
+        {
+            padding-left: 2.5rem;
+            position: relative;
+
+            &-link
+            {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            &-img
+            {
+                border-radius: 1.875rem;
+                width: 1.875rem;
+                height: 1.875rem;
+                background-size: contain;
+            }
+        }
+
+        &__date,
+        &__t
+        {
+            font-size: .875rem;
+            line-height: 1.6;
+        }
+
+        &__link
         {
             align-items: center;
             color: $blue;
             display: flex;
             font-size: .875rem;
-
-            &__ico
-            {
-                height: 1.5rem;
-                margin-right: .625rem;
-                width: 1.5rem;
-            }
+            margin-left: auto;
 
             .path
             {
@@ -215,6 +243,44 @@
                 {
                     fill: $orange;
                 }
+            }
+        }
+
+        &__ico
+        {
+            height: 1.5rem;
+            margin-right: .625rem;
+            width: 1.5rem;
+        }
+
+        .see-all
+        {
+            color: $blue;
+            font-size: .875rem;
+            cursor: pointer;
+
+            &:hover
+            {
+                color: $orange;
+            }
+        }
+    }
+
+    ul
+    {
+        list-style: outside;
+        padding-left: 1rem;
+        line-height: 1.6;
+        font-size: .875rem;
+        margin-bottom: 1.25rem;
+
+        li
+        {
+            color: $blue;
+
+            &:hover
+            {
+                color: $orange;
             }
         }
     }

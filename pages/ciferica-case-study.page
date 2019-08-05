@@ -8,11 +8,11 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Ciferica AB Case Study",
-        "h1": null,
+        
         "titleAlignment": null,
         "subTitle": null,
         "image": {
@@ -26,11 +26,11 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "From Initial Idea to Full-Fledged Product",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -48,7 +48,7 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "download-case-studies-form",
         "name": "Download Case studies form",
         "style": "dark",
@@ -57,6 +57,7 @@
         "noPad": true,
         "title": "Download Full Case Study",
         "buttonText": "Download Now",
-        "description": "<p>By clicking &laquo;Download Now&gt; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download Now&gt; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/niteco-cifereca-case-study.pdf"
     }
 ]

@@ -28,6 +28,11 @@ body
     }
 }
 
+.modal-open
+{
+    overflow: hidden;
+}
+
 a
 {
     color: $orange;
@@ -49,12 +54,12 @@ img
 }
 
 // Headings
-h2
+h2, .like-h2
 {
     font-weight: bold;
 }
 
-h3
+h3, .like-h3
 {
     font-size: 1.5rem;
     font-weight: 900;
@@ -62,7 +67,7 @@ h3
 }
 
 h1,
-h2
+h2, .like-h1, .like-h2
 {
     margin-bottom: 1.875rem;
 }
@@ -98,19 +103,19 @@ blockquote
 
 @include media-breakpoint-down(sm) {
     h1,
-    h1.section__t--large
+    h1.section__t--large, .like-h1, .like-h1.section__t--large
     {
         font-size: 2rem;
     }
 
     h2,
-    h2.section__t--large
+    h2.section__t--large, .like-h2, .like-h2.section__t--large
     {
         font-size: 1.75rem;
     }
 
     h3,
-    h3.section__t--large
+    h3.section__t--large, .like-h3, .like-h3.section__t--large
     {
         font-size: 1.375rem;
     }
@@ -118,19 +123,19 @@ blockquote
 
 @include media-breakpoint-up(md) {
     h1,
-    h1.section__t--large
+    h1.section__t--large, .like-h1, .like-h1.section__t--large
     {
         font-size: 2.625rem;
     }
 
     h2,
-    h2.section__t--large
+    h2.section__t--large, .like-h2, .like-h2.section__t--large
     {
         font-size: 2rem;
     }
 
     h3,
-    h3.section__t--large
+    h3.section__t--large, .like-h3, .like-h.section__t--large
     {
         font-size: 1.375rem;
     }
@@ -138,19 +143,19 @@ blockquote
 
 @include media-breakpoint-up(lg) {
     h1,
-    .section__t--large
+    h1.section__t--large, .like-h1, .like-h1.section__t--large
     {
         font-size: 3rem;
     }
 
     h2,
-    h2.section__t--large
+    h2.section__t--large, .like-h2, .like-h2.section__t--large
     {
         font-size: 2.5rem;
     }
 
     h3,
-    h3.section__t--large
+    h3.section__t--large, .like-h3, .like-h3.section__t--large
     {
         font-size: 1.375rem;
     }

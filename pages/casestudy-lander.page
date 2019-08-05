@@ -39,7 +39,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://www.virtocommerce.com/case-studies/bosch"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
                 }
             },
             {
@@ -51,7 +51,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
                 }
             },
             {
@@ -63,7 +63,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/estatespain"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain"
                 }
             },
             {
@@ -73,7 +73,7 @@
                 },
                 "text": "<p>Virto Commerce helped one of Sweden&#39;s top manufacturers expand internationally.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/proffsmagasinet",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -85,7 +85,7 @@
                 },
                 "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic ecommerce platform, and came to Virto for flexibility and scalability.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -97,7 +97,7 @@
                 },
                 "text": "<p>Eminent used Virto Commerce to build a solution for the US Executive Branch.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/eminent",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/eminent",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -109,7 +109,7 @@
                 },
                 "text": "<p>Virto Commerce worked with Kupinatao to create a large Russian marketplace similiar to Alibaba, which sells over 800 million items.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/kupinatao",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/kupinatao",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -121,7 +121,7 @@
                 },
                 "text": "<p>Giftcertificates.com used Virto Commerce to make over 300 custom ecommerce portals for its end customers.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/gift",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/gift",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -133,7 +133,7 @@
                 },
                 "text": "<p>Virto Commerce, with partner Niteco, created a solution for a startup with a new model to connect consultants, brokerages and their clients.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/ciferica",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/ciferica",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -142,7 +142,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null,
+        
         "titleAlignment": null
     }
 ]

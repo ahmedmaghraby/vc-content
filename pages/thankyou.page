@@ -45,7 +45,7 @@
         "type": "cards",
         "name": "Text",
         "title": "In the meanwhile, please explore our success stories:",
-        "style": "light",
+        "style": "dark",
         "items": [
             {
                 "title": "Lavazza Success Story",
@@ -56,7 +56,7 @@
                 "link": {
                     "urlText": "Read More",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
                 }
             },
             {
@@ -68,7 +68,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/bosch"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
                 }
             },
             {
@@ -78,7 +78,7 @@
                 },
                 "text": "<p>Estate-Spain.com&nbsp;found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</p>\n",
                 "link": {
-                    "url": "https://www.virtocommerce.com/case-studies/estatespain",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -87,6 +87,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     }
 ]

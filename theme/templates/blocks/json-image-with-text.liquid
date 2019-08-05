@@ -8,13 +8,7 @@
                      alt="" class="section__pic">
             </div>
             <div class="col-lg-auto section__info">
-                {% if block.title != blank %}
-                    {% if block.h1 == true %}
-                    <h1 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h1>
-                    {% else %}
-                    <h2 class="section__t {{ block.titleAlignment }}">{{ block.title }}</h2>
-                    {% endif %}
-                {% endif %}
+                {% include 'blocks/block-title', title: block.title, headerStyle: block.headerStyle %}
                 <div class="section__descr">
                     {{ block.content }}
                     {% if block.url1 != blank and block.url1.urlText != blank %}

@@ -66,14 +66,15 @@
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers - designed for enterprise ecommerce.</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "urlText": "Get a Demo",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     },
     {
         "id": 6,
@@ -89,7 +90,7 @@
                 },
                 "text": "<p>Pricing tools to support complex B2B pricing tiers and scenarios</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-ecommerce-pricing-tools",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -101,7 +102,7 @@
                 },
                 "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-ecommerce-marketing-tools",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-marketing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -113,7 +114,7 @@
                 },
                 "text": "<p>Virto Commerce provides order management tools to handle even the most complicated B2B fulfillment requirements.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/b2b-ecommerce-order-management",
+                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-order-management",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -122,6 +123,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     }
 ]

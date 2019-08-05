@@ -1,223 +1,213 @@
 [
     {
         "type": "settings",
-        "title": "B2B Ecommerce Platform for Manufacturers, Wholesalers and Distributors",
-        "permalink": "b2b-ecommerce-solution",
+        "title": "B2B eCommerce Platform | Best B2B eCommerce Software by Virto Commerce",
+        "permalink": "b2b-ecommerce-platform",
         "header": "Top B2B Ecommerce Platform for Enterprises",
-        "description": "Top Flexible and Scale B2B Open Source .NET Ecommerce Platform",
-        "id": 1
+        "description": "The agile B2B e-commerce solution. The best B2B ecommerce software developers deserve.",
+        "id": 1,
+        "layout": "theme"
     },
     {
         "id": 2,
-        "type": "text-over-image",
-        "name": null,
-        "title": "B2B Ecommerce for Enterprises and Mid-Market Companies",
-        "subTitle": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/b2b header.png"
-        },
-        "content": "<p>Don&#39;t Lose Out to the Competition &ndash; Use a Solution Created Specifically for B2B Digital Commerce</p>\n",
-        "url1": null,
-        "url2": null,
-        "h1": true,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "B2B Ecommerce Platforms",
+        "headerStyle": "h1",
+        "content": "<h2>The best agile B2B e-commerce solution</h2>\n\n<p>According to Gartner,&nbsp;the percentage of ecommerce that is B2B is increasing rapidly.&nbsp;Properly implemented ecommerce brings many positives to both customers and sellers. This is&nbsp;why B2B companies prioritize embedding ecommcerce into their&nbsp;digital transformation process. Selecting the right solution for B2B ecommerce is challenging-&nbsp;B2B ecommerce platforms work&nbsp;perfectly for the B2C market, but the reverse is not true.&nbsp;</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null
     },
     {
         "id": 3,
-        "type": "two-columns-text",
-        "name": null,
-        "title": null,
-        "style": null,
-        "contentBefore": null,
-        "items": [
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "B2B Ecommerce: Key Findings",
+        "style": "light",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
             {
-                "title": null,
-                "text": "<p>B2B digital commerce is increasingly competitive, and staying ahead of competitors requires a digital commerce foundation built for B2B. Many platforms built for B2C look appropriate for B2B at first glance- but in reality they cannot handle the complexities of B2B commerce. As more manufactures and distributors join the online commerce world, rigid legacy platforms cannot keep the pace needed to win business in the current environment.</p>\n"
+                "text": "<p>B2B ecommerce is growing rapidly, and will soon impact every company on the market&nbsp;</p>\n"
             },
             {
-                "title": null,
-                "text": "<p>Virto Commerce&#39;s platform seamlessly handles the complexities of B2B digital commerce, while offering customers a streamlined B2C like experience. Our B2B focus means we understand how to solve the challenges B2B vendors face when it comes to selling online, such as multi-vendor catalogs, custom quote negotiation, and pricing tiers. Virto Commerce&#39;s platform provides powerful enterprise-class features right out-of-the-box and gives you the flexibility to create your own unique B2B solution while utilizing agile principles.</p>\n"
+                "text": "<p>Companies are missing&nbsp;B2B ecommerce expertise, which is required for a successful digital transformation</p>\n"
+            },
+            {
+                "text": "<p>Most well known B2C ecommerce solutions doesn&rsquo;t fit the B2B market</p>\n"
             }
-        ]
+        ],
+        "content": "<p>The B2B ecommerce market is growing&nbsp;rapidly. Gartner research predicts that within next few years, more than half of B2B sales will be done via ecommerce channels,&nbsp; creating&nbsp;both new opportunities and threats for companies&nbsp;focused on the B2B market.</p>\n\n<p>Companies who can quickly run a digital transformation fast will have a better chance to increase their market share by acquiring slower market players. At the same time, entering the B2B market causes an additional entry to the&nbsp;B2C market for&nbsp;companies who have never before worked with end-customers directly. All together, this&nbsp;creates opportunities for companies who embark on ecommerce immediately.</p>\n\n<p>Currently, most&nbsp;B2B companies who start their digital transformation don&rsquo;t have the experience doing such ecommerce projects,&nbsp;and therefore, don&rsquo;t have&nbsp;the related expertise. Business, technical, organizational challenges all create risks for ecommerce projects.&nbsp;</p>\n\n<p>It is common practice to rely on IT implementation partners when undergoing a digital transformation. The problem is that there are very few system integrators and digital agencies who really have expertise in B2B ecommerce. B2C ecommerce experience is easier to find but it doesn&rsquo;t fit the B2B market.&nbsp;</p>\n\n<p>Quite often companies try to apply their B2C experience to B2B situations, but this doesn&rsquo;t really work. B2B ecommerce is much more complicated than B2C, and most solutions and practices, which work for B2C, don&rsquo;t fit B2B ecommerce. B2B ecommerce requires&nbsp;additional complex rules, processes, entities and even interfaces. Employee-users are not equal to physical bodies, humans are not the only kind of users in B2B, and UI is not the only interface.</p>\n",
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 4,
-        "type": "text",
-        "name": null,
-        "title": null,
-        "style": null,
-        "decorator": null,
-        "content": "<p>Virto Commerce constantly evolves our platform to make sure that the latest functionality is available to our customers as their needs change. By offering a broad set of built-in functionalities, the flexibility of our platform, a proven implementation process and the extensive expertise of our Virto Commerce team and partners &ndash; we guarantee that our customer&#39;s solutions will be highly successful in achieving their business needs and helping to meet your revenue goals.</p>\n",
-        "url": null
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "What Does this Mean for Companies in the B2B Market? ",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "The lack of expertise in ecommerce leads to additional costs, delays, or project failures",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "An agile approach mitigates the risk of project delays or failures",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Postponing an ecommerce implementation means losing opportunities",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 5,
         "type": "text",
-        "name": null,
-        "title": "Key Features Readily Available for B2B companies",
-        "style": null,
-        "decorator": null,
-        "content": null,
-        "url": null
+        "name": "Text",
+        "title": "",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Lack of experience in B2B ecommerce brings risks to&nbsp;companies going through a&nbsp;digital transformation. Risks mostly relate to solution choice, &nbsp;implementation project approach, and to lack of understanding B2B ecommerce business specifics. It is essential to mitigate these risks to avoid very long and expensive projects or even failure.</p>\n\n<p>It is required to start getting feedback from the market as fast as possible when implementing an ecommerce solution. The only way to do this&nbsp;is to run small&nbsp;agile projects which start returning value quickly, allowing you to mitigate the risk of project delay.&nbsp; The architecture of the solution predefines an implementation methodology. Selecting a flexible modular solution makes possible to implement ecommerce through&nbsp;small agile projects, getting value quickly and enabling the rapid gathering of market feedback.&nbsp;</p>\n\n<p>For B2B focused companies, a delay in the implementation of their ecommerce solution or a&nbsp;project postponement means that ecommerce opportunities will go to competitors who can move faster. In ecommerce,&nbsp;&ldquo;speed&ldquo; is an essential requirement, so moving &ldquo;fast&rdquo; to capture market share means going ahead of competitors who have started acting already.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 6,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Catalog & Product implementation catalogs",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Order Management.png"
-        },
-        "content": "<p>Our digital commerce platform provides sophisticated catalog management capabilities making it simple to manage even the most complex B2C and B2B product lists. Using Virto Commerce you can: Manage digital and physical products. Virto Commerce&#39;s catalog can be configured to handle all your catalog information, or integrated with 3rd party Product Information Management (PIM) or Content Management (CMS) solutions. Go Global. Virto Commerce supports multiple catalogs, languages, taxes and storefronts.</p>\n",
-        "url1": null,
-        "url2": null
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Does Virto Commerce Solve these problems?",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Virto Commerce is designed for B2B ecommerce",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Virto Commerce is a platform for delivery with short release cycles",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "We train your team or take your partner onboard",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 7,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Pricing",
-        "style": "dark",
-        "align": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Pricing.png"
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Virto Commerce platform is designed as&nbsp;B2B ecommerce software, which is mature and flexible enough to facilitate business for&nbsp;companies of different scale: disruptive startups, rapid growing mid-market-companies, and multi-national enterprises with high complexity. Virto Commerce&#39;s platform is a customizable &amp; extensible platform, which was initially designed to implement complex custom B2B scenarios on top of it.</p>\n\n<p>Due to modern modular architecture, Virto Commerce&#39;s platform enables an agile way of doing implementation projects. It is possible to start acting locally (in terms of countries, functions, and processes) and then continue by gradual extending the solution, adding new features, functions, integrations all with fast release cycles. Businesses start seeing value fast and keep up a&nbsp;high implementation speed.</p>\n\n<p>To resolve the ecommerce expertise shortage, Virto Commerce pays a lot of attention to implementation partners. Having many successful experiences of making custom implementations ourselves, we understand that the quality of our partners is critical for&nbsp;customers.&nbsp;We may take responsibility for finding a trustable implementation partner or we also can train your trusted provider to work with Virto Commerce and delegate our experts to facilitate your project.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
         },
-        "content": "<p>B2B companies order large volumes, so naturally they negotiate different pricing with different buyers. B2B-specific software needs to be able to reflect customer relationships and/or specific order conditions like pricing, special offers, and special conditions for shipping and delivery.</p>\n\n<p>Virto Commerce can support all your B2B pricing needs. Prices can be personalized in real-time based on audience, campaign, purchase history, geo-location, contracts and other customer-based scenarios.</p>\n\n<ul>\n\t<li>Personalized pricing</li>\n\t<li>Price lists &middot; B2B pricing</li>\n\t<li>Tiered pricing</li>\n\t<li>Custom currencies (bitcoin, points)</li>\n</ul>\n\n<p><a href=\"https://virtocommerce.com/features/b2b-ecommerce-pricing-tools\">Learn More about our Pricing Functionality</a></p>\n",
-        "url1": null,
-        "url2": null
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 8,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Order Management",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Order Management.png"
+        "type": "text-with-button",
+        "name": "Text",
+        "text": "Reach out to our Experts",
+        "style": "light",
+        "url": {
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Contact Us"
         },
-        "content": "<p>Virto Commerce provides industry leading order management functionality. It can be integrated into complex enterprise workflows -- including many leading ERP and fulfillment systems.</p>\n\n<ul>\n\t<li>Customer order history</li>\n\t<li>Split shipments</li>\n\t<li>Split payments</li>\n\t<li>Punchout support</li>\n\t<li>Quotes and purchase orders</li>\n\t<li>Subscription management</li>\n</ul>\n",
-        "url1": null,
-        "url2": null
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 9,
-        "type": "image-with-text",
-        "name": null,
-        "title": "API Based",
-        "style": "dark",
-        "align": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Api based.png"
+        "type": "text",
+        "name": "Text",
+        "title": "What Are the Key Business Objectives of a B2B Ecommerce Solution?",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>B2B ecommerce greatly changes interactions between companies. When implemented in the right way, it leads to multiple positive effects for both a customer and a seller. This is the reason behind the rapid growth of B2B ecommerce&#39;s overall share of the ecommerce transaction market.&nbsp;</p>\n\n<p><strong>Better customer experience</strong></p>\n\n<ul>\n\t<li>Self-services for business users</li>\n\t<li>Comfortable multi-channel online services</li>\n\t<li>Facilitates&nbsp;internal customer&rsquo;s processes</li>\n</ul>\n\n<p>Delivery of a user-friendly ecommerce experience allows B2B customers to save time on&nbsp;actions which are quite time consuming in a traditionally: creating an order,&nbsp; browsing product details, configuring delivery options,&nbsp; and tracking order statuses online for example.&nbsp;</p>\n\n<p>Well done multi-channel B2B ecommerce platforms enable customers to interact with the supplier by using procurement portals, messengers or APIs. API based ecommerce platforms make it possible to allow to enable almost any user, whether it be an employee, business application or smart device.</p>\n\n<p>By using a B2B enterprise ecommerce platform a supplier provides additional services, which facilitate&nbsp;his&nbsp;customer&rsquo;s internal processes. Order approval workflow, smart budget control, recurrent orders, demand analysis and planning, and other similar services give&nbsp;additional value to the customer in turn increasing customer loyalty.&nbsp;</p>\n\n<p><strong>Increase Revenue Due to Better Connection with The Customer&rsquo;s Business</strong></p>\n\n<ul>\n\t<li>Upsell products by using algorithms: smart recommendations, built-in notifications, promotions, and more</li>\n\t<li>Catch more opportunities due to being integrated into the customer&rsquo;s supply chain management process: make orders simpler, faster, automatically,&nbsp; via marketplace like systems</li>\n\t<li>Get better customer insight: loyalty, quotes analysis, behavior analysis, sales forecasting and more</li>\n</ul>\n\n<p><strong>Save Costs for You and Your Client Due to B2B Ecommerce</strong></p>\n\n<ul>\n\t<li>Streamline and automate processes due to integration with a customer purchasing flow</li>\n\t<li>Reduce personnel&nbsp;costs&nbsp;due to providing a self-service portal</li>\n\t<li>Reduce inventory costs and integrate your own suppliers into the value creation chain</li>\n</ul>\n",
+        "url": {
+            "url": "http://vc-public-test.azurewebsites.net/case-studies",
+            "style": "link-large",
+            "urlText": "View Virto Commerce Case Studies"
         },
-        "content": "<p>Virto Commerce&#39;s modular architecture supports REST based APIs. These APIs allow you integrate other business systems and frontend technologies, such as customer profile data or a chat bot, into your Virto Commerce solution.Virto Commerce can support all your B2B pricing needs. Prices can be personalized in real-time based on audience, campaign, purchase history, geo-location, contracts and other customer-based scenarios.</p>\n\n<ul>\n\t<li>Modular architecture to customize your solution</li>\n\t<li>Real-time exchange of data&nbsp;</li>\n\t<li>Secure: REST Oauth and token based authentication ensures your data will never be breeched&nbsp;</li>\n</ul>\n\n<p><a href=\"https://admin-demo.virtocommerce.com/docs/ui/index\">Explore our API</a></p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 10,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Multi Tenant",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Multi-tenant.png"
-        },
-        "content": "<p>B2B vendors need to deal with the challenge of managing multiple vendors in a catalog while allowing customers to view the updated catalog in real time. Their solution needs to support multi-vendor catalogs, where all data - about all available products- by every vendor you work with - is stored in one place and can be easily accessed, updated and shared with all parties involved. Virto Commerce enables you to create complex rule structures, allow vendors to accept orders and customize the look and feel of their storefront.</p>\n\n<p><strong>Virto&#39;s software allows you to: </strong></p>\n\n<ul>\n\t<li>Create Organizations</li>\n\t<li>Vendor store themes and templates</li>\n\t<li>Relate orders to a specific vendor/store</li>\n\t<li>Control vendor permissions</li>\n</ul>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 11,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Open Source",
-        "style": "dark",
-        "align": null,
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Open Source.png"
-        },
-        "content": "<p>Virto Commerce is Open Source. Virto Commerce&#39;s platform allows you limitless access to modify the platform&#39;s code, giving your team endless creative freedom to configure your B2B website to meet your exact specifications</p>\n\n<p>Open source empowers highly customized B2B store fronts by downloading the code and customize the platform yourself.</p>\n\n<p><a href=\"https://virtocommerce.com/contribute-agreement\">Join our developer community</a></p>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 12,
-        "type": "image-with-text",
-        "name": null,
-        "title": "Cloud Based",
-        "style": null,
-        "align": "right",
-        "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Cloud Based Architecture.png"
-        },
-        "content": "<p>Virto Commerce is powered in the cloud, enabling your business to eliminate infrastructural limitations that hinder business growth. Being based in the cloud offers a multitude of benefits including:</p>\n\n<ul>\n\t<li>Seamless upgrades &amp; low maintenance time&nbsp;</li>\n\t<li>Faster time to market&nbsp;</li>\n\t<li>Lower costs &ndash; use money saved to grow your business&nbsp;</li>\n\t<li>Simple deployment (should link to implementation plan docs)</li>\n\t<li>Enhanced security &ndash; ensure customer data is stored safely&nbsp;</li>\n</ul>\n",
-        "url1": null,
-        "url2": null
-    },
-    {
-        "id": 13,
-        "type": "text-over-image",
-        "name": null,
-        "title": "Ready to get started?",
-        "subTitle": null,
-        "image": null,
-        "content": "<p>Contact us now to learn more about our solutions for all types of B2B companies, and to request a free Proof of Concept.</p>\n",
-        "url1": {
-            "url": "https://virtocommerce.com/contact-us",
-            "urlText": "Contact Virto Commerce",
-            "style": "btn--orange"
-        },
-        "url2": null
-    },
-    {
-        "id": 14,
-        "type": "cards",
-        "name": null,
-        "title": null,
-        "style": null,
-        "items": [
-            {
-                "title": "Bosch Case Study",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
-                },
-                "text": "<p>Learn How Bosch Created a Customer Portal Using Virto</p>\n",
-                "link": {
-                    "url": "https://virtocommerce.com/case-studies/bosch",
-                    "urlText": "Read More",
-                    "style": "btn--orange btn--round"
-                }
-            },
-            {
-                "title": "Proffsmagasinet Case Study",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
-                },
-                "text": "<p>Read how a top Swedish manufacturer created a new ecommerce platform</p>\n",
-                "link": {
-                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet",
-                    "urlText": "Read More",
-                    "style": "btn--orange btn--round"
-                }
-            },
-            {
-                "title": "Estate Spain Case Study",
-                "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
-                },
-                "text": "<p>Estate-Spain.com found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth.</p>\n",
-                "link": {
-                    "url": "ttps://virtocommerce.com/case-studies/estatespain",
-                    "urlText": "Read More",
-                    "style": "btn--orange btn--round"
-                }
-            }
-        ]
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
     }
 ]

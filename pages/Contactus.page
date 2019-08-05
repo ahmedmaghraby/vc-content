@@ -22,7 +22,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": true
+        "headerStyle": "h1"
     },
     {
         "id": 3,
@@ -99,7 +99,7 @@
                 "fullrow": true
             }
         ],
-        "outtro": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "outtro": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
         "buttonText": "Request Demo"
     }
 ]

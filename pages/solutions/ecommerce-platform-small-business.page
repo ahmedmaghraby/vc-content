@@ -2,7 +2,7 @@
     {
         "type": "settings",
         "title": "B2B . NET Ecommerce Platform for Small Business",
-        "permalink": "solutions/ecommerce-platform-small-business",
+        "permalink": "ecommerce-platform-small-business",
         "id": 1,
         "header": "B2B . NET Ecommerce Platform for Small Business",
         "description": "B2B . NET Ecommerce Platform for Small Business - Ideal for Manufacturers, Distributors and Retailers"
@@ -29,7 +29,7 @@
         "decorator": null,
         "content": "<h3>The world of B2B ecommerce can be overwhelming- there are many platforms available, and with a limited budget and IT resources, getting your online presence up and running can seem daunting. Offering an enterprise level platform along with the personalized service that only a small company can offer, Virto Commerce offers the ideal combination of a flexible solution and consulting services to power small businesses to success.</h3>\n\n<h3>Quickly growing companies need a flexible and scalable solution that is cost-effective and can support your company&#39;s long term growth trajectory. There are risks down the line to choosing an entry level platform - replatforming in the future can greatly hurt your profitability.</h3>\n\n<h3>Packed with features you need to build and run your store, Virto Commerce offers you the essential functionality you need to take your business online. As your revenue and business grows, your digital commerce platform can grow with you &ndash; every step of the way.</h3>\n",
         "url": null,
-        "h1": null,
+        
         "noTop": null,
         "noBottom": true,
         "noPad": null
@@ -39,7 +39,7 @@
         "type": "text",
         "name": "Text",
         "title": "Small Businesses Face Unique Ecommerce Challenges",
-        "h1": null,
+        
         "style": "dark",
         "decorator": "none",
         "content": "<ul>\n\t<li>If you take what looks to be the easy path - selecting an out-of-the-box (and inflexible) platform, you will need to re-build your ecommerce solution every time your business changes.&nbsp; The pace of business is unpredictable - you don&#39;t know what lies ahead.&nbsp; Picking a flexible solution now- that was designed to support enterprise ecommerce - ensures that your team can focus on business evolution, not finding a new ecommerce solution.&nbsp;</li>\n\t<li>You might be considering building an in-house solution.&nbsp; Building an ecommerce platform requires a technology company within your business.&nbsp; This creates additional risks of being dependant on your internal technical specialists.&nbsp;</li>\n\t<li>Legacy solutions are also a risk to your business.&nbsp; The more time and money you continue to invest in an unsustainable platform, the more work you create down the line as you will eventually need to sunset that solution when your business requirements change.&nbsp;&nbsp;</li>\n</ul>\n",
@@ -57,7 +57,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Virto Commerce: An Ideal Solution for Growing Companies",
-        "h1": null,
+        
         "intro": "",
         "style": "light",
         "colStyle": "col-lg-6",
@@ -108,7 +108,7 @@
             "urlText": "Request a Demo",
             "style": "btn btn--orange btn--round"
         },
-        "h1": null,
+        
         "noTop": null,
         "noBottom": null,
         "noPad": null
@@ -145,7 +145,7 @@
                 }
             }
         ],
-        "h1": null,
+        
         "noTop": null,
         "noBottom": null,
         "noPad": null

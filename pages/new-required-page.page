@@ -1,0 +1,233 @@
+[
+    {
+        "type": "settings",
+        "title": "Become a Virto Commerce Partner",
+        "permalink": "new-required-page",
+        "header": "Apply to Become a Virto Commerce Partner",
+        "id": 1,
+        "layout": "theme"
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "How can mid-market companies overcome their main ecommerce challenges? ",
+        "headerStyle": "h1",
+        "content": "<p>Mid-market companies already have high and constantly growing business complexity - close to enterprises - however they don&rsquo;t have enterprise-scale budgets. In terms of ecommerce, that means all projects should be very results-focused, provide good ROI and still deliver a reliable basis for further growth.&nbsp;</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Top Ecommerce Challenges Faced by Mid-Market Companies",
+        "style": "light",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "text": "<p>Lack of required deep expertise in ecommerce</p>\n"
+            },
+            {
+                "text": "<p>Inflexible solutions don&rsquo;t allow you to deliver changes fast and&nbsp; easily change direction</p>\n"
+            },
+            {
+                "text": "<p>A predictable implementation budget is critical</p>\n"
+            }
+        ],
+        "content": "<p>Mid-market companies are in the middle of a transformation in terms of human resources when the expertise of universal specialists becomes not enough to satisfy business complexity, and the company&nbsp;still doesn&#39;t have the opportunity to hire people with the required deep business and technical ecommerce expertise.</p>\n\n<p>Inflexible multi-tenant, closed-code solutions or software with monolithic architecture makes impossible to grow long term with the&nbsp;velocity needed to expand your business. Changes become more and more expensive or impossible, and bring more and more risks, so each new improvement takes more time to deliver.</p>\n\n<p>Having a predictable&nbsp;budget for ecommerce implementation projects is critical for mid-market companies. It is highly desirable to be able to keep control of the implementation progress and roadmap, and to be able to regularly evaluate the value of desirable features and spend money on the most valuable ones.</p>\n",
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Top Ecommerce Implementation Risks for Mid-Market Companies",
+        
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Selecting  a solution, which doesn’t fit,  and struggling with quality of the implementation",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Company cannot follow the pace of the market and loses opportunities",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "When a project goes over budget, companies sacrifice other valuable investments to continue it",
+                "text": null,
+                "iconStyle": null,
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>To properly run eommerce projects of scale, it&#39;s essential to attract ecommerce professionals. The lack of deep ecommerce expertise often leads to the choice of a solution which doesn&rsquo;t fit the business. The lack of experience in planning and execution of agile implementation projects leads to long, unpredictable projects, lost funds, and, as a result - a very slow return on ROI.&nbsp;</p>\n\n<p>When software becomes&nbsp;an inhibitor instead of being a solution, the mid-market company loses a&nbsp;critical advantage, which helps to win larger competitors &ndash; the speed of change. As the result a company loses more and more market opportunities, cannot implement its strategy with the required velocity, and cannot act proactively - just because of a low platform adoption speed.</p>\n\n<p>Implementation budgets are often tight, and mid-market companies often don&rsquo;t have easily available resources (free cash flow). It means that every time the project goes over budget, management should either freeze the project until money is available or sacrifice other investments to allow project to continue. Both decisions are painful decisions which slow a company&#39;s growth.&nbsp;</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Does Virto Commerce Resolves These Risks?",
+        
+        "titleAlignment": null,
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Virto Commerce company finds the proper implementation partner and guarantees their quality",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Platform flexibility makes it possible to mitigate risks by running a sequence of small projects",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "An agile approach allows minimizing of budget risks",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Finding an experienced implementation partner is a good way to resolve the lack of deep e-commerce expertise problem. Finding an experienced&nbsp;and reliable partner would be the ideal solution.</p>\n\n<p>Virto Commerce company pays a lot of attention to partners. Having successful experience of making custom implementation ourselves we understand that the quality of our partners is critical for the customer. We may take responsibility for finding a trustable implementation partner or we also can train your trusted provider to work with Virto Commerce and delegate our experts to facilitate your project.</p>\n\n<p>Virto Commerce pays a lot of attention to partners. Having the successful experience of making custom implementations ourselves, we understand that the quality of our partners is critical for our&nbsp;customers. We may take responsibility for finding a trustworthy&nbsp;implementation partner or we&nbsp;can train your trusted provider to work with Virto Commerce and delegate our experts to facilitate your project.</p>\n\n<p>Virto Commerce&#39;s solution is designed to facilitate an agile approach to e-commerce platform implementation. A customizable and extensible platform and modular architecture makes it possible to start implementation with small projects,&nbsp; that are focused on adding new functions, processes, regions and then continue by step-by-step extension of&nbsp;the solution with fast release cycles.</p>\n\n<p>Small projects allow you to quickly&nbsp;start seeing ROI fast,&nbsp; and they&nbsp;don&#39;t&nbsp;require you to sacrifice other investments to start implementation. Small projects also mean that the budget risk would be small, and it wouldn&#39;t be a&nbsp; big struggle to ensure a project goes live.&nbsp;</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
+        "fields": [
+            {
+                "label": "Full name",
+                "name": "fullname",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Phone",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Company",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false
+            },
+            {
+                "label": "Website",
+                "name": null,
+                "type": null,
+                "data": null,
+                "fullrow": true
+            },
+            {
+                "label": "Comments",
+                "name": "comments",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Inquire about Partnership&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Inquire about Partnership"
+    }
+]

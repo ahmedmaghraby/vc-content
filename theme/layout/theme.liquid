@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="storefrontApp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,6 +38,7 @@
     {% include 'gdpr-cookie-compliance' %}
     {% endif %}
 
+    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js' | script_tag }}
     <div id="layout">
         <div class="layout-canvas">
             <div class="swipe">

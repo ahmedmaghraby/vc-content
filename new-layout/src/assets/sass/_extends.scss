@@ -48,8 +48,6 @@
 
         li
         {
-            align-items: center;
-            display: flex;
             flex: 0 0 1.75rem;
             font-size: 1rem;
             line-height: 1.5;
@@ -109,6 +107,25 @@
                 font-size: 1rem;
                 font-weight: bold;
                 justify-content: center;
+            }
+        }
+    }
+
+    ul.no-style
+    {
+        li
+        {
+            font-size: 1.125rem;
+            padding: 0;
+
+            &::before
+            {
+                display: none;
+            }
+
+            & ~ li
+            {
+                margin-top: 0;
             }
         }
     }

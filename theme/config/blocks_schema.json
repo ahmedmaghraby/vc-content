@@ -88,11 +88,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "content",
@@ -160,11 +186,37 @@
         "tab": "Settings"
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -275,11 +327,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -455,11 +533,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -575,11 +679,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -734,11 +864,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -881,11 +1037,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -1012,11 +1194,37 @@
         "autofocus": true
       },
       {
-        "id": "h1",
-        "label": "Set header as H1",
-        "default": false,
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
         "tab": "Settings",
-        "type": "checkbox"
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
       },
       {
         "id": "titleAlignment",
@@ -1446,6 +1654,39 @@
         ]
       },
       {
+        "id": "headerStyle",
+        "label": "Header style",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
         "id": "noTop",
         "label": "Remove top margin",
         "type": "checkbox",
@@ -1477,6 +1718,12 @@
         "label": "Button text",
         "type": "string",
         "default": "Download Case Studies"
+      },
+      {
+        "id": "downloadUrl",
+        "label": "File",
+        "type": "file",
+        "default": "Choose file"
       },
       {
         "id": "description",

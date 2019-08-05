@@ -19,7 +19,7 @@
         "content": "<p>Prepare yourself for unlimited business growth</p>\n",
         "url1": null,
         "url2": null,
-        "h1": null,
+        
         "titleAlignment": null,
         "noTop": null,
         "noBottom": null,
@@ -53,9 +53,12 @@
                 "text": "<p>At the heart of digital transformation is change management, and each business will have its own unique change management process and challenges. From moving your B2B business online for the first time, changing your distribution methods, to revamping your technology stack &ndash; change management relies heavily on your organization and its people to be successful. To undertake digital transformation, you must first define the business processes that need to change, and then you must determine how that will change the organization of your team.&nbsp;</p>\n"
             }
         ],
-        "noTop": null,
+        "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 5,
@@ -72,9 +75,12 @@
                 "text": "<p>After technology, digital transformation relies on people, and your organization working together with your partner. <strong>There is an illusion of choice when it comes to ecommerce implementation partners.</strong>&nbsp; True, certified partners, who have successfully implemented complex solutions, are few and far inbetween, and need to be&nbsp;engaged rapidly&nbsp;- because they will always have their choice of projects to pick from.&nbsp; Many so called ecommerce partners simply pay a fee for their partner label, and have limited experience.&nbsp;</p>\n"
             }
         ],
-        "noTop": null,
+        "noTop": false,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 6,
@@ -116,7 +122,7 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/user.svg"
                 },
                 "title": "Worldwide Partner Network",
-                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"https://virtocommerce.com/find-b2b-ecommerce-partner\">Contact us to find the best partner to fit your needs.</a></p>\n",
+                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"http://vc-public-test.azurewebsites.net/find-implementation-partner\">Contact us to find the best partner to fit your needs.</a></p>\n",
                 "iconStyle": null,
                 "url": null
             },
@@ -125,7 +131,7 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/process.png"
                 },
                 "title": "Defined Delivery Process",
-                "text": "<p>Virto Commerce has a clear process that we use to get your perfect platform implemented on time and within budget. <a href=\"https://virtocommerce.com/delivery-plan\">Download our Delivery Plan&nbsp;</a>to understand how we structure our implementations.</p>\n",
+                "text": "<p>Virto Commerce has a clear process that we use to get your perfect platform implemented on time and within budget.&nbsp;</p>\n",
                 "iconStyle": null,
                 "url": null
             },
@@ -148,10 +154,10 @@
                 "url": null
             }
         ],
-        "noTop": null,
+        "noTop": true,
         "noBottom": null,
         "noPad": null,
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null
     },
@@ -165,13 +171,14 @@
         "content": "<p style=\"text-align:center\">Reach out to get a demo of Virto Commerce, and discuss how our&nbsp; flexible and scalable .NET ecommerce platform can be the foundation of your ecommerce journey.&nbsp;</p>\n",
         "url": {
             "urlText": "Get in Touch",
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "h1": null
+        
+        "titleAlignment": null
     },
     {
         "id": 9,
@@ -187,7 +194,7 @@
                 },
                 "text": "<p>See how Bosch created a new solution to increase customer insights and loyalty</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/bosch",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -199,7 +206,7 @@
                 },
                 "text": "<p>Read how Virto Commerce enabled a top Swedish manufacturer&#39;s international expansion and digital transformation.</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/proffsmagasinet",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/proffsmagasinet",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -211,7 +218,7 @@
                 },
                 "text": "<p>Estate-Spain.com found Virto Commerce in their digital transformation search for a replacement ecommerce solution that could scale with its explosive growth.</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/estatespain",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -219,6 +226,8 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        
+        "titleAlignment": null
     }
 ]

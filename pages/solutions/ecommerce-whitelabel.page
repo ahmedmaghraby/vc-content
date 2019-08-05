@@ -3,7 +3,7 @@
         "header": "",
         "type": "settings",
         "title": "",
-        "permalink": "solutions/ecommerce-whitelabel",
+        "permalink": "ecommerce-whitelabel",
         "id": 1
     },
     {
@@ -28,7 +28,7 @@
         "decorator": null,
         "content": "<p>Using a monolithic and rigid solution for your SaaS business could be a grave mistake &ndash; as the lack of flexibility would slow your time to market and hinder growth in the long run.</p>\n\n<p>Virto Commerce has built a leading .NET, agile and scalable solution that allows endless customization for your clients, making it the ideal technological foundation to build extensible solutions for others. For industry and regional specific solutions and SaaS - the flexibility and scalability of Virto&#39;s technology can&#39;t be matched by any other company. We are passionate about providing a technological foundation for unique, disruptive business models and are ready to invest in innovative SaaS businesses built on our technology. For businesses that white label our solution, we can provide a flexible licensing model that is unique in the digital commerce industry.</p>\n\n<p>Your long-term technology partner, Virto Commerce collaborates with you on every step along your journey. Leaders such as Travel Commerce Solutions and Giftcertificates.com have chosen Virto Commerce to power the SaaS and industry-specific solutions that they created for their customers. An innovative technology start-up, Travel Commerce Solutions is a cloud-based airline booking system that provides a unique ability to productize and sell a variety of elements in the travelers&#39; journey. When choosing a technology vendor, they soon realized that Virto Commerce offered the agility that they needed in their solution development. Additionally, Virto Commerce has a worldwide network of implementation partners to ensure that delivery will go smoothly, on time, and within budget.</p>\n",
         "url": null,
-        "h1": null,
+        
         "titleAlignment": null,
         "noTop": null,
         "noBottom": null,
@@ -80,7 +80,7 @@
                 "url": null
             }
         ],
-        "h1": null,
+        
         "titleAlignment": null,
         "titleStyle": null,
         "noTop": null,
@@ -88,11 +88,11 @@
         "noPad": null
     },
     {
-        "id": 7,
+        "id": 5,
         "type": "image-with-text",
         "name": "gift cert case study",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "dark",
         "align": "right",
@@ -101,7 +101,7 @@
         },
         "content": "<h3>Giftcertificates.com used Virto Commerce to create hundreds of ecommerce portals for it&#39;s clients.&nbsp;&nbsp;</h3>\n",
         "url1": {
-            "url": "https://virtocommerce.com/case-studies/gift",
+            "url": "http://vc-public-test.azurewebsites.net/case-studies/gift",
             "urlText": "View the Case Study",
             "style": "btn btn--orange btn--round"
         },
@@ -111,11 +111,11 @@
         "noPad": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "image-with-text",
         "name": "Image with text",
         "title": "",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "light",
         "align": "left",
@@ -130,17 +130,17 @@
         "noPad": null
     },
     {
-        "id": 6,
+        "id": 7,
         "type": "text",
         "name": "cta",
         "title": "Contact us to learn more about white labeling",
-        "h1": null,
+        
         "titleAlignment": null,
         "style": "dark",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">Please contact us to discuss how you can use Virto Commerce to build custom solutions for your own customers.&nbsp;</p>\n",
+        "content": "<p style=\"text-align:center\">Please contact us to discuss how you can use Virto Commerce to build custom solutions for your own customers.&nbsp;</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/contact-us",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Get in Touch"
         },

@@ -8,11 +8,11 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "B2C, B2B2C and B2G Enterprise Ecommerce Platform",
-        "h1": null,
+        
         "subTitle": "",
         "image": {
             "url": "https://vc4test.blob.core.windows.net/blogs/henry-co-SDR3oDS4mOc-unsplash.jpg"
@@ -25,14 +25,14 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "style": "light",
         "decorator": "none",
-        "content": "<h3><strong>Grow Fearlessly without Limits.&nbsp;</strong>Don&#39;t let your out of the box digital commerce platform limit you as you grow traffic, expand your product catalog and explore new markets. Virto Commerce allows you to easily add new product configurations, languages, and easily add multiple vendors to your site. Virto Commerce is your ideal&nbsp;<strong>long term</strong><strong>&nbsp;e</strong><strong>commerce partner</strong>, and builds features and functionality specifically for your team as your business needs change.</h3>\n\n<p>With a multitude of changes to B2C and B2B2C ecommerce, especially with an increase in promotions that create complex pricing structures, B2C and B2B2C ecommerce has become more sophisticated in recent years. B2C and B2B2C companies selling large volumes online need to consider their ecommerce platform choices carefully &ndash; risks come with choosing an out-of-the-box platform that fails to grow with your business.<br />\n<br />\nA solution designed for cloud and built on leading Microsoft .NET technology, Virto Commerce&#39;s agile platform is built to handle complicated enterprise digital commerce and is a perfect choice for companies looking to develop a customized .NET ecommerce experience. Leading B2C companies, like&nbsp;<a href=\"https://virtocommerce.com/blog/rainbow-sandals-selects-virto-commerce-platform-for-digital-commerce\">Rainbow Sandals</a>, recently chose Virto Commerce to power their online presence.&nbsp;</p>\n",
+        "content": "<h3><strong>Grow Fearlessly without Limits.&nbsp;</strong>Don&#39;t let your out of the box digital commerce platform limit you as you grow traffic, expand your product catalog and explore new markets. Virto Commerce allows you to easily add new product configurations, languages, and easily add multiple vendors to your site. Virto Commerce is your ideal&nbsp;<strong>long term</strong><strong>&nbsp;e</strong><strong>commerce partner</strong>, and builds features and functionality specifically for your team as your business needs change.</h3>\n\n<p>With a multitude of changes to B2C and B2B2C ecommerce, especially with an increase in promotions that create complex pricing structures, B2C and B2B2C ecommerce has become more sophisticated in recent years. B2C and B2B2C companies selling large volumes online need to consider their ecommerce platform choices carefully &ndash; risks come with choosing an out-of-the-box platform that fails to grow with your business.<br />\n<br />\nA solution designed for cloud and built on leading Microsoft .NET technology, Virto Commerce&#39;s agile platform is built to handle complicated enterprise digital commerce and is a perfect choice for companies looking to develop a customized .NET ecommerce experience. Leading B2C companies, like&nbsp;<a href=\"http://vc-public-test.azurewebsites.net/blog/rainbow-sandals-selects-virto-commerce-platform-for-digital-commerce\">Rainbow Sandals</a>, recently chose Virto Commerce to power their online presence.&nbsp;</p>\n",
         "url": {
             "urlText": "",
             "url": "",
@@ -40,14 +40,15 @@
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "list-with-images",
         "name": "List with images",
         "title": "An Ideal Solution for B2C and B2B2C Digital Commerce",
-        "h1": null,
+        
         "intro": "<p style=\"text-align:center\"><strong>A platform built with complex digital commerce in mind.</strong></p>\n",
         "style": "dark",
         "colStyle": "col-md-6 col-lg-4",
@@ -57,72 +58,87 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/cloud hosted.png"
                 },
                 "title": "Built for Cloud",
-                "text": "<p>Virto Commerce is designed for the cloud, enabling your business to eliminate infrastructural limitations that hinder business growth. Being based in the cloud offers a multitude of benefits including:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Seamless upgrades &amp; low maintenance time</li>\n\t<li>Faster time to market</li>\n\t<li>Lower costs &ndash; use money saved to grow your business</li>\n\t<li>Simple deployment (should link to implementation plan docs)</li>\n\t<li>Extensibility</li>\n\t<li>Enhanced security &ndash; ensure customer data is stored safely</li>\n</ul>\n"
+                "text": "<p>Virto Commerce is designed for the cloud, enabling your business to eliminate infrastructural limitations that hinder business growth. Being based in the cloud offers a multitude of benefits including:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Seamless upgrades &amp; low maintenance time</li>\n\t<li>Faster time to market</li>\n\t<li>Lower costs &ndash; use money saved to grow your business</li>\n\t<li>Simple deployment (should link to implementation plan docs)</li>\n\t<li>Extensibility</li>\n\t<li>Enhanced security &ndash; ensure customer data is stored safely</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/opensource.png"
                 },
                 "title": "Open Source",
-                "text": "<p>Open source allows you limitless access to modify the platform&#39;s code, giving your team endless creative freedom to configure your B2C or B2B2C website to meet your exact specifications. Other benefits that come along with leveraging the power of an open source solution:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Empower highly customized B2C store fronts by downloading the code and customize the platform yourself.</li>\n\t<li><a href=\"https://virtocommerce.com/contribute-agreement\">Join the Virto Commerce community of developers</a>&nbsp;and implementation partners and tap into their ecommerce expertise.</li>\n</ul>\n"
+                "text": "<p>Open source allows you limitless access to modify the platform&#39;s code, giving your team endless creative freedom to configure your B2C or B2B2C website to meet your exact specifications. Other benefits that come along with leveraging the power of an open source solution:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Empower highly customized B2C store fronts by downloading the code and customize the platform yourself.</li>\n\t<li><a href=\"https://virtocommerce.com/contribute-agreement\">Join the Virto Commerce community of developers</a>&nbsp;and implementation partners and tap into their ecommerce expertise.</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/productfind.png"
                 },
                 "title": "Catalog and Product Information Management",
-                "text": "<p>Our platform provides sophisticated catalog management capabilities making it simple and elegant to manage even the most complex B2C product lists. Using Virto Commerce you can:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Manage digital and physical products using flexible properties structures. Virto Commerce catalog can be configured to handle all your catalog information, or integrated with 3rd party PIM or CMS solutions.</li>\n\t<li>Configure all digital assets to be stored in popular Content Distribution Networks (CDN).</li>\n\t<li>Go Global. Virto Commerce supports multiple catalogs, languages, taxes and storefronts.</li>\n</ul>\n"
+                "text": "<p>Our platform provides sophisticated catalog management capabilities making it simple and elegant to manage even the most complex B2C product lists. Using Virto Commerce you can:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Manage digital and physical products using flexible properties structures. Virto Commerce catalog can be configured to handle all your catalog information, or integrated with 3rd party PIM or CMS solutions.</li>\n\t<li>Configure all digital assets to be stored in popular Content Distribution Networks (CDN).</li>\n\t<li>Go Global. Virto Commerce supports multiple catalogs, languages, taxes and storefronts.</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/payment.png"
                 },
                 "title": "Pricing Tools",
-                "text": "<p>Virto Commerce provides a responsive pricing engine ideal for B2C customers. Prices can be personalized in real-time based on audience, campaign, purchase history, geo-location, contracts and other customer-based scenarios.&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Personalized pricing</li>\n\t<li>Price lists</li>\n\t<li>Tiered pricing</li>\n\t<li>Custom currencies (bitcoin, points)</li>\n</ul>\n"
+                "text": "<p>Virto Commerce provides a responsive pricing engine ideal for B2C customers. Prices can be personalized in real-time based on audience, campaign, purchase history, geo-location, contracts and other customer-based scenarios.&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Personalized pricing</li>\n\t<li>Price lists</li>\n\t<li>Tiered pricing</li>\n\t<li>Custom currencies (bitcoin, points)</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/databasearch.png"
                 },
                 "title": "Multi Tenant",
-                "text": "<p>Built to support complex B2C and B2B2C scenarios, Virto Commerce includes capabilities to create solutions for distributors and manufacturers. Create complex org structures, allow vendors to accept orders and customize the look and feel of their storefront. Virto&#39;s software allows you to:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Create organizations</li>\n\t<li>Vendor store themes and templates</li>\n\t<li>Relate orders to specific vendor/store</li>\n\t<li>Control vendor permissions</li>\n</ul>\n"
+                "text": "<p>Built to support complex B2C and B2B2C scenarios, Virto Commerce includes capabilities to create solutions for distributors and manufacturers. Create complex org structures, allow vendors to accept orders and customize the look and feel of their storefront. Virto&#39;s software allows you to:&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Create organizations</li>\n\t<li>Vendor store themes and templates</li>\n\t<li>Relate orders to specific vendor/store</li>\n\t<li>Control vendor permissions</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/process.png"
                 },
                 "title": "Efficiency",
-                "text": "<p>Virto Commerce is developed using modular architecture with each module exposing a set of REST based API&#39;s. These standards based unified API&#39;s provide businesses, agencies, and system integrators with advanced ecommerce capabilities that are easier to consume, manage and combine with other business systems and front end technologies.<a href=\"https://virtocommerce.com/docs/vc2devguide/development-scenarios/working-with-platform-api\">&nbsp;Explore our API.</a>&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Module architecture</li>\n\t<li>Real-time documentation</li>\n\t<li>REST Oauth and token based authentication</li>\n\t<li>Granular permissions</li>\n</ul>\n"
+                "text": "<p>Virto Commerce is developed using modular architecture with each module exposing a set of REST based API&#39;s. These standards based unified API&#39;s provide businesses, agencies, and system integrators with advanced ecommerce capabilities that are easier to consume, manage and combine with other business systems and front end technologies.<a href=\"http://vc-public-test.azurewebsites.net/docs/vc2devguide/development-scenarios/working-with-platform-api\">&nbsp;Explore our API.</a>&nbsp;<br />\n&nbsp;</p>\n\n<ul>\n\t<li>Module architecture</li>\n\t<li>Real-time documentation</li>\n\t<li>REST Oauth and token based authentication</li>\n\t<li>Granular permissions</li>\n</ul>\n",
+                "iconStyle": null,
+                "url": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "text",
         "name": "Text",
         "title": "Get a Demo of Virto for B2C or B2B2C Today",
-        "h1": null,
+        
         "style": "light",
         "decorator": "section--pattern",
-        "content": "<p style=\"text-align: center;\">The ideal .NET solution for your complex ecommerce requirements</p>\n",
+        "content": "<p style=\"text-align:center\">The ideal .NET solution for your complex ecommerce requirements</p>\n",
         "url": {
             "urlText": "Request a Demo",
-            "url": "https://virtocommerce.com",
+            "url": "http://vc-public-test.azurewebsites.net/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "cards",
         "name": "Text",
         "title": "See how our clients use Virto Commerce to deliver streamlined B2C solutions, fast. ",
-        "h1": null,
+        
         "style": "dark",
         "items": [
             {
@@ -134,7 +150,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/bosch"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
                 }
             },
             {
@@ -146,7 +162,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
                 }
             },
             {
@@ -158,12 +174,13 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel"
                 }
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "titleAlignment": null
     }
 ]

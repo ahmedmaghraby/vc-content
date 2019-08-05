@@ -12,7 +12,7 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        "h1": null,
+        
         "style": "dark",
         "decorator": "section--pattern",
         "content": "<h2>Thanks for your interest in working with one of our implementation partners.&nbsp; Someone from our team will be in touch shortly.&nbsp; If you need immediate assistance, please call us at +1 800 980 5288.&nbsp;</h2>\n",
@@ -30,7 +30,7 @@
         "type": "cards",
         "name": "Text",
         "title": "In the meanwhile, please explore the following Virto Commerce Case Studies:",
-        "h1": null,
+        
         "style": "light",
         "items": [
             {
@@ -42,7 +42,7 @@
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
                 }
             },
             {
@@ -52,7 +52,7 @@
                 },
                 "text": "<p>Belgium&#39;s largest bookseller replaced their solution with Virto Commerce to deliver a better customer experience.&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -64,7 +64,7 @@
                 },
                 "text": "<p>When Bosch needed to create a customer loyalty portal to capitalize on an untapped opportunity, they came to Virto Commerce.&nbsp;&nbsp;</p>\n",
                 "link": {
-                    "url": "https://virtocommerce.com/case-studies/bosch",
+                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }

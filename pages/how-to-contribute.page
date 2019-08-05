@@ -11,7 +11,7 @@
         "type": "text",
         "name": "Text",
         "title": "Virto Commerce Contributor License Agreement",
-        "h1": null,
+        
         "style": "light",
         "decorator": "none",
         "content": "<h3>Grant of Copyright and Patent License</h3>\n\n<p>Why Contributor License Agreement?We require CLA in order to mitigate the risk to us and to our community of accepting contributions that violate intellectual property rights of others.Definition: &quot;Contribution&quot; is any original work of authorship, including any modifications or additions to an existing work that I submit to Virto Commerce for possible inclusion in Virto Commerce&#39;s software.I hereby grant to Virto Commerce and to recipients of the software distributed by Virto Commerce a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright and patent license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute my present and future Contributions and such derivative works.I represent that I am legally entitled to grant the above license and I represent that each of my Contribution is my original creation.I understand that I am not required to provide support for my Contributions and that all contributions are provided &quot;AS IS&quot; without any explicit or implied warranties.</p>\n",
@@ -99,7 +99,7 @@
                 "fullrow": true
             }
         ],
-        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/terms\">Privacy</a>.</p>\n",
         "buttonText": "Submit Agreement"
     }
 ]

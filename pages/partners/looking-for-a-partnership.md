@@ -1,7 +1,8 @@
 ---
-title: Looking for a Partnership?
-date: 2019-03-18
-permalink: partners/looking-for-a-partnership
+date: '2019-03-18'
+permalink: find-implementation-partner
+title: 'Looking for a Partnership?'
+
 ---
 <div class="main">
     <div class="section__inner container">
@@ -22,52 +23,52 @@ permalink: partners/looking-for-a-partnership
         <div class="section">
             <div class="section__inner container">
                 <div class="row">
-                    <div class="col-lg-auto form">
+                    <form class="col-lg-auto form">
                         <div class="section__info">
                             <div class="form-group row">
                                 <div class="col-md-6">
                                     <label class="form-label">Full name</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="FullName">
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">Email</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="Email">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-6">
                                     <label class="form-label">Phone</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="Phone">
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">Company</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="Company">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-6">
                                     <label class="form-label">Job Title</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="JobTitle">
                                 </div>
                                 <div class="col-md-6">
                                     <label class="form-label">Website</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="Website">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md">
                                     <label class="form-label">Region</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="Region">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Comments</label>
-                                <textarea class="form-control" name="" id="" cols="30" rows="5"></textarea>
+                                <textarea class="form-control" id="" cols="30" rows="5" name="Comments"></textarea>
                                 <div class="form-descr">By clicking «Send Message» I agree to the Virto Commerce <a href="#">Terms</a> and <a href="#">Privacy</a>.</div>
                             </div>
                             <button class="btn btn--orange">Send Message</button>
                         </div>
-                    </div>
+                    </form>
                     <div class="col-lg">
                         <div class="features section__info">
                             <h2 class="section__t">What's in it for you?</h2>
