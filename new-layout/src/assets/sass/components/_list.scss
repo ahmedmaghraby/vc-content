@@ -577,3 +577,79 @@
         box-shadow: 0 0 0 .125rem rgba(0,0,0,.1);
     }
 }
+ 
+.list--studios
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -.9375rem;
+
+    .list__item
+    {
+        padding: .9375rem;
+    }
+
+    .list__inner
+    {
+        background: $white;
+        box-shadow: 0 0 .9375rem rgba(0,0,0,.15);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .list__head
+    {
+        border-bottom: 1px solid #eee;
+        height: 6.25rem;
+        margin: 0 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list__pic
+    {
+        max-height: 3.125rem;
+    }
+
+    .list__body
+    {
+        padding: 1.5rem 1.875rem;
+        flex: 1 0 0;
+        text-align: center;
+    }
+
+    .list__t
+    {
+        color: $orange;
+        font-size: .875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .list__text
+    {
+        color: #939393;
+        font-size: .8125rem;
+    }
+
+    .list__descr
+    {
+        font-size: 1rem;
+        margin: 1.25rem 0 0;
+    }
+
+    .list__foot
+    {
+        padding: 0 1.25rem 1.5rem;
+
+        .btn
+        {
+            padding: 0;
+            justify-content: center;
+            text-transform: uppercase;
+            width: 100%;
+        }
+    }
+}
