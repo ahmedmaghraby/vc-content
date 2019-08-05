@@ -1,4 +1,5 @@
-<a href="{{ url }}" class="nav__link">
+{% capture current_url %}{{url|full_url}}{% endcapture %}
+<a href="{{ url }}" class="nav__link {% if request_url == current_url %} selected {% endif %}">
     <svg class="nav__icon" viewBox="0 0 7 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g transform="translate(-133.000000, -115.000000)" >
