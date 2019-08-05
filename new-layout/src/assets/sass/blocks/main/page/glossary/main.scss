@@ -27,7 +27,7 @@
             margin-top: 1.25rem;
         }
 
-/*        &--active
+        &--active
         {
             > .nav__link
             {
@@ -43,7 +43,7 @@
                     fill: $orange;
                 }
             }
-        }*/		
+        }
 
         &--dropdown
         {
@@ -59,7 +59,7 @@
         border: none;
         font-size: .875rem;
 
-        &:hover, &--active
+        &:hover
         {
             color: $orange;
 
@@ -98,6 +98,7 @@
 
     &__content
     {
+        font-style: .875rem;
         padding: 1.875rem 0 1.875rem 1.875rem;
 
         // .glossary__t
@@ -110,8 +111,8 @@
         //     font-size: 1.5rem;
         // }
 
-        .glossary__t,
-        .glossary__sub-t
+        .glossary-t,
+        .glossary-sub-t
         {
             background: #eee;
             font-size: 1.25rem;
@@ -121,7 +122,7 @@
             text-transform: uppercase;
         }
 
-        .glossary__sub-t
+        .glossary-sub-t
         {
             font-size: 1.125rem;
         }
@@ -142,6 +143,7 @@
         .text
         {
             color: $gray-600;
+            margin: 1rem 0;
         }
 
         ul
@@ -151,19 +153,86 @@
 
         ol
         {
-            padding-left: .9375rem;
+           list-style-position: inside;
         }
 
         .business-cnt .text
         {
             font-size: .875rem;
         }
-		
-		.actions
+
+        .actions
         {
+            display: flex;
+
             .btn
             {
                 margin-right: .625rem;
+            }
+        }
+
+        .glosary-article
+        {
+            margin-bottom: 3.125rem;
+        }
+
+        .glosary .glosary-article .glosary-pic
+        {
+            float: left;
+            margin: 0 1.875rem 1.25rem 0;
+            max-width: 16.25rem;
+            width: 100%;
+        }
+
+        .glosary .glosary-videos
+        {
+            display: flex;
+            margin: 1.25rem 0;
+
+            &.center
+            {
+                justify-content: center;
+            }
+
+            .list-item
+            {
+                box-sizing: border-box;
+                padding: 0 1.25rem;
+                width: 50%;
+
+                @include media-breakpoint-down(md) {
+                    width: 100%;
+                }
+            }
+
+            .video
+            {
+                margin: 0 0 1rem;
+                margin-bottom: 56.25%;
+                position: relative;
+            }
+
+            iframe
+            {
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+
+            .glosary-nav
+            {
+                background: #eee;
+                display: flex;
+                justify-content: center;
+                padding: 1.25rem 0;
+
+                .btn
+                {
+                    margin: 0 .625rem;
+                    width: 12.5rem;
+                }
             }
         }
     }
