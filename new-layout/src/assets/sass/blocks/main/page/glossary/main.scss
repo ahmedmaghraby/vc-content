@@ -44,6 +44,14 @@
                 }
             }
         }
+
+        &--dropdown
+        {
+            .nav__icon
+            {
+                display: inline-block;
+            }
+        }
     }
 
     .nav__link
@@ -64,6 +72,7 @@
 
     .nav__icon
     {
+        display: none;
         height: .8125rem;
         margin-right: .625rem;
         margin-top: .125rem;
@@ -91,39 +100,63 @@
     {
         padding: 1.875rem 0 1.875rem 1.875rem;
 
-        .glossary__t
+        // .glossary__t
+        // {
+        //     font-size: 2rem;
+        // }
+
+        // .glossary__sub-t
+        // {
+        //     font-size: 1.5rem;
+        // }
+
+        .glossary__t,
+        .glossary__sub-t
         {
-            font-size: 2rem;
+            background: #eee;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 1.875rem;
+            padding: 1.25rem;
+            text-transform: uppercase;
         }
 
         .glossary__sub-t
         {
-            font-size: 1.5rem;
+            font-size: 1.125rem;
         }
 
         p
         {
             font-size: .875rem;
-        }
-
-        .glossary__t,
-        .glossary__sub-t
-        {
-            font-weight: 900;
-            line-height: 1;
-        }
-
-        .glossary__t,
-        .glossary__sub-t,
-        p
-        {
-            margin-bottom: 1.875rem;
+            margin: 1rem 0;
         }
 
         img
         {
-            margin-bottom: 1.875rem;
+            display: block;
+            margin: 1rem 0;
             max-width: 100%;
+        }
+
+        .text
+        {
+            color: $gray-600;
+        }
+
+        ul
+        {
+            list-style: none;
+        }
+
+        ol
+        {
+            padding-left: 1.75rem;
+        }
+
+        .business-cnt .text
+        {
+            font-size: .875rem;
         }
     }
 
