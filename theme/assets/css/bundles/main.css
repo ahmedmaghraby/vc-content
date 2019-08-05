@@ -8143,9 +8143,17 @@ textarea {
 .list--text .list__sidebar {
     -ms-flex-item-align: start;
     align-self: flex-start;
+    counter-reset: list;
     -ms-flex: 0 0 20rem;
     flex: 0 0 20rem;
     max-width: 20rem;
+}
+
+.list--text .list__sidebar .list__item {
+    counter-increment: list;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0;
 }
 
 .list--text .list__sidebar .list__item ~ .list__item {
@@ -8153,9 +8161,14 @@ textarea {
 }
 
 .list--text .list__sidebar .list__num {
+    line-height: 1;
+    position: relative;
+}
+
+.list--text .list__sidebar .list__num::after {
+    content: counter(list);
     font-size: 3.75rem;
     font-weight: 900;
-    line-height: 1;
 }
 
 .list--text .list__sidebar .list__descr {
@@ -8178,25 +8191,67 @@ textarea {
     }
 }
 
-.list--text.horizontal {
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.list--text.horizontal .list__sidebar {
+.list--text.list--horizontal .list__sidebar-inner {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex: 1 0 0px;
-    flex: 1 0 0;
+    margin: 0 -.9375rem;
+}
+
+.list--text.list--horizontal .list__sidebar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     max-width: 100%;
 }
 
-.list--text.horizontal .list__sidebar .list__item ~ .list__item {
+.list--text.list--horizontal .list__sidebar .list__item {
+    padding: 0 .9375rem;
+}
+
+.list--text.list--horizontal .list__sidebar .list__item ~ .list__item {
     margin-top: 0;
 }
 
-.list--text.horizontal .list__content {
+.list--text.list--horizontal .list__content {
     margin-top: 2.5rem;
+}
+
+.list--text.list--latin .list__num::after {
+    content: counter(list, upper-latin);
+}
+
+.list--text.list--roman .list__num::after {
+    content: counter(list, upper-roman);
+}
+
+.list--text.list--reverse {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.list--text.list--horizontal-reverse {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.list--text.list--horizontal-reverse .list__sidebar {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.list--text.list--horizontal-reverse .list__sidebar-inner {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.list--text.list--horizontal-reverse .list__item ~ .list__item {
+    margin-top: 0;
+}
+
+.list--text.list--horizontal-reverse .list__content {
+    margin: 0 0 2.5rem;
 }
 
 .list--paging {
