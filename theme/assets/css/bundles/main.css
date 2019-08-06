@@ -6539,7 +6539,7 @@ input.ng-touched.ng-invalid {
 }
 
 .glossary__content {
-    font-style: .875rem;
+    font-size: .875rem;
     padding: 1.875rem 0 1.875rem 1.875rem;
 }
 
@@ -6573,16 +6573,22 @@ input.ng-touched.ng-invalid {
     margin: 1rem 0;
 }
 
-.glossary__content ul {
-    list-style: none;
-}
-
 .glossary__content ol {
-    list-style-position: inside;
+    counter-reset: list;
+    padding-left: 1.25rem;
 }
 
-.glossary__content .business-cnt .text {
-    font-size: .875rem;
+.glossary__content ol li {
+    margin-left: -1.25rem;
+}
+
+.glossary__content ol li::before {
+    content: counter(list, decimal);
+    counter-increment: list;
+}
+
+.glossary__content .business-cnt {
+    overflow: hidden;
 }
 
 .glossary__content .actions {
@@ -6662,6 +6668,40 @@ input.ng-touched.ng-invalid {
     -ms-flex-pack: center;
     justify-content: center;
     width: 12.5rem;
+}
+
+.glossary__content #order-wise {
+    float: left;
+    width: 100%;
+    padding: 1.25rem;
+    text-align: center;
+    margin: .9375rem 0;
+}
+
+.glossary__content #order-wise-inner {
+    float: left;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    background-color: #eee;
+    padding: .625rem;
+}
+
+.glossary__content #order-wise-text {
+    float: right;
+    padding: .625rem;
+    margin-top: 7%;
+}
+
+.glossary__content #order-wise-text .text {
+    width: 400px;
+}
+
+.glossary__content #order-wise-title {
+    font-weight: 700;
+    font-size: 22px;
 }
 
 @media (max-width: 991.98px) {

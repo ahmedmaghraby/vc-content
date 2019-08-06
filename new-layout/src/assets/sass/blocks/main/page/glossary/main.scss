@@ -98,7 +98,7 @@
 
     &__content
     {
-        font-style: .875rem;
+        font-size: .875rem;
         padding: 1.875rem 0 1.875rem 1.875rem;
 
         // .glossary__t
@@ -146,19 +146,26 @@
             margin: 1rem 0;
         }
 
-        ul
-        {
-            list-style: none;
-        }
-
         ol
         {
-           list-style-position: inside;
+            counter-reset: list;
+            padding-left: 1.25rem;
+
+            li
+            {
+                margin-left: -1.25rem;
+            }
+
+            li::before
+            {
+                content: counter(list, decimal);
+                counter-increment: list;
+            }
         }
 
-        .business-cnt .text
+        .business-cnt
         {
-            font-size: .875rem;
+            overflow: hidden;
         }
 
         .actions
@@ -241,6 +248,44 @@
                 justify-content: center;
                 width: 12.5rem;
             }
+        }
+
+        #order-wise
+        {
+            float: left;
+            width: 100%;
+            padding: 1.25rem;
+            text-align: center;
+            margin: .9375rem 0;
+        }
+
+        #order-wise-inner
+        {
+            float: left;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%);
+            background-color: #eee;
+            padding: .625rem;
+        }
+
+        #order-wise-text
+        {
+            float: right;
+            padding: .625rem;
+            margin-top: 7%;
+        }
+
+        #order-wise-text .text
+        {
+            width: 400px;
+        }
+
+        #order-wise-title
+        {
+            font-weight: 700;
+            font-size: 22px;
         }
     }
 
