@@ -98,7 +98,6 @@
 
     &__content
     {
-        font-size: .875rem;
         padding: 1.875rem 0 1.875rem 1.875rem;
 
         // .glossary__t
@@ -143,6 +142,7 @@
         .text
         {
             color: $gray-600;
+            font-size: .875rem;
             margin: 1rem 0;
         }
 

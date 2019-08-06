@@ -6539,7 +6539,6 @@ input.ng-touched.ng-invalid {
 }
 
 .glossary__content {
-    font-size: .875rem;
     padding: 1.875rem 0 1.875rem 1.875rem;
 }
 
@@ -6570,6 +6569,7 @@ input.ng-touched.ng-invalid {
 
 .glossary__content .text {
     color: #72778e;
+    font-size: .875rem;
     margin: 1rem 0;
 }
 
