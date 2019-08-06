@@ -150,16 +150,23 @@
         {
             counter-reset: list;
             padding-left: 1.25rem;
+			list-style: none;
 
             li
             {
                 margin-left: -1.25rem;
+				padding-left: 1.25rem;
+				text-indent: -1.25rem;
+				margin-bottom: .625rem;
             }
 
             li::before
             {
-                content: counter(list, decimal);
+                content: counter(list, decimal) '. ';
                 counter-increment: list;
+				width: 1.25rem;
+				display: inline-block;
+				text-indent: 0;
             }
         }
 
@@ -181,6 +188,7 @@
         .glosary-article
         {
             margin-bottom: 3.125rem;
+			font-size: .875rem;
         }
 
         .glosary .glosary-article .glosary-pic

@@ -116,6 +116,11 @@ code
     text-align: left;
 }
 
+#disqus_thread
+{
+	margin-top: 1.875rem;
+}
+
 @include media-breakpoint-up(md) {
     h1,
     h1.section__t--large,

@@ -4539,6 +4539,10 @@ code {
     text-align: left;
 }
 
+#disqus_thread {
+    margin-top: 1.875rem;
+}
+
 @media (min-width: 768px) {
     h1,
   h1.section__t--large,
@@ -5020,6 +5024,7 @@ code {
     font-size: 1rem;
     height: 2.5rem;
     padding: 1.25rem 0;
+    cursor: pointer;
 }
 
 .header .nav__link:hover {
@@ -6576,15 +6581,22 @@ input.ng-touched.ng-invalid {
 .glossary__content ol {
     counter-reset: list;
     padding-left: 1.25rem;
+    list-style: none;
 }
 
 .glossary__content ol li {
     margin-left: -1.25rem;
+    padding-left: 1.25rem;
+    text-indent: -1.25rem;
+    margin-bottom: .625rem;
 }
 
 .glossary__content ol li::before {
-    content: counter(list, decimal);
+    content: counter(list, decimal) ". ";
     counter-increment: list;
+    width: 1.25rem;
+    display: inline-block;
+    text-indent: 0;
 }
 
 .glossary__content .business-cnt {
@@ -6602,6 +6614,7 @@ input.ng-touched.ng-invalid {
 
 .glossary__content .glosary-article {
     margin-bottom: 3.125rem;
+    font-size: .875rem;
 }
 
 .glossary__content .glosary .glosary-article .glosary-pic {
