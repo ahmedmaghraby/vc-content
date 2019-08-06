@@ -1,4 +1,4 @@
-var storefrontApp = angular.module('storefrontApp', []);
+var storefrontApp = angular.module('storefrontApp');
 
 storefrontApp.controller('caseStudyController', ['$scope', function ($scope) {
 

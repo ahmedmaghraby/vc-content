@@ -51,7 +51,7 @@
 
 		&--normal
 		{
-			font-size: inherit;
+			font-size: 1.125rem;
 		}
 
         &--medium
@@ -626,6 +626,12 @@
     .section__descr
     {
         font-size: 1.375rem;
+		&--normal
+		{
+			font-size: 1.375rem;
+			font-weight: 100;
+			line-height: 1;
+		}
     }
 }
 

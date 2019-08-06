@@ -5264,7 +5264,7 @@ code {
 }
 
 .section__descr--normal {
-    font-size: inherit;
+    font-size: 1.125rem;
 }
 
 .section__descr--medium {
@@ -5779,6 +5779,12 @@ code {
 
 .section--bg-pattern .section__descr {
     font-size: 1.375rem;
+}
+
+.section--bg-pattern .section__descr--normal {
+    font-size: 1.375rem;
+    font-weight: 100;
+    line-height: 1;
 }
 
 .ready {
