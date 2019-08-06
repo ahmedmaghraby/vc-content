@@ -63,7 +63,7 @@ $(function (){
         }
     });
 
-    var links = $('.list__descr > a');
+    var links = $('.list--team .list__descr a');
 
     for (var i = 0; i < links.length; i++)
         links[i].dataset.num = i;
