@@ -27,6 +27,17 @@
         }
     }
 
+	&--vendors
+	{
+		display: flex;
+		
+		.nav__item
+		{
+			margin-right: .625rem;
+			margin-bottom: 1.125rem;
+		}
+	}
+
     &--customers
     {
         display: flex;

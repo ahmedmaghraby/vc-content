@@ -349,6 +349,13 @@
         }
     }
 
+	@include media-breakpoint-down(md) {
+		.extension-links
+		{
+			margin-top: 1.25rem;
+		}
+	}
+
     .tabs
     {
         margin-top: 1.875rem;

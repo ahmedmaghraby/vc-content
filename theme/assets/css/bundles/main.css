@@ -4953,7 +4953,7 @@ code {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 5000;
+    z-index: 1000;
 }
 
 .header-inner {
@@ -7683,6 +7683,12 @@ input.ng-touched.ng-invalid {
     }
 }
 
+@media (max-width: 991.98px) {
+    .apps .extension-links {
+        margin-top: 1.25rem;
+    }
+}
+
 .apps .tabs {
     margin-top: 1.875rem;
 }
@@ -8650,7 +8656,7 @@ textarea {
     overflow-y: auto;
 }
 
-.modal-overlay {
+.modal-backdrop {
     background-color: #0c1015;
     height: 100vh;
     left: 0;
@@ -8661,17 +8667,17 @@ textarea {
     z-index: 9000;
 }
 
-.modal-overlay.fade {
+.modal-backdrop.fade {
     opacity: .25;
     transition: opacity .15s linear;
 }
 
-.modal-overlay.fade ~ .modal {
+.modal-backdrop.fade ~ .modal {
     display: block;
     transition: opacity .15s linear;
 }
 
-.modal-overlay.fade ~ .modal .modal-dialog {
+.modal-backdrop.fade ~ .modal .modal-dialog {
     -ms-transform: translate(0);
     transform: translate(0);
 }
@@ -8691,8 +8697,6 @@ textarea {
     max-width: 37.5rem;
     margin: 1.75rem auto;
     transition: transform .3s ease-out .3s;
-    -ms-transform: translate(0, -50px);
-    transform: translate(0, -50px);
 }
 
 .modal-dialog--centered {
@@ -8868,6 +8872,16 @@ textarea {
 
 .nav--vertical .nav__item ~ .nav__item {
     margin-top: 1.125rem;
+}
+
+.nav--vendors {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav--vendors .nav__item {
+    margin-right: .625rem;
+    margin-bottom: 1.125rem;
 }
 
 .nav--customers {

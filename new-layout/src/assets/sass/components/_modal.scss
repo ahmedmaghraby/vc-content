@@ -4,7 +4,7 @@
     overflow-y: auto;
 }
 
-.modal-overlay
+.modal-backdrop
 {
     background-color: $black;
     height: 100vh;
@@ -49,7 +49,6 @@
         max-width: 37.5rem;
         margin: 1.75rem auto;
         transition: transform .3s ease-out .3s;
-        transform: translate(0,-50px);
 
         &--centered
         {

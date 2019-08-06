@@ -12,7 +12,7 @@
             <div class="apps__detail-info row">
                 <div class="apps__detail-general col-lg">
                     <div class="apps__detail-t">{{ product.selected_or_first_available_variant.title }}</div>
-                    <!-- a class="apps__detail-link apps__detail-link--review" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a -->
+                    <a class="apps__detail-link apps__detail-link--review" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a>
                     {% if product.metafields.properties.Description.size > 0 %}
                         <div class="apps__detail-descr">{{ product.metafields.properties.Description }}</div>
                     {% endif %}

@@ -1,63 +1,74 @@
-﻿<script id="storefront.form-write-a-review.tpl" type="text/ng-template">
-    <div class="overlay">
-        <div class="overlay-cnt">
-            <div class="popup">
-                <a class="popup-close" ng-click="closeModal()"></a>
-                <div class="popup-head">{{ 'apps.forms.write_a_review_title' | t }}</div>
-                <form class="popup-cnt" name="formContactUs" novalidate="novalidate" method="post">
-                    <div ng-init="setContactUsForm(formContactUs)"></div>
-                    <input name="Subject" type="hidden" ng-value="model.contact.Subject" ng-init="model.contact.Subject='Review app store'" />
-                    <input name="ProductCode" type="hidden" ng-value="model.contact.ProductCode" ng-init="model.contact.ProductCode='{{ product.variants[0].sku }}'" />
-                    <input name="RedirectUrl" type="hidden" ng-value="model.contact.RedirectUrl" ng-init="model.contact.RedirectUrl=''" />
-                    <div class="popup-rating">
-                        <div class="rating-t">{{ 'apps.forms.select_rating' | t }}</div>
-                        <ul id="rating" class="list __inline __rating">
-                            <li class="list-item" data-id="__bad" data-value="1" data-choosen="false"></li>
-                            <li class="list-item" data-id="__not-bad" data-value="2" data-choosen="false"></li>
-                            <li class="list-item" data-id="__normal" data-value="3" data-choosen="false"></li>
-                            <li class="list-item" data-id="__good" data-value="4" data-choosen="false"></li>
-                            <li class="list-item" data-id="__nice" data-value="5" data-choosen="false"></li>
-                        </ul>
-
-                        <div class="rating-eval" id="__bad" style="display: none;">Bad</div>
-                        <div class="rating-eval" id="__not-bad" style="display: none;">Not bad</div>
-                        <div class="rating-eval" id="__normal" style="display: inline-block;">Normal</div>
-                        <div class="rating-eval" id="__good" style="display: none;">Good</div>
-                        <div class="rating-eval" id="__nice" style="display: none;">Nice</div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label">{{ 'apps.forms.your_email' | t }} <span style="color: #ef4036;">*</span></label>
-                        <div class="form-input">
-                            <input name="Email" required="required" type="email" ng-class="{ 'error': (formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.Email" />
-                        </div>
-                        <div class="form-error" ng-if="(formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$error.required">
-                            {{ 'apps.forms.field_required_validation_message' | t }}
-                        </div>
-                        <div class="form-error" ng-if="(formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$error.email">
-                            {{ 'apps.forms.email_format_validation_message' | t }}
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label">{{ 'apps.forms.your_full_name' | t }} <span style="color: #ef4036;">*</span></label>
-                        <div class="form-input">
-                            <input name="FullName" required="required" type="text" ng-class="{ 'error': (formContactUs.FullName.$dirty || formContactUs.$submitted) && formContactUs.FullName.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.FullName" />
-                        </div>
-                        <div class="form-error" ng-if="(formContactUs.FullName.$dirty || formContactUs.$submitted) && formContactUs.FullName.$invalid">
-                            {{ 'apps.forms.field_required_validation_message' | t }}
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label">{{ 'apps.forms.review_text' | t }} <span style="color: #ef4036;">*</span></label>
-                        <div class="form-input">
-                            <textarea cols="30" name="Message" required="required" rows="10" ng-class="{ 'error': (formContactUs.Message.$dirty || formContactUs.$submitted) && formContactUs.Message.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.Message"></textarea>
-                        </div>
-                        <div class="form-error" ng-if="(formContactUs.Message.$dirty || formContactUs.$submitted) && formContactUs.Message.$invalid">
-                            {{ 'apps.forms.field_required_validation_message' | t }}
-                        </div>
-                    </div>
-                </form>
-                {% include 'popup-footer' %}
+<script id="storefront.form-write-a-review.tpl" type="text/ng-template">
+    <div class="modal-header">
+        {{ 'apps.forms.write_a_review_title' | t }}
+        <a class="modal-close" ng-click="closeModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                <path class="fill" fill-rule="evenodd" d="M10.914 9.5l7.793-7.793A.999.999 0 1 0 17.293.293L9.5 8.086 1.707.293A.999.999 0 1 0 .293 1.707L8.086 9.5.293 17.293a.999.999 0 1 0 1.414 1.414L9.5 10.914l7.793 7.793a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L10.914 9.5z"/>
+            </svg>
+        </a>
+    </div>
+    <div class="modal-body">
+        <form name="formContactUs" novalidate="novalidate" method="post">
+            <div ng-init="setContactUsForm(formContactUs)"></div>
+            <input name="Subject" type="hidden" ng-value="model.contact.Subject" ng-init="model.contact.Subject='Review app store'" />
+            <input name="ProductCode" type="hidden" ng-value="model.contact.ProductCode" ng-init="model.contact.ProductCode='{{ product.variants[0].sku }}'" />
+            <input name="RedirectUrl" type="hidden" ng-value="model.contact.RedirectUrl" ng-init="model.contact.RedirectUrl=''" />
+            <div class="rating">
+                <div class="rating__t">{{ 'apps.forms.select_rating' | t }}</div>
+                <div class="list list--rating">
+                    <input class="list__input" type="checkbox" name="stars" id="s-1"/>
+                    <!--<label class="list__item" for="s-1"></label>-->
+                    <label class="list__item"></label>
+                    <input class="list__input" type="checkbox" name="stars" id="s-2"/>
+                    <label class="list__item" for=""></label>
+                    <input class="list__input" type="checkbox" name="stars" id="s-3"/>
+                    <label class="list__item" for=""></label>
+                    <input class="list__input" type="checkbox" name="stars" id="s-4"/>
+                    <label class="list__item" for=""></label>
+                    <input class="list__input" type="checkbox" name="stars" id="s-5"/>
+                    <label class="list__item" for=""></label>
+                </div>
+                <div class="rating__eval rating__eval--active" data-name="Bad">Bad</div>
+                <div class="rating__eval" data-name="Not bad">Not bad</div>
+                <div class="rating__eval" data-name="Normal">Normal</div>
+                <div class="rating__eval" data-name="Good">Good</div>
+                <div class="rating__eval" data-name="Nice">Nice</div>
             </div>
-        </div>
+
+            <div class="form-group">
+                <label class="form-label">{{ 'apps.forms.your_email' | t }} <span style="color: #ef4036;">*</span></label>
+                <input class="form-control" name="Email" required="required" type="email" ng-class="{ 'error': (formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.Email" />
+                <div class="form-error" ng-if="(formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$error.required">
+                    {{ 'apps.forms.field_required_validation_message' | t }}
+                </div>
+                <div class="form-error" ng-if="(formContactUs.Email.$dirty || formContactUs.$submitted) && formContactUs.Email.$error.email">
+                    {{ 'apps.forms.email_format_validation_message' | t }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    {{ 'apps.forms.your_full_name' | t }} <span style="color: #ef4036;">*</span>
+                </label>
+                <input class="form-control" name="FullName" required="required" type="text" ng-class="{ 'error': (formContactUs.FullName.$dirty || formContactUs.$submitted) && formContactUs.FullName.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.FullName" />
+                <div class="form-error" ng-if="(formContactUs.FullName.$dirty || formContactUs.$submitted) && formContactUs.FullName.$invalid">
+                    {{ 'apps.forms.field_required_validation_message' | t }}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    {{ 'apps.forms.review_text' | t }} <span style="color: #ef4036;">*</span>
+                </label>
+                <textarea class="form-control" cols="30" name="Message" required="required" rows="10" ng-class="{ 'error': (formContactUs.Message.$dirty || formContactUs.$submitted) && formContactUs.Message.$invalid }" ng-disabled="model.isProcessing" ng-model="model.contact.Message"></textarea>
+                <div class="form-error" ng-if="(formContactUs.Message.$dirty || formContactUs.$submitted) && formContactUs.Message.$invalid">
+                    {{ 'apps.forms.field_required_validation_message' | t }}
+                </div>
+            </div>
+            <div class="form-actions">
+                <a class="btn btn--orange" ng-if="!model.isProcessed && !model.isProcessing" ng-click="submit()" ng-disabled="model.isProcessing">{{ 'apps.forms.submit' | t }}</a>
+                <a href="#" ng-if="!model.isProcessed && !model.isProcessing" ng-click="closeModal()">{{ 'apps.forms.cancel' | t }}</a>
+                <p style="margin: 0;" ng-if="model.isProcessing">Processing your request...</p>
+                <p ng-if="model.isProcessed && !model.isSubmittedSuccessfully" style="color: #ef4036; margin: 0;">Oops! An error was occured while processing your request. Please try again later.</p>
+            </div>
+        </form>
     </div>
 </script>
