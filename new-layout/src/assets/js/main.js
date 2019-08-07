@@ -76,11 +76,11 @@ $(function (){
         members.hide();
         members.eq(this.dataset.num).show();
         $('body').addClass('modal-open');
-        $('#modal').show();
+        $('.modal').css('display', 'block');
     });
 
     $('.modal-close').click(function () {
-        $('#modal').hide();
+        $('.modal').css('display', 'none');
         $('body').removeClass('modal-open');
     });
 });
