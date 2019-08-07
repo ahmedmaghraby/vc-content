@@ -5213,7 +5213,7 @@ code {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 2500;
+    z-index: 900;
 }
 
 .overlay {

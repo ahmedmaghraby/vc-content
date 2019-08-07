@@ -12,7 +12,12 @@
       {
         "id": "published",
         "label": "Published",
-        "type":  "boolean"
+        "type": "boolean"
+      },
+      {
+        "id": "schema",
+        "label": "Metadata",
+        "type": "string"
       },
       {
         "id": "permalink",
