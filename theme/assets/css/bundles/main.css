@@ -7268,8 +7268,8 @@ input.ng-touched.ng-invalid {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex: 1 0 0px;
-    flex: 1 0 0;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 .blog .list--posts .list__t {
