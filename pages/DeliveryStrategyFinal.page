@@ -14,7 +14,7 @@
         "title": "Delivery Strategy",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/Rectangle Copy (2).png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/Rectangle Copy (2).png"
         },
         "content": "<p>Find The Right Partner To Implement Your Digital Commerce Solution</p>\n",
         "url1": null,
@@ -69,21 +69,21 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/modular.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/modular.png"
                 },
                 "title": "Top Technology",
                 "text": "<p>The top implementation partners want to work with the top technology. Developers don&#39;t want to work with antiquated software. They prefer modular, scalable and agile platforms that give them the flexibility they need to deliver custom solutions.&nbsp;</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/opensource.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/opensource.png"
                 },
                 "title": "Open Source",
                 "text": "<p>Top developers aren&#39;t interested in closed source solutions. They want to work with open source vendors, where they can immediately access the source code.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/transparency.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/transparency.png"
                 },
                 "title": "In Depth Research",
                 "text": "<p>Hastily picking a top rated platform recommended by a consulting firm, or influencer, could be a grave mistake - you need to truly explore to find what&#39;s right for your business model and future plans.</p>\n"
@@ -121,13 +121,13 @@
         "content": "",
         "url": {
             "urlText": "Find a Certified Virto Commerce Partner",
-            "url": "https://vc-public-test.azurewebsites.net/find-partner",
+            "url": "/find-implementation-partner",
             "style": "btn btn--orange btn--lg"
         },
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
-        "titleAlignment": null
+        "titleAlignment": null,
+        "headerStyle": null
     }
 ]

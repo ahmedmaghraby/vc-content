@@ -82,9 +82,9 @@ tags :
         </p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 987 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

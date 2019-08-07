@@ -8,23 +8,23 @@
         "layout": "theme"
     },
     {
-        "id": 6,
+        "id": 2,
         "type": "decorated-hero",
         "name": "title",
-        "title": "Modular Microsoft .NET Enterprise B2B Ecommerce Platform",
+        "title": "Become a Virto Commerce Implementation Partner ",
         "headerStyle": "h1",
-        "content": "<p>A huge ecosystem of IT companies and enterprise solutions are built on top of Microsoft technologies. Virto Commerce&#39;s&nbsp;platform, being an enterprise ecommerce B2B platform built on Microsoft .NET technology, closes the existing gap in the ecosystem.</p>\n",
+        "content": "",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
-        "id": 7,
+        "id": 3,
         "type": "list-and-text",
         "name": "Text over image",
         "title": "Virto Commerce's platform: A Modular Microsoft .NET Enterprise Ecommerce Platform for B2B",
         "style": "light",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -44,11 +44,10 @@
         "noPad": null
     },
     {
-        "id": 8,
+        "id": 4,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Why Do Customers Need Virto Commerce Solutions? ",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -88,11 +87,10 @@
         "noPad": null
     },
     {
-        "id": 9,
+        "id": 5,
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -110,11 +108,10 @@
         "noPad": null
     },
     {
-        "id": 10,
+        "id": 6,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Why Would Partners Choose Virto Commerce? ",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -154,7 +151,7 @@
         "noPad": null
     },
     {
-        "id": 11,
+        "id": 7,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -175,7 +172,7 @@
         "noPad": null
     },
     {
-        "id": 5,
+        "id": 8,
         "type": "custom-form",
         "name": "Custom form",
         "style": "dark",

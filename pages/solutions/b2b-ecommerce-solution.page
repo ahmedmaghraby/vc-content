@@ -6,7 +6,8 @@
         "header": "Top B2B Ecommerce Platform for Enterprises",
         "description": "The agile B2B e-commerce solution. The best B2B ecommerce software developers deserve.",
         "id": 1,
-        "layout": "theme"
+        "layout": "theme",
+        "metadata": "<section itemscope itemtype=\"http://schema.org/Article\">\n    <meta itemprop=\"author\" content=\"Virtocommerce\">\n    <meta itemprop=\"datePublished\" content=\"2017-09-06\">\n    <meta itemprop=\"dateModified\" content=\"2018-02-22\">\n<div itemprop=\"publisher\" itemscope itemtype=\"https://schema.org/Organization\">\n    <div itemprop=\"logo\" itemscope itemtype=\"https://schema.org/ImageObject\">\n        <img itemprop=\"url image\" src=\"https://virtocommerce.com/themes/assets/logo.jpg\" style=\"display:none;\" />\n        <meta itemprop=\"width\" content=\"150\">\n        <meta itemprop=\"height\" content=\"56\">\n    </div>\n    <meta itemprop=\"name\" content=\"virtocommerce.com\">\n    <meta itemprop=\"telephone\" content=\"+18009805288\">\n    <meta itemprop=\"address\" content=\"20945 Devonshire St Suite 102 Los Angeles, California 91311\">\n</div>\n        <div itemprop=\"aggregateRating\" itemscope itemtype=\"https://schema.org/AggregateRating\">\n    <meta itemprop=\"bestRating\" content=\"5\">\n    <meta itemprop=\"ratingValue\" content=\"4.8\">\n    <meta itemprop=\"ratingCount\" content=\"1784\">\n</div>\n</section>"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "content": "<h2>The best agile B2B e-commerce solution</h2>\n\n<p>According to Gartner,&nbsp;the percentage of ecommerce that is B2B is increasing rapidly.&nbsp;Properly implemented ecommerce brings many positives to both customers and sellers. This is&nbsp;why B2B companies prioritize embedding ecommcerce into their&nbsp;digital transformation process. Selecting the right solution for B2B ecommerce is challenging-&nbsp;B2B ecommerce platforms work&nbsp;perfectly for the B2C market, but the reverse is not true.&nbsp;</p>\n",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
@@ -25,7 +27,6 @@
         "name": "Text over image",
         "title": "B2B Ecommerce: Key Findings",
         "style": "light",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -42,14 +43,14 @@
         "content": "<p>The B2B ecommerce market is growing&nbsp;rapidly. Gartner research predicts that within next few years, more than half of B2B sales will be done via ecommerce channels,&nbsp; creating&nbsp;both new opportunities and threats for companies&nbsp;focused on the B2B market.</p>\n\n<p>Companies who can quickly run a digital transformation fast will have a better chance to increase their market share by acquiring slower market players. At the same time, entering the B2B market causes an additional entry to the&nbsp;B2C market for&nbsp;companies who have never before worked with end-customers directly. All together, this&nbsp;creates opportunities for companies who embark on ecommerce immediately.</p>\n\n<p>Currently, most&nbsp;B2B companies who start their digital transformation don&rsquo;t have the experience doing such ecommerce projects,&nbsp;and therefore, don&rsquo;t have&nbsp;the related expertise. Business, technical, organizational challenges all create risks for ecommerce projects.&nbsp;</p>\n\n<p>It is common practice to rely on IT implementation partners when undergoing a digital transformation. The problem is that there are very few system integrators and digital agencies who really have expertise in B2B ecommerce. B2C ecommerce experience is easier to find but it doesn&rsquo;t fit the B2B market.&nbsp;</p>\n\n<p>Quite often companies try to apply their B2C experience to B2B situations, but this doesn&rsquo;t really work. B2B ecommerce is much more complicated than B2C, and most solutions and practices, which work for B2C, don&rsquo;t fit B2B ecommerce. B2B ecommerce requires&nbsp;additional complex rules, processes, entities and even interfaces. Employee-users are not equal to physical bodies, humans are not the only kind of users in B2B, and UI is not the only interface.</p>\n",
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerStyle": null
     },
     {
         "id": 4,
         "type": "list-with-images",
         "name": "List with images",
         "title": "What Does this Mean for Companies in the B2B Market? ",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -93,7 +94,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -115,7 +115,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Does Virto Commerce Solve these problems?",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -159,7 +158,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -183,7 +181,7 @@
         "text": "Reach out to our Experts",
         "style": "light",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/contact-us",
+            "url": "/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Contact Us"
         },
@@ -196,13 +194,12 @@
         "type": "text",
         "name": "Text",
         "title": "What Are the Key Business Objectives of a B2B Ecommerce Solution?",
-        
         "titleAlignment": "section__t--left-alignment",
         "style": "light",
         "decorator": "none",
         "content": "<p>B2B ecommerce greatly changes interactions between companies. When implemented in the right way, it leads to multiple positive effects for both a customer and a seller. This is the reason behind the rapid growth of B2B ecommerce&#39;s overall share of the ecommerce transaction market.&nbsp;</p>\n\n<p><strong>Better customer experience</strong></p>\n\n<ul>\n\t<li>Self-services for business users</li>\n\t<li>Comfortable multi-channel online services</li>\n\t<li>Facilitates&nbsp;internal customer&rsquo;s processes</li>\n</ul>\n\n<p>Delivery of a user-friendly ecommerce experience allows B2B customers to save time on&nbsp;actions which are quite time consuming in a traditionally: creating an order,&nbsp; browsing product details, configuring delivery options,&nbsp; and tracking order statuses online for example.&nbsp;</p>\n\n<p>Well done multi-channel B2B ecommerce platforms enable customers to interact with the supplier by using procurement portals, messengers or APIs. API based ecommerce platforms make it possible to allow to enable almost any user, whether it be an employee, business application or smart device.</p>\n\n<p>By using a B2B enterprise ecommerce platform a supplier provides additional services, which facilitate&nbsp;his&nbsp;customer&rsquo;s internal processes. Order approval workflow, smart budget control, recurrent orders, demand analysis and planning, and other similar services give&nbsp;additional value to the customer in turn increasing customer loyalty.&nbsp;</p>\n\n<p><strong>Increase Revenue Due to Better Connection with The Customer&rsquo;s Business</strong></p>\n\n<ul>\n\t<li>Upsell products by using algorithms: smart recommendations, built-in notifications, promotions, and more</li>\n\t<li>Catch more opportunities due to being integrated into the customer&rsquo;s supply chain management process: make orders simpler, faster, automatically,&nbsp; via marketplace like systems</li>\n\t<li>Get better customer insight: loyalty, quotes analysis, behavior analysis, sales forecasting and more</li>\n</ul>\n\n<p><strong>Save Costs for You and Your Client Due to B2B Ecommerce</strong></p>\n\n<ul>\n\t<li>Streamline and automate processes due to integration with a customer purchasing flow</li>\n\t<li>Reduce personnel&nbsp;costs&nbsp;due to providing a self-service portal</li>\n\t<li>Reduce inventory costs and integrate your own suppliers into the value creation chain</li>\n</ul>\n",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/case-studies",
+            "url": "/case-studies",
             "style": "link-large",
             "urlText": "View Virto Commerce Case Studies"
         },

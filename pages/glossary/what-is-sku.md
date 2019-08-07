@@ -68,14 +68,14 @@ tags :
         <p class="text">
             Once set on starting to use SKUs for the business’ inventory, a business owner needs to make sure to have it set up and managed correctly in order to get the most out of it.
         </p>
-        <p class="text">•	Product variations in SKU need to be straight forward easy to understand</p>
-        <p class="text">•	A typical SKU needs to contain information on product grouping (typically in its first part)</p>
-        <p class="text">•	The other part should contain details and unique value</p>
+        <p class="text">•   Product variations in SKU need to be straight forward easy to understand</p>
+        <p class="text">•   A typical SKU needs to contain information on product grouping (typically in its first part)</p>
+        <p class="text">•   The other part should contain details and unique value</p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 1745 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

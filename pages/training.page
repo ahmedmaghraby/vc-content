@@ -16,7 +16,7 @@
         "titleAlignment": null,
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/training.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/training.jpg"
         },
         "content": "",
         "url1": null,
@@ -322,7 +322,7 @@
         "decorator": "section--pattern",
         "content": "",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/contact-us",
+            "url": "/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Contact Us"
         },

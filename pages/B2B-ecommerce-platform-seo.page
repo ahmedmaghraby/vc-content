@@ -16,7 +16,7 @@
         "titleAlignment": null,
         "subTitle": "",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/brooke-winters-md4QnifG-Io-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/brooke-winters-md4QnifG-Io-unsplash.jpg"
         },
         "content": "<h2>The best agile B2B e-commerce solution</h2>\n",
         "url1": null,
@@ -29,23 +29,22 @@
         "id": 3,
         "type": "decorated-hero",
         "name": "Text over image",
-        "title": "Virto Commerce ensures businesses  thrive in the market with features specifically tailored for the B2B market.",
-        
+        "title": "Virto Commerce ensures businesses  thrive in the market with features specifically tailored for the B2B market. Leveraging flexible B2B ecommerce software is imperative to compete in today's fast paced market. ",
         "content": "",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerStyle": null
     },
     {
         "id": 4,
         "type": "text",
         "name": "Text",
         "title": "Virto Commerce: The Best B2B Ecommerce Platform ",
-        
         "titleAlignment": null,
         "style": "dark",
         "decorator": "none",
-        "content": "<p><strong>DEDICATED TO B2B ECOMMERCE SOLUTIONS</strong></p>\n\n<p>While there are similarities between B2C and B2B ecommerce platforms, the actual B2B interactions are quite different, and present a number of unique characteristics and challenges at every stage of the business process. This means that, for a successful B2B ecommerce solutions implementation, both short and long term, the architecture and functionality of the platform needs to be specific to the B2B market. So while certain business activities, such as a product marketplace, may seem similar between B2B and B2C, the actual business logic and processes are drastically different.</p>\n\n<p><strong>CLOUD-BASED BEST B2B ECOMMERCE PLATFORM</strong></p>\n\n<p>By using a cloud in B2B ecommerce software, businesses are able to eliminate infrastructural limitations that hinder business growth. With this limitation removed, departments can grow and adapt as fast as they need to. With instant, on-demand scaling, marketing campaigns can be executed as fast as they need to, while transparent budgeting allows for easier budget planning and accounting. Plus, with fast upgrades and low maintenance, time can be spent on tasks that affect the bottom line, such as developing new business models or expanding distributor models.</p>\n\n<p><strong>OPEN SOURCE B2B ECOMMERCE SOFTWARE</strong></p>\n\n<p>These days, companies expect tools that allow them to adapt to market trends, with the shortest time-to-market. This is no different for B2B ecommerce software, where flexibility is especially important. Open source is the market standard now, which in turn helps reduce implementation risks, as well as making team training and support easier.</p>\n",
+        "content": "<p><strong>DEDICATED TO B2B ECOMMERCE SOLUTIONS</strong></p>\n\n<p>While there are similarities between B2C and B2B ecommerce platforms,&nbsp;or b2b&nbsp;e-commerce&nbsp;software, the actual B2B e-commerce solutions are quite different, and present a number of unique characteristics and challenges at every stage of the business process. This means that, for a successful B2B ecommerce solution&nbsp;implementation, in both the short and long term, the architecture and functionality of the platform needs to be specific to the B2B market. So while certain business activities, such as a product marketplace, may seem similar between B2B and B2C, the actual business logic and processes are drastically different.</p>\n\n<p><strong>CLOUD-BASED BEST B2B ECOMMERCE PLATFORM</strong></p>\n\n<p>By using the&nbsp;cloud in B2B ecommerce software, businesses are able to eliminate infrastructural limitations that hinder business growth. With this limitation removed, departments can grow and adapt as fast as they need to. With instant, on-demand scaling, marketing campaigns can be executed as fast as they need to, while transparent budgeting allows for easier budget planning and accounting. Plus, with fast upgrades and low maintenance, time can be spent on tasks that affect the bottom line, such as developing new business models or expanding distributor models.</p>\n\n<p><strong>OPEN SOURCE B2B ECOMMERCE SOFTWARE</strong></p>\n\n<p>B2b&nbsp;e-commerce&nbsp;software trends are quickly changing. These days, companies expect tools that allow them to adapt to market trends, with the shortest time-to-market. This is no different for B2B ecommerce software, where flexibility is especially important. Open source is the market standard for b2b&nbsp;ecommerce&nbsp;software, which in turn helps reduce implementation risks, as well as making team training and support easier.&nbsp; Choosing closed source B2B ecommerce&nbsp;software is a risky proposition, limiting you to relying on the vendor for changes to the code and functionality.&nbsp;</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -56,19 +55,19 @@
         },
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerStyle": null
     },
     {
         "id": 5,
         "type": "image-with-text",
         "name": "Image with text",
         "title": "A review from one of our users: ",
-        
         "titleAlignment": "section__t--left-alignment",
         "style": "light",
         "align": "left",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/og-logo-g2-bc98b1d5bf4cdb94d01b0aa558fc14a2a1ace7238f486d3ce5a424bf9a9ee34a.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/og-logo-g2-bc98b1d5bf4cdb94d01b0aa558fc14a2a1ace7238f486d3ce5a424bf9a9ee34a.png"
         },
         "content": "<h3><a href=\"https://www.g2.com/products/virto-commerce/reviews/virto-commerce-review-1900411\">&quot;Extremely Robust and Customizable&quot;</a></h3>\n\n<p>What do you like best?</p>\n\n<p>I very much like how solid the platform is and how well-structured the APIs are. Virto&#39;s APIs are well documented and provide the majority of functionality that we need to build our implementations. Also, I like how easy it is to extend the platform and that the methods of extending the platform do not hinder the upgrade path for our implementations. Virto&#39;s support also has been very quick and knowledgeable.</p>\n",
         "url1": {
@@ -85,11 +84,10 @@
         "id": 6,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "B2B Ecommerce Platform Features",
-        
+        "title": "Best B2B Ecommerce Platform Features",
         "titleAlignment": null,
         "titleStyle": null,
-        "intro": "<p><strong>B2B e-commerce solutions are revolutionizing transactional protocols and processes. Every step in the customer fulfillment process, from merchandising to financial services, is optimized by a well designed B2B ecommerce platform.</strong></p>\n",
+        "intro": "<p><strong>B2B e-commerce solutions are revolutionizing transactional protocols and processes. Every step in the customer fulfillment process, from merchandising to financial services, is optimized by a well designed B2B ecommerce platform.&nbsp; The best B2B ecommerce platform will contain the following:&nbsp;</strong></p>\n",
         "style": "dark",
         "colStyle": "col-lg-6",
         "items": [
@@ -98,7 +96,7 @@
                     "url": null
                 },
                 "title": "Corporate Account Management",
-                "text": "<p>Flexible B2B e-commerce software&#39;s architecture, combined with sophisticated rules and management features, allows for a whole spectrum of business scenarios, while also customizing the B2B experience for each company.</p>\n",
+                "text": "<p>Flexible B2B e-commerce software&nbsp;architecture, combined with sophisticated rules and management features, allow&nbsp;for a whole spectrum of business scenarios, while also customizing the B2B experience for each company.&nbsp; Leverage the power of a customized b2b e-commerce solution.</p>\n",
                 "iconStyle": "",
                 "url": null
             },
@@ -116,7 +114,7 @@
                     "url": null
                 },
                 "title": "Multiple Stores, Channels, Regions all in a Single B2B Ecommerce Platform",
-                "text": "<p>A good platform should be able to scale at any scenario, whether it&rsquo;s one storefront or hundreds. With our platform, you can create a unique online store for a large client, or build a distributor network across multiple countries, all the while accounting for different languages and local laws and tax systems.</p>\n",
+                "text": "<p>The best B2B ecommerce platform should be able to scale at any scenario, whether it&rsquo;s one storefront or hundreds. With our platform, you can create a unique online store for a large client, or build a distributor network across multiple countries, all the while accounting for different languages and local laws and tax systems.</p>\n",
                 "iconStyle": "",
                 "url": null
             },
@@ -125,27 +123,27 @@
                     "url": null
                 },
                 "title": "B2B Catalog Negotiation and Price Management",
-                "text": "<p>With our personalization system, you can customize catalogs to include details of the history of the customer relationship. This allows for the adjustment of catalog items based on the agreements you have with the customer, their budget, and previous quotes. This in turn shortens the negotiation process and improves customer loyalty</p>\n",
+                "text": "<p>With our personalization system, you can customize catalogs to include detailed history of the customer relationship, an esssential component of b2b&nbsp;ecommerce&nbsp;software. This allows for the adjustment of catalog items based on the agreements you have with the customer, their budget, and previous quotes. This in turn shortens the negotiation process and improves customer loyalty.&nbsp;</p>\n",
                 "iconStyle": "",
                 "url": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerStyle": null
     },
     {
         "id": 7,
         "type": "text",
         "name": "Text",
         "title": "Get a demo of Virto Commerce now and discover the benefits that our B2B e-commerce software provides.",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "section--pattern",
         "content": "",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/contact-us/contact-us",
+            "url": "/contact-us/contact-us",
             "style": "btn btn--orange btn--round",
             "urlText": "Request a Demo"
         },
@@ -158,7 +156,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "What our B2B Customers Say About Our Platform",
-        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "",
@@ -167,7 +164,7 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/kevin.jpg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/kevin.jpg"
                 },
                 "title": "KEVIN CORY VP-Technology and Strategic  Planning, GC Incentives",
                 "text": "<p>The new B2B platform takes advantage of a lot of the latest thoughts on high performance, high quality software development. By adopting this B2B ecommerce solution, we are adopting technologies that will allow us to better structure how we build the rest of our systems internally.</p>\n",
@@ -176,7 +173,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/sergey.jpg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/sergey.jpg"
                 },
                 "title": "SERGEY SINYUGIN CEO Kupinatao",
                 "text": "<p>Using Virto Commerce platform capabilities we have created very powerful system of gathering, publication and managing customer reviews. This system helps Kupinatao customers make the right choice out of millions of positions and drives our sales.</p>\n",
@@ -185,7 +182,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/lomko.jpg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/lomko.jpg"
                 },
                 "title": "OLGA LOMKO Marketing Director Kitmall.ru",
                 "text": "<p>Virto Commerce lets us reduce the number of people involved in management of B2B product promotions from six to one. We don&rsquo;t depend on IT guys anymore, and everybody benefits from this.</p>\n",
@@ -202,7 +199,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Best B2B Ecommerce Platform Integrations",
-        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "",
@@ -211,52 +207,52 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon-google.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon-google.png"
                 },
                 "title": "Google Analytics Enhanced",
                 "text": "<p>Google Ecommerce Analytics module allows you to use the newly launched feature of Google Analytics - Enchanced Ecommerce.</p>\n",
                 "iconStyle": "",
                 "url": {
-                    "url": "http://vc-public-test.azurewebsites.net/apps/extensions/google-analytics-enhanced-ecommerce",
+                    "url": "/apps/extensions/google-analytics-enhanced-ecommerce",
                     "urlText": "FREE",
                     "style": "btn btn--orange btn--round"
                 }
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/3f99c499-cd54-4fa7-8ffe-26e9eeae1ca0.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/3f99c499-cd54-4fa7-8ffe-26e9eeae1ca0.png"
                 },
                 "title": "Mailchimp Integration",
                 "text": "<p>Integration with MailChimp email&nbsp;system.</p>\n",
                 "iconStyle": "",
                 "url": {
-                    "url": "http://vc-public-test.azurewebsites.net/apps/extensions/mailchimp",
+                    "url": "/apps/extensions/mailchimp",
                     "urlText": "FREE",
                     "style": "btn btn--orange btn--round"
                 }
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 2.07.48 PM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 2.07.48 PM.png"
                 },
                 "title": "Sendgrid Integration Module",
                 "text": "<p>Provide email marketing campaigns using SendGrid innovative module.</p>\n",
                 "iconStyle": null,
                 "url": {
-                    "url": "http://vc-public-test.azurewebsites.net/apps/extensions/sendgrid-email-marketing",
+                    "url": "/apps/extensions/sendgrid-email-marketing",
                     "urlText": "FREE",
                     "style": "btn btn--orange btn--round"
                 }
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/NewLogo.jpg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/NewLogo.jpg"
                 },
                 "title": "Marketo Integration Module",
                 "text": "<p>Attract more buyers, nurture leads, identify opportunities and deliver sales orders with Marketo integration.</p>\n",
                 "iconStyle": "",
                 "url": {
-                    "url": "http://vc-public-test.azurewebsites.net/apps/extensions/marketo-marketing-automation",
+                    "url": "/apps/extensions/marketo-marketing-automation",
                     "urlText": "FREE",
                     "style": "btn btn--orange btn--round"
                 }
@@ -271,44 +267,43 @@
         "type": "cards",
         "name": "Text",
         "title": "Learn more in our Ecommerce Education Center",
-        
         "titleAlignment": null,
         "style": "dark",
         "items": [
             {
                 "title": "What is a Hosted Shopping Cart?",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/hostedshoppingct.jpeg"
                 },
                 "text": "<p>Hosted Shopping Cart Definition and Uses</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/glossary/hosted-shopping-cart"
+                    "url": "/glossary/hosted-shopping-cart"
                 }
             },
             {
                 "title": "Inventory Management",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/inventory.jpeg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/inventory.jpeg"
                 },
                 "text": "<p>What is Inventory Management? Why is it important in ecommerce?</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/glossary/what-is-inventory-management"
+                    "url": "/glossary/what-is-inventory-management"
                 }
             },
             {
                 "title": "What is Backorder?",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/agilephoto.jpeg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/agilephoto.jpeg"
                 },
                 "text": "<p>Learn more on how to handle backorders and fulfillment</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/glossary/what-is-backorder"
+                    "url": "/glossary/what-is-backorder"
                 }
             }
         ],

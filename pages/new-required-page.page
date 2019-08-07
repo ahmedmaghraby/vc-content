@@ -13,10 +13,11 @@
         "name": "Text over image",
         "title": "How can mid-market companies overcome their main ecommerce challenges? ",
         "headerStyle": "h1",
-        "content": "<p>Mid-market companies already have high and constantly growing business complexity - close to enterprises - however they don&rsquo;t have enterprise-scale budgets. In terms of ecommerce, that means all projects should be very results-focused, provide good ROI and still deliver a reliable basis for further growth.&nbsp;</p>\n",
+        "content": "<h2><span class=\"section__descr--normal\">Mid-market companies already have high and constantly growing&nbsp;business complexity - close to enterprises - however they don&rsquo;t have enterprise-scale budgets. In terms of ecommerce, that means all projects should be very results-focused, provide good ROI and still deliver a reliable basis for further growth.&nbsp;</span></h2>\n",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
@@ -24,7 +25,6 @@
         "name": "Text over image",
         "title": "Top Ecommerce Challenges Faced by Mid-Market Companies",
         "style": "light",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -48,7 +48,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Top Ecommerce Implementation Risks for Mid-Market Companies",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -90,7 +89,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -112,7 +110,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Does Virto Commerce Resolves These Risks?",
-        
         "titleAlignment": null,
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -156,7 +153,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",

@@ -99,7 +99,7 @@
                 "fullrow": true
             }
         ],
-        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/terms\">Privacy</a>.</p>\n",
+        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/terms\">Privacy</a>.</p>\n",
         "buttonText": "Submit Agreement"
     }
 ]

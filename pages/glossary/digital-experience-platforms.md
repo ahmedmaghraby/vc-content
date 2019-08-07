@@ -33,7 +33,7 @@ tags :
                     clear as you may want to understand them. However, organizations need one central platform responsible for controlling the wide span of its touchpoints.
                     This central platform for the expanded experience for an organization is the so-called digital experience platform.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Background of Digital Experience Platforms</strong>
                 </div>
                 <div class="text">
@@ -46,7 +46,7 @@ tags :
                     enterprise systems. WEM brought about centralization, providing a better way of doing content management. These two early technologies gave rise to digital
                     experience platforms, which combined the power of WEM and the benefits of other open platforms to reduce the complexity of IT.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Why Does an Enterprise Need a DXP?</strong>
                 </div>
                 <div class="text">
@@ -54,7 +54,7 @@ tags :
                     They want content that is unified for both the internal and external experiences. Digital experience platforms are crucial in the ongoing transition from the
                     Web-oriented platforms to the digital platforms. Digital experience platforms offer comprehensive capabilities as they move from the Web-only platforms to the digital experiences.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Considerations to Make When Choosing a DXP</strong>
                 </div>
                 <div class="text">
@@ -65,7 +65,7 @@ tags :
                 </div>
                 <div class="text">
                     After deciding on using a DXP, it is important that you measure its integrity. Let’s go through the integration standards of a digital experience platform briefly:
-                    <ul class="text" style="margin-left:60px">
+                    <ul class="text" style="margin-left:30px">
                         <li>Check whether the DXP is rationalized and integrated</li>
                         <li>Check whether it overlaps another product</li>
                         <li>Check its analytics and web content management to verify its integration</li>
@@ -74,38 +74,38 @@ tags :
                     that come next. It has to be flexible on the edges. The best digital experience platform is one that is open to future changes and can integrate even with other
                     third-party technologies.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Benefits of Digital Experience Platforms to Enterprises</strong>
                 </div>
                 <div class="text">
                     As evaluated, digital experience platforms go a step further than content management systems. Well, they do more than just creating an omnichannel customer
                     experience for an enterprise. But how exactly do they help in the growth of enterprises?
                 </div>
-                <div class="text">
+                <div>
                     <strong>Building Relationships</strong>
                 </div>
                 <div class="text">
                     The most effective digital experience platforms are engineered with the chief objective of building meaningful relationships with customers in their entire lifecycle.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Organizing Omnichannel Experiences</strong>
                 </div>
                 <div class="text">
                     Another crucial goal for any digital experience platform is to deliver content to various devices such as mobile phones, IoT devices, desktops, social media platforms, emails, and more.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Enhancing Integrations</strong>
                 </div>
                 <div class="text">
                     As earlier mentioned, it is important that these platforms integrate with existing and new systems and data. Through this integration, content can be optimized to suit the specific customer needs.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Multi-touchpoint Management</strong>
                 </div>
                 <div class="text">
                     These platforms also help enterprises grow by helping address customer needs at the various points of their customer journey, from awareness to the long-term customer.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Conclusion</strong>
                 </div>
                 <div class="text">

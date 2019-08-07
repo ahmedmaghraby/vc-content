@@ -15,7 +15,7 @@
         
         "subTitle": "Virto Commerce Ecommerce Education",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/sean-pollock-PhYq704ffdA-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/sean-pollock-PhYq704ffdA-unsplash.jpg"
         },
         "content": "",
         "url1": null,
@@ -52,7 +52,7 @@
         "noPad": true,
         "title": "Download White Paper",
         "buttonText": "Download White Paper",
-        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
-        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/whitepaper-ecommerce-platform-migration-problems.pdf"
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/whitepaper-ecommerce-platform-migration-problems.pdf"
     }
 ]

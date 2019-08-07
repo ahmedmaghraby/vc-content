@@ -52,11 +52,11 @@ tags :
         </p>
         {% include 'vc-magento-banner' with current_url : 'glossary/demandware-alternatives' %}
         <div class="section-title">Magento </div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Demandware alternatives - Magento " src="assets/images/demandware-alternatives-magento.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 This is another great enterprise-level solution that is specifically designed for small and medium sized businesses. The platform can be easily named one of the most popular ecommerce solutions in the world!
                 There are three platforms available to the client, depending on the scale of the task that you are facing. This solution does magic when it comes to functionality and customizability of your website. Other than that, if you are not experienced with programming, you might not be able to achieve positive results with this platform.
             </div>
@@ -68,12 +68,12 @@ tags :
             The customer support is another thing in which this Demandware alternative can take pride in.
         </p>
         <div class="section-title">Bigcommerce</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 This one can be considered a great alternative to any shopping cart software just like Volusion or Shopify. The only is its limited template base and poor feature set that does not appear to be sufficient for a platform of such a high level.
                 It should be credited for the large how-tos and guidelines collection though. It can help any novice businessman start creating web stores with the available tools. The guidelines were created by licensed professionals who know exactly what steps to take when launching a website in a minimal amount of time. This makes <a href="https://www.bigcommerce.com/" rel="nofollow">Bigcommerce</a> the most intuitive platform of all.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Demandware alternatives - Bigcommerce " src="assets/images/demandware-alternatives-bigcommerce.jpg" />
             </div>
         </div>
@@ -81,11 +81,11 @@ tags :
             However, for a starting business owner, a closed source (proprietary) platform like this one may turn out very expensive and not worth the money.
         </p>
         <div class="section-title">Weebly</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Demandware alternatives - Weebly" src="assets/images/weebly.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 A popular and reliable platform that will allow you to build a fully functional web store and won’t cost you an arm and a leg at the same time, while being appealing and intuitive.
                 When it comes to User Interface the platform offers a great selection of tools to choose from. The other cool feature of <a href="https://www.weebly.com/" rel="nofollow">Weebly</a> is its content management software which allows you to manage your content, create a sub-blog and market your products directly online.
             </div>
@@ -98,11 +98,11 @@ tags :
         </p>
         {% include 'vc-magento-banner' with current_url : 'glossary/demandware-alternatives' %}
         <div class="section-title">Virto Commerce</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 When using Virto Commerce as a Demandware alternative, you can be sure that you are getting the platform that will suit all your needs. There are almost no complicated processes involved in creating your website. The cutting-edge .NET 4.6 framework along with AngularJS and Liquid technologies will let you build your website in no time and start selling products and services as soon as possible. This is the solution that can be used by any vendor from small businesses to enterprise-level companies.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Demandware alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
         </div>
@@ -114,9 +114,9 @@ tags :
         </p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 1789 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

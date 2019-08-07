@@ -14,7 +14,7 @@
         "title": "You Can't Afford To Postpone Your Digital Transformation",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/digitaltransheader.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/digitaltransheader.png"
         },
         "content": "<p>Prepare yourself for unlimited business growth</p>\n",
         "url1": null,
@@ -110,7 +110,7 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/roadmap.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/roadmap.png"
                 },
                 "title": "Implementation Planning",
                 "text": "<p>Experience You Can Leverage. The Virto (COUP) Cross-Organizational Unified Process provides our enterprise customers with a rubric for structuring a robust and cohesive human resources organization built to support an evolving commerce ecosystem. Virto Commerce&#39;s leadership team is composed of passionate and seasoned B2B ecommerce experts who built our platform from the ground up. They know our architecture inside and out and how to use it to solve your most complex business and technical issues.&nbsp;</p>\n",
@@ -119,16 +119,16 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/user.svg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/user.svg"
                 },
                 "title": "Worldwide Partner Network",
-                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"http://vc-public-test.azurewebsites.net/find-implementation-partner\">Contact us to find the best partner to fit your needs.</a></p>\n",
+                "text": "<p>Virto Commerce has a broad network of&nbsp;partners&nbsp; who specialize in ecommerce to assist with your implementation every step along the way. Our hand selected group&nbsp;partners are based around the globe.&nbsp; Good partners are hard to find and need to be engaged quickly to start your journey.&nbsp;<a href=\"/find-implementation-partner\">Contact us to find the best partner to fit your needs.</a></p>\n",
                 "iconStyle": null,
                 "url": null
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/process.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/process.png"
                 },
                 "title": "Defined Delivery Process",
                 "text": "<p>Virto Commerce has a clear process that we use to get your perfect platform implemented on time and within budget.&nbsp;</p>\n",
@@ -137,7 +137,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bolt.svg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bolt.svg"
                 },
                 "title": "Get to Market Faster",
                 "text": "<p>The Virto Platform accelerates development timelines with enterprise out of the box commerce tools and a scalable, API-based, microservices architecture, facilitating tremendous opportunities for serious enterprise digital commerce solutions.</p>\n",
@@ -146,7 +146,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/settings.svg"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/settings.svg"
                 },
                 "title": "Create a Customized User Experience",
                 "text": "<p>The customer experience is at the center of your digital transformation. Consumers are increasingly savvy and expect consistent journeys across a variety of touch points. Their expectation is a seamless and personalized journey for every need -- from transactions as simple as buying their morning coffee to far more complicated B2B transactions.</p>\n",
@@ -171,7 +171,7 @@
         "content": "<p style=\"text-align:center\">Reach out to get a demo of Virto Commerce, and discuss how our&nbsp; flexible and scalable .NET ecommerce platform can be the foundation of your ecommerce journey.&nbsp;</p>\n",
         "url": {
             "urlText": "Get in Touch",
-            "url": "http://vc-public-test.azurewebsites.net/contact-us",
+            "url": "/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
@@ -190,11 +190,11 @@
             {
                 "title": "Bosch Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
                 },
                 "text": "<p>See how Bosch created a new solution to increase customer insights and loyalty</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch",
+                    "url": "/case-studies/bosch",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -202,11 +202,11 @@
             {
                 "title": "Proffsmagasinet Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/proffsmagasinet.png"
                 },
                 "text": "<p>Read how Virto Commerce enabled a top Swedish manufacturer&#39;s international expansion and digital transformation.</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/proffsmagasinet",
+                    "url": "/case-studies/proffsmagasinet",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -214,11 +214,11 @@
             {
                 "title": "Estate Spain Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-05-27 at 8.57.52 AM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-05-27 at 8.57.52 AM.png"
                 },
                 "text": "<p>Estate-Spain.com found Virto Commerce in their digital transformation search for a replacement ecommerce solution that could scale with its explosive growth.</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain",
+                    "url": "/case-studies/estatespain",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }

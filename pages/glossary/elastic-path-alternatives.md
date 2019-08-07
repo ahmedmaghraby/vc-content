@@ -52,11 +52,11 @@ tags :
         </p>
         {% include 'vc-magento-banner' with current_url : 'glossary/elastic-path-alternatives' %}
         <div class="section-title">Demandware</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="ElasticPath Alternatives - Demandware" src="assets/images/demandware.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 <a href="http://www.demandware.com/" rel="nofollow">Demandware</a> offers the features of channel management and content management that Elasticpath lacks. This Elasticpath alternative is also a <a href="{{ '/glossary/saas-ecommerce' | absolute_url }}">SaaS platform</a>, meaning you wouldn’t have to worry about maintaining its infrastructure.
                 With Demandware’s vast template library you can easily build an eye-catching website and implement the best UX practices within it. With total control over the process of creating your web store that Demandware provides, there is no need to worry about technical aspects of the platform, like database management and networks.
             </div>
@@ -65,11 +65,11 @@ tags :
             The only bad thing about this particular alternative to Elasticpath is its human resource requirements, meaning you might need to hire a professional programmer. However, you are looking for an enterprise solution and have the development power and resources to manage Demandware’s top features and practices, then you should definitely look into this ecommerce platform.
         </p>
         <div class="section-title">Ecwid</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 With this platform you can embed a personal web store into an already existing page, so you won’t need to go through the entire sophisticated process of setting it up yourself. The web store requires almost no technical experience, as the <a href="https://www.ecwid.com/" rel="nofollow">Ecwid's</a> builder is pretty intuitive. It also gives you the maximum amount of tools possible without limiting your creativity.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Elasticpath Alternatives - Ecwid" src="assets/images/ecwid.jpg" />
             </div>
         </div>
@@ -80,11 +80,11 @@ tags :
             The products in your web store will be naturally organized by categories, with the option of a search tool and filtered search. You can also publish your store on Facebook or any other personal website or blog, and enjoy the pocket version of an ecommerce store with the same features.
         </p>
         <div class="section-title">Magento</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Elasticpath Alternatives - Magento" src="assets/images/magento-1.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 If you are an enterprise company that has development resources, you should also consider <a href="/glossary/magento-alternatives">Magento</a> as another Elasticpath alternative. It offers enormous flexibility due to its open source code, customizability with Magento’s agile features, extensions, and plugins that expand your options, when it comes to your website’s functionality.
             </div>
         </div>
@@ -92,11 +92,11 @@ tags :
             With the three distinct platforms: Magento Community Edition, Magento Enterprise Edition, and Magento Enterprise Cloud Edition you can start innovating and increasing conversion rates and customer satisfaction. Great ecommerce functionality will be available to you right out of the box. With the global assets and modules, it is now easy to scale up your business into new markets and sell beyond business hours.
         </p>
         <h2>Virto Commerce</h2>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 When choosing Virto Commerce as an Elasticpath alternative, you can be confident that you are using the platform that is best suited for any of your ecommerce needs. This platform is an open source solution, however, there will be no stress involved for a person who is not all that familiar with coding. Thanks to cutting edge .NET 4.6 framework and technologies like Angular and Liquid on which the platform is built upon, it provides an easy set-up and operation. You will be able to build your website in no time and start selling fast.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Elasticpath Alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
         </div>
@@ -112,9 +112,9 @@ tags :
         </p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 1047 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

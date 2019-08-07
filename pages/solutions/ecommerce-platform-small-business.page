@@ -14,7 +14,7 @@
         "title": "Scalable Digital Commerce for Small Businesses",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/hero.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/hero.png"
         },
         "content": "<p>The catalyst for your growth &ndash; a flexible, reliable ecommerce platform you can depend on for years to come</p>\n",
         "url1": null,
@@ -64,28 +64,28 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/DKhsmb05.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/DKhsmb05.png"
                 },
                 "title": "The Choice of Business Leaders",
                 "text": "<p>Virto Commerce is the trusted digital commerce partner for a myriad of global businesses including Volvo, Heineken, Rainbow Sandals and more.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Order management (1).png"
                 },
                 "title": "Ready to Use Functionality",
                 "text": "<p>Virto Commerce offers out-of-the-box features to help startups get their online businesses up and running quickly. Order management, marketing tools, content management system (CMS) - are all included in our community edition.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_1 (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_1 (1).png"
                 },
                 "title": "Expert Delivery Process",
                 "text": "<p>Don&#39;t be scared off by the complexity of implementing an ecommerce platform. Virto Commerce&#39;s experienced team has a defined set of best practices gained from implementing deployments around the globe. We leverage our proprietary process to make sure that you are quickly up and running. Read more about our structured delivery process, to implement your solution quickly and within budget.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_2.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_2.png"
                 },
                 "title": "Expert Partner Community",
                 "text": "<p>Virto Commerce works with a group of trusted partners who can work with you to smoothly implement a custom solution based on your requirements. Our partners are based around the world and have delivered solutions to companies in a myriad of industries. Contact us to find the right implementation partner for you.</p>\n"
@@ -123,7 +123,7 @@
             {
                 "title": "Bosch Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
                 },
                 "text": "<p>See how Virto Commerce created a customer loyalty platform for Bosch.&nbsp;</p>\n",
                 "link": {
@@ -135,7 +135,7 @@
             {
                 "title": "Standard Boekhandel Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.28.11 PM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-05 at 3.28.11 PM.png"
                 },
                 "text": "<p>When Belgium&#39;s largest book seller needed a new solution, they turned to Virto Commerce.&nbsp;</p>\n",
                 "link": {

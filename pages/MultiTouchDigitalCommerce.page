@@ -14,7 +14,7 @@
         "title": "Multi-Touch User Experiences",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/hero (3).png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/hero (3).png"
         },
         "content": "<p>Leverage the power of multi touch user experiences to grow customer loyalty.</p>\n",
         "url1": null,
@@ -53,7 +53,7 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/payment.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/payment.png"
                 },
                 "title": "Reduced Total Cost of Ownership",
                 "text": "<p>With an out of the box solution, you run the risk of outgrowing your platform. Headless ensures you won&#39;t sink funding into an investment that can only support your business for a fixed amount of time.&nbsp;<br />\n<br />\nThe decoupled user interface allows you to make more frequent and more cost-effective updates as your needs evolve. With a headless, flexible platform &ndash; that supports micro services &ndash; you aren&#39;t tied down to specific solutions. You can pick and choose between different services and add and remove pieces as needs change.&nbsp;</p>\n",
@@ -62,7 +62,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/scalable.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/scalable.png"
                 },
                 "title": "Endless extensibility for an omni-channel user experience",
                 "text": "<p>Perfect for the complexities of B2B ecommerce, Virto Commerce&#39;s platform has endless personalization options, providing the best user experience for your customers. Headless makes this possible, allowing you to assemble a customized, tightly integrated experience with the fastest time to value.</p>\n",
@@ -71,7 +71,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/globe.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/globe.png"
                 },
                 "title": "Supports expansion into other business lines",
                 "text": "<p>Once your platform is set up, using Virto Commerce&#39;s expert implementation process (link), it&#39;s simple to deploy in additional geographies, making Virto Commerce ideal for international enterprises</p>\n",
@@ -94,7 +94,7 @@
         "decorator": "section--pattern",
         "content": "",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/download-architectural-guidelines",
+            "url": "/download-architectural-guidelines",
             "style": "btn btn--orange btn--round",
             "urlText": "Download Now"
         },
@@ -112,11 +112,11 @@
             {
                 "title": "Bosch Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch2.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch2.png"
                 },
                 "text": "<p>Learn how Bosch created a&nbsp; customized customer loyalty portal using Virto Commerce.</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch",
+                    "url": "/case-studies/bosch",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -124,11 +124,11 @@
             {
                 "title": "Lavazza Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/lavazza.png"
                 },
                 "text": "<p>When Lavazza Nederland needed a complex B2B and B2C solution, they turned to Virto Commerce.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza",
+                    "url": "/case-studies/lavazza",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -136,11 +136,11 @@
             {
                 "title": "Standaard Boekhandel Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/standard.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/standard.png"
                 },
                 "text": "<p>Belgium&#39;s largest book seller outgrew their monolothic ecommerce platform.&nbsp; They moved over to Virto Commerce for the flexibility they needed.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
+                    "url": "/case-studies/standaard-boekhandel",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }

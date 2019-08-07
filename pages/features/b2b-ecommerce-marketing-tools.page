@@ -14,7 +14,7 @@
         "title": "B2B Ecommerce Marketing & Promotion Features",
         "subTitle": "",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/jj-ying-UcI5OAPD820-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/jj-ying-UcI5OAPD820-unsplash.jpg"
         },
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and build loyalty with promotion features built especially for B2B companies.</p>\n",
         "url1": null,
@@ -50,42 +50,42 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_1.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_1.png"
                 },
                 "title": "Conditional Promotions",
                 "text": "<p>Flexible promotion module provides the right targeted incentives to specific customers for certain products or categories.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_3.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_3.png"
                 },
                 "title": "Coupons & Tracking",
                 "text": "<p>Use promo codes and coupons to run targeted promotions, and easily track the results and revenue for each coupon.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_5.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_5.png"
                 },
                 "title": "Minimum Advertised Price (MAP) Support Tools",
                 "text": "<p>Ensure that third party sellers are not hurting your brand by selling your products at prices lower than they should be.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_2.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_2.png"
                 },
                 "title": "Customer Segmenting",
                 "text": "<p>Leverage the flexibility to segment your customers endlessly, ensuring they received promotions targeted exactly to their wants and needs.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_4.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_4.png"
                 },
                 "title": "Web Content Management",
                 "text": "<p>Easily manage your site to keep your promotions and content up to date.</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_6.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_6.png"
                 },
                 "title": "Shipping Promotions",
                 "text": "<p>Create customized shipping promotions to increase revenue per customer and brand loyalty.</p>\n"
@@ -107,7 +107,7 @@
         "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers to help you grow your revenue through targeted marketing and promotions.&nbsp;</p>\n",
         "url": {
             "urlText": "Request a Demo",
-            "url": "http://vc-public-test.azurewebsites.net/contact-us",
+            "url": "/contact-us",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
@@ -125,11 +125,11 @@
             {
                 "title": "Order Management ",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Order management (1).png"
                 },
                 "text": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-order-management",
+                    "url": "/b2b-ecommerce-order-management",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -137,11 +137,11 @@
             {
                 "title": "Pricing Tools",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/pricing.png"
                 },
                 "text": "<p>Pricing Features Built for the Complexity of B2B Digital Commerce</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools",
+                    "url": "/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -149,11 +149,11 @@
             {
                 "title": "Content Management System (CMS)",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Multi-tenant (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Multi-tenant (1).png"
                 },
                 "text": "<p>Virto Commerce offers a powerful, yet simple CMS that will delight both marketers and developers.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-cms",
+                    "url": "/b2b-cms",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }

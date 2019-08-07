@@ -16,7 +16,7 @@
         "titleAlignment": null,
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/estate-spain.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/estate-spain.png"
         },
         "content": "",
         "url1": null,
@@ -55,7 +55,7 @@
         "style": "light",
         "size": "middle",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/estate-spain.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/estate-spain.png"
         },
         "noTop": true,
         "noBottom": true,
@@ -93,7 +93,7 @@
         "noPad": true,
         "title": "Download the Full Case Study",
         "buttonText": "Download Now",
-        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
-        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/estatespain-case-study.pdf"
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/estatespain-case-study.pdf"
     }
 ]

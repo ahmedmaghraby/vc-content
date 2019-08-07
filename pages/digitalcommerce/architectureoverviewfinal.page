@@ -182,7 +182,7 @@
         "text": "Download our Architectural Guidelines",
         "style": "light",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/download-arch-guidelines",
+            "url": "/download-arch-guidelines",
             "style": "btn btn--orange btn--round",
             "urlText": "Download Now"
         },
