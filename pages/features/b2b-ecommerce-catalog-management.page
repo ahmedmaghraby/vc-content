@@ -21,12 +21,14 @@
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
         "type": "text",
-        "name": null,
+        "name": "subtitle h3",
         "title": " ",
         "style": null,
         "decorator": "none",
@@ -35,7 +37,9 @@
         "noTop": null,
         "noBottom": true,
         "noPad": null,
-        "h1": null
+        "h1": null,
+        "headerType": null,
+        "titleAlignment": null
     },
     {
         "id": 4,
@@ -73,7 +77,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null
     },
     {
@@ -123,7 +126,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null
     }
 ]

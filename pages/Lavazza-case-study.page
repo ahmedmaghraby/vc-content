@@ -12,7 +12,6 @@
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Lavazza Success Story",
-        
         "titleAlignment": null,
         "subTitle": null,
         "image": {
@@ -23,14 +22,14 @@
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -66,7 +65,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",

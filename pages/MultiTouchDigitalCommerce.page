@@ -22,7 +22,9 @@
         "headerStyle": "h1",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
@@ -33,7 +35,6 @@
         "decorator": null,
         "content": "<h3><strong>Personalization is the key concept B2B companies need to embrace as consumers expect a consistent experience across web, mobile, and other touch points.</strong></h3>\n\n<p>To manage an omni-channel user experience, enterprise Business leaders like Amazon and Netflix utilize headless commerce as they know traditional digital commerce platforms can&#39;t change fast enough to keep up with the pace of the consumer market. Additionally, a traditional ecommerce platform lacks the flexibility B2B businesses need to quickly APIfy other providers, data or solutions into their ecommerce front end, providing a coherent user experience across multi touch points.</p>\n\n<p>Choosing a platform with a traditional approach may be ok for a small store, but B2B businesses who strive to provide consistency across channels should consider more flexible platforms. Virto Commerce&#39;s headless architecture separates the content presentation layer that your end customers see from the back end business logic and functional layer. This makes Virto Commerce&#39;s platform superior for B2B and other large businesses as it allows for flexibility, is extensible, provides a personalized B2C like experience, and doesn&#39;t restrict your growth. Headless design allows for unlimited customization, more flexibility in content delivery and a better user experience overall.</p>\n",
         "url": null,
-        
         "titleAlignment": null,
         "noTop": false,
         "noBottom": true,
@@ -44,7 +45,6 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Advantages of Virto Commerce for Omni-Channel Experiences",
-        
         "titleAlignment": null,
         "titleStyle": null,
         "intro": "<p style=\"text-align:center\"><strong>Personalize multi touch user experiences through our headless digital commerce platform</strong></p>\n",
@@ -88,7 +88,6 @@
         "type": "text",
         "name": "CTA",
         "title": "Download our Architectural Guidelines for a closer look at our headless, flexible and scalable architecture",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "section--pattern",

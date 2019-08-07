@@ -11,7 +11,7 @@
         "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
-        "title": "Common Issues with Ecommerce Website Migration and How to Avoid Them",
+        "title": "Common Issues with Ecommerce Website Migration<br/>and How to Avoid Them",
         "headerStyle": "h1",
         "subTitle": "Virto Commerce Ecommerce Education",
         "image": {
@@ -22,14 +22,15 @@
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "style": "light",
         "decorator": "none",
         "content": "<h3 style=\"text-align: center;\">Ecommerce migrations require all hands on deck to be successful, especially at the enterprise level.&nbsp; This Virto Commerce whitepaper provides insight on how to avoid and overcome&nbsp;typical ecommerce platform migration problems, and steps to achieving migration success.&nbsp;</h3>\n",

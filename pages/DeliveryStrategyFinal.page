@@ -22,7 +22,9 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerStyle": "h1"
+        "headerStyle": "h1",
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,

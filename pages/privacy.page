@@ -7,7 +7,7 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text",
         "name": "Text",
         "title": "Virto Commerce Privacy Policy",
@@ -21,10 +21,12 @@
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "image",
         "name": "Simple image",
         "title": "Block title",
@@ -38,7 +40,7 @@
         "noPad": null
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "text",
         "name": "Text",
         "title": "",
