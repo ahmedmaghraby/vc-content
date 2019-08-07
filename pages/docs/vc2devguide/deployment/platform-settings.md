@@ -284,14 +284,14 @@ Selects Hangfire storage type. Assigned to HangfireOptions.JobStorageType.
 
 Configures number of Hangfire workers. Assigned to HangfireOptions.WorkerCount.
 
-# Notifications
+## Notifications
 ```
 <add key="VirtoCommerce:Notifications:Gateway" value="Default" />
 ```
 
 Specifies notification sending gateway. Could be "Default" or "SendGrid".
 
-# Security
+## Security
 ```
 <add key="VirtoCommerce:Security:SuppressForcingCredentialsChange" value="false" />
 ```
