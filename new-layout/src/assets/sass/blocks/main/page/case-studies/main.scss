@@ -78,7 +78,7 @@
     }
 }
 
-input.ng-touched.ng-invalid
+input.ng-touched.ng-invalid, .input-validation-error
 {
-    border-color: #E32636;
+    border-color: #E32636 !important;
 }

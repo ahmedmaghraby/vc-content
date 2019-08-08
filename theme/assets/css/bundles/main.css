@@ -6463,8 +6463,8 @@ code {
     margin-top: auto;
 }
 
-input.ng-touched.ng-invalid {
-    border-color: #E32636;
+input.ng-touched.ng-invalid, .input-validation-error {
+    border-color: #E32636 !important;
 }
 
 .glossary {

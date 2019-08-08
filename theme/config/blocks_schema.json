@@ -1886,6 +1886,10 @@
                 "label": "String"
               },
               {
+                "value": "email",
+                "label": "Email"
+              },
+              {
                 "value": "select",
                 "label": "Select"
               },
@@ -1904,6 +1908,11 @@
           {
             "id": "fullrow",
             "label": "Full row",
+            "type": "checkbox"
+          },
+          {
+            "id": "required",
+            "label": "Required field",
             "type": "checkbox"
           }
         ],

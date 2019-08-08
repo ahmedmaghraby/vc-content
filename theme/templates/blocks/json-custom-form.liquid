@@ -9,7 +9,6 @@
             {% assign rowStarted = false %}
             <form>
                 {% for item in block.fields %}
-
                     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                     {% if item.fullrow == true and rowStarted == true %}
                         </div>
@@ -24,16 +23,18 @@
                     <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
                         <label class="form-label">{{ item.label }}</label>
                         {% if item.type == 'textarea' %}
-                            <textarea class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                            <textarea {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
                         {% elsif item.type == 'select' %}
                             {% assign options = item.data | split: ";" %}
-                            <select class="form-control" name="{{ item.name }}">
+                            <select {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}">
                                 {% for opt in options %}
                                     <option value="{{opt}}">{{opt}}</option>
                                 {% endfor %}
                             </select>
+                        {% elsif item.type == 'email' %}
+                            <input data-val="true" data-val-email {% if item.required == true %}data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
                         {% else %}
-                            <input type="text" class="form-control" name="{{ item.name }}">
+                            <input {% if item.required == true %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
                         {% endif %}
                     </div>
                     {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
