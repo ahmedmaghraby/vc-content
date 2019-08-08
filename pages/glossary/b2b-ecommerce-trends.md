@@ -265,7 +265,7 @@ tags :
                     <div class="list__descr">
                         B2B Online is where world leading manufacturers share their experience with the fellow professionals in the field. Now we're excited to present our B2B e-commerce software.
                     </div>
-                    <a class="btn btn--orange btn--round" href="{{ '/blog/b2b-online-aftermathf' | absolute_url }}">Read more...</a>
+                    <a class="btn btn--orange btn--round" href="{{ '/blog/b2b-online-aftermath' | absolute_url }}">Read more...</a>
                 </div>
             </div>
         </div>
