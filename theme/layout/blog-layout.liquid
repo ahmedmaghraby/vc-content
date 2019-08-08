@@ -9,9 +9,11 @@
     {% assign blog.title = 'Virto Commerce Blog' %}
 
     {% if blog_search.category %}
-    {% assign search_category = "blogs.categories." | append: blog_search.category | t %}
+        {% assign search_category = "blogs.categories." | append: blog_search.category | t %}
+        <link rel="canonical" href="{{ '/blog' | full_url }}" />
     {% elseif blog_search.tag %}
-    {% assign search_tag = "blogs.tags." | append: blog_search.tag | t %}
+        {% assign search_tag = "blogs.tags." | append: blog_search.tag | t %}
+        <link rel="canonical" href="{{ '/blog' | full_url }}" />
     {% endif %}
 
     {% if article %}
