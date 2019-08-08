@@ -1,8 +1,8 @@
-﻿---
+---
 author: VirtoCommerce
 category: release
 date: 2014-04-24 00:40
-excerpt: This release focus was on performance and technology updates as well as some smaller enhancements. 
+excerpt: Virto Commerce Ecommerce Platform Release Notes 1.9
 permalink: blog/virtocommerce-1-9-release-notes
 tags: [announcements, ecommerce, entityframework, full page caching, html5, localization, paypal]
 title: "Virto Commerce 1.9 Release"

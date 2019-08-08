@@ -1,6 +1,6 @@
 ---
 title: Customizing the Dashboard - Virto Commerce 1.13 User Guide
-description: Customizing the Dashboard
+description: Virto Commerce User Guide - Customizing the Dashboard
 layout: docs
 date: 2015-03-18T20:11:12.560Z
 priority: 1
