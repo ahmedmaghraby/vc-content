@@ -169,6 +169,7 @@
             <add key="/blog/support" value="/support" />
             <add key="/blog/try-now" value="/try-now" />
             <add key="/blog/roadmap" value="/roadmap" />
+            <add key="/blog/tag/20" value="blog/tag/v20"/>
             <add key="/blog/about-us" value="/about-us" />
             <add key="/blog/resources" value="/resources" />
             <add key="/blog/case-studies" value="/case-studies" />
@@ -188,14 +189,14 @@
         <rule name="Robots.txt for staging" stopProcessing="true">
             <match url="robots.txt" />
             <conditions>
-                <add input="{HTTP_HOST}" pattern="^(virtocommerce\.com)$" negate="true"/>
+                <add input="{HTTP_HOST}" pattern="^vc\-public\-pro\.azurewebsites\.net$" />
             </conditions>
             <action type="Rewrite" url="/robots.staging.txt" />
         </rule>
-        <rule name="Robots.txt for production" stopProcessing="true">
+        <rule name="Robots.txt for production" enabled="true" stopProcessing="true">
             <match url="robots.txt" />
             <conditions>
-                <add input="{HTTP_HOST}" pattern="^(virtocommerce\.com)$" negate="false"/>
+                <add input="{HTTP_HOST}" pattern="^virtocommerce\.com$" />
             </conditions>
             <action type="Rewrite" url="/robots.production.txt" />
         </rule>
@@ -210,11 +211,12 @@
             </conditions>
             <action type="Redirect" url="https://{C:2}/{R:1}" redirectType="Permanent"/>
         </rule>
+        <rule name="redirect licence activate to the new admin" stopProcessing="true">
+            <match url="^admin/api/licenses/activate/(.+)" />
+            <action type="Redirect" url="https://vc-admin-pro.azurewebsites.net/api/licenses/activate/{R:1}" redirectType="Permanent"/>
+        </rule>
         <!--
-    <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true">
-        <match url="\w*b2b-ecommerce$" />
-        <action type="Redirect" url="https://virtocommerce.com/b2b-ecommerce-platform" />
-    </rule>
+    <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true"><match url="\w*b2b-ecommerce$" /><action type="Redirect" url="https://virtocommerce.com/b2b-ecommerce-platform" /></rule>
     -->
         <rule name="VC old link redirects">
             <match url=".*" ignoreCase="true" />
@@ -232,9 +234,6 @@
             </conditions>
             <action type="Redirect" redirectType="Permanent" url="{R:1}" />
         </rule>
-        <!--<rule name="Redirect to vc community" stopProcessing="true">
-            <match url="(.*)(\/account)$" />
-            <action type="Redirect" url="vc-community" />
-        </rule>-->
+        <!--<rule name="Redirect to vc community" stopProcessing="true"><match url="(.*)(\/account)$" /><action type="Redirect" url="vc-community" /></rule>-->
     </rules>
 </rewrite>
