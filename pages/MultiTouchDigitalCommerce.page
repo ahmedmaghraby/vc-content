@@ -93,13 +93,14 @@
         "decorator": "section--pattern",
         "content": "",
         "url": {
-            "url": "/download-architectural-guidelines",
+            "url": "/download-arch-guidelines",
             "style": "btn btn--orange btn--round",
             "urlText": "Download Now"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 6,

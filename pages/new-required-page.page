@@ -112,7 +112,7 @@
         "title": "How Does Virto Commerce Resolves These Risks?",
         "titleAlignment": null,
         "titleStyle": "section__t--gray",
-        "intro": "",
+        "intro": "<p>some interesting text</p>\n",
         "style": "light",
         "colStyle": "col-md-6 col-lg-4",
         "items": [
@@ -146,7 +146,8 @@
         ],
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 7,
