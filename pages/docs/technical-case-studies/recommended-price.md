@@ -93,6 +93,6 @@ Nope
 Recommended column added into the Price
 
 ### How to implement: Source Code (Code examples)
-You can use this sample https://github.com/VirtoCommerce/vc-samples/tree/master/External.PriceModule
+You can use this sample https://github.com/VirtoCommerce/vc-samples/tree/master/External.PricingModule
 
 You can use ready to use Visual Studio Template to create Virto Commerce 2.x Pricing Module extension https://github.com/VirtoCommerce/vc-visualstudio-templates

@@ -13,26 +13,14 @@
         "name": "title",
         "title": "Ecommerce Partner Services",
         "headerStyle": "h1",
-        "content": "",
+        "content": "<p><span class=\"section__descr--normal\">Virto Commerce ensures your success by providing a worldwide community of digital commerce experts who work with partners to achieve their ecommerce implementation goals. You receive the essential tools, support, expertise, and strategy to guide your ecommerce technical expertise to the next level.&nbsp;</span></p>\n",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
-        "type": "text",
-        "name": null,
-        "title": "",
-        "style": null,
-        "decorator": null,
-        "content": "<h3 style=\"text-align:center\">Virto Commerce ensures your success by providing a worldwide community of digital commerce experts who work with partners to achieve their ecommerce implementation goals. You receive the essential tools, support, expertise, and strategy to guide your ecommerce technical expertise to the next level.&nbsp;</h3>\n",
-        "url": null,
-        "noTop": null,
-        "noBottom": true,
-        "noPad": null
-    },
-    {
-        "id": 4,
         "type": "list-with-images",
         "name": null,
         "title": "Partner Services",
@@ -42,7 +30,7 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/support.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/support.png"
                 },
                 "title": "Support",
                 "text": "<p>We provide tech-savvy 24/7 support aimed to solve platform-related issues during implementation.</p>\n",
@@ -51,7 +39,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/review.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/review.png"
                 },
                 "title": "Expert Services",
                 "text": "<p>Our experts are ready to review and give first-hand recommendations to help your solution succeed.</p>\n",
@@ -60,7 +48,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/cs.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/cs.png"
                 },
                 "title": "Professional Services",
                 "text": "<p>Our highly experienced teams are ready to boost your implementation resources to achieve business objectives</p>\n",
@@ -69,7 +57,7 @@
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/tech acct mgr.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/tech acct mgr.png"
                 },
                 "title": "Technical Account Manager",
                 "text": "<p>A Virto Commerce Technical Account Manager is your dedicated resource and mentor. They help facilitate best practice discussions, help identify implementation issues, and connect with other Virto Commerce experts and support teams</p>\n",
@@ -80,16 +68,15 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null,
         "titleStyle": null
     },
     {
-        "id": 5,
+        "id": 4,
         "type": "list-with-images",
         "name": null,
         "title": "Training",
-        "intro": "<h3 style=\"text-align:center\">Virto Commerce offers a variety of training options to our partners - please&nbsp;<a href=\"http://vc-public-test.azurewebsites.net/training\">view our upcoming training schedule. </a></h3>\n",
+        "intro": "<h3 style=\"text-align:center\">Virto Commerce offers a variety of training options to our partners - please&nbsp;<a href=\"/training\">view our upcoming training schedule. </a></h3>\n",
         "style": null,
         "colStyle": "col-md-6 col-lg-4",
         "items": [
@@ -122,12 +109,11 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null,
         "titleStyle": null
     },
     {
-        "id": 6,
+        "id": 5,
         "type": "list-with-images",
         "name": null,
         "title": "Virto Commerce Professional Certification",
@@ -137,14 +123,14 @@
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/architect.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/architect.png"
                 },
                 "title": "Architect Certification",
                 "text": "<p>Complimentary to the Training Program&nbsp;</p>\n\n<p>Only for those who have completed implementation&nbsp;</p>\n\n<p>Requires Pre-Certification material to be shared&nbsp;</p>\n\n<p>Expires in 12 months&nbsp;</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/developer.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/developer.png"
                 },
                 "title": "Developer Certification",
                 "text": "<p>Complimentary to the Training Program&nbsp;</p>\n\n<p>Only for those who have completed implementation&nbsp;</p>\n\n<p>Requires Pre-Certification material to be shared&nbsp;</p>\n\n<p>Expires in 12 months&nbsp;</p>\n"
@@ -155,7 +141,7 @@
         "noPad": null
     },
     {
-        "id": 7,
+        "id": 6,
         "type": "text",
         "name": null,
         "title": "Become a Virto Commerce Expert",
@@ -163,12 +149,14 @@
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Contact us today to learn more about the training &amp; services we offer our partners</p>\n",
         "url": {
-            "url": "https://virtocommerce.com/become-partner",
+            "url": "/find-implementation-partner",
             "urlText": "Get in Touch",
             "style": "btn btn--orange btn--round"
         },
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerStyle": null,
+        "titleAlignment": null
     }
 ]

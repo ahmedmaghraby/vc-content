@@ -11,7 +11,7 @@
         <div class="col-md">
             <div class="apps__detail-info row">
                 <div class="apps__detail-general col-lg">
-                    <div class="apps__detail-t">{{ product.selected_or_first_available_variant.title }}</div>
+                    <h1 class="apps__detail-t">{{ product.selected_or_first_available_variant.title }}</h1>
                     <a class="apps__detail-link apps__detail-link--review" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a>
                     {% if product.metafields.properties.Description.size > 0 %}
                         <div class="apps__detail-descr">{{ product.metafields.properties.Description }}</div>
@@ -28,20 +28,20 @@
                 <div class="apps__detail-other col-lg-auto">
                     <div class="apps__detail-author">
                         <img src="{{ product.vendor.logo_url }}" alt="">
-                        <a class="apps__detail-link" href="{{ '~/' | append: product.vendor.handle | absolute_url }}">{{ product.vendor.name }}</a>
+                        <a class="apps__detail-link" rel="nofollow" href="{{ '~/' | append: product.vendor.handle | absolute_url }}">{{ product.vendor.name }}</a>
                         <a class="apps__detail-link apps__detail-link--gray" style="cursor:pointer;" ng-click="showContactVendorForm()">{{ 'apps.product.contact_developer' | t }}</a>
                     </div>
                     <div class="apps__detail-socials">
                         <h2>Share</h2>
                         <ul class="nav nav--socials">
                             <li class="nav__item">
-                                <a href="http://www.twitter.com/share?url={{ product.url | full_url }}" class="nav__link nav__link--tw" target="_blank"></a>
+                                <a rel="nofollow" href="http://www.twitter.com/share?url={{ product.url | full_url }}" class="nav__link nav__link--tw" target="_blank"></a>
                             </li>
                             <li class="nav__item">
-                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ product.url | full_url }}" class="nav__link nav__link--fb" target="_blank"></a>
+                                <a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u={{ product.url | full_url }}" class="nav__link nav__link--fb" target="_blank"></a>
                             </li>
                             <li class="nav__item">
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ product.url | full_url }}&amp;title={{ product.name }}&amp;source={{ '/' | full_url }}" class="nav__link nav__link--in" target="_blank"></a>
+                                <a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ product.url | full_url }}&amp;title={{ product.name }}&amp;source={{ '/' | full_url }}" class="nav__link nav__link--in" target="_blank"></a>
                             </li>
                         </ul>
                     </div>

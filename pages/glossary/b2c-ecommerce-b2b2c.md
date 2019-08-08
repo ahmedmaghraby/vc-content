@@ -25,16 +25,16 @@ tags :
         <div itemprop="mainEntityOfPage" class="head __cart">
             <h1 itemprop="headline" class="title">B2B2C eCommerce</h1>
         </div>
-        <div class="col-w">
-            <div class="col __col-70">
+        <div class="row">
+            <div class="col-md">
                 <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
                     <img itemprop="url contentUrl" alt="B2B2C e commerce" src="assets/images/b2b2c.jpg" />
                     <meta itemprop="width" content="500">
                     <meta itemprop="height" content="380">
                 </span>
             </div>
-            <div class="col __col-30">
-                <div class="block" style="margin-left: 25px">
+            <div class="col-md-5">
+                <div class="block">
                     <h3>Top 5 B2B challenges and solutions</h3>
                     <p class="text">
                         B2B2C ecommerce has specific business model and process challenges which require customized solutions or special software platform. In this whitepaper we'll provide top 5 challenges that B2B2C ecommerce websites face and their best solutions.
@@ -54,9 +54,9 @@ tags :
         </div>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.3, ratingCount: 875 %}
-        <div class="buttons">
-            <a class="button fill" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

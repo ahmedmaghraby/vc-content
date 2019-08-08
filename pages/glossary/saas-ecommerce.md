@@ -55,83 +55,83 @@ tags :
         </p>
         <div class="section-title">SAAS ecommerce examples</div>
         <div class="section-title-h4">Shopify</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Shopify" src="assets/images/screen-shopify.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 One of the most reliable SaaS platforms on the Internet due to the sheer amount of Internet vendors that are using it. If you are searching for a perfect balance of managing your own store, and not investing lots of time into learning how to code, <a href="{{ '/glossary/shopify-alternatives' | absolute_url }}">Shopify</a> may be a great solution for you. The online store builder that Shopify provides you with is an excellent tool to create almost any desired appearance for your storefront. A lot of theme templates are available for free along with the add ons and plugins that allow you to customize and boast the performance of your website even more. Join the community of more than 15,000 Internet merchants and you can start exploring Shopify’s benefits even sooner.
             </div>
         </div>
         <div class="section-title-h4">Magento Go</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 Even though Magento Go is a relatively new SaaS ecommerce platform, it holds to its accountability as the affiliate of the single most popular ecommerce platform. All of the <a href="{{ '/glossary/magento-alternatives' | absolute_url }}">Magento</a> editions serve the tremendous amount of 110,000 online vendors and multi-channel retailers. Owned by eBay, Magento tried to fill in the market of novice ecommerce business owners and maintain its leadership in the field. Thus, Magento Go was created to aid the businesses new to ecommerce by providing a quick yet reliable help with setting up and running an ecommerce store. Besides that, this particular solution is just as scalable and customizable as other Magento editions, offering lots of available extensions to its customers.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Magento Go" src="assets/images/magento-1.jpg" />
             </div>
         </div>
         <div class="section-title-h4">Volusion</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Volusion" src="assets/images/volusion.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 A great SaaS platform that puts its focus on the presentation of the product in your web store and on providing your customers with the best possible customer experience. With <a href="https://www.volusion.com/" rel="nofollow">Volusion</a>, you can implement such great features as product image zooming, and product comparison into your website. Besides that, be ready to enjoy Volusion’s crisp and perfectly designed template themes as well as the absence of credit card transaction fees. Along with that, you will be able to be satisfied with the tremendous effort company puts into providing its best customer support and into adding tons of self-help resources and how-tos that can guide you in the process of creating your store.
             </div>
         </div>
         <div class="section-title-h4">Demandware</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 An enterprise-level SaaS <a href="https://www.demandware.com/" rel="nofollow">platform</a> that is aimed towards an already established retailers. It is a very powerful, yet easy to use solution that allows large companies to not bother with building an in-house website. Enjoy the easy configuration of admin panels and the variety of integrated out of the box features that enhance conversion rates. Feel free to customize it specifically to the needs of the business and employ your marketing team to adjust SEO and enable product content marketing. The plans start around $60,000 per year.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Demandware" src="assets/images/demandware.jpg" />
             </div>
         </div>
         <div class="section-title-h4">Venda</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Venda" src="assets/images/venda.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 Another powerful enterprise level <a href="http://www.venda.com/" rel="nofollow">solution</a> that aims to provide a high-end service to large online retailers. It is a cloud SaaS platform that offers a wide variety of robust features and capabilities along with a common flexible cloud infrastructure. Upgrade an already existing store smoothly with high attention that the company puts into providing the best customer experience for everyone. Attractive pricing along with flexible cloud infrastructure make it an appealing solution for any large business.
             </div>
         </div>
         <div class="section-title-h4">NetSuite </div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 A full-fledged SaaS <a href="http://www.netsuite.com/portal/home.shtml" rel="nofollow">platform</a> with ERP and CRM tools that is a great fit for mid sized vendors who want to improve conversion and growth of their web store. With useful website tools that help you monitor a lifetime value of each customer, or website’s traffic, or customer interaction, it is a versatile solution that can be easily scaled, while at the same time, offers competitive pricing.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - NetSuite" src="assets/images/netsuite.jpg" />
             </div>
         </div>
         <div class="section-title-h4">Big Cartel</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Big Cartel" src="assets/images/bigcartel.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 A SaaS <a href="https://www.bigcartel.com/" rel="nofollow">platform</a> that sits in the niche of musicians, and artists, now serving more than 1,000,000 of stores. It offers a basic solution that can help you build a complete website, promote, and finally sell your artistic achievements, ranging from paintings to clothing. If you are looking for a simple bare bone solution that helps you set up a high-performance website quickly, look no further than that.
             </div>
         </div>
         <div class="section-title-h4">Goodsie</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 If you are a beginning entrepreneur with no previous experience in building websites, this would be a great solution for you. However, be ready that with the simplicity of using comes the basic website. Unless you do not expect the same features as you would from the ecommerce giants like Shopify and BigCommerce, you will be fine using just this simple SaaS <a href="http://goodsie.com/" rel="nofollow">solution</a>.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - Goodsie" src="assets/images/goodsie.jpg" />
             </div>
         </div>
         <div class="section-title-h4">BigCommerce</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="SAAS ecommerce examples - BigCommerce" src="assets/images/big-commerce-screen.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 A big player in the SaaS ecommerce field and the one that has proven its reliability over a big period of time. This particular platform is unique for its knowledge base and a wide variety of hot-to videos that will guide you in those vast ecommerce labyrinths. Besides that, you can enjoy having 24/7 customer support base that can accommodate any of the question you might have about the platform. Also, just like other big SaaS solution, <a href="https://www.bigcommerce.com/" rel="nofollow">BigCommerce</a> offers a wide range of applications and plug ins for you to use that will help you customize your website. Therefore, if you are absolutely new to the field of ecommerce and not good at using cutting edge technology, but you still want to have the level of customizability an open source solution would offer to you, you might want to consider BigCommerce as your go to solution for building your online store.
             </div>
         </div>
@@ -145,9 +145,9 @@ tags :
         </p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 889 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

@@ -14,14 +14,16 @@
         "title": "B2B Ecommerce  Content Management <br/ > System (CMS) Features ",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/lavi-perchik-fSqYwKWzwhk-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/lavi-perchik-fSqYwKWzwhk-unsplash.jpg"
         },
         "content": "<p>Grow revenue, improve your customer&#39;s experiences, and build loyalty&nbsp;with promotion features built especially for B2B companies.&nbsp;</p>\n",
         "url1": null,
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
@@ -35,7 +37,6 @@
         "noTop": null,
         "noBottom": true,
         "noPad": null,
-        
         "titleAlignment": null
     },
     {
@@ -68,11 +69,11 @@
             {
                 "title": "Pricing Tools",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/pricing.png"
                 },
                 "text": "<p>Explore our B2B pricing features specially designed for complex B2B pricing scenarios.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-pricing-tools",
+                    "url": "/b2b-ecommerce-pricing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -80,11 +81,11 @@
             {
                 "title": "Marketing & Promotions",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Promotion and Marketing.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Promotion and Marketing.png"
                 },
                 "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-marketing-tools",
+                    "url": "/b2b-ecommerce-marketing-tools",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -92,11 +93,11 @@
             {
                 "title": "Order Management",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Order management (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Order management (1).png"
                 },
                 "text": "<p>Virto Commerce provides order management tools to handle even the most complicated B2B fulfillment requirements.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/b2b-ecommerce-order-management",
+                    "url": "/b2b-ecommerce-order-management",
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round"
                 }
@@ -105,7 +106,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null
     },
     {
@@ -113,7 +113,6 @@
         "type": "text",
         "name": "CTA",
         "title": "Learn More About Virto Commerce CMS and Marketing Tools - Designed For Enterprise Ecommerce",
-        
         "style": "light",
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Get a demo of our .NET B2B ecommerce platform today, and explore all the features that we offer.&nbsp;</p>\n",

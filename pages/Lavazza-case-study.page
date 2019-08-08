@@ -12,25 +12,24 @@
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Lavazza Success Story",
-        
         "titleAlignment": null,
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/lavazza.png"
         },
         "content": "",
         "url1": null,
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -55,7 +54,7 @@
         "style": "light",
         "size": "middle",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/lavazza.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/lavazza.png"
         },
         "noTop": true,
         "noBottom": true,
@@ -66,7 +65,6 @@
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
@@ -93,7 +91,7 @@
         "noPad": true,
         "title": "Download Full Case Study",
         "buttonText": "Download Now",
-        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"http://vc-public-test.azurewebsites.net/terms\">Terms</a> and <a href=\"http://vc-public-test.azurewebsites.net/privacy\">Privacy</a>.</p>\n",
-        "downloadUrl": "https://vc4test.blob.core.windows.net/blogs/lavazza-case-study.pdf"
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/lavazza-case-study.pdf"
     }
 ]

@@ -29,16 +29,14 @@ tags :
                 <div style="text-align:center">
                     <img src="/assets/images/api-based-digital-commerce-systems.jpg" title="API-Based Digital Commerce" height="485" />
                 </div>
-                <div class="text">
-                    <h1>Understanding the Different Aspects of API-Based Digital Commerce Systems!</h1>
-                </div>
+                <h2>Understanding the Different Aspects of API-Based Digital Commerce Systems!</h2>
                 <div class="text">
                     Do you know that we are living in an API-centric world? They are almost everywhere, and you might not even realize it. Are you looking for evidence? Well, Gartner considers API-based digital management tools as a critical architectural approach to integrate and connect with anything that has a digital pulse. Forrester also estimates that almost 40% of US-based companies will implement solutions meant at handling the increasing demand for APIs in their organizations.
                 </div>
                 <div class="text">
                     However, for some, the world of API-based digital commerce systems is somewhat ‘wild west.’ They feel that it’s a massive expansion with little rules and enforcement guidelines. So, to help you understand APIs, here are the vital details you need to know about them!
                 </div>
-                <div class="text">
+                <div>
                     <strong>How API-Based Digital Commerce Systems Work?</strong>
                 </div>
                 <div class="text">
@@ -50,16 +48,18 @@ tags :
                 <div class="text">
                     You can even use an application like Expedia to book a flight to see a client, or posting a picture on Instagram to advertise your products. What’s clear is that using an API, you can facilitate the safe sharing of information from one app to another. Hence, that’s why there are a lot of API-Based digital commerce systems from social messaging, payments, finance, Bitcoin, e-commerce and several other categories.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Types of API-Based Digital Commerce Systems</strong>
                 </div>
-                <ul class="text" style="margin-left: 30px">
+                <div>
+                    <strong>Product Information APIs</strong>
+                </div>
+                <ul class="text">
                     <li>
                         <div class="text">
-                            <strong>Product Information APIs</strong>
+                            Using this API system, you can easily connect your product webpage catalogs directly using a global database. It will assist you in sharing detailed information on the products on sale. You can even use it to display things like:
                         </div>
-                        Using this API system, you can easily connect your product webpage catalogs directly using a global database. It will assist you in sharing detailed information on the products on sale. You can even use it to display things like:
-                        <ul style="margin-left: 60px">
+                        <ul style="margin-left: 30px">
                             <li>Product descriptions</li>
                             <li>Brand images</li>
                             <li>Full product titles</li>
@@ -68,10 +68,12 @@ tags :
                             Using this technique, you can auto-populate any product content catalog on your retail website thanks to this API-Based digital commerce tool. However, remember that how easy it will integrate with your business depends on your company’s e-commerce platform.
                         </div>
                     </li>
+                </ul>
+                <div>
+                    <strong>Social Proof Application Programming Interfaces (APIs)</strong>
+                </div>
+                <ul class="text">
                     <li>
-                        <div class="text">
-                            <strong>Social Proof Application Programming Interfaces (APIs)</strong>
-                        </div>
                         <div class="text">
                             Some of the primary examples of Social Proof API-Based digital commerce system include sites like Facebook, Twitter, and Instagram. But, how are they being used? Well, companies are advertising their services by sharing the number of Twitter comments, Facebook likes as well as product reviews.
                         </div>
@@ -82,10 +84,12 @@ tags :
                             They can also use this API-Based digital commerce system to stream messages from social media directly to the product pages on their website. For instance, thanks to the Twitter API, there are widgets which they can now use to show all recent comments on products from their customers.
                         </div>
                     </li>
+                </ul>
+                <div>
+                    <strong>The Site Search API-Based Digital Commerce Tool</strong>
+                </div>
+                <ul class="text">
                     <li>
-                        <div class="text">
-                            <strong>The Site Search API-Based Digital Commerce Tool</strong>
-                        </div>
                         <div class="text">
                             It’s true that when you provide detailed search features on your website, you heighten your customer’s shopping experience. With this API digital commerce system, you can help your online visitors to scroll through and discover unique items or brands with only a few clicks.
                         </div>
@@ -93,10 +97,12 @@ tags :
                             Of course, there are retail shops with extensive web pages. Thankfully, this search API tool is there to ensure that you give your visitors a simple and less annoying time as they search for a given product or content that might be buried under tons of web pages. All they have to do is to key in their product of choice, and the program will do the rest.
                         </div>
                     </li>
+                </ul>
+                <div>
+                    <strong>Programs for Shipping Goods</strong>
+                </div>
+                <ul class="text">
                     <li>
-                        <div class="text">
-                            <strong>Programs for Shipping Goods</strong>
-                        </div>
                         <div class="text">
                             To create a trustworthy shopping and business environment, online retailers can integrate their drop shipments with delivery APIs. Here, they can automate different processes from the point of sale, right until the point when the parcel is delivered at the customer’s doorstep.
                         </div>
@@ -105,7 +111,7 @@ tags :
                         </div>
                     </li>
                 </ul>
-                <div class="text">
+                <div>
                     <strong>Conclusion</strong>
                 </div>
                 <div class="text">

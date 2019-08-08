@@ -12,11 +12,11 @@
         "type": "decorated-hero",
         "name": "Text over image",
         "title": "Enterprise Ecommerce Architecture",
-        
         "content": "<p>Architecture matters for ecommerce platforms. The architecture dictates what is achievable within the platform in terms of business, how much time it will take, and how much money it will cost. The wrong architecture leads to long painful projects and missed business opportunities.</p>\n",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
@@ -24,7 +24,6 @@
         "name": "Text over image",
         "title": "The Wrong Technologies Block a Company's Ecommerce",
         "style": "light",
-        
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "list": [
@@ -182,7 +181,7 @@
         "text": "Download our Architectural Guidelines",
         "style": "light",
         "url": {
-            "url": "http://vc-public-test.azurewebsites.net/download-arch-guidelines",
+            "url": "/download-arch-guidelines",
             "style": "btn btn--orange btn--round",
             "urlText": "Download Now"
         },

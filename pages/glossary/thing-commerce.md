@@ -34,13 +34,13 @@ tags :
                 <div class="text">
                     From our Jawbones to our smartphones, the increased levels of connections in the world are changing industries at an alarming rate. For many brands interested in taking full advantage of thing commerce, the main has been finding ways of connecting their devices to the internet. In doing so, they expose their business to these promising e-commerce opportunities.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Better Logistics Brings About Efficient and Quick Order Fulfilments for the Digital Consumer of Today!</strong>
                 </div>
                 <div class="text">
                     Thing commerce creates an improved visibility fulfillment process that enables retailers to meet the demands of their online customers. It further allows companies to track all orders from the moment they are placed until the time it arrives in the ‘hands’ of the consumer. Each part of the inventory is monitored using a robust management system that automatically locates all goods from whichever location!
                 </div>
-                <div class="text">
+                <div>
                     <strong>Thing Commerce is Simplifying Certain Automation Processes</strong>
                 </div>
                 <div class="text">
@@ -49,7 +49,7 @@ tags :
                 <div class="text">
                     Thing commerce can also enable the accurate measuring of the durable product itself. For instance, GE and Whirlpool Appliances have integrated the Amazon Dash Replenishment service into their business to allow the automatic reordering or supplies based on their consumption.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Helps Manufacturers of Durable Goods to Establish Long-Term Relationships With Their End-Consumer</strong>
                 </div>
                 <div class="text">
@@ -58,7 +58,7 @@ tags :
                 <div class="text">
                     Apart from just creating a long-term relationship with consumers, thing commerce could also help businesses in creating fresh business models for their loyal customers. For instance, they could adopt service-based business models by offering things such as:
                 </div>
-                <ul class="text" style="margin-left: 60px">
+                <ul class="text" style="margin-left: 30px">
                     <li>
                         <span>Performance analytics</span>
                     </li>
@@ -69,7 +69,7 @@ tags :
                         <span>Predictive maintenance</span>
                     </li>
                 </ul>
-                <div class="text">
+                <div>
                     <strong>They Can Access More Data to Help in Influencing Their Consumer’s Decisions</strong>
                 </div>
                 <div class="text">
@@ -78,7 +78,7 @@ tags :
                 <div class="text">
                     Now, their greatest challenge will be finding ways of navigating through the large volume of brand new data. However, if done correctly, this massive chunk of data will eventually allow them to effectively tailor their services and products to the benefit of their large number of consumers.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Conclusion</strong>
                 </div>
                 <div class="text" style="margin-bottom:25px">

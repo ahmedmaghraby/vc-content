@@ -3,7 +3,7 @@
         "header": "Free Enterprise Level Ecommerce Platform for Startups",
         "type": "settings",
         "title": "Free Enterprise Level Ecommerce Platform for Startups",
-        "permalink": "startup-ecommerce-platform",
+        "permalink": "startup-ecommerce-platform-old",
         "id": 1,
         "description": "Free Fully Featured Ecommerce Platform - Built for Enterprise, Free for Startups!"
     },
@@ -13,7 +13,7 @@
         "name": null,
         "title": "AFFORDABLE AND POWERFUL  ECOMMERCE FOR STARTUPS",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/ecommerce-bg.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/ecommerce-bg.png"
         },
         "content": "<p>Power your business with a fully featured&nbsp;<br />\nenterprise level digital commerce platform</p>\n",
         "url1": {
@@ -33,7 +33,6 @@
         "decorator": null,
         "content": "<h3>All startups have a choice - should you use an existing ecommerce solution or design and develop one on your own? It often seems that using an in house solution will be better for your MVP,&nbsp; but that using out-of-the-box solutions will bring you to market faster.&nbsp;&nbsp;</h3>\n",
         "url": null,
-        
         "noTop": true,
         "noBottom": true,
         "noPad": null
@@ -43,7 +42,6 @@
         "type": "text",
         "name": "situation",
         "title": "Startups Face Many Challenges",
-        
         "style": "light",
         "decorator": "none",
         "content": "<ul>\n\t<li>Out of the Box ecommerce solutions are readily available, but they won&#39;t meet your requirements in delivering a complicated business model</li>\n\t<li>Startups with innovative business models don&#39;t always fit traditional licensing models</li>\n\t<li>It&#39;s hard to find qualified ecommerce experts with deep experience who can get you to market quickly</li>\n</ul>\n",
@@ -61,7 +59,6 @@
         "type": "text",
         "name": "urgency",
         "title": "Don't Waste Time.  Begin Your Ecommerce Journey Today. ",
-        
         "style": "dark",
         "decorator": "none",
         "content": "<ul>\n\t<li>If you take what looks to be the easy path - selecting an out-of-the-box (and inflexible) platform, you will need to re-build your ecommerce solution every time your business changes.&nbsp; Starting a business is unpredictable - you don&#39;t know what lies ahead.&nbsp; Picking a flexible solution now that can grow with you ensures that your team can focus on business evolution, not finding a new ecommerce solution.&nbsp;</li>\n\t<li>Some startups consider building their own solutions.&nbsp; Building an ecommerce platform requires a technology company within your business.&nbsp; This creates additional risks of being dependant on your internal technical specialists.&nbsp;&nbsp;</li>\n</ul>\n",
@@ -79,28 +76,27 @@
         "type": "list-with-images",
         "name": "solution",
         "title": "Get to Market Fast.  Choose the Most Flexible Platform Available To Power Your Ecommerce For the Long Term. ",
-        
         "intro": "<p style=\"text-align:center\">Virto Commerce&#39;s platform is designed to be flexible, enabling quick delivery of any functions you need, regardless of their complexity.&nbsp; Explore the benefits of a solution built on Virto Commerce.&nbsp;</p>\n",
         "style": "light",
         "colStyle": "col-md-6 col-lg-4",
         "items": [
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/WRTU1xFM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/WRTU1xFM.png"
                 },
                 "title": "Modular Architecture",
                 "text": "<p>With a customizable and extensible platform, the Virto Commerce platform is designed to be adoptive and flexible.&nbsp; We don&#39;t aim to deliver out-of-the-box features, because we know the only constant in ecommerce is change.&nbsp; We are focused on&nbsp;<strong>architectural excellence</strong>&nbsp;and doing the core critical things right, delivering functional enablers which allow you to build custom functionality with a minimum investment and risks.&nbsp;</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_5.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_5.png"
                 },
                 "title": "Flexible License Model",
                 "text": "<p>Based on our experience with startups, we understand the license related challenges startups face.&nbsp; Market disruptors ourselves, we respect and facilitate disruptive companies.&nbsp; That is why we developed specific licensing models to fit companies who aim to bring new business models to the ecommerce market.&nbsp;&nbsp;</p>\n"
             },
             {
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/icon_2.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_2.png"
                 },
                 "title": "Expert Partners",
                 "text": "<p>Our partners, together with Virto Commerce, help startups get past their lack of experience.&nbsp; We help our clients select the right implementation partners.&nbsp; We know the quality of our partners is critical for our customers, so we only work with a group of hand selected partners who have been through our on-boarding process.&nbsp; All of our partners have completed multiple successful implementations of Virto Commerce.&nbsp;&nbsp;</p>\n"
@@ -115,7 +111,6 @@
         "type": "text",
         "name": "cta",
         "title": "Get Started Today",
-        
         "style": "light",
         "decorator": "section--pattern",
         "content": "<p style=\"text-align: center;\">Speak with our ecommerce experts today to learn how Virto Commerce can give your business an edge over your competitors.&nbsp;</p>\n",

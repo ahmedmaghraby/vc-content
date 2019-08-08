@@ -4,7 +4,7 @@ category: release
 date: 2016-03-01 08:30
 excerpt: The main focus of this release was Storefront API redesign and Mobile Starter kit.
 permalink: blog/virtocommerce-2-8-release-notes
-tags: [20, announcements, ecommerce, enterprise-ecommerce, features, open-source, platform, release-notes ]
+tags: [v20, announcements, ecommerce, enterprise-ecommerce, features, open-source, platform, release-notes ]
 title: "VirtoCommerce 2.8 Release Notes"
 ---
 The main focus of this release was Storefront API redesign and Mobile Starter kit.

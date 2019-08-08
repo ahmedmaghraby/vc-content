@@ -1,6 +1,6 @@
 ---
 title: Creating new store from empty database - Virto Commerce 1.13 User Guide
-description: Creating new store from empty database
+description: Virto Commerce User Guide - How to Get Started
 layout: docs
 date: 2015-03-18T20:11:12.560Z
 priority: 1

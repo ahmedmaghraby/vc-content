@@ -122,7 +122,7 @@ Now you need to generate thumbnails for new images.
 
 ## Open new products in Virto Commerce Storefront (*frontend*)
 
-* Open Virto Commerce Storefront locally (see how to deploy and open it in <a href="https://github.com/VirtoCommerce/vc-content/tree/lesson2/Pages/docs/lessons/lesson1.md" target="_blank">Lesson 1</a>).
+* Open Virto Commerce Storefront locally (see how to deploy and open it in <a href="https://github.com/VirtoCommerce/vc-content/tree/deploy/pages/docs/lessons/lesson1.md" target="_blank">Lesson 1</a>).
 * Now you can see new menu item **Laptops**, new subitem **Asus Laptops** and all new products in Virto Commerce Storefront.
 
 ![Laptops on storefront](../../assets/images/docs/laptops-on-storefront.png "Laptops on storefront")

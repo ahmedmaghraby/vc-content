@@ -22,14 +22,15 @@
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
-        
         "style": "light",
         "decorator": "none",
         "content": "<h3>B2B ecommerce involves complex pricing models &ndash; from contract-based pricing to tiered pricing and discounts. Virto Commerce offers the most flexible and scalable digital commerce solution available that enables you to build the pricing functionality you need. Additionally, we offer robust out-of-the-box pricing functionality to get you started.</h3>\n",
@@ -47,8 +48,7 @@
         "type": "list-with-images",
         "name": "List with images",
         "title": "Pricing Tools Designed for B2B Ecommerce",
-        
-        "intro": "<h3 style=\"text-align: center;\">Customize pricing strategies for different customers with Virto Commerce</h3>\n",
+        "intro": "<h3 style=\"text-align:center\">Customize pricing strategies for different customers with Virto Commerce</h3>\n",
         "style": "light",
         "colStyle": "col-lg-6",
         "items": [
@@ -57,40 +57,50 @@
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon_1.png"
                 },
                 "title": "Discounting & Scheduled Price Changes",
-                "text": "<p>There are a variety of different discounts that can be applied, and you can specify a discount for each product on your price list.</p>\n\n<p>Prices can be changed based on a pre-determined schedule</p>\n"
+                "text": "<p>There are a variety of different discounts that can be applied, and you can specify a discount for each product on your price list.</p>\n\n<p>Prices can be changed based on a pre-determined schedule</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon_3.png"
                 },
                 "title": "Tiered Pricing",
-                "text": "<p>Prices can be determined depending on product quantity purchased.</p>\n"
+                "text": "<p>Prices can be determined depending on product quantity purchased.</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/icon_5.png"
                 },
                 "title": "Multiple Price Lists & Custom Pricing",
-                "text": "<p>Include the same product in multiple price lists. Additionally, each catalog you manage can have its own price list.</p>\n\n<p>&nbsp;Specify rules and conditions to give a pre-set price to a specific group of customers- even to individual customers.</p>\n"
+                "text": "<p>Include the same product in multiple price lists. Additionally, each catalog you manage can have its own price list.</p>\n\n<p>&nbsp;Specify rules and conditions to give a pre-set price to a specific group of customers- even to individual customers.</p>\n",
+                "iconStyle": null,
+                "url": null
             },
             {
                 "image": {
                     "url": "https://vc4test.blob.core.windows.net/blogs/pricing.png"
                 },
                 "title": "Custom Currencies",
-                "text": "<p>Prices can be defined in custom currencies (bitcoin or loyalty points, for example).</p>\n"
+                "text": "<p>Prices can be defined in custom currencies (bitcoin or loyalty points, for example).</p>\n",
+                "iconStyle": null,
+                "url": null
             }
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null,
+        "titleAlignment": null,
+        "titleStyle": null
     },
     {
         "id": 5,
         "type": "text",
         "name": "contact us",
         "title": "Learn More About Virto Commerce Today",
-        
         "style": "dark",
         "decorator": "section--pattern",
         "content": "<p>Get a demo of our enterprise level ecommerce platform, and explore all the ready to go features and functionalities available.&nbsp;</p>\n",
@@ -108,7 +118,6 @@
         "type": "cards",
         "name": "Text",
         "title": "Explore More Features Readily Available to Get You To Market Faster. ",
-        
         "style": "light",
         "items": [
             {
@@ -120,7 +129,7 @@
                 "link": {
                     "urlText": "Learn More",
                     "style": "btn--orange btn--round",
-                    "url": "https://virtocommerce.com/features/b2b-ecommerce-order-management"
+                    "url": "https://virtocommerce.com/b2b-ecommerce-order-management"
                 }
             },
             {
@@ -150,6 +159,8 @@
         ],
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null,
+        "titleAlignment": null
     }
 ]

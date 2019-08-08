@@ -13,7 +13,7 @@
         "title": "Thanks For Your Inquiry. We'll Be In Touch Shortly.",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/robert-horvick-1R4uPYipCFM-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/robert-horvick-1R4uPYipCFM-unsplash.jpg"
         },
         "content": "",
         "url1": null,
@@ -50,35 +50,35 @@
             {
                 "title": "Lavazza Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
                 },
                 "text": "<p>When Lavazza needed a complex B2B and B2C solution, Virto Commerce and our partner, rb2 created a unique solution.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read More",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
+                    "url": "/case-studies/lavazza"
                 }
             },
             {
                 "title": "Bosch Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
                 },
                 "text": "<p>When Bosch needed a custom customer loyalty portal, they came to Virto for their solution.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
+                    "url": "/case-studies/bosch"
                 }
             },
             {
                 "title": "Estate Spain Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/estatespain.png"
                 },
                 "text": "<p>Estate-Spain.com&nbsp;found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain",
+                    "url": "/case-studies/estatespain",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -87,7 +87,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null
     }
 ]

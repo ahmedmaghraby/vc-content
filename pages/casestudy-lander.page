@@ -14,14 +14,16 @@
         "title": "Virto Commerce Success Stories",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/kaleidico-26MJGnCM0Wc-unsplash (1).jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/kaleidico-26MJGnCM0Wc-unsplash (1).jpg"
         },
         "content": "",
         "url1": null,
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
@@ -33,47 +35,47 @@
             {
                 "title": "Bosch ",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
                 },
                 "text": "<p>When Bosch needed a custom designed customer loyalty platform, they came to Virto Commerce.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
+                    "url": "/case-studies/bosch"
                 }
             },
             {
                 "title": "Lavazza ",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
                 },
                 "text": "<p>Created new, Unified ecommerce platform for B2B &amp; B2C and gained insights into customer behavior.</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
+                    "url": "/case-studies/lavazza"
                 }
             },
             {
                 "title": "Estate Spain",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/estatespain.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/estatespain.png"
                 },
                 "text": "<p>Estate-Spain.com&nbsp;found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/estatespain"
+                    "url": "/case-studies/estatespain"
                 }
             },
             {
                 "title": "Proffsmagasinet",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/proffsmagasinet.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/proffsmagasinet.png"
                 },
                 "text": "<p>Virto Commerce helped one of Sweden&#39;s top manufacturers expand internationally.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/proffsmagasinet",
+                    "url": "/case-studies/proffsmagasinet",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -81,11 +83,11 @@
             {
                 "title": "Standaard Boekhandel ",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/standard.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/standard.png"
                 },
                 "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic ecommerce platform, and came to Virto for flexibility and scalability.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
+                    "url": "/case-studies/standaard-boekhandel",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -93,11 +95,11 @@
             {
                 "title": "Eminent IT Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/pic1 (1).png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/pic1 (1).png"
                 },
                 "text": "<p>Eminent used Virto Commerce to build a solution for the US Executive Branch.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/eminent",
+                    "url": "/case-studies/eminent",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -105,11 +107,11 @@
             {
                 "title": "Kupinatao Success Story",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.10.13 PM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.10.13 PM.png"
                 },
                 "text": "<p>Virto Commerce worked with Kupinatao to create a large Russian marketplace similiar to Alibaba, which sells over 800 million items.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/kupinatao",
+                    "url": "/case-studies/kupinatao",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -117,11 +119,11 @@
             {
                 "title": "Giftcertificates.com",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.37.27 PM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.37.27 PM.png"
                 },
                 "text": "<p>Giftcertificates.com used Virto Commerce to make over 300 custom ecommerce portals for its end customers.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/gift",
+                    "url": "/case-studies/gift",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -129,11 +131,11 @@
             {
                 "title": "Ciferica AB",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 10.11.10 PM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 10.11.10 PM.png"
                 },
                 "text": "<p>Virto Commerce, with partner Niteco, created a solution for a startup with a new model to connect consultants, brokerages and their clients.&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/ciferica",
+                    "url": "/case-studies/ciferica",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
@@ -142,7 +144,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
-        "titleAlignment": null
+        "titleAlignment": null,
+        "headerType": null
     }
 ]

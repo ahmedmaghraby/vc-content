@@ -14,7 +14,7 @@
         "title": "Bosch Success Story",
         "subTitle": null,
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
         },
         "content": "<p>Bosch gains customer insights and builds customer loyalty through new ecommerce Solution</p>\n",
         "url1": null,
@@ -22,7 +22,9 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerStyle": "h1"
+        "headerStyle": "h1",
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
@@ -49,7 +51,7 @@
         "title": "",
         "style": "light",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
         },
         "noTop": null,
         "noBottom": null,
@@ -95,7 +97,7 @@
         "style": "light",
         "size": "middle",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/hero.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/hero.png"
         },
         "noTop": null,
         "noBottom": null,

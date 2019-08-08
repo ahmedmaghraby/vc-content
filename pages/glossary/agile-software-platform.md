@@ -26,8 +26,8 @@ tags :
     <p class="text">Agile software development tools facilitate and enhance developer's ability to plan, track and manage the development of the agile cycle. Agile project management software empowers an organization's product development process by enabling effective planning, providing real-time visibility, incorporating early feedback from customers and facilitating easy collaboration among development teams. Today's marketplace offers a number of powerful open source agile project management tools.</p>
     <h2 class="sub-title">Agile Development Platform from Virto Commerce</h2>
         <p class="text">Our <a href="/features/for-business-professionals">Virto Commerce platform</a> is an example of a 100% agile platform – it follows the Agile methodology in its development and has a module-based architecture, where the co-dependency between the modules is minimal. Learn more about our agile development approach <a href="/blog/agile-platform">in the blog post.</a></p> 
-    <div class="buttons">
-        <a class="button fill" href="/try-now">Try Our Platform Now</a>
-        <a class="button fill" href="/blog/agile-platform">Learn more about our agile development approach</a>
+    <div class="actions">
+        <a class="btn btn--orange" href="/try-now">Try Our Platform Now</a>
+        <a class="btn btn--orange" href="/blog/agile-platform">Learn more about our agile development approach</a>
     </div>
 </div>

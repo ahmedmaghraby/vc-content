@@ -5213,7 +5213,7 @@ code {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 2500;
+    z-index: 900;
 }
 
 .overlay {
@@ -6463,8 +6463,8 @@ code {
     margin-top: auto;
 }
 
-input.ng-touched.ng-invalid {
-    border-color: #E32636;
+input.ng-touched.ng-invalid, .input-validation-error {
+    border-color: #E32636 !important;
 }
 
 .glossary {
@@ -7268,8 +7268,8 @@ input.ng-touched.ng-invalid {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex: 1 0 0px;
-    flex: 1 0 0;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 .blog .list--posts .list__t {

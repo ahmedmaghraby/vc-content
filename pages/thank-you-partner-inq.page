@@ -13,7 +13,7 @@
         "title": "Thank You ",
         "subTitle": "",
         "image": {
-            "url": "https://vc4test.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
         },
         "content": "",
         "url1": null,
@@ -51,35 +51,35 @@
             {
                 "title": "Lavazza & rb2 Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
                 },
                 "text": "<p>When Lavazza needed a complex B2B and B2C solution, Virto Commerce and our partner, rb2 created a unique solution.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read more",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/lavazza"
+                    "url": "/case-studies/lavazza"
                 }
             },
             {
                 "title": "Bosch Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/bosch_site.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
                 },
                 "text": "<p>See how Virto Commerce created a custom solution for Bosch&#39;s customer loyalty portal.&nbsp;</p>\n",
                 "link": {
                     "urlText": "Read More",
                     "style": "btn--orange btn--round",
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/bosch"
+                    "url": "/case-studies/bosch"
                 }
             },
             {
                 "title": "Standaard Boekhandel Case Study",
                 "image": {
-                    "url": "https://vc4test.blob.core.windows.net/blogs/standard.png"
+                    "url": "https://vcpro.blob.core.windows.net/blogs/standard.png"
                 },
                 "text": "<p>Belgium&#39;s largest book seller needed a replacement ecommerce platform for their monolithic solution.&nbsp;&nbsp;</p>\n",
                 "link": {
-                    "url": "http://vc-public-test.azurewebsites.net/case-studies/standaard-boekhandel",
+                    "url": "/case-studies/standaard-boekhandel",
                     "urlText": "Read More",
                     "style": "btn--orange btn--round"
                 }
