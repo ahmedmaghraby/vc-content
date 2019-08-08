@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Virto Commerce" />
-    {% if page_description != '' %}
+    {% if page_description != blank %}
     <meta name="description" content="{{ page_description | escape }}" />
     <meta property="og:description" content="{{ page_description | escape }}" />
     {% else %}
@@ -19,11 +19,11 @@
     <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
     <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
     <link rel="publisher" href="//plus.google.com/+Virtocommerce" />
-    {% if page_title != '' %}
+    {% if page_title != blank %}
     <title>{{ page_title }}</title>
     <meta property="og:title" content="{{ page_title }}" />
     {% else %}
-    <title>Enterprise ASP.NET open-source Microsoft e-commerce platform - Virto Commerce</title>
+    <title>Virto Commerce Appstore</title>
     {% endif %}
     {% comment %}
     {{ '//fonts.googleapis.com/css?family=Lato' | stylesheet_tag }}
