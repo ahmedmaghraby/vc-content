@@ -12,7 +12,6 @@
         "type": "text-over-image",
         "name": "Text over image",
         "title": "Ciferica AB Case Study",
-        
         "titleAlignment": null,
         "subTitle": null,
         "image": {
@@ -23,14 +22,14 @@
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1"
     },
     {
         "id": 3,
         "type": "text",
         "name": "Text",
         "title": "From Initial Idea to Full-Fledged Product",
-        
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",

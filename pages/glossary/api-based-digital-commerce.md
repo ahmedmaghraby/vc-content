@@ -29,7 +29,7 @@ tags :
                 <div style="text-align:center">
                     <img src="/assets/images/api-based-digital-commerce-systems.jpg" title="API-Based Digital Commerce" height="485" />
                 </div>
-                <h1>Understanding the Different Aspects of API-Based Digital Commerce Systems!</h1>
+                <h2>Understanding the Different Aspects of API-Based Digital Commerce Systems!</h2>
                 <div class="text">
                     Do you know that we are living in an API-centric world? They are almost everywhere, and you might not even realize it. Are you looking for evidence? Well, Gartner considers API-based digital management tools as a critical architectural approach to integrate and connect with anything that has a digital pulse. Forrester also estimates that almost 40% of US-based companies will implement solutions meant at handling the increasing demand for APIs in their organizations.
                 </div>

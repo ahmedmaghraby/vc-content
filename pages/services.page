@@ -17,7 +17,7 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerType": null
+        "headerType": "h1"
     },
     {
         "id": 3,

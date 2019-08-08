@@ -19,10 +19,11 @@
         "content": "<p>Grow revenue, improve your customer&#39;s experiences and streamline your process with order management features built especially for B2B companies.</p>\n",
         "url1": null,
         "url2": null,
-        
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
     },
     {
         "id": 3,
@@ -98,7 +99,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleStyle": null
     },
     {
@@ -106,7 +106,6 @@
         "type": "text",
         "name": "CTA",
         "title": "Try Virto Commerce's Order Management Tools Today",
-        
         "style": "light",
         "decorator": "section--pattern",
         "content": "<p style=\"text-align:center\">Request a demo today to see all the features and functionality Virto Commerce offers to help you get to market faster.&nbsp;</p>\n",
@@ -167,7 +166,6 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        
         "titleAlignment": null
     }
 ]

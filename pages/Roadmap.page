@@ -28,7 +28,7 @@
         "noBottom": null,
         "noPad": null,
         "titleAlignment": null,
-        "headerType": null
+        "headerType": "h1"
     },
     {
         "id": 3,
