@@ -59,7 +59,7 @@
                         {% for item in block.items %}
                         <div class="features__item col">
                             <div class="features__img">
-                                <img src="{{ item.image.url }}" alt="" class="features__icon">
+                                <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" class="features__icon">
                             </div>
                             <div class="features__descr">{{ item.text }}</div>
                         </div>

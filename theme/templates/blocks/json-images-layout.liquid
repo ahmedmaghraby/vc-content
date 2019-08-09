@@ -7,14 +7,14 @@
     {% if block.layout == "one-two" -%}
     <div style="display: flex; align-items: center">
         <div style="flex: 1;">
-            <img src="{{ image1.url }}" title="{{ image1.title }}" />
+            <img alt="{{ item.image.altText }}" src="{{ image1.url }}" title="{{ image1.title }}" />
         </div>
         <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
             <div style="flex: 1;">
-                <img src="{{ image2.url }}" title="{{ image2.title }}" />
+                <img alt="{{ item.image.altText }}" src="{{ image2.url }}" title="{{ image2.title }}" />
             </div>
             <div style="flex: 1;">
-                <img src="{{ image3.url }}" title="{{ image3.title }}" />
+                <img alt="{{ item.image.altText }}" src="{{ image3.url }}" title="{{ image3.title }}" />
             </div>
         </div>
     </div>
@@ -22,23 +22,23 @@
     <div style="display: flex; align-items: center">
         <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
             <div style="flex: 1;">
-                <img src="{{ image1.url }}" title="{{ image1.title }}" />
+                <img alt="{{ item.image.altText }}" src="{{ image1.url }}" title="{{ image1.title }}" />
             </div>
             <div style="flex: 1;">
-                <img src="{{ image2.url }}" title="{{ image2.title }}" />
+                <img alt="{{ item.image.altText }}" src="{{ image2.url }}" title="{{ image2.title }}" />
             </div>
         </div>
         <div style="flex: 1;">
-            <img src="{{ image3.url }}" title="{{ image3.title }}" />
+            <img alt="{{ item.image.altText }}" src="{{ image3.url }}" title="{{ image3.title }}" />
         </div>
     </div>
     {% elseif block.layout == "one-one" -%}
     <div style="display: flex; align-items: center;">
         <div style="flex: 1;">
-            <img src="{{ image1.url }}" title="{{ image1.title }}" />
+            <img alt="{{ item.image.altText }}" src="{{ image1.url }}" title="{{ image1.title }}" />
         </div>
         <div style="flex: 1;">
-            <img src="{{ image2.url }}" title="{{ image2.title }}" />
+            <img alt="{{ item.image.altText }}" src="{{ image2.url }}" title="{{ image2.title }}" />
         </div>
     </div>
 

@@ -10,7 +10,7 @@
             {% for item in block.items %}
             <div class="list__item {{ block.colStyle }}">
                 {% if item.image and item.image.url %}
-                <img src="{{ item.image.url }}" alt="" class="list__icon {{ item.iconStyle }}">
+                <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" class="list__icon {{ item.iconStyle }}">
                 {% endif %}
                 {% if item.title != blank %}
                 <div class="list__t">{{ item.title }}</div>

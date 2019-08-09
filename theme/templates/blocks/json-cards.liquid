@@ -7,7 +7,7 @@
                 <div class="list__inner">
                     {% if item.image != blank and item.image.url != blank %}
                     <div class="list__img">
-                        <img src="{{ item.image.url }}" alt="" class="list__pic">
+                        <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" class="list__pic">
                     </div>
                     {% endif %}
                     <div class="list__t">{{ item.title }}</div>

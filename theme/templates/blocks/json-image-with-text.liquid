@@ -5,7 +5,7 @@
                 <img src="{{ block.image.url }}"
                      {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
                      {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
-                     alt="" class="section__pic">
+                     alt="{{ item.image.altText }}" class="section__pic">
             </div>
             <div class="col-lg-auto section__info">
                 {% include 'blocks/block-title', block %}

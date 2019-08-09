@@ -14,7 +14,7 @@
                     <img src="{{ column.image.url }}"
                          {% if column.image.width != blank %} width="{{column.image.width}}" {% endif %}
                          {% if column.image.height != blank %} height="{{column.image.height}}" {% endif %}
-                         alt="" class="columns__pic {{ block.imageAlignment }}">
+                         alt="{{ item.image.altText }}" class="columns__pic {{ block.imageAlignment }}">
                     {% endif %}
                     {% if column.title != blank %}
                     <div class="list__t {{ block.titleAlignment }}">{{ column.title }}</div>
