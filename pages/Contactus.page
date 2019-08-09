@@ -41,64 +41,73 @@
                 "label": "Full name",
                 "name": "fullname",
                 "type": "text",
-                "data": null,
-                "fullrow": false
+                "data": "",
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Email",
                 "name": "email",
-                "type": "text",
+                "type": "email",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Phone",
                 "name": "phone",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Company",
                 "name": "company",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Job Title",
                 "name": "jobtitle",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Website",
                 "name": "website",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Region",
                 "name": "region",
                 "type": "select",
                 "data": "Americas ; EMEA ; APAC",
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "How Would You Describe Yourself? ",
                 "name": "Please select from the following",
                 "type": "select",
                 "data": "I am a business or technical user who needs/has an ecommerce platform; I am a developer interested in trying Virto Commerce ; I am creating a solution for a client",
-                "fullrow": true
+                "fullrow": true,
+                "required": null
             },
             {
                 "label": "Please tell us about your project, or use this space for any other comments or questions you have.  ",
                 "name": "comments",
                 "type": "textarea",
                 "data": null,
-                "fullrow": true
+                "fullrow": true,
+                "required": true
             }
         ],
         "outtro": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",

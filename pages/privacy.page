@@ -1,10 +1,11 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "Virto Commerce Website Privacy Policy",
         "permalink": "privacy",
-        "header": "Virto Commerce Website Privacy Policy",
-        "id": 1
+        "header": "",
+        "id": 1,
+        "description": "Virtocommerce.com Privacy Policy"
     },
     {
         "id": 2,

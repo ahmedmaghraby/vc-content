@@ -1,10 +1,11 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "Virto Commerce Website Terms of Use",
         "permalink": "terms",
-        "header": "Virto Commerce Website Terms of Use",
-        "id": 1
+        "header": "",
+        "id": 1,
+        "description": "Virtocommerce.com Terms of Use"
     },
     {
         "id": 2,

@@ -2,9 +2,10 @@
     {
         "header": "",
         "type": "settings",
-        "title": "",
+        "title": "White Labeled Open Source Ecommerce Platform",
         "permalink": "ecommerce-whitelabel",
-        "id": 1
+        "id": 1,
+        "description": "White label Ecommerce Solutions for SaaS and Startups"
     },
     {
         "id": 2,
