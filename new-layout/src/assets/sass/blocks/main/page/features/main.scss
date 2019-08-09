@@ -15,6 +15,12 @@
     {
         max-width: 100%;
     }
+	
+	li
+	{
+		margin-bottom: .25rem;
+		margin-left: 1rem;
+	}
 
     @include media-breakpoint-up(lg) {
         .section__info

@@ -5990,6 +5990,11 @@ code {
     max-width: 100%;
 }
 
+.section--features li {
+    margin-bottom: .25rem;
+    margin-left: 1rem;
+}
+
 @media (min-width: 992px) {
     .section--features .section__info {
         -ms-flex: 0 0 39.375rem;
@@ -6463,8 +6468,8 @@ code {
     margin-top: auto;
 }
 
-input.ng-touched.ng-invalid {
-    border-color: #E32636;
+input.ng-touched.ng-invalid, .input-validation-error {
+    border-color: #E32636 !important;
 }
 
 .glossary {
