@@ -4,6 +4,7 @@ date: '2016-11-07'
 is-trending: true
 layout: blog-layout
 permalink: blog/search-index-improvements
+excerpt: Blog - Virto Commerce ASP.NET B2B Enterprise Ecommerce Platform
 tags:
   - announcements
 title: 'Search index improvements'
