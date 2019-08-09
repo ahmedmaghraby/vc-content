@@ -13,7 +13,6 @@ twittertitle: NopCommerce alternative
 twitterdescription: NopCommerce is a popular open-source solution that offers its users an ability to create a customizable shopping cart and personalized front-end design of the product catalog.
 twitterimage: ../../assets/images/nopcommerce-alternative.jpg
 twittersite: Virtocommerce
-layout: glossary
 tags:
 - NopCommerce platform
 - ecommerce platform
@@ -23,7 +22,7 @@ tags:
     <meta itemprop="author" content="Virtocommerce">
     <meta itemprop="datePublished" content="2017-08-15">
     <meta itemprop="dateModified" content="2018-02-22">
-    <div itemprop="articleBody" class="business-cnt">
+    <div itemprop="articleBody" class="business-cnt container">
         <div itemprop="mainEntityOfPage" class="head __cart">
             <h1 itemprop="headline" class="title">NopCommerce alternative</h1>
         </div>

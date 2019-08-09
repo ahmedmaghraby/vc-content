@@ -46,7 +46,7 @@ tags :
             {% include 'micro-mark-publisher' %}
             {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 1374 %}
             <div class="actions my-4">
-                <a class="btn btn--orange" href="/try-now">Try It Now</a>
+                <a class="btn btn--orange" href="/contact-us">Try It Now</a>
                 <a class="btn btn--orange" href="/contact-us">Request Information & Personal Demo</a>
             </div>
 			<h2>Reasons for product information management solutions growth</h2>
@@ -245,7 +245,7 @@ tags :
                 If you want visibility for your performance and financial data, you would benefit from using Agility. Some of the most prominent features include easy integration with existing ecommerce systems, automation of every step of the process, real-time financial analytics and performance reports, content auditing and content history.
             </p>
             <div class="buttons">
-                <a class="button fill" href="/try-now">Try It Now</a>
+                <a class="button fill" href="/contact-us">Try It Now</a>
                 <a class="button fill" href="/contact-us">Request Information & Personal Demo</a>
             </div>
             <br>
@@ -407,7 +407,7 @@ tags :
                 </section>
             </div>
             <div class="actions my-4">
-				<a class="btn btn--orange" href="/try-now">Try It Now</a>
+				<a class="btn btn--orange" href="/contact-us">Try It Now</a>
 				<a class="btn btn--orange" href="/contact-us">Request Information & Personal Demo</a>
             </div>
         </div>
