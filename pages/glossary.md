@@ -12,7 +12,7 @@ layout: glossary
 	<p class="text">Please <strong>use the navigation bar on the left to view terms in the e-commerce Glossary</strong>.</p>
 	<img alt="Virto Commerce - Glossary" src="assets/images/glossary.jpg" />
 	<div class="buttons">
-		<a class="btn btn--orange" href="/try-now">Try It Now</a>
+		<a class="btn btn--orange" href="/contact-us">Try It Now</a>
 		<a class="btn btn--orange" href="/contact-us">Request Information & Personal Demo</a>
 	</div>
 </div>

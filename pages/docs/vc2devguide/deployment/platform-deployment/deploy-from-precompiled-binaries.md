@@ -8,7 +8,7 @@ title: 'Deploy Platform from precompiled binaries'
 ---
 ## Summary
 
-Use this guide to <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">deploy</a> and configure precompiled Virto Commerce Platform.
+Use this guide to <a class="crosslink" href="https://virtocommerce.com/" target="_blank">deploy</a> and configure precompiled Virto Commerce Platform.
 
 ## Prerequisites
 

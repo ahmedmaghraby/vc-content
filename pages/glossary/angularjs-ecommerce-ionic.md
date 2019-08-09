@@ -25,7 +25,7 @@ tags :
 	<h2 class="sub-title">Ionic ecommerce</h2>
 	<p class="text">Ionic-Ecommerce is a project using the Ionic Framework and AngularJS to make a mobile frontend to an ecommerce store. It can be deployed as a mobile site for an ecommerce store, or built into native iOS and Android apps which will access the products, account, login, logout, cart, and checkout functions of the ecommerce site.</p>
 	<div class="buttons">
-		<a class="button fill" href="/try-now">Try It Now</a>
+		<a class="button fill" href="/contact-us">Try It Now</a>
 		<a class="button fill" href="/contact-us">Request Information & Demo</a>
 	</div>
 </div>

@@ -78,4 +78,4 @@ In addition, she talked about the best use of timed and triggered emails and pro
 
 This was something that definitely speaks to us, as we pride on always incorporating the latest technology trends in our platform, making it convenient and providing the best feature options for the B2B manufacturers.
 
-Overall, our participation in the B2B Online Conference has reassured us that we are on the right track with the development of the [Virto Commerce platform](https://virtocommerce.com/try-now), gave us some great new connections and a few useful tips on which direction to go next on our path of providing the most efficient e-commerce solution for B2B distributors and manufacturers.
+Overall, our participation in the B2B Online Conference has reassured us that we are on the right track with the development of the [Virto Commerce platform](https://virtocommerce.com/contact-us), gave us some great new connections and a few useful tips on which direction to go next on our path of providing the most efficient e-commerce solution for B2B distributors and manufacturers.

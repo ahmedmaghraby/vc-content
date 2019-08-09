@@ -84,7 +84,7 @@ tags:
         <div class="row">
             <div class="col-md-6">
                 <strong>All Services - One Solution</strong>
-                <p class="text">Our <a href="{{ '/our-offers/cloud-ecommerce-platform' | absolute_url }}">cloud ecommerce solutions</a> take care of uptime, maintenance, security and updates which allows you to focus on business.</p>
+                <p class="text">Our <a href="{{ '/enterprise-ecommerce-architecture' | absolute_url }}">cloud ecommerce solutions</a> take care of uptime, maintenance, security and updates which allows you to focus on business.</p>
             </div>
             <div class="col-md-6">
                 <strong>Stable and Secure</strong>
@@ -119,7 +119,7 @@ tags:
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 678 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
-            <a class="btn btn--orange" href="/download-whitepaper">Download Cloud Whitepaper</a>
+            <a class="btn btn--orange" href="/whitepapers">Download Cloud Whitepaper</a>
         </div>
     </div>
     <div>

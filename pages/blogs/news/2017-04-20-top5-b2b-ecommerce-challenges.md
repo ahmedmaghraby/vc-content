@@ -58,7 +58,7 @@ We have pretty much determined that B2B is its own type of sales with processes,
 
 Sounds like a nightmare, doesn’t it? It doesn’t have to, if you have one centralized system in the cloud, which all of your dealerships have an easy access to. Each new vendor simply gets added to one central catalog and each dealership can have its own customized profile with the specific products it sells. A few clicks – done!
 
-[Virto Commerce solution](https://virtocommerce.com/features/for-business-professionals) lets you create and easily manage multi-vendor catalogs, where all the data about all available products or services by every vendor you work with is stored in one place and can be easily accessed, updated and shared with all the parties involved. The platform supports multiple catalogs, storefronts, languages, and tax systems, which can be an essential functionality for global businesses. 
+[Virto Commerce solution](https://virtocommerce.com/enterprise-ecommerce-architecture) lets you create and easily manage multi-vendor catalogs, where all the data about all available products or services by every vendor you work with is stored in one place and can be easily accessed, updated and shared with all the parties involved. The platform supports multiple catalogs, storefronts, languages, and tax systems, which can be an essential functionality for global businesses. 
 
 #### 4. Order Approval process / Integrating with external ERPs
 
@@ -67,7 +67,7 @@ A B2B-focused e-commerce solution will make it easy to track orders and manage a
 
 *Let’s look at another example. A distributor orders product from your company and requests a quote. The end price in the quote is based on the number of products in the order and also on possible promotions held by the vendor during that current time period. So the price would vary and your distributor will need to be able to approve/decline it, often on multiple levels within the company. It gets even more complicated when this needs to be done on a multi-vendor level (orders from separate vendors with different quotes and approvals).* 
 
-B2C focused software doesn’t often face those challenges and might not have a quick solution for situations like this, but [Virto Commerce does](https://virtocommerce.com/try-now)!
+B2C focused software doesn’t often face those challenges and might not have a quick solution for situations like this, but [Virto Commerce does](https://virtocommerce.com/contact-us)!
 
 #### 5.	Negotiated pricing - quotation system 
 

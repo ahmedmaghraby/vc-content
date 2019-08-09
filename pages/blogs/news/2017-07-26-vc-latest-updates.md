@@ -14,7 +14,7 @@ title: What’s new with the Virto Commerce platform?
 
 Our <a href="{{ 'https://virtocommerce.com/b2b-ecommerce-platform' | absolute_url }}">Virto Commerce platform</a> is constantly evolving, getting better, faster, and more versatile with each update. We’re always on top of the latest marketing, e-commerce and software development <a href="{{ '/glossary/b2b-ecommerce-trends' | absolute_url }}">trends</a>.
 
-Please feel free to [try our software](https://virtocommerce.com/try-now) and send us feedback and suggestions! Meanwhile, here’re the latest updates to the Virto Commerce platform.
+Please feel free to [try our software](https://virtocommerce.com/contact-us) and send us feedback and suggestions! Meanwhile, here’re the latest updates to the Virto Commerce platform.
 
 <h2>New search indexation engine (Three type of search index engines)</h2>
 

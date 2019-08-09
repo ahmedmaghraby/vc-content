@@ -73,7 +73,7 @@ tags :
         <p class="text">With this document, you can build better relationships with your suppliers. Work on the skills of creating RFPs and it will pay off in the long term. </p>
         <p class="text">To make it more convincing, the strategy should be your top priority when it comes to expanding your business. </p>
         <div class="actions">
-            <a class="btn btn--orange" href="/try-now">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>

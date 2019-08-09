@@ -69,7 +69,7 @@ tags :
             {% include 'micro-mark-publisher' %}
             {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 932 %}
             <div class="actions">
-                <a class="btn btn--orange" href="/try-now">Try It Now</a>
+                <a class="btn btn--orange" href="/contact-us">Try It Now</a>
                 <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
             </div>
     </div>

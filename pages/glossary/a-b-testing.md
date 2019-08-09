@@ -50,7 +50,7 @@ tags :
     </ol>
     <p class="text">A/B testing allows developers to make evidence based changes to their user experiences as a consequence of collecting data on the results. This methodical approach dispenses with opinion in favor of empirical results affording developers enhanced insight into why and how certain elements of an application impact user behavior. Consequently, AB testing can be used to consistently and continually improve the user experience, thereby improving the conversion rate over time.</p>
     <div class="buttons">
-        <a class="button fill" href="/try-now">Try It Now</a>
+        <a class="button fill" href="/contact-us">Try It Now</a>
         <a class="button fill" href="/contact-us">Request Information & Demo</a>
     </div>
 </div>

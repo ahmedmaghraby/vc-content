@@ -2,7 +2,7 @@
 // list__item
 (function () {
     var rows = 3;
-    var interval = 10000;
+    var interval = 3000;
 
     $(function () {
         var container = $('.list--pics');

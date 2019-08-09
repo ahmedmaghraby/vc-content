@@ -33,7 +33,7 @@ This provider stores assets in a local file system.
 <add name="AssetsConnectionString" connectionString="provider=AzureBlobStorage;DefaultEndpointsProtocol=http;AccountName=XXXX;AccountKey=YYYY" />
 ```
 
-This provider stores assets in <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">Azure Storage</a>.
+This provider stores assets in <a class="crosslink" href="https://virtocommerce.com/" target="_blank">Azure Storage</a>.
 
 You should copy values for this connection string from your Azure portal and paste it to web.config
 

@@ -25,7 +25,7 @@ tags :
 	<h2 class="sub-title">Self Service Customer Portal</h2>
 	<p class="text">Refers to an automated line of communication between an e-commerce enterprise and their customer. Self-service is becoming the channel of choice for today's consumers, with self-service websites becoming an integral element of a web user's interaction with the e-commerce organizations they do business with. Today's, customers expect to interact with their e-commerce organization anytime, anywhere, and from any device. They expect a self-service portal that provides a convenient way to post service issues, place new orders, or view their order histories. A self-service portal allows the e-commerce entity to stay open for business 24/7 around the world while delivering a high-quality, high-touch experience for customers. Self-service is not only a cheaper alternative, but is preferred by a majority of customers, as customers are more likely to provide candid feedback in a self-service environment than when engaging with another human being.</p>
 	<div class="buttons">
-		<a class="button fill" href="/try-now">Try It Now</a>
+		<a class="button fill" href="/contact-us">Try It Now</a>
 		<a class="button fill" href="/contact-us">Request Information & Demo</a>
 	</div>
 </div>

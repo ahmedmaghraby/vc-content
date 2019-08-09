@@ -21,7 +21,7 @@ That in short is what makes cloud solutions the way of the future, and why many 
 Let’s however look a bit more into details of what’s involved with this revolutionary system.  Here are 5 factors a business owner would need to consider about moving the company’s e-commerce from an on-premise solution to the cloud.
 
 ## 1 - Lower cost of set-up and maintenance
-<a href="/our-offers/cloud-ecommerce-platform">
+<a href="/enterprise-ecommerce-architecture">
 <img alt="Lower cost of set-up and maintenance" src="../../assets/images/blog/shutterstock_420383689.jpg" />
 </a>
 As a business owner, one of your primary concerns is always about how much it’s going cost you. Obviously. So, let’s take a look into it for a moment.
@@ -66,7 +66,7 @@ Cloud e-commerce providers make sure your previously implemented customizations 
 
 This one is a no-brainer. Having all your data stored in one place with an easy on-line access is going to help your business function in the most efficient way possible by reducing possibility of errors and helping your supply chain run smoothly. 
 
-You can have several stores on the same <a href="/our-offers/cloud-ecommerce-platform">cloud platform</a> with one central control point. Regional dealerships have an easy way to join the main system with an option of their making their own unique customizations.
+You can have several stores on the same <a href="/enterprise-ecommerce-architecture">cloud platform</a> with one central control point. Regional dealerships have an easy way to join the main system with an option of their making their own unique customizations.
 
 It means better organization and tracking of orders and stock items across multiple physical locations, faster status updates and all your required information available to you from anywhere and at any time. 
 

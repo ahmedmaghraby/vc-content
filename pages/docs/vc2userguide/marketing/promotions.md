@@ -7,7 +7,7 @@ priority: 3
 ---
 ## Introduction
 
-A <a class="crosslink" href="https://virtocommerce.com/ecommerce-marketing" target="_blank">promotion</a> is a marketing tool used to increase sales. Promotions are store-specific; to create a promotion for a store, you must have the Manage Promotions permission. Promotions cannot be shared across multiple stores.
+A <a class="crosslink" href="https://virtocommerce.com/contact-us" target="_blank">promotion</a> is a marketing tool used to increase sales. Promotions are store-specific; to create a promotion for a store, you must have the Manage Promotions permission. Promotions cannot be shared across multiple stores.
 
 > To apply a promotion to multiple stores, it must be manually re-created in each applicable store
 

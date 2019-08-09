@@ -206,7 +206,7 @@ tags:
                     <iframe width="400" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="actions" style="margin-bottom:20px">
-                    <a class="btn btn--orange" href="/try-now">Try It Now</a>
+                    <a class="btn btn--orange" href="/contact-us">Try It Now</a>
                     <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
                 </div>
             </div>

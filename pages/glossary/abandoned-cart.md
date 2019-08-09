@@ -27,7 +27,7 @@ tags :
 	<h2 class="sub-title">Abandoned Shopping Cart Email?</h2>
 	<p class="text">Abandoned shopping cart services help the e-commerce company identify browsing customers thereby affording them the ability to follow up with these shoppers via an abandoned shopping cart email designed to bring the shopper back to the site and win their business.</p>
 	<div class="buttons">
-		<a class="button fill" href="/try-now">Try It Now</a>
+		<a class="button fill" href="/contact-us">Try It Now</a>
 		<a class="button fill" href="/contact-us">Request Information & Demo</a>
 	</div>
 </div>

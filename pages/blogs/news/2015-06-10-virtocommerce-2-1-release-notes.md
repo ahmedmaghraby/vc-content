@@ -9,7 +9,7 @@ title: "Virto Commerce 2.1 Release Notes"
 ---
 For the 2.1 release we focused on making the experience of creating a new store easier and quicker. There is also much more documentation now, including complete a <a href="https://virtocommerce.com/guides/style-guide" target="_blank">platform style guide</a>.
 
-You can see the latest demo as well as download our source code at: <a href="https://virtocommerce.com/try-now" target="_blank">https://virtocommerce.com/try-now</a>.
+You can see the latest demo as well as download our source code at: <a href="https://virtocommerce.com/contact-us" target="_blank">https://virtocommerce.com/contact-us</a>.
 
 Here is the list of new features and improvements in 2.1:
 

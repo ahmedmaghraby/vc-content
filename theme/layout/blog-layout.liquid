@@ -11,9 +11,11 @@
     {% if blog_search.category %}
         {% assign search_category = "blogs.categories." | append: blog_search.category | t %}
         <link rel="canonical" href="{{ '/blog' | full_url }}" />
+        <meta name="robots" content="noindex">
     {% elseif blog_search.tag %}
         {% assign search_tag = "blogs.tags." | append: blog_search.tag | t %}
         <link rel="canonical" href="{{ '/blog' | full_url }}" />
+        <meta name="robots" content="noindex">
     {% endif %}
 
     {% if article %}

@@ -30,7 +30,7 @@ The platform can be used for new module development or as a starting point for b
 
 ## Deployment
 
-Virto Commerce Platform can be deployed to <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">Microsoft Azure cloud</a> or any other environment which has the following components installed:
+Virto Commerce Platform can be deployed to <a class="crosslink" href="https://virtocommerce.com/" target="_blank">Microsoft Azure cloud</a> or any other environment which has the following components installed:
 * Microsoft .NET Framework 4.6.1
 * Internet Information Services 7 or later
 * Microsoft SQL Server 2008 or later

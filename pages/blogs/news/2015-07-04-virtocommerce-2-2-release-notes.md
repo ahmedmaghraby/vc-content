@@ -32,7 +32,7 @@ We have many more features planned for the next few sprints including:
 * **Copy/Paste** - allow for copy/paste functionality to move products and categories in catalog
 * **Import/Export functionality** - platform wide import/export engine, with each module being able to define import/export interfaces
 * **Recurring Orders** - support for subscription based products
-* **<a href="https://virtocommerce.com/features/ecommerce-microsoft-dynamics-nav" target="_blank">Microsoft Dynamics NAV Integration</a>** - integration module for ERP system allowing synchronizing product, order and customer data
+* **<a href="https://virtocommerce.com/enterprise-ecommerce-architecture" target="_blank">Microsoft Dynamics NAV Integration</a>** - integration module for ERP system allowing synchronizing product, order and customer data
 * **ShipStation Integration** - provide module that allows to use popular service to ship items ordered through Virto Commerce
 * **<a href="https://virtocommerce.com/features/orchard-cms-ecommerce" target="_blank">Orchard CMS Ecommerce Module</a>** - integration with orchard CMS to allow displaying products, categories, shopping cart and checkout pages inside orchard
 

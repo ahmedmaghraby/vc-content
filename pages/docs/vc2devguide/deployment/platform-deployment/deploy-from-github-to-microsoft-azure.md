@@ -8,7 +8,7 @@ title: 'Deploy Platform from GitHub to Microsoft Azure'
 ---
 ## Summary
 
-You can <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">deploy</a> the latest version of VirtoCommerce Platform to Azure with just a few clicks.
+You can <a class="crosslink" href="https://virtocommerce.com/" target="_blank">deploy</a> the latest version of VirtoCommerce Platform to Azure with just a few clicks.
 
 ## Step-by-step guide
 
