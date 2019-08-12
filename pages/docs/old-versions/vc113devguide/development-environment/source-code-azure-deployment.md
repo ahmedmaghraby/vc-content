@@ -26,7 +26,7 @@ priority: 4
   <img src="../../../../assets/images/docs/image2013-10-1_17_26_50.png" />
   <img src="../../../../assets/images/docs/image2013-10-1_17_28_25.png" />
 
-Select "New SQL database server" and select the closest geografically server in the next step as this has impact on deployment speed. If the server response won't be quick enough you may get timeout errors during database deployment process. You can check which of the servers response is the best <a href="http://azureping.info/" rel="nofollow">here</a>
+Select "New SQL database server" and select the closest geografically server in the next step as this has impact on deployment speed. If the server response won't be quick enough you may get timeout errors during database deployment process. You can check which of the servers response is the best <a href="http://www.azurespeed.com/" rel="nofollow">here</a>
 
 <img src="../../../../assets/images/docs/image2013-10-1_17_32_4.png" />
 

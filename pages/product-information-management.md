@@ -244,9 +244,9 @@ tags :
             <p>
                 If you want visibility for your performance and financial data, you would benefit from using Agility. Some of the most prominent features include easy integration with existing ecommerce systems, automation of every step of the process, real-time financial analytics and performance reports, content auditing and content history.
             </p>
-            <div class="buttons">
-                <a class="button fill" href="/contact-us">Try It Now</a>
-                <a class="button fill" href="/contact-us">Request Information & Personal Demo</a>
+            <div class="actions">
+                <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+                <a class="btn btn--orange" href="/contact-us">Request Information & Personal Demo</a>
             </div>
             <br>
             <h2 class="sub-title">Product information management software by Virto Commerce</h2>

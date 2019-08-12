@@ -1,4 +1,4 @@
-﻿---
+---
 author: VirtoCommerce
 category: technical
 date: 2015-10-21 04:07
@@ -16,7 +16,7 @@ With the help of the API App you can integrate VirtoCommerce with many systems l
 API Connectors and API Apps are a relatively new approach for Microsoft to integrate systems within the Azure ecosystem. It allows you to integrate cloud solutions with on-premises solutions. Systems can automatically exchange data based on the rules defined in the Azure Logic App. You can read more about Logic Apps in these helpful links:
 
 * <a href="https://azure.microsoft.com/en-us/documentation/articles/app-service-logic-what-are-logic-apps/" target="_blank" rel="nofollow">What are Logic Apps</a>
-* <a href="https://azure.microsoft.com/en-us/documentation/videos/azure-app-service-logic-apps-with-josh-twist/" target="_blank" rel="nofollow">Azure App Service Logic Apps</a>
+* <a href="https://channel9.msdn.com/Shows/Azure-Friday/Azure-App-Service-Logic-Apps-with-Josh-Twist" target="_blank" rel="nofollow">Azure App Service Logic Apps</a>
 
 ![](assets/images/blog/untitled_l.png)
 
@@ -46,7 +46,7 @@ The deployed API App can be used as part of an Azure Logic App.
 To start using Azure Logic apps refer to following links:
 
 * <a href="https://azure.microsoft.com/en-us/documentation/articles/app-service-logic-create-a-logic-app/" target="_blank" rel="nofollow">Create a Logic App</a>
-* <a href="https://azure.microsoft.com/en-us/documentation/videos/azure-app-service-logic-apps-with-josh-twist/" target="_blank" rel="nofollow">Azure App Service Logic Apps</a>
+* <a href="https://channel9.msdn.com/Shows/Azure-Friday/Azure-App-Service-Logic-Apps-with-Josh-Twist" target="_blank" rel="nofollow">Azure App Service Logic Apps</a>
 
 Logic App can be used as some part of the integration process of the VirtoCommerce platform with the other systems. It can be an ERP system, customer notification, order fulfillment management or whatever system that exposes their api as an Azure API App or available in the Azure marketplace connectors list.
 
