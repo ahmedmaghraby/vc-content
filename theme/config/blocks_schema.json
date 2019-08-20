@@ -1794,6 +1794,11 @@
         "label": "Description",
         "type": "text",
         "default": "By clicking «Download Case Studies» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
+      },
+      {
+        "id": "formIdentifier",
+        "label": "Form identifier",
+        "type": "text"
       }
     ]
   },
@@ -1896,6 +1901,10 @@
               {
                 "value": "textarea",
                 "label": "Textarea"
+              },
+              {
+                "value": "hidden",
+                "label": "Hidden"
               }
             ]
           },
@@ -1903,7 +1912,7 @@
             "id": "data",
             "label": "Additional data",
             "type": "string",
-            "info": "Semicolon separated values"
+            "info": "For select options is a semicolon separated values. For hidden field is a value."
           },
           {
             "id": "fullrow",
