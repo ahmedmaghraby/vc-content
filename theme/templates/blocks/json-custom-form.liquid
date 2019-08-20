@@ -7,7 +7,7 @@
             {% endif %}
 
             {% assign rowStarted = false %}
-            <form>
+            <form id="{{ block.formName }}" name="{{ block.formName }}">
                 {% for item in block.fields %}
                     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                     {% if item.fullrow == true and rowStarted == true %}
