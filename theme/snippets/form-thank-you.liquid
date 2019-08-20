@@ -1,13 +1,15 @@
-﻿<script id="storefront.form-thank-you.tpl" type="text/ng-template">
-    <div class="overlay">
-        <div class="overlay-cnt">
-            <div class="popup">
-                <a class="popup-close" ng-click="closeModal()"></a>
-                <div class="popup-head">{{ 'apps.forms.thank_you' | t }}</div>
-                <div style="padding: 20px;">
-                    <a class="btn __yellow __mini __round __ucase" ng-click="closeModal()">{{ 'apps.forms.close' | t }}</a>
-                </div>
-            </div>
+<script id="storefront.form-thank-you.tpl" type="text/ng-template">
+    <div class="modal-header">
+        {{ 'apps.forms.thank_you' | t }}
+        <a class="modal-close" ng-click="closeModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                <path class="fill" fill-rule="evenodd" d="M10.914 9.5l7.793-7.793A.999.999 0 1 0 17.293.293L9.5 8.086 1.707.293A.999.999 0 1 0 .293 1.707L8.086 9.5.293 17.293a.999.999 0 1 0 1.414 1.414L9.5 10.914l7.793 7.793a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L10.914 9.5z"/>
+            </svg>
+        </a>
+    </div>
+    <div class="modal-body">
+        <div class="form-actions">
+            <a ng-click="closeModal()">OK</a>
         </div>
     </div>
 </script>
