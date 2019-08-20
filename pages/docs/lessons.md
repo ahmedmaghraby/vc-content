@@ -1,9 +1,8 @@
 ---
-title: Virto Commerce Lessons
-description: This lessons will show you basic of Virto Commerce and will also take you through some advance concepts related to VirtoCommerce application development
+date: '2018-04-04'
 layout: docs
-date: 2018-04-04
-priority: 1
+title: 'Virto Commerce Lessons'
+
 ---
 ## Welcome to the Virto Commerce lessons
 VirtoCommerce is an open source and .NET-based E-Commerce platform for B2B and B2C solutions.
