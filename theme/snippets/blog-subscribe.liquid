@@ -2,8 +2,8 @@
     <div class="blog-sidebar__inner">
         <img class="blog-sidebar__pic" src="{{ 'bell.svg' | asset_url }}" alt="" />
         <div class="blog-sidebar__t">Sign up to our newsletter</div>
-        <form class="form">
-            <input type="text" class="form-control" placeholder="Enter your email" name="Blog[Email]" />
+        <form class="form" ng-submit="displayResult()" name="blogSubscribeForm">
+            <input type="text" class="form-control" placeholder="Enter your email" id="Blog[Email]" name="Blog[Email]" ng-model="email" required="" ng-pattern="emailPattern" />
             <button class="btn btn--orange" type="submit">Subscribe</button>
         </form>
         <p>... or follow the events on <br />social networks</p>

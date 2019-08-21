@@ -1,9 +1,9 @@
-﻿var storefrontApp = angular.module('storefrontApp');
+var storefrontApp = angular.module('storefrontApp');
 
 storefrontApp.controller('feedbackController', ['$scope', '$uibModalInstance', 'feedbackService', 'dialogService', function ($scope, $uibModalInstance, feedbackService, dialogService) {
     $scope.setContactUsForm = function (form) {
         $scope.formContactUs = form;
-    }
+    };
 
     $scope.submit = function () {
         $scope.formContactUs.$setSubmitted();
@@ -21,11 +21,11 @@ storefrontApp.controller('feedbackController', ['$scope', '$uibModalInstance', '
             $scope.model.isProcessing = false;
             $scope.model.isProcessed = true;
         });
-    }
+    };
 
     $scope.closeModal = function () {
         $uibModalInstance.close();
-    }
+    };
 
     initialize();
 
