@@ -2,9 +2,12 @@
     <div class="blog-sidebar__inner">
         <img class="blog-sidebar__pic" src="{{ 'bell.svg' | asset_url }}" alt="" />
         <div class="blog-sidebar__t">Sign up to our newsletter</div>
-        <form class="form" ng-submit="displayResult()" name="blogSubscribeForm">
+        <form class="form" name="blogSubscribeForm">
             <input type="text" class="form-control" placeholder="Enter your email" id="Blog[Email]" name="Blog[Email]" ng-model="email" required="" ng-pattern="emailPattern" />
-            <button class="btn btn--orange" type="submit">Subscribe</button>
+            <div class="input-validation-error" style="color: #e32646; font-size: small;" ng-if="(blogSubscribeForm['Blog[Email]'].$dirty || blogSubscribeForm.$submitted) && blogSubscribeForm['Blog[Email]'].$error.pattern">
+                {{ 'apps.forms.email_format_validation_message' | t }}
+            </div>
+            <button ng-click="displayResult()" class="btn btn--orange" type="submit">Subscribe</button>
         </form>
         <p>... or follow the events on <br />social networks</p>
         <div class="list list--socials">
