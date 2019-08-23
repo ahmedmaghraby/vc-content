@@ -25,6 +25,7 @@
     <title>Enterprise ASP.NET open-source Microsoft e-commerce platform - Virto Commerce</title>
     {% endif %}
     {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    {% include 'segment' %}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     <link rel="canonical" href="{{ canonical_url }}" />
