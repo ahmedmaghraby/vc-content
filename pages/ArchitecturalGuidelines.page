@@ -49,6 +49,8 @@
         "title": "Download Architectural Guidelines",
         "buttonText": "Download Now",
         "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
-        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/Virto Commerce Architectural Guidelines_1.pdf"
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/Virto Commerce Architectural Guidelines_1.pdf",
+        "headerType": null,
+        "formIdentifier": "Architectural guidelines"
     }
 ]

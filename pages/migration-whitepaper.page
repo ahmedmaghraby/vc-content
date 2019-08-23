@@ -53,6 +53,9 @@
         "noPad": true,
         "title": "Download White Paper",
         "buttonText": "Download White Paper",
-        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "headerType": null,
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/whitepaper-ecommerce-platform-migration-problems.pdf",
+        "formIdentifier": "Migration white paper"
     }
 ]

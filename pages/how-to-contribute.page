@@ -20,7 +20,7 @@
             "style": "btn--orange btn--round"
         },
         "noTop": null,
-        "noBottom": null,
+        "noBottom": true,
         "noPad": null,
         "headerType": "h1",
         "titleAlignment": null
@@ -37,70 +37,80 @@
         "intro": "<p>Complete the form below to accept contributor agreement</p>\n",
         "fields": [
             {
-                "label": "First Name (Required)",
-                "name": "fullname",
+                "label": "First Name (required)",
+                "name": "firstname",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
-                "label": "Last Name (Required)",
+                "label": "Last Name (required)",
+                "name": "lastname",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "required": true
+            },
+            {
+                "label": "Email (required)",
                 "name": "email",
-                "type": "text",
+                "type": "email",
                 "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Email (Required)",
-                "name": "phone",
-                "type": "text",
-                "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Github Handle (required)",
-                "name": "company",
+                "name": "githubHandle",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
-                "label": "Street Address (Required)",
-                "name": "Address",
+                "label": "Street Address (required)",
+                "name": "address",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
-                "label": "Country, Zip/Postal Code (Required)",
+                "label": "Country, Zip/Postal Code (required)",
                 "name": "city",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Phone (required)",
-                "name": "Phone",
+                "name": "phone",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Company Name (required)",
-                "name": "company name",
+                "name": "company",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": true
             },
             {
                 "label": "Electronic Signature (type \"I AGREE\" to accept terms) (required)",
-                "name": "submit agree",
+                "name": "agree",
                 "type": "text",
                 "data": null,
-                "fullrow": true
+                "fullrow": true,
+                "required": true
             }
         ],
-        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/terms\">Privacy</a>.</p>\n",
-        "buttonText": "Submit Agreement"
+        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "buttonText": "Submit Agreement",
+        "formName": "contribute"
     }
 ]

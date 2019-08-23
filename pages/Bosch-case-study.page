@@ -89,7 +89,9 @@
         "title": "Download Full Case Study",
         "buttonText": "Download Now",
         "downloadUrl": "/assets/files/bosch-case-study.pdf",
-        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "headerType": null,
+        "formIdentifier": "Bosch case study"
     },
     {
         "id": 7,

@@ -59,52 +59,59 @@
                 "name": "fullname",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Email",
                 "name": "email",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Phone",
                 "name": "phone",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Company",
                 "name": "company",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Website",
                 "name": "website",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Region",
                 "name": "region",
                 "type": "select",
                 "data": "Americas ; EMEA ; APAC",
-                "fullrow": false
+                "fullrow": false,
+                "required": null
             },
             {
                 "label": "Please tell us a bit about your project and company.",
                 "name": "comments",
                 "type": "textarea",
                 "data": null,
-                "fullrow": true
+                "fullrow": true,
+                "required": null
             }
         ],
-        "outtro": "<p>By clicking &laquo;Find a Partner&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "outtro": "<p>By clicking &laquo;Find a Partner&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
         "buttonText": "Find a Partner"
     }
 ]
