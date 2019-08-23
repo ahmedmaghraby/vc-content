@@ -3,7 +3,7 @@
         <div class="section__info">
 			{% include 'blocks/block-title', block %}
 			<form class="form-horizontal" ng-submit="submit('{{ block.downloadUrl }}')" name="caseStudyForm">
-                <input type="hidden" name="formIdentifier" value="{{ block.formIdentifier }}" />
+                <input type="text" style="display: none;" id="FormIdentifier" name="formIdentifier" value="{{ block.formIdentifier }}" />
                 <div ng-init="setCaseStudyForm(caseStudyForm)"></div>
 				<input type="text" id="CaseStudy[Email]" class="form-control" name="CaseStudy[Email]" placeholder="Your email" ng-model="email" required ng-pattern="emailPattern" />
 				<input type="text" id="CaseStudy[Name]" class="form-control" name="CaseStudy[Name]" placeholder="John Smith" ng-model="name" required />

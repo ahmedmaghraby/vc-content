@@ -9,41 +9,45 @@
             {% assign rowStarted = false %}
             <form id="{{ block.formName }}" name="{{ block.formName }}">
                 {% for item in block.fields %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% if item.fullrow == true and rowStarted == true %}
-                        </div>
-                        {% assign rowStarted = false %}
-                    {% endif %}
-
-                    {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
-                        {% assign rowStarted = true %}
-                        {% assign thecycle = 'odd' %}
-                        <div class="form-group row">
-                    {% endif %}
-                    <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
-                        <label class="form-label">{{ item.label }}</label>
-                        {% if item.type == 'textarea' %}
-                            <textarea id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
-                        {% elsif item.type == 'select' %}
-                            {% assign options = item.data | split: ";" %}
-                            <select id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}">
-                                {% for opt in options %}
-                                    <option value="{{opt}}">{{opt}}</option>
-                                {% endfor %}
-                            </select>
-                        {% elsif item.type == 'email' %}
-                            <input id="{{ item.name }}" data-val="true" data-val-email {% if item.required == true %} data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
-                        {% elsif item.type == 'hidden' %}
-                            <input id="{{ item.name }}" type="hidden" name="{{ item.name }}" value="{{ item.data }}" />
-                        {% else %}
-                            <input id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
+                    {% if item.type != 'hidden' %}
+                        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                        {% if item.fullrow == true and rowStarted == true %}
+                            </div>
+                            {% assign rowStarted = false %}
                         {% endif %}
-                    </div>
-                    {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
-    		            </div>
-                        {% assign rowStarted = false %}
-                    {% endif %}
 
+                        {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
+                            {% assign rowStarted = true %}
+                            {% assign thecycle = 'odd' %}
+                            <div class="form-group row">
+                        {% endif %}
+                        <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
+                            <label class="form-label">{{ item.label }}</label>
+                            {% if item.type == 'textarea' %}
+                                <textarea id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                            {% elsif item.type == 'select' %}
+                                {% assign options = item.data | split: ";" %}
+                                <select id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}">
+                                    {% for opt in options %}
+                                        <option value="{{opt}}">{{opt}}</option>
+                                    {% endfor %}
+                                </select>
+                            {% elsif item.type == 'email' %}
+                                <input id="{{ item.name }}" data-val="true" data-val-email {% if item.required == true %} data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
+                            {% else %}
+                                <input id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
+                            {% endif %}
+                        </div>
+                        {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
+    		                </div>
+                            {% assign rowStarted = false %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% for item in block.fields %}
+                    {% if item.type == 'hidden' %}
+                        <input id="{{ item.name }}" type="text" style="display: none;" name="{{ item.name }}" value="{{ item.data }}" />
+                    {% endif %}
                 {% endfor %}
 
                 <div class="form-group row">
