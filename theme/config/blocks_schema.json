@@ -1859,9 +1859,8 @@
       },
       {
         "id": "formName",
-        "label": "Form name",
-        "type": "string",
-        "default": "customForm"
+        "label": "Form name for segment",
+        "type": "string"
       },
       {
         "id": "intro",
@@ -1924,6 +1923,11 @@
             "id": "fullrow",
             "label": "Full row",
             "type": "checkbox"
+          },
+          {
+            "id": "segmentFieldName",
+            "label": "Name for segment",
+            "type": "string"
           },
           {
             "id": "required",
