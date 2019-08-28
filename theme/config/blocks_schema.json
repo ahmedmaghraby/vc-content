@@ -1784,6 +1784,12 @@
         "default": "Download Case Studies"
       },
       {
+        "id": "buttonId",
+        "label": "Button identifier",
+        "type": "string",
+        "default": "caseStudyBtn"
+      },
+      {
         "id": "downloadUrl",
         "label": "File",
         "type": "file",
