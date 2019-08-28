@@ -47,7 +47,7 @@
 
         .nav__item
         {
-            align-items: center;
+            align-items: flex-end;
             display: flex;
             padding: 0 2rem;
         }
@@ -90,6 +90,22 @@
                 &::before
                 {
                     background-image: url($tpl-img-url + 'page/home/customers/heineken.svg');
+                }
+            }
+
+            &--lavazza
+            {
+                height: 1.875rem;
+                width: 7.25rem;
+
+                &::after
+                {
+                    background-image: url($tpl-img-url + 'page/home/customers/lavazza-gray.svg');
+                }
+
+                &::before
+                {
+                    background-image: url($tpl-img-url + 'page/home/customers/lavazza.svg');
                 }
             }
 

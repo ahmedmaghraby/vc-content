@@ -8900,8 +8900,8 @@ textarea {
 }
 
 .nav--customers .nav__item {
-    -ms-flex-align: center;
-    align-items: center;
+    -ms-flex-align: end;
+    align-items: flex-end;
     display: -ms-flexbox;
     display: flex;
     padding: 0 2rem;
@@ -8940,6 +8940,19 @@ textarea {
 
 .nav--customers .nav__brand--heineken::before {
     background-image: url("../../images/redesign/page/home/customers/heineken.svg");
+}
+
+.nav--customers .nav__brand--lavazza {
+    height: 1.875rem;
+    width: 7.25rem;
+}
+
+.nav--customers .nav__brand--lavazza::after {
+    background-image: url("../../images/redesign/page/home/customers/lavazza-gray.svg");
+}
+
+.nav--customers .nav__brand--lavazza::before {
+    background-image: url("../../images/redesign/page/home/customers/lavazza.svg");
 }
 
 .nav--customers .nav__brand--vivint {

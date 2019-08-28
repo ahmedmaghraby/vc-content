@@ -1859,8 +1859,15 @@
       },
       {
         "id": "formName",
-        "label": "Form name for segment",
-        "type": "string"
+        "label": "Segment event name",
+        "type": "string",
+        "tab": "Segment"
+      },
+      {
+        "id": "segmentOptions",
+        "label": "Segment Options",
+        "type": "string",
+        "tab": "Segment"
       },
       {
         "id": "intro",

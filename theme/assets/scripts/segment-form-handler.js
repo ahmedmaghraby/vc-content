@@ -10,11 +10,21 @@ $(function () {
                     var propertyName = $(this).data('segment-name');
                     applyValue(props, propertyName, $this.val());
                 });
-                if (props.email) {
-                    analytics.alias(props.email);
-                    analytics.identify(props.email, props);
+                var options = {};
+                try {
+                    options = $form.data('segment-options');
+                    if (typeof options === 'string' || options instanceof String) {
+                        options = JSON.parse(options);
+                    }
+                } catch (error) {
+                    console.log(error);
+                    options = {};
                 }
-                analytics.track(eventName, props);
+                if (props.email) {
+                    // analytics.alias(props.email);
+                    analytics.identify(props.email, props, options);
+                }
+                analytics.track(eventName, props, options);
             }
         }
     });

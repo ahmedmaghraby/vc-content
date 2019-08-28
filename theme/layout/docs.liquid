@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="storefrontApp">
 <head>
+    {% include 'google-tag-manager-head' %}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Virto Commerce" />
@@ -51,6 +52,7 @@
     </script>
 </head>
 <body ng-controller="docsController">
+    {% include 'google-tag-manager-body' %}
     {% if can_track %}
     {% include 'gdpr-cookie-compliance' %}
     {% endif %}

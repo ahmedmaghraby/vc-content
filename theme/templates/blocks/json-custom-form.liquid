@@ -7,7 +7,7 @@
             {% endif %}
 
             {% assign rowStarted = false %}
-            <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}">
+            <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}" data-segment-options='{{ block.segmentOptions }}'>
                 {% for item in block.fields %}
                     {% if item.type != 'hidden' %}
                         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}

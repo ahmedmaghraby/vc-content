@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="storefrontApp">
 <head>
+    {% include 'google-tag-manager-head' %}
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width" />
@@ -100,7 +101,6 @@
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
     {{ 'style.min.css' | asset_url | stylesheet_tag }}
 
-    {% include 'google-tag-manager-head' %}
     {% include 'segment' %}
     {{ content_for_header }}
 
