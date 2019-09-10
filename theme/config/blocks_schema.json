@@ -1917,6 +1917,10 @@
                 "label": "Select"
               },
               {
+                "value": "checkbox",
+                "label": "Checkbox"
+              },
+              {
                 "value": "textarea",
                 "label": "Textarea"
               },

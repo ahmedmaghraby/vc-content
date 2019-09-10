@@ -22,7 +22,9 @@
                             <div class="form-group row">
                         {% endif %}
                         <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
+                            {% if item.type != 'checkbox' %}
                             <label class="form-label">{{ item.label }}</label>
+                            {% endif %}
                             {% if item.type == 'textarea' %}
                                 <textarea data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
                             {% elsif item.type == 'select' %}
@@ -34,6 +36,11 @@
                                 </select>
                             {% elsif item.type == 'email' %}
                                 <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" data-val="true" data-val-email {% if item.required == true %} data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
+                            {% elsif item.type == 'checkbox' %}
+                                <label>
+                                    <input value="{{ item.data }}" data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="checkbox" name="{{ item.name }}" />
+                                    {{ item.label }}
+                                </label>
                             {% else %}
                                 <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
                             {% endif %}
