@@ -26,6 +26,8 @@ Install-WindowsFeature -name Web-Server -IncludeAllSubFeature
 * [Microsoft SQL Server 2008 or later](https://www.microsoft.com/en-us/evalcenter/evaluate-sql-server-2017-rtm) with SQL Management Studio(free MS SQL Express would be enough)
 * [Visual C++ Redistributable Packages for Visual Studio](https://go.microsoft.com/fwlink/?LinkId=746572)
 * [Prerequisites for .NET Core on Windows](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites)
+* [.NET Core Runtime](https://dotnet.microsoft.com/download)
+
 
 ## Initial configuration of VirtoCommerce Platform (backend)
 
@@ -191,14 +193,21 @@ and unpack this zip file to this folder of web server.
 ...
 ```
 
-Platform already contains `~/App_Data/cms-content` folder with themes for sample stores it was configured earlier in the [Configure IIS](#Configure-IIS) step
+Platform already contains `~/App_Data/cms-content` folder with themes for sample stores it was configured earlier in the **Configure IIS** step
 You need to make symbolic link to this folder by this command:
 
 ```
 mklink /d C:\vc-storefront-core\wwwroot\cms-content C:\inetpub\wwwroot\admin\App_Data\cms-content
 ```
 
-### Running the storefont by CLI "dotnet run"
+### Running the Storefont
+
+There are 2 options for launching the application:
+
+* Running the Storefont by CLI "dotnet run"
+* Running the Storefont by IIS
+
+#### Running the Storefont by CLI "dotnet run"
 
 * Open command prompt console
 * Change working directory to the **C:\vc-storefront-core**
@@ -207,7 +216,7 @@ mklink /d C:\vc-storefront-core\wwwroot\cms-content C:\inetpub\wwwroot\admin\App
 cd C:\vc-storefront-core
 ```
 
-* Run the storefront by  follow command
+* Run the Storefront by follow command
 
 ``` 
 dotnet.exe C:\vc-storefront-core\VirtoCommerce.Storefront.dll
@@ -217,6 +226,24 @@ The output in the console will say something like:
 Now listening on: http://localhost:5000
 ```
 
-Now you could first open the **VirtoCommerce Storefront** application in the browser after full modules and sample data installation on **Virtocommerce Platform** - open in your browser http://localhost:5000.
+#### Running the Storefont by IIS
+
+* Restart IIS service
+
+```
+net stop was /y
+net start w3vc
+```
+
+* Open the IIS Manager and add a new Web site named **Storefront**
+* Select application pool named **DefaultAppPool**
+* In the Physical path field enter the full path to the storfront folder **C:\vc-storefront-core**
+* In the Port field enter the new Web site port binding **8080**
+
+
+![Add new website](../../assets/images/docs/add-new-web-site.png "First storefront page")
+
+
+Now you could first open the **VirtoCommerce Storefront** application in the browser after full modules and sample data installation on **Virtocommerce Platform** - open in your browser http://localhost:5000 if you run Storefont by CLI "dotnet run" or http://localhost:8080 if you run Storefont by IIS.
 
 ![First storefront page](../../assets/images/docs/storefront.png "First storefront page")
