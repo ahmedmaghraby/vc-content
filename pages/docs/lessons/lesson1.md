@@ -237,6 +237,7 @@ net start w3vc
 * In the Physical path field enter the full path to the storefront folder **C:\vc-storefront-core**.
 * In the Port field enter the new Web site port binding **8080**.
 
+
 ![Add new website](../../assets/images/docs/add-new-web-site.png "Add new website")
 
 Now you could first open the local **VirtoCommerce Storefront** instance for the first time.
