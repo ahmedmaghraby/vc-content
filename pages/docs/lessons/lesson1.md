@@ -117,15 +117,13 @@ New-Item -ItemType directory -Path $folder -Force
 
 ![Sample data installation page](../../assets/images/docs/sample-data-installation-page.png "Sample data installation page")
 
-### Change administrator password
+## Change administrator password
 
-* In the left menu select **More > Configuration > Security**.
-* Select **Users**.
-* Select the **admin** user.
-* Click **Change password**.
-* Enter the new password twice and click **OK**.
+After **Sample data installation** step completed user is forced to change the password.
 
-### Change frontend password
+![Password reset](../../assets/images/docs/password-reset.png)
+
+## Change frontend password
 
 * In the left menu select **More > Configuration > Security**.
 * Select **Users**.
@@ -133,7 +131,7 @@ New-Item -ItemType directory -Path $folder -Force
 * Click **Change password**.
 * Enter the new password twice and click **OK**.
 
-### Change API credentials for storefront application
+## Change API credentials for storefront application
 
 * In the left menu select **More > Configuration > Security**.
 * Select **Users**.
