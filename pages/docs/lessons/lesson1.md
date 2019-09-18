@@ -28,7 +28,6 @@ Install-WindowsFeature -name Web-Server -IncludeAllSubFeature
 * [Prerequisites for .NET Core on Windows](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites)
 * [.NET Core Runtime](https://dotnet.microsoft.com/download)
 
-
 ## Initial configuration of VirtoCommerce Platform (backend)
 
 Navigate to the <a href="https://github.com/VirtoCommerce/vc-platform/releases" rel="nofollow">Releases section of Virto Commerce Platform in GitHub.</a>
@@ -80,11 +79,11 @@ $acl | Set-Acl $folder
 ### Configure IIS
 
 * Open the **IIS Manager** and create a new application named **admin** inside an existing **Default Web Site**.
-* In the **Physical path** field enter the full path to the platform site data folder **C:\inetpub\wwwroot\admin**
+* In the **Physical path** field enter the full path to the platform site data folder **C:\inetpub\wwwroot\admin**.
 
 ![Website configuration in IIS](../../assets/images/docs/add-admin-application-binaries.png "Website configuration in IIS")
 
-* Select application pool named DefaultAppPool which uses **.NET CLR Version 4.0** and **Integrated** pipeline mode
+* Select application pool named DefaultAppPool which uses **.NET CLR Version 4.0** and **Integrated** pipeline mode.
 * Inside the admin application add the new virtual directory with alias **assets** and physical path **C:\inetpub\wwwroot\admin\App_Data\Assets**. If there is no **Assets** directory inside **App_Data**, create it manually or with PowerShell commands:
 
 ```
@@ -103,8 +102,8 @@ New-Item -ItemType directory -Path $folder -Force
 ![Sign in page](../../assets/images/docs/platform-first-sign-in-page.png "Sign in page")
 
 * Use the following credentials:
-  * Login: **admin**
-  * Password: **store**
+  * Login: **admin**.
+  * Password: **store**.
 
 ## Modules auto installation
 
@@ -121,7 +120,7 @@ New-Item -ItemType directory -Path $folder -Force
 ### Change administrator password
 
 * In the left menu select **More > Configuration > Security**.
-* Select **Users**
+* Select **Users**.
 * Select the **admin** user.
 * Click **Change password**.
 * Enter the new password twice and click **OK**.
@@ -129,7 +128,7 @@ New-Item -ItemType directory -Path $folder -Force
 ### Change frontend password
 
 * In the left menu select **More > Configuration > Security**.
-* Select **Users**
+* Select **Users**.
 * Select the **frontend** user.
 * Click **Change password**.
 * Enter the new password twice and click **OK**.
@@ -137,13 +136,13 @@ New-Item -ItemType directory -Path $folder -Force
 ### Change API credentials for storefront application
 
 * In the left menu select **More > Configuration > Security**.
-* Select **Users**
+* Select **Users**.
 * Select the **frontend** user.
 * Click the **API Keys** widget.
-* Select the **Frontend Hmac** key
+* Select the **Frontend Hmac** key.
 * Click **Generate**, then **OK**, then **Save**.
 
-## Initial configuration of VirtoCommerce Storefront (frontend).
+## Initial configuration of VirtoCommerce Storefront (frontend)
 
 Navigate to the <a href="https://github.com/VirtoCommerce/vc-storefront-core/releases">Releases section of Virto Commerce Storefront in GitHub.</a>
 
@@ -164,7 +163,7 @@ and unpack this zip file to this folder of web server.
 
 * Open the **C:\vc-storefront-core\appsettings.json** in a text editor.
 * In the **VirtoCommerce** section find the node named **Endpoint**. Make sure that its **Url** attribute value is **http://localhost/admin**.
-* Make sure that **AppId** and **SecretKey** attributes values is set to the values obtained earlier in the [Change API credentials for storefront application](#Change-API-credentials-for-storefront-application) step..
+* Make sure that **AppId** and **SecretKey** attributes values is set to the values obtained earlier in the [Change API credentials for storefront application](#Change-API-credentials-for-storefront-application) step.
   
 ```
 ...
@@ -204,19 +203,19 @@ mklink /d C:\vc-storefront-core\wwwroot\cms-content C:\inetpub\wwwroot\admin\App
 
 There are 2 options for launching the application:
 
-* Running the Storefont by CLI "dotnet run"
-* Running the Storefont by IIS
+* Running the Storefont by CLI "dotnet run".
+* Deploying the Storefont to IIS.
 
 #### Running the Storefont by CLI "dotnet run"
 
-* Open command prompt console
-* Change working directory to the **C:\vc-storefront-core**
+* Open command prompt console.
+* Change working directory to the **C:\vc-storefront-core**.
 
 ```
 cd C:\vc-storefront-core
 ```
 
-* Run the Storefront by follow command
+* Run the Storefront by following command:
 
 ``` 
 dotnet.exe C:\vc-storefront-core\VirtoCommerce.Storefront.dll
@@ -228,22 +227,24 @@ Now listening on: http://localhost:5000
 
 #### Running the Storefont by IIS
 
-* Restart IIS service
+* Restart IIS service.
 
 ```
 net stop was /y
 net start w3vc
 ```
 
-* Open the IIS Manager and add a new Web site named **Storefront**
-* Select application pool named **DefaultAppPool**
-* In the Physical path field enter the full path to the storfront folder **C:\vc-storefront-core**
-* In the Port field enter the new Web site port binding **8080**
-
+* Open *IIS Manager* and add a new Website named **Storefront**.
+* Select application pool named **DefaultAppPool**.
+* In the Physical path field enter the full path to the storefront folder **C:\vc-storefront-core**.
+* In the Port field enter the new Web site port binding **8080**.
 
 ![Add new website](../../assets/images/docs/add-new-web-site.png "First storefront page")
 
+Now you could first open the local **VirtoCommerce Storefront** instance for the first time.
+Navigate to:
 
-Now you could first open the **VirtoCommerce Storefront** application in the browser after full modules and sample data installation on **Virtocommerce Platform** - open in your browser http://localhost:5000 if you run Storefont by CLI "dotnet run" or http://localhost:8080 if you run Storefont by IIS.
+* http://localhost:5000 if the application deployed by "dotnet run";
+* or http://localhost:8080 in case IIS.
 
 ![First storefront page](../../assets/images/docs/storefront.png "First storefront page")
