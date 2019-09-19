@@ -229,7 +229,7 @@ Now listening on: http://localhost:5000
 
 ```
 net stop was /y
-net start w3vc
+net start w3svc
 ```
 
 * Open *IIS Manager* and add a new Website named **Storefront**.
