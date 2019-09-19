@@ -121,7 +121,7 @@ New-Item -ItemType directory -Path $folder -Force
 
 After **Sample data installation** step completed user is forced to change the password.
 
-![Password reset](../../assets/images/docs/password-reset.png)
+![Password reset](../../assets/images/docs/password-reset.png "Password reset")
 
 ## Change frontend password
 
@@ -161,7 +161,7 @@ and unpack this zip file to this folder of web server.
 
 * Open the **C:\vc-storefront-core\appsettings.json** in a text editor.
 * In the **VirtoCommerce** section find the node named **Endpoint**. Make sure that its **Url** attribute value is **http://localhost/admin**.
-* Make sure that **AppId** and **SecretKey** attributes values is set to the values obtained earlier in the [Change API credentials for storefront application](#Change-API-credentials-for-storefront-application) step.
+* Make sure that **AppId** and **SecretKey** attributes values is set to the values obtained earlier in the **Change API credentials for storefront application** step.
   
 ```
 ...
@@ -237,7 +237,8 @@ net start w3vc
 * In the Physical path field enter the full path to the storefront folder **C:\vc-storefront-core**.
 * In the Port field enter the new Web site port binding **8080**.
 
-![Add new website](../../assets/images/docs/add-new-web-site.png "First storefront page")
+
+![Add new website](../../assets/images/docs/add-new-web-site.png "Add new website")
 
 Now you could first open the local **VirtoCommerce Storefront** instance for the first time.
 Navigate to:
