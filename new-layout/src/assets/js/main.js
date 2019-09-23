@@ -83,4 +83,19 @@ $(function (){
         $('.modal').css('display', 'none');
         $('body').removeClass('modal-open');
     });
+	
+	$(document).on("submit", ".section--request form", function() {
+		var form = $(this);
+		if (form.valid()) {
+			$(this).hide();
+			$(".section--request .thanks-wrapper").show();
+		}
+	});
+	
+	$(".section--request .send-again").on("click", function() {
+		var form = $(".section--request form");
+		$("input[type='text']", form).val("");
+		form.show();
+		$(".section--request .thanks-wrapper").hide();
+	});
 });

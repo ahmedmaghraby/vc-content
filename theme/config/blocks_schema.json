@@ -1808,6 +1808,47 @@
       }
     ]
   },
+  "request-form": {
+    "name": "Request Demo Form",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Request demo form"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Request a Virto Commerce Demo"
+      },
+      {
+        "id": "formName",
+        "label": "Segment event name",
+        "type": "string",
+        "tab": "Settings"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "<p>Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the \"Get in touch with me\" option and we will contact you shortly.</p>"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Link for Phone",
+        "type": "string"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for Chat",
+        "type": "string"
+      }
+    ]
+  },
   "custom-form": {
     "name": "Custom Form",
     "icon": "image-text",
