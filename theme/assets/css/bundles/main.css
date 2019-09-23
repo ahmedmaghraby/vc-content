@@ -6017,6 +6017,7 @@ code {
     flex-direction: column;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
+    margin: 0;
     padding: 0 .625rem;
     max-width: 50%;
 }
