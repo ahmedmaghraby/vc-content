@@ -955,6 +955,59 @@
             font-weight: 900;
             height: 3.125rem;
         }
+
+        .thanks
+        {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            &__ico
+            {
+                background: url($tpl-img-url + 'page/request/bell.svg');
+                height: 7.875rem;
+                margin-bottom: 3.125rem;
+                margin-top: 4rem;
+                width: 6.5rem;
+            }
+
+            &__t
+            {
+                font-size: 3rem;
+                font-weight: 900;
+                line-height: 1.1;
+                margin-bottom: 1.25rem;
+            }
+
+            &__descr
+            {
+                font-size: 1.125rem;
+                font-weight: normal;
+                line-height: 1.5;
+                margin-bottom: 6.75rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                &__ico
+                {
+                    margin-bottom: 1.5rem;
+                    margin-top: 2rem;
+                }
+
+                &__t
+                {
+                    font-size: 1.5rem;
+                }
+
+                &__descr
+                {
+                    font-size: .875rem;
+                    margin-bottom: 3rem;
+                }
+            }
+        }
     }
 
     .mobile-block

@@ -6104,6 +6104,56 @@ code {
     height: 3.125rem;
 }
 
+.section--request .form .thanks {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section--request .form .thanks__ico {
+    background: url("../../images/redesign/page/request/bell.svg");
+    height: 7.875rem;
+    margin-bottom: 3.125rem;
+    margin-top: 4rem;
+    width: 6.5rem;
+}
+
+.section--request .form .thanks__t {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+}
+
+.section--request .form .thanks__descr {
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 6.75rem;
+}
+
+@media (max-width: 767.98px) {
+    .section--request .form .thanks__ico {
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .section--request .form .thanks__t {
+        font-size: 1.5rem;
+    }
+
+    .section--request .form .thanks__descr {
+        font-size: .875rem;
+        margin-bottom: 3rem;
+    }
+}
+
 .section--request .mobile-block {
     display: none;
 }
