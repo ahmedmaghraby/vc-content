@@ -6104,6 +6104,10 @@ code {
     height: 3.125rem;
 }
 
+.section--request .mobile-block {
+    display: none;
+}
+
 @media (max-width: 991.98px) {
     .section--request .mobile-block {
         -ms-flex-align: center;
