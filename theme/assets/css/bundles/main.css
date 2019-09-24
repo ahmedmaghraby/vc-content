@@ -5165,6 +5165,10 @@ code {
     padding-top: 5rem;
 }
 
+#layout.hide-header {
+    padding-top: 0;
+}
+
 .cookie-bar {
     background: #f0f0f0;
     bottom: 0;

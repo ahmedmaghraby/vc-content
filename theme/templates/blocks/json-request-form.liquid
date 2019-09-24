@@ -1,10 +1,12 @@
 <div class="section section--request">
     <div class="section__inner container">
         <div class="section__header">
-            <div class="section__logo"></div>
+            <a class="section__logo" href="/"></a>
             <div class="section__links">
                 <a href="{{ block.phoneLink }}" class="section__links-item" data-name="phone">+1 800 980—5288</a>
+                {% if block.chatLink != blank %}
                 <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">Chat with us</a>
+                {% endif %}
             </div>
         </div>
         <div class="section__body">
@@ -34,9 +36,10 @@
                             <div class="form-group">
                                 <label>How would you describe yourself?</label>
                                 <select data-segment-name="message" id="message" class="form-control" name="message">
-                                    <option value="I am a business or technical user who needs/has an ecommerce platform">I am a business or technical user who needs/has an ecommerce platform</option>
-                                    <option value=" I am a developer interested in trying Virto Commerce "> I am a developer interested in trying Virto Commerce </option>
-                                    <option value=" I am creating a solution for a client"> I am creating a solution for a client</option>
+                                    <option value="I’m looking for an e-commerce platform">I’m looking for an e-commerce platform</option>
+                                    <option value="I'm creating a solution for a client">I'm creating a solution for a client</option>
+                                    <option value="I'm interested in trying Virto Commerce">I'm interested in trying Virto Commerce</option>
+                                    <option value="Other">Other</option>
                                 </select>
                             </div>
                             <div class="form-group">
@@ -100,8 +103,48 @@
             <div class="mobile-block">
                 <div class="mobile-block__t">Or</div>
                 <a href="{{ block.phoneLink }}" class="mobile-block__item" data-name="phone">+1 800 980—5288</a>
+                {% if block.chatLink != blank %}
                 <a href="{{ block.chatLink }}" class="mobile-block__item" data-name="chat">Chat with us</a>
+                {% endif %}
             </div>
         </div>
     </div>
 </div>
+{% if block.showCustomers %}
+<div class="section section--small-top">
+    <div class="section__inner container">
+        <h2 class="section__t">Business Leaders Choose Virto Commerce</h2>
+        <p class="section__descr--centered">
+            View just a handful of the top companies that use <br />Virto Commerce to power their ecommerce
+        </p>
+        <ul class="nav nav--customers">
+            <li class="nav__item">
+                <a href="/case-studies/bosch" class="nav__link">
+                    <span class="nav__brand nav__brand--bosch"></span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="/case-studies" class="nav__link">
+                    <span class="nav__brand nav__brand--heineken"></span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="/case-studies" class="nav__link">
+                    <span class="nav__brand nav__brand--vivint"></span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="/case-studies" class="nav__link">
+                    <span class="nav__brand nav__brand--volvo"></span>
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="/case-studies/lavazza" class="nav__link">
+                    <span class="nav__brand nav__brand--lavazza"></span>
+                </a>
+            </li>
+        </ul>
+        <a href="/case-studies" class="btn btn--lg">View Our Customer Showcase</a>
+    </div>
+</div>
+{% endif %}

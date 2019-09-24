@@ -39,6 +39,10 @@
             "value": "empty"
           },
           {
+            "label": "Footer only",
+            "value": "footer-only"
+          },
+          {
             "label": "Landing",
             "value": "landing"
           }
@@ -1829,6 +1833,12 @@
         "id": "formName",
         "label": "Segment event name",
         "type": "string",
+        "tab": "Settings"
+      },
+      {
+        "id": "showCustomers",
+        "label": "Display customers block",
+        "type": "checkbox",
         "tab": "Settings"
       },
       {
