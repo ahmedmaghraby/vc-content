@@ -85,8 +85,27 @@ $(function (){
     });
 	
 	$(document).on("submit", ".section--request form", function() {
-		$(this).hide();
-		$(".section--request .thanks-wrapper").show();
+		var form = $(this);
+		if (form.valid()) {
+			$(this).hide();
+			$(".section--request .thanks-wrapper").hide();
+			var targetThanks = $("[name='access']:checked", form).data('thanks-class');
+			$(".section--request .thanks-wrapper." + targetThanks).show();
+		}
+	});
+	
+	$(document).on("change", ".section--request form input[name='fullname']", function() {
+		var value = $(this).val().trim();
+		var firstName = value;
+		var lastName = '';
+		var index = value.indexOf(' ');
+		if (index !== -1) {
+			firstName = value.substring(0, index);
+			lastName = value.substring(index + 1);
+		}
+		var form = $(this).closest('form').get(0);
+		form.firstName.value = firstName;
+		form.lastName.value = lastName;
 	});
 	
 	$(".section--request .send-again").on("click", function() {

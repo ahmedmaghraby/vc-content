@@ -1856,6 +1856,18 @@
         "id": "chatLink",
         "label": "Link for Chat",
         "type": "string"
+      },
+      {
+        "id": "touchThanks",
+        "label": "Thanks message for «touch» option",
+        "type": "string",
+        "default": "We will contact you shortly. In the meantime, you can access the Virto Commerce demo environment via a link which we’ve sent you to your inbox."
+      },
+      {
+        "id": "linkThanks",
+        "label": "Thanks message for «link» option",
+        "type": "string",
+        "default": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions."
       }
     ]
   },

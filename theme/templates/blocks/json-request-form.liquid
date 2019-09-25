@@ -21,9 +21,12 @@
                 <div class="col-lg-6">
                     <div class="form">
                         <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}">
+                            <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
                             <div class="form-group">
                                 <label>Full name</label>
                                 <input placeholder="Required input field" data-val="true" data-val-required id="fullname" name="fullname" type="text" class="form-control" />
+                                <input type="text" style="display: none;" id="firstName" name="firstName" value="" />
+                                <input type="text" style="display: none;" id="lastName" name="lastName" value="" />
                             </div>
                             <div class="form-group">
                                 <label>Business email</label>
@@ -46,7 +49,7 @@
                                 <label>Access Transfer Method</label>
                                 <ul class="list list--method">
                                     <li class="list__item">
-                                        <input class="list__input" type="radio" name="access" checked="checked" id="access1" />
+                                        <input class="list__input" type="radio" data-thanks-class="touch-thanks" name="access" checked="checked" id="access1" value="Get in touch with me" />
                                         <label class="list__inner" for="access1">
                                             <span class="list__t">Get in touch with me</span>
                                             <span class="list__descr">
@@ -55,7 +58,7 @@
                                         </label>
                                     </li>
                                     <li class="list__item">
-                                        <input class="list__input" type="radio" name="access" id="access2" />
+                                        <input class="list__input" type="radio" data-thanks-class="link-thanks" name="access" id="access2" value="Get only link access" />
                                         <label class="list__inner" for="access2">
                                             <span class="list__t">Get only link access</span>
                                             <span class="list__descr">
@@ -66,7 +69,29 @@
                                 </ul>
                             </div>
                             <div class="form-group">
+                                <div class="form-descr">
+                                    <label style="font-weight: normal;font-size: .875rem;line-height: 1.4;margin-bottom: 0;">
+                                        <input type="checkbox" id="agree" name="agree" value="on" data-val="true" data-val-required />
+                                        By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
                                 <button type="submit" class="btn btn--orange btn--block">Request demo</button>
+                            </div>
+                        </form>
+                        <div class="thanks-wrapper touch-thanks" style="display: none;">
+                            <div class="thanks">
+                                <div class="thanks__ico"></div>
+                                <div class="thanks__t">
+                                    Thank you!
+                                </div>
+                                <div class="thanks__descr">
+                                    {{ block.touchThanks }}
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn--orange btn--block send-again">Send again</button>
                             </div>
                             <div class="form-group">
                                 <div class="form-descr">
@@ -75,15 +100,15 @@
                                     </p>
                                 </div>
                             </div>
-                        </form>
-                        <div class="thanks-wrapper" style="display: none;">
+                        </div>
+                        <div class="thanks-wrapper link-thanks" style="display: none;">
                             <div class="thanks">
                                 <div class="thanks__ico"></div>
                                 <div class="thanks__t">
-                                    Thank you!<br />We will be in <br />touch soon.
+                                    Thank you!
                                 </div>
                                 <div class="thanks__descr">
-                                    In the meanwhile, we would like to know a little more about yourself in order to be able.
+                                    {{ block.linkThanks }}
                                 </div>
                             </div>
                             <div class="form-group">
