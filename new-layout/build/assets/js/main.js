@@ -94,24 +94,38 @@ $(function (){
 		}
 	});
 	
-	$(document).on("change", ".section--request form input[name='fullname']", function() {
-		var value = $(this).val().trim();
-		var firstName = value;
-		var lastName = '';
-		var index = value.indexOf(' ');
-		if (index !== -1) {
-			firstName = value.substring(0, index);
-			lastName = value.substring(index + 1);
-		}
-		var form = $(this).closest('form').get(0);
-		form.firstName.value = firstName;
-		form.lastName.value = lastName;
-	});
-	
-	$(".section--request .send-again").on("click", function() {
-		var form = $(".section--request form");
-		$("input[type='text']", form).val("");
-		form.show();
-		$(".section--request .thanks-wrapper").hide();
-	});
+	var requestDemoForm = $(".section--request form");
+	if (requestDemoForm.length) {
+		var requestDemoSegmentName = requestDemoForm.data("segment-name");
+		
+		$(document).on("change", ".section--request form input[name='access']", function() {
+			if (this.id === "access1" && this.checked) {
+				requestDemoForm.attr("data-segment-name", requestDemoSegmentName);
+			} else {
+				requestDemoForm.attr("data-segment-name", null);
+			}
+		});
+		
+		$(document).on("change", ".section--request form input[name='fullname']", function() {
+			var value = $(this).val().trim();
+			var firstName = value;
+			var lastName = '';
+			var index = value.indexOf(' ');
+			if (index !== -1) {
+				firstName = value.substring(0, index);
+				lastName = value.substring(index + 1);
+			}
+			var form = $(this).closest('form').get(0);
+			form.firstName.value = firstName;
+			form.lastName.value = lastName;
+		});
+		
+		$(".section--request .send-again").on("click", function() {
+			var form = $(".section--request form");
+			$("input[type='text']", form).val("");
+			$("input[type='checkbox']", form).attr("checked", false);
+			form.show();
+			$(".section--request .thanks-wrapper").hide();
+		});
+	}
 });

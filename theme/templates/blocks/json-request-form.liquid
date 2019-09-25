@@ -22,19 +22,20 @@
                     <div class="form">
                         <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}">
                             <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
+                            <input data-segment-name="cf_segmentcampaign" type="text" name="cf_segmentcampaign" value="RequestForm" style="display: none;" />
                             <div class="form-group">
                                 <label>Full name</label>
-                                <input placeholder="Required input field" data-val="true" data-val-required id="fullname" name="fullname" type="text" class="form-control" />
-                                <input type="text" style="display: none;" id="firstName" name="firstName" value="" />
-                                <input type="text" style="display: none;" id="lastName" name="lastName" value="" />
+                                <input data-segment-name="fullname" placeholder="Required input field" data-val="true" data-val-required id="fullname" name="fullname" type="text" class="form-control" />
+                                <input data-segment-name="firstName" type="text" style="display: none;" id="firstName" name="firstName" value="" />
+                                <input data-segment-name="lastName" type="text" style="display: none;" id="lastName" name="lastName" value="" />
                             </div>
                             <div class="form-group">
                                 <label>Business email</label>
-                                <input placeholder="Required input field" data-val="true" data-val-email data-val-required id="email" name="email" type="text" class="form-control" />
+                                <input data-segment-name="email" placeholder="Required input field" data-val="true" data-val-email data-val-required id="email" name="email" type="text" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label>Phone</label>
-                                <input type="text" id="phone" name="phone" class="form-control" />
+                                <input data-segment-name="phone" type="text" id="phone" name="phone" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label>How would you describe yourself?</label>
