@@ -48,7 +48,8 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Business email</label>
-                                            <input placeholder="Required input field" type="text" class="form-control">
+                                            <input placeholder="Required input field" type="text" class="form-control form-control--error">
+                                            <div class="form-error">Has field as required</div>
                                         </div>
                                         <div class="form-group">
                                             <label>Phone</label>
@@ -86,12 +87,16 @@
                                             </ul>
                                         </div>
                                         <div class="form-group">
-                                            <a href="#" class="btn btn--orange btn--block">Request demo</a>
+                                            <div class="form-checkbox">
+                                                <input type="checkbox" class="form-checkbox__input" id="agree">
+                                                <label class="form-checkbox__label" for="agree">
+                                                    By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
+                                                </label>
+                                            </div>
+                                            <div class="form-error">Has field as required</div>
                                         </div>
                                         <div class="form-group">
-                                            <div class="form-descr">
-                                                <p>By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</p>
-                                            </div>
+                                            <a href="#" class="btn btn--orange btn--block">Request demo</a>
                                         </div>
                                     </div>
                                     <!-- <div class="form">

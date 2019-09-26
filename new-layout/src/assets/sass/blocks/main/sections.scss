@@ -697,7 +697,7 @@
     {
         align-items: center;
         display: flex;
-        margin-bottom: 6.75rem;
+        margin-bottom: 3.75rem;
 
         @include media-breakpoint-down(md) {
             margin-bottom: 2.25rem;
@@ -771,7 +771,7 @@
 
     .section__t
     {
-        font-size: 3.75rem;
+        font-size: 3rem;
         font-weight: 900;
         line-height: 1;
         margin-bottom: 2.5rem;
@@ -779,7 +779,7 @@
 
     .section__descr
     {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 500;
         line-height: 1.5;
     }
@@ -837,6 +837,14 @@
             font-weight: 900;
             line-height: .8;
             margin-bottom: 1.25rem;
+        }
+
+        .form-checkbox__label
+        {
+            font-size: .875rem;
+            font-weight: normal;
+            line-height: 1.2;
+            margin: 0;
         }
 
         .form-control

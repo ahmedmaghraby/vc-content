@@ -5856,7 +5856,7 @@ code {
     align-items: center;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 6.75rem;
+    margin-bottom: 3.75rem;
 }
 
 @media (max-width: 991.98px) {
@@ -5934,14 +5934,14 @@ code {
 }
 
 .section--request .section__t {
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 1;
     margin-bottom: 2.5rem;
 }
 
 .section--request .section__descr {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -5997,6 +5997,13 @@ code {
     font-weight: 900;
     line-height: .8;
     margin-bottom: 1.25rem;
+}
+
+.section--request .form .form-checkbox__label {
+    font-size: .875rem;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
 }
 
 .section--request .form .form-control {
@@ -8433,6 +8440,15 @@ textarea {
     border-radius: 4rem;
 }
 
+.form-control--error {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.form-control--error:focus {
+    border-color: #dc3545;
+}
+
 @media (max-width: 767.98px) {
     .form-control {
         font-size: .875rem;
@@ -8445,6 +8461,12 @@ textarea {
         height: 2.5rem;
         padding: 0 1.25rem;
     }
+}
+
+.form-error {
+    color: #dc3545;
+    font-size: .875rem;
+    margin-top: .625rem;
 }
 
 .form-descr {
@@ -8483,6 +8505,52 @@ textarea {
 
 .form-actions a {
     color: inherit;
+}
+
+.form-checkbox {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    min-height: 1.25rem;
+}
+
+.form-checkbox__input {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.form-checkbox__input:checked ~ .form-checkbox__label::after {
+    background-position: 60% 50%;
+    background-repeat: no-repeat;
+    background-image: url("../../images/redesign/page/request/check.svg");
+}
+
+.form-checkbox__input:checked ~ .form-checkbox__label::before {
+    border-color: #ff9a05;
+}
+
+.form-checkbox__label {
+    cursor: pointer;
+    font-size: .875rem;
+    position: relative;
+    padding-left: 1.875rem;
+}
+
+.form-checkbox__label::after, .form-checkbox__label::before {
+    content: ' ';
+    left: 0;
+    position: absolute;
+    height: 1.25rem;
+    top: 0;
+    width: 1.25rem;
+}
+
+.form-checkbox__label::before {
+    border: 0.125rem solid #cfd2e6;
+    border-radius: 0.25rem;
 }
 
 .list {
