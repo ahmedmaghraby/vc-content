@@ -25,13 +25,15 @@
                             <input data-segment-name="cf_segmentcampaign" type="text" name="cf_segmentcampaign" value="RequestForm" style="display: none;" />
                             <div class="form-group">
                                 <label>Full name</label>
-                                <input data-segment-name="fullname" placeholder="Required input field" data-val="true" data-val-required id="fullname" name="fullname" type="text" class="form-control" />
+                                <input data-segment-name="fullname" placeholder="Required input field" data-val="true" data-val-required="Please enter your Full name" id="fullname" name="fullname" type="text" class="form-control" />
                                 <input data-segment-name="firstName" type="text" style="display: none;" id="firstName" name="firstName" value="" />
                                 <input data-segment-name="lastName" type="text" style="display: none;" id="lastName" name="lastName" value="" />
+                                <span class="form-error field-validation-valid" data-valmsg-for="fullname" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <label>Business email</label>
-                                <input data-segment-name="email" placeholder="Required input field" data-val="true" data-val-email data-val-required id="email" name="email" type="text" class="form-control" />
+                                <input data-segment-name="email" placeholder="Required input field" data-val="true" data-val-email="Email address is invalid" data-val-required="Please enter your email" id="email" name="email" type="text" class="form-control" />
+                                <span class="form-error field-validation-valid" data-valmsg-for="email" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <label>Phone</label>
@@ -71,12 +73,12 @@
                             </div>
                             <div class="form-group">
                                 <div class="form-descr">
-                                    <input type="checkbox" id="agree" name="agree" value="on" class="form-checkbox__input"/>
+                                    <input data-val="true" data-val-mandatory="Please agree with our terms" type="checkbox" id="agree" name="agree" value="true" class="form-checkbox__input"/>
                                     <label class="form-checkbox__label" for="agree">
                                         By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
                                     </label>
                                 </div>
-                                <div id="agree-warning" class="form-error">You must agree terms and privacy.</div>
+                                <span class="form-error--highlight field-validation-valid" data-valmsg-for="agree" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn--orange btn--block">Request demo</button>

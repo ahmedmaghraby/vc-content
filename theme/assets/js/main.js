@@ -88,13 +88,15 @@ $(function (){
 	if (requestDemoForm.length) {
 		var requestDemoSegmentName = requestDemoForm.data("segment-name");
 
-		$(document).on("submit", ".section--request form", function() {
+		$(document).on("submit", ".section--request form", function(event) {
 			var form = $(this);
 			if (form.valid() && this.agree.checked) {
 				$(this).hide();
 				$(".section--request .thanks-wrapper").hide();
 				var targetThanks = $("[name='access']:checked", form).data('thanks-class');
 				$(".section--request .thanks-wrapper." + targetThanks).show();
+			} else {
+				event.preventDefault();
 			}
 			if (!this.agree.checked) {
 				$("#agree-warning").show();

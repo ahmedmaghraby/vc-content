@@ -8467,6 +8467,18 @@ textarea {
     color: #dc3545;
     font-size: .875rem;
     margin-top: .625rem;
+    display: block;
+}
+
+.form-error--highlight {
+    display: block;
+    padding: 5px;
+    background: #FF9C97;
+    color: #8C0000;
+}
+
+.form-error--highlight.field-validation-valid {
+    display: none;
 }
 
 .form-descr {

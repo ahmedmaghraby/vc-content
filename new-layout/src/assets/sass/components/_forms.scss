@@ -101,6 +101,20 @@ textarea
     color: $red;
     font-size: .875rem;
     margin-top: .625rem;
+	display: block;
+	
+	&--highlight
+	{
+		display: block;
+		padding: 5px;
+		background: #FF9C97;
+		color: #8C0000;
+		
+		&.field-validation-valid
+		{
+			display: none;
+		}
+	}
 }
 
 .form-descr
