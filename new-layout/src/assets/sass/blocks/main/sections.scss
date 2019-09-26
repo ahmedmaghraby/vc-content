@@ -154,6 +154,71 @@
         }
     }
 
+    .section__header
+    {
+        align-items: center;
+        display: flex;
+        margin-bottom: 3.75rem;
+        position: relative;
+        z-index: 5;
+
+        .section__logo
+        {
+            background: url($tpl-img-url + 'page/request/logo.svg');
+            height: 3.5rem;
+            width: 14.625rem;
+        }
+
+        @include media-breakpoint-down(md) {
+            margin-bottom: 2.25rem;
+
+            .section__logo
+            {
+                width: 4.5rem;
+            }
+        }
+    }
+
+    .section__links
+    {
+        display: flex;
+        margin-left: auto;
+
+        &-item
+        {
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: 2.5rem;
+            color: $white;
+            display: flex;
+            font-size: 1.5rem;
+            height: 2.5rem;
+            margin-left: 4.25rem;
+            padding-left: 3.75rem;
+
+            &[data-name="phone"]
+            {
+                background-image: url($tpl-img-url + 'page/request/phone.svg');
+            }
+
+            &[data-name="chat"]
+            {
+                background-image: url($tpl-img-url + 'page/request/chat.svg');
+            }
+
+            @include media-breakpoint-down(md) {
+                display: none;
+                font-size: 0;
+                padding-left: 2.5rem;
+
+                &[data-name="chat"]
+                {
+                    display: flex;
+                }
+            }
+        }
+    }
+
     // Sections sidebar and content
     .section__sidebar
     {
@@ -667,6 +732,7 @@
     }
 }
 
+// Request
 .section--request
 {
     background: $orange;
@@ -689,82 +755,6 @@
 
         &::after
         {
-            display: none;
-        }
-    }
-    
-    .section__header
-    {
-        align-items: center;
-        display: flex;
-        margin-bottom: 3.75rem;
-
-        @include media-breakpoint-down(md) {
-            margin-bottom: 2.25rem;
-        }
-    }
-
-    .section__logo
-    {
-        background: url($tpl-img-url + 'page/request/logo.svg');
-        height: 3.5rem;
-        width: 14.625rem;
-
-        @include media-breakpoint-down(md) {
-            width: 4.5rem;
-        }
-    }
-
-    .section__links
-    {
-        display: flex;
-        margin-left: auto;
-
-        &-item
-        {
-            align-items: center;
-            background-repeat: no-repeat;
-            background-size: 2.5rem;
-            color: $white;
-            display: flex;
-            font-size: 1.5rem;
-            height: 2.5rem;
-            margin-left: 4.25rem;
-            padding-left: 3.75rem;
-
-            &[data-name="phone"]
-            {
-                background-image: url($tpl-img-url + 'page/request/phone.svg');
-            }
-
-            &[data-name="chat"]
-            {
-                background-image: url($tpl-img-url + 'page/request/chat.svg');
-            }
-
-            @include media-breakpoint-down(md) {
-                display: none;
-                font-size: 0;
-                padding-left: 2.5rem;
-
-                &[data-name="chat"]
-                {
-                    display: flex;
-                }
-            }
-        }
-    }
-
-    .section__body .arrow
-    {
-        background: url($tpl-img-url + 'page/request/arrow.svg') no-repeat scroll 0 0;
-        bottom: 6.25rem;
-        height: 4.375rem;
-        left: 0;
-        position: absolute;
-        width: 6.25rem;
-
-        @include media-breakpoint-down(md) {
             display: none;
         }
     }
@@ -843,8 +833,9 @@
         {
             font-size: .875rem;
             font-weight: normal;
-            line-height: 1.2;
+            line-height: 1.15;
             margin: 0;
+            padding-top: .25rem;
         }
 
         .form-control
@@ -956,6 +947,228 @@
                     }
                 }
             }
+        }
+
+        .btn
+        {
+            font-size: 1.25rem;
+            font-weight: 900;
+            height: 3.125rem;
+        }
+
+        .thanks
+        {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+            &__ico
+            {
+                background: url($tpl-img-url + 'page/request/bell.svg');
+                height: 7.875rem;
+                margin-bottom: 3.125rem;
+                margin-top: 4rem;
+                width: 6.5rem;
+            }
+
+            &__t
+            {
+                font-size: 3rem;
+                font-weight: 900;
+                line-height: 1.1;
+                margin-bottom: 1.25rem;
+            }
+
+            &__descr
+            {
+                font-size: 1.125rem;
+                font-weight: normal;
+                line-height: 1.5;
+                margin-bottom: 6.75rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                &__ico
+                {
+                    margin-bottom: 1.5rem;
+                    margin-top: 2rem;
+                }
+
+                &__t
+                {
+                    font-size: 1.5rem;
+                }
+
+                &__descr
+                {
+                    font-size: .875rem;
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+
+    .mobile-block
+    {
+        display: none;
+    }
+
+    @include media-breakpoint-down(md) {
+        .mobile-block
+        {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            &__t
+            {
+                color: $white;
+                font-size: 2.5rem;
+                font-weight: 900;
+                margin-top: 2.5rem;
+                text-transform: uppercase;
+            }
+
+            &__item
+            {
+                align-items: center;
+                background-repeat: no-repeat;
+                background-size: 1.875rem;
+                color: $white;
+                display: flex;
+                font-size: 1.25rem;
+                height: 1.875rem;
+                margin-top: 1.5rem;
+                padding-left: 3.125rem;
+
+                &[data-name="phone"]
+                {
+                    background-image: url($tpl-img-url + 'page/request/phone.svg');
+                }
+
+                &[data-name="chat"]
+                {
+                    background-image: url($tpl-img-url + 'page/request/chat.svg');
+                }
+            }
+        }
+    }
+}
+
+// Section form
+.section--form
+{
+    background-color: $orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &.dark
+    {
+        background-color: transparent;
+
+        &::before
+        {
+            background: #0a2d4b;
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            opacity: .8;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .section__logo
+    {
+        max-width: 100%;
+    }
+
+    .section__t
+    {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 2.5rem;
+    }
+
+    .section__descr
+    {
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    @include media-breakpoint-down(sm) {
+        .section__t
+        {
+            font-size: 1.875rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .section__descr
+        {
+            font-size: .875rem;
+        }
+    }
+
+    .section__t,
+    .section__descr
+    {
+        color: $white;
+    }
+
+    .form
+    {
+        background: $white;
+        box-shadow: 0 .4375rem .875rem 0 rgba(0,0,0,.19);
+        padding: 2.5rem;
+        position: relative;
+        z-index: 5;
+
+        @include media-breakpoint-down(sm) {
+            padding: 1.25rem;
+        }
+
+        .form-group
+        {
+            margin-bottom: 1.25rem;
+
+            &:last-child
+            {
+                margin-bottom: 0;
+            }
+        }
+
+        label
+        {
+            display: inline-block;
+            font-size: 1.125rem;
+            font-weight: 900;
+            line-height: .8;
+            margin-bottom: 1.25rem;
+        }
+
+        .form-checkbox__label
+        {
+            font-size: .875rem;
+            font-weight: normal;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        .form-control
+        {
+            font-size: 1.125rem;
+            height: 3.125rem;
+        }
+
+        select
+        {
+            text-overflow: ellipsis;
         }
 
         .btn
