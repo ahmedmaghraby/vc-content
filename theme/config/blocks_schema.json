@@ -1868,6 +1868,27 @@
         "label": "Thanks message for «link» option",
         "type": "string",
         "default": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions."
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
       }
     ]
   },

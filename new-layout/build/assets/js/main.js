@@ -84,25 +84,36 @@ $(function (){
         $('body').removeClass('modal-open');
     });
 	
-	$(document).on("submit", ".section--request form", function() {
-		var form = $(this);
-		if (form.valid() && this.agree.checked) {
-			$(this).hide();
-			$(".section--request .thanks-wrapper").hide();
-			var targetThanks = $("[name='access']:checked", form).data('thanks-class');
-			$(".section--request .thanks-wrapper." + targetThanks).show();
-		}
-	});
-	
 	var requestDemoForm = $(".section--request form");
 	if (requestDemoForm.length) {
 		var requestDemoSegmentName = requestDemoForm.data("segment-name");
+
+		$(document).on("submit", ".section--request form", function() {
+			var form = $(this);
+			if (form.valid() && this.agree.checked) {
+				$(this).hide();
+				$(".section--request .thanks-wrapper").hide();
+				var targetThanks = $("[name='access']:checked", form).data('thanks-class');
+				$(".section--request .thanks-wrapper." + targetThanks).show();
+			}
+			if (!this.agree.checked) {
+				$("#agree-warning").show();
+			}
+		});
 		
 		$(document).on("change", ".section--request form input[name='access']", function() {
 			if (this.id === "access1" && this.checked) {
 				requestDemoForm.attr("data-segment-name", requestDemoSegmentName);
 			} else {
 				requestDemoForm.attr("data-segment-name", null);
+			}
+		});
+		
+		$(document).on("change", ".section--request #agree", function() {
+			if (this.checked) {
+				$("#agree-warning").hide();
+			} else {
+				$("#agree-warning").show();
 			}
 		});
 		

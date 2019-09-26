@@ -1,4 +1,4 @@
-<div class="section section--request">
+<div class="section section--request {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
     <div class="section__inner container">
         <div class="section__header">
             <a class="section__logo" href="/"></a>
@@ -71,11 +71,12 @@
                             </div>
                             <div class="form-group">
                                 <div class="form-descr">
-                                    <label style="font-weight: normal;font-size: .875rem;line-height: 1.4;margin-bottom: 0;">
-                                        <input type="checkbox" id="agree" name="agree" value="on" data-val="true" data-val-required />
+                                    <input type="checkbox" id="agree" name="agree" value="on" class="form-checkbox__input"/>
+                                    <label class="form-checkbox__label" for="agree">
                                         By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
                                     </label>
                                 </div>
+                                <div id="agree-warning" class="form-error">You must agree terms and privacy.</div>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn--orange btn--block">Request demo</button>
@@ -94,13 +95,6 @@
                             <div class="form-group">
                                 <button type="button" class="btn btn--orange btn--block send-again">Send again</button>
                             </div>
-                            <div class="form-group">
-                                <div class="form-descr">
-                                    <p>
-                                        By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                         <div class="thanks-wrapper link-thanks" style="display: none;">
                             <div class="thanks">
@@ -114,13 +108,6 @@
                             </div>
                             <div class="form-group">
                                 <button type="button" class="btn btn--orange btn--block send-again">Send again</button>
-                            </div>
-                            <div class="form-group">
-                                <div class="form-descr">
-                                    <p>
-                                        By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
-                                    </p>
-                                </div>
                             </div>
                         </div>
                     </div>
