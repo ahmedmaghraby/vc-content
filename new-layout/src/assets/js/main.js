@@ -93,16 +93,12 @@ $(function (){
 		$.validator.unobtrusive.parseElement($(".section--request form #agree"), true);
 		$(document).on("submit", ".section--request form", function(event) {
 			var form = $(this);
-			// if (form.valid() && this.agree.checked) {
 			if (form.valid()) {
 				$(this).hide();
 				$(".section--request .thanks-wrapper").hide();
 				var targetThanks = $("[name='access']:checked", form).data('thanks-class');
 				$(".section--request .thanks-wrapper." + targetThanks).show();
 			}
-			/*if (!this.agree.checked) {
-				$("#agree-warning").show();
-			}*/
 		});
 		
 		$(document).on("change", ".section--request form input[name='access']", function() {
@@ -112,14 +108,11 @@ $(function (){
 				requestDemoForm.attr("data-segment-name", null);
 			}
 		});
-		
-		/*$(document).on("change", ".section--request #agree", function() {
-			if (this.checked) {
-				$("#agree-warning").hide();
-			} else {
-				$("#agree-warning").show();
-			}
-		});*/
+		/*
+		$(document).on("change", ".section--request #agree", function() {
+			$(this).val(this.checked);
+		});
+		*/
 		
 		$(document).on("change", ".section--request form input[name='fullname']", function() {
 			var value = $(this).val().trim();

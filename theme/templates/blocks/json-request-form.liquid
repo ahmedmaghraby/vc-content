@@ -73,7 +73,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="form-descr">
-                                    <input data-val="true" data-val-mandatory="Please agree with our terms" type="checkbox" id="agree" name="agree" value="true" class="form-checkbox__input"/>
+                                    <input data-val="true" data-val-mandatory="Please agree with our terms" onchange="this.value = this.checked" type="checkbox" id="agree" name="agree" value="false" class="form-checkbox__input"/>
                                     <label class="form-checkbox__label" for="agree">
                                         By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
                                     </label>
