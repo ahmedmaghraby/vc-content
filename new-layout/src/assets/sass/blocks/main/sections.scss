@@ -58,12 +58,28 @@
         {
             font-size: 1.25rem;
         }
+
+        &--large
+        {
+            font-size: 2rem;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        &--opacity
+        {
+            color: rgba(255,255,255,.6);
+        }
 		
 		&--centered
 		{
 			text-align: center;
 		}
-
+        
+        & ~ .section__t
+        {
+            margin-top: 0;
+        }
     }
 
 	a.link-large
@@ -737,6 +753,7 @@
 {
     background: $orange;
     margin-bottom: 6.25rem;
+    min-height: 40rem;
     position: relative;
 
     &::after
@@ -748,6 +765,208 @@
         left: 0;
         position: absolute;
         right: 0;
+    }
+
+    .section__animate
+    {
+        display: flex;
+        overflow: hidden;
+
+        &-item
+        {
+            flex: 1 0 100%;
+            max-width: 100%;
+
+            &:not(:first-child)
+            {
+                margin-left: -100%;
+            }
+
+            .section__t,
+            .section__descr
+            {
+                opacity: 0;
+                transform: translateX(2rem);
+                transition: all .35s ease;
+            }
+
+            .section__descr
+            {
+                transition-delay: .15s;
+            }
+
+            &.completed
+            {
+                .section__t,
+                .section__descr
+                {
+                    opacity: 1;
+                    transform: translate(0);
+                }
+            }
+
+            &.animated
+            {
+                max-height: 0;
+                
+                .section__t,
+                .section__descr
+                {
+                    opacity: 0;
+                    transform: translate(-2rem);
+                }
+            }
+        }
+    }
+
+    .thank-you
+    {
+        position: relative;
+        text-align: left;
+
+        .list
+        {
+            display: flex;
+            flex-wrap: wrap;
+
+            &__item
+            {
+                box-sizing: border-box;
+                flex: 0 0 33.3333%;
+                max-width: 33.3333%;
+                max-height: 0;
+                opacity: 0;
+                transform: translateY(2rem);
+                transition: all .35s ease;
+            }
+
+            @for $i from 1 through 3
+            {
+                &__item:nth-child(#{$i})
+                {
+                    transition-delay: $i * .1s;
+                }
+            }
+
+            &__inner
+            {
+                background: $white;
+                border-radius: .625rem;
+                box-shadow: 0 .4375rem .875rem 0 rgba(0,0,0,.19);
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                padding: 1.875rem;
+            }
+
+            &__ico
+            {
+                margin-bottom: 5rem;
+
+                .fill
+                {
+                    fill: $black;
+                }
+            }
+
+            &__descr
+            {
+                font-size: 1.375rem;
+                font-weight: bold;
+                line-height: 1.17;
+                margin-bottom: 1.5rem;
+            }
+
+            .arrow
+            {
+                display: inline-block;
+                margin-top: auto;
+                width: 3.75rem;
+
+                .fill
+                {
+                    fill: $black;
+                    opacity: .15;
+                }
+            }
+        }
+
+        &.animated
+        {
+            z-index: 5;
+
+            .list
+            {
+                &__item
+                {
+                    max-height: 40rem;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            &.animated
+            {
+                margin-top: -10rem;
+                top: 10rem;
+            }
+
+            .list
+            {
+                margin: 0 -1.5625rem;
+
+                &__item
+                {
+                    padding: 0 1.5625rem;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            margin-top: -2.5rem;
+
+            .list
+            {
+                &__item
+                {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+
+                    & ~ .list__item
+                    {
+                        margin-top: 1.25rem;
+                    }
+                }
+            }
+        }
+
+        @include media-breakpoint-down(xs) {
+            .list
+            {
+                &__inner
+                {
+                    padding: 1.25rem;
+                }
+
+                &__ico
+                {
+                    margin-bottom: 2.5rem;
+                    width: 2rem;
+                }
+
+                &__descr
+                {
+                    font-size: 1rem;
+                }
+
+                .arrow
+                {
+                    width: 2.5rem;
+                }
+            }
+        }
     }
 
     @include media-breakpoint-down(md) {
@@ -767,23 +986,16 @@
         margin-bottom: 2.5rem;
     }
 
-    .section__descr
-    {
-        font-size: 1.25rem;
-        font-weight: 500;
-        line-height: 1.5;
-    }
-
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(xs) {
         .section__t
         {
-            font-size: 1.875rem;
+            font-size: 2rem;
             margin-bottom: 1.25rem;
         }
 
         .section__descr
         {
-            font-size: .875rem;
+            font-size: 1.25rem;
         }
     }
 
@@ -798,9 +1010,18 @@
         background: $white;
         box-shadow: 0 .4375rem .875rem 0 rgba(0,0,0,.19);
         margin-bottom: -6.25rem;
+        max-height: 60rem;
         padding: 2.5rem;
         position: relative;
+        transition: all .75s ease;
         z-index: 5;
+
+        &.animated
+        {
+            max-height: 0;
+            opacity: 0;
+            z-index: -1;
+        }
 
         @include media-breakpoint-down(md) {
             margin: 0;
