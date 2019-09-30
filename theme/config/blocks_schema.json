@@ -82,6 +82,116 @@
       }
     ]
   },
+  "form-with-animation": {
+    "name": "Form with animation",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Form with animation",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://img2.goodfon.ru/original/1440x900/8/3d/sova-vzglyad-belyy-white.jpg" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "logo",
+        "label": "Partner logo",
+        "type": "image",
+        "default": { "url": null },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "phone",
+        "label": "Phone number",
+        "type": "string",
+        "default": "+1 800 980—5288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Phone link",
+        "type": "string",
+        "default": "tel:+18009805288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chat",
+        "label": "Caption for chat",
+        "type": "string",
+        "default": "Chat with us",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for chat",
+        "type": "string",
+        "default": "",
+        "tab": "Contacts"
+      },
+      {
+        "id": "sendButtonText",
+        "label": "Submit form text",
+        "type": "string",
+        "default": "Request demo"
+      }
+    ]
+  },
   "decorated-hero": {
     "name": "Decorated hero",
     "icon": "image-text",
