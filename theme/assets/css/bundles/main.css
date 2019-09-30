@@ -4986,6 +4986,10 @@ code {
     text-transform: uppercase;
 }
 
+.header-phone > * {
+    color: inherit;
+}
+
 .header .nav {
     display: -ms-flexbox;
     display: flex;
@@ -5123,6 +5127,18 @@ code {
 }
 
 @media (max-width: 575.98px) {
+    .header-phone > * {
+        -ms-flex-align: center;
+        align-items: center;
+        background: url("../../images/redesign/icons/phone.svg") no-repeat scroll 0 0;
+        background-size: cover;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 0;
+        height: 1.25rem;
+        width: 1.25rem;
+    }
+
     .header-nav .btn {
         margin: 0;
     }
