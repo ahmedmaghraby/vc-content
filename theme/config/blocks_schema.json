@@ -100,40 +100,7 @@
         "type": "string",
         "default": "Block title",
         "autofocus": true
-      },
-      {
-        "id": "headerType",
-        "label": "Header type",
-        "default": "like-h2",
-        "tab": "Settings",
-        "type": "select",
-        "options": [
-          {
-            "value": "h1",
-            "label": "H1"
-          },
-          {
-            "value": "h2",
-            "label": "H2"
-          },
-          {
-            "value": "h3",
-            "label": "H3"
-          },
-          {
-            "value": "like-h1",
-            "label": "Like H1"
-          },
-          {
-            "value": "like-h2",
-            "label": "Like H2"
-          },
-          {
-            "value": "like-h3",
-            "label": "Like H3"
-          }
-        ]
-      },
+      },      
       {
         "id": "content",
         "label": "Content",
@@ -181,13 +148,94 @@
         "id": "chatLink",
         "label": "Link for chat",
         "type": "string",
-        "default": "",
         "tab": "Contacts"
       },
       {
         "id": "sendButtonText",
         "label": "Submit form text",
         "type": "string",
+        "default": "Request demo"
+      },
+      {
+        "id": "formFields",
+        "label": "Form",
+        "type": "list",
+        "addText": "Add field",
+        "removeText": "Remove field",
+        "displayField": "labelText",
+        "element": [
+          {
+            "id": "fieldName",
+            "label": "Field name",
+            "type": "string"
+          },
+          {
+            "id": "fieldId",
+            "label": "Field ID",
+            "type": "string"
+          },
+          {
+            "id": "fieldType",
+            "label": "fieldType",
+            "type": "select",
+            "options": [
+              {
+                "value": "text",
+                "label": "Text"
+              },
+              {
+                "value": "checkbox",
+                "label": "Checkbox"
+              },
+              {
+                "value": "hidden",
+                "label": "Hidden"
+              }
+            ]
+          },
+          {
+            "id": "labelText",
+            "label": "Label text",
+            "type": "text"
+          },
+          {
+            "id": "data",
+            "label": "Additional data",
+            "type": "string"
+          },
+          {
+            "id": "required",
+            "label": "Required field",
+            "type": "checkbox"
+          }
+        ],
+        "default": [
+          {
+            "fieldName": "fullname",
+            "fieldId": "fullname",
+            "fieldType": "text",
+            "labelText": "Full name"
+          },
+          {
+            "fieldName": "email",
+            "fieldId": "email",
+            "fieldType": "text",
+            "labelText": "Email"
+          },
+          {
+            "fieldName": "agree",
+            "fieldId": "agree",
+            "fieldType": "checkbox",
+            "labelText": "By clicking «Request Demo» I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+          }
+        ],
+        "tab": "Form"
+      },
+      {
+        "id": "submitButtonText",
+        "label": "Submit button text",
+        "type": "string",
+        "tab": "Form",
         "default": "Request demo"
       }
     ]
