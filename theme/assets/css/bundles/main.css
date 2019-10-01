@@ -5443,14 +5443,11 @@ code {
 
 @media (max-width: 991.98px) {
     .section .section__links-item {
-        display: none;
-        font-size: 0;
-        padding-left: 2.5rem;
-    }
-
-    .section .section__links-item[data-name="chat"] {
         display: -ms-flexbox;
         display: flex;
+        font-size: 0;
+        margin-left: 2rem;
+        padding-left: 2.5rem;
     }
 }
 
@@ -6433,6 +6430,187 @@ code {
     top: 0;
 }
 
+.section--form .section__animate {
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.section--form .section__animate-item {
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+    max-width: 100%;
+}
+
+.section--form .section__animate-item:not(:first-child) {
+    margin-left: -100%;
+}
+
+.section--form .section__animate-item .section__t,
+      .section--form .section__animate-item .section__descr {
+    opacity: 0;
+    -ms-transform: translateX(2rem);
+    transform: translateX(2rem);
+    transition: all .35s ease;
+}
+
+.section--form .section__animate-item .section__descr {
+    transition-delay: .15s;
+}
+
+.section--form .section__animate-item.completed .section__t,
+      .section--form .section__animate-item.completed .section__descr {
+    opacity: 1;
+    -ms-transform: translate(0);
+    transform: translate(0);
+}
+
+.section--form .section__animate-item.animated {
+    max-height: 0;
+}
+
+.section--form .section__animate-item.animated .section__t,
+        .section--form .section__animate-item.animated .section__descr {
+    opacity: 0;
+    -ms-transform: translate(-2rem);
+    transform: translate(-2rem);
+}
+
+.section--form .thank-you {
+    position: relative;
+    text-align: left;
+}
+
+.section--form .thank-you .list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.section--form .thank-you .list__item {
+    box-sizing: border-box;
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    max-height: 0;
+    opacity: 0;
+    -ms-transform: translateY(2rem);
+    transform: translateY(2rem);
+    transition: all .35s ease;
+}
+
+.section--form .thank-you .list__item:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.section--form .thank-you .list__item:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.section--form .thank-you .list__item:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.section--form .thank-you .list__inner {
+    background: #fff;
+    border-radius: .625rem;
+    box-shadow: 0 0.4375rem 0.875rem 0 rgba(0, 0, 0, 0.19);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.875rem;
+}
+
+.section--form .thank-you .list__ico {
+    margin-bottom: 5rem;
+}
+
+.section--form .thank-you .list__ico .fill {
+    fill: #0c1015;
+}
+
+.section--form .thank-you .list__descr {
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 1.17;
+    margin-bottom: 1.5rem;
+}
+
+.section--form .thank-you .list .arrow {
+    display: inline-block;
+    margin-top: auto;
+    width: 3.75rem;
+}
+
+.section--form .thank-you .list .arrow .fill {
+    fill: #0c1015;
+    opacity: .15;
+}
+
+.section--form .thank-you.animated {
+    z-index: 5;
+}
+
+.section--form .thank-you.animated .list__item {
+    max-height: 40rem;
+    opacity: 1;
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+@media (min-width: 992px) {
+    .section--form .thank-you.animated {
+        margin-top: -10rem;
+        top: 10rem;
+    }
+
+    .section--form .thank-you .list {
+        margin: 0 -1.5625rem;
+    }
+
+    .section--form .thank-you .list__item {
+        padding: 0 1.5625rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section--form .thank-you {
+        margin-top: -2.5rem;
+    }
+
+    .section--form .thank-you .list__item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .section--form .thank-you .list__item ~ .list__item {
+        margin-top: 1.25rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section--form .thank-you .list__inner {
+        padding: 1.25rem;
+    }
+
+    .section--form .thank-you .list__ico {
+        margin-bottom: 2.5rem;
+        width: 2rem;
+    }
+
+    .section--form .thank-you .list__descr {
+        font-size: 1rem;
+    }
+
+    .section--form .thank-you .list .arrow {
+        width: 2.5rem;
+    }
+}
+
 .section--form .section__logo {
     max-width: 100%;
 }
@@ -6469,9 +6647,24 @@ code {
 .section--form .form {
     background: #fff;
     box-shadow: 0 0.4375rem 0.875rem 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: -6.25rem;
+    max-height: 60rem;
     padding: 2.5rem;
     position: relative;
+    transition: all .75s ease;
     z-index: 5;
+}
+
+.section--form .form.animated {
+    max-height: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+@media (max-width: 991.98px) {
+    .section--form .form {
+        margin: 0;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -6499,8 +6692,9 @@ code {
 .section--form .form .form-checkbox__label {
     font-size: .875rem;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 1.15;
     margin: 0;
+    padding-top: .25rem;
 }
 
 .section--form .form .form-control {
