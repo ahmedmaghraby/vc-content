@@ -100,7 +100,7 @@
         "type": "string",
         "default": "Block title",
         "autofocus": true
-      },      
+      },
       {
         "id": "content",
         "label": "Content",
@@ -155,6 +155,31 @@
         "label": "Submit form text",
         "type": "string",
         "default": "Request demo"
+      },
+      {
+        "id": "thankYouItems",
+        "label": "Thank you links",
+        "type": "list",
+        "addText": "Add link",
+        "removeText": "Remove link",
+        "displayField": "text",
+        "element": [
+          {
+            "id": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "id": "icon",
+            "type": "image",
+            "label": "Icon"
+          },
+          {
+            "id": "text",
+            "type": "string",
+            "label": "Text"
+          }
+        ]
       },
       {
         "id": "formFields",
@@ -2016,16 +2041,35 @@
         "type": "string"
       },
       {
-        "id": "touchThanks",
-        "label": "Thanks message for «touch» option",
+        "id": "thankYou",
+        "label": "Thank you text",
         "type": "string",
-        "default": "We will contact you shortly. In the meantime, you can access the Virto Commerce demo environment via a link which we’ve sent you to your inbox."
+        "default": "Thank you!<br/>We will be in touch soon."
       },
       {
-        "id": "linkThanks",
-        "label": "Thanks message for «link» option",
-        "type": "string",
-        "default": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions."
+        "id": "thankYouItems",
+        "label": "Thank you links",
+        "type": "list",
+        "addText": "Add link",
+        "removeText": "Remove link",
+        "displayField": "text",
+        "element": [
+          {
+            "id": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "id": "icon",
+            "type": "image",
+            "label": "Icon"
+          },
+          {
+            "id": "text",
+            "type": "string",
+            "label": "Text"
+          }
+        ]
       },
       {
         "id": "noTop",

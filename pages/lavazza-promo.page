@@ -46,6 +46,14 @@
                 "labelText": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
                 "data": null,
                 "required": true
+            },
+            {
+                "fieldName": "testField",
+                "fieldId": "testField",
+                "fieldType": "hidden",
+                "labelText": null,
+                "data": "lavazza",
+                "required": null
             }
         ],
         "submitButtonText": "Request demo"

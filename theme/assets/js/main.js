@@ -1,5 +1,10 @@
-$(function (){
+(function ($) {
+	if (!!$.validator) {
+		$.validator.unobtrusive.adapters.addBool("mandatory", "required");
+	}
+} (jQuery));
 
+$(function (){
     $('.header .nav__item').on('click', function() {
         var self = $(this);
 
@@ -87,21 +92,7 @@ $(function (){
 	var requestDemoForm = $(".section--request form");
 	if (requestDemoForm.length) {
 		var requestDemoSegmentName = requestDemoForm.data("segment-name");
-
-		$(document).on("submit", ".section--request form", function(event) {
-			var form = $(this);
-			if (form.valid() && this.agree.checked) {
-				$(this).hide();
-				$(".section--request .thanks-wrapper").hide();
-				var targetThanks = $("[name='access']:checked", form).data('thanks-class');
-				$(".section--request .thanks-wrapper." + targetThanks).show();
-			} else {
-				event.preventDefault();
-			}
-			if (!this.agree.checked) {
-				$("#agree-warning").show();
-			}
-		});
+		$.validator.unobtrusive.parseElement($(".section--request form #agree"), true);
 		
 		$(document).on("change", ".section--request form input[name='access']", function() {
 			if (this.id === "access1" && this.checked) {
@@ -110,14 +101,11 @@ $(function (){
 				requestDemoForm.attr("data-segment-name", null);
 			}
 		});
-		
+		/*
 		$(document).on("change", ".section--request #agree", function() {
-			if (this.checked) {
-				$("#agree-warning").hide();
-			} else {
-				$("#agree-warning").show();
-			}
+			$(this).val(this.checked);
 		});
+		*/
 		
 		$(document).on("change", ".section--request form input[name='fullname']", function() {
 			var value = $(this).val().trim();
@@ -132,13 +120,50 @@ $(function (){
 			form.firstName.value = firstName;
 			form.lastName.value = lastName;
 		});
-		
-		$(".section--request .send-again").on("click", function() {
-			var form = $(".section--request form");
-			$("input[type='text']", form).val("");
-			$("input[type='checkbox']", form).attr("checked", false);
-			form.show();
-			$(".section--request .thanks-wrapper").hide();
-		});
+	}
+	
+	$(document).on("submit", "[data-animated-submit]", function(event) {
+		var form = $(this);
+		if (form.valid()) {
+			var section = form.closest('.section--animated');
+			$('.section__animate-item:nth-child(1)', section).addClass('animated');
+
+			setTimeout(function() {
+				$('.form', section).addClass('animated');
+			}, 500);
+			
+			setTimeout(function() {
+				$('.section__animate-item:nth-child(2)', section).addClass('completed');
+			}, 650);
+
+			setTimeout(function() {
+				$('.thank-you', section).addClass('animated');
+			}, 750);
+		}
+	});
+
+	
+	// ?utm_source=asset_downloads&
+	//  utm_medium=email&
+	//  utm_term=--Asset Type--&
+	//  utm_content=--Asset Name--&
+	//  utm_campaign=--Campaign--
+
+	var files = {};
+	files['lavazza'] = '/assets/files/lavazza-case-study.pdf';
+	var params = parseUrl();
+	var attachUrl = files[params.utm_content];
+	if (attachUrl) {
+		window.location.assign(attachUrl);
+	}
+	
+	function parseUrl() {
+		var result = {};
+		var vars = document.location.search.substring(1).split('&');
+		for (var i = 0; i < vars.length; i++) {
+			var pair = vars[i].split('=');
+			result[pair[0]] = decodeURIComponent(pair[1]);
+		}
+		return result;
 	}
 });
