@@ -149,22 +149,24 @@ $(function (){
 	//  utm_content=--Asset Name--&
 	//  utm_campaign=--Campaign--
 
-	var files = {};
-	files['lavazza'] = '/assets/files/lavazza-case-study.pdf';
-	var params = parseUrl();
-	var attachUrl = files[params.utm_content];
-	if (attachUrl) {
-		window.location.assign(attachUrl);
-	}
-	
-	function parseUrl() {
-		var result = {};
-		var vars = document.location.search.substring(1).split('&');
-		for (var i = 0; i < vars.length; i++) {
-			var pair = vars[i].split('=');
-			result[pair[0]] = decodeURIComponent(pair[1]);
+	if (false) {
+		var files = {};
+		files['lavazza'] = '/assets/files/lavazza-case-study.pdf';
+		var params = parseUrl();
+		var attachUrl = files[params.utm_content];
+		if (attachUrl) {
+			window.location.assign(attachUrl);
 		}
-		return result;
+		
+		function parseUrl() {
+			var result = {};
+			var vars = document.location.search.substring(1).split('&');
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split('=');
+				result[pair[0]] = decodeURIComponent(pair[1]);
+			}
+			return result;
+		}
 	}
 });
 

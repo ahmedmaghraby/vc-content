@@ -2019,12 +2019,6 @@
         "tab": "Settings"
       },
       {
-        "id": "showCustomers",
-        "label": "Display customers block",
-        "type": "checkbox",
-        "tab": "Settings"
-      },
-      {
         "id": "content",
         "label": "Content",
         "type": "text",
@@ -2351,6 +2345,57 @@
         "type": "checkbox",
         "tab": "Settings",
         "default": true
+      }
+    ]
+  },
+  "business-leaders": {
+    "name": "Business Leaders",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Business Leaders"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
       }
     ]
   },
