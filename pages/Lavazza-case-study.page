@@ -33,7 +33,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<h3>&quot;We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need -- today and long-term. With Virto, the product options are customizable for both B2B and B2C activities - and that improved customer ordering experiences and streamlined our processes.&quot; -- rb2 ecommerce team</h3>\n",
+        "content": "<h3>&quot;We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need &ndash;&nbsp;today and long-term. With Virto, the product options are customizable for both B2B and B2C activities &nbsp;and that improved customer ordering experiences and streamlined our processes.&quot; &ndash;&nbsp;rb2 ecommerce team</h3>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -44,7 +44,8 @@
         },
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 4,
@@ -94,6 +95,7 @@
         "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
         "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/lavazza-case-study.pdf",
         "headerType": null,
-        "formIdentifier": "Lavazza case study"
+        "formIdentifier": "Lavazza case study",
+        "buttonId": "lavazzaDownloadButton"
     }
 ]

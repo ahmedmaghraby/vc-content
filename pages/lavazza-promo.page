@@ -1,33 +1,37 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "Download the Lavazza Case Study",
         "permalink": "lavazza-promo",
-        "id": 1
+        "id": 1,
+        "layout": "footer-only",
+        "header": "Download the Lavazza Case Study"
     },
     {
         "id": 2,
         "type": "form-with-animation",
         "name": "hero",
-        "title": "Get case study",
-        "content": "<p>Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the &quot;Get in touch with me&quot; option and we will contact you shortly.</p>\n",
+        "title": "The Lavazza Case Study",
+        "content": "<p>Learn about how we&nbsp;created new and unified B2B &amp; B2C e-commerce solution for Lavazza Nederland and gained insights into customer behavior in partnership with RB2.</p>\n",
         "image": {
-            "url": "http://localhost/admin/assets/blogs/sova-vzglyad-belyy-white.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/shutterstock_613211285.jpg",
+            "altText": null
         },
         "logo": {
-            "url": "http://localhost/admin/assets/blogs/logo-lavazza.svg"
+            "url": null,
+            "altText": null
         },
         "phone": "+1 800 980—5288",
         "phoneLink": "tel:+18009805288",
         "chat": "",
         "chatLink": null,
-        "sendButtonText": "Request demo",
+        "sendButtonText": "Download Now",
         "formFields": [
             {
                 "fieldName": "fullname",
                 "fieldId": "fullname",
                 "fieldType": "text",
-                "labelText": "<p>Fullname</p>\n",
+                "labelText": "<p>Full Name</p>\n",
                 "data": null,
                 "required": true
             },
@@ -35,7 +39,7 @@
                 "fieldName": "email",
                 "fieldId": "email",
                 "fieldType": "text",
-                "labelText": "<p>Email</p>\n",
+                "labelText": "<p>Business Email</p>\n",
                 "data": null,
                 "required": true
             },
@@ -48,14 +52,94 @@
                 "required": true
             },
             {
-                "fieldName": "testField",
-                "fieldId": "testField",
+                "fieldName": "assetType",
+                "fieldId": "assetType",
                 "fieldType": "hidden",
                 "labelText": null,
-                "data": "lavazza",
+                "data": "case_study",
+                "required": null
+            },
+            {
+                "fieldName": "assetName",
+                "fieldId": "assetName",
+                "fieldType": "hidden",
+                "labelText": "",
+                "data": "lavazza_cs",
                 "required": null
             }
         ],
-        "submitButtonText": "Request demo"
+        "submitButtonText": "Download Now",
+        "thankYouItems": []
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "title": "Challenge",
+                "text": "<p>Lavazza Nederland needed a new ecommerce platform because their current solution was outdated and no longer aligned with the current or future goals. They needed&nbsp;a robust and flexible ecommerce platform that could handle their data integration, be deployed in multiple countries, and be both flexible and scalable.&nbsp;</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "title": "Solution",
+                "text": "<p>The implementation was technically complex because other systems needed to link and integrate seamlessly across Lavaza&#39;s ecosystem. Furthermore, the B2B and B2C activities had to be unified to streamline workflow and avoid managing multiple catalogs and duplicate work on the backend.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "title": "Result",
+                "text": "<p>Brand new ecommerce website powered by Virto Commerce for both for B2B and B2C. With the new functionality, the product catalog options are fully configurable, and it is now possible for customers to place their orders, view order history, manage order lists, and view invoices from one interface.</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": false,
+        "noPad": false
+    },
+    {
+        "id": 4,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Lavazza Site",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/f631a3925a09ce1d5bd42c973cc999dbcebf0eef_case_screen-lavazza.jpg",
+            "altText": null
+        },
+        "noTop": false,
+        "noBottom": false,
+        "noPad": true
+    },
+    {
+        "id": 5,
+        "type": "business-leaders",
+        "name": "Business Leaders",
+        "style": "light",
+        "noTop": false,
+        "noBottom": null,
+        "noPad": null
     }
 ]

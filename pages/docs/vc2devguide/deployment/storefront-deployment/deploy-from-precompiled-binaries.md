@@ -5,7 +5,7 @@ layout: docs
 ---
 ## Summary
 
-Use this guide to <a class="crosslink" href="https://virtocommerce.com/" target="_blank">deploy</a> and configure precompiled Virto Commerce Storefront.
+Use this guide to <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">deploy</a> and configure precompiled Virto Commerce Storefront.
 
 
 ### Prerequisites

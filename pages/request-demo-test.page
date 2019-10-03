@@ -1,0 +1,28 @@
+[
+    {
+        "type": "settings",
+        "title": "Get a Demo",
+        "permalink": "contact-us",
+        "id": 1,
+        "layout": "footer-only",
+        "description": "Get a Demo of our .NET, Open Source, Flexible and Scalable Ecommerce platform."
+    },
+    {
+        "id": 2,
+        "type": "request-form",
+        "name": "Request demo form",
+        "title": "Request a Virto Commerce Demo",
+        "formName": "request-demo",
+        "content": "<p>Please fill out the form and we will get it touch with you shortly, however,&nbsp;if don&#39;t&nbsp;want us to run you through the platform, hit the &quot;Get only link access&quot; option to receive&nbsp;the Virto Commerce demo sites access only.</p>\n",
+        "phoneLink": "tel:+18009805288",
+        "chatLink": null,
+        "showCustomers": true,
+        "touchThanks": "We will contact you shortly. In the meantime, you can access the Virto Commerce demo environment via a link which we’ve sent you to your inbox.",
+        "linkThanks": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions.",
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null,
+        "thankYou": "Thank you!<br/>We will be in touch soon.",
+        "thankYouItems": []
+    }
+]

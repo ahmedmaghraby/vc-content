@@ -182,49 +182,113 @@
         "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
         "fields": [
             {
-                "label": "Full name",
-                "name": "fullname",
+                "label": "First Name",
+                "name": "firstname",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "segmentFieldName": "first_name",
+                "required": true
+            },
+            {
+                "label": "Last Name",
+                "name": "lastname",
+                "type": null,
+                "data": null,
+                "fullrow": null,
+                "segmentFieldName": "last_name",
+                "required": true
             },
             {
                 "label": "Email",
                 "name": "email",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "segmentFieldName": "email",
+                "required": null
+            },
+            {
+                "label": "Github Handle",
+                "name": "github",
+                "type": "text",
+                "data": "",
+                "fullrow": null,
+                "segmentFieldName": "github",
+                "required": null
+            },
+            {
+                "label": "Street address",
+                "name": "streetAdress",
+                "type": null,
+                "data": null,
+                "fullrow": null,
+                "segmentFieldName": "street_adress",
+                "required": null
+            },
+            {
+                "label": "Country, Zip/Postal Code",
+                "name": "zipcode",
+                "type": "text",
+                "data": null,
+                "fullrow": null,
+                "segmentFieldName": "zipcode",
+                "required": null
             },
             {
                 "label": "Phone",
                 "name": "phone",
                 "type": "text",
                 "data": null,
-                "fullrow": false
+                "fullrow": false,
+                "segmentFieldName": "phone",
+                "required": null
             },
             {
                 "label": "Company",
                 "name": "company",
                 "type": "text",
                 "data": null,
-                "fullrow": false
-            },
-            {
-                "label": "Website",
-                "name": null,
-                "type": null,
-                "data": null,
-                "fullrow": true
+                "fullrow": false,
+                "segmentFieldName": "company.name",
+                "required": null
             },
             {
                 "label": "Comments",
                 "name": "comments",
                 "type": "textarea",
                 "data": null,
-                "fullrow": true
+                "fullrow": true,
+                "segmentFieldName": "recent_note",
+                "required": null
             }
         ],
         "outtro": "<p>By clicking &laquo;Inquire about Partnership&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
-        "buttonText": "Inquire about Partnership"
+        "buttonText": "Inquire about Partnership",
+        "formName": "Contribution Form",
+        "segmentOptions": "{ \"integrations\": { \"All\": false, \"Autopilot\": true, \"Freshsales\": false } }"
+    },
+    {
+        "id": 9,
+        "type": "image-with-text",
+        "name": "Image with text",
+        "title": "Block title",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "align": "left",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png"
+        },
+        "content": "<p>Useful content</p>\n",
+        "url1": {
+            "url": "https://virtocommerce.com/blog/virto-version-3-beta-product-release-notes",
+            "urlText": "Virto Version 3 Beta Product Release Notes",
+            "style": "btn btn--orange btn--lg"
+        },
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
     }
 ]

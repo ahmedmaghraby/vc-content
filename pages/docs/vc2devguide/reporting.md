@@ -1,4 +1,4 @@
----
+﻿---
 title: Reporting - Virto Commerce 2 Developer Guide
 description: The article abour reporting in Virto Commerce
 layout: docs
@@ -15,4 +15,4 @@ Having the Business Intelligent platforms, IT mediation has become optional. BI 
 
 That is why in VirtoCommerce we decided to let the BI systems analyze data, compose charts and build reports based on the rules and requirements of the end-user.
 
-In the documents of the chapter you'll find an overview of the two leading BI systems (according to <a href="https://www.gartner.com/en/research/methodologies/magic-quadrants-research" rel="nofollow">The Gartner Magic Quadrant</a>). The goal of the documents is not to build a complete analysis of <a class="crosslink" href="https://virtocommerce.com/b2b-ecommerce-platform" target="_blank">Virto Commerce data</a>. The goal is to demonstrate how easy it is to create charts, reports and analyze accumulated data using BI platform and VirtoCommerce accumulated data.
+In the documents of the chapter you'll find an overview of the two leading BI systems (according to <a href="https://www.microstrategy.com/us/company/analyst-reviews/gartner-magic-quadrant" rel="nofollow">The Gartner Magic Quadrant</a>). The goal of the documents is not to build a complete analysis of <a class="crosslink" href="https://virtocommerce.com/b2b-ecommerce-platform" target="_blank">Virto Commerce data</a>. The goal is to demonstrate how easy it is to create charts, reports and analyze accumulated data using BI platform and VirtoCommerce accumulated data.

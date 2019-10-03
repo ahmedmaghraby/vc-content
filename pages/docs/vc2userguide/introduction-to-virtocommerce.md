@@ -11,7 +11,7 @@ Virto Commerce includes the **Commerce Manager** (server and management website)
 
 With the help of the Commerce Manager client, administrative users adjust system settings, such as search engine optimization, user accounts, payment gateways and system configuration parameters. Customer Service Representatives (CSR) use Commerce Manager client to manage customer orders and requests.
 
-The <a class="crosslink" href="https://virtocommerce.com/enterprise-ecommerce-architecture" target="_blank">web Storefront</a> is a website where customers shop for the products that are offered through the Commerce Manager. 
+The <a class="crosslink" href="https://virtocommerce.com/ecommerce-website" target="_blank">web Storefront</a> is a website where customers shop for the products that are offered through the Commerce Manager. 
 
 The mobile Storefront app duplicates web Storefront and gives better user experience for mobile users. Check more on [Mobile Starter app page](docs/vc2userguide/introduction-to-virtocommerce/mobile-starter-app).
 

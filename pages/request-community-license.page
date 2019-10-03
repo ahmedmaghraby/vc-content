@@ -1,0 +1,92 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "request-community-license",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "Community License",
+        "headerType": "h1",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3><span class=\"section__descr--normal\">Production License Community Edition of Virto Commerce is offered free of charge if you meet the requirements of the Community Edition License (mainly revenue restriction).</span></h3>\n\n<p>All we ask from you is to complete the form below and share your experience with our community on Facebook or Twitter.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "formName": null,
+        "segmentOptions": null,
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
+        "fields": [
+            {
+                "label": "First name",
+                "name": "Contact[FirstName]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "Last Name",
+                "name": "Contact[LastName]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "Email",
+                "name": "Contact[Email]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "URL",
+                "name": "Contact[Url]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "I Agree to terms (yearly revenue of not exceeding US1,000,000)",
+                "name": "Contact[Agree]",
+                "type": "checkbox",
+                "data": null,
+                "fullrow": true,
+                "segmentFieldName": null,
+                "required": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Request License&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "buttonText": "Request License"
+    }
+]

@@ -104,8 +104,8 @@ $(function (){
 			lastName = value.substring(index + 1);
 		}
 		var form = $(this).closest('form').get(0);
-		form.firstName.value = firstName;
-		form.lastName.value = lastName;
+		form.firstName = firstName;
+		form.lastName = lastName;
 	});
 	
 	$(".section--request .send-again").on("click", function() {

@@ -2,7 +2,7 @@
     {
         "type": "settings",
         "title": "Get a Demo",
-        "permalink": "contact-us",
+        "permalink": "contact-us-old",
         "header": "Request a Virto Commerce Demo",
         "id": 1,
         "description": "Get a Demo of our .NET, Open Source, Flexible and Scalable Ecommerce platform."
@@ -38,79 +38,108 @@
         "intro": "<p>Please fill out the below form, and someone from team will be in touch shortly to schedule a demo at your convenience, or answer any questions you have about our platform.&nbsp;</p>\n",
         "fields": [
             {
-                "label": "Full name",
-                "name": "fullname",
+                "label": "First name",
+                "name": "Contact[FirstName]",
                 "type": "text",
                 "data": "",
                 "fullrow": false,
+                "segmentFieldName": "firstName",
+                "required": true
+            },
+            {
+                "label": "Last name",
+                "name": "Contact[LastName]",
+                "type": "text",
+                "data": null,
+                "fullrow": null,
+                "segmentFieldName": "lastName",
                 "required": true
             },
             {
                 "label": "Email",
-                "name": "email",
+                "name": "Contact[Email]",
                 "type": "email",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "email",
                 "required": true
             },
             {
                 "label": "Phone",
-                "name": "phone",
+                "name": "Contact[Phone]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": true
+                "segmentFieldName": "phone",
+                "required": false
             },
             {
                 "label": "Company",
-                "name": "company",
+                "name": "Contact[Company]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": true
+                "segmentFieldName": "company.name",
+                "required": false
             },
             {
                 "label": "Job Title",
-                "name": "jobtitle",
+                "name": "Contact[JobTitle]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": true
+                "segmentFieldName": "jobTitle",
+                "required": false
             },
             {
                 "label": "Website",
-                "name": "website",
+                "name": "Contact[Website]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "website",
                 "required": null
             },
             {
                 "label": "Region",
-                "name": "region",
+                "name": "Contact[GlobalRegion]",
                 "type": "select",
-                "data": "Americas ; EMEA ; APAC",
+                "data": "Please choose;Americas;EMEA;APAC",
                 "fullrow": false,
+                "segmentFieldName": "region",
                 "required": null
             },
             {
                 "label": "How Would You Describe Yourself? ",
-                "name": "Please select from the following",
+                "name": "Contact[Message]",
                 "type": "select",
                 "data": "I am a business or technical user who needs/has an ecommerce platform; I am a developer interested in trying Virto Commerce ; I am creating a solution for a client",
                 "fullrow": true,
+                "segmentFieldName": "message",
                 "required": null
             },
             {
                 "label": "Please tell us about your project, or use this space for any other comments or questions you have.  ",
-                "name": "comments",
+                "name": "Contact[Comments]",
                 "type": "textarea",
                 "data": null,
                 "fullrow": true,
-                "required": true
+                "segmentFieldName": "recent_note",
+                "required": false
+            },
+            {
+                "label": "Hidden subject",
+                "name": "Contact[Subject]",
+                "type": "hidden",
+                "data": "Contact Us",
+                "fullrow": null,
+                "segmentFieldName": "cf_segmentcampaign",
+                "required": null
             }
         ],
         "outtro": "<p>By clicking &laquo;Request Demo&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
-        "buttonText": "Request Demo"
+        "buttonText": "Request Demo",
+        "formName": "ContactUs form submitted",
+        "segmentOptions": null
     }
 ]

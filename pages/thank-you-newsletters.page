@@ -10,16 +10,19 @@
         "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
-        "title": "Thank You",
+        "title": "Thank you, stay tuned for something awesome! ",
         "subTitle": "",
         "image": {
-            "url": "https://vcpro.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
+            "url": "https://vcpro.blob.core.windows.net/blogs/pasted image 0.png",
+            "altText": null
         },
         "content": "",
         "url1": null,
         "url2": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null,
+        "titleAlignment": null
     }
 ]

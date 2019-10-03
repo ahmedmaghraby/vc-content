@@ -13,7 +13,7 @@
         "name": "Text over image",
         "title": "How Can Enterprises Overcome Ecommerce Challenges? ",
         "headerStyle": "h1",
-        "content": "<h2>The main ecommerce challenges enterprises encounter when implementing enterprise ecommerce platforms is due to their general business complexity&nbsp;and size which makes long run planning and execution complicated. The right approach to e-commerce projects is required to overcome roadblocks.&nbsp;</h2>\n",
+        "content": "<h3>Enterprise companies&rsquo; large size and organizational complexity are two common challenges that enterprises need to navigate when implementing ecommerce platforms. With the right approach and long-term planning, enterprises can anticipate and overcome roadblocks in their ecommerce implementations.</h3>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -23,7 +23,7 @@
         "id": 3,
         "type": "list-and-text",
         "name": "Text over image",
-        "title": "Main Ecommerce Challenges Faced By Enterprises",
+        "title": "Ecommerce Challenges Faced By Enterprises",
         "style": "light",
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
@@ -38,7 +38,7 @@
                 "text": "<p>IT complexity: mix of new, old, in-house, acquired and other software</p>\n"
             }
         ],
-        "content": "<p>Ecommerce impacts and is impacted by many enterprise departments which have their own KPIs, budgets, decision making rules and ambitions.&nbsp; Departments include:&nbsp;sales, marketing, IT, finance, logistics, buyers, security, HR, legal, and more. Big changes-&nbsp;like implementing enterprise e-commerce platforms&nbsp;or significant changes in business processes-&nbsp;usually require a lot of energy and can take a long time.&nbsp;&nbsp;</p>\n\n<p>Country to country variability creates an additional challenge on top of organizational complexity. Additional regions add additional stakeholders,&nbsp; and combined with local rules, laws and customs -&nbsp;another layer of challenges is added. For example, local taxation laws&nbsp;(which may impact pricing), legal requirements and practices, HR specific, cultural differences all are things enterprises need to consider during their ecommerce journey.&nbsp;</p>\n\n<p>The complexity of enterprise IT is explained by past&nbsp;IT growth and acquisitions. Enterprise IT infrastructure is extremely complex: it consists of a mix of super-actual software (like AI services), legacy enterprise e-commerce software, software inherited from acquired companies, and a large variety of local and industry specific software (like bookkeeping, legal, ERPs etc).</p>\n\n<p>All that creates&nbsp;challenges for enterprise companies.&nbsp;</p>\n",
+        "content": "<p>Ecommerce both impacts - and is impacted by -&nbsp;many enterprise departments&nbsp;which have their own KPIs, budgets, decision making rules and goals.&nbsp; Departments include:&nbsp;sales, marketing, IT, finance, logistics, buyers, security, HR, legal, and more. Big changes,&nbsp;like implementing enterprise ecommerce platforms&nbsp;or significant changes in business processes, usually require significant energy and&nbsp;time.&nbsp;&nbsp;</p>\n\n<p>International variability creates an additional challenge on top of organizational complexity. Involving additional regions or countries in an ecommerce solution adds additional stakeholders,&nbsp;local&nbsp;laws, customs.&nbsp;For example, local tax laws&nbsp;(which may impact pricing), legal requirements and practices, HR specific, cultural differences all are areas enterprises need to consider during their ecommerce planning.&nbsp;</p>\n\n<p>The complexity of enterprise IT is often a result of&nbsp;past&nbsp;business growth, acquisitions, and IT-department mergers. Enterprise IT infrastructures manage a mix of software,&nbsp;legacy enterprise e-commerce software, and a large variety of local and industry specific software (like bookkeeping, legal, ERPs etc).</p>\n\n<p>All that creates&nbsp;challenges for enterprise companies that must be mitigated by adequate architecture planning.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -97,7 +97,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>When choosing enterprise e-commerce software, enterprises need to focus on&nbsp;speed and flexibility to stay a market leader. Enterprise organizational complexity makes changes (like implementing an e-commerce&nbsp;platform or significant changes to&nbsp;business processes) very expensive in terms of time and effort. It takes a lot of energy to implement an enterprise e-commerce solution.&nbsp;&nbsp;When a project&#39;s size grows in a linear fashion,&nbsp; efforts, risks and continuity grow exponentially.</p>\n\n<p>An effort to resolve regional complexity by designing and implementing by a unified enterprise ecommerce solution which covers all or most&nbsp;regions leads to creation of a &ldquo;monster&rdquo; which is very expensive to change, very expensive to maintain and which cannot be easily replaced when it becomes a problem - which often happens quite soon after launch.&nbsp;</p>\n\n<p>Enterprise IT complexity restricts business transformation, threatening enterprise market leadership.&nbsp; This needs to be addressed-&nbsp; enterprises need to&nbsp;constantly focus on complexity reduction and painless substitution of legacy solutions.&nbsp;</p>\n",
+        "content": "<p><strong>Focus on speed and flexibility. </strong>When choosing enterprise ecommerce software, enterprises need to focus on&nbsp;speed and flexibility to stay competitive. The complexity inherent in enterprise organizations&nbsp;makes IT changes -- like implementing an e-commerce&nbsp;platform or significant changes to&nbsp;business processes --&nbsp;very expensive in terms of time and effort.&nbsp; When a project&#39;s size and scope&nbsp;expand, then the risks and effort required to implement it&nbsp;grow exponentially as well.</p>\n\n<p><strong>Avoid monoliths</strong>. Some companies attempt&nbsp;to resolve regional complexity by designing and implementing by a unified enterprise ecommerce solution and cover&nbsp;all or most&nbsp;regions; however, this approach leads to creation of a &ldquo;monster&rdquo; which is expensive to change, very expensive to maintain and which cannot be easily replaced when it becomes a problem -- a situtation which often happens quite soon after launch.&nbsp;</p>\n\n<p><strong>Be nimble</strong>. Enterprise IT complexity restricts business transformation, threatening enterprise market leadership.&nbsp; This needs to be addressed-&nbsp; enterprises need to&nbsp;constantly focus on complexity reduction and painless substitution of legacy solutions.&nbsp;</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -163,7 +163,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>Virto Commerce&#39;s philosophy is based on the idea that making sequential changes is the only way to overcome enterprise complexity described above. Virto Commerce&#39;s enterprise e-commerce platform is designed in a way to facilitate this agile approach.</p>\n\n<p>A customizable &amp; extensible platform and modular architecture makes possible to start acting locally (in terms of regions, functions, processes) and continue by gradually extending the solution, adding new stakeholders, regions, functions, integrations with fast release cycles.&nbsp;</p>\n\n<p>Small projects reduce the&nbsp;quantity of affected stakeholders during each step&nbsp; of the process and arrive at the point where each small step is not critical for most stakeholders, so&nbsp;you can keep&nbsp;up the high speed of your implementation.&nbsp;</p>\n\n<p>Virto Commerce is very efficient in building a flexible and well maintainable multi-layer enterprise e-commerce platform&nbsp;for multi-regional companies. The experience of our customers proves&nbsp;the efficiency of starting to build a few local Virto Comemrce&nbsp;solutions and then generalizing common rules, practices, integrations and requirements in a more generic platform.</p>\n\n<p>Virto Commerce is an API-based modular e-commerce solution. It can be embedded into any process or replace any function without running a huge project. You can start substituting your legacy systems, improve their process structure or add new functionality without creating additional risks.</p>\n",
+        "content": "<p>Virto Commerce&#39;s philosophy is based on the idea that making sequential changes is the only way to overcome enterprise complexity described above. Virto Commerce&#39;s enterprise ecommerce platform is designed in a way to facilitate this agile approach.</p>\n\n<p><strong>Extensible platform: </strong>A customizable &amp; extensible platform and modular architecture makes possible to start acting locally (in terms of regions, functions, processes) and continue by gradually extending the solution, adding new stakeholders, regions, functions, integrations with fast release cycles.&nbsp;</p>\n\n<p><strong>Agile approach: </strong>Small projects reduce the&nbsp;quantity of affected stakeholders during each step&nbsp;of the process and arrive at the point where each small step is not critical for most stakeholders, so&nbsp;you can keep&nbsp;up the high speed of your implementation.&nbsp;</p>\n\n<p><strong>Multi-layer: </strong>Virto Commerce is efficient in building a flexible and maintainable multi-layer enterprise ecommerce platform&nbsp;for multi-regional companies. The success of our customers is proof of our method: we efficiently build&nbsp;local Virto Commerce solutions and then generalize the&nbsp;common rules, practices, integrations and requirements across a more standardized&nbsp;platform -- extending it out across regions and countries.</p>\n\n<p><strong>API-Based. </strong>Virto Commerce is an API-based modular ecommerce solution. It can be embedded into any process or replace any function without running a huge project. You can start substituting your legacy systems, improve their process structure or add new functionality without creating additional risks.</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -221,6 +221,7 @@
         "noTop": true,
         "noBottom": null,
         "noPad": null,
-        "headerStyle": null
+        "headerStyle": null,
+        "headerType": null
     }
 ]

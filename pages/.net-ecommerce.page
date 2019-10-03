@@ -13,7 +13,7 @@
         "name": "Text over image",
         "title": "Open Source Microsoft ASP.NET E-commerce Platform",
         "h1": true,
-        "content": "<h2>Microsoft provides a technological stack for development of enterprise-class business solutions. At the same time most ASP.NET enterprise e-commerce solutions developed with Microsoft .NET are designed for small business. They do not support B2B functionality,&nbsp;and their&nbsp;architecture doesn&#39;t fit the complex needs of enterprise&nbsp;and mid-market companies.&nbsp;</h2>\n",
+        "content": "<h3>Microsoft provides a technology&nbsp;stack for development of enterprise-class business solutions. However, most other ASP.NET e-commerce solutions developed with Microsoft .NET are designed for small business. They do not support B2B functionality,&nbsp;and their&nbsp;architecture doesn&#39;t fit the complex needs of enterprise&nbsp;and mid-market companies.</h3>\n\n<h3>Virto Commerce is different: it&nbsp;is the leading B2B&nbsp;e-commerce platform, built on .NET, and its open source design provides ultimate flexibilty to meet the&nbsp;complex needs of enterprise companies.</h3>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -24,7 +24,7 @@
         "id": 3,
         "type": "list-and-text",
         "name": "Text over image",
-        "title": "Common Issues with Microsoft ASP.NET Ecommerce Platforms",
+        "title": "Common Issues with Other Microsoft ASP.NET E-commerce Platforms",
         "style": "light",
         "h1": null,
         "titleAlignment": "section__t--left-alignment",
@@ -40,7 +40,7 @@
                 "text": "<p>Closed code means only&nbsp;the vendor can alter the software</p>\n"
             }
         ],
-        "content": "<p>Applying B2C methodology to B2B situations generally doesn&#39;t work. Most solutions and practices, which are acceptable for B2C, don&#39;t&nbsp;fit B2B ecommerce. B2B e-commerce requires&nbsp;additional complex processes, rules, entities and even interfaces. For example,&nbsp;humans are not the only kind of users in B2B and UI is not the only interface.&nbsp;</p>\n\n<p>Most&nbsp;Microsoft .NET ecommerce platforms on the market don&rsquo;t have the flexible and modular architecture which is required for enterprise&nbsp;and mid-market companies. Architecture predefines the business limitations of the system and the way of working with it. Monolith solutions, where components of the software are interconnected and interdependent, are not truly scalable, extending the delivery of functionality with short development cycles.</p>\n\n<p>Most&nbsp;Microsoft .NET Ecommerce platforms on the market are also closed code solutions, so that only the vendor can alter the software, and its&nbsp;impossible for external developers to make code analysis, understand how the software&nbsp;works, and why it works the way it does. Developers can only rely on information published by the vendor.</p>\n",
+        "content": "<p>Applying a B2C approach to B2B ecommerce generally doesn&#39;t work. B2B e-commerce inherently requires more&nbsp;complex processes, rules, entities, and interfaces. B2B e-commerce solutions need&nbsp;to manage&nbsp;bulk orders, POs, contract pricing, approval workflows, and order quote&nbsp;support.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Most&nbsp;Microsoft .NET e-commerce platforms on the market don&rsquo;t have the flexible and modular architecture which is required for enterprise&nbsp;and mid-market companies. Architecture predefines the business limitations of the system and the way it works. Monolith solutions are not truly scalable, with interconnected&nbsp;and interdependent components of the software.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Other Microsoft .NET e-commerce platforms on the market are also closed code solutions, so that only the vendor can alter the software, and it is&nbsp;impossible for external developers to analyze the code, understand how the software&nbsp;works, or understand why it works the way it does. Developers must only rely on information published by the vendor.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -53,7 +53,7 @@
         "id": 4,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "How Does This Impact Companies that Use The Microsoft Stack?",
+        "title": "Without Virto Commerce, how do these problems impact companies using the Microsoft tech stack?",
         "h1": null,
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
@@ -74,7 +74,7 @@
                 "image": {
                     "url": null
                 },
-                "title": "Scalability, extensibility and development velocity problems, which radically increase the cost of delivery and cost of ownership ",
+                "title": "Problems with scalability, extensibility, & development speed increase delivery costs and cost of ownership",
                 "text": "",
                 "iconStyle": "",
                 "url": null
@@ -91,7 +91,8 @@
         ],
         "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 5,
@@ -102,7 +103,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>Customers who work&nbsp;in the B2B space are looking for enterprise ecommerce software solutions which resolve&nbsp;their complicated challenges and start bringing value as soon as possible. The same goes for B2C companies with complicated business models. Enterprises and mid-market&nbsp;companies are usually not ready to change their internal processes just because of software limitations. They expect that implementation partners will deliver enterprise e-commerce solution which fits precisely into their business and can be delivered with short release cycles. Having only native B2C solutions in their portfolio,&nbsp;an implementation partner will lose B2B business opportunities.&nbsp;</p>\n\n<p>Architecture predefines the business limitations of the system and the way of working with it. Monolith architecture doesn&rsquo;t allow scaling an application, scaling&nbsp;development teams or&nbsp;delegating&nbsp;responsibility for feature&nbsp;development, makes it impossible to adopt the software for an enterprise&#39;s complexity and mid-market companies&#39; velocity of change.&nbsp;All these lead&nbsp;to the constant growth of risks and implementation costs.&nbsp;The more features you deliver, the slower you do it, the more money it takes. Together with the constant growth of technical&nbsp;debt it makes cost of ownership too high.</p>\n\n<p>Problems with closed code applications are well known for companies who work closely with business application&nbsp;implementation.&nbsp;Being&nbsp;totally&nbsp;dependent on a vendor&#39;s roadmap makes it&nbsp;impossible to make system changes in the right direction with the desired speed,&nbsp;as the vendor is more interested in delivering universal functionality required for thousands of&nbsp;his&nbsp;customers, rather than a function your customer personally requires.&nbsp; Additionally,&nbsp;since the code is closed &ndash;&nbsp;the&nbsp;system will never become 100% predictable for a developer.</p>\n",
+        "content": "<p>Companies&nbsp;in the B2B space seek&nbsp;enterprise e-commerce software solutions to solve their complicated challenges and to start bringing value as soon as possible. The same goes for B2C companies with complicated business models. Enterprises and mid-market&nbsp;companies are usually not ready to change their internal processes just because of software limitations. They expect that implementation partners will deliver enterprise e-commerce solution which fits precisely into their business and can be delivered with short release cycles. Having only native B2C solutions in their portfolio,&nbsp;an implementation partner will lose B2B business opportunities.&nbsp;</p>\n\n<p>Architecture predefines the business limitations of the system and the way of working with it. Monolith architecture doesn&rsquo;t allow scaling an application, scaling&nbsp;development teams or&nbsp;delegating&nbsp;responsibility for feature&nbsp;development, makes it impossible to adopt the software for an enterprise&#39;s complexity and mid-market companies&#39; velocity of change.&nbsp;All these lead&nbsp;to the constant growth of risks and implementation costs.&nbsp;The more features you deliver, the slower you do it, the more money it takes. Together with the constant growth of technical&nbsp;debt it makes cost of ownership too high.</p>\n\n<p>Problems with closed code applications are well known for companies who work closely with business application&nbsp;implementation.&nbsp;Being&nbsp;totally&nbsp;dependent on a vendor&#39;s roadmap makes it&nbsp;impossible to make system changes in the right direction with the desired speed,&nbsp;as the vendor is more interested in delivering universal functionality required for thousands of&nbsp;his&nbsp;customers, rather than a function your customer personally requires.&nbsp; Additionally,&nbsp;since the code is closed &ndash;&nbsp;the&nbsp;system will never become 100% predictable for a developer.</p>\n",
         "url": {
             "url": {
                 "url": "#",

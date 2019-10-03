@@ -32,7 +32,7 @@ Most of the VirtoCommerce store data is stored in a database (DB). As our platfo
 
 ### From version 1.10 to 1.11:
 
-* Execute <a href="../../../assets/files/Stored_procedures_1_11.sql">this SQL script</a> on VirtoCommerce database.
+* Execute <a href="../../../assets/files/Stored procedures_1_11.sql">this SQL script</a> on VirtoCommerce database.
 
 ### From version 1.11 to 1.12
 

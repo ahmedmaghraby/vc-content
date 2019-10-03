@@ -40,7 +40,7 @@ The <a class="crosslink" href="https://virtocommerce.com/b2b-ecommerce-platform"
 * Can minimize, but don't close the command prompt.
 * Start modifying source code files under www folder. All updates to html and js will be automatically synchronized in browser.  
 
-> The project is preconfigured to use demo data from [https://demo.virtocommerce.com](https://demo.virtocommerce.com). You can switch to any other Virto Commerce Platform data source by changing the <a href="https://ionicframework.com/docs/cli/test.html" rel="nofollow">Ionic CLI service proxy</a> in the project file. (Don't forget to point to storefront REST API url like 'http://demo.virtocommerce.com/storefrontapi').
+> The project is preconfigured to use demo data from [http://demo.virtocommerce.com](http://demo.virtocommerce.com). You can switch to any other Virto Commerce Platform data source by changing the <a href="http://ionicframework.com/docs/cli/test.html" rel="nofollow">Ionic CLI service proxy</a> in the project file. (Don't forget to point to storefront REST API url like 'http://demo.virtocommerce.com/storefrontapi').
 
 [Setting Virto Commerce Platform](docs/vc2devguide/deployment/platform-deployment/source-code-getting-started) locally.
 

@@ -33,7 +33,7 @@ This provider stores assets in a local file system.
 <add name="AssetsConnectionString" connectionString="provider=AzureBlobStorage;DefaultEndpointsProtocol=http;AccountName=XXXX;AccountKey=YYYY" />
 ```
 
-This provider stores assets in <a class="crosslink" href="https://virtocommerce.com/" target="_blank">Azure Storage</a>.
+This provider stores assets in <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">Azure Storage</a>.
 
 You should copy values for this connection string from your Azure portal and paste it to web.config
 
@@ -284,14 +284,21 @@ Selects Hangfire storage type. Assigned to HangfireOptions.JobStorageType.
 
 Configures number of Hangfire workers. Assigned to HangfireOptions.WorkerCount.
 
-## Notifications
+### Redis cache
+```
+<add key="VirtoCommerce:Cache:Redis:ChannelName" value="NameOfUsedChannel" />
+```
+
+Specifies channel name used by Redis. You could connect different platform instances to one Redis server by setting different channel names for instances serving different sites. If option is not specified, default "CacheManagerBackplane" channel name is used, means all recieved messages are handled by all instances connected to Redis server.
+
+# Notifications
 ```
 <add key="VirtoCommerce:Notifications:Gateway" value="Default" />
 ```
 
 Specifies notification sending gateway. Could be "Default" or "SendGrid".
 
-## Security
+# Security
 ```
 <add key="VirtoCommerce:Security:SuppressForcingCredentialsChange" value="false" />
 ```

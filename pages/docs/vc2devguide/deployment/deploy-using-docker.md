@@ -5,7 +5,7 @@ layout: docs
 ---
 ## Summary
 
-Use this guide to <a class="crosslink" href="https://virtocommerce.com/" target="_blank">deploy</a> and configure Virto Commerce using Docker.
+Use this guide to <a class="crosslink" href="https://virtocommerce.com/ecommerce-hosting" target="_blank">deploy</a> and configure Virto Commerce using Docker.
 
 ### Prerequisites
 [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/)

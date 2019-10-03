@@ -183,55 +183,80 @@
         "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
         "fields": [
             {
-                "label": "Full name",
-                "name": "fullname",
+                "label": "First name",
+                "name": "Partner[FirstName]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": null
+                "segmentFieldName": "firstName",
+                "required": true
+            },
+            {
+                "label": "Last name",
+                "name": "Partner[LastName]",
+                "type": "text",
+                "data": "",
+                "fullrow": null,
+                "segmentFieldName": "lastName",
+                "required": true
             },
             {
                 "label": "Email",
-                "name": "email",
+                "name": "Partner[Email]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": null
+                "segmentFieldName": "email",
+                "required": true
             },
             {
                 "label": "Phone",
-                "name": "phone",
+                "name": "Partner[Phone]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "phone",
                 "required": null
             },
             {
                 "label": "Company",
-                "name": "company",
+                "name": "Partner[CompanyName]",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": null
+                "segmentFieldName": "company.name",
+                "required": true
             },
             {
                 "label": "Website",
-                "name": null,
-                "type": null,
+                "name": "Partner[Website]",
+                "type": "text",
                 "data": null,
-                "fullrow": true,
+                "fullrow": false,
+                "segmentFieldName": "website",
                 "required": null
             },
             {
                 "label": "Comments",
-                "name": "comments",
+                "name": "Partner[Message]",
                 "type": "textarea",
                 "data": null,
                 "fullrow": true,
+                "segmentFieldName": "recent_note",
+                "required": null
+            },
+            {
+                "label": "Subject",
+                "name": "Partner[Subject]",
+                "type": "hidden",
+                "data": "Become Partner",
+                "fullrow": null,
+                "segmentFieldName": "cf_segmentcampaign",
                 "required": null
             }
         ],
         "outtro": "<p>By clicking &laquo;Inquire about Partnership&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
-        "buttonText": "Inquire about Partnership"
+        "buttonText": "Inquire about Partnership",
+        "formName": ""
     }
 ]

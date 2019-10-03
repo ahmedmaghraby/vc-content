@@ -6,7 +6,7 @@ layout: docs
 title: 'Deploy Storefront from GitHub to Microsoft Azure'
 
 ---
-Before starting <a class="crosslink" href="https://virtocommerce.com/enterprise-ecommerce-architecture" target="_blank">storefront installation</a> you should have running VC platform application [Deploy from GitHub to Microsoft Cloud Azure](docs/vc2devguide/deployment/platform-deployment/deploy-from-github-to-microsoft-cloud-azure).
+Before starting <a class="crosslink" href="https://virtocommerce.com/ecommerce-website" target="_blank">storefront installation</a> you should have running VC platform application [Deploy from GitHub to Microsoft Cloud Azure](docs/vc2devguide/deployment/platform-deployment/deploy-from-github-to-microsoft-cloud-azure).
 
 ## Step-by-step guide
 

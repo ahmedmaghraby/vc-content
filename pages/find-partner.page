@@ -46,7 +46,7 @@
     {
         "id": 4,
         "type": "custom-form",
-        "name": "",
+        "name": "Form",
         "style": "dark",
         "noTop": true,
         "noBottom": true,
@@ -55,12 +55,22 @@
         "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch to match you to the best partner for your busines.&nbsp;</p>\n",
         "fields": [
             {
-                "label": "Full name",
-                "name": "fullname",
+                "label": "First name",
+                "name": "firstname",
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": null
+                "segmentFieldName": "firstName",
+                "required": true
+            },
+            {
+                "label": "Last name",
+                "name": "lastname",
+                "type": "text",
+                "data": null,
+                "fullrow": null,
+                "segmentFieldName": "lastName",
+                "required": true
             },
             {
                 "label": "Email",
@@ -68,7 +78,8 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
-                "required": null
+                "segmentFieldName": "email",
+                "required": true
             },
             {
                 "label": "Phone",
@@ -76,6 +87,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "phone",
                 "required": null
             },
             {
@@ -84,6 +96,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "company.name",
                 "required": null
             },
             {
@@ -92,6 +105,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "website",
                 "required": null
             },
             {
@@ -99,7 +113,8 @@
                 "name": "region",
                 "type": "select",
                 "data": "Americas ; EMEA ; APAC",
-                "fullrow": false,
+                "fullrow": true,
+                "segmentFieldName": "region",
                 "required": null
             },
             {
@@ -108,10 +123,21 @@
                 "type": "textarea",
                 "data": null,
                 "fullrow": true,
+                "segmentFieldName": "recent_note",
+                "required": null
+            },
+            {
+                "label": "Hidden",
+                "name": "Subject",
+                "type": "hidden",
+                "data": "Find Partner",
+                "fullrow": null,
+                "segmentFieldName": "cf_segmentcampaign",
                 "required": null
             }
         ],
         "outtro": "<p>By clicking &laquo;Find a Partner&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
-        "buttonText": "Find a Partner"
+        "buttonText": "Find a Partner",
+        "formName": ""
     }
 ]

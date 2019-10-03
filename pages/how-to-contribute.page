@@ -42,6 +42,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "",
                 "required": true
             },
             {
@@ -50,6 +51,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "",
                 "required": true
             },
             {
@@ -58,6 +60,7 @@
                 "type": "email",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "",
                 "required": true
             },
             {
@@ -66,6 +69,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": null,
                 "required": true
             },
             {
@@ -74,6 +78,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": null,
                 "required": true
             },
             {
@@ -82,6 +87,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": null,
                 "required": true
             },
             {
@@ -90,6 +96,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "phone",
                 "required": true
             },
             {
@@ -98,6 +105,7 @@
                 "type": "text",
                 "data": null,
                 "fullrow": false,
+                "segmentFieldName": "",
                 "required": true
             },
             {
@@ -106,11 +114,13 @@
                 "type": "text",
                 "data": null,
                 "fullrow": true,
+                "segmentFieldName": null,
                 "required": true
             }
         ],
         "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
         "buttonText": "Submit Agreement",
-        "formName": "contribute"
+        "formName": "",
+        "segmentOptions": null
     }
 ]

@@ -48,35 +48,15 @@
         "id": 4,
         "type": "list-with-images",
         "name": null,
-        "title": "Updated in July 2019",
+        "title": "Updated in September 2019",
         "intro": "<h3>Being an agile company, we constatnly evaluate the feedback from our customers and keep track of platform improvement processes.&nbsp; Here you can see our platform roadmap for the next six months since the last update.&nbsp;</h3>\n",
         "style": "dark",
         "colStyle": "col-6 col-sm-4 col-lg-3",
         "items": [
             {
-                "image": {
-                    "url": null
-                },
-                "title": "Webhooks Implementation for Orders module",
-                "text": "<p>Create Web Hooks API to allow for easier integration with external systems.</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": {
-                    "url": null
-                },
-                "title": "Full Context Searching in a Storefront",
-                "text": "<p>Use a generic search engine to search a storefront for both products and text.</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": {
-                    "url": null
-                },
-                "title": "Property Management Improvements",
-                "text": "<p>Property role-based access, property render type management, properties grouping.</p>\n",
+                "image": null,
+                "title": "Virto Commerce platform v3: From beta to general availability (ongoing)",
+                "text": "<p>Virto Commerce Platform v3 is in beta now.&nbsp; The goal is to shift version 3 to the general availability phase.&nbsp;</p>\n",
                 "iconStyle": null,
                 "url": null
             },
@@ -85,16 +65,7 @@
                     "url": null
                 },
                 "title": "CMS Landing Page Builder  (ongoing)",
-                "text": "<p>GUI Editor to allow marketing teams to quickly build landing pages.</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": {
-                    "url": null
-                },
-                "title": "Product Data Versioning",
-                "text": "<p>Persist multiple versions of the product data and allow reverting to previous version if needed.</p>\n",
+                "text": "<p>GUI Editor to allow marketing teams to quickly build landing pages.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
                 "iconStyle": null,
                 "url": null
             },
@@ -111,8 +82,58 @@
                 "image": {
                     "url": null
                 },
-                "title": "Bulk Product Editing / Bulk updates to product data in the UI.",
-                "text": "<p>Bulk updates to product data in the UI.</p>\n",
+                "title": "Bulk Product Editing in the UI (ongoing)",
+                "text": "<p>Bulk updates to product data in the UI: bulk editing product properties, moving products to other categories&nbsp;and catalogs.</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Webhooks Implementation for Orders module",
+                "text": "<p>Create Web Hooks API to allow for easier integration with external systems.</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Headless",
+                "text": "<p>The content presentation layer will be separated from the business logic and functional layer.&nbsp; All the functionality that the platform has is exposed as various API&#39;s that fully satisfy the main principles of SOA (Service-oriented architecture).</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Full Context Searching in a Storefront",
+                "text": "<p>Use a generic search engine to search a storefront for both products and text.</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Generic Data Import",
+                "text": "<p>A dedicated module with high extensibilty for importing data from integrated modules by using csv, json, or files in other formats.&nbsp;</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Property Management Improvements",
+                "text": "<p>Property role-based access, property render type management, properties grouping.</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Product Data Versioning",
+                "text": "<p>Persist multiple versions of the product data and allow reverting to previous version if needed.</p>\n",
                 "iconStyle": null,
                 "url": null
             },
@@ -127,29 +148,8 @@
             },
             {
                 "image": null,
-                "title": "Generic Data Export (ongoing)",
+                "title": "Generic Data Export (Released)",
                 "text": "<p>A dedicated module with high extensibility for exporting any data ranges, from integrated modules by using files in CSV, json or other formats.&nbsp;</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": null,
-                "title": "Generic Data Import",
-                "text": "<p>A dedicated module with high extensibilty for importing data from integrated modules by using csv, json, or files in other formats.&nbsp;</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": null,
-                "title": "Virto Commerce platform v3: From beta to general availability (Ongoing)",
-                "text": "<p>Virto Commerce Platform v3 is in beta now.&nbsp; The goal is to shift version 3 to the general availability phase.&nbsp;</p>\n",
-                "iconStyle": null,
-                "url": null
-            },
-            {
-                "image": null,
-                "title": "Headless",
-                "text": "<p>The content presentation layer will be separated from the business logic and functional layer.&nbsp; All the functionality that the platform has is exposed as various API&#39;s that fully satisfy the main principles of SOA (Service-oriented architecture).</p>\n",
                 "iconStyle": null,
                 "url": null
             }
@@ -158,6 +158,7 @@
         "titleStyle": null,
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     }
 ]
