@@ -101,11 +101,10 @@ $(function (){
 				requestDemoForm.attr("data-segment-name", null);
 			}
 		});
-		/*
+
 		$(document).on("change", ".section--request #agree", function() {
 			$(this).val(this.checked);
 		});
-		*/
 		
 		$(document).on("change", ".section--request form input[name='fullname']", function() {
 			var value = $(this).val().trim();
@@ -120,27 +119,17 @@ $(function (){
 			form.firstName.value = firstName;
 			form.lastName.value = lastName;
 		});
+		
+		requestDemoForm.on('submit', function() {
+			if (requestDemoForm.valid()) {
+				var checkedItems = $("[data-target-url]:checked", requestDemoForm);
+				if (checkedItems.length) {
+					var targetUrl = $checkedItems.data('target-url');
+					document.location.assign(targetUrl);
+				}
+			}
+		});
 	}
-	
-	$(document).on("submit", "[data-animated-submit]", function(event) {
-		var form = $(this);
-		if (form.valid()) {
-			var section = form.closest('.section--animated');
-			$('.section__animate-item:nth-child(1)', section).addClass('animated');
-
-			setTimeout(function() {
-				$('.form', section).addClass('animated');
-			}, 500);
-			
-			setTimeout(function() {
-				$('.section__animate-item:nth-child(2)', section).addClass('completed');
-			}, 650);
-
-			setTimeout(function() {
-				$('.thank-you', section).addClass('animated');
-			}, 750);
-		}
-	});
 
 	
 	// ?utm_source=asset_downloads&
@@ -149,21 +138,23 @@ $(function (){
 	//  utm_content=--Asset Name--&
 	//  utm_campaign=--Campaign--
 
-	var files = {};
-	files['lavazza'] = '/assets/files/lavazza-case-study.pdf';
-	var params = parseUrl();
-	var attachUrl = files[params.utm_content];
-	if (attachUrl) {
-		window.location.assign(attachUrl);
-	}
-	
-	function parseUrl() {
-		var result = {};
-		var vars = document.location.search.substring(1).split('&');
-		for (var i = 0; i < vars.length; i++) {
-			var pair = vars[i].split('=');
-			result[pair[0]] = decodeURIComponent(pair[1]);
+	if (false) {
+		var files = {};
+		files['lavazza'] = '/assets/files/lavazza-case-study.pdf';
+		var params = parseUrl();
+		var attachUrl = files[params.utm_content];
+		if (attachUrl) {
+			window.location.assign(attachUrl);
 		}
-		return result;
+		
+		function parseUrl() {
+			var result = {};
+			var vars = document.location.search.substring(1).split('&');
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split('=');
+				result[pair[0]] = decodeURIComponent(pair[1]);
+			}
+			return result;
+		}
 	}
 });

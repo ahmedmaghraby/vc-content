@@ -82,8 +82,8 @@
       }
     ]
   },
-  "form-with-animation": {
-    "name": "Form with animation",
+  "form-case-study": {
+    "name": "Form Case Study",
     "icon": "image-text",
     "displayField": "name",
     "settings": [
@@ -91,7 +91,7 @@
         "id": "name",
         "label": "Block name",
         "type": "string",
-        "default": "Form with animation",
+        "default": "Form Case Study",
         "tab": "Settings"
       },
       {
@@ -149,37 +149,6 @@
         "label": "Link for chat",
         "type": "string",
         "tab": "Contacts"
-      },
-      {
-        "id": "sendButtonText",
-        "label": "Submit form text",
-        "type": "string",
-        "default": "Request demo"
-      },
-      {
-        "id": "thankYouItems",
-        "label": "Thank you links",
-        "type": "list",
-        "addText": "Add link",
-        "removeText": "Remove link",
-        "displayField": "text",
-        "element": [
-          {
-            "id": "url",
-            "type": "string",
-            "label": "Url"
-          },
-          {
-            "id": "icon",
-            "type": "image",
-            "label": "Icon"
-          },
-          {
-            "id": "text",
-            "type": "string",
-            "label": "Text"
-          }
-        ]
       },
       {
         "id": "formFields",
@@ -263,6 +232,90 @@
         "tab": "Form",
         "default": "Request demo"
       }
+    ]
+  },
+  "thank-you": {
+    "name": "Thank you",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Thank you!",
+        "tab": "Settings"
+      },
+      {
+        "id": "thankYou",
+        "label": "Thank you text",
+        "type": "string",
+        "default": "Thank you!<br/>We will be in touch soon."
+      },
+      {
+        "id": "whatsNext",
+        "label": "\"What's next\" text",
+        "type": "string",
+        "default": "What's next"
+      },
+      {
+        "id": "thankYouItems",
+        "label": "Thank you links",
+        "type": "list",
+        "addText": "Add link",
+        "removeText": "Remove link",
+        "displayField": "text",
+        "element": [
+          {
+            "id": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "id": "icon",
+            "type": "image",
+            "label": "Icon"
+          },
+          {
+            "id": "text",
+            "type": "string",
+            "label": "Text"
+          }
+        ],
+        "default": [
+          { "url": "#", "text": "Discover Virto Commerce success stories" },
+          { "url": "#", "text": "Explore Virto Commerce architecture" },
+          { "url": "#", "text": "Explore Virto Commerce architecture" }
+        ]
+      },
+      {
+        "id": "phone",
+        "label": "Phone number",
+        "type": "string",
+        "default": "+1 800 980—5288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Phone link",
+        "type": "string",
+        "default": "tel:+18009805288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chat",
+        "label": "Caption for chat",
+        "type": "string",
+        "default": "Chat with us",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for chat",
+        "type": "string",
+        "tab": "Contacts"
+      }
+
     ]
   },
   "decorated-hero": {
@@ -2035,35 +2088,14 @@
         "type": "string"
       },
       {
-        "id": "thankYou",
-        "label": "Thank you text",
-        "type": "string",
-        "default": "Thank you!<br/>We will be in touch soon."
+        "id": "touchUrl",
+        "label": "\"Get in touch\" case url",
+        "type": "string"
       },
       {
-        "id": "thankYouItems",
-        "label": "Thank you links",
-        "type": "list",
-        "addText": "Add link",
-        "removeText": "Remove link",
-        "displayField": "text",
-        "element": [
-          {
-            "id": "url",
-            "type": "string",
-            "label": "Url"
-          },
-          {
-            "id": "icon",
-            "type": "image",
-            "label": "Icon"
-          },
-          {
-            "id": "text",
-            "type": "string",
-            "label": "Text"
-          }
-        ]
+        "id": "linkUrl",
+        "label": "\"Link access\" case url",
+        "type": "string"
       },
       {
         "id": "noTop",

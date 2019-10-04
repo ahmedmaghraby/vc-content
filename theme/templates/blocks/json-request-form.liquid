@@ -52,7 +52,7 @@
                                 <label>Access Transfer Method</label>
                                 <ul class="list list--method">
                                     <li class="list__item">
-                                        <input class="list__input" type="radio" data-thanks-class="touch-thanks" name="access" checked="checked" id="access1" value="Get in touch with me" />
+                                        <input class="list__input" type="radio" data-target-url="{{block.touchUrl}}" name="access" checked="checked" id="access1" value="Get in touch with me" />
                                         <label class="list__inner" for="access1">
                                             <span class="list__t">Get in touch with me</span>
                                             <span class="list__descr">
@@ -61,7 +61,7 @@
                                         </label>
                                     </li>
                                     <li class="list__item">
-                                        <input class="list__input" type="radio" data-thanks-class="link-thanks" name="access" id="access2" value="Get only link access" />
+                                        <input class="list__input" type="radio" data-target-url="{{block.linkUrl}}" name="access" id="access2" value="Get only link access" />
                                         <label class="list__inner" for="access2">
                                             <span class="list__t">Get only link access</span>
                                             <span class="list__descr">
@@ -84,34 +84,6 @@
                                 <button type="submit" class="btn btn--orange btn--block">Request demo</button>
                             </div>
                         </form>
-                        <div class="thanks-wrapper touch-thanks" style="display: none;">
-                            <div class="thanks">
-                                <div class="thanks__ico"></div>
-                                <div class="thanks__t">
-                                    Thank you!
-                                </div>
-                                <div class="thanks__descr">
-                                    {{ block.touchThanks }}
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <button type="button" class="btn btn--orange btn--block send-again">Send again</button>
-                            </div>
-                        </div>
-                        <div class="thanks-wrapper link-thanks" style="display: none;">
-                            <div class="thanks">
-                                <div class="thanks__ico"></div>
-                                <div class="thanks__t">
-                                    Thank you!
-                                </div>
-                                <div class="thanks__descr">
-                                    {{ block.linkThanks }}
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <button type="button" class="btn btn--orange btn--block send-again">Send again</button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -125,41 +97,3 @@
         </div>
     </div>
 </div>
-{% if block.showCustomers %}
-<div class="section section--small-top">
-    <div class="section__inner container">
-        <h2 class="section__t">Business Leaders Choose Virto Commerce</h2>
-        <p class="section__descr--centered">
-            View just a handful of the top companies that use <br />Virto Commerce to power their ecommerce
-        </p>
-        <ul class="nav nav--customers">
-            <li class="nav__item">
-                <a href="/case-studies/bosch" class="nav__link">
-                    <span class="nav__brand nav__brand--bosch"></span>
-                </a>
-            </li>
-            <li class="nav__item">
-                <a href="/case-studies" class="nav__link">
-                    <span class="nav__brand nav__brand--heineken"></span>
-                </a>
-            </li>
-            <li class="nav__item">
-                <a href="/case-studies" class="nav__link">
-                    <span class="nav__brand nav__brand--vivint"></span>
-                </a>
-            </li>
-            <li class="nav__item">
-                <a href="/case-studies" class="nav__link">
-                    <span class="nav__brand nav__brand--volvo"></span>
-                </a>
-            </li>
-            <li class="nav__item">
-                <a href="/case-studies/lavazza" class="nav__link">
-                    <span class="nav__brand nav__brand--lavazza"></span>
-                </a>
-            </li>
-        </ul>
-        <a href="/case-studies" class="btn btn--lg">View Our Customer Showcase</a>
-    </div>
-</div>
-{% endif %}

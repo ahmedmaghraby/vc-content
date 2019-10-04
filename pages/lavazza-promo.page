@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "type": "form-with-animation",
+        "type": "form-case-study",
         "name": "hero",
         "title": "The Lavazza Case Study",
         "content": "<p>Learn about how we&nbsp;created new and unified B2B &amp; B2C e-commerce solution for Lavazza Nederland and gained insights into customer behavior in partnership with RB2.</p>\n",
