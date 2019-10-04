@@ -124,8 +124,10 @@ $(function (){
 			if (requestDemoForm.valid()) {
 				var checkedItems = $("[data-target-url]:checked", requestDemoForm);
 				if (checkedItems.length) {
-					var targetUrl = $checkedItems.data('target-url');
-					document.location.assign(targetUrl);
+					var targetUrl = checkedItems.data('target-url');
+					if (!!targetUrl) {
+						document.location.assign(targetUrl);
+					}
 				}
 			}
 		});

@@ -124,7 +124,7 @@ $(function (){
 			if (requestDemoForm.valid()) {
 				var checkedItems = $("[data-target-url]:checked", requestDemoForm);
 				if (checkedItems.length) {
-					var targetUrl = $checkedItems.data('target-url');
+					var targetUrl = checkedItems.data('target-url');
 					document.location.assign(targetUrl);
 				}
 			}
