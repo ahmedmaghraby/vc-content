@@ -6192,7 +6192,7 @@ code {
     font-size: 1.125rem;
     font-weight: 900;
     line-height: .8;
-    margin-bottom: 1.25rem;
+    margin-bottom: .5rem;
 }
 
 .section--request .form .form-checkbox__label {
@@ -9155,6 +9155,42 @@ textarea {
 .form-checkbox__label::before {
     border: 0.125rem solid #cfd2e6;
     border-radius: 0.25rem;
+}
+
+.select2-container .select2-selection--single {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    height: 3.125rem;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    font-size: 1rem;
+    padding-left: 1.125rem;
+    padding-right: 2.25rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    bottom: 0;
+    height: auto;
+    top: 0;
+    width: 2rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background: url("../../images/redesign/icons/arrow-chevron.svg");
+    height: .8125rem;
+    border: none;
+    margin-left: -.625rem;
+    margin-top: -.375rem;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: .4375rem;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #ff9a05;
 }
 
 .list {

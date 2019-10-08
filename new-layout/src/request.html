@@ -14,6 +14,7 @@
 
         <title>Virtoccomerce / About Us</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css">
         <link rel="stylesheet" href="../../theme/assets/css/bundles/style.min.css">
     </head>
     <body>
@@ -231,10 +232,22 @@
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
         <script src="../build/assets/js/main.js"></script>
 
         <script>
             $(function() {
+                $('select').select2({
+                    minimumResultsForSearch: -1,
+                });
+
+                $(window).on('resize', function() {
+                    $('select').select2({
+                        minimumResultsForSearch: -1,
+                        width: 'resolve'
+                    });
+                });
+
                 $('[data-name="submit"]').on('click', function() {
                     $('.section--request .section__animate-item:nth-child(1)').addClass('animated');
 
