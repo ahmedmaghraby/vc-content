@@ -20,9 +20,20 @@
         "touchThanks": "We will contact you shortly. In the meantime, you can access the Virto Commerce demo environment via a link which we’ve sent you to your inbox.",
         "linkThanks": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions.",
         "noTop": true,
-        "noBottom": null,
+        "noBottom": true,
         "noPad": null,
         "thankYou": "Thank you!<br/>We will be in touch soon.",
-        "thankYouItems": []
+        "thankYouItems": [],
+        "touchUrl": "https://virtocommerce.com/request-thanks-touch",
+        "linkUrl": "https://virtocommerce.com/request-thanks-link"
+    },
+    {
+        "id": 3,
+        "type": "business-leaders",
+        "name": "Business Leaders",
+        "style": "light",
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
     }
 ]

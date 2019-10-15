@@ -1,0 +1,33 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "request-thanks-link",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "thank-you",
+        "name": "Thank you!",
+        "thankYou": "Thank you!<br/>We will be in touch soon.",
+        "whatsNext": "What's next",
+        "thankYouItems": [
+            {
+                "url": "#",
+                "text": "Discover Virto Commerce success stories"
+            },
+            {
+                "url": "#",
+                "text": "Explore Virto Commerce architecture"
+            },
+            {
+                "url": "#",
+                "text": "Explore Virto Commerce architecture"
+            }
+        ],
+        "phone": "+1 800 980—5288",
+        "phoneLink": "tel:+18009805288",
+        "chat": "Chat with us",
+        "chatLink": null
+    }
+]

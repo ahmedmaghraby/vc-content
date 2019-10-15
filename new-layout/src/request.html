@@ -14,6 +14,7 @@
 
         <title>Virtoccomerce / About Us</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css">
         <link rel="stylesheet" href="../../theme/assets/css/bundles/style.min.css">
     </head>
     <body>
@@ -35,13 +36,13 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="section__animate">
-                                        <div class="section__animate-item completed">
+                                        <div class="section__animate-item">
                                             <div class="section__t">Request a Virto Commerce Demo</div>
                                             <div class="section__descr">
                                                 Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the "Get in touch with me" option and we will contact you shortly. 
                                             </div>
                                         </div>
-                                        <div class="section__animate-item">
+                                        <div class="section__animate-item completed">
                                             <div class="section__descr section__descr--large section__descr--opacity">
                                                 Thank you! <br>
                                                 We will be in touch soon.
@@ -51,7 +52,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="form">
+                                    <div class="form animated">
                                         <div class="form-group">
                                             <label>Full name</label>
                                             <input placeholder="Required input field" type="text" class="form-control">
@@ -128,10 +129,10 @@
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="thank-you">
+                            <div class="thank-you animated">
                                 <div class="list">
                                     <div class="list__item">
-                                        <div class="list__inner">
+                                        <a class="list__inner" href="#">
                                             <svg class="list__ico" width="48px" height="56px" viewBox="0 0 48 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                     <g id="v5-Thx" transform="translate(-560.000000, -601.000000)" class="fill">
@@ -149,10 +150,10 @@
                                                     </g>
                                                 </g>
                                             </svg>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="list__item">
-                                        <div class="list__inner">
+                                        <a class="list__inner" href="#">
                                             <svg class="list__ico" width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                     <g id="v5-Thx" transform="translate(-130.000000, -601.000000)" class="fill">
@@ -172,10 +173,10 @@
                                                     </g>
                                                 </g>
                                             </svg>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="list__item">
-                                        <div class="list__inner">
+                                        <a class="list__inner" href="#">
                                             <svg class="list__ico" width="58px" height="56px" viewBox="0 0 58 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                 <defs>
                                                     <polygon id="path-1" points="0.914037855 0 18.9112752 0 18.9112752 55.999857 0.914037855 55.999857"></polygon>
@@ -213,7 +214,7 @@
                                                     </g>
                                                 </g>
                                             </svg>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -231,10 +232,22 @@
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
         <script src="../build/assets/js/main.js"></script>
 
         <script>
             $(function() {
+                $('select').select2({
+                    minimumResultsForSearch: -1,
+                });
+
+                $(window).on('resize', function() {
+                    $('select').select2({
+                        minimumResultsForSearch: -1,
+                        width: 'resolve'
+                    });
+                });
+
                 $('[data-name="submit"]').on('click', function() {
                     $('.section--request .section__animate-item:nth-child(1)').addClass('animated');
 
