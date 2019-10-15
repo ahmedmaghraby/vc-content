@@ -1,24 +1,15 @@
 ---
-title: What is business to business e commerce - B2B ecommerce definition | Glossary Virto Commerce.
-description: What is business to business e commerce. What does this business to business e-commerce type mean. B2B ecommerce examples and definition.
-date: 2017-03-13
-canonical: https://virtocommerce.com/glossary/what-is-b2b-ecommerce2
-permalink: glossary/what-is-b2b-ecommerce
-ogimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
-ogtitle: What is B2B e-commerce (business to business e commerce). Definition&Information | Glossary Virto Commerce.
-ogsitename: Virtocommerce
+date: '2017-03-13'
 layout: glossary
-twittercard: summary
-twittertitle: Virto Commerce
-twitterdescription: Virto Commerce is a powerful ecommerce platform that includes everything you need to create an online store and sell online. Try it free with Free Community License
-twitterimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
-twittersite: Virtocommerce
-tags :
-- b2b ecommerce
-- b2b e-commerce
-- b2b e commerce
-- what is b2b e-commerce
-- b2b ecommerce examples
+permalink: glossary/what-is-b2b-ecommerce
+tags:
+  - 'b2b ecommerce'
+  - 'b2b e-commerce'
+  - 'b2b e commerce'
+  - 'what is b2b e-commerce'
+  - 'b2b ecommerce examples'
+title: 'What is business to business e commerce - B2B ecommerce definition | Glossary Virto Commerce.'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -303,13 +294,13 @@ tags :
             {% include 'micro-mark-publisher' %}
             {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
             <div class="buttons" style="padding-bottom:20px;">
-                <a class="button fill" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
-                <a class="button fill" href="/contact-us">Request Information & Demo</a>
+                <a class="btn btn--orange" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
+                <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
             </div>
         </div>
         <div class="glosary-nav">
-            <a href="/glossary/what-is-b2c-ecommerce" class="button striped">Prev</a>
-            <a href="/glossary/b2b-ecommerce-companies-websites" class="button striped">Next</a>
+            <a href="/glossary/what-is-b2c-ecommerce" class="btn btn--orange">Prev</a>
+            <a href="/glossary/b2b-ecommerce-companies-websites" class="btn btn--orange ml-auto">Next</a>
         </div>
         <div class="responsive">
             <div class="glosary-article">
