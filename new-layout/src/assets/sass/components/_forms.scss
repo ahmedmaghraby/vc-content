@@ -209,3 +209,42 @@ textarea
         }
     }
 }
+
+// Select2
+.select2-container .select2-selection--single
+{
+    align-items: center;
+    display: flex;
+    height: 3.125rem;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered
+{
+    font-size: 1rem;
+    padding-left: 1.125rem;
+    padding-right: 2.25rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+{
+    bottom: 0;
+    height: auto;
+    top: 0;
+    width: 2rem;
+
+    b
+    {
+        background: url($tpl-img-url + 'icons/arrow-chevron.svg');
+        height: .8125rem;
+        border: none;
+        margin-left: -.625rem;
+        margin-top: -.375rem;
+        transform: rotate(90deg);
+        width: .4375rem;
+    }
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]
+{
+    background-color: $orange;
+}
