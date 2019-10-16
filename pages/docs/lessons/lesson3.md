@@ -1,3 +1,10 @@
+---
+title: Lesson 3 - How to create Virto commerce module (API)
+description: Lesson 3 - How to create Virto commerce module (API)
+layout: docs
+date: 2019-10-16
+priority: 3
+---
 # How to create Virto commerce module (API)
 
   * [Summary](#summary)
