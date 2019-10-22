@@ -1,0 +1,126 @@
+[
+    {
+        "type": "settings",
+        "title": "How to Contribute I Virto Commerce",
+        "permalink": "contribute-agreement",
+        "header": "How",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "Virto Commerce Contributor License Agreement",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Grant of Copyright and Patent License</h3>\n\n<p>Why Contributor License Agreement?We require CLA in order to mitigate the risk to us and to our community of accepting contributions that violate intellectual property rights of others.Definition: &quot;Contribution&quot; is any original work of authorship, including any modifications or additions to an existing work that I submit to Virto Commerce for possible inclusion in Virto Commerce&#39;s software.I hereby grant to Virto Commerce and to recipients of the software distributed by Virto Commerce a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright and patent license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute my present and future Contributions and such derivative works.I represent that I am legally entitled to grant the above license and I represent that each of my Contribution is my original creation.I understand that I am not required to provide support for my Contributions and that all contributions are provided &quot;AS IS&quot; without any explicit or implied warranties.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
+    },
+    {
+        "id": 3,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "",
+        "intro": "<p>Complete the form below to accept contributor agreement</p>\n",
+        "fields": [
+            {
+                "label": "First Name (required)",
+                "name": "firstname",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "",
+                "required": true
+            },
+            {
+                "label": "Last Name (required)",
+                "name": "lastname",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "",
+                "required": true
+            },
+            {
+                "label": "Email (required)",
+                "name": "email",
+                "type": "email",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "",
+                "required": true
+            },
+            {
+                "label": "Github Handle (required)",
+                "name": "githubHandle",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "Street Address (required)",
+                "name": "address",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "Country, Zip/Postal Code (required)",
+                "name": "city",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": null,
+                "required": true
+            },
+            {
+                "label": "Phone (required)",
+                "name": "phone",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "phone",
+                "required": true
+            },
+            {
+                "label": "Company Name (required)",
+                "name": "company",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "",
+                "required": true
+            },
+            {
+                "label": "Electronic Signature (type \"I AGREE\" to accept terms) (required)",
+                "name": "agree",
+                "type": "text",
+                "data": null,
+                "fullrow": true,
+                "segmentFieldName": null,
+                "required": true
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Submit Agreement&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "buttonText": "Submit Agreement",
+        "formName": "",
+        "segmentOptions": null
+    }
+]

@@ -1,0 +1,262 @@
+[
+    {
+        "type": "settings",
+        "title": "Become a Virto Commerce Partner",
+        "permalink": "become-partner",
+        "header": "Apply to Become a Virto Commerce Partner",
+        "id": 1,
+        "layout": "theme"
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "title",
+        "title": "Become a Virto Commerce Implementation Partner ",
+        "headerStyle": "h1",
+        "content": "",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Virto Commerce's platform: A Modular Microsoft .NET Enterprise Ecommerce Platform for B2B",
+        "style": "light",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "text": "<p>B2B enterprise ecommerce market with a Microsoft .NET solution</p>\n"
+            },
+            {
+                "text": "<p>Solution which facilitates customer digital transformation and growth</p>\n"
+            },
+            {
+                "text": "<p>Solution loved by developers</p>\n"
+            }
+        ],
+        "content": "<p>The B2B enterprise ecommerce market is growing drastically. According to Gartner, this is one of the most rapidly growing enterprise software markets. Enterprise-level software implementations are&nbsp;demanded by a huge amount of&nbsp;companies. Offering reliable B2B focused solutions opens up the enterprise B2B ecommerce market for IT service companies.</p>\n\n<p>Our system is designed to be implemented by small sequential agile products, which brings real value for&nbsp;customers, fast. It perfectly supports customer digital transformation. The opportunity to embed an API-based modular e-commerce solution by small steps facilitates the customer&rsquo;s internal processes transformation and leaves room to react to market feedback.</p>\n\n<p>Virto Commerce is a very technical focused company&nbsp;where the architectural&nbsp;excellence and code quality are a part of our core values. We aim to make implementation teams trust our product and that is why we treat our partners as first-line customers.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Why Do Customers Need Virto Commerce Solutions? ",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Designed to solve B2B enterprise ecommerce cases",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Fits for companies of any size - from startups to multi-national enterprises",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Flexible solution for agile implementation of projects of any complexity",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Enterprise-scale customers require the delivering of functionality which 100% fits their complicated processes and practices. It makes traditional out-of-the-box features useless, the same for B2C designed applications. Virto Commerce&#39;s&nbsp;platform is a customizable and&nbsp;extensible platform, which was initially designed to implement complex custom B2B scenarios on top of it.</p>\n\n<p>Due to the modular architecture and good extensibility model,&nbsp; the Virto Commerce&nbsp;platform is perfectly applicable for complex ecommerce cases of companies of any sizes, starting with startups with disruptive business models, all the way to Fortune 500 companies. Working with the Virto Commerce platform, our partners scale by delivering the platform to companies of almost any industry, size or business complexity.</p>\n\n<p>Virto Commerce is very efficient in managing agile implementation projects. We believe in agile development with fast release cycles where&nbsp;customers can quickly derive value. That is why we created software which can be implemented through short projects, versus never ending&nbsp;painful projects with unexpected results. Start acting locally and continue step-by-step by adding new features, regions, stakeholders, and integrations.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Why Would Partners Choose Virto Commerce? ",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Opportunities: conquer new niches and make your customers happy",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Technology: smart, open, modern",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Attitude: We work with partners, we work for partners",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Having the Virto Commerce platform in your portfolio, which fits medium and enterprise B2B ecommerce perfectly, and written on Microsoft .NET, enables our partners to enter the rapidly growing B2B ecommerce market.&nbsp;&nbsp;An agile approach to implementation projects allows you to deliver value to customers fast and continuously work with them facilitating their further growth.</p>\n\n<p>Virto Commerce is a very technically focused company where the architecture excellence and code quality are a part of core values. We aim to make implementation teams want to work with our software and trust it: modular architecture, modern technologies, open code.</p>\n\n<p>Virto Commerce is also a technical product-focused company. While we have significant implementation experience with the Virto Commerce platform, we are not aiming to grow as a service company. Our goal is to serve end customers through our reliable partners, without competing with them. That is why we are committed to building long term relationships with our partners.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "custom-form",
+        "name": "Custom form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Join our network",
+        "intro": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>\n",
+        "fields": [
+            {
+                "label": "First name",
+                "name": "Partner[FirstName]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "firstName",
+                "required": true
+            },
+            {
+                "label": "Last name",
+                "name": "Partner[LastName]",
+                "type": "text",
+                "data": "",
+                "fullrow": null,
+                "segmentFieldName": "lastName",
+                "required": true
+            },
+            {
+                "label": "Email",
+                "name": "Partner[Email]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "email",
+                "required": true
+            },
+            {
+                "label": "Phone",
+                "name": "Partner[Phone]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "phone",
+                "required": null
+            },
+            {
+                "label": "Company",
+                "name": "Partner[CompanyName]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "company.name",
+                "required": true
+            },
+            {
+                "label": "Website",
+                "name": "Partner[Website]",
+                "type": "text",
+                "data": null,
+                "fullrow": false,
+                "segmentFieldName": "website",
+                "required": null
+            },
+            {
+                "label": "Comments",
+                "name": "Partner[Message]",
+                "type": "textarea",
+                "data": null,
+                "fullrow": true,
+                "segmentFieldName": "recent_note",
+                "required": null
+            },
+            {
+                "label": "Subject",
+                "name": "Partner[Subject]",
+                "type": "hidden",
+                "data": "Become Partner",
+                "fullrow": null,
+                "segmentFieldName": "cf_segmentcampaign",
+                "required": null
+            }
+        ],
+        "outtro": "<p>By clicking &laquo;Inquire about Partnership&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "buttonText": "Inquire about Partnership",
+        "formName": ""
+    }
+]

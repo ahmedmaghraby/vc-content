@@ -9,22 +9,77 @@ select
     font-weight: inherit;
 }
 
+textarea
+{
+    min-height: 6.25rem;
+    min-width: 100%;
+    max-width: 100%;
+    padding: .625rem;
+}
+
+.form
+{
+    text-align: left;
+}
+
+.form-group
+{
+    margin-bottom: 1.875rem;
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+
+        [class*="col-"] ~ [class*="col-"]
+        {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.form-label
+{
+    display: block;
+    line-height: 1;
+    margin-bottom: .625rem;
+}
+
 .form-control
 {
-    box-shadow: 0 .625rem 1.25rem 0 rgba(15,88,147,.06);
-    border: solid 1px $gray-200;
-    border-radius: 5rem;
-    color: $gray-400;
+    border: solid 1px $gray-400;
+    border-radius: .25rem;
+    color: $black;
     font-size: .875rem;
     font-weight: normal;
     height: 2.5rem;
-    padding: 0 1.875rem;
+    padding: .625rem;
+    width: 100%;
 
     @extend %placeholder;
+
+    &:focus
+    {
+        border-color: darken($gray-400, 15%);
+    }
 
     &--lg
     {
         height: 3.75rem;
+    }
+
+    &--round
+    {
+        border-radius: 4rem;
+    }
+
+    &--error
+    {
+        border-color: $red;
+        color: $red;
+
+        &:focus
+        {
+            border-color: $red;
+        }
     }
 
     @include media-breakpoint-down(sm) {
@@ -39,4 +94,157 @@ select
             padding: 0 1.25rem;
         }
     }
+}
+
+.form-error
+{
+    color: $red;
+    font-size: .875rem;
+    margin-top: .625rem;
+	display: block;
+	
+	&--highlight
+	{
+		display: block;
+		padding: 5px;
+		background: #FF9C97;
+		color: #8C0000;
+		
+		&.field-validation-valid
+		{
+			display: none;
+		}
+	}
+}
+
+.form-descr
+{
+    font-size: .875rem;
+    margin-top: .625rem;
+}
+
+.form--search
+{
+    position: relative;
+
+    .btn
+    {
+        position: absolute;
+        right: .25rem;
+        top: .25rem;
+        bottom: .25rem;
+        height: auto;
+        padding: 0 .625rem;
+    }
+
+    .form-control
+    {
+        width: 100%;
+    }
+}
+
+.form-actions
+{
+    align-items: center;
+    display: flex;
+
+    .btn
+    {
+        color: $white;
+        margin-right: 1.25rem;
+    }
+
+    a
+    {
+        color: inherit;
+    }
+}
+
+.form-checkbox
+{
+    display: inline-block;
+
+    &__input
+    {
+        left: 0;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+
+        &:checked ~ .form-checkbox__label::after
+        {
+            background-position: 60% 50%;
+            background-repeat: no-repeat;
+            background-image: url($tpl-img-url + 'page/request/check.svg');
+        }
+
+        &:checked ~ .form-checkbox__label::before
+        {
+            border-color: $orange;
+        }
+    }
+
+    &__label
+    {
+        cursor: pointer;
+        font-size: .875rem;
+        position: relative;
+        padding-left: 2rem;
+
+        &::after,
+        &::before
+        {
+            content: ' ';
+            left: 0;
+            position: absolute;
+            height: 1.375rem;
+            top: 0;
+            width: 1.375rem;
+        }
+
+        &::before
+        {
+            border: .125rem solid $gray-400;
+            border-radius: $border-radius;
+        }
+    }
+}
+
+// Select2
+.select2-container .select2-selection--single
+{
+    align-items: center;
+    display: flex;
+    height: 3.125rem;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered
+{
+    font-size: 1rem;
+    padding-left: 1.125rem;
+    padding-right: 2.25rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+{
+    bottom: 0;
+    height: auto;
+    top: 0;
+    width: 2rem;
+
+    b
+    {
+        background: url($tpl-img-url + 'icons/arrow-chevron.svg');
+        height: .8125rem;
+        border: none;
+        margin-left: -.625rem;
+        margin-top: -.375rem;
+        transform: rotate(90deg);
+        width: .4375rem;
+    }
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]
+{
+    background-color: $orange;
 }

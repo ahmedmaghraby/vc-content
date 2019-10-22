@@ -12,8 +12,8 @@
 
     &-logo
     {
-        background: url(../assets/images/logo.svg) no-repeat;
         display: block;
+        background: url(../assets/images/logo.svg) no-repeat;
         font-size: 0;
         height: 2.5rem;
         width: 8.6875rem;
@@ -70,11 +70,11 @@
     .dropdown-menu .container
     {
         @include media-breakpoint-up(lg) {
-            padding-left: 9.0625rem;
+            padding-left: 12.0625rem;
         }
 
         @include media-breakpoint-up(xl) {
-            padding-left: 15.9375rem;
+            padding-left: 18.9375rem;
         }
     }
 
@@ -113,7 +113,7 @@
     @include media-breakpoint-down(lg) {
         &-logo
         {
-            background-image: url(../assets/images/logo.svg) no-repeat;
+            background-image: url(../assets/images/logo-mobile.svg) no-repeat;
             width: 2.5rem;
         }
     }

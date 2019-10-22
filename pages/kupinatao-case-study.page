@@ -1,0 +1,64 @@
+[
+    {
+        "type": "settings",
+        "title": "Kupinatao B2C Ecommerce Case Study",
+        "permalink": "case-studies/kupinatao",
+        "header": "Kupinatao B2C Ecommerce Case Study",
+        "description": "Kupinatao B2C Ecommerce Case Study",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Kupinatao Case Study",
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 9.10.13 PM.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Adapting a National Ecommerce Marketplace</h3>\n\n<h3>Overview</h3>\n\n<p>Kupinatao.com is a Russian adaption of Taobao and Alibaba, the largest online Chinese store. Kupinatao was one of the first online stores in Russia to offer goods directly from China. Kupinatao allows remote cities all over the country access to ecommerce.</p>\n\n<p>Virto Commerce engaged to create an international online marketplace called Kupinatao, and it now sells over 800 million items in the Russian market. Kupinatao is a Russian ecommerce adaptation of Alibaba, the world&#39;s largest online retailer website. Alibaba hosts the largest B2B marketplace at Alibaba.com, and the largest C2C market place is Taobao. Its online sales and profits surpassed all US retailers, including Walmart, Amazon, and eBay combined, since 2015. As a point of reference, Alibaba sells $30.8 Billion on its biggest selling day - Single&#39;s Day, which is over 4 times more than USA sales on Black Friday $6.2 Billion or Cyber Monday $7.9 Billion.</p>\n\n<p>To provide international access in Russia to this massive site, Virto Commerce and Kupinatao worked to develop and launch this adaptation of Taobao for C2C ecommerce for customers in Russia to purchase and receive shipments of goods. The site is similar to eBay in that there are many sellers; however areas like quality control, product availability, reviews, sizing, and distribution are more challenging in this international adaptation. The team worked to determine business processes and develop an ecommerce platform adapted to the new marketplace.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download the Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/kupinatao-case-study.pdf",
+        "headerType": null,
+        "formIdentifier": "Kupinatao case study"
+    }
+]

@@ -14,7 +14,7 @@ twitterimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
 twittersite: Virtocommerce
 layout: glossary
 tags :
-- d2c ecommerce
+- b2c ecommerce
 - business to consumer ecommerce
 ---
 <section itemscope itemtype="http://schema.org/Article">
@@ -87,49 +87,34 @@ tags :
             There are many factors to consider when choosing a B2C ecommerce platform. The following review contains some great solutions for the specific needs of a B2C store.
         </p>
         <ol class="text">
-            <li>
-                <p>
-                    Shopify is one of the most popular ecommerce platforms to build a feature-rich online store upon without any special
+            <li>Shopify is one of the most popular ecommerce platforms to build a feature-rich online store upon without any special
                     web development knowledge. The solution is easy to use and comes with a huge set of store templates. Among the cons
                     is the high price, and lack of migration options, upon canceling your Shopify account your store will be deleted.
-                </p>
             </li>
-            <li>
-                <p>
-                    Volusion offers a marketing emphasis with a user-friendly search engine and powerful inventory, as well as promotion
+            <li>Volusion offers a marketing emphasis with a user-friendly search engine and powerful inventory, as well as promotion
                     and shipping tools. The weak points are customer support and unstable hosting servers.
-                </p>
             </li>
             {% include 'vc-b2b_b2c-banner' %}
-            <li>
-                <p>
-                    <a href="{{ '/glossary/magento-alternatives' | absolute_url }}">Magento</a> is a free, open-source platform that allows you to create a self-hosted store with scalable architecture
+            <li><a href="{{ '/glossary/magento-alternatives' | absolute_url }}">Magento</a> is a free, open-source platform that allows you to create a self-hosted store with scalable architecture
                     and powerful SEO. But coding skills are required to customize the platform to your needs. And you would have
                     to host Magento solution on your own server. Not the best choice for a small company or for a newbie.
-                </p>
             </li>
-            <li>
-                <p>
-                    Bigcommerce allows you to easily create a store with a built-in mobile friendly website. The solution has cost-effective
+            <li>Bigcommerce allows you to easily create a store with a built-in mobile friendly website. The solution has cost-effective
                     plans for small online stores. As a matter of fact the set of features provided is mainly good for a small store.
                     The extensive enterprise-class customization would be a challenge.
-                </p>
             </li>
-            <li>
-                <p>
-                    Virto Commerce is an open-source ecommerce product available for both on-premise and cloud-based hosting. The
+            <li>Virto Commerce is an open-source ecommerce product available for both on-premise and cloud-based hosting. The
                     platforms capabilities include the architecture designed for scalability, and a powerful set of marketing
                     features for a precise customization of your store. The solution with its essential mobile friendly support is great for small startups, as well as for enterprise-level B2C and B2B websites, which demand full and flexible customization.
                     Based on the recommendations above, feel free to discover what each platform offers and how it fits your
                     business needs.
-                </p>
             </li>
         </ol>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 976 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information &amp; Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information &amp; Demo</a>
         </div>
     </div>
 </section>

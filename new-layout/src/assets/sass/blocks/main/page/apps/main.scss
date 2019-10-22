@@ -1,0 +1,363 @@
+.apps
+{
+    padding-bottom: 4.375rem;
+    padding-top: 4.375rem;
+
+    &__info
+    {
+        background: $gray-100;
+        margin-bottom: 4.375rem;
+        margin-top: -4.375rem;
+        padding: 4.375rem 1.25rem;
+        text-align: center;
+
+        &-inner
+        {
+            margin: 0 auto;
+            max-width: 37.5rem;
+        }
+
+        &-icon
+        {
+            background: url($tpl-img-url + 'page/apps/info.png') no-repeat scroll 0 0;
+            background-size: contain;
+            display: inline-block;
+            height: 7rem;
+            width: 7.75rem;
+        }
+
+        &-descr
+        {
+            font-size: .875rem;
+            line-height: 1.6;
+            margin: 2.5rem 0;
+            text-transform: uppercase;
+        }
+
+        .btn
+        {
+            font-size: .875rem;
+            justify-content: center;
+            text-transform: uppercase;
+            width: 100%;
+        }
+    }
+
+    &__items
+    {
+        &-t
+        {
+            align-items: center;
+            display: flex;
+            margin-bottom: 1rem;
+
+            h2
+            {
+                font-size: 1.5rem;
+                line-height: 1;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            @include media-breakpoint-down(xs) {
+                align-items: flex-start;
+                flex-direction: column;
+
+                h2
+                {
+                    margin-bottom: .625rem;
+                }
+            }
+
+            &:not(:first-child)
+            {
+                margin-top: 4rem;
+            }
+        }
+
+        .list--cards
+        {
+            margin: 0 -.625rem;
+
+            .list__item
+            {
+                margin-top: .625rem;
+                padding: .625rem .625rem 0;
+
+                @include media-breakpoint-up(lg) {
+                    flex: 0 0 25%;
+                    width: 25%;
+                }
+
+                @include media-breakpoint-up(xl) {
+                    flex: 0 0 20%;
+                    margin-top: .625rem;
+                    padding: .625rem .625rem 0;
+                    width: 20%;
+                }
+
+                @include media-breakpoint-down(md) {
+                    flex: 0 0 33.3333%;
+                    width: 33.3333%;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    flex: 0 0 50%;
+                    width: 50%;
+                }
+            }
+
+            .list__inner
+            {
+                align-items: center;
+                border-color: $gray-300;
+                border-radius: .25rem;
+                color: inherit;
+                padding: 0 .9375rem;
+                position: relative;
+                text-align: center;
+                transition: all .3s ease 0s;
+
+                &:hover
+                {
+                    box-shadow: 0 .3125rem 1.875rem rgba(0,0,0,.15);
+                }
+            }
+
+            .list__watermark
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100px;
+                width: 100%;
+                transition: opacity .25s;
+                opacity: .1;
+                overflow: hidden;
+                z-index: 1;
+
+                > svg
+                {
+                    position: relative;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+
+            .list__bg
+            {
+                align-items: center;
+                border-bottom: 1px solid $gray-300;
+                display: flex;
+                height: 6.25rem;
+                justify-content: center;
+                margin: 0 -.9375rem 1.25rem;
+                width: calc(100% + 1.875rem);
+            }
+
+            .list__pic
+            {
+                border-radius: 0;
+                max-width: 4rem;
+            }
+
+            .list__t
+            {
+                font-size: 1rem;
+                font-weight: normal;
+                margin-bottom: 1rem;
+            }
+
+            .list__vendor
+            {
+                color: #999;
+                font-size: .75rem;
+                margin-bottom: 1rem;
+            }
+
+            .list__descr
+            {
+                color: inherit;
+                font-size: .75rem;
+            }
+
+            .list__price
+            {
+                border-top: 1px solid $gray-400;
+                font-size: .875rem;
+                font-weight: normal;
+                margin: 0 -.9375rem;
+                padding: .25rem 0;
+                width: calc(100% + 1.875rem);
+
+                &:hover
+                {
+                    background-color: $blue;
+                    border-color: $blue;
+                    color: $white;
+                }
+            }
+
+            @include media-breakpoint-down(xs) {
+                align-items: center;
+                flex-direction: column;
+
+                .list__item
+                {
+                    flex: 0 0 16rem;
+                    max-width: 16rem;
+                    width: 100%;
+                }
+            }
+
+            @media (max-width: 26rem) {
+                .list__item
+                {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    &__detail
+    {
+        &-item
+        {
+            border: 1px solid $gray-300;
+            border-radius: .5rem;
+            position: relative;
+			overflow: hidden;
+
+            > img
+            {
+                left: 50%;
+                max-height: 100%;
+                max-width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            &::after
+            {
+                content: ' ';
+                display: block;
+                padding-top: 100%;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            &-item
+            {
+                width: 25rem;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            &-item
+            {
+                width: 18.75rem;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            &-item
+            {
+                width: 100%;
+            }
+
+            &-general
+            {
+                margin-top: 1.25rem;
+            }
+        }
+
+        &-t
+        {
+            font-size: 1.5rem;
+            margin: .625rem 0;
+            text-transform: uppercase;
+        }
+
+        &-link
+        {
+            font-size: .75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            &--review
+            {
+                font-size: 1rem;
+            }
+
+            &--gray
+            {
+                color: $gray-600;
+            }
+        }
+
+        &-descr
+        {
+            font-size: 1rem;
+            margin: 1.25rem 0;
+            max-width: 26rem;
+        }
+
+        &-author
+        {
+            > img
+            {
+                display: inline-block;
+                margin-bottom: 1rem;
+                width: 5rem;
+            }
+
+            .apps__detail-link
+            {
+                display: block;
+                margin-top: .625rem;
+            }
+        }
+
+        &-socials
+        {
+            margin-top: 1rem;
+
+            h2
+            {
+                font-size: 1.5rem;
+                margin-bottom: .625rem;
+                text-transform: uppercase;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            &-other
+            {
+                text-align: right;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            &-other
+            {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+	@include media-breakpoint-down(md) {
+		.extension-links
+		{
+			margin-top: 1.25rem;
+		}
+	}
+
+    .tabs
+    {
+        margin-top: 1.875rem;
+    }
+}

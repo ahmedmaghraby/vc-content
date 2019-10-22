@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="storefrontApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Virto Commerce" />
+    {% if page_description != '' %}
+    <meta name="description" content="{{ page_description | escape }}" />
+    <meta property="og:description" content="{{ page_description | escape }}" />
+    {% else %}
+    <meta name="description" content="Virto Commerce - enterprise .NET Microsoft E-commerce Platform for B2B & B2C solutions" />
+    {% endif %}
+    <meta name="keywords" content="Virto Commerce, Enterprise e-Commerce, ASP.NET eCommerce, Azure eCommerce, Cloud eCommerce, MVC eCommerce, .net shopping cart" />
+    <meta itemprop="name" content="Virto Commerce" />
+    <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
+    <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta property="og:url" content="{{ request_url }}" />
+    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
+    <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
+    {% if page_title != '' %}
+    <title>{{ page_title }}</title>
+    <meta property="og:title" content="{{ page_title }}" />
+    {% else %}
+    <title>Enterprise ASP.NET open-source Microsoft e-commerce platform - Virto Commerce</title>
+    {% endif %}
+    {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    {{ content_for_header }}
+    <base href="{{ '/' | absolute_url }}" />
+    <link rel="canonical" href="{{ canonical_url }}" />
+    <script>
+        var BASE_URL = '{{ "/" | full_url }}';
+    </script>
+</head>
+<body>
+    <div id="layout">
+        <div class="layout-canvas">
+            <article class="main" role="main">
+                {{ content_for_layout }}
+            </article>
+            <footer style="height: 5rem; background: #eee;"></footer>
+        </div>
+    </div>
+</body>
+</html>

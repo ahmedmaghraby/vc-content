@@ -1,0 +1,212 @@
+.modal-open .modal
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-backdrop
+{
+    background-color: $black;
+    height: 100vh;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 9000;
+
+    &.fade
+    {
+        opacity: .25;
+        transition: opacity .15s linear;
+
+        & ~ .modal
+        {
+            display: block;
+            transition: opacity .15s linear;
+
+            .modal-dialog
+            {
+                transform: translate(0);
+            }
+        }
+    }
+}
+
+.modal
+{
+    left: 0;
+    display: none;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9500;
+
+    &-dialog
+    {
+        max-width: 37.5rem;
+        margin: 1.75rem auto;
+        transition: transform .3s ease-out .3s;
+
+        &--centered
+        {
+            align-items: center;
+            display: flex;
+            min-height: calc(100% - 3.5rem);
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin: .625rem;
+        }
+    }
+
+    &-content
+    {
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: .375rem;
+        box-shadow: 0 .9375rem 1.875rem 0 rgba(0,0,0,.14);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        pointer-events: auto;
+        position: relative;
+        width: 100%;
+    }
+
+    &-header
+    {
+        align-items: center;
+        background-color: #eee;
+        display: flex;
+        font-size: 1.375rem;
+        font-weight: 900;
+        height: 4.125rem;
+        padding: 0 1.875rem;
+
+        .modal-close
+        {
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        &--bg-white
+        {
+            background-color: $white;
+        }
+    }
+
+    &-body
+    {
+        padding: 1.875rem;
+    }
+
+    .member
+    {
+        margin-top: -1.875rem;
+
+        &__t
+        {
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+
+        &__text
+        {
+            color: $gray-400;
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+        &__descr
+        {
+            font-size: 1.125rem;
+            line-height: 1.5;
+        }
+
+        &__link
+        {
+            color: $blue;
+            display: inline-block;
+            margin-top: 1.25rem;
+            font-weight: 600;
+            font-size: 18px;
+
+            &:hover
+            {
+                color: darken($orange, 2%);
+            }
+        }
+    }
+
+    .rating
+    {
+        align-items: center;
+        border-bottom: 1px solid $gray-400;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.875rem;
+        padding-bottom: 1.875rem;
+
+        &__t
+        {
+            font-size: 1.125rem;
+        }
+
+        .list--rating
+        {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 1.875rem;
+
+            .list__input
+            {
+                left: 0;
+                position: absolute;
+                top: 0;
+                visibility: hidden;
+
+                &:checked + .list__item
+                {
+                    background-position: 0 -2.125rem;
+                }
+            }
+
+            .list__item
+            {
+                background: url($tpl-img-url + 'icons/star.svg') no-repeat scroll 0 0;
+                height: 2.125rem;
+                width: 2.125rem;
+            }
+        }
+
+        &__eval
+        {
+            color: $gray-500;
+            display: none;
+            font-size: 1.125rem;
+            margin-left: auto;
+
+            &--active
+            {
+                display: block;
+            }
+        }
+
+        @include media-breakpoint-down(xs) {
+            &__t
+            {
+                margin-bottom: .625rem;
+                width: 100%;
+            }
+
+            .list--rating
+            {
+                margin: 0;
+            }
+        }
+    }
+}

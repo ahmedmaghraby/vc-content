@@ -1,571 +1,2919 @@
 {
-    "settings": {
-        "name": "Settings",
-        "static": true,
-        "icon": "settings",
-        "settings": [
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string"
-            },
-            {
-                "id": "permalink",
-                "label": "Permalink",
-                "type": "string"
-            },
-			{
-				"id": "layout",
-				"label": "Layout name",
-				"type": "select",
-				"default": "theme",
-				"options": [
-					{
-						"label": "Theme",
-						"value": "theme"
-					},
-					{
-						"label": "Empty",
-						"value": "empty"
-					},
-					{
-						"label": "Landing",
-						"value": "landing"
-					}
-				]
-			}
+  "settings": {
+    "name": "Settings",
+    "static": true,
+    "icon": "settings",
+    "settings": [
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string"
+      },
+      {
+        "id": "published",
+        "label": "Published",
+        "type": "boolean"
+      },
+      {
+        "id": "schema",
+        "label": "Metadata",
+        "type": "string"
+      },
+      {
+        "id": "permalink",
+        "label": "Permalink",
+        "type": "string"
+      },
+      {
+        "id": "layout",
+        "label": "Layout name",
+        "type": "select",
+        "default": "theme",
+        "options": [
+          {
+            "label": "Theme",
+            "value": "theme"
+          },
+          {
+            "label": "Empty",
+            "value": "empty"
+          },
+          {
+            "label": "Footer only",
+            "value": "footer-only"
+          },
+          {
+            "label": "Landing",
+            "value": "landing"
+          }
         ]
-    },
-    "header": {
-        "name": "Header",
-        "static": "-top",
-        "icon": "header",
-        "settings": [
-            {
-                "type": "header",
-                "content": "Header"
-            },
-            {
-                "id": "header_text_color",
-                "label": "Text color",
-                "type": "color"
+      }
+    ]
+  },
+  "header": {
+    "name": "Header",
+    "static": "-top",
+    "icon": "header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Header"
+      },
+      {
+        "id": "header_text_color",
+        "label": "Text color",
+        "type": "color"
+      }
+    ]
+  },
+  "footer": {
+    "name": "Footer",
+    "static": "-bottom",
+    "icon": "footer",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Footer"
+      },
+      {
+        "id": "header_text_color",
+        "label": "Text color",
+        "type": "color"
+      }
+    ]
+  },
+  "form-case-study": {
+    "name": "Form Case Study",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Form Case Study",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://img2.goodfon.ru/original/1440x900/8/3d/sova-vzglyad-belyy-white.jpg" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "logo",
+        "label": "Partner logo",
+        "type": "image",
+        "default": { "url": null },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "phone",
+        "label": "Phone number",
+        "type": "string",
+        "default": "+1 800 980—5288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Phone link",
+        "type": "string",
+        "default": "tel:+18009805288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chat",
+        "label": "Caption for chat",
+        "type": "string",
+        "default": "Chat with us",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for chat",
+        "type": "string",
+        "tab": "Contacts"
+      },
+      {
+        "id": "formFields",
+        "label": "Form",
+        "type": "list",
+        "addText": "Add field",
+        "removeText": "Remove field",
+        "displayField": "labelText",
+        "element": [
+          {
+            "id": "fieldName",
+            "label": "Field name",
+            "type": "string"
+          },
+          {
+            "id": "fieldId",
+            "label": "Field ID",
+            "type": "string"
+          },
+          {
+            "id": "fieldType",
+            "label": "fieldType",
+            "type": "select",
+            "options": [
+              {
+                "value": "text",
+                "label": "Text"
+              },
+              {
+                "value": "checkbox",
+                "label": "Checkbox"
+              },
+              {
+                "value": "hidden",
+                "label": "Hidden"
+              }
+            ]
+          },
+          {
+            "id": "labelText",
+            "label": "Label text",
+            "type": "text"
+          },
+          {
+            "id": "data",
+            "label": "Additional data",
+            "type": "string"
+          },
+          {
+            "id": "required",
+            "label": "Required field",
+            "type": "checkbox"
+          }
+        ],
+        "default": [
+          {
+            "fieldName": "fullname",
+            "fieldId": "fullname",
+            "fieldType": "text",
+            "labelText": "Full name"
+          },
+          {
+            "fieldName": "email",
+            "fieldId": "email",
+            "fieldType": "text",
+            "labelText": "Email"
+          },
+          {
+            "fieldName": "agree",
+            "fieldId": "agree",
+            "fieldType": "checkbox",
+            "labelText": "By clicking «Request Demo» I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+          }
+        ],
+        "tab": "Form"
+      },
+      {
+        "id": "submitButtonText",
+        "label": "Submit button text",
+        "type": "string",
+        "tab": "Form",
+        "default": "Request demo"
+      }
+    ]
+  },
+  "thank-you": {
+    "name": "Thank you",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Thank you!",
+        "tab": "Settings"
+      },
+      {
+        "id": "thankYou",
+        "label": "Thank you text",
+        "type": "string",
+        "default": "Thank you!<br/>We will be in touch soon."
+      },
+      {
+        "id": "whatsNext",
+        "label": "\"What's next\" text",
+        "type": "string",
+        "default": "What's next"
+      },
+      {
+        "id": "thankYouItems",
+        "label": "Thank you links",
+        "type": "list",
+        "addText": "Add link",
+        "removeText": "Remove link",
+        "displayField": "text",
+        "element": [
+          {
+            "id": "url",
+            "type": "string",
+            "label": "Url"
+          },
+          {
+            "id": "icon",
+            "type": "image",
+            "label": "Icon"
+          },
+          {
+            "id": "text",
+            "type": "string",
+            "label": "Text"
+          }
+        ],
+        "default": [
+          { "url": "#", "text": "Discover Virto Commerce success stories" },
+          { "url": "#", "text": "Explore Virto Commerce architecture" },
+          { "url": "#", "text": "Explore Virto Commerce architecture" }
+        ]
+      },
+      {
+        "id": "phone",
+        "label": "Phone number",
+        "type": "string",
+        "default": "+1 800 980—5288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Phone link",
+        "type": "string",
+        "default": "tel:+18009805288",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chat",
+        "label": "Caption for chat",
+        "type": "string",
+        "default": "Chat with us",
+        "tab": "Contacts"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for chat",
+        "type": "string",
+        "tab": "Contacts"
+      }
+
+    ]
+  },
+  "decorated-hero": {
+    "name": "Decorated hero",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "list-and-text": {
+    "name": "List and text",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "listPosition",
+        "label": "List position",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Left"
+          },
+          {
+            "value": "list--horizontal",
+            "label": "Top"
+          },
+          {
+            "value": "list--reverse",
+            "label": "Right"
+          },
+          {
+            "value": "list--horizontal-reverse",
+            "label": "Bottom"
+          }
+        ]
+      },
+      {
+        "id": "listEnumType",
+        "label": "List marker type",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Numbers"
+          },
+          {
+            "value": "list--latin",
+            "label": "Latin"
+          },
+          {
+            "value": "list--roman",
+            "label": "Roman"
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": null,
+        "options": [
+          {
+            "value": null,
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          },
+          {
+            "value": "section__t--large",
+            "label": "Large"
+          },
+          {
+            "value": "section__t--large section__t--gray",
+            "label": "Large gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "list",
+        "label": "List items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "text"
+          }
+        ],
+        "default": [
+          {
+            "text": "Out-of-the box solutions don’t fit startups"
+          },
+          {
+            "text": "Licensing doesn’t work for startup’s business models"
+          },
+          {
+            "text": "It is hard to find qualified experts to achieve MVP fast"
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "image-with-text": {
+    "name": "Image with text",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Image with text",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "align",
+        "label": "Image position",
+        "type": "select",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Useful content"
+      },
+      {
+        "id": "url1",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ]
+      },
+      {
+        "id": "url2",
+        "label": "Second Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "text-over-image": {
+    "name": "Text over image",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "subTitle",
+        "label": "Subtitle",
+        "type": "string",
+        "default": ""
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://vcpro.blob.core.windows.net/blogs/agiledefinitionheader.png" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Short block content"
+      },
+      {
+        "id": "url1",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn--orange",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn--white",
+            "label": "White button"
+          }
+        ]
+      },
+      {
+        "id": "url2",
+        "label": "Second Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn--orange",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn--white",
+            "label": "White button"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "cards": {
+    "name": "Cards list",
+    "icon": "text-columns",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Yellowstone National Park",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "items",
+        "label": "Items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "string"
+          },
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          },
+          {
+            "id": "text",
+            "label": "Content",
+            "type": "text"
+          },
+          {
+            "id": "link",
+            "label": "Link",
+            "type": "url",
+            "textLabel": "Text",
+            "styleLabel": "Link style",
+            "styles": [
+              {
+                "value": "btn--orange btn--round",
+                "label": "Orange button"
+              },
+              {
+                "value": "btn--white btn--round",
+                "label": "White button"
+              }
+            ]
+          }
+        ],
+        "default": [
+          {
+            "title": "What is a Hosted Shopping Cart?",
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/hostedshoppingct.jpeg" },
+            "text": "Hosted Shopping Cart Definition and Uses",
+            "link": {
+              "urlText": "Read more",
+              "style": "btn--orange btn--round",
+              "url": "#"
             }
-        ]
-    },
-    "footer": {
-        "name": "Footer",
-        "static": "-bottom",
-        "icon": "footer",
-        "settings": [
-            {
-                "type": "header",
-                "content": "Footer"
-            },
-            {
-                "id": "header_text_color",
-                "label": "Text color",
-                "type": "color"
+          },
+          {
+            "title": "Inventory Management",
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/inventory.jpeg" },
+            "text": "What is Inventory Management? Why is it important in ecommerce?",
+            "link": {
+              "urlText": "Read more",
+              "style": "btn--orange btn--round",
+              "url": "#"
             }
-        ]
-    },
-    "image-carousel": {
-        "name": "Image carousel",
-        "icon": "image-carousel",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image carousel",
-				"autofocus": true
-            },
-            {
-                "id": "width",
-                "label": "Block width",
-                "type": "select",
-                "default": "screen",
-                "options": [
-                    {
-                        "label": "Screen",
-                        "value": "screen"
-                    },
-                    {
-                        "label": "Container",
-                        "value": "container"
-                    },
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    }
-                ]
-            },
-            {
-                "id": "rotate",
-                "label": "Auto-rotate images",
-                "type": "checkbox",
-                "default": true
-            },
-            {
-                "id": "frequency",
-                "label": "Rotation frequency",
-                "type": "select",
-                "default": "5000",
-                "options": [
-                    {
-                        "label": "5000",
-                        "value": "5 seconds"
-                    },
-                    {
-                        "label": "6000",
-                        "value": "6 seconds"
-                    },
-                    {
-                        "label": "7000",
-                        "value": "7 seconds"
-                    },
-                    {
-                        "label": "8000",
-                        "value": "8 seconds"
-                    },
-                    {
-                        "label": "9000",
-                        "value": "9 seconds"
-                    }
-                ]
-            },
-            {
-                "id": "images",
-                "label": "Images",
-                "type": "list",
-                "addText": "Add image",
-                "removeText": "Remove image",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "url",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "content",
-                        "label": "Content",
-                        "type": "text"
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Galunggung",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg",
-                        "content": "Mount Galunggung is an active stratovolcano in West Java, Indonesia. <a href='https://en.wikipedia.org/wiki/Galunggung'>See more on Wiki</a>"
-                    },
-                    {
-                        "title": "Hopetoun falls",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Hopetoun_falls.jpg",
-                        "content": "The Hopetoun Falls is a waterfall across the Aire River that is located in The Otways region of Victoria, Australia. <a href='https://en.wikipedia.org/wiki/Hopetoun_Falls'>See more on Wiki</a>"
-                    },
-                    {
-                        "title": "Bachalpsee reflection",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg",
-                        "content": "Bachalpsee is a lake close to the First above Grindelwald in the Bernese Oberland, Switzerland. <a href='https://en.wikipedia.org/wiki/Bachalpsee'>See more on Wiki</a>"
-                    }
-                ]
+          },
+          {
+            "title": "What is Backorder?",
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/agilephoto.jpeg" },
+            "text": "Learn more on how to handle backorders and fulfillment",
+            "link": {
+              "urlText": "Read more",
+              "style": "btn--orange btn--round",
+              "url": "#"
             }
+          }
         ]
-    },
-    "image-with-text": {
-        "name": "Image with text",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image with text"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Yellowstone National Park",
-				"autofocus": true
-            },
-            {
-                "id": "align",
-                "label": "Choose image alignment",
-                "type": "select",
-                "default": "left",
-                "options": [
-                    {
-                        "label": "Left",
-                        "value": "left"
-                    },
-                    {
-                        "label": "Right",
-                        "value": "right"
-                    }
-                ]
-            },
-            {
-                "id": "url",
-                "label": "Upload picture",
-                "type": "image",
-                "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/yellowstone.jpg",
-                "previewWith": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Yellowstone National Park is an American national park located in Wyoming, Montana, and Idaho.  <a href='https://en.wikipedia.org/wiki/Yellowstone_National_Park'>See more on Wiki</a>"
-            }
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "text": {
+    "name": "Simple text",
+    "icon": "text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
         ]
-    },
-    "image-with-text-overlay": {
-		"hide": true,
-        "name": "Image with text overlay",
-        "icon": "fas fa-file-contract",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image with text overlay",
-				"autofocus": true
-            },
-            {
-                "id": "textColor",
-                "label": "Text color",
-                "type": "color",
-                "default": "black"
-            },
-            {
-                "id": "textOpacity",
-                "label": "Text opacity",
-                "type": "number",
-                "default": "opacity"
-            },
-            {
-                "id": "url",
-                "label": "Upload picture",
-                "type": "image",
-                "previewWith": 120,
-                "previewHeight": 80,
-                "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Grand_Canyon.jpg"
-            },
-            {
-                "id": "align",
-                "label": "Choose text alignment",
-                "type": "select",
-                "default": "center",
-                "options": [
-                    {
-                        "label": "Left",
-                        "value": "left"
-                    },
-                    {
-                        "label": "Center",
-                        "value": "center"
-                    },
-                    {
-                        "label": "Right",
-                        "value": "right"
-                    }
-                ]
-            },
-            {
-                "id": "width",
-                "label": "Block width",
-                "type": "select",
-                "default": "screen",
-                "options": [
-                    {
-                        "label": "Screen",
-                        "value": "screen"
-                    },
-                    {
-                        "label": "Container",
-                        "value": "container"
-                    },
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    }
-                ]
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States.  <a href='https://en.wikipedia.org/wiki/Grand_Canyon'>See more on Wiki</a>"
-            }
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
         ]
-    },
-    "images-layout": {
-		"hide": true,
-        "name": "Images layout",
-        "icon": "far fa-file-image",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image carousel",
-				"autofocus": true
-            },
-            {
-                "id": "layout",
-                "label": "Layout",
-                "type": "select",
-                "default": "one-two",
-                "options": [
-                    {
-                        "label": "One left, two right",
-                        "value": "one-two"
-                    },
-                    {
-                        "label": "Two left, one right",
-                        "value": "two-one"
-                    },
-                    {
-                        "label": "One left, one right",
-                        "value": "one-one"
-                    }
-                ]
-            },
-            {
-                "id": "images",
-                "label": "Images",
-                "type": "list",
-                "addText": "Add image",
-                "removeText": "Remove image",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "url",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Tower of Pisa",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/pisa_tower.jpeg"
-                    },
-                    {
-                        "title": "Sagrada Família",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/barcelona.jpeg"
-                    },
-                    {
-                        "title": "Paris Opera",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Paris_Opera.jpeg"
-                    }
-                ]
-            }
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "decorator",
+        "label": "Block decorator",
+        "type": "select",
+        "default": "none",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "section--pattern",
+            "label": "Pattern 1"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Text block content"
+      },
+      {
+        "id": "url",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ],
+        "default": {
+          "url": {
+            "url": "#",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+          },
+          "style": "btn--orange btn--round"
+        }
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "two-columns-text": {
+    "name": "Two columns text",
+    "icon": "text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
         ]
-    },
-    "image": {
-        "name": "Simple image",
-        "icon": "image",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Simple image",
-				"autofocus": true
-            },
-            {
-                "id": "size",
-                "label": "Choose size",
-                "type": "select",
-                "default": "medium",
-                "options": [
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    },
-                    {
-                        "label": "Medium",
-                        "value": "medium"
-                    },
-                    {
-                        "label": "Large",
-                        "value": "large"
-                    },
-                    {
-                        "label": "Extra Large",
-                        "value": "xlarge"
-                    }
-                ]
-            },
-            {
-                "id": "url",
-                "label": "Upload picture",
-                "type": "image",
-                "previewWidth": 120,
-                "previewHeight": 80,
-                "default": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bajkał_lake.jpg"
-            }
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
         ]
-    },
-    "text": {
-        "name": "Simple text",
-        "icon": "text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text"
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-				"autofocus": true
-            }
+      },
+      {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": null,
+        "options": [
+          {
+            "value": null,
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "contentBefore",
+        "label": "Content",
+        "type": "text",
+        "default": "Intro text for the block"
+      },
+      {
+        "id": "items",
+        "label": "Items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "text"
+          }
+        ],
+        "default": [
+          {
+            "text": "Left column content"
+          },
+          {
+            "text": "Right column content"
+          },
+          {
+            "text": "Last item content it it exists"
+          }
         ]
-    },
-    "textcolumns-with-images": {
-		"hide": true,
-        "name": "Text columns with images",
-        "icon": "text-columns",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text columns with images",
-				"autofocus": true
-            },
-            {
-                "id": "align",
-                "label": "Image alignment",
-                "type": "select",
-                "default": "top",
-                "options": [
-                    {
-                        "label": "Top",
-                        "value": "top"
-                    },
-                    {
-                        "label": "Bottom",
-                        "value": "bottom"
-                    }
-                ]
-            },
-            {
-                "id": "size",
-                "label": "Image size",
-                "type": "select",
-                "default": "medium",
-                "options": [
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    },
-                    {
-                        "label": "Medium",
-                        "value": "medium"
-                    },
-                    {
-                        "label": "Large",
-                        "value": "large"
-                    }
-                ]
-            },
-            {
-                "id": "columns",
-                "label": "Columns",
-                "type": "list",
-                "addText": "Add column",
-                "removeText": "Remove column",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "url",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "content",
-                        "label": "Content",
-                        "type": "text"
-                    },
-                    {
-                        "id": "width",
-                        "label": "Flex width",
-                        "type": "number"
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Left column",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg",
-                        "content": "Bachalpsee is a lake close to the First above Grindelwald in the Bernese Oberland, Switzerland. <a href='https://en.wikipedia.org/wiki/Bachalpsee'>See more on Wiki</a>",
-                        "width": 2
-                    },
-                    {
-                        "title": "Right column",
-                        "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg",
-                        "content": "Mount Galunggung is an active stratovolcano in West Java, Indonesia. <a href='https://en.wikipedia.org/wiki/Galunggung'>See more on Wiki</a>",
-                        "width": 1
-                    }
-                ]
-            }
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "list-with-images": {
+    "name": "List with images",
+    "icon": "text-columns",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "List with images",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "All you need in one place",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
         ]
-    },
-    "category": {
-		"hide": true,
-        "name": "Category",
-        "icon": "category",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Category",
-				"autofocus": true
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default":  "Headphones"
-            },
-            {
-                "id": "categoryId",
-                "label": "Category id",
-                "type": "string",
-                "default": "",
-                "placeholder": "Enter category id"
-            }
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
         ]
-    }
+      },
+      {
+        "id": "titleStyle",
+        "label": "Title style",
+        "type": "select",
+        "default": null,
+        "options": [
+          {
+            "value": null,
+            "label": "Standard"
+          },
+          {
+            "value": "section__t--gray",
+            "label": "Gray"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "intro",
+        "label": "Intro",
+        "type": "text",
+        "default": "Intro text for the block"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "colStyle",
+        "label": "Columns",
+        "type": "select",
+        "default": "col-lg-6",
+        "options": [
+          {
+            "value": "col-lg-12",
+            "label": "1 per row"
+          },
+          {
+            "value": "col-lg-6",
+            "label": "2 per row"
+          },
+          {
+            "value": "col-md-6 col-lg-4",
+            "label": "3 per row"
+          },
+          {
+            "value": "col-6 col-sm-4 col-lg-3",
+            "label": "4 per row"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "items",
+        "label": "Items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          },
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "string"
+          },
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "text"
+          },
+          {
+            "id": "iconStyle",
+            "label": "Icon style",
+            "type": "select",
+            "default": null,
+            "options": [
+              {
+                "value": null,
+                "label": "Normal"
+              },
+              {
+                "value": "list__icon--mini",
+                "label": "Small"
+              }
+            ]
+          },
+          {
+            "id": "url",
+            "label": "Link",
+            "type": "url",
+            "textLabel": "Text",
+            "styleLabel": "Link style",
+            "styles": [
+              {
+                "value": "btn",
+                "label": "Button"
+              },
+              {
+                "value": "btn btn--orange btn--lg",
+                "label": "Orange button"
+              },
+              {
+                "value": "btn btn--lg",
+                "label": "Gray button"
+              },
+              {
+                "value": "benefits__link",
+                "label": "Link"
+              },
+              {
+                "value": "link-large",
+                "label": "Large link"
+              },
+              {
+                "value": "btn btn--orange btn--round",
+                "label": "Round orange"
+              }
+            ]
+          }
+        ],
+        "default": [
+          {
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_1.png" },
+            "title": "Conditional Promotions",
+            "text": "<p>Flexible promotion module provides the right targeted incentives to specific customers for certain products or categories.</p>",
+            "iconStyle": ""
+          },
+          {
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_3.png" },
+            "title": "Coupons &amp; Tracking",
+            "text": "<p>Use promo codes and coupons to run targeted promotions, and easily track the results and revenue for each coupon.</p>",
+            "iconStyle": ""
+          },
+          {
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_5.png" },
+            "title": "Minimum Advertised Price (MAP) Support Tools",
+            "text": "<p>Ensure that third party sellers are not hurting your brand by selling your products at prices lower than they should be.</p>",
+            "iconStyle": ""
+          },
+          {
+            "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_2.png" },
+            "title": "Customer Segmenting",
+            "text": "<p>Leverage the flexibility to segment your customers endlessly, ensuring they received promotions targeted exactly to their wants and needs.</p>",
+            "iconStyle": ""
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "text-with-button": {
+    "name": "Text with button",
+    "icon": "text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text",
+        "tab": "Settings"
+      },
+      {
+        "id": "text",
+        "label": "Text",
+        "type": "string",
+        "default": "Ready to get started?",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "url",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ],
+        "default": {
+          "url": {
+            "url": "#",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+          },
+          "style": "btn--orange btn--round"
+        }
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "image": {
+    "name": "Simple image",
+    "icon": "image",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Simple image",
+        "tab": "Settings",
+        "autofocus": true
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "size",
+        "label": "Block size",
+        "type": "select",
+        "default": "middle",
+        "options": [
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "middle",
+            "label": "Middle"
+          },
+          {
+            "value": "block",
+            "label": "Block"
+          },
+          {
+            "value": "page",
+            "label": "Page"
+          }
+        ]
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "previewWidth": 120,
+        "previewHeight": 80,
+        "default": { "url": "https://vcpro.blob.core.windows.net/blogs/hero.png" }
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "download-case-studies-form": {
+    "name": "Download Case studies form",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "tab": "Settings",
+        "default": "Download Case studies form"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Download Case Studies"
+      },
+      {
+        "id": "buttonText",
+        "label": "Button text",
+        "type": "string",
+        "default": "Download Case Studies"
+      },
+      {
+        "id": "buttonId",
+        "label": "Button identifier",
+        "type": "string",
+        "default": "caseStudyBtn"
+      },
+      {
+        "id": "downloadUrl",
+        "label": "File",
+        "type": "file",
+        "default": "Choose file"
+      },
+      {
+        "id": "description",
+        "label": "Description",
+        "type": "text",
+        "default": "By clicking «Download Case Studies» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
+      },
+      {
+        "id": "formIdentifier",
+        "label": "Form identifier",
+        "type": "string"
+      }
+    ]
+  },
+  "request-form": {
+    "name": "Request Demo Form",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Request demo form"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Request a Virto Commerce Demo"
+      },
+      {
+        "id": "formName",
+        "label": "Segment event name",
+        "type": "string",
+        "tab": "Settings"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "<p>Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the \"Get in touch with me\" option and we will contact you shortly.</p>"
+      },
+      {
+        "id": "phoneLink",
+        "label": "Link for Phone",
+        "type": "string"
+      },
+      {
+        "id": "chatLink",
+        "label": "Link for Chat",
+        "type": "string"
+      },
+      {
+        "id": "touchUrl",
+        "label": "\"Get in touch\" case url",
+        "type": "string"
+      },
+      {
+        "id": "linkUrl",
+        "label": "\"Link access\" case url",
+        "type": "string"
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      }
+    ]
+  },
+  "custom-form": {
+    "name": "Custom Form",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Custom form"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Join our network"
+      },
+      {
+        "id": "formName",
+        "label": "Segment event name",
+        "type": "string",
+        "tab": "Segment"
+      },
+      {
+        "id": "segmentOptions",
+        "label": "Segment Options",
+        "type": "string",
+        "tab": "Segment"
+      },
+      {
+        "id": "intro",
+        "label": "Intro",
+        "type": "text",
+        "default": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>"
+      },
+      {
+        "id": "fields",
+        "label": "Fields",
+        "type": "list",
+        "addText": "Add field",
+        "removeText": "Remove field",
+        "displayField": "label",
+        "element": [
+          {
+            "id": "label",
+            "label": "Label",
+            "type": "string"
+          },
+          {
+            "id": "name",
+            "label": "Field name",
+            "type": "string"
+          },
+          {
+            "id": "type",
+            "label": "Field type",
+            "type": "select",
+            "options": [
+              {
+                "value": "text",
+                "label": "String"
+              },
+              {
+                "value": "email",
+                "label": "Email"
+              },
+              {
+                "value": "select",
+                "label": "Select"
+              },
+              {
+                "value": "checkbox",
+                "label": "Checkbox"
+              },
+              {
+                "value": "textarea",
+                "label": "Textarea"
+              },
+              {
+                "value": "hidden",
+                "label": "Hidden"
+              }
+            ]
+          },
+          {
+            "id": "data",
+            "label": "Additional data",
+            "type": "string",
+            "info": "For select options is a semicolon separated values. For hidden field is a value."
+          },
+          {
+            "id": "fullrow",
+            "label": "Full row",
+            "type": "checkbox"
+          },
+          {
+            "id": "segmentFieldName",
+            "label": "Name for segment",
+            "type": "string"
+          },
+          {
+            "id": "required",
+            "label": "Required field",
+            "type": "checkbox"
+          }
+        ],
+        "default": [
+          {
+            "label": "Full name",
+            "name": "fullname",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Email",
+            "name": "email",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Phone",
+            "name": "phone",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Company",
+            "name": "company",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Job Title",
+            "name": "jobtitle",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Website",
+            "name": "website",
+            "type": "text",
+            "fullrow": false
+          },
+          {
+            "label": "Region",
+            "name": "region",
+            "type": "text",
+            "fullrow": true
+          },
+          {
+            "label": "Comments",
+            "name": "comments",
+            "type": "textarea",
+            "fullrow": true
+          }
+        ]
+      },
+      {
+        "id": "outtro",
+        "label": "Outtro",
+        "type": "text",
+        "default": "By clicking «Send Message» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
+      },
+      {
+        "id": "buttonText",
+        "label": "Button text",
+        "type": "string",
+        "default": "Send Message"
+      }
+    ]
+  },
+  "divider": {
+    "name": "Divider",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Divider"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      }
+    ]
+  },
+  "business-leaders": {
+    "name": "Business Leaders",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Business Leaders"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "tab": "Settings",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": true
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "image-with-text-overlay": {
+    "hide": true,
+    "name": "Image with text overlay",
+    "icon": "fas fa-file-contract",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Image with text overlay",
+        "autofocus": true
+      },
+      {
+        "id": "textColor",
+        "label": "Text color",
+        "type": "color",
+        "default": "black"
+      },
+      {
+        "id": "textOpacity",
+        "label": "Text opacity",
+        "type": "number",
+        "default": "opacity"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "previewWidth": 120,
+        "previewHeight": 80,
+        "default": { "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Grand_Canyon.jpg" }
+      },
+      {
+        "id": "align",
+        "label": "Choose text alignment",
+        "type": "select",
+        "default": "center",
+        "options": [
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Center",
+            "value": "center"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "id": "width",
+        "label": "Block width",
+        "type": "select",
+        "default": "screen",
+        "options": [
+          {
+            "label": "Screen",
+            "value": "screen"
+          },
+          {
+            "label": "Container",
+            "value": "container"
+          },
+          {
+            "label": "Small",
+            "value": "small"
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States.  <a href='https://en.wikipedia.org/wiki/Grand_Canyon'>See more on Wiki</a>"
+      }
+    ]
+  },
+  "textcolumns-with-images": {
+    "hide": true,
+    "name": "Text columns with images",
+    "icon": "text-columns",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text columns with images",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "All you need in one place",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": ""
+      },
+      {
+        "id": "columns",
+        "label": "Columns",
+        "type": "list",
+        "addText": "Add column",
+        "removeText": "Remove column",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "string"
+          },
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          },
+          {
+            "id": "content",
+            "label": "Content",
+            "type": "text"
+          },
+          {
+            "id": "url",
+            "label": "Link",
+            "type": "url",
+            "textLabel": "Text",
+            "styleLabel": "Link style",
+            "styles": [
+              {
+                "value": "btn",
+                "label": "Button"
+              },
+              {
+                "value": "btn btn--orange btn--lg",
+                "label": "Orange button"
+              },
+              {
+                "value": "btn btn--lg",
+                "label": "Gray button"
+              },
+              {
+                "value": "benefits__link",
+                "label": "Link"
+              },
+              {
+                "value": "link-large",
+                "label": "Large link"
+              },
+              {
+                "value": "btn btn--orange btn--round",
+                "label": "Round orange"
+              }
+            ]
+          }
+        ],
+        "default": [
+          {
+            "title": "Left column",
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg",
+            "content": "Bachalpsee is a lake close to the First above Grindelwald in the Bernese Oberland, Switzerland. <a href='https://en.wikipedia.org/wiki/Bachalpsee'>See more on Wiki</a>"
+          },
+          {
+            "title": "Right column",
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg",
+            "content": "Mount Galunggung is an active stratovolcano in West Java, Indonesia. <a href='https://en.wikipedia.org/wiki/Galunggung'>See more on Wiki</a>"
+          }
+        ]
+      },
+      {
+        "id": "columnsWidth",
+        "label": "Columns width",
+        "type": "select",
+        "default": "auto",
+        "options": [
+          {
+            "value": "auto",
+            "label": "auto"
+          },
+          {
+            "value": "col-md-6 col-lg-4",
+            "label": "3 per row"
+          },
+          {
+            "value": "col-6 col-sm-4 col-lg-3",
+            "label": "4 per row"
+          }
+        ],
+        "tab": "Settings"
+      }
+    ]
+  },
+  "image-carousel": {
+    "hide": true,
+    "name": "Image carousel",
+    "icon": "image-carousel",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Image carousel",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "images",
+        "label": "Images",
+        "type": "list",
+        "addText": "Add image",
+        "removeText": "Remove image",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          }
+        ],
+        "default": [
+          {
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg"
+          },
+          {
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Hopetoun_falls.jpg"
+          },
+          {
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "contacts-form": {
+    "hide": true,
+    "name": "Contacts form",
+    "icon": "contacts-form",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Contacts form",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "autofocus": true
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "items",
+        "label": "Items",
+        "type": "list",
+        "addText": "Add item",
+        "removeText": "Remove item",
+        "displayField": "text",
+        "element": [
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          },
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "string"
+          }
+        ],
+        "default": []
+      }
+    ]
+  },
+  "text-with-form": {
+    "hide": true,
+    "name": "Text with form",
+    "icon": "text-with-form",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text with form",
+        "tab": "Settings"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text"
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      }
+    ]
+  },
+  "images-layout": {
+    "hide": true,
+    "name": "Images layout",
+    "icon": "far fa-file-image",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Image carousel",
+        "autofocus": true
+      },
+      {
+        "id": "layout",
+        "label": "Layout",
+        "type": "select",
+        "default": "one-two",
+        "options": [
+          {
+            "label": "One left, two right",
+            "value": "one-two"
+          },
+          {
+            "label": "Two left, one right",
+            "value": "two-one"
+          },
+          {
+            "label": "One left, one right",
+            "value": "one-one"
+          }
+        ]
+      },
+      {
+        "id": "images",
+        "label": "Images",
+        "type": "list",
+        "addText": "Add image",
+        "removeText": "Remove image",
+        "displayField": "title",
+        "element": [
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "string"
+          },
+          {
+            "id": "image",
+            "label": "Upload picture",
+            "type": "image",
+            "previewWidth": 120,
+            "previewHeight": 80
+          }
+        ],
+        "default": [
+          {
+            "title": "Tower of Pisa",
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/pisa_tower.jpeg"
+          },
+          {
+            "title": "Sagrada Família",
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/barcelona.jpeg"
+          },
+          {
+            "title": "Paris Opera",
+            "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Paris_Opera.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  "category": {
+    "name": "Category",
+    "icon": "category",
+    "hide": true,
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Category",
+        "autofocus": true
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Headphones"
+      },
+      {
+        "id": "categoryId",
+        "label": "Category id",
+        "type": "string",
+        "default": "",
+        "placeholder": "Enter category id"
+      }
+    ]
+  }
 }

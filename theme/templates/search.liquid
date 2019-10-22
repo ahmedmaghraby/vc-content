@@ -1,6 +1,7 @@
 {% if search.search_in != '/docs' %}
+    {% layout 'apps' %}
     <div class="apps">
-        <div class="items __responsive">
+        <div class="items container">
             <div class="title-w">
                 {% if search.performed %}
                     {% if search.results_count == 0 %}
@@ -37,6 +38,7 @@
         </div>
     </div>
 {% else %}
+    {% layout 'docs' %}
     {% if search.results_count == 0 %}
         <h1>{{ 'general.search.no_results_html' | t: terms: search.terms }}</h1>
     {% else %}

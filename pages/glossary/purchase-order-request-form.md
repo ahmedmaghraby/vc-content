@@ -44,16 +44,16 @@ tags :
         <div class="section-title">Purchase Order vs. Purchase Invoice</div>
         <p class="text">A purchase invoice is used along with purchase order and can show you how much money the supplier still needs to get from the buyer. Invoices can also be called and referred to as “bills,” “statements” or “sales invoices.”</p>
         <p class="text">With an invoice, you can describe the product that was delivered to the customer as well as the price of it. Besides that, you can also set payment terms to the buyer. It is also a good practice to use online tools to create and send the invoices. A proper invoice would be organized, well-structured and would include:</p>
-        <p class="text">●	Date of issue;</p>
-        <p class="text">●	Invoice number;</p>
-        <p class="text">●	PO number;</p>
-        <p class="text">●	Quantity of products that were ordered;</p>
-        <p class="text">●	Price for each product purchased;</p>
-        <p class="text">●	Any applicable discounts;</p>
-        <p class="text">●	Taxes that apply to the purchase;</p>
-        <p class="text">●	Total cost of the products; </p>
-        <p class="text">●	Names and addresses of seller and buyer;</p>
-        <p class="text">●	Signature of a seller.</p>
+        <p class="text">• Date of issue;</p>
+        <p class="text">• Invoice number;</p>
+        <p class="text">• PO number;</p>
+        <p class="text">• Quantity of products that were ordered;</p>
+        <p class="text">• Price for each product purchased;</p>
+        <p class="text">• Any applicable discounts;</p>
+        <p class="text">• Taxes that apply to the purchase;</p>
+        <p class="text">• Total cost of the products; </p>
+        <p class="text">• Names and addresses of seller and buyer;</p>
+        <p class="text">• Signature of a seller.</p>
         <p class="text">When an invoice is used properly, it can help small businesses to adequately track all expenses and revenue, as well as provide a written record of the goods and services that have been sold. It is also easy to manage buyers’ accounts and tell who has an outstanding balance and who still owes money. </p>
         <p class="text">Keeping a proper database of invoices, you will be surprised by how much easier it will be for you to pay your taxes, as it will show you the real amount of money that you have earned over a specific period. There are also invoicing machines that can automatically schedule payment reminders for your customers and notify you about the payments that were received.</p>
         <p class="text">Therefore, with this in mind, let’s talk about some of the prominent similarities and differences that come up between purchase orders and purchase invoices. </p>
@@ -77,9 +77,9 @@ tags :
         <p class="text">PO can be used as a document that enhances the purchase process and allows for a better understanding between the customer and the supplier. It also gives your business an opportunity to appear professional and expand its reach. At the same time, by implementing PO in your practices, you will build valuable connections that will last a long time. </p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 759 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

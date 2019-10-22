@@ -1,0 +1,49 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "thank-you-contributor",
+        "layout": "theme",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "Thank you, you are awesome!  ",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\"><a href=\"https://virtocommerce.com/case-studies\">Meanwhile why not to learn how&nbsp;Virto Commerce drives e-commerce success for its clients worldwide</a></p>\n\n<p style=\"text-align:center\"><a href=\"https://virtocommerce.com/case-studies\">Heineken, Bosch, Lavazza success stories powered by Virto Commerce</a></p>\n\n<p style=\"text-align:center\"><a href=\"https://virtocommerce.com/training\">Virto Commerce offers instructor led training courses&nbsp;for developers</a></p>\n",
+        "url": {
+            "url": "",
+            "style": "link-large"
+        },
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    }
+]

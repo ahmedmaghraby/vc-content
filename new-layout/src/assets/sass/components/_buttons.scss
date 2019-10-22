@@ -3,20 +3,30 @@
     align-items: center;
     background: $gray-600;
     border: 1px solid $gray-600;
-    border-radius: 5rem;
+    border-radius: .25rem;
     box-sizing: border-box;
     color: $white;
     cursor: pointer;
     display: inline-flex;
     font-size: .875rem;
-    font-weight: bold;
     height: 2.5rem;
-    padding: 0 1.25rem;
+    padding: 0 1.875rem;
 
     &:hover
     {
         background: darken($gray-600, 2%);
         color: $white;
+    }
+
+	&--block
+	{
+		justify-content: center;
+		width: 100%;
+	}
+
+    &--round
+    {
+        border-radius: 4rem;
     }
 
     &--expand
@@ -57,11 +67,41 @@
         }
     }
 
-    &--outline
+	&--red
+	{
+        background: $red;
+        border-color: $red;
+        color: $white;
+
+        &:hover
+        {
+            background: darken($red, 2%);
+            color: $white;
+        }
+
+        &.btn--outline
+        {
+            border-color: $red;
+            color: $red;
+
+            &:hover
+            {
+                color: $white;
+            }
+        }
+    }
+
+    &--white
     {
         background: $white;
-        border-color: inherit;
-        color: inherit;
+        border-color: $white;
+        color: $black;
+
+        &:hover
+        {
+            background: darken($white, 5%);
+            color: $black;
+        }
     }
 
     @include media-breakpoint-down(sm) {

@@ -61,11 +61,17 @@
         }
     }
 
-    &--outline
+    &--white
     {
         background: $white;
-        border-color: inherit;
+        border-color: $white;
         color: inherit;
+
+        &:hover
+        {
+            background: darken($white, 5%);
+            color: inherit;
+        }
     }
 
     @include media-breakpoint-down(sm) {

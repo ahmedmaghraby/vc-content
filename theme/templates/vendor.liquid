@@ -1,20 +1,22 @@
+{% layout 'apps' %}
+
 {% assign page_title = 'Virto Commerce Appstore - Vendor ' | append: vendor.name %}
-<div class="apps">
+<div class="apps container">
     {% include 'breadcrumb' %}
-    <div class="vendor __responsive">
-        <div class="col-w">
-            <div class="col __col-70">
-                <div class="title-w">
+    <div class="vendor">
+        <div class="row">
+            <div class="col-md">
+                <div class="content_t">
                     <h1 class="t">{{ vendor.name }}</h1>
-                    <ul class="menu __inline __right">
-                        <li class="menu-item">
-                            <a class="menu-link" style="cursor:pointer;" ng-click="showContactVendorForm()">Contact</a>
+                    <ul class="nav nav--vendors">
+                        <li class="nav__item">
+                            <a class="btn btn--orange" style="cursor:pointer;" ng-click="showContactVendorForm()">Contact</a>
                         </li>
-                        <li class="menu-item">
-                            <a class="menu-link" style="cursor:pointer;" ng-click="showSupportVendorForm()">Support</a>
+                        <li class="nav__item">
+                            <a class="btn btn--orange" style="cursor:pointer;" ng-click="showSupportVendorForm()">Support</a>
                         </li>
-                        <li class="menu-item">
-                            <a class="menu-link" href="{{ vendor.site_url | absolute_url }}">Site</a>
+                        <li class="nav__item">
+                            <a rel="nofollow" class="btn btn--orange" href="{{ vendor.site_url | absolute_url }}">Site</a>
                         </li>
                     </ul>
                 </div>
@@ -22,8 +24,8 @@
                     {{ vendor.description }}
                 </div>
             </div>
-            <div class="extension-links col __col-30">
-                <div class="extension-canvas __right">
+            <div class="extension-links col-md-4">
+                <div class="extension-canvas">
                     <img alt="" src="{{ vendor.logo_url | absolute_url }}" class="extension-img" />
                 </div>
             </div>

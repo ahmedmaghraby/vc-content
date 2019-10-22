@@ -1,0 +1,26 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "test-request-demo",
+        "layout": "footer-only",
+        "id": 1,
+        "metadata": ""
+    },
+    {
+        "id": 2,
+        "type": "request-form",
+        "name": "Request demo form",
+        "title": "Request a Virto Commerce Demo",
+        "formName": "RequestDemoFormTest",
+        "showCustomers": null,
+        "content": "<p>Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the &quot;Get in touch with me&quot; option and we will contact you shortly.</p>\n",
+        "phoneLink": null,
+        "chatLink": null,
+        "touchThanks": "We will contact you shortly. In the meantime, you can access the Virto Commerce demo environment via a link which we’ve sent you to your inbox.",
+        "linkThanks": "Please, check your inbox, we’ve sent you a link to access the Virto Commerce demo environment with further instructions.",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    }
+]

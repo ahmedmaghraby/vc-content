@@ -1,0 +1,192 @@
+[
+    {
+        "type": "settings",
+        "title": ".NET Open Source Enterprise Ecommerce Architecture for B2B and B2C ecommerce I Virto Commerce",
+        "permalink": "enterprise-ecommerce-architecture",
+        "description": "Enterprise .NET B2B Ecommerce Platform Ideal for Enterprise and Midsize Manufacturers, Distributers, and Retailers.",
+        "header": ".NET Enterprise Ecommerce Architecture Overview",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "Enterprise Ecommerce Architecture",
+        "content": "<p>Architecture matters for ecommerce platforms. The architecture dictates what is achievable within the platform in terms of business, how much time it will take, and how much money it will cost. The wrong architecture leads to long painful projects and missed business opportunities.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "The Wrong Technologies Block a Company's Ecommerce",
+        "style": "light",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "text": "<p>Platforms with monolith architecture</p>\n"
+            },
+            {
+                "text": "<p>SaaS solutions</p>\n"
+            },
+            {
+                "text": "<p>Closed code platforms</p>\n"
+            }
+        ],
+        "content": "<p>Monolith architecture means that components of the software are interconnected and interdependent; if any program component must be updated, the whole application has to be rewritten. It is impossible to scale a development team and delegate responsibility for development of features.&nbsp;Ultimately,&nbsp; it turns into the uncontrollable constant growth of your technical department.</p>\n\n<p>SaaS (Software as a Service) is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted by provider. This approach is perfect for small businesses with simple business models, but doesn&rsquo;t allow any growth to change the business model. It is impossible to change the solution according to specific&nbsp;business needs, challenging to implement your&nbsp;scenarios, control performance, continuity, and security.</p>\n\n<p>Closed software products are&nbsp;software where only the original authors of software can access and alter the software&#39;s code. In this case all innovations are totally dependent on vendor roadmaps. In this instance, it is much harder to innovate, as the vendor is more interested in delivering uniform functionality required for thousands of&nbsp;customers, rather than the innovative technologies only a few of their clients require. It&#39;s also important to note that it is challenging&nbsp;to find experienced people who are narrow specialists in one particular type of closed software.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Does The Wrong Technology Impact a Business?",
+        "h1": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Changing or extending the system is too expensive or impossible",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Impossible to increase market share through a complex business model",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Closed code software locks you into one vendor",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>For mid-market companies and enterprises, it is essential to quickly&nbsp;develop new functionality to be able to react market challenges rapidly. The above listed architecture models make it either too expensive or impossible to stay ahead of your competitors. For monoliths, the more features were delivered, the more expensive the next one is to create. Monolith architecture doesn&rsquo;t support fast development cycles; each change becomes too long and expensive. In SaaS platforms, changes are not applicable at all, and customers are forced just to follow the vendor.&nbsp;</p>\n\n<p>Regarding&nbsp;closed software -&nbsp;&nbsp;people who work with closed software have to adopt&nbsp;all a business to be aligned with the closed software.&nbsp; Eventually, a company gets locked in with a particular vendor, a very expensive situation to resolve.&nbsp;&nbsp;</p>\n\n<p>All listed technical issues bring&nbsp;critical business impacts. Selecting an ecommerce platform with the &ldquo;wrong&rdquo; architecture creates a long run risks for the business. Ecommerce is a speed-driven industry. Even though we can&#39;t say that ecommerce is a young industry, it is still rapidly evolving due to continuous technological and social changes which are closely interrelated and quite unpredictable. It is impossible to predict what&nbsp;trend will become crucial in the next&nbsp;few years. The only thing a company can do to be prepared is to create infrastructure for constant and rapid changes. If the&nbsp;ecommerce platform&#39;s rigid infrastructure makes it impossible, the company is in trouble.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Does Virto Commerce's Architecture Resolve These Problems? ",
+        "h1": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Modular architecture and focus on architectural excellence",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Customizable & extensible platform by design",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Open source code",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>The modular architecture of Virto Commerce&#39;s platform resolves the risks that come with monolith architecture.&nbsp;Virto Commerce&#39;s platform is very adaptable to changes, adding new functionality, and discarding obsolete features. You may deploy Virto Commerce on-site or in the cloud, and do your own installation. Having direct access to the database and code, feel free to add new features by extending new functionality, new modules,&nbsp; or integrate the platform with any other apps to meet your specific business needs.&nbsp;</p>\n\n<p>We aim to deliver a platform which is easy to customize and extend. Reducing&nbsp;project implementation efforts is one of our core values. We want our customers get functionality on top of the Virto Commerce platform which 100% fits&nbsp;their business requirements</p>\n\n<p>The Virto Commerce platform&#39;s&nbsp;architecture was designed and is constantly improved according to the feedback we get from multiple customers -&nbsp;including Fortune 500 companies. We do the core critical things right and deliver functional enablers which make it&nbsp;possible for our partners and customers to build up required functional features on top of the platform&nbsp;without the risk of lockin&nbsp;your business into the wrong technical decisions.</p>\n\n<p>Virto Commerce&#39;s&nbsp;platform is an open source product. Our code is in GitHub. No hidden problems, no hidden technical departments. We are open. Developers can read the code and make their decision based on what they see. Extend the system and adapt it to your business needs.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "text-with-button",
+        "name": "Text",
+        "text": "Download our Architectural Guidelines",
+        "style": "light",
+        "url": {
+            "url": "/download-arch-guidelines",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Download Now"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

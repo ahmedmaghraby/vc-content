@@ -5,6 +5,11 @@
     &__item
     {
         font-size: .875rem;
+
+        &::before
+        {
+            display: none;
+        }
     }
 
     &__link
@@ -22,6 +27,17 @@
         }
     }
 
+	&--vendors
+	{
+		display: flex;
+		
+		.nav__item
+		{
+			margin-right: .625rem;
+			margin-bottom: 1.125rem;
+		}
+	}
+
     &--customers
     {
         display: flex;
@@ -31,7 +47,7 @@
 
         .nav__item
         {
-            align-items: center;
+            align-items: flex-end;
             display: flex;
             padding: 0 2rem;
         }
@@ -52,12 +68,12 @@
 
                 &::after
                 {
-                    background-image: url(images/customers/bosch-gray.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/bosch-gray.svg');
                 }
 
                 &::before
                 {
-                    background-image: url(images/customers/bosch.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/bosch.svg');
                 }
             }
 
@@ -68,12 +84,28 @@
 
                 &::after
                 {
-                    background-image: url(images/customers/heineken-gray.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/heineken-gray.svg');
                 }
 
                 &::before
                 {
-                    background-image: url(images/customers/heineken.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/heineken.svg');
+                }
+            }
+
+            &--lavazza
+            {
+                height: 1.875rem;
+                width: 7.25rem;
+
+                &::after
+                {
+                    background-image: url($tpl-img-url + 'page/home/customers/lavazza-gray.svg');
+                }
+
+                &::before
+                {
+                    background-image: url($tpl-img-url + 'page/home/customers/lavazza.svg');
                 }
             }
 
@@ -84,12 +116,12 @@
 
                 &::after
                 {
-                    background-image: url(images/customers/vivint-gray.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/vivint-gray.svg');
                 }
 
                 &::before
                 {
-                    background-image: url(images/customers/vivint.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/vivint.svg');
                 }
             }
 
@@ -100,12 +132,12 @@
 
                 &::after
                 {
-                    background-image: url(images/customers/volvo-gray.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/volvo-gray.svg');
                 }
 
                 &::before
                 {
-                    background-image: url(images/customers/volvo.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/volvo.svg');
                 }
             }
 
@@ -116,12 +148,12 @@
 
                 &::after
                 {
-                    background-image: url(images/customers/malt-gray.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/malt-gray.svg');
                 }
 
                 &::before
                 {
-                    background-image: url(images/customers/malt.svg);
+                    background-image: url($tpl-img-url + 'page/home/customers/malt.svg');
                 }
             }
 
@@ -208,17 +240,17 @@
 
             &--tw
             {
-                background-image: url(images/tw.svg);
+                background-image: url($tpl-img-url + 'icons/tw.svg');
             }
 
             &--fb
             {
-                background-image: url(images/fb.svg);
+                background-image: url($tpl-img-url + 'icons/fb.svg');
             }
 
             &--in
             {
-                background-image: url(images/in.svg);
+                background-image: url($tpl-img-url + 'icons/in.svg');
             }
         }
     }

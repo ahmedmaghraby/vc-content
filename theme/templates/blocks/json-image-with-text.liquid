@@ -1,0 +1,45 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        <div class="row align-items-lg-center {% if block.align == 'right' %} flex-row-reverse {% endif %}">
+            <div class="section__img col-lg">
+                <img src="{{ block.image.url }}"
+                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
+                     alt="{{ item.image.altText }}" class="section__pic">
+            </div>
+            <div class="col-lg-auto section__info">
+                {% include 'blocks/block-title', block %}
+                <div class="section__descr">
+                    {{ block.content }}
+                    {% if block.url1 != blank and block.url1.urlText != blank %}
+                    <a href="{{ block.url1.url }}" class="{{ block.url1.style }}">{{ block.url1.urlText }}</a>
+                    {% if block.url2 != blank and block.url2.urlText != blank %}
+                    <a href="{{ block.url2.url }}" class="{{ block.url2.style }}">{{ block.url2.urlText }}</a>
+                    {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% comment %}
+
+{ "id": "name", "type": "string"},
+{ "id": "title", "type": "string" },
+{ "id": "style", "label": "Block style", "type": "select",
+    "options": [
+        { "value": "light", "label": "Light" },
+        { "value": "dark", "label": "Dark" }
+    ]
+},
+{ "id": "align", "label": "Image position", "type": "select",
+    "options": [
+        { "value": "right", "label": "Right" },
+        { "value": "left", "label": "Left" }
+    ]
+},
+{ "id": "url", "type": "image" },
+{ "id": "content", "type": "text" }
+
+{% endcomment %}

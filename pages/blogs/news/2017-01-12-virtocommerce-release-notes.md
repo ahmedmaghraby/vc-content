@@ -2,6 +2,7 @@
 category: release
 date: '2017-01-12'
 permalink: blog/release-notes-2017-01-12
+excerpt: Virto Commerce Blog Release Notes 2017
 tags:
   - virtocommerce
   - announcements

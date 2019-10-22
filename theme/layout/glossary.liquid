@@ -1,6 +1,7 @@
  <!DOCTYPE html>
 <html ng-app="storefrontApp">
 <head>
+    {% include 'google-tag-manager-head' %}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Virto Commerce" />
@@ -10,11 +11,11 @@
     {% else %}
         <meta name="description" content="Virto Commerce - enterprise .NET Microsoft Ecommerce Platform for B2B & B2C solutions" />
     {% endif %}
-    <meta name="keywords" content="Virto Commerce, Enterprise eCommerce, ASP.NET eCommerce, Azure eCommerce, Cloud eCommerce, MVC eCommerce, .net shopping cart" />
+    <meta name="keywords" content="Virto Commerce, Enterprise e-Commerce, ASP.NET eCommerce, Azure eCommerce, Cloud eCommerce, MVC eCommerce, .net shopping cart" />
     <meta itemprop="name" content="Virto Commerce" />
     <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
     <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
-    <meta property="og:url" content="{{ request_url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
     <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
     <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
     <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
@@ -27,7 +28,7 @@
 	{{ '//fonts.googleapis.com/css?family=Lato' | stylesheet_tag }}
 	{{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
 	{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
-	{{ 'main-styles.min.css' | asset_url | stylesheet_tag }}
+	{{ 'style.min.css' | asset_url | stylesheet_tag }}
     <script type="text/javascript">
         var appInsights=window.appInsights||function(config){
             function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i) }) }}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t
@@ -40,21 +41,20 @@
     {% include 'segment' %}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
-    <link rel="canonical" href="{{ canonical_url }}" />   
     {% include 'autopilot' %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-490257-44"></script>
     <script>
-        (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-490257-44', 'auto');
-        ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-490257-44');
     </script>
 </head>
 <body ng-controller="mainController">
+    {% include 'google-tag-manager-body' %}
+    {% if can_track %}
+    {% include 'gdpr-cookie-compliance' %}
+    {% endif %}
     <div class="google-like">
         <div class="g-plusone" data-href="https://virtocommerce.com" data-size="tall"></div>
     </div>
@@ -75,46 +75,14 @@
                 <!-- TODO: Fix main-menu for mobile -->
                 {% include 'main-menu-mobile' %}
             </div>
-            <div class="header-wrap">
-                <header class="responsive" role="banner">
-                    {% if isAppsStore %}
-                    <a class="appstore-logo logo" href="{{ '/apps' | absolute_url }}"></a>
-                    {% else %}
-                    <a class="logo" href="{{ '/' | absolute_url }}"></a>
-                    {% endif %}
-                    <a class="mobile-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
 
-                    {% if isAppsStore == false %}
-                    {% include 'main-menu-static' %}
-                    {% comment %}
-                    <div class="head-phone">
-                        <div class="head-phone_num">+1 (800) 980-5288</div>
-                    </div>
-                    {% endcomment %}
-                    {% else %}
-                    {% include 'main-menu' %}
-                    {% endif %}
-                    {% if isAppsStore == true %}
-                    <div class="head-search">
-                        {% include 'search-bar' %}
-                    </div>
-                    {% endif %}
-                </header>
-            </div>
             <article class="main" role="main">
-                <div class="business-features clearfix __responsive">
-                    <ul class="breadcrumbs">
-                        <li><a href="/">VirtoCommerce</a></li>
-                        <li><a href="/glossary">Ecommerce Glossary</a></li>
-                    </ul>
-
+                <div class="glossary container">
                     {% include 'glossary-left-menu' %}
-                    {{ content_for_layout }}
-                    {% include 'disqus' %}
+                    <div class="glossary__content">
+                        {{ content_for_layout }}
+                        {% include 'disqus' %}
+                    </div>
                 </div>
             </article>
             {% include 'footer' %}
@@ -139,36 +107,17 @@
     <script>
             var BASE_URL = '{{ "/" | full_url }}';
     </script>
-    <script src="//apis.google.com/js/platform.js" async defer></script>
     {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
     <script>
         $(function () {
-            //set breadcrums
-            $('ul.breadcrumbs').append('<li><a href="' + $(location).attr('pathname') + '">' + $('h1.title').text() + '</a></li>');
-
-            var items = $('.menu.__business-features li a');
-            for (var i = 0; i < items.length; i++) {
-                $(items[i]).parent().removeClass('__selected');
-                if ($(items[i]).attr('href') === window.location.pathname.replace('/', '')) {
-                    $(items[i]).parent().addClass('__selected');
-                }
-            }
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
         });
     </script>
-    {{ '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js' | script_tag }}
-    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js' | script_tag }}
-    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.min.js' | script_tag }}
-    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-resource.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.2/ui-bootstrap-tpls.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.7/angular-sanitize.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.12.1/angular-translate.min.js' | script_tag }}
-    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.12.1/angular-translate-loader-url/angular-translate-loader-url.min.js' | script_tag }}
-
-
-    {{ 'app.js' | asset_url | script_tag }}
-    {{ 'services.js' | asset_url | script_tag }}
-    {{ 'main-layout.min.js' | asset_url | script_tag }}
+    {{ 'js/main.js' | asset_url | script_tag }}
+    {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>
 </html>

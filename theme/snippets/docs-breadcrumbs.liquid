@@ -1,9 +1,11 @@
 {% assign current_node = docs_tree | where: 'path', '==', page.url | first %}
 {% if current_node.parents.size > 0 %}
-    <p class="breadcrumbs">
+    <ul class="nav">
         {% for node_parent in current_node.parents %}
-            <a href="{{ node_parent.path }}" ng-click="navigateUrl('{{ node_parent.path }}', $event)">{{ node_parent.title }}</a> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <li class="nav__item">
+                <a href="{{ node_parent.path }}" ng-click="navigateUrl('{{ node_parent.path }}', $event)" class="nav__link">{{ node_parent.title }}</a>
+            </li>
         {% endfor %}
-        {{ page.title }}
-    </p>
+        <li class="nav__item">{{ page.title }}</li>
+    </ul>
 {% endif %}

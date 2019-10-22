@@ -4,7 +4,7 @@ category: release
 date: 2015-04-15 15:37
 excerpt: We have been working hard on the new 2.0 version and finally have some exciting things to show.
 permalink: blog/virtocommerce-2-0-beta
-tags: [20, azure, beta, deployment, ecommerce, features, installation, microsoft-cloud, themes]
+tags: [v20, azure, beta, deployment, ecommerce, features, installation, microsoft-cloud, themes]
 title: "Virto Commerce 2.0 Beta!"
 ---
 We have been working hard on the new 2.0 version and finally have some exciting things to show. Virto Commerce base platform is complete and new modules can be build in a flash of time.

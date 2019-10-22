@@ -7,6 +7,7 @@ permalink: glossary/conversational-commerce
 ogimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
 ogtitle: A Simple Look at the Key Components of Conversational Commerce.
 ogsitename: Virtocommerce
+layout: glossary
 twittercard: summary
 twittertitle: Virto Commerce
 twitterdescription: Virto Commerce is a powerful ecommerce platform that includes everything you need to create an online store and sell online. Try it free with Free Community License
@@ -21,41 +22,34 @@ tags :
     <meta itemprop="datePublished" content="2018-11-21">
     <div itemprop="articleBody">
         <div class="responsive">
-            <ul class="breadcrumbs">
-                <li><a href="/">VirtoCommerce</a></li>
-                <li><a href="/glossary">Ecommerce Glossary</a></li>
-                <li><a href="/glossary/conversational-commerce">A Simple Look at the Key Components of Conversational Commerce</a></li>
-            </ul>
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Conversational Commerce Definition and Meaning. A Simple Look at the Key Components of Conversational Commerce</h1>
             </div>
             <div class="glossary-article">
-                <div class="col-w">
-                    <h2>Introduction</h2>
-                </div>
+                <h2>Introduction</h2>
                 <div class="text">
                     It’s almost impossible to go anywhere in this world without hearing about conversational commerce, but what is it exactly? Well, it’s a phrase describing a future piece of tech that’s driven by voice and messaging interactions which transcend all modern communication systems. While it’s a convenient moniker, it’s also quite confusing as it doesn’t follow any specific trend.
                 </div>
                 <div class="text">
                     Instead, it involves several trends, overlapping each other in varying degrees. The branches of conversational commerce which we will carefully explain below include:
                 </div>
-                <ul class="text" style="margin-left: 60px">
+                <ul class="text" style="margin-left: 30px">
                     <li>Bots</li>
                     <li>Advanced notifications</li>
                     <li>Chats in Apps</li>
                 </ul>
                 <h2 class="glosary-sub-t">B2B Ecommerce Case Studies from Virto Commerce</h2>
                 <div class="glosary-article">
-                    <ul class="list list-studios">
-                        <li class="list-item">
-                            <div class="list-inner">
-                                <div class="list-head">
-                                    <img src="assets/images/casestudies/proffs.png" alt="" class="list-pic">
+                    <ul class="list list--studios">
+                        <li class="list__item col-md-6">
+                            <div class="list__inner">
+                                <div class="list__head">
+                                    <img src="assets/images/casestudies/proffs.png" alt="" class="list__pic">
                                 </div>
-                                <div class="list-body">
-                                    <div class="list-t">Retail equipment</div>
-                                    <div class="list-text">Objective: B2C/B2B Online Store</div>
-                                    <div class="list-descr">
+                                <div class="list__body">
+                                    <div class="list__t">Retail equipment</div>
+                                    <div class="list__text">Objective: B2C/B2B Online Store</div>
+                                    <div class="list__descr">
                                         Providing maximum
                                         scalability and
                                         centralizationfor
@@ -63,62 +57,62 @@ tags :
                                         internationally.
                                     </div>
                                 </div>
-                                <div class="list-foot">
-                                    <a href="../assets/files/case-study-proffs.pdf" target="_blank" class="button fill">Read case study</a>
+                                <div class="list__foot">
+                                    <a href="../assets/files/case-study-proffs.pdf" target="_blank" class="btn btn--orange">Read case study</a>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-item">
-                            <div class="list-inner">
-                                <div class="list-head">
-                                    <img src="assets/images/casestudies/gc-logo.jpg" alt="" class="list-pic">
+                        <li class="list__item col-md-6">
+                            <div class="list__inner">
+                                <div class="list__head">
+                                    <img src="assets/images/casestudies/gc-logo.jpg" alt="" class="list__pic">
                                 </div>
-                                <div class="list-body">
-                                    <div class="list-t">B2B Gifts</div>
-                                    <div class="list-text">Objective: Platform</div>
-                                    <div class="list-descr">
+                                <div class="list__body">
+                                    <div class="list__t">B2B Gifts</div>
+                                    <div class="list__text">Objective: Platform</div>
+                                    <div class="list__descr">
                                         Consolidate various system using single
                                         platform to manage gift certificates for largest companies in the world. Provides both B2C and B2B solutions.
                                     </div>
                                 </div>
-                                <div class="list-foot">
-                                    <a href="../assets/files/gc-case-study.pdf" target="_blank" class="button fill">Read case study</a>
+                                <div class="list__foot">
+                                    <a href="../assets/files/gc-case-study.pdf" target="_blank" class="btn btn--orange">Read case study</a>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-item">
-                            <div class="list-inner">
-                                <div class="list-head">
-                                    <img src="assets/images/casestudies/belysnings-design-logo.png" alt="" class="list-pic">
+                        <li class="list__item col-md-6">
+                            <div class="list__inner">
+                                <div class="list__head">
+                                    <img src="assets/images/casestudies/belysnings-design-logo.png" alt="" class="list__pic">
                                 </div>
-                                <div class="list-body">
-                                    <div class="list-t">Retail lighting</div>
-                                    <div class="list-text">Objective: B2C Online Store</div>
-                                    <div class="list-descr">
+                                <div class="list__body">
+                                    <div class="list__t">Retail lighting</div>
+                                    <div class="list__text">Objective: B2C Online Store</div>
+                                    <div class="list__descr">
                                         Create value through growth in profits by
                                         expanding the existing stores.
                                     </div>
                                 </div>
-                                <div class="list-foot">
-                                    <a href="../assets/files/sd-case-study.pdf" target="_blank" class="button fill">Read case study</a>
+                                <div class="list__foot">
+                                    <a href="../assets/files/sd-case-study.pdf" target="_blank" class="btn btn--orange">Read case study</a>
                                 </div>
                             </div>
                         </li>
-                        <li class="list-item">
-                            <div class="list-inner">
-                                <div class="list-head">
-                                    <img src="assets/images/casestudies/budget-blinds.png" alt="" class="list-pic">
+                        <li class="list__item col-md-6">
+                            <div class="list__inner">
+                                <div class="list__head">
+                                    <img src="assets/images/casestudies/budget-blinds.png" alt="" class="list__pic">
                                 </div>
-                                <div class="list-body">
-                                    <div class="list-t">Retail blinds</div>
-                                    <div class="list-text">Objective: B2C/B2B Online Store</div>
-                                    <div class="list-descr">
+                                <div class="list__body">
+                                    <div class="list__t">Retail blinds</div>
+                                    <div class="list__text">Objective: B2C/B2B Online Store</div>
+                                    <div class="list__descr">
                                         Flexible solution with
                                         maximum customization for the online window-treatment website.
                                     </div>
                                 </div>
-                                <div class="list-foot">
-                                    <a href="../assets/files/case-study-budget-blinds.pdf" target="_blank" class="button fill">Read case study</a>
+                                <div class="list__foot">
+                                    <a href="../assets/files/case-study-budget-blinds.pdf" target="_blank" class="btn btn--orange">Read case study</a>
                                 </div>
                             </div>
                         </li>
@@ -129,7 +123,7 @@ tags :
                         <a class="button striped" href="/case-studies">Read More Case Studies</a>
                     </div>
                 </div>
-                <div class="text">
+                <div>
                     <strong>Advanced Notifications Through Conversational Commerce</strong>
                 </div>
                 <div class="text">
@@ -138,13 +132,13 @@ tags :
                 <div class="text">
                     Now, thanks to conversational commerce, sending these notifications is getting more interesting. They can include maps, directions, contacts, social media, and even boarding passes. Here, every announcement is an invitation to a conversation.
                 </div>
-                <div class="text">
+                <div>
                     <strong>Bots Interfaces for Conversational Commerce</strong>
                 </div>
                 <div class="text">
                     Bots continue to grab the attention of both the geeks and developers. We are now seeing many people creating bots of different kinds. Shockingly though, these bots have been in existence for more than 50 years. However, the improvements in the messaging services, the success in machine learning, and the emergence of large sets of data have all created a perfect platform for conversational commerce bots to grow. The most popular ones are as follows:
                 </div>
-                <ul class="text" style="margin-left: 60px">
+                <ul class="text" style="margin-left: 30px">
                     <li>
                         <strong>Command line bots - </strong>
                         <span>These interfaces usually put a robust command shell on everything. They are designed to perform different tasks like ordering an Uber, extracting data from Google Analytics, and more.</span>
@@ -158,7 +152,7 @@ tags :
                         <span>Another considerable stride in conversational commerce is the emergence of bots that can accomplish tasks for a person, answer different questions and respond to various commands.</span>
                     </li>
                 </ul>
-                <div class="text">
+                <div>
                     <strong>Chats in Apps</strong>
                 </div>
                 <div class="text">
@@ -173,11 +167,11 @@ tags :
                         <div id="order-wise-text">
                             <p id="order-wise-title" class="text">Chat with your customers using automated bot.</p>
                             <p class="text" style="width:400px;">Deliver the products instantly with personal, detailed messages about order options.</p>
-                            <button class="button fill" onclick="openContactUs(event)">Trial&Demo</button>
+                            <button class="btn btn--orange" onclick="openContactUs(event)">Trial&Demo</button>
                         </div>
                     </div>
                 </div>
-                <div class="text">
+                <div>
                     <strong>Conclusion</strong>
                 </div>
                 <div class="text" style="margin-bottom:25px">

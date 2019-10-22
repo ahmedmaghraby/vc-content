@@ -1,0 +1,64 @@
+[
+    {
+        "type": "settings",
+        "title": "Standaard Boekhandel Ecommerce Success Story",
+        "permalink": "case-studies/standaard-boekhandel",
+        "header": "Standaard Boekhandel Ecommerce Success Story",
+        "description": "Standaard Boekhandel Ecommerce Success Story",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Standaard Boekhandel Success Story",
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/standard.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "Standaard Boekhandel Opens New Chapter on Digital Commerce by Replatforming to Virto",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Looking to strengthen its position in a fiercely competitive online book sales market, Standaard Boekhandel, Belgium&#39;s largest book retailer, embarked on a digital transformation process that was to deliver a best-in-class omnichannel customer experience. Competition in online book sales is fierce. Having the best product offering in books and the most user-friendly ordering site which links seamlessly to all your systems are basic but critical requirements for success. Such an omnichannel experience requires a flexible and stable commerce platform capable of aligning online and offline ordering through integration with the cash registration systems, resulting in a faster and more efficient ordering process.</p>\n\n<h4>REPLATFORMING HELPED OVERCOME COMMERCE LIMITATIONS</h4>\n\n<p>Standaard Boekhandel chose to replatform to Virto Commerce in order to gain capabilities they did not have on SAP Hybris so that they could extend their product offering, integrate efficiently with different channels, and improve the search functionality for their two brands. Because they were facing limitations with their previous commerce tool, they wanted to migrate to a more flexible and sustainable platform.&nbsp;</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/standaard-boekhandel-case-study.pdf",
+        "headerType": null,
+        "formIdentifier": "Boekhandel case study"
+    }
+]

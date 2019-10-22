@@ -1,0 +1,108 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% include 'blocks/block-title', block %}
+        <div class="section__info--center-block">
+            {% if block.intro != blank %}
+            <div class="section__descr">{{ block.intro }}</div>
+            {% endif %}
+
+            {% assign rowStarted = false %}
+            <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}" data-segment-options='{{ block.segmentOptions }}'>
+                {% for item in block.fields %}
+                    {% if item.type != 'hidden' %}
+                        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                        {% if item.fullrow == true and rowStarted == true %}
+                            </div>
+                            {% assign rowStarted = false %}
+                        {% endif %}
+
+                        {% if rowStarted != true or thecycle == 'odd' and item.fullrow == true and forloop.last != true %}
+                            {% assign rowStarted = true %}
+                            {% assign thecycle = 'odd' %}
+                            <div class="form-group row">
+                        {% endif %}
+                        <div class="{% if item.fullrow == true %} col-md {% else %} col-md-6 {% endif %}">
+                            {% if item.type != 'checkbox' %}
+                            <label class="form-label">{{ item.label }}</label>
+                            {% endif %}
+                            {% if item.type == 'textarea' %}
+                                <textarea data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                            {% elsif item.type == 'select' %}
+                                {% assign options = item.data | split: ";" %}
+                                <select data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}">
+                                    {% for opt in options %}
+                                        <option value="{{opt}}">{{opt}}</option>
+                                    {% endfor %}
+                                </select>
+                            {% elsif item.type == 'email' %}
+                                <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" data-val="true" data-val-email {% if item.required == true %} data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
+                            {% elsif item.type == 'checkbox' %}
+                                <label>
+                                    <input value="{{ item.data }}" data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="checkbox" name="{{ item.name }}" />
+                                    {{ item.label }}
+                                </label>
+                            {% else %}
+                                <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == true %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
+                            {% endif %}
+                        </div>
+                        {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == true %}
+    		                </div>
+                            {% assign rowStarted = false %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% for item in block.fields %}
+                    {% if item.type == 'hidden' %}
+                        <input id="{{ item.name }}" data-segment-name="{{ item.segmentFieldName }}" type="text" style="display: none;" name="{{ item.name }}" value="{{ item.data }}" />
+                    {% endif %}
+                {% endfor %}
+
+                <div class="form-group row">
+                    <div class="col-md">
+                        {% if block.outtro != blank %}
+                        <div class="form-descr">{{ block.outtro }}</div>
+                        {% endif %}
+                        {% if block.buttonText != blank %}
+                        <div class="section__descr--centered">
+                            <button type="submit" class="btn btn--orange">{{ block.buttonText }}</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% comment %}
+
+    content
+
+    { "id": "title", "label": "Title", "type": "string" },
+    { "id": "intro", "label": "Intro", "type": "text" },
+    { "id": "fields", "label": "Fields", "type": "list",
+        "element": [
+            { "id": "label", "type": "string" },
+            { "id": "name", "type": "string" },
+            { "id": "type", "type": "select",
+                "options": [ { "value": "text", "label": "String" }, { "value": "textarea", "label": "Textarea" } ] },
+            { "id": "fullrow", "type": "checkbox" }
+    ]},
+    { "id": "outtro", "label": "Outtro", "type": "text" },
+    { "id": "buttonText", "label": "Button text", "type": "string" }
+
+    settings
+
+    { "id": "name", "label": "Block name", "type": "string" },
+    { "id": "style", "label": "Block style", "type": "select", "default": "light",
+        "options": [ { "value": "light", "label": "Light" }, { "value": "dark", "label": "Dark" } ]},
+    { "id": "noTop", "label": "Remove top margin", "type": "checkbox" },
+    { "id": "noBottom", "label": "Remove bottom margin", "type": "checkbox" },
+    { "id": "noPad", "label": "Remove paddings", "type": "checkbox" },
+
+
+there is need a state where i should store the following
+1) row started (should be finished after second input and after fullrow input)
+2) row didn't started (should be started when non-fullrow input renders)
+
+{% endcomment %}

@@ -47,4 +47,4 @@ title: 5 Benefits of B2B Ecommerce Business Strategy
     </li>
 </ol>
 <p>Virto Commerce provides an innovative, opensource B2B ecommerce software solution. We have implemented our robust ecommerce technology, services, and expertise in over 100 deployments for companies worldwide. Built for flexibility and scalability, the Virto Commerce supports our clients in a wide range of solutions to manage business challenges like multiple store, channels, pricing models, order platforms, customer loyalty, and more. Our clients get to market faster, build stronger customer relationships, and rapidly increase global online sales.</p>
-<p>Learn more at <a href="http://virtocommerce.com/demo">www.virtocommerce.com/demo</a></p>
+<p>Learn more at <a href="https://demo.virtocommerce.com/">demo.virtocommerce.com</a></p>

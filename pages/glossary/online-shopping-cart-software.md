@@ -49,7 +49,7 @@ tags :
 <p class="text">
 <p>By choosing the proper website shopping cart platform, not only you place your product on the market, but you also get all the necessary tools that you need to have to be successful in commerce in the digital age. While selecting a shopping cart solution that is best suited for you, remember to follow your criteria, check for the reviews, see how secure the site is and enhance your experience by using free trials. Now that you know the main features that every website shopping cart must have, take a chance and create your product’s website!</p>
 <div class="buttons">
-                <a class="button fill" href="/try-now">Try It Now</a>
+                <a class="button fill" href="/contact-us">Try It Now</a>
                 <a class="button fill" href="/contact-us">Request Information & Demo</a>
         </div>
 </div>

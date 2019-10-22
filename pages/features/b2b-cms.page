@@ -1,0 +1,128 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommcerce: CMS - Content Management System",
+        "permalink": "b2b-cms",
+        "header": "B2B Ecommerce  Content Management System (CMS) Features",
+        "description": "Easy to use CMS for B2B Ecommerce.  Online B2B ecommerce solution for manufacturers, wholesalers, SaaS and Distributors.",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": null,
+        "title": "B2B Ecommerce  Content Management <br/ > System (CMS) Features ",
+        "subTitle": null,
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/lavi-perchik-fSqYwKWzwhk-unsplash.jpg"
+        },
+        "content": "<p>Grow revenue, improve your customer&#39;s experiences, and build loyalty&nbsp;with promotion features built especially for B2B companies.&nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": null,
+        "title": null,
+        "style": null,
+        "decorator": null,
+        "content": "<h3 style=\"text-align:center\">Virto Commerce comes with a simple yet extremely powerful CMS that gives both developers and marketers complete access to customize your store&#39;s look and feel. Developers can easily create and publish new themes, while marketers can create landing pages, blog posts, marketing banners, and more. Virto Commerce is also integrated with many industry leading CMS including WordPress, Orchard CMS, Umbraco and any html site to provide even more flexibility.&nbsp;</h3>\n",
+        "url": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "titleAlignment": null
+    },
+    {
+        "id": 4,
+        "type": "two-columns-text",
+        "name": null,
+        "title": "Delight Your Customers",
+        "style": "dark",
+        "contentBefore": "<p style=\"text-align:center\"><strong>The following is just a handful of items that our content management system has to offer:&nbsp;</strong></p>\n",
+        "items": [
+            {
+                "text": "<ul>\n\t<li>Professionally designed themes that are&nbsp;ready to se</li>\n\t<li>The ability to edit HTML and CSS</li>\n\t<li>Mobile responsive &amp; ready for mobile commerce</li>\n</ul>\n"
+            },
+            {
+                "text": "<ul>\n\t<li>Personalized B2B catalogs</li>\n\t<li>Web-based robust website design page builer tool and other web design features to design the perfect landing and product pages</li>\n</ul>\n"
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "h1": null
+    },
+    {
+        "id": 5,
+        "type": "cards",
+        "name": null,
+        "title": "Explore More Virto Commerce Features",
+        "style": "dark",
+        "items": [
+            {
+                "title": "Pricing Tools",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/pricing.png"
+                },
+                "text": "<p>Explore our B2B pricing features specially designed for complex B2B pricing scenarios.&nbsp;</p>\n",
+                "link": {
+                    "url": "/b2b-ecommerce-pricing-tools",
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Marketing & Promotions",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Promotion and Marketing.png"
+                },
+                "text": "<p>Read about the robust marketing tools we created for complex ecommerce.&nbsp;</p>\n",
+                "link": {
+                    "url": "/b2b-ecommerce-marketing-tools",
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round"
+                }
+            },
+            {
+                "title": "Order Management",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Order management (1).png"
+                },
+                "text": "<p>Virto Commerce provides order management tools to handle even the most complicated B2B fulfillment requirements.&nbsp;</p>\n",
+                "link": {
+                    "url": "/b2b-ecommerce-order-management",
+                    "urlText": "Learn More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "CTA",
+        "title": "Learn More About Virto Commerce CMS and Marketing Tools - Designed For Enterprise Ecommerce",
+        "style": "light",
+        "decorator": "section--pattern",
+        "content": "<p style=\"text-align:center\">Get a demo of our .NET B2B ecommerce platform today, and explore all the features that we offer.&nbsp;</p>\n",
+        "url": {
+            "urlText": "Request a Demo",
+            "url": "https://virtocommerce.com/contact-us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

@@ -1,15 +1,15 @@
-﻿---
+---
 author: VirtoCommerce
 category: release
 date: 2015-05-17 22:26
-excerpt: This release focus was on performance and technology updates as well as some smaller enhancements.
+excerpt: Virto Commerce Ecommerce Platform Release Notes 2.0
 permalink: blog/virtocommerce-2-0-release-notes
 tags: [announcements, aspnet, dashboards, ecommerce, ecommerce-permissions, enterprise-ecommerce, platform, release-notes, zapier, zendesk]
 title: "Virto Commerce 2.0 Release Notes"
 ---
 This release focus was on performance and technology updates as well as some smaller enhancements.
 
-You can see the latest demo as well as download source code at: <a href="https://virtocommerce.com/try-now" target="_blank">https://virtocommerce.com/try-now</a>.
+You can see the latest demo as well as download source code at: <a href="https://virtocommerce.com/contact-us" target="_blank">https://virtocommerce.com/contact-us</a>.
 
 Here is the list of new features:
 

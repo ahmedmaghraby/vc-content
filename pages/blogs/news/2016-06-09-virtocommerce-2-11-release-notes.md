@@ -5,7 +5,7 @@ date: '2016-06-09'
 excerpt: The main focus of this release was the development process change and related source code redesign.
 is-trending: true
 permalink: blog/virtocommerce-2-11-release-notes
-tags: [20, announcements, ecommerce, enterprise-ecommerce, features, open-source, release-notes, seo]
+tags: [v20, announcements, ecommerce, enterprise-ecommerce, features, open-source, release-notes, seo]
 title: 'VirtoCommerce 2.11 Release Notes'
 ---
 The main focus of this release was the development process change and related source code redesign.

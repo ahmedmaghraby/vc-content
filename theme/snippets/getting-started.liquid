@@ -1,53 +1,123 @@
-<div class="cu-dialog">
-    <div class="cu-head">
-        <div class="cu-t">Getting Started</div>
-        <svg class="cu-close" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="umx-close-icon-24">
-                    <g id="close" transform="translate(6.000000, 6.000000)">
-                        <g id="Icon" transform="translate(4.500000, 4.500000)" fill="#fff" fill-rule="nonzero">
-                            <polygon id="Shape" points="15 1.0575 13.9425 0 7.5 6.4425 1.0575 0 0 1.0575 6.4425 7.5 0 13.9425 1.0575 15 7.5 8.5575 13.9425 15 15 13.9425 8.5575 7.5"></polygon>
-                        </g>
-                        <g id="Transparent_Rectangle">
-                            <rect id="Rectangle-path" x="0" y="0" width="24" height="24"></rect>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </svg>
+<header class="header">
+    <div class="header-inner container">
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <a href="/">
+                    <div class="header-logo">
+                        Virtocommerce
+                    </div>
+                </a>
+            </div>
+            <div class="header-nav col-auto d-none d-lg-block">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--dropdown">Why Virto</a>
+                        <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">Digital commerce platform</div>
+                                        <a class="dropdown-menu__item" href="/enterprise-ecommerce-architecture">Architecture Overview</a>
+                                        {% comment %}
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-implementation">Delivery Strategy</a>
+                                        {% endcomment %}
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-services">Services</a>
+                                        <a class="dropdown-menu__item" href="/roadmap">Roadmap</a>
+                                    </div>
+                                    {% comment %}
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">Business Need</div>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-catalog-management">Catalog &amp; Product Management</a>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-marketing-tools">Marketing &amp; Promotions</a>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-pricing-tools">Pricing Tools</a>
+                                        <a class="dropdown-menu__item" href="/b2b-cms">CMS</a>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-order-management">Order Management</a>
+                                    </div>
+                                    {% endcomment %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link">Solutions</a>
+                        <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">By Business Size</div>
+                                        <a class="dropdown-menu__item" href="/enterprise-ecommerce-platform">Enterprise</a>
+                                        <a class="dropdown-menu__item" href="/b2b-midmarket-ecommerce-platform">Mid-Market</a>
+                                        {% comment %}
+                                        <a class="dropdown-menu__item" href="/ecommerce-platform-small-business">Small Business</a>
+                                        {% endcomment %}
+                                        <a class="dropdown-menu__item" href="/startup-ecommerce-platform">Start Ups</a>
+                                    </div>
+                                    {% comment %}
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">By Use Case</div>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-platform">B2B Solutions</a>
+                                        <a class="dropdown-menu__item" href="/b2x-b2c-ecommerce">B2X (B2C, B2B2C, B2G)</a> 
+                                        <a class="dropdown-menu__item" href="/headless-ecommerce">Multi-touch User Experience</a>
+                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-digital-transformation">Digital Transformation</a>
+                                        <a class="dropdown-menu__item" href="/ecommerce-whitelabel">White Label Solutions</a>
+                                    </div>
+                                    {% endcomment %}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link">Partners</a>
+                        <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <a class="dropdown-menu__item" href="/become-partner">Become a Partner</a>
+                                        <a class="dropdown-menu__item" href="/find-implementation-partner">Find a Partner</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link">Resources</a>
+                        <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">About Virto Commerce</div>
+                                        <a class="dropdown-menu__item" href="/about-us">Our Team &amp; Story</a> 
+                                        <a class="dropdown-menu__item" href="/case-studies">Case Studies</a>
+                                        <a class="dropdown-menu__item" href="/whitepapers">White Papers</a> 
+                                        <a class="dropdown-menu__item" href="/blog">Blog</a> 
+                                        <a class="dropdown-menu__item" href="/contact-us">Contact Us</a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="dropdown-menu__t">Tools</div>
+                                        <a class="dropdown-menu__item" href="/glossary">Ecommerce Education</a>
+                                        <a class="dropdown-menu__item" href="/apps">Appstore</a>
+                                        <a class="dropdown-menu__item" href="/docs">Documentation</a> 
+                                        <a class="dropdown-menu__item" href="http://stackoverflow.com/questions/tagged/virtocommerce" rel="nofollow" target="_blank">Stackoverflow Group</a> 
+                                        <a class="dropdown-menu__item" href="https://github.com/VirtoCommerce/vc-community" rel="nofollow" target="_blank">GitHub Repository</a> 
+                                        <a class="dropdown-menu__item" href="https://admin-demo.virtocommerce.com/docs/ui/index" rel="nofollow">API Reference</a> 
+                                        <a class="dropdown-menu__item" href="/contribute-agreement">How to Contribute</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-phone ml-auto col-auto d-none d-lg-block">
+              <a href="tel: +1 800 980-5288">+1 800 980-5288</a>
+            </div>
+            <div class="col-auto">
+              <a class="btn btn--orange" href="/contact-us">Request a Demo</a>
+            </div>
+            <div class="header-phone col-auto d-block d-lg-none">
+              <a href="tel: +1 800 980-5288">+1 800 980-5288</a>
+            </div>
+            <a class="header-toggle"></a>
+        </div>
     </div>
-    <div class="cu-body">
-        <p class="contact-info">
-            Call Virto Commerce (US Only) <br />1-800-980-5288
-        </p>
-        <ul class="contact-list">
-            <li>
-                <a href="/contact-us">Contact Sales</a>
-            </li>
-            <li>
-                <a href="/try-now">Try our Demo</a>
-            </li>
-            <li>
-                <a href="/contact-us">Schedule a Discovery Call</a>
-            </li>
-            <li>
-                <a href="/estimate-project">Estimate my Project</a>
-            </li>
-            <li>
-                <a href="/vc-community">Join Developer Community</a>
-            </li>
-        </ul>
-    </div>
-</div>
-{{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
-<script>
-    $(function () {
-    $('svg.cu-close').on('click', function (event) {
-    $('.cu-dialog').toggle();
-    });
-    });
-    function openContactUs(e) {
-    e.preventDefault();
-    $('.cu-dialog').toggle();
-    }
-</script>
+</header>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="126px" viewBox="0 0 104 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 103.206 0 103.206 95.9976 0 95.9976"></polygon>
+    </defs>
+    <g id="Contacts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v5-отправлено" transform="translate(-986.000000, -375.000000)">
+            <g id="Group-4" transform="translate(827.000000, 375.000000)">
+                <g id="Group-6" transform="translate(159.000000, 0.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M97.1958,95.9976 L6.0138,95.9976 C1.1718,95.9976 -1.6782,90.5676 1.0758,86.5896 L7.6998,77.0076 C9.9798,73.7196 11.3958,69.9156 11.8218,65.9436 L15.4998,32.1156 C17.4858,13.8456 32.9118,-0.0024 51.2898,-0.0024 L52.3998,-0.0024 C70.8978,-0.0024 86.3838,14.0196 88.2198,32.4216 L91.5618,65.9016 C91.9578,69.9036 93.3558,73.7376 95.6238,77.0616 L102.1518,86.6196 C104.8698,90.5976 102.0198,95.9976 97.1958,95.9976" id="Fill-1" fill="#1C1C1C" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M66.264,107.9976 C68.16,107.9976 69.624,109.7556 69.24,111.6156 C67.566,119.8236 60.306,125.9976 51.606,125.9976 C42.9,125.9976 35.64,119.8236 33.966,111.6156 C33.588,109.7556 35.046,107.9976 36.942,107.9976 L66.264,107.9976 Z" id="Fill-4" fill="#1C1C1C"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

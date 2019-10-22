@@ -66,7 +66,7 @@ We stick to some core principles that we believe are helpful in meeting <a href=
 
 •	Our backlog is also open and is being built based on demands of the actual current projects 
 
-•	The platform has [modular architecture](https://virtocommerce.com/features/for-business-professionals) and is evolving and scaling naturally 
+•	The platform has [modular architecture](https://virtocommerce.com/enterprise-ecommerce-architecture) and is evolving and scaling naturally 
 
 •	Open ticket system 
 

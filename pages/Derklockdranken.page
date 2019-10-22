@@ -1,0 +1,51 @@
+[
+    {
+        "type": "settings",
+        "title": "Ecommerce in beverage & food industry",
+        "permalink": "case-studies/de-klok-dranken",
+        "header": "Der Klock Dranken",
+        "description": "Virto Commerce is the only\necommerce platform that has the functionality, flexibility, and scalability we\nneed ,-De Klok Dranken team says.",
+        "metadata": "",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "light",
+        "headerType": "like-h2",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "De Klock Dranken champions ecommerse with Virto Commerce industry - leading solutions",
+        "buttonText": "Download Case Studies",
+        "buttonId": "caseStudyBtn",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/Virto Commerce De Klok Case Study.pdf",
+        "description": "<p>By clicking &laquo;Download Case Studies&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n",
+        "formIdentifier": null
+    },
+    {
+        "id": 3,
+        "type": "image-with-text",
+        "name": "Image with text",
+        "title": "De Klok Dranken speaks: ",
+        "headerType": "h3",
+        "titleAlignment": null,
+        "style": "light",
+        "align": "right",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/technical-icon-7.jpg",
+            "altText": null
+        },
+        "content": "<p>Virto Commerce was the best fit for De Klok Dranken because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need -- today and long-term. With Virto Commerce, our future ecommerce strategy and new ideas can be developed with no limitations.</p>\n",
+        "url1": {
+            "url": null,
+            "urlText": "Book customized demo",
+            "style": "btn btn--orange btn--lg"
+        },
+        "url2": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    }
+]

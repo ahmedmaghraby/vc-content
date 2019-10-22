@@ -10,7 +10,7 @@
 
     &__logo
     {
-        background: url(images/logo-footer.svg) no-repeat;
+        background: url($tpl-img-url + 'logo-footer.svg') no-repeat;
         font-size: 0;
         height: 2.5rem;
         margin-bottom: 2.5rem;
@@ -33,6 +33,28 @@
         text-transform: uppercase;
     }
 
+	&__signup
+	{
+		margin-top: 1.25rem;
+		.label
+		{
+			margin-bottom: 1.25rem;
+		}
+		.form
+		{
+			display: flex;
+		}
+	}
+	
+	.partner a
+	{
+		display: block;
+		background: url($tpl-img-url + 'microsoft.png') center center/contain no-repeat;
+		font-size: 0;
+		height: 53px;
+		margin: 20px 0;
+	}
+	
     .nav__link
     {
         color: $white;
@@ -84,6 +106,27 @@
                 top: 50%;
                 transform: translateY(-50%);
             }
+
+            & + .nav:not(.nav--socials)
+            {
+                max-height: 0;
+                overflow: hidden;
+                transition: all .35s;
+            }
+
+            &--opened
+            {
+                &::after
+                {
+                    content: '-';
+                }
+
+                & + .nav:not(.nav--socials)
+                {
+                    margin-top: 1.5rem;
+                    max-height: 30rem;
+                }
+            }
         }
 
         &__nav
@@ -97,19 +140,6 @@
                 border-top: 1px solid #7b7b7e;
                 margin-top: 1.5rem;
             }
-        }
-
-        .nav:not(.nav--socials)
-        {
-            max-height: 0;
-            overflow: hidden;
-            transition: all .35s;
-        }
-
-        .nav.nav--opened:not(.nav--socials)
-        {
-            margin-top: 1.5rem;
-            max-height: 30rem;
         }
 
         &__other

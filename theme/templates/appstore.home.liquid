@@ -1,41 +1,35 @@
-﻿<div class="apps">
-    <div class="info-w">
-        <div class="info __responsive">
-            <div class="info-ico"></div>
-            <div class="info-descr">{{ 'apps.category.contact_us_slogan' | t }}</div>
-            <a class="btn __medium __round __red __ucase" ng-click="showBecomeADeveloperForm()">{{ 'apps.category.become_a_developer' | t }}</a>
+{% layout 'apps' %}
+
+<div class="apps">
+    <div class="apps__info">
+        <div class="apps__info-inner">
+            <div class="apps__info-icon"></div>
+            <div class="apps__info-descr">{{ 'apps.category.contact_us_slogan' | t }}</div>
+            <a class="btn btn--red btn--lg btn--round" ng-click="showBecomeADeveloperForm()">{{ 'apps.category.become_a_developer' | t }}</a>
         </div>
-    </div>    
-        <div class="items __responsive">
-            <div class="title-w">
-                <h1 class="t">{{ collections['featured'].title }}</h1>
-                <ul class="menu __inline __right">
-                    <li class="menu-item">
-                        <a class="menu-link" href="{{ collections['featured'].url | absolute_url }}">View All</a>
-                    </li>
-                </ul>
+    </div>
+    <div class="container">
+        <div class="apps__items">
+            <div class="apps__items-t">
+                <h1>{{ collections['featured'].title }}</h1>
+                <a class="ml-sm-auto" href="{{ collections['featured'].url | absolute_url }}">View All</a>
             </div>
-            <div class="list __items __inline">
-                <ul class="main">
-                  {% assign featured_products = collections['featured'].products | sort:"createddate:desc" %}
-                  {% for product in featured_products limit: 5 %}
+            <div class="list list--cards row">
+                {% assign featured_products = collections['featured'].products | sort:"createddate:desc" %}
+                {% for product in featured_products limit: 5 %}
                     {% include 'grid-item' %}
-                  {% endfor %}
-                </ul>
+                {% endfor %}
+            </div>
+
+            <div class="apps__items-t">
+                <h2>{{ 'apps.category.new_extensions' | t }}</h2>
+            </div>
+            <div class="list list--cards row">
+                {% assign new_extensions = collections['new-extensions'].products | sort:"createddate:desc" %}
+                {% for product in new_extensions limit: 5 %}
+                    {% include 'grid-item' %}
+                {% endfor %}
             </div>
         </div>
-        <div class="items __responsive">
-            <div class="title-w">
-                <h2 class="t">{{ 'apps.category.new_extensions' | t }}</h2>
-            </div>
-            <div class="list __items __inline">
-                <ul class="main">
-                   {% assign new_extensions = collections['new-extensions'].products | sort:"createddate:desc" %}
-                   {% for product in new_extensions limit: 5 %}
-                        {% include 'grid-item' %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-   
+    </div>
 </div>

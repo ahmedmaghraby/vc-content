@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Useful meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="robots" content="index, follow, noodp">
+        <meta name="googlebot" content="index, follow">
+        <meta name="google" content="notranslate">
+        <meta name="format-detection" content="telephone=no">
+
+        <title>Virtoccomerce / Architecture Overview</title>
+
+        <link rel="stylesheet" href="../../theme/assets/css/bundles/style.min.css">
+    </head>
+    <body>
+
+        <div id="layout">
+
+            <!-- Swipe -->
+            <div class="swipe">
+                <div class="swipe__header">
+                    <div class="swipe__nav">
+                        <div class="swipe__nav-item swipe__nav-item--show">
+                            <a class="swipe__nav-link" href="#">Login</a>
+                        </div>
+                        <div class="swipe__nav-item">
+                            <div class="swipe__back"></div>
+                        </div>
+                    </div>
+                    <div class="swipe__close ml-auto"></div>
+                </div>
+                <div class="swipe__body">
+                    <div class="nav">
+                        <ul class="flex-column">
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Why Virto
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Solutions
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Partners
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Community
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    Resources
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link">
+                                    About Us
+                                    <span class="nav__carret ml-auto"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <div class="nav__t">Key Features</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Key Features</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Built in the Cloud</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Technology</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Headless</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Architecture Overview</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Technology</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Platform Roadmap</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Documentation</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Technical Excellence</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Business Need</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">For Enterprise Solution Architects</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">For Developers</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">For ecommerce leaders</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">For CEOs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <div class="nav__t">Professional Services</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Consulting</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Training</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Support</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Business Size</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">B2B</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Mid Size</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">B2C</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Implementation</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">ESA architectural Guideline</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Technical Implementation Documents</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Technical Implementation Case Studies</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Implementation Process Overview</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Partnership Case Studies</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Become a Solution Partner</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">View our Partners</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <div class="nav__t">Applications</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Appstore</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Learn</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">List of Solution Partners</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Appstore</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Stackoverflow Group</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">API</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Download Community Edition</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Contribute</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">How to contribute</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">GitHub</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <div class="nav__t">Education</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">White Papers</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">B2B Ecommerce Platform</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Learn about B2B ecommerce</a>
+                                </li>
+                                <li class="nav__item">
+                                    <div class="nav__t">Tools</div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">List of Solution Partners</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Appstore</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Stackoverflow Group</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__content">
+                            <ul class="nav flex-column">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Virto Leadership</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Contact Us</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swipe__footer">
+                    <a href="#" class="btn btn--orange btn--expand btn--round">Try virto now</a>
+                </div>
+            </div>
+            <!-- End Swipe -->
+
+            <!-- Header -->
+            <header class="header">
+                <div class="header-inner container">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                Virtocommerce
+                            </div>
+                        </div>
+                        <div class="header-nav col-auto ml-auto">
+                            <ul class="nav">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link nav__link--dropdown">Why Virto</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t" href="#">Key Features</div>
+                                                    <a class="dropdown-menu__item" href="#">Key Features</a>
+                                                    <a class="dropdown-menu__item" href="#">Built in the Cloud</a>
+                                                    <a class="dropdown-menu__item" href="#">Technology</a>
+                                                    <a class="dropdown-menu__item" href="#">Headless</a>
+                                                    <a class="dropdown-menu__item" href="#">Architecture Overview</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Technology</div>
+                                                    <a class="dropdown-menu__item" href="#">Platform Roadmap</a>
+                                                    <a class="dropdown-menu__item" href="#">Documentation</a>
+                                                    <a class="dropdown-menu__item" href="#">Technical Excellence</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Business Need</div>
+                                                    <a class="dropdown-menu__item" href="#">For Enterprise Solution Architects</a>
+                                                    <a class="dropdown-menu__item" href="#">For Developers</a>
+                                                    <a class="dropdown-menu__item" href="#">For ecommerce leaders</a>
+                                                    <a class="dropdown-menu__item" href="#">For CEOs</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Solutions</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Professional Services</div>
+                                                    <a class="dropdown-menu__item" href="#">Consulting</a>
+                                                    <a class="dropdown-menu__item" href="#">Training</a>
+                                                    <a class="dropdown-menu__item" href="#">Support</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Business Size</div>
+                                                    <a class="dropdown-menu__item" href="#">B2B</a>
+                                                    <a class="dropdown-menu__item" href="#">Mid Size</a>
+                                                    <a class="dropdown-menu__item" href="#">B2C</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Implementation</div>
+                                                    <a class="dropdown-menu__item" href="#">ESA architectural Guideline</a>
+                                                    <a class="dropdown-menu__item" href="#">Technical Implementation Documents</a>
+                                                    <a class="dropdown-menu__item" href="#">Technical Implementation Case Studies</a>
+                                                    <a class="dropdown-menu__item" href="#">Implementation Process Overview</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Partners</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <a class="dropdown-menu__item" href="#">Partnership Case Studies</a>
+                                                    <a class="dropdown-menu__item" href="#">Become a Solution Partner</a>
+                                                    <a class="dropdown-menu__item" href="#">View our Partners</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Community</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Applications</div>
+                                                    <a class="dropdown-menu__item" href="#">Appstore</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Learn</div>
+                                                    <a class="dropdown-menu__item" href="#">List of Solution Partners</a>
+                                                    <a class="dropdown-menu__item" href="#">Appstore</a>
+                                                    <a class="dropdown-menu__item" href="#">Stackoverflow Group</a>
+                                                    <a class="dropdown-menu__item" href="#">API</a>
+                                                    <a class="dropdown-menu__item" href="#">Download Community Edition</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Contribute</div>
+                                                    <a class="dropdown-menu__item" href="#">How to contribute</a>
+                                                    <a class="dropdown-menu__item" href="#">GitHub</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Resources</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Education</div>
+                                                    <a class="dropdown-menu__item" href="#">White Papers</a>
+                                                    <a class="dropdown-menu__item" href="#">B2B Ecommerce Platform</a>
+                                                    <a class="dropdown-menu__item" href="#">Learn about B2B ecommerce</a>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="dropdown-menu__t">Tools</div>
+                                                    <a class="dropdown-menu__item" href="#">List of Solution Partners</a>
+                                                    <a class="dropdown-menu__item" href="#">Appstore</a>
+                                                    <a class="dropdown-menu__item" href="#">Stackoverflow Group</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">About Us</a>
+                                    <div class="dropdown-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <a class="dropdown-menu__item" href="#">Virto Leadership</a>
+                                                    <a class="dropdown-menu__item" href="#">Contact Us</a>
+                                                    <a class="dropdown-menu__item" href="#">Careers</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item nav__item--try">
+                                    <a class="nav__link" href="#">Try virto now</a>
+                                </li>
+                                <li class="nav__item nav__item--login">
+                                    <a class="nav__link" href="#">Login</a>
+                                </li>
+                            </ul>
+                            <a class="header-toggle"></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+
+            <!-- Main -->
+            <div class="main">
+                <div class="page">
+                    <div class="section section--cover">
+                        <div class="section__bg" style="background-image: url('../../theme/assets/images/redesign/page/architecture-overview/bg.jpg');">
+                            <div class="section__t">Architecture Overview</div>
+                            <p class="section__descr">Your business can't afford to keep using <br>limiting ecommerce platforms.</p>
+                            <div class="section__actions">
+                                <a href="#" class="btn btn--orange">Contact us to learn more</a>
+                                <a href="#" class="btn btn--white">Download our architecture guidelines</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="section__inner container">
+                            <div class="section__descr">
+                                When you're choosing a digital commerce foundation, the architecture is the DNA and heart of your solution. Basing your digital commerce future on monolithic, inflexible, and outdated architecture can seriously hamper the growth and agility of your business.
+                            </div>
+                            <h2 class="section__t">In-house developed ecommerce solutions are risky. <br>
+                            Those homegrown, custom-built tools <br>
+                            may seem perfect for your business - <br>
+                            but they can create long term difficulties.</h2>
+                            <div class="list list--columns row">
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/new-functionality.png" alt="" class="list__icon">
+                                    <div class="list__t">Too Challenging to Add New Functionality</div>
+                                    <div class="list__descr">
+                                        As your business grows and evolves, your digital commerce needs will change as well. With old and static architecture, it can be impossible to add the functions you need in a timely manner.
+                                    </div>
+                                </div>
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/team-turnover.png" alt="" class="list__icon">
+                                    <div class="list__t">Team Turnover Means Losing Human Capital</div>
+                                    <div class="list__descr">
+                                        The risk of employee turnover in your development team is high, and with every developer who chooses a new path, you lose years of knowledge capital as they walk out the door. Get ahead of technology brain-drain, and replace obsolete software solutions with maintainable platform, while you have knowledgeable team resources on hand. Plus, your development team will benefit too, as they will keep their skillsets sharp, rather than working to maintain antiquated tools.
+                                    </div>
+                                </div>
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/total-cost.png" alt="" class="list__icon">
+                                    <div class="list__t">Homegrown = High Total Cost of Ownership</div>
+                                    <div class="list__descr">
+                                        Holding on to homegrown ecommerce solutions or monolithic, rigid architecture, your total cost of ownership is constantly increasing, with high development costs to maintain the solution and to add new features to keep it current. The cost of scaling an old solution outweighs the benefits gained from keeping it.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section section--gray">
+                        <div class="section__inner container">
+                            <h2 class="section__t">Get To Market Faster</h2>
+                            <div class="section__descr">
+                                Virto Commerce offers a leading .NET, open source digital commerce platform chosen by leading companies like Bosch, Heineken, Volvo, Rainbow Sandals and more. They came to Virto Commerce frustrated with the digital commerce architecture provided by other solutions, and knew that they needed the endless flexibility, extensibility and scalability Virto offers, unmatched in the market.
+                            </div>
+                            <div class="list list--columns row">
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/open-source.png" alt="" class="list__icon">
+                                    <div class="list__t">Open Source</div>
+                                    <div class="list__descr">
+                                        Virto Commerce's open source architecture enables you to start your digital commerce journey rapidly. There's no new technology for your development team to learn, and being open source, our source code is fully available for use without any contracts or hurdles.
+                                    </div>
+                                </div>
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/modular.png" alt="" class="list__icon">
+                                    <div class="list__t">Modular</div>
+                                    <div class="list__descr">
+                                        The most modular and scalable digital commerce foundation available. Virto Commerce's architecture allows you to pick and choose exactly what features and services you want to incorporate in your technology stack.
+                                    </div>
+                                </div>
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/delivery-process.png" alt="" class="list__icon">
+                                    <div class="list__t">Delivery Process</div>
+                                    <div class="list__descr">
+                                        Our implementation process guides you every step of the way. We begin with a proof of concept, then move on to an MVP, and incorporate your actual feedback into the final delivery of your solution. Once your solution is delivered, Virto Commerce is your long-term partner and will support your solution and the features you need.
+                                    </div>
+                                </div>
+                                <div class="list__item col-lg-6">
+                                    <img src="../../theme/assets/images/redesign/page/architecture-overview/maintainability.png" alt="" class="list__icon">
+                                    <div class="list__t">Maintainability</div>
+                                    <div class="list__descr">
+                                        Virto Commerce releases new functionality weekly, and our customers influence our roadmap, ensuring that we develop the items that the market needs.
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="section__t">Ready to get started?</h2>
+                            <div class="section__descr">
+                                Download our Architecture Guidelines to get <br>a 360 degree view of our architecture.
+                            </div>
+                            <a href="#" class="btn btn--orange btn--round">Download Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section__inner container">
+                        <h2 class="section__t">View success stories of enterprises who leverage Virto for their digital commerce solutions</h2>
+                        <div class="list list--cards row">
+                            <div class="list__item col-md-6 col-lg-4">
+                                <div class="list__inner">
+                                    <div class="list__img">
+                                        <img src="../../theme/assets/images/redesign/page/agile-platform-definition/hosted-shopping.jpg" alt="" class="list__pic">
+                                    </div>
+                                    <div class="list__t">Hosted Shopping Carts</div>
+                                    <div class="list__descr">
+                                        Benefits and Reviews of Top Hosted Shopping Cart Solutions
+                                    </div>
+                                    <a href="#" class="btn btn--orange btn--round">Read more</a>
+                                </div>
+                            </div>
+                            <div class="list__item col-md-6 col-lg-4">
+                                <div class="list__inner">
+                                    <div class="list__img">
+                                        <img src="../../theme/assets/images/redesign/page/agile-platform-definition/what-backorder.jpg" alt="" class="list__pic">
+                                    </div>
+                                    <div class="list__t">What is Backorder? </div>
+                                    <div class="list__descr">
+                                        Learn more about how to handle backorders and fufillment
+                                    </div>
+                                    <a href="#" class="btn btn--orange btn--round">Read more</a>
+                                </div>
+                            </div>
+                            <div class="list__item col-md-6 col-lg-4">
+                                <div class="list__inner">
+                                    <div class="list__img">
+                                        <img src="../../theme/assets/images/redesign/page/agile-platform-definition/invetory-management.jpg" alt="" class="list__pic">
+                                    </div>
+                                    <div class="list__t">Inventory Management</div>
+                                    <div class="list__descr">
+                                        What is Inventory Management?
+                                    </div>
+                                    <a href="#" class="btn btn--orange btn--round">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Main -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer__inner container">
+                    <div class="footer__general row">
+                        <div class="col-lg-4">
+                            <div class="footer__logo">
+                                Virtocommerce
+                            </div>
+                            <div class="footer__text">Here we should have a few words about what and who the company is. This should serve well for SEO purposes, so makes sure you create some content for this part too.</div>
+                        </div>
+                        <div class="col-lg-8 col-xl-7 ml-lg-auto">
+                            <div class="row">
+                                <div class="footer__nav col-md-auto">
+                                    <div class="footer__t">Platform</div>
+                                    <ul class="nav nav--vertical">
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Glossary</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">B2B eCommerce Platform</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">ASP.NET Shopping Cart</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Business Features</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Technical Features</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__nav col-md-auto ml-md-auto">
+                                    <div class="footer__t">Developers</div>
+                                    <ul class="nav nav--vertical">
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Documentations</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Downloads</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Code repository</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">App store</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Roadmap</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Support</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Provide feedback</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__nav col-md-auto ml-md-auto">
+                                    <div class="footer__t">Contact us</div>
+                                    <ul class="nav nav--vertical">
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">hellow@virtocommerce.com</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">+1 800 980-5288</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#" class="nav__link">Live chat</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__other row align-items-center">
+                        <div class="footer__other-text col-md-auto">
+                            <div class="footer__copy">Copyright &copy; 2018. All rights reserved.</div>
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </div>
+                        <div class="col-md-auto ml-md-auto">
+                            <ul class="nav nav--socials">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link nav__link--tw">Twitter</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link nav__link--fb">Facebook</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link nav__link--in">Linkedin</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="../build/assets/js/main.js"></script>
+
+    </body>
+</html>

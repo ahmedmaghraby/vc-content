@@ -46,9 +46,9 @@ tags :
         <div class="section-title">How to set the reorder point for new inventory</div>
         <p class="text">The next important point you need to calculate is the right time to place your <a href="{{ '/glossary/order-processing-software' | absolute_url }}"> order</a> for the inventory restocking. EOQ answers the question of “What is an inventory level you want to maintain?”, but it doesn’t tell you how to actually do it. Ideally, you want your restock shipment to arrive when your previous batch is about to sell out. If it comes too early, you might face all kinds of storage and handling issues. And if it comes late, you’re in danger of running out of stock. So, you want to make sure you always have enough products, which is where determining your reorder point gets important.</p>
         <p class="text">In order to do it right, you would need to know the time it takes for:</p>
-        <p class="text">•	Picking and handling of your items</p>
-        <p class="text">•	Packing</p>
-        <p class="text">•	Shipping (lead time)</p>
+        <p class="text">•   Picking and handling of your items</p>
+        <p class="text">•   Packing</p>
+        <p class="text">•   Shipping (lead time)</p>
         <img alt="Inventory management definition - What is inventory management?" src="assets/images/what-is-inventory-management-2.jpeg" />
         <p class="text">
             Also, having a <a href="{{ 'https://virtocommerce.com/glossary/how-to-calculate-safety-stock' | absolute_url }}">safety stock</a>  is always a good idea!
@@ -57,9 +57,9 @@ tags :
         <p class="text">One of the main advantages of switching to inventory management software is automation of the whole process - you won’t have to worry about overselling by accident or missing reorder points. It will also help reduce the likelihood of human error. Plus, it will save you a significant amount of time that you could allocate to growing your business.</p>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 984 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

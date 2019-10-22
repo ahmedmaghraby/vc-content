@@ -23,7 +23,7 @@ tags :
 	</div>
 	<p class="text">Refers to ecommerce transactions conducted on ios apps running over the iOS (originally iPhone OS) mobile operating system which was created and developed by Apple Inc. This mobile operating system exclusive to Apple hardware powers the iPhone, iPad, iPad Mini and iPod touch. It is the second most popular mobile operating system platform in the world by sales, after Android. As of January 2015, Apple's App Store contained more than 1.4 million iOS applications, 725,000 of which are native for iPads. Major versions of iOS are released annually. The current release, iOS 9.2, was released on December 8, 2015. In iOS, there are four abstraction layers: the Core OS layer, the Core Services layer, the Media layer, and the Cocoa Touch layer. The current version of the operating system (iOS 9), dedicates around 1.3 GB of the device's flash memory for iOS itself. The iOS user interface uses multi-touch gestures such as swipe, tap, pinch, and reverse pinch, and is based on the concept of direct manipulation. The interface control features are comprised of sliders, switches, and buttons.</p>
 	<div class="buttons">
-		<a class="button fill" href="/try-now">Try It Now</a>
+		<a class="button fill" href="/contact-us">Try It Now</a>
 		<a class="button fill" href="/contact-us">Request Information & Demo</a>
 	</div>
 </div>

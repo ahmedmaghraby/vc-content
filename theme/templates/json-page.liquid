@@ -2,6 +2,8 @@
     {% layout json_page.settings.layout %}
 {% endif %}
 
-<div class="features-page">
+{{ 'blocks.css' | asset_url | stylesheet_tag }}
+
+<div class="page">
     {% include 'json-blocks' -%}
 </div>

@@ -102,12 +102,13 @@ class App {
         this.list = [];
     }
     run() {
+        this.reloadResources();
         this.dispatcher.handleMessage =
             (handler, msg) => {
                 handler.execute(msg, this.list);
             };
         this.dispatcher.run();
-        this.reloadResources();
+        // ServiceLocator.getMessages().ping();
     }
     getList() {
         return this.list;
@@ -117,7 +118,6 @@ class App {
         var prefix = urlParams.get('preview_mode');
         var suffix = "?preview_mode=" + prefix + "&v=" + (new Date().getTime());
         var nodes = document.getElementsByTagName("link");
-        var head = document.getElementsByTagName("head").item(0);
         function generateLinkNode(url) {
             var result = document.createElement("link");
             result.setAttribute("rel", "stylesheet");
@@ -130,7 +130,10 @@ class App {
             if (styleSheet.href && styleSheet.href.startsWith(document.location.origin) && styleSheet.href.endsWith(".css")) {
                 var url = styleSheet.href + suffix;
                 var newlink = generateLinkNode(url);
-                head.replaceChild(newlink, styleSheet);
+                const parent = styleSheet.parentNode;
+                if (!!parent) {
+                    parent.replaceChild(newlink, styleSheet);
+                }
             }
         }
     }
@@ -329,8 +332,10 @@ exports.DndInteractor = DndInteractor;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Environment = {
     RenderBlockApiUrl: '/designer-preview/block',
-    DesignerUrl: 'http://localhost/'
-    // DesignerUrl: 'http://vc-admin-test.azurewebsites.net/designer'
+    ResetCacheApiUrl: '/designer-preview/reset-cache',
+    // DesignerUrl: 'http://localhost/'
+    DesignerUrl: 'http://vc-admin-test.azurewebsites.net/designer'
+    // DesignerUrl: 'https://vc-com-new-initial-platform.azurewebsites.net/designer'
 };
 
 
@@ -655,6 +660,7 @@ __export(__webpack_require__(/*! ./select.handler */ "./handlers/select.handler.
 __export(__webpack_require__(/*! ./show.handler */ "./handlers/show.handler.ts"));
 __export(__webpack_require__(/*! ./swap.handler */ "./handlers/swap.handler.ts"));
 __export(__webpack_require__(/*! ./update.handler */ "./handlers/update.handler.ts"));
+__export(__webpack_require__(/*! ./reset.handler */ "./handlers/reset.handler.ts"));
 __export(__webpack_require__(/*! ./reload.handler */ "./handlers/reload.handler.ts"));
 __export(__webpack_require__(/*! ./page.handler */ "./handlers/page.handler.ts"));
 
@@ -695,7 +701,8 @@ class PageHandler extends base_handler_1.BaseHandler {
             list.forEach(x => {
                 this.renderer.add(x);
             });
-            $('.fotorama').fotorama();
+            // var $: any = window['jQuery'];
+            // $(".carousel-block").carousel();
             service_locator_1.ServiceLocator.getMessages().renderComplete();
         });
     }
@@ -788,6 +795,33 @@ class RemoveHandler extends base_handler_1.BaseHandler {
     }
 }
 exports.RemoveHandler = RemoveHandler;
+
+
+/***/ }),
+
+/***/ "./handlers/reset.handler.ts":
+/*!***********************************!*\
+  !*** ./handlers/reset.handler.ts ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const environment_1 = __webpack_require__(/*! ./../environment */ "./environment.ts");
+const service_locator_1 = __webpack_require__(/*! ./../service-locator */ "./service-locator.ts");
+const base_handler_1 = __webpack_require__(/*! ./base.handler */ "./handlers/base.handler.ts");
+class ResetHandler extends base_handler_1.BaseHandler {
+    constructor() {
+        super(...arguments);
+        this.key = 'reset';
+    }
+    executeInternal(msg, list, vm) {
+        service_locator_1.ServiceLocator.getHttp().postTo(environment_1.Environment.ResetCacheApiUrl, {});
+    }
+}
+exports.ResetHandler = ResetHandler;
 
 
 /***/ }),
@@ -910,8 +944,8 @@ class UpdateHandler extends base_handler_1.BaseHandler {
             vm.htmlString = result;
             this.renderer.update(vm);
             this.renderer.select(vm);
-            const c = $('.fotorama');
-            c.fotorama();
+            // var $: any = window['jQuery'];
+            // $(".carousel-block").carousel();
         });
     }
 }
@@ -977,7 +1011,6 @@ document.addEventListener('DOMContentLoaded', () => {
     app.run();
 });
 window.addEventListener('click', (event) => {
-    console.log(event);
     event.preventDefault();
 });
 
@@ -1101,10 +1134,11 @@ class PreviewInteractor {
         }
         const rect = helpers_1.measureElement(source);
         const doubleWidth = this.borderWidth * 2;
-        target.style.top = rect.top + 'px';
-        target.style.left = rect.left + 'px';
-        target.style.height = (rect.height - doubleWidth) + 'px';
-        target.style.width = (rect.width - doubleWidth) + 'px';
+        const delta = 0;
+        target.style.top = (rect.top + delta) + 'px';
+        target.style.left = (rect.left + delta) + 'px';
+        target.style.height = (rect.height - 2 * delta) + 'px';
+        target.style.width = (rect.width - 2 * delta) + 'px';
         target.style.display = 'block';
     }
 }
@@ -1143,6 +1177,8 @@ class Renderer {
         }
         vm.element = this.createElement(vm);
         this.container.replaceChild(vm.element, element);
+        this.interactor.select(vm);
+        this.hover(vm);
     }
     insert(vm, index) {
         vm.element = this.createElement(vm);
@@ -1307,11 +1343,11 @@ class HttpService {
     }
     get() {
     }
-    post(model) {
+    postTo(endpoint, model) {
         // https://gist.github.com/codecorsair/e14ec90cee91fa8f56054afaa0a39f13
         return new Promise((resolve, reject) => {
             const xhr = new XMLHttpRequest();
-            xhr.open('post', this.endpoint);
+            xhr.open('post', endpoint);
             xhr.setRequestHeader('Accept', 'application/json, text/javascript, text/plain');
             xhr.setRequestHeader('Cache-Control', 'no-cache');
             xhr.setRequestHeader('Content-Type', 'application/json');
@@ -1335,6 +1371,9 @@ class HttpService {
             //   resolve(errorResponse(xhr, 'Request took longer than expected.'));
             // };
         });
+    }
+    post(model) {
+        return this.postTo(this.endpoint, model);
     }
 }
 exports.HttpService = HttpService;
@@ -1373,6 +1412,7 @@ class MessagesService {
     }
     send(message, model) {
         const msg = Object.assign({ type: message }, model);
+        console.log('send to designer', msg);
         window.parent.postMessage(msg, this.parentOrigin);
     }
 }

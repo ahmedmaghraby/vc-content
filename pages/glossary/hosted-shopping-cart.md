@@ -28,14 +28,14 @@ tags:
             <h1 itemprop="headline" class="title">Hosted Shopping Cart</h1>
         </div>
         <div style="text-align: center;">
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/QpRG-HOlrbc?ecver=1" frameborder="0" allowfullscreen></iframe>
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="48%" height="250" src="https://www.youtube.com/embed/QpRG-HOlrbc?ecver=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="48%" height="250" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart" src="assets/images/hosted-shopping-cart.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 Hosted shopping carts provide an all-in-one solution for your business and allow it to be transferred to the digital rails quickly. With the advancements of Internet and information technologies, it has become much harder to choose from multiple options that have appeared in recent years. And with the nowadays hosting technologies, you can easily get overwhelmed by the range of various solutions that different shopping carts provide.
             </div>
         </div>
@@ -62,95 +62,95 @@ tags:
         </div>
         <div class="section-title">Hosted Shopping Carts List</div>
         <div class="section-title"><a href="https://www.shopify.com" target="_blank" rel="nofollow">Shopify</a></div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - Shopify" src="assets/images/shopify1.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 If you are striving for a perfect balance between the convenience of setting up and having the control over your website, then, <a href="{{ '/glossary/shopify-alternatives' | absolute_url }}">Shopify</a> is the best platform on the market. It is highly valued in the community for providing as much control as possible before opening your server. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a great variety of tools to alter your store. Another great thing is the presence of their AppStore, where you can find useful plugins for creating and customizing your website. Despite all of its great features, Shopify lacks the content-marketing feature, which has become a big deal on the market. It is only with content marketing you can double your conversion rate thanks to customers becoming more educated about your products and therefore, more willing to buy it. You should definitely sign up for their free trial and see whether this hosted cart solution is the right fit for you.
             </div>
         </div>
         <div class="section-title"><a href="https://www.opencart.com/" target="_blank">Opencart</a></div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 Among other shopping carts OpenCart has been very prominent for gaining immense popularity on the market. Its clients value Opencart for the top-notch security protocols that do not allow any of your data to get lost, while keeping track about any activity on the website. Another great benefit is the availability of content marketing as well as SEO-optimization for any article that you post for the product. For the price that you pay, you will also get an official forum that allows you to avoid any obstacles in creating your website as well as receive a quick support response. The platform is flexible and very easy to use. It can be adapted to any web-hosting and provides a perfect and inexpensive solution for all your e-commerce needs.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - Opencart" src="assets/images/open-cart.jpg" />
             </div>
         </div>
         <div class="section-title"><a href="https://www.pinnaclecart.com/" target="_blank" rel="nofollow">PinnacleCart</a></div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - PinnacleCart" src="assets/images/pinnacle-cart.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 If you want to set up a store’s website right out of the box and don't want to bother with a huge amount of options available, then, PinnacleCart is the best choice for you. New and bright templates, various marketing tools, great SEO make PinnacleCart best for an online-only shop. It can also be credited for providing a 14-day free trial, giving small businesses a chance to set up a store and test transactions. Thanks to it, you can select from 30 different payment gateways, as the platform does not charge any setup fee.  Compared to Shopify, they are a much cheaper option, as they do not have any hidden fees. However, smaller packages provide the lesser amount of bandwidth and disc storage, which can damage your website’s capacity.
             </div>
         </div>
         <div class="section-title"><a href="https://www.ultracart.com/" target="_blank" rel="nofollow">UltraCart</a></div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 UltraCart is the best option in case you want your website to be loaded with features, while at the same time not bursting your budget. This shopping cart hosting comes with a great number of tools that will help you make more sales; it is built on enterprise-level hardware, and it always takes care of any updates, security concerns or technical aspects. Just like any other platform, it supports all the leading credit card processing gateways and works with many payment methods. Great customer support and technical documentation especially make this shopping cart platform stand out among others.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - UltraCart" src="assets/images/ultra-cart.jpg" />
             </div>
         </div>
         <div class="section-title"><a href="https://magento.com/" target="_blank" rel="nofollow">Magento</a></div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - Magento" src="assets/images/magento.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 <a href="{{ '/glossary/magento-alternatives' | absolute_url }}">Magento</a> is a huge independent company that continues to be an enterprise-level player in the field of hosted shopping carts. Customers value it for being elastic and for providing excellent support to large corporations and small businesses alike. Thanks to its open-source features, Magento is very scalable. It can be sometimes daunting to use, as it requires some basic programming knowledge. However, while being hard to manage, it is the top platform when it comes to security and customer support.
             </div>
         </div>
         <div class="section-title"><a href="http://storefront.com/" target="_blank" rel="nofollow">StoreFront</a></div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 StoreFront is a hosted shopping cart platform that specializes in customized solutions and tailors them to small businesses and large corporations alike. They are valued for the ability to integrate with many third-party software packages, merchant gateways, while at the same time offering customized store designs and brilliant customer support.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - StoreFront" src="assets/images/store-front.jpg" />
             </div>
         </div>
         <div class="section-title"><a href="http://www.shopintegrator.com/" target="_blank" rel="nofollow">ShopIntegrator</a></div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart - ShopIntegrator" src="assets/images/shop-integrator.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 A pretty basic shopping cart hosting that provides regular features like template selection, easy connection with the payment processor, secure hosting, mobile e-commerce and so on. While it offers a Multi-Store Management, it lacks any inventory, SEO or Promotions management, marketing tools and loyalty programs. It is what you get starting at $9.95 per month.
             </div>
         </div>
         <div class="section-title"><a href="https://developer.yahoo.com/stores/" target="_blank" rel="nofollow">Yahoo! Merchant Solutions</a></div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 Robust hosted shopping cart. It is well known for its unique features like cross selling, gift certificate creation, discounts and deals creation, wish-lists and more. When designing your website, you can rely on the selected templates or have it designed specifically for your needs. Remember also to consult a web-designer, as Yahoo’s terminology can be tough to understand for the Average Joe.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Hosted Shopping Cart" src="assets/images/yahoo-merchant-solutions.jpg" />
             </div>
         </div>
         <div class="section-title"><a href="https://virtocommerce.com/">Virto Commerce</a></div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
                     <img itemprop="url contentUrl" alt="Hosted Shopping Cart - Virto Commerce" src="assets/images/virto-commerce.jpg" />
                     <meta itemprop="width" content="213">
                     <meta itemprop="height" content="101">
                 </span>
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 The enterprise-level e-commerce solution that is fully open-source. It is based on .NET 4.6 with extensive use of IoC, EF, AngularJS, Liquid, MVC and many other cutting edge technology advancements. If you are to manage high volumes of items, this is the platform that can provide product catalogs with the maximum ability for marketing and promotion. This platform is a well-built solution that eliminates the problem of creating a store’s website in no time. It's modern technology will allow you to set up a website in less than an hour, bringing such incredible features to you as technical documentation, tech support and so on. Great .NET architecture will allow you to customize your website with no sweat.
             </div>
         </div>
         {% include 'micro-mark-publisher' %}
         {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 1851 %}
     </div>
-    <div class="buttons">
-        <a class="button fill" href="/try-now">Try It Now</a>
-        <a class="button fill" href="/contact-us">Request Information & Demo</a>
+    <div class="actions">
+        <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+        <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
     </div>
 </section>

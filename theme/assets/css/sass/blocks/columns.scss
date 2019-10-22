@@ -1,0 +1,88 @@
+@import "../variables.scss";
+
+.columns
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 -1.25rem;
+    padding-top: 1.5rem;
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    &__item {
+        padding: 2.5rem 1.25rem 0;
+        text-align: left;
+    }
+
+    &__inner {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem;
+        height: 100%;
+
+        &.has-border {
+            border: 1px solid $gray-400;
+            border-radius: .625rem;
+        }
+    }
+
+    &__pic {
+        margin-bottom: 1.5rem;
+        max-width: 100%;
+    }
+
+    &__t {
+        font-size: .875rem;
+        font-weight: 900;
+    }
+
+    &__descr {
+        font-size: .75rem;
+        align-self: stretch;
+    }
+
+    .columns-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .columns-3 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .columns-4 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .columns-5 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .align-left {
+        align-self: flex-start;
+        text-align: left;
+    }
+    .align-center {
+        align-self: center;
+        text-align: center;
+    }
+    .align-right {
+        align-self: flex-end;
+        text-align: right;
+    }
+    &.align-columns-left {
+        justify-content: flex-start;
+    }
+    &.align-columns-center {
+        justify-content: center;
+    }
+    &.align-columns-right {
+        justify-content: flex-end;
+    }
+    &.align-columns-stretch {
+        justify-content: stretch;
+    }
+}

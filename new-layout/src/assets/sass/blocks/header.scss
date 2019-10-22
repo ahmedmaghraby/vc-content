@@ -1,15 +1,32 @@
 .header
 {
     background: $white;
-    position: relative;
-    z-index: 5000;
+    box-shadow: 0 0 .25rem rgba(0,0,0,.25);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+
+    &-inner
+    {
+        position: relative;
+    }
 
     &-logo
     {
-        background: url(images/logo.svg) no-repeat;
+        background: url($tpl-img-url + 'logo.svg') no-repeat scroll 0 0;
+        display: block;
         font-size: 0;
         height: 2.5rem;
         width: 8.6875rem;
+
+        &--apps
+        {
+            background-image: url($tpl-img-url + 'logo-apps.png');
+            height: 3rem;
+            width: 9.1875rem;
+        }
     }
 
     &-nav
@@ -24,9 +41,14 @@
         }
     }
 
+    &-phone > *
+    {
+        color: inherit;
+    } 
+
     .nav
     {
-        display: none;
+        display: flex;
     }
 
     .nav__item,
@@ -41,22 +63,60 @@
         transition: all .35s;
     }
 
+    .nav__item
+    {
+        display: none;
+    }
+
+    .nav__item--try
+    {
+        align-items: center;
+        display: flex;
+
+        .btn
+        {
+            margin: 1.25rem 0;
+        }
+    }
+
     .nav__link
     {
         box-sizing: content-box;
         align-items: center;
+        font-size: 1rem;
         height: 2.5rem;
         padding: 1.25rem 0;
+		cursor: pointer;
+
+        &:hover
+        {
+            color: $orange;
+        }
     }
+
+	.form--search
+	{
+        @include media-breakpoint-up(lg) {
+            width: 16rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-right: 3.5rem;
+        }
+
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+	}
 
     .dropdown-menu .container
     {
         @include media-breakpoint-up(lg) {
-            padding-left: 12.0625rem;
+            padding-left: 11.875rem;
         }
 
         @include media-breakpoint-up(xl) {
-            padding-left: 18.9375rem;
+            padding-left: 19.625rem;
         }
     }
 
@@ -66,7 +126,6 @@
         cursor: pointer;
         display: none;
         height: 1.125rem;
-        margin: 0 1.875rem;
         position: relative;
         width: 1.5rem;
 
@@ -95,13 +154,25 @@
     @include media-breakpoint-down(lg) {
         &-logo
         {
-            background-image: url(images/logo-mobile.svg) no-repeat;
             width: 2.5rem;
+
+            &--apps
+            {
+                width: 9.1875rem;
+            }
+        }
+
+        .nav__item--login
+        {
+            display: none;
         }
     }
 
     @include media-breakpoint-down(md) {
-        padding: 1.25rem 0;
+		[class*='-logo']
+		{
+			margin: 1.25rem 0;
+		}
 
         &-nav .btn
         {
@@ -111,26 +182,31 @@
         &-toggle
         {
             display: block;
-            margin: 0 1.25rem 0 1.875rem;
-        }
-    }
-
-    @include media-breakpoint-down(sm) {
-        &-nav .btn
-        {
-            margin: 0;
+            position: absolute;
+            right: .9375rem;
         }
 
-        &-toggle
+        .nav__item--try
         {
-            margin: 0 .3125rem 0 1.875rem;
+            display: flex;
         }
     }
 
     @include media-breakpoint-down(xs) {
-        &-nav .btn:nth-of-type(1)
+        &-phone > *
         {
-            display: none;
+            align-items: center;
+            background: url($tpl-img-url + 'icons/phone.svg') no-repeat scroll 0 0;
+            background-size: cover;
+            display: flex;
+            font-size: 0;
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+        
+        &-nav .btn
+        {
+            margin: 0;
         }
     }
 
@@ -141,9 +217,14 @@
             margin-left: 1.25rem;
         }
 
-        .nav
+        .nav__item
         {
             display: flex;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 6rem;
         }
     }
 
@@ -152,6 +233,11 @@
         .nav__item
         {
             margin-left: 1.875rem;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 7rem;
         }
     }
 }
