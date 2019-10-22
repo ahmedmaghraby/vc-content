@@ -1,6 +1,6 @@
 ---
 author: VirtoCommerce 
-category: virtocommerce-news 
+category: virtocommerce-news
 date: '2019-04-04'
 permalink: blog/infographic
 main-image: ../../assets/images/blog/top-5-essential-b2b-ecommerce-functions.png
