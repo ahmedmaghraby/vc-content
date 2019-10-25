@@ -5813,12 +5813,31 @@ code {
     display: list-item;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .page .row .section__info,
   [class*='-page'] .row .section__info {
         -ms-flex: 0 0 41.25rem;
         flex: 0 0 41.25rem;
         max-width: 41.25rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .page .section--video .row .section__info,
+  [class*='-page'] .section--video .row .section__info {
+        -ms-flex: 0 0 32rem;
+        flex: 0 0 32rem;
+        max-width: 32rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .page .section--video .row .section__info,
+  [class*='-page'] .section--video .row .section__info {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 2rem;
     }
 }
 
@@ -6674,6 +6693,90 @@ code {
 
     .section--form .mobile-block__item[data-name="chat"] {
         background-image: url("../../images/redesign/page/request/chat.svg");
+    }
+}
+
+.section--video .section-video {
+    border-radius: .25rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.section--video .section-video::after {
+    background: rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.section--video .section-video .section__pic {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.section--video .section-video .section-author,
+  .section--video .section-video .section-video__icon {
+    position: absolute;
+    z-index: 50;
+}
+
+.section--video .section-video .section-author {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    left: 1.25rem;
+    top: 1.25rem;
+}
+
+.section--video .section-video .section-author__pic {
+    background-size: contain;
+    border-radius: 2.125rem;
+    height: 2.125rem;
+    margin-right: .625rem;
+    width: 2.125rem;
+}
+
+.section--video .section-video .section-author__name {
+    color: #fff;
+    font-size: 1.125rem;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section--video .section-video .section-video__icon {
+    background: url("../../images/redesign/icons/play.svg") no-repeat scroll 0 0;
+    background-size: contain;
+    height: 5.125rem;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all .25s ease;
+    width: 5.125rem;
+}
+
+.section--video .section-video:hover .section-video__icon {
+    opacity: .75;
+}
+
+@media (max-width: 575.98px) {
+    .section--video .section-video .section-author {
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .section--video .section-video .section-author__name {
+        font-size: 1rem;
+    }
+
+    .section--video .section-video .section-video__icon {
+        height: 3.25rem;
+        width: 3.25rem;
     }
 }
 

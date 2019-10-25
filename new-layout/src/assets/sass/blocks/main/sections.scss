@@ -631,11 +631,28 @@
 
     @extend %ul-and-ol;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
         .row .section__info
         {
             flex: 0 0 41.25rem;
             max-width: 41.25rem;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .section--video .row .section__info
+        {
+            flex: 0 0 32rem;
+            max-width: 32rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .section--video .row .section__info
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-top: 2rem;
         }
     }
 }
@@ -1568,6 +1585,105 @@
                     background-image: url($tpl-img-url + 'page/request/chat.svg');
                 }
             }
+        }
+    }
+}
+
+.section--video
+{
+    .section-video
+    {
+        border-radius: .25rem;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+
+        &::after
+        {
+            background: rgba(0,0,0,.25);
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .section__pic
+        {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .section-author,
+        .section-video__icon
+        {
+            position: absolute;
+            z-index: 50;
+        }
+
+        .section-author
+        {
+            align-items: center;
+            display: flex;
+            left: 1.25rem;
+            top: 1.25rem;
+
+            &__pic
+            {
+                background-size: contain;
+                border-radius: 2.125rem;
+                height: 2.125rem;
+                margin-right: .625rem;
+                width: 2.125rem;
+            }
+
+            &__name
+            {
+                color: $white;
+                font-size: 1.125rem;
+                text-shadow: 0px 2px 4px rgba(0,0,0,.5);
+            }
+        }
+
+        .section-video__icon
+        {
+            background: url($tpl-img-url + 'icons/play.svg') no-repeat scroll 0 0;
+            background-size: contain;
+            height: 5.125rem;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            transition: all .25s ease;
+            width: 5.125rem;
+        }
+
+        &:hover
+        {
+            .section-video__icon
+            {
+                opacity: .75;
+            }
+        }
+
+        @include media-breakpoint-down(xs) {
+            .section-author
+            {
+                left: 1rem;
+                top: 1rem;
+
+                &__name
+                {
+                    font-size: 1rem;
+                }
+            }
+
+            .section-video__icon
+            {
+                height: 3.25rem;
+                width: 3.25rem;
+            }   
         }
     }
 }
