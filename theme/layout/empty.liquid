@@ -25,6 +25,7 @@
     <title>Enterprise ASP.NET open-source Microsoft e-commerce platform - Virto Commerce</title>
     {% endif %}
     {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     <link rel="canonical" href="{{ canonical_url }}" />
@@ -41,5 +42,7 @@
             <footer style="height: 5rem; background: #eee;"></footer>
         </div>
     </div>
+    {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
+    {{ 'jquery.fancybox.min.js' | asset_url | script_tag }}
 </body>
 </html>

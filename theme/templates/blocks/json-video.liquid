@@ -1,0 +1,22 @@
+<div class="section section--video {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        <div class="row align-items-lg-center flex-row-reverse">
+            <div class="section__img col-lg">
+                <a href="{{ block.videoUrl }}" class="section-video" data-fancybox>
+                    <img src="{{ block.image.url }}" alt="" class="section__pic">
+                    <div class="section-author">
+                        <div class="section-author__pic" style="background-image: url({{ block.avatar.url }});"></div>
+                        <div class="section-author__name">{{ block.videoName }}</div>
+                    </div>
+                    <div class="section-video__icon"></div>
+                </a>
+            </div>
+            <div class="section__info col-lg-auto">
+                <h2 class="section__t">{{ block.title }}</h2>
+                <div class="section__descr">
+                    {{ block.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

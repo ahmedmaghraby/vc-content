@@ -6700,6 +6700,7 @@ code {
     border-radius: .25rem;
     cursor: pointer;
     overflow: hidden;
+    display: block;
     position: relative;
 }
 
