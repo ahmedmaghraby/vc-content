@@ -1,6 +1,6 @@
 ---
 author: VirtoCommerce 
-category: virtocommerce-news 
+category: virtocommerce-news
 date: '2019-04-10'
 permalink: blog/virto-commerce-at-b2b-online-event-in-chicago
 main-image: ../../assets/images/blog/virto-commerce-at-b2b-online-event-in-chicago.png
