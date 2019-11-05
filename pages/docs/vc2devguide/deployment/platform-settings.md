@@ -15,7 +15,7 @@ This is a standard database connection string. It defines SQL server, database, 
 
 ### Custom database connection strings
 
-Although "VirtoCommerce" is the default database connection string, other modules might be using custom database connection strings. Add any additional connection strings under `connectionStrings` section.
+Although "VirtoCommerce" is the default database connection string, other modules might be using custom database connection strings. Add any additional connection strings under *connectionStrings* section.
 
 ### AssetsConnectionString
 
@@ -61,7 +61,7 @@ This parameter defines the available data sources for VC modules management. 
 <add key="VirtoCommerce:Modules:GitHubAuthorizationToken" value="" />
 ```
 
-Authorization Token to access `ModulesDataSources` stored in private repositories.
+Authorization Token to access *ModulesDataSources* stored in private repositories.
 
 ### Bundle optimization
 ```
