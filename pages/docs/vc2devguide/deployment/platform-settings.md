@@ -1,8 +1,8 @@
 ---
 title: Platform settings
-description: The developer guide to Virto Commerce platform settings
+description: The developer guide to Virto Commerce Platform settings
 layout: docs
-date: 2016-06-08T12:59:50.447Z
+date: 2019-11-05
 priority: 2
 ---
 **VirtoCommerce.Platform.Web\Web.config** file contains global application settings and connection strings.
@@ -13,11 +13,15 @@ priority: 2
 
 This is a standard database connection string. It defines SQL server, database, user and password.
 
+### Custom database connection strings
+
+Although "VirtoCommerce" is the default database connection string, other modules might be using custom database connection strings. Add any additional connection strings under `connectionStrings` section.
+
 ### AssetsConnectionString
 
-Assets connection string consists of two parts. First part is **provider=XXXX**, which specifies which provider to use for storing assets. The remainder of the string is passed to provider’s constructor. Platform includes two asset providers: LocalStorage and AzureBlobStorage.
+That's a custom connection string for Assets management and it consists of two parts. First part is **provider=XXXX**, which specifies which provider to use for storing assets. The remainder of the string is passed to provider’s constructor. Platform supports two asset providers: **LocalStorage** and **AzureBlobStorage**.
 
-### LocalStorage
+#### LocalStorage
 ```
 <add name="AssetsConnectionString" connectionString="provider=LocalStorage;rootPath=~/App_Data/Assets;publicUrl=http://localhost/admin/Assets" />
 ```
@@ -28,7 +32,7 @@ This provider stores assets in a local file system.
 
 **publicUrl** is a public URL for the root directory defined above. It is used to construct full asset URLs.
 
-### AzureBlobStorage
+#### AzureBlobStorage
 ```
 <add name="AssetsConnectionString" connectionString="provider=AzureBlobStorage;DefaultEndpointsProtocol=http;AccountName=XXXX;AccountKey=YYYY" />
 ```
@@ -46,46 +50,52 @@ You should copy values for this connection string from your Azure portal and pas
 
 This parameter defines the URL of either a ZIP package, which contains exported sample data, or a directory containing the manifest.json file with the list of available sample data packages and its URLs.
 
-### ModulesDataSources
+### Modules' Data Sources
 ```
 <add key="VirtoCommerce:ModulesDataSources" value="https://raw.githubusercontent.com/VirtoCommerce/vc-modules/master/modules.json; C:\customModules\modules.json" />
 ```
 
 This parameter defines the available data sources for VC modules management. There can be multiple (remote or local) links specified in a single setting value. Each link should lead to file in **json** format containing modules information such as module id, title, version, dependencies, authors, etc.
 
-### EnableBundlesOptimizations
+```
+<add key="VirtoCommerce:Modules:GitHubAuthorizationToken" value="" />
+```
+
+Authorization Token to access `ModulesDataSources` stored in private repositories.
+
+### Bundle optimization
 ```
 <add key="VirtoCommerce:EnableBundlesOptimizations" value="false" />
 ```
 
-Gets or sets whether bundling and minification of bundle references is enabled.
+Flag to define whether bundling and minification of bundle references is enabled.
 
 ### AutoInstallModuleBundles
 ```
 <add key="VirtoCommerce:AutoInstallModuleBundles" value="commerce" />
 ```
 
-This parameter defines the module bundles that will be installed automatically.
+This parameter defines the module bundles that will be installed automatically. Set empty value for none.
 
 ### Authentication settings
 
-The platform includes a number of authentication providers, each of which can be enabled or disabled separately.
+*The platform includes a number of authentication providers, each of which can be enabled or disabled separately.*
 
-### AllowOnlyAlphanumericUserNames
+#### AllowOnlyAlphanumericUserNames
 ```
 <add key="VirtoCommerce:Authentication:AllowOnlyAlphanumericUserNames" value="false" />
 ```
 
-Indicates to only allow alpha and numeric symbols in users names.
+Indicates to allow only alpha and numeric symbols in usernames.
 
-### RequireUniqueEmail
+#### RequireUniqueEmail
 ```
 <add key="VirtoCommerce:Authentication:RequireUniqueEmail" value="false" />
 ```
 
 If set, enforces that emails are non empty, valid, and unique.
 
-### Password
+#### Password
 ```
 <add key="VirtoCommerce:Authentication:Password.RequiredLength" value="5" />
 <add key="VirtoCommerce:Authentication:Password.RequireNonLetterOrDigit" value="false" />
@@ -94,42 +104,58 @@ If set, enforces that emails are non empty, valid, and unique.
 <add key="VirtoCommerce:Authentication:Password.RequireUppercase" value="false" />
 ```
 
-These options specify password policy requirements.
+Password policy parameters.
 
-### Cookies
+#### UserLockout
+```
+<add key="VirtoCommerce:Authentication:UserLockoutEnabledByDefault" value="true" />
+<add key="VirtoCommerce:Authentication:DefaultAccountLockoutTimeSpan" value="00:05:00" />
+<add key="VirtoCommerce:Authentication:MaxFailedAccessAttemptsBeforeLockout" value="5" />
+```
+
+AspNet Identity settings for User Lockout.
+
+#### DefaultTokenLifespan
+```
+<add key="VirtoCommerce:Authentication:DefaultTokenLifespan" value="1:00:00:00" />
+```
+
+Lifespan after which the authentication token is considered expired. Default value is 1 day.
+
+#### Cookies
 ```
 <add key="VirtoCommerce:Authentication:Cookies.Enabled" value="true" />
 <add key="VirtoCommerce:Authentication:Cookies.ValidateInterval" value="1:00:00:00" />
 ```
 
-If the time passed since the authentication cookie was generated is greater than ValidateInterval the security stamp validator will check if the security stamp has been changed in the database.
+If the time passed since the authentication cookie was generated is greater than ValidateInterval, the security stamp validator will check if the security stamp has been changed in the database.
 
 Default value is 1 day.
 
-### Cookie
+#### Cookie
 ```
 <add key="VirtoCommerce:Authentication:Cookie:AuthenticationMode" value="Active" />
 ```
 
-If Active the authentication middleware alter the request user coming in and alter 401 Unauthorized responses going out. If Passive the authentication middleware will only provide identity and alter responses when explicitly indicated by the AuthenticationType.
+If **Active**, the authentication middleware alter the request user coming in and alter 401 Unauthorized responses going out. If **Passive**, the authentication middleware will only provide identity and alter responses when explicitly indicated by the AuthenticationType.
 
 ```
 <add key="VirtoCommerce:Authentication:Cookie:AuthenticationType" value="ApplicationCookie" />
 ```
 
-The AuthenticationType in the options corresponds to the IIdentity AuthenticationType property. A different value may be assigned in order to use the same authentication middleware type more than once in a pipeline.
+The AuthenticationType in the options corresponds to the **IIdentity AuthenticationType** property. A different value may be assigned in order to use the same authentication middleware type more than once in a pipeline.
 
 ```
 <add key="VirtoCommerce:Authentication:Cookie:Domain" value="" />
 ```
 
-Determines the domain used to create the cookie. Is not provided by default.
+Determines the domain used to create the cookie. Not provided by default.
 
 ```
 <add key="VirtoCommerce:Authentication:Cookie:HttpOnly" value="true" />
 ```
 
-Determines if the browser should allow the cookie to be accessed by client-side javascript. The default is true, which means the cookie will only be passed to http requests and is not made available to script on the page.
+Determines if the browser should allow the cookie to be accessed by client-side JavaScript. The default is true, meaning the cookie will only be passed to http requests and is not made available to script on the page.
 
 ```
 <add key="VirtoCommerce:Authentication:Cookie:Name" value=".AspNet.ApplicationCookie" />
@@ -147,7 +173,7 @@ Determines the path used to create the cookie. The default value is "/" for high
 <add key="VirtoCommerce:Authentication:Cookie:Secure" value="SameAsRequest" />
 ```
 
-Determines if the cookie should only be transmitted on HTTPS request. The default is to limit the cookie to HTTPS requests if the page which is doing the SignIn is also HTTPS. If you have an HTTPS sign in page and portions of your site are HTTP you may need to change this value.
+Determines if the cookie should only be transmitted on HTTPS request. The default is to limit the cookie to HTTPS requests, if the page which is doing the SignIn is also HTTPS. If you have an HTTPS sign in page and portions of your site are HTTP, you may need to change this value.
 
 ```
 <add key="VirtoCommerce:Authentication:Cookie:ExpireTimeSpan" value="14:00:00:00" />
@@ -182,7 +208,7 @@ This is also the query string parameter looked for when a request arrives on the
 
 The SlidingExpiration is set to true to instruct the middleware to re-issue a new cookie with a new expiration time any time it processes a request which is more than halfway through the expiration window.
 
-### Bearer Tokens
+#### Bearer Tokens
 ```
 <add key="VirtoCommerce:Authentication:BearerTokens.Enabled" value="true" />
 <add key="VirtoCommerce:Authentication:BearerTokens.AccessTokenExpireTimeSpan" value="1:00:00" />
@@ -203,16 +229,16 @@ RefreshTokenExpireTimeSpan is the life time of the refresh token.
 ```
 The list of permissions for Bearer token authorization that will be used to authorize some non-AJAX requests when it is impossible to add Bearer Authorization header.
 
-### HMAC
+#### HMAC
 ```
 <add key="VirtoCommerce:Authentication:Hmac.Enabled" value="true" />
 <add key="VirtoCommerce:Authentication:Hmac.SignatureValidityPeriod" value="00:20:00" />
 ```
-If the time passed since the request signature was generated is greater than SignatureValidityPeriod the request will be rejected by server.
+If the time passed since the request signature was generated is greater than SignatureValidityPeriod, the request will be rejected by server.
 
 Default value is 20 minutes.
 
-### API Keys
+#### API Keys
 ```
 <add key="VirtoCommerce:Authentication:ApiKeys.Enabled" value="true" />
 <add key="VirtoCommerce:Authentication:ApiKeys.HttpHeaderName" value="api_key" />
@@ -222,7 +248,7 @@ The API key can be passed in the Authorization header, in the custom header (Htt
 
 Default value for both parameters is api_key.
 
-### Azure Active Directory
+#### Azure Active Directory
 ```
 <add key="VirtoCommerce:Authentication:AzureAD.Enabled" value="false" />
 ```
@@ -291,16 +317,36 @@ Configures number of Hangfire workers. Assigned to HangfireOptions.WorkerCount.
 
 Specifies channel name used by Redis. You could connect different platform instances to one Redis server by setting different channel names for instances serving different sites. If option is not specified, default "CacheManagerBackplane" channel name is used, means all recieved messages are handled by all instances connected to Redis server.
 
-# Notifications
+### Notifications
 ```
 <add key="VirtoCommerce:Notifications:Gateway" value="Default" />
 ```
 
-Specifies notification sending gateway. Could be "Default" or "SendGrid".
+Email notification sending gateway. Out of the box implemented values:
+* "Default" - DefaultSmtpEmailNotificationSendingGateway would be used;
+* "SendGrid" - SendGridEmailNotificationSendingGateway would be used.
 
-# Security
+*Other gateways could be implemented, registered and configured in custom modules.*
+
+```
+<add key="VirtoCommerce:Notifications:SmsGateway" value="Default" />
+<add key="VirtoCommerce:Notifications:SmsGateway:AccountId" value="(Replace with your sms gateway account id)" />
+<add key="VirtoCommerce:Notifications:SmsGateway:AccountPassword" value="(Replace with your sms gateway account password or auth token)" />
+<add key="VirtoCommerce:Notifications:SmsGateway:Sender" value="(Replace with sms sender phone number or name)" />
+<!-- This setting could change ASPSMS REST Json API endpoint -->
+<add key="VirtoCommerce:Notifications:SmsGateway:ASPSMS:JsonApiUri" value="https://json.aspsms.com/SendSimpleTextSMS" />
+```
+
+SMS notification sending gateway. Out of the box implemented values:
+* "Twilio" - TwilioSmsNotificationSendingGateway would be used;
+* "ASPSMS" - AspsmsSmsNotificationSendingGateway would be used;
+* Any other value defaults to DefaultSmsNotificationSendingGateway - dummy gateway with non-implemented methods.
+
+*Other gateways could be implemented, registered and configured in custom modules.*
+
+### Security
 ```
 <add key="VirtoCommerce:Security:SuppressForcingCredentialsChange" value="false" />
 ```
 
-Tells if need to suppress default credentials change popup.
+Flag to suppress default credentials change popup.
