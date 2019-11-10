@@ -1806,12 +1806,9 @@
           }
         ],
         "default": {
-          "url": {
-            "url": "#",
-            "urlText": "Contact us",
-            "style": "btn btn--orange btn--round"
-          },
-          "style": "btn--orange btn--round"
+          "url": "#",
+          "urlText": "Contact us",
+          "style": "btn btn--orange btn--round"
         }
       },
       {
