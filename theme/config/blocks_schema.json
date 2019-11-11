@@ -283,9 +283,18 @@
           }
         ],
         "default": [
-          { "url": "#", "text": "Discover Virto Commerce success stories" },
-          { "url": "#", "text": "Explore Virto Commerce architecture" },
-          { "url": "#", "text": "Explore Virto Commerce architecture" }
+          {
+            "url": "#",
+            "text": "Discover Virto Commerce success stories"
+          },
+          {
+            "url": "#",
+            "text": "Explore Virto Commerce architecture"
+          },
+          {
+            "url": "#",
+            "text": "Explore Virto Commerce architecture"
+          }
         ]
       },
       {
@@ -621,6 +630,212 @@
         "label": "Block name",
         "type": "string",
         "default": "Image with text",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "headerType",
+        "label": "Header type",
+        "default": "like-h2",
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "like-h1",
+            "label": "Like H1"
+          },
+          {
+            "value": "like-h2",
+            "label": "Like H2"
+          },
+          {
+            "value": "like-h3",
+            "label": "Like H3"
+          }
+        ]
+      },
+      {
+        "id": "titleAlignment",
+        "label": "Align title",
+        "default": null,
+        "tab": "Settings",
+        "type": "select",
+        "options": [
+          {
+            "value": null,
+            "label": "Center"
+          },
+          {
+            "value": "section__t--left-alignment",
+            "label": "Left"
+          }
+        ]
+      },
+      {
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "align",
+        "label": "Image position",
+        "type": "select",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "tab": "Settings"
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "type": "text",
+        "default": "Useful content"
+      },
+      {
+        "id": "url1",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ]
+      },
+      {
+        "id": "url2",
+        "label": "Second Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn",
+            "label": "Button"
+          },
+          {
+            "value": "btn btn--orange btn--lg",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn btn--lg",
+            "label": "Gray button"
+          },
+          {
+            "value": "benefits__link",
+            "label": "Link"
+          },
+          {
+            "value": "link-large",
+            "label": "Large link"
+          },
+          {
+            "value": "btn btn--orange btn--round",
+            "label": "Round orange"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "replatform-form": {
+    "name": "Replatform form",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Replatform form",
         "tab": "Settings"
       },
       {

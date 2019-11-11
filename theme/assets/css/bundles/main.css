@@ -5536,6 +5536,16 @@ code {
     margin-left: auto;
 }
 
+.section .form-helper-holder {
+    margin: .375rem 0 .75rem 0;
+}
+
+.section .form-helper-holder a {
+    color: #AE7A2C;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
 .section .form-horizontal {
     -ms-flex-align: center;
     align-items: center;
