@@ -1,7 +1,7 @@
 ---
 title: Virto commerce - ASP.NET open-source ecommerce framework. Resources
 description: Virto commerce - ASP.NET open-source ecommerce framework. Resources
-date: 2014-01-30
+date: 2019-11-11
 permalink: resources
 tags : 
 - roadmap
@@ -60,13 +60,18 @@ deployment and configuration, samples of modular plugin extensions and more.</sp
 								<span class="descr">Subscribe to our blog and get the latest news, developments plans, success
 stories and other virtocommerce related updates.
 							</li>
+<li>
+								<span class="title">
+									<a href="https://community.virtocommerce.com/" target="_blank" rel="nofollow">Community</a>
+								</span>
+								<span class="descr">It is a recommended way to get answers to your technical questions. You can talk to with our experts and developers. Virto Commerce Community - Where professional commerce developers can collaborate. <a href="https://community.virtocommerce.com/" alt="Join the Virto Commerce Community" target="_blank" rel="nofollow">Join the Virto Commerce Community</a>.
+								</span>
+							</li>                                
 							<li>
 								<span class="title">
 									<a href="http://help.virtocommerce.com/support/home" target="_blank" rel="nofollow">Support</a>
 								</span>
-								<span class="descr">There are several support options available from Community to Enterprise level, contact us to get more information. Additionally to our helpdesk portal, we officially support
-									<a href="http://stackoverflow.com/questions/tagged/virtocommerce" target="_blank" rel="nofollow">virtocommerce on stackoverflow</a>. It is a recommended way to get answers to your technical questions. You can also talk to our developers in real time:
-									<a href="https://gitter.im/VirtoCommerce/vc-community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat at https://gitter.im/VirtoCommerce/vc-community" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a>
+								<span class="descr">There are several support options available from Community to Enterprise level, contact us to get more information.
 								</span>
 							</li>
 							<li>
