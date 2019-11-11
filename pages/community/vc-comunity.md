@@ -70,9 +70,9 @@ authorize: true
                         <div class="list-t">Community support</div>
                         <div class="list-descr">
                             <ul>
-                                <li><a href="https://stackoverflow.com/questions/tagged/virtocommerce" target="_blank" rel="nofollow">Stackoverflow channel</a></li>
-                                <li><a href="https://gitter.im/VirtoCommerce/vc-platform" target="_blank" rel="nofollow">Gitter channel</a></li>
+                                <li><a href="https://community.virtocommerce.com" target="_blank" rel="nofollow">Virto Commerce Public Community</a></li>
                                 <li><a href="https://github.com/VirtoCommerce/vc-platform/issues" target="_blank" rel="nofollow">Github issues</a></li>
+                                <li><a href="https://gitter.im/VirtoCommerce/vc-platform" target="_blank" rel="nofollow">Gitter channel</a></li>
                             </ul>
                         </div>
                     </div>
