@@ -5279,6 +5279,10 @@ code {
     color: #b3b7d0;
 }
 
+.section__descr--tiny {
+    font-size: 0.875rem;
+}
+
 .section__descr--small {
     font-size: 1rem;
 }

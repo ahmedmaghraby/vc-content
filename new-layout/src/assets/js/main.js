@@ -67,6 +67,13 @@ $(function (){
             nav.addClass('footer__t--opened');
         }
     });
+	
+	$(document).on('click', '[data-target-show]', function(event) {
+		event.preventDefault();
+		var target = $(this).data('target-show');
+		$("#" + target).show();
+		$(this).parent().remove();
+	});
 
     var links = $('.list--team .list__descr a');
 

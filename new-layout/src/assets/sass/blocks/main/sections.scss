@@ -44,6 +44,11 @@
             color: $gray-500;
         }
 
+		&--tiny
+		{
+			font-size: 0.875rem;
+		}
+
         &--small
         {
             font-size: 1rem;

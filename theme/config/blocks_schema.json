@@ -914,13 +914,17 @@
       },
       {
         "id": "align",
-        "label": "Image position",
+        "label": "Image alignment",
         "type": "select",
-        "default": "left",
+        "default": "right",
         "options": [
           {
             "value": "left",
             "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
           },
           {
             "value": "right",
@@ -942,72 +946,6 @@
         "label": "Content",
         "type": "text",
         "default": "Useful content"
-      },
-      {
-        "id": "url1",
-        "label": "Link",
-        "type": "url",
-        "textLabel": "Text",
-        "styleLabel": "Link style",
-        "styles": [
-          {
-            "value": "btn",
-            "label": "Button"
-          },
-          {
-            "value": "btn btn--orange btn--lg",
-            "label": "Orange button"
-          },
-          {
-            "value": "btn btn--lg",
-            "label": "Gray button"
-          },
-          {
-            "value": "benefits__link",
-            "label": "Link"
-          },
-          {
-            "value": "link-large",
-            "label": "Large link"
-          },
-          {
-            "value": "btn btn--orange btn--round",
-            "label": "Round orange"
-          }
-        ]
-      },
-      {
-        "id": "url2",
-        "label": "Second Link",
-        "type": "url",
-        "textLabel": "Text",
-        "styleLabel": "Link style",
-        "styles": [
-          {
-            "value": "btn",
-            "label": "Button"
-          },
-          {
-            "value": "btn btn--orange btn--lg",
-            "label": "Orange button"
-          },
-          {
-            "value": "btn btn--lg",
-            "label": "Gray button"
-          },
-          {
-            "value": "benefits__link",
-            "label": "Link"
-          },
-          {
-            "value": "link-large",
-            "label": "Large link"
-          },
-          {
-            "value": "btn btn--orange btn--round",
-            "label": "Round orange"
-          }
-        ]
       },
       {
         "id": "noTop",
