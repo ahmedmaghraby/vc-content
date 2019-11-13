@@ -3156,5 +3156,28 @@
         "placeholder": "Enter category id"
       }
     ]
+  },
+  "technologies-list": {
+	"name": "technologies-list",
+	"icon": "Technologies List",
+	"settings": [
+	{
+        "id": "style",
+        "label": "Block style",
+        "type": "select",
+        "default": "light",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ],
+        "tab": "Settings"
+      }
+	]
   }
 }
