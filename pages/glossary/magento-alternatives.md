@@ -202,8 +202,12 @@ tags:
                 <p class="text">3dcart is an appealing Magento alternative in a sense that it doesn’t include any transaction fees, allows you to upload unlimited products and have unlimited bandwidth. With the basic plan for $29 per month, you receive a vast amount of features that can help you to set up a solid store and market it successfully with rich SEO features. Plus plan for $79 offers you CRM features, allows you to create customer deals and open up to 5 manager accounts. The ultimate ecommerce solution is 3dcart’s Pro plan for $229/month which gives you more sales management over your web store. </p>
                 {% include 'micro-mark-publisher' %}
                 {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
-                <div style="text-align: center;">
-                    <iframe width="400" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
+                <div style="text-align: center;" class="glosary-videos center">
+                    <div class="list-item">
+                        <div class="video">
+                            <iframe width="400" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
                 <div class="actions" style="margin-bottom:20px">
                     <a class="btn btn--orange" href="/contact-us">Try It Now</a>

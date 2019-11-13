@@ -7623,7 +7623,7 @@ input.ng-touched.ng-invalid, .input-validation-error {
 .glossary__content .glosary .glosary-videos .list-item {
     box-sizing: border-box;
     padding: 0 1.25rem;
-    width: 50%;
+    width: 100%;
 }
 
 @media (max-width: 991.98px) {
