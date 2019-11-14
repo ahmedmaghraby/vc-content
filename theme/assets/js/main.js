@@ -138,7 +138,13 @@ $(function (){
 				}
 			}
 		});
-	}
+    }
+
+    $('#replatform-form').submit(function (event) {
+        event.preventDefault();
+        if (this.checkValidity())
+            window.location.href = '/thank-you-replatforming-whitepaper';
+    });
 
 	
 	// ?utm_source=asset_downloads&
