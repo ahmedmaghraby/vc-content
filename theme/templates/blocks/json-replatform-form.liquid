@@ -14,7 +14,7 @@
 					<form class="form col-sm-6">
 						<div class="section__descr section__descr--tiny">{{ block.content }}</div>
                         <div class="form-group">
-						    <input id="email" type="text" name="email" class="form-control" placeholder="What’s your business mail" />
+						    <input id="email" type="text" name="email" class="form-control" placeholder="What’s your business mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
                         </div>
                         <div class="form-group" id="username-wrapper" style="display: none;">
 						    <input id="username" type="text" name="username" class="form-control" placeholder="Enter your preffered name" />
