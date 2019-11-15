@@ -140,12 +140,29 @@ $(function (){
 		});
     }
 
-    $('#replatform-form').submit(function (event) {
-        event.preventDefault();
-        if (this.checkValidity())
-            window.location.href = '/thank-you-replatforming-whitepaper';
-    });
+    var replatformForm = $('#replatform-form');
+    if (replatformForm.length) {
 
+        replatformForm.submit(function (event) {
+            event.preventDefault();
+            if (this.checkValidity())
+                window.location.href = '/thank-you-replatforming-whitepaper';
+        });
+
+        $(document).on('change', '#replatform-form input[name="username"]', function () {
+            var value = $(this).val().trim();
+            var firstName = value;
+            var lastName = '';
+            var index = value.indexOf(' ');
+            if (index !== -1) {
+                firstName = value.substring(0, index);
+                lastName = value.substring(index + 1);
+            }
+            var form = $(this).closest('form').get(0);
+            form.firstname.value = firstName;
+            form.lastname.value = lastName;
+        });
+    }
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
