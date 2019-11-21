@@ -3179,5 +3179,55 @@
         "tab": "Settings"
       }
 	]
+  },
+  "blogs-list": {
+	"name": "Blogs list",
+	"icon": "text-columns",
+    "settings": [
+        {
+            "id": "style",
+            "label": "Block style",
+            "type": "select",
+            "default": "light",
+            "options": [
+                {
+                    "value": "light",
+                    "label": "Light"
+                },
+                {
+                    "value": "dark",
+                    "label": "Dark"
+                }
+            ],
+            "tab": "Settings"
+        },
+        {
+            "id": "count",
+            "label": "Count",
+            "type": "number",
+            "default": "3"
+        },
+        {
+            "id": "isShowLast",
+            "label": "Show last blogs",
+            "type": "boolean",
+            "default": "true"
+        },
+        {
+            "id": "items",
+            "label": "Items",
+            "type": "list",
+            "addText": "Add item",
+            "removeText": "Remove item",
+            "displayField": "title",
+            "element": [
+                {
+                    "id": "text",
+                    "label": "Blog permalink",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
   }
 }
