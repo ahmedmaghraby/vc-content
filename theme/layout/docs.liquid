@@ -43,13 +43,6 @@
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     {% include 'autopilot' %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-490257-44"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-490257-44');
-    </script>
 </head>
 <body ng-controller="docsController">
     {% include 'google-tag-manager-body' %}
