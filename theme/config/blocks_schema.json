@@ -3177,6 +3177,12 @@
           }
         ],
         "tab": "Settings"
+      },
+	  {
+        "id": "headline",
+        "label": "Headline",
+        "type": "string",
+        "default": "Your headline is here"
       }
 	]
   },

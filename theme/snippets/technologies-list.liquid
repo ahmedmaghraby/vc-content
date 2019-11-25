@@ -1,5 +1,11 @@
 <div class="section__inner container">
-    <div class="like-h2">The ecommerce platform build using cutting-edge web technologies</div>
+    <div class="like-h2">
+        {% if {{block.headline}} == undefined || {{block.headline}} == '' %}
+            The open source ecommerce platform build using cutting-edge web technologies
+        {% else %}
+            {{block.headline}}
+        {% endif %}
+    </div>
     <ul class="nav nav--technology">
         <li class="nav__item">
             <img src="../assets/images/home/technologies/azure.svg" alt="" class="nav__pic" />
