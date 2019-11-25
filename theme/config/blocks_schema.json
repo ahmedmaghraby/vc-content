@@ -574,6 +574,11 @@
         "displayField": "title",
         "element": [
           {
+            "id": "title",
+            "label": "List element title",
+            "type": "string"
+          },
+          {
             "id": "text",
             "label": "Text",
             "type": "text"
