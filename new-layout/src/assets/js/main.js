@@ -164,6 +164,22 @@ $(function (){
         });
     }
 
+    var lavazzaForm = $('#lavazza-form');
+    if (lavazzaForm.length) {
+        lavazzaForm.submit(function (event) {
+            event.preventDefault();
+            if (!this.agree.checked) {
+                $('#agree-error').parent().show();
+                return;
+            }
+            else
+                $('#agree-error').parent().hide();
+
+            if (this.checkValidity())
+                window.location.href = '/case-studies/lavazza';
+        });
+    }
+
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
