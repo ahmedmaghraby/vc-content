@@ -1,0 +1,13 @@
+<svg width="1140" height="369" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect x="0" y="0" id="svg_2" fill="#374198" rx="5" height="369" width="1139.960463"/>
+  <svg y="-73" x="415.827164" id="svg_4" viewBox="0 0 669 625" height="625" width="669" xmlns="http://www.w3.org/2000/svg">
+   <path id="svg_9" fill-opacity="0.2" fill="white" d="m289.901,0l-144.961,334.5l144.961,0l144.95,-334.5l-144.95,0z" clip-rule="evenodd" fill-rule="evenodd" opacity="0.4"/>
+   <path id="svg_8" fill-opacity="0.2" fill="white" d="m0,0l144.95,334.5l144.95,0l-144.95,-334.5l-144.95,0z" clip-rule="evenodd" fill-rule="evenodd"/>
+   <path id="svg_7" fill-opacity="0.2" fill="white" d="m669,367.948c0,30.796 -24.954,55.75 -55.75,55.75c-30.796,0 -55.75,-24.954 -55.75,-55.75c0,-30.796 24.954,-55.75 55.75,-55.75c30.796,0 55.75,24.954 55.75,55.75z" clip-rule="evenodd" fill-rule="evenodd" opacity="0.4"/>
+   <path id="svg_6" fill-opacity="0.2" fill="white" d="m506.824,401.279l-147.793,0c16.346,125.872 123.887,223.122 254.22,223.122l0,-144.95c-49.975,0 -92.255,-32.881 -106.427,-78.172z" clip-rule="evenodd" fill-rule="evenodd"/>
+   <path id="svg_5" fill-opacity="0.2" fill="white" d="m359.043,334.497l147.827,0c14.205,-45.235 56.452,-78.05 106.382,-78.05l0,-144.95c-130.299,0 -237.807,97.184 -254.209,223z" clip-rule="evenodd" fill-rule="evenodd"/>
+  </svg>
+ </g>
+</svg>

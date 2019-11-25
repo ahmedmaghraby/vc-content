@@ -1,7 +1,7 @@
 [
     {
         "type": "settings",
-        "title": "ASP.NET open-source Microsoft e-commerce platform - Virto Commerce",
+        "title": "ASP.NET open source ecommerce platform - Virto  Commerce",
         "permalink": "net-ecommerce-platform",
         "header": "Microsoft .NET e-Commerce platform",
         "description": "Virto Commerce - ASP.NET Microsoft E-commerce Platform for B2B & B2C solutions.",
@@ -11,9 +11,9 @@
         "id": 2,
         "type": "decorated-hero",
         "name": "Text over image",
-        "title": "Open Source Microsoft ASP.NET E-commerce Platform",
+        "title": "Open Source Microsoft ASP.NET Ecommerce Platform",
         "h1": true,
-        "content": "<h3>Microsoft provides a technology&nbsp;stack for development of enterprise-class business solutions. However, most other ASP.NET e-commerce solutions developed with Microsoft .NET are designed for small business. They do not support B2B functionality,&nbsp;and their&nbsp;architecture doesn&#39;t fit the complex needs of enterprise&nbsp;and mid-market companies.</h3>\n\n<h3>Virto Commerce is different: it&nbsp;is the leading B2B&nbsp;e-commerce platform, built on .NET, and its open source design provides ultimate flexibilty to meet the&nbsp;complex needs of enterprise companies.</h3>\n",
+        "content": "<p>Microsoft provides a technology&nbsp;stack for development of enterprise-class business solutions. However, most other ASP.NET e-commerce solutions developed with Microsoft .NET are designed for small business. They do not support B2B functionality,&nbsp;and their&nbsp;architecture doesn&#39;t fit the complex needs of enterprise&nbsp;and mid-market companies.</p>\n\n<p>Virto Commerce is different: it&nbsp;is the leading Microsoft e-commerce platform, built on .NET, and its open source design provides ultimate flexibilty to meet the&nbsp;complex needs of enterprise companies.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -40,14 +40,14 @@
                 "text": "<p>Closed code means only&nbsp;the vendor can alter the software</p>\n"
             }
         ],
-        "content": "<p>Applying a B2C approach to B2B ecommerce generally doesn&#39;t work. B2B e-commerce inherently requires more&nbsp;complex processes, rules, entities, and interfaces. B2B e-commerce solutions need&nbsp;to manage&nbsp;bulk orders, POs, contract pricing, approval workflows, and order quote&nbsp;support.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Most&nbsp;Microsoft .NET e-commerce platforms on the market don&rsquo;t have the flexible and modular architecture which is required for enterprise&nbsp;and mid-market companies. Architecture predefines the business limitations of the system and the way it works. Monolith solutions are not truly scalable, with interconnected&nbsp;and interdependent components of the software.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Other Microsoft .NET e-commerce platforms on the market are also closed code solutions, so that only the vendor can alter the software, and it is&nbsp;impossible for external developers to analyze the code, understand how the software&nbsp;works, or understand why it works the way it does. Developers must only rely on information published by the vendor.</p>\n",
+        "content": "<p>Applying a B2C approach to B2B ecommerce generally doesn&#39;t work. B2B e-commerce inherently requires more&nbsp;complex processes, rules, entities, and interfaces. B2B e-commerce solutions need&nbsp;to manage&nbsp;bulk orders, POs, contract pricing, approval workflows, and order quote&nbsp;support.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Most&nbsp;Microsoft .NET ecommerce platforms on the market don&rsquo;t have the flexible and modular architecture which is required for <a href=\"https://virtocommerce.com/enterprise-ecommerce-platform\">enterprise</a>&nbsp;and mid-market companies. Architecture predefines the business limitations of the system and the way it works. Monolith solutions are not truly scalable, with interconnected&nbsp;and interdependent components of the software.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Other Microsoft .NET e-commerce platforms on the market are also closed code solutions, so that only the vendor can alter the software, and it is&nbsp;impossible for external developers to analyze the code, understand how the software&nbsp;works, or understand why it works the way it does. Developers must only rely on information published by the vendor.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
         "headerStyle": null,
         "listPosition": null,
         "listEnumType": null,
-        "headerType": null
+        "headerType": "h2"
     },
     {
         "id": 4,
@@ -103,7 +103,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>Companies&nbsp;in the B2B space seek&nbsp;enterprise e-commerce software solutions to solve their complicated challenges and to start bringing value as soon as possible. The same goes for B2C companies with complicated business models. Enterprises and mid-market&nbsp;companies are usually not ready to change their internal processes just because of software limitations. They expect that implementation partners will deliver enterprise e-commerce solution which fits precisely into their business and can be delivered with short release cycles. Having only native B2C solutions in their portfolio,&nbsp;an implementation partner will lose B2B business opportunities.&nbsp;</p>\n\n<p>Architecture predefines the business limitations of the system and the way of working with it. Monolith architecture doesn&rsquo;t allow scaling an application, scaling&nbsp;development teams or&nbsp;delegating&nbsp;responsibility for feature&nbsp;development, makes it impossible to adopt the software for an enterprise&#39;s complexity and mid-market companies&#39; velocity of change.&nbsp;All these lead&nbsp;to the constant growth of risks and implementation costs.&nbsp;The more features you deliver, the slower you do it, the more money it takes. Together with the constant growth of technical&nbsp;debt it makes cost of ownership too high.</p>\n\n<p>Problems with closed code applications are well known for companies who work closely with business application&nbsp;implementation.&nbsp;Being&nbsp;totally&nbsp;dependent on a vendor&#39;s roadmap makes it&nbsp;impossible to make system changes in the right direction with the desired speed,&nbsp;as the vendor is more interested in delivering universal functionality required for thousands of&nbsp;his&nbsp;customers, rather than a function your customer personally requires.&nbsp; Additionally,&nbsp;since the code is closed &ndash;&nbsp;the&nbsp;system will never become 100% predictable for a developer.</p>\n",
+        "content": "<p>Companies&nbsp;in the <a href=\"https://virtocommerce.com/b2b-ecommerce-platform\">B2B</a> space seek&nbsp;enterprise e-commerce software solutions to solve their complicated challenges and to start bringing value as soon as possible. The same goes for B2C companies with complicated business models. Enterprises and mid-market&nbsp;companies are usually not ready to change their internal processes just because of software limitations. They expect that implementation partners will deliver enterprise e-commerce solution which fits precisely into their business and can be delivered with short release cycles. Having only native B2C solutions in their portfolio,&nbsp;an implementation partner will lose B2B business opportunities.&nbsp;</p>\n\n<p>Architecture predefines the business limitations of the system and the way of working with it. Monolith architecture doesn&rsquo;t allow scaling an application, scaling&nbsp;development teams or&nbsp;delegating&nbsp;responsibility for feature&nbsp;development, makes it impossible to adopt the software for an enterprise&#39;s complexity and mid-market companies&#39; velocity of change.&nbsp;All these lead&nbsp;to the constant growth of risks and implementation costs.&nbsp;The more features you deliver, the slower you do it, the more money it takes. Together with the constant growth of technical&nbsp;debt it makes cost of ownership too high.</p>\n\n<p>Problems with closed code applications are well known for companies who work closely with business application&nbsp;implementation.&nbsp;Being&nbsp;totally&nbsp;dependent on a vendor&#39;s roadmap makes it&nbsp;impossible to make system changes in the right direction with the desired speed,&nbsp;as the vendor is more interested in delivering universal functionality required for thousands of&nbsp;his&nbsp;customers, rather than a function your customer personally requires.&nbsp; Additionally,&nbsp;since the code is closed &ndash;&nbsp;the&nbsp;system will never become 100% predictable for a developer.</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -122,7 +122,7 @@
         "id": 6,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "How Virto Commerce's Microsoft .NET Platform Solves These Issues",
+        "title": "How Virto Commerce's Microsoft .NET Ecommerce Platform Solves These Issues",
         "h1": null,
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
@@ -152,7 +152,7 @@
                 "image": {
                     "url": null
                 },
-                "title": "Open source project with 100% open code ",
+                "title": "Open source  ecommerce platform with 100% open code",
                 "text": "",
                 "iconStyle": "",
                 "url": null
@@ -160,7 +160,8 @@
         ],
         "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 7,
@@ -171,7 +172,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>The Virto Commerce platform is designed as&nbsp;B2B e-commerce software which is mature and flexible enough to facilitate&nbsp;business for companies of different scales: disruptive startups, rapid growing mid-market-companies, and multi-national enterprises with high complexity. Virto Commerce&#39;s platform is a customizable&nbsp;&amp;&nbsp;extensible&nbsp;platform, which was initially designed to implement complex custom B2B scenarios on top of it.&nbsp;</p>\n\n<p>Due to modern modular architecture, Virto Commerce&#39;s platform enables an agile way of doing implementation projects. It is possible to start&nbsp;acting locally (in terms of&nbsp;countries, functions, processes) and&nbsp;then&nbsp;continue by gradually extending the solution, adding new&nbsp;features,&nbsp;functions,&nbsp; and integrations&nbsp;with fast release cycles. A company&nbsp;starts getting value fast and keeps&nbsp;implementation going fast.&nbsp;</p>\n\n<p>Virto Commerce&#39;s platform&nbsp;is an&nbsp;open source product.&nbsp;The&nbsp;code is in GitHub. No hidden problems, no&nbsp;hidden technical dept,&nbsp;the product is&nbsp;open. Developers can read the code and make their decision based on what they see.&nbsp;It is easy to extend the system and adapt it to a customer&rsquo;s&nbsp;business needs&nbsp;without any risks. We build relationships with our implementation partners and give them a voice when make decisions about roadmap priorities.&nbsp;</p>\n",
+        "content": "<p>The Virto Commerce platform is designed as&nbsp;B2B e-commerce software which is mature and flexible enough to facilitate&nbsp;business for companies of different scales: disruptive startups, rapid growing mid-market-companies, and multi-national enterprises with high complexity. Virto Commerce&#39;s platform is a customizable&nbsp;&amp;&nbsp;extensible&nbsp;platform, which was initially designed to implement complex custom B2B scenarios on top of it.&nbsp;</p>\n\n<p>Due to modern modular architecture, Virto Commerce&#39;s platform enables an agile way of doing implementation projects. It is possible to start&nbsp;acting locally (in terms of&nbsp;countries, functions, processes) and&nbsp;then&nbsp;continue by gradually extending the solution, adding new&nbsp;features,&nbsp;functions,&nbsp; and integrations&nbsp;with fast release cycles. A company&nbsp;starts getting value fast and keeps&nbsp;implementation going fast.&nbsp;</p>\n\n<p>Virto Commerce is an open source ecommerce platform.&nbsp;The&nbsp;code is in GitHub. No hidden problems, no&nbsp;hidden technical dept,&nbsp;the product is&nbsp;open. Developers can read the code and make their decision based on what they see.&nbsp;It is easy to extend the system and adapt it to a customer&rsquo;s&nbsp;business needs&nbsp;without any risks. We build relationships with our implementation partners and give them a voice when make decisions about roadmap priorities.&nbsp;</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -183,7 +184,8 @@
         "noTop": true,
         "noBottom": true,
         "noPad": null,
-        "headerStyle": null
+        "headerStyle": null,
+        "headerType": null
     },
     {
         "id": 8,
@@ -294,5 +296,19 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null
+    },
+    {
+        "id": 10,
+        "type": "technologies-list",
+        "style": "light",
+        "headline": "The open source ecommerce platform build using cutting-edge web technologies"
+    },
+    {
+        "id": 11,
+        "type": "blogs-list",
+        "style": "light",
+        "count": "3",
+        "isShowLast": true,
+        "items": null
     }
 ]

@@ -9,6 +9,28 @@
     },
     {
         "id": 2,
+        "type": "video",
+        "name": "Video and text",
+        "title": "How Can Enterprises Overcome Ecommerce Challenges?",
+        "content": "<p>Enterprise companies&rsquo; large size and organizational complexity are two common challenges that enterprises need to navigate when implementing ecommerce platforms. With the right approach and long-term planning, enterprises can anticipate and overcome roadblocks in their ecommerce platform implementations.</p>\n",
+        "style": "dark",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/video-screen-4.png",
+            "altText": null
+        },
+        "avatar": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/Rectangle-2.png",
+            "altText": null
+        },
+        "videoName": "Presented by Garren Parkins",
+        "videoUrl": "https://youtu.be/u106romgL9g",
+        "align": "right",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
         "type": "decorated-hero",
         "name": "Text over image",
         "title": "How Can Enterprises Overcome Ecommerce Challenges? ",
@@ -17,10 +39,11 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerType": "h1"
+        "headerType": "h1",
+        "hidden": true
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "list-and-text",
         "name": "Text over image",
         "title": "Ecommerce Challenges Faced By Enterprises",
@@ -38,7 +61,7 @@
                 "text": "<p>IT complexity: mix of new, old, in-house, acquired and other software</p>\n"
             }
         ],
-        "content": "<p>Ecommerce both impacts - and is impacted by -&nbsp;many enterprise departments&nbsp;which have their own KPIs, budgets, decision making rules and goals.&nbsp; Departments include:&nbsp;sales, marketing, IT, finance, logistics, buyers, security, HR, legal, and more. Big changes,&nbsp;like implementing enterprise ecommerce platforms&nbsp;or significant changes in business processes, usually require significant energy and&nbsp;time.&nbsp;&nbsp;</p>\n\n<p>International variability creates an additional challenge on top of organizational complexity. Involving additional regions or countries in an ecommerce solution adds additional stakeholders,&nbsp;local&nbsp;laws, customs.&nbsp;For example, local tax laws&nbsp;(which may impact pricing), legal requirements and practices, HR specific, cultural differences all are areas enterprises need to consider during their ecommerce planning.&nbsp;</p>\n\n<p>The complexity of enterprise IT is often a result of&nbsp;past&nbsp;business growth, acquisitions, and IT-department mergers. Enterprise IT infrastructures manage a mix of software,&nbsp;legacy enterprise e-commerce software, and a large variety of local and industry specific software (like bookkeeping, legal, ERPs etc).</p>\n\n<p>All that creates&nbsp;challenges for enterprise companies that must be mitigated by adequate architecture planning.</p>\n",
+        "content": "<p>Ecommerce both impacts - and is impacted by -&nbsp;many enterprise departments&nbsp;which have their own KPIs, budgets, decision making rules and goals.&nbsp; Departments include:&nbsp;sales, marketing, IT, finance, logistics, buyers, security, HR, legal, and more. Big changes,&nbsp;like implementing enterprise ecommerce platforms&nbsp;or significant changes in business processes, usually require significant energy and&nbsp;time.&nbsp;&nbsp;</p>\n\n<p>International variability creates an additional challenge on top of organizational complexity. Involving additional regions or countries in an ecommerce solution adds additional stakeholders,&nbsp;local&nbsp;laws, customs.&nbsp;For example, local tax laws&nbsp;(which may impact pricing), legal requirements and practices, HR specific, cultural differences all are areas enterprises need to consider during their ecommerce planning.&nbsp;</p>\n\n<p>The complexity of enterprise IT is often a result of&nbsp;past&nbsp;business growth, acquisitions, and IT-department mergers. Enterprise IT infrastructures manage a mix of software, legacy enterprise ecommerce solutions, and a large variety of local and industry specific software (like bookkeeping, legal, ERPs etc).</p>\n\n<p>All that creates&nbsp;challenges for enterprise companies that must be mitigated by adequate architecture planning.</p>\n",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
@@ -47,10 +70,10 @@
         "headerType": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "Top Enterprise Ecommerce Platform Implementation Risks",
+        "title": "Enterprise Ecommerce Platform Implementation Risks",
         "titleAlignment": "section__t--left-alignment",
         "titleStyle": "section__t--gray",
         "intro": "",
@@ -59,7 +82,8 @@
         "items": [
             {
                 "image": {
-                    "url": null
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Slow progress image 2.png",
+                    "altText": null
                 },
                 "title": "Slow changes result in slow progress in the fast paced world of ecommerce",
                 "text": "",
@@ -68,18 +92,20 @@
             },
             {
                 "image": {
-                    "url": null
+                    "url": "https://vcpro.blob.core.windows.net/blogs/brick wall 2.png",
+                    "altText": null
                 },
-                "title": "Unified monolith top-to-bottom cross-regional solutions cannot be changed quickly",
+                "title": "Unified monolith, cross-regional solutions cannot be changed quickly",
                 "text": "",
                 "iconStyle": "",
                 "url": null
             },
             {
                 "image": {
-                    "url": null
+                    "url": "https://vcpro.blob.core.windows.net/blogs/IT complexity.png",
+                    "altText": null
                 },
-                "title": "IT complexity restricts business transformation and threatens your market leadership",
+                "title": "IT complexity restricts business transformation and threatens market leadership",
                 "text": "",
                 "iconStyle": "",
                 "url": null
@@ -87,17 +113,18 @@
         ],
         "noTop": null,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "text",
         "name": "Text",
         "title": "",
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p><strong>Focus on speed and flexibility. </strong>When choosing enterprise ecommerce software, enterprises need to focus on&nbsp;speed and flexibility to stay competitive. The complexity inherent in enterprise organizations&nbsp;makes IT changes -- like implementing an e-commerce&nbsp;platform or significant changes to&nbsp;business processes --&nbsp;very expensive in terms of time and effort.&nbsp; When a project&#39;s size and scope&nbsp;expand, then the risks and effort required to implement it&nbsp;grow exponentially as well.</p>\n\n<p><strong>Avoid monoliths</strong>. Some companies attempt&nbsp;to resolve regional complexity by designing and implementing by a unified enterprise ecommerce solution and cover&nbsp;all or most&nbsp;regions; however, this approach leads to creation of a &ldquo;monster&rdquo; which is expensive to change, very expensive to maintain and which cannot be easily replaced when it becomes a problem -- a situtation which often happens quite soon after launch.&nbsp;</p>\n\n<p><strong>Be nimble</strong>. Enterprise IT complexity restricts business transformation, threatening enterprise market leadership.&nbsp; This needs to be addressed-&nbsp; enterprises need to&nbsp;constantly focus on complexity reduction and painless substitution of legacy solutions.&nbsp;</p>\n",
+        "content": "<p><strong>Slow changes kill competitiveness. </strong>When choosing enterprise ecommerce software, enterprises need to focus on&nbsp;speed and flexibility to stay competitive. The complexity inherent in enterprise organizations&nbsp;makes IT changes -- like implementing an e-commerce&nbsp;platform or significant changes to&nbsp;business processes --&nbsp;very expensive in terms of time and effort.&nbsp; When a project&#39;s size and scope&nbsp;expand, then the risks and effort required to implement it&nbsp;grow exponentially as well.</p>\n\n<p><strong>Monoliths are risky</strong>. Some companies attempt&nbsp;to resolve regional complexity by designing and implementing by a unified enterprise ecommerce solution and cover&nbsp;all or most&nbsp;regions; however, this approach leads to creation of a &ldquo;monster&rdquo; which is expensive to change, very expensive to maintain and which cannot be easily replaced when it becomes a problem -- a situtation which often happens quite soon after launch.&nbsp;</p>\n\n<p><strong>Enterprise IT complexity hinders transformation.</strong>&nbsp;When the ability to transform a business is restricted, it&nbsp;threatens&nbsp;enterprise market leadership.&nbsp; This risk needs to be addressed --&nbsp;as&nbsp;enterprises need to&nbsp;constantly focus on reducing complexity and being able to painlessly substitute&nbsp;legacy solutions.&nbsp;</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -113,7 +140,7 @@
         "headerType": null
     },
     {
-        "id": 6,
+        "id": 7,
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Does Virto Commerce Resolve These Risks?",
@@ -151,19 +178,20 @@
                 "url": null
             }
         ],
-        "noTop": null,
+        "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "headerType": null
     },
     {
-        "id": 7,
+        "id": 8,
         "type": "text",
         "name": "Text",
         "title": "",
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<p>Virto Commerce&#39;s philosophy is based on the idea that making sequential changes is the only way to overcome enterprise complexity described above. Virto Commerce&#39;s enterprise ecommerce platform is designed in a way to facilitate this agile approach.</p>\n\n<p><strong>Extensible platform: </strong>A customizable &amp; extensible platform and modular architecture makes possible to start acting locally (in terms of regions, functions, processes) and continue by gradually extending the solution, adding new stakeholders, regions, functions, integrations with fast release cycles.&nbsp;</p>\n\n<p><strong>Agile approach: </strong>Small projects reduce the&nbsp;quantity of affected stakeholders during each step&nbsp;of the process and arrive at the point where each small step is not critical for most stakeholders, so&nbsp;you can keep&nbsp;up the high speed of your implementation.&nbsp;</p>\n\n<p><strong>Multi-layer: </strong>Virto Commerce is efficient in building a flexible and maintainable multi-layer enterprise ecommerce platform&nbsp;for multi-regional companies. The success of our customers is proof of our method: we efficiently build&nbsp;local Virto Commerce solutions and then generalize the&nbsp;common rules, practices, integrations and requirements across a more standardized&nbsp;platform -- extending it out across regions and countries.</p>\n\n<p><strong>API-Based. </strong>Virto Commerce is an API-based modular ecommerce solution. It can be embedded into any process or replace any function without running a huge project. You can start substituting your legacy systems, improve their process structure or add new functionality without creating additional risks.</p>\n",
+        "content": "<p>Virto Commerce&#39;s philosophy is based on the idea that making sequential changes is the only way to overcome enterprise complexity described above. Virto Commerce&#39;s enterprise ecommerce platform is designed in a way to facilitate this agile approach.</p>\n\n<p><strong>Agile approach: </strong>Small projects reduce the&nbsp;quantity of affected stakeholders during each step&nbsp;of the process and arrive at the point where each small step is not critical for most stakeholders, so&nbsp;you can keep&nbsp;up the high speed of your implementation.&nbsp;</p>\n\n<p><strong>Extensible platform: </strong>&nbsp;A customizable &amp; extensible platform and modular architecture makes possible to start acting locally (in terms of regions, functions, processes) and continue by gradually extending the enterprise ecommerce solution, adding new stakeholders, regions, functions, integrations with fast release cycles.&nbsp;</p>\n\n<p><strong>Multi-layer: </strong>Virto Commerce is efficient in building a flexible and maintainable multi-layer enterprise ecommerce platform&nbsp;for multi-regional companies. The success of our customers is proof of our method: we efficiently build&nbsp;local Virto Commerce solutions and then generalize the&nbsp;common rules, practices, integrations and requirements across a more standardized&nbsp;platform -- extending it out across regions and countries.</p>\n\n<p><strong>API-Based. </strong>Virto Commerce is an API-based modular enterprise ecommerce solution. It can be embedded into any process or replace any function without running a huge project. You can start substituting your legacy systems, improve their process structure or add new functionality without creating additional risks.</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -179,7 +207,7 @@
         "headerType": null
     },
     {
-        "id": 8,
+        "id": 9,
         "type": "text-with-button",
         "name": "CTA",
         "text": "Reach Out to Our Experts",
@@ -194,7 +222,7 @@
         "noPad": null
     },
     {
-        "id": 9,
+        "id": 10,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Bosch: gaining customer insights through new digital outlets",
@@ -209,7 +237,7 @@
                     "url": "https://vcpro.blob.core.windows.net/blogs/bosch-logo.png"
                 },
                 "title": null,
-                "text": "<p>Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.</p>\n\n<p>&nbsp;</p>\n\n<p>Bosch knew they wanted to use a pre-existing e-commerce solution, as opposed to developing their own. To do this, Bosch needed to choose a software that is based on the Microsoft technology stack, which is their internal technology. Furthermore, the chosen platform needed to be extremely customizable to accommodate Bosch&rsquo;s complex integrations and specific requirements.</p>\n\n<p>&nbsp;</p>\n\n<p>This project was the first ecommerce implementation for Bosch, so to help with the learning curve, Virto Commerce held an onsite kick-off workshop with Bosch&rsquo;s technical team.<br />\nBosch Thermotechnik now has a Customer Loyalty Portal that allows Bosch to gain valuable customer insight and build strong customer relationships. With the portal built on Virto Commerce Bosch Customer Loyalty Portal serves as a long-term solution that grows with Bosch and its future business needs.</p>\n\n<p>&nbsp;</p>\n",
+                "text": "<p>Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.</p>\n\n<p>&nbsp;</p>\n\n<p>Bosch knew they wanted to use a pre-existing ecommerce solution, as opposed to developing their own. To do this, Bosch needed to choose a software that is based on the Microsoft technology stack, which is their internal technology. Furthermore, the chosen platform needed to be extremely customizable to accommodate Bosch&rsquo;s complex integrations and specific requirements.</p>\n\n<p>&nbsp;</p>\n\n<p>This project was the first ecommerce implementation for Bosch, so to help with the learning curve, Virto Commerce held an onsite kick-off workshop with Bosch&rsquo;s technical team.<br />\nBosch Thermotechnik now has a Customer Loyalty Portal that allows Bosch to gain valuable customer insight and build strong customer relationships. With the portal built on Virto Commerce Bosch Customer Loyalty Portal serves as a long-term solution that grows with Bosch and its future business needs.</p>\n\n<p>&nbsp;</p>\n",
                 "iconStyle": null,
                 "url": {
                     "url": "/case-studies/bosch",
@@ -223,5 +251,18 @@
         "noPad": null,
         "headerStyle": null,
         "headerType": null
+    },
+    {
+        "id": 11,
+        "type": "technologies-list",
+        "style": "dark"
+    },
+    {
+        "id": 12,
+        "type": "blogs-list",
+        "style": "light",
+        "count": "3",
+        "isShowLast": true,
+        "items": []
     }
 ]

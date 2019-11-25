@@ -140,8 +140,8 @@ $(function (){
 		});
     }
 
-    var replatformForm = $('#replatform-form');
-    if (replatformForm.length) {
+   	var replatformForm = $('#replatform-form');
+    	if (replatformForm.length) {
 
         replatformForm.submit(function (event) {
             event.preventDefault();
@@ -163,6 +163,16 @@ $(function (){
             form.lastname.value = lastName;
         });
     }
+  
+  	var lavazzaForm = $('#lavazza-form');
+  	if (lavazzaForm.length) {
+   		lavazzaForm.submit(function (event) {
+        	event.preventDefault();
+            if (this.checkValidity())
+                window.location.href = '/case-studies/lavazza';
+        });
+    }
+
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&

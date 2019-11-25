@@ -8,7 +8,7 @@
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text-over-image",
         "name": "Text over image",
         "title": "De Klok Dranken Success Story",
@@ -27,7 +27,7 @@
         "noPad": null
     },
     {
-        "id": 2,
+        "id": 3,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -49,7 +49,7 @@
         "noPad": false
     },
     {
-        "id": 3,
+        "id": 4,
         "type": "image",
         "name": "Simple image",
         "title": "Block title",
@@ -64,7 +64,7 @@
         "noPad": null
     },
     {
-        "id": 4,
+        "id": 5,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -72,7 +72,7 @@
         "titleAlignment": null,
         "style": "light",
         "decorator": "none",
-        "content": "<h4><strong>THE CHALLENGE</strong></h4>\n\n<p>The main challenge was to re-platform and &lsquo;rebuild&rsquo; the platform with&nbsp;a new look &amp; feel, but to also be sure the existing capabilities were&nbsp;retained and/or improved to provide an even richer interface.&nbsp;User experience was of high priority. The platform itself must have&nbsp;robust capabilities to accommodate the large number of&nbsp;functionalities in the current site, while providing the ability to add&nbsp;significant improvements and meet requirements of future development and new ideas</p>\n",
+        "content": "<p>Dutch beverage distributor De Klok Dranken needed a new ecommerce solution for growing and maintaining B2B relationships.</p>\n\n<p>Together with ecommerce partner&nbsp;<strong><a href=\"https://virtocommerce.apms5.com/anywhere/m?s=virtocommerce&amp;m=s_251c0efc-f12d-47c5-b353-4e0c5d6e3a7e&amp;u=e1jq4wvfdtfmchj585334ca15mtk2h1h5mu3cghq5mw3gdu65n0m6gj465142cj48gwk4&amp;r2=d1u78w3k78qjyxvqewq6jvkedxv62t39ecq66vvd5w&amp;n=4\" target=\"_blank\">innovadis</a><a href=\"https://virtocommerce.apms5.com/anywhere/m?s=virtocommerce&amp;m=s_251c0efc-f12d-47c5-b353-4e0c5d6e3a7e&amp;u=e1jq4wvfdtfmchj585334ca15mtk2h1h5mu3cghq5mw3gdu65n0m6gj465142cj48gwk4&amp;r2=d1u78w3k78qjyrk9egq6ry9f69c36c2red50&amp;n=5\" target=\"_blank\">,</a>&nbsp;</strong>De Klok Dranken selected Virto Commerce to optimize their B2B relationships, build out their online store, deploy multiple touchpoints, and unify data to improve technical capability across the entire organization.</p>\n\n<h4><strong>THE CHALLENGE</strong></h4>\n\n<p>The main challenge was to re-platform and &lsquo;rebuild&rsquo; the platform with&nbsp;a new look &amp; feel, but to also be sure the existing capabilities were&nbsp;retained and/or improved to provide an even richer interface.&nbsp;User experience was of high priority. The platform itself must have&nbsp;robust capabilities to accommodate the large number of&nbsp;functionalities in the current site, while providing the ability to add&nbsp;significant improvements and meet requirements of future development and new ideas</p>\n",
         "url": {
             "url": {
                 "url": "#",
@@ -86,7 +86,7 @@
         "noPad": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "download-case-studies-form",
         "name": "Download Case studies form",
         "style": "dark",

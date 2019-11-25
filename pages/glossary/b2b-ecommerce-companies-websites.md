@@ -1,23 +1,14 @@
 ---
-title: Top B2B e commerce sites and companies
-description: Top B2B e commerce sites and companies. Top 10 B2B portals.
-date: 2017-04-22
-canonical: https://virtocommerce.com/glossary/b2b-ecommerce-companies-websites
-permalink: glossary/b2b-ecommerce-companies-websites
-ogimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
-ogtitle: B2B e commerce companies and websites. Review&Information | Glossary Virto Commerce.
+date: '2017-04-22'
 layout: glossary
-ogsitename: Virtocommerce
-twittercard: summary
-twittertitle: Virto Commerce
-twitterdescription: Virto Commerce is a powerful ecommerce platform that includes everything you need to create an online store and sell online. Try it free with Free Community License
-twitterimage: https://virtocommerce.com/assets/images/vc_fb-2.jpg
-twittersite: Virtocommerce
-tags :
-- b2b e commerce companies
-- b2b e commerce websites
-- top b2b e commerce sites
-- b2b e-commerce sites
+permalink: glossary/b2b-ecommerce-companies-websites
+tags:
+  - 'b2b e commerce companies'
+  - 'b2b e commerce websites'
+  - 'top b2b e commerce sites'
+  - 'b2b e-commerce sites'
+title: 'Top B2B e commerce sites and companies'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -45,7 +36,7 @@ tags :
                             With the advancement of internet, information technologies, digital systems, and standards of their interaction, the new way of doing business has evolved. E-business is a unique form of doing business that is executed by implementing information technologies in the process of production, trading, and distribution of goods and services. It is becoming <a href="{{ '/glossary/b2b-ecommerce-trends' | absolute_url }}"> more and more popular</a> for companies to go online in all of the areas of business, including B2B commerce. When we mention B2B, the first thing that comes to mind is e-commerce systems – software and websites, which become tools for purchasing products and goods for businesses via the Internet.
                         </p>
                         <p class="text">
-                            Nowadays, B2B e-commerce sites keep gaining popularity. Using business-to-business e-commerce sites (or b2b portals) is becoming more favorable for B2B e commerce companies that do not want to deal with expensive and complicated EDI (Electronic Data Interchange) data exchange systems. The most important thing for them is to connect with small suppliers. When using business to business e-commerce websites, small businesses have a chance to compete with the larger companies. B2B <a href="/glossary/ecommerce-platforms">platforms</a> are valued for their usability and include various solutions for the suppliers, as well as for the customers.
+                            Nowadays, B2B e-commerce sites keep gaining popularity. Using B2B e-commerce sites is becoming more favorable for B2B e commerce companies that do not want to deal with expensive and complicated EDI (Electronic Data Interchange) data exchange systems. The most important thing for them is to connect with small suppliers. When using B2B ecommerce sites, small businesses have a chance to compete with the larger companies. B2B <a href="/glossary/ecommerce-platforms">platforms</a> are valued for their usability and include various solutions for the suppliers, as well as for the customers.
                         </p>
                         <p class="text">
                             There has been a drastic shift in the e-commerce from <a href="{{ '/glossary/what-is-b2c-ecommerce' | absolute_url }}">B2C (business to consumer)</a> to B2B. B2B e-commerce sites are more complex and contain way more features than B2C. In this article, we would like to present you the top B2B e commerce sites.
@@ -171,7 +162,7 @@ tags :
             </div>
             <h2 class="glosary-sub-t">Top 10 revolutionary B2B e-commerce sites and portals</h2>
             <div class="glosary-article">
-                <p class="text">Using our personal experience and the E-consultancy blog reviews, we have compiled a list of top 10 B2B portals, who provide inspiration and have truly been revolutionary and innovative.</p>
+                <p class="text">Using our personal experience and the E-consultancy blog reviews, we have compiled a list of top 10 B2B ecommerce sites, who provide inspiration and have truly been revolutionary and innovative.</p>
             </div>
             <h2 class="glosary-sub-t">Alibaba</h2>
             <div class="glosary-article">
@@ -199,7 +190,7 @@ tags :
             <h2 class="glosary-sub-t">Trade Key</h2>
             <div class="glosary-article">
                 <img class="glosary-pic" alt="Trade Key B2B ecommerce company" src="assets/images/TradeKey1.png"></img>
-                <p class="text">Trade Key is Australia’s answer to the rest of the world and the important player of the top 10 b2b portals. Having 158,000 members, it is the most popular B2B marketplace in Australia! Despite not being a large marketplace, it can easily provide any product within 38 selected categories. The design of the website is very simple and a bit old-fashioned, but it reveals a huge variety of products right in front of your eyes. The strengths of this site are the absence of a Sign-Up fee, as well as the presence of relevant trade shows and brochures.</p>
+                <p class="text">Trade Key is Australia’s answer to the rest of the world and the important player of the top 10 b2b e-commerce sites. Having 158,000 members, it is the most popular B2B marketplace in Australia! Despite not being a large marketplace, it can easily provide any product within 38 selected categories. The design of the website is very simple and a bit old-fashioned, but it reveals a huge variety of products right in front of your eyes. The strengths of this site are the absence of a Sign-Up fee, as well as the presence of relevant trade shows and brochures.</p>
             </div>
             <h2 class="glosary-sub-t">MSC Industrial Supply Co.</h2>
             <div class="glosary-article">

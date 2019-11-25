@@ -1,23 +1,14 @@
 ---
-title: Shopify competitors. Top 10 Shopify alternatives in 2018
-description: Any ecommerce platform has the great support base, which offers you a wide variety of tools to alter your store. One of the best shopping cart platforms for an e-commerce website is Shopify, but there are some great alternatives and competitors that you should check out.
-date: 2017-08-07
-canonical: https://virtocommerce.com/glossary/shopify-alternatives
-permalink: glossary/shopify-alternatives
-ogimage: ../../assets/images/shopify-alternatives.jpg
-ogtitle: Shopify Alternatives
-ogsitename: Virtocommerce
+date: '2017-08-07'
 layout: glossary
-twittercard: summary
-twittertitle: Virto Commerce
-twitterdescription: Any ecommerce platform has the great support base, which offers you a wide variety of tools to alter your store. One of the best shopping cart platforms for an e-commerce website is Shopify, but there are some great alternatives that you should check out.
-twitterimage: ../../assets/images/shopify-alternatives.jpg
-twittersite: Virtocommerce
-tags :
-- ecommerce
-- shopping cart
-- shopify
-- virtocommerce
+permalink: glossary/shopify-alternatives
+tags:
+  - ecommerce
+  - 'shopping cart'
+  - shopify
+  - virtocommerce
+title: 'Shopify competitors. Top 10 Shopify alternatives in 2019'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -26,9 +17,9 @@ tags :
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
-                <h1 itemprop="headline" class="glosary-t">Shopify competitors. Top 10 Shopify alternatives. The best alternatives to Shopify in 2018.</h1>
+                <h1 itemprop="headline" class="glosary-t">Shopify competitors. Top 10 Shopify alternatives. The best alternatives to Shopify in 2019.</h1>
             </div>
-            <p class="glosary-date">Updated: April 18, 2018 | Virtocommerce | 6 Comments</p>
+            <p class="glosary-date">Updated: November 06, 2019 | Virtocommerce | 6 Comments</p>
             <div class="glosary-article">
                 <p class="text">Shopify can be considered one of the best shopping cart platforms for an e-commerce website when it comes to balancing the convenience of setting up a website and having the control over it. The great advantage of this kind of electronic commerce platforms, including Shopify, as well as a number of various alternatives to Shopify, is that they provide you with as much control as possible without you having to use your own server. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a wide variety of tools to alter your store. The AppStore available for its users is amazing for finding interesting plugins to customize your website.</p>
                 <figure style="text-align: center;">
@@ -48,25 +39,20 @@ tags :
                 </ol>
                 <p class="text">If you are not satisfied with your Shopify experience or just like to keep your options open, here are some of the best alternatives to Shopify you can check out.</p>
             </div>
-            <div class="glosary-article">
-                <div class="glosary-videos center">
-                    {% include 'vc-b2b_b2c-banner' %}
-                </div>
-            </div>
             <p id="bigcommerce" class="glosary-sub-t">10 best shopify alternative contenders</p>
             <div class="glosary-article">
                 <div class="glosary-article">
                     <ul id="anchor" class="list anchor-list">
-                        <li class="list-item"><a class="list-link" href="#bigcommerce">BigCommerce</a></li>
-                        <li class="list-item"><a class="list-link" href="#lemonstand">LemonStand</a></li>
-                        <li class="list-item"><a class="list-link" href="#volusion">Volusion</a></li>
-                        <li class="list-item"><a class="list-link" href="#bigcartel">Big Cartel</a></li>
-                        <li class="list-item"><a class="list-link" href="#magento">Magento</a></li>
-                        <li class="list-item"><a class="list-link" href="#woocommerce">Woocommerce + Wordpress</a></li>
-                        <li class="list-item"><a class="list-link" href="#3dcart">3dcart</a></li>
-                        <li class="list-item"><a class="list-link" href="#ecwid">Ecwid</a></li>
-                        <li class="list-item"><a class="list-link" href="#pinnaclecart">PinnacleCart</a></li>
-                        <li class="list-item"><a class="list-link" href="#virtocommerce">Virto Commerce</a></li>
+                        <li class="list-item"><a class="list-link" href="#bigcommerce">- BigCommerce</a></li>
+                        <li class="list-item"><a class="list-link" href="#lemonstand">- LemonStand</a></li>
+                        <li class="list-item"><a class="list-link" href="#volusion">- Volusion</a></li>
+                        <li class="list-item"><a class="list-link" href="#bigcartel">- Big Cartel</a></li>
+                        <li class="list-item"><a class="list-link" href="#magento">- Magento</a></li>
+                        <li class="list-item"><a class="list-link" href="#woocommerce">- Woocommerce + Wordpress</a></li>
+                        <li class="list-item"><a class="list-link" href="#3dcart">- 3dcart</a></li>
+                        <li class="list-item"><a class="list-link" href="#ecwid">- Ecwid</a></li>
+                        <li class="list-item"><a class="list-link" href="#pinnaclecart">- PinnacleCart</a></li>
+                        <li class="list-item"><a class="list-link" href="#virtocommerce">- Virto Commerce</a></li>
                     </ul>
                 </div>
             </div>
@@ -255,10 +241,6 @@ tags :
                         </div>
                     </li>
                 </ul>
-            </div>
-            <div class="actions" style="padding-bottom:20px;">
-                <a class="btn btn--orange" href="/contact-us">Try It Now</a>
-                <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
             </div>
         </div>
     </div>

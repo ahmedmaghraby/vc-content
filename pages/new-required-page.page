@@ -9,60 +9,15 @@
     },
     {
         "id": 2,
-        "type": "list-with-images",
-        "name": "List with images",
-        "title": "How Does Virto Commerce Resolves These Risks?",
-        "titleAlignment": null,
-        "titleStyle": "section__t--gray",
-        "intro": "",
-        "style": "light",
-        "colStyle": "col-md-6 col-lg-4",
-        "items": [
-            {
-                "image": {
-                    "url": "http://localhost/admin-vccom/assets/blogs/butterfly-1127666_1920.jpg",
-                    "altText": null
-                },
-                "title": "",
-                "text": "<h2>1</h2>\n\n<p>What should you&nbsp;be looking at when thinking to launch your new or replatform existing ecommerce project</p>\n",
-                "iconStyle": "",
-                "url": null
-            },
-            {
-                "image": {
-                    "url": null
-                },
-                "title": "Platform flexibility makes it possible to mitigate risks by running a sequence of small projects",
-                "text": "",
-                "iconStyle": "",
-                "url": null
-            },
-            {
-                "image": {
-                    "url": null
-                },
-                "title": "An agile approach allows minimizing of budget risks",
-                "text": "",
-                "iconStyle": "",
-                "url": null
-            }
-        ],
-        "noTop": null,
-        "noBottom": true,
-        "noPad": null,
-        "headerType": null
-    },
-    {
-        "id": 3,
         "type": "replatform-form",
         "name": "Replatform form",
         "title": "The Pitfalls Leading Enterprise<br />E-commerce Projects to<br/>Re-platform",
         "headerType": "like-h2",
         "titleAlignment": null,
         "style": "light",
-        "align": "right",
+        "align": "left",
         "image": {
-            "url": "http://localhost/admin-vccom/assets/blogs/pitfalls.svg",
+            "url": "https://vcpro.blob.core.windows.net/blogs/pitfalls.svg",
             "altText": null
         },
         "content": "<p>Learn from the mistakes of others, and avoid being caught in legacy technology trap.</p>\n",
@@ -73,19 +28,29 @@
         "noPad": null
     },
     {
-        "id": 4,
-        "type": "decorated-hero",
-        "name": "Text over image",
-        "title": "How can mid-market companies overcome their main ecommerce challenges? ",
-        "headerStyle": "h1",
-        "content": "<h2><span class=\"section__descr--normal\">Mid-market companies already have high and constantly growing&nbsp;business complexity - close to enterprises - however they don&rsquo;t have enterprise-scale budgets. In terms of ecommerce, that means all projects should be very results-focused, provide good ROI and still deliver a reliable basis for further growth.&nbsp;</span></h2>\n",
+        "id": 3,
+        "type": "video",
+        "name": "Video and text",
+        "title": "How Can Enterprises Overcome Ecommerce Challenges?",
+        "content": "<p>Enterprise companies&rsquo; large size and organizational complexity are two common challenges that enterprises need to navigate when implementing ecommerce platforms. With the right approach and long-term planning, enterprises can anticipate and overcome roadblocks in their ecommerce implementations.</p>\n",
+        "style": "dark",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/video-screen-3.png",
+            "altText": null
+        },
+        "avatar": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/Rectangle-2.png",
+            "altText": null
+        },
+        "videoName": "Presented by Garren Parkins",
+        "videoUrl": "https://www.youtube.com/watch?v=QpRG-HOlrbc",
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerType": "h1"
+        "align": "right"
     },
     {
-        "id": 5,
+        "id": 4,
         "type": "list-and-text",
         "name": "Text over image",
         "title": "Top Ecommerce Challenges Faced by Mid-Market Companies",
@@ -109,7 +74,7 @@
         "noPad": null
     },
     {
-        "id": 6,
+        "id": 5,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Top Ecommerce Implementation Risks for Mid-Market Companies",
@@ -150,7 +115,7 @@
         "noPad": null
     },
     {
-        "id": 7,
+        "id": 6,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -169,6 +134,50 @@
         "noTop": true,
         "noBottom": true,
         "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Does Virto Commerce Resolves These Risks?",
+        "titleAlignment": null,
+        "titleStyle": "section__t--gray",
+        "intro": "<p>some interesting text</p>\n",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Virto Commerce company finds the proper implementation partner and guarantees their quality",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Platform flexibility makes it possible to mitigate risks by running a sequence of small projects",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "An agile approach allows minimizing of budget risks",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "headerType": null
     },
     {
         "id": 8,
@@ -301,7 +310,7 @@
         "image": {
             "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png"
         },
-        "content": "<p>Useful content12</p>\n",
+        "content": "<p>Useful content</p>\n",
         "url1": {
             "url": "https://virtocommerce.com/blog/virto-version-3-beta-product-release-notes",
             "urlText": "Virto Version 3 Beta Product Release Notes",
@@ -313,21 +322,64 @@
         "noPad": null
     },
     {
-        "id": 10,
-        "type": "video",
-        "name": "Video and text",
+        "id": 11,
+        "type": "list-and-text",
+        "name": "Text over image",
         "title": "Block title",
-        "content": "<p>Text block content</p>\n",
+        "listPosition": null,
+        "listEnumType": null,
         "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "list": [
+            {
+                "text": "Licensing doesn’t work for startup’s business models"
+            },
+            {
+                "text": "It is hard to find qualified experts to achieve MVP fast"
+            }
+        ],
+        "content": "<p>Short block content</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 12,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Block title",
+        "listPosition": null,
+        "listEnumType": null,
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "list": [
+            {
+                "text": "Licensing doesn’t work for startup’s business models"
+            },
+            {
+                "text": "It is hard to find qualified experts to achieve MVP fast"
+            }
+        ],
+        "content": "<p>Short block content</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 13,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "middle",
         "image": {
-            "url": "https://vcpro.blob.core.windows.net/blogs/hero.png"
+            "url": "https://vcpro.blob.core.windows.net/blogs/hero.png",
+            "altText": "alt-test"
         },
-        "avatar": {
-            "url": "https://vcpro.blob.core.windows.net/blogs/hero.png"
-        },
-        "videoName": "video title",
-        "videoUrl": "https://www.youtube.com/watch?v=QpRG-HOlrbc",
-        "align": "right",
         "noTop": null,
         "noBottom": null,
         "noPad": null

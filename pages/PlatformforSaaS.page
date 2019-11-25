@@ -1,0 +1,197 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "PlatformforSaaS",
+        "layout": "theme",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "Platform for Vertical SaaS Solutions",
+        "headerType": "like-h2",
+        "content": "<p>Industry-specific&nbsp;ecommerce platforms are in high&nbsp;demand, as evidenced&nbsp;by&nbsp;a&nbsp;proliferation&nbsp;of solutions built for&nbsp;niche markets.</p>\n\n<p>These specialized&nbsp;solutions require&nbsp;both&nbsp;deep industry expertise and optimized core&nbsp;technology.&nbsp; Companies building solutions&nbsp;do not need&nbsp;to (re)invent the technology to power them. Instead, a sound strategy is to build on top of a trusted platform, one which is flexible enough to implement&nbsp;complicated industry-specific solutions.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Challenges of starting a vertical specific SaaS solution ",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<h3 style=\"text-align:center\"><span class=\"section__descr--gray\"><strong>Build or Buy?&nbsp;</strong>Consider these inherent challenges&nbsp;in solving industry-specific problems with out-of-the box solutions before you select your ecommerce platform.</span></h3>\n",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/openbox image.png",
+                    "altText": null
+                },
+                "title": "Out-of-the box, off-the-shelf solutions are too limiting for industry-specific solutions",
+                "text": "<p>Industry-specific ecommerce solutions offer full-feature sets that cater to the unique value propositions of an industry vertical. The SaaS platform solution goes deep to address the specific needs of any B2B ecommerce situation. Unlike inflexible, out-of-the-box solutions, the Virto Commerce industry vertical SaaS platform solution&nbsp;will&nbsp;support new, innovative markets to make transactions easier and provide an optimized, personalized user experience.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/budget-contract-money-business_and_finance-finances-calculators-calculator-512.png",
+                    "altText": null
+                },
+                "title": "Traditional licensing models do not align with the SaaS business model",
+                "text": "<p>Traditional software licensing models are designed for traditional business models and practices; however, those models are not applicable for&nbsp;building a niche software application or service on top of a platform.&nbsp;Select a platform with a SaaS licensing model to optimize&nbsp;improve the speed of development, save money, and most importantly, allow the team to focus on innovating the application and business.&nbsp;</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/ecommerce person expertise.png",
+                    "altText": null
+                },
+                "title": "Lack of expertise in ecommerce platform development",
+                "text": "<p>While subject-expertise is important for business strategy, relevant technology experience and expertise are required to&nbsp;develop ecommerce platforms from scratch. Some industry-specific vertical&nbsp;solutions are created by&nbsp;industry subject-matter-experts who are inexperienced software developers. It is hard to be an expert in both areas. Attracting a&nbsp;technical team to develop an in-house solution from scratch&nbsp;is challenging and expensive.&nbsp;</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    },
+    {
+        "id": 4,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "How using the wrong technology impacts vertical-specific SaaS solutions",
+        "listPosition": null,
+        "listEnumType": null,
+        "style": "dark",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "list": [
+            {
+                "text": "<p>80% of budget will be spent on general platform and only 20% for niche valuable features</p>\n"
+            },
+            {
+                "text": "<p>Slower time-to-market is caused by a implementing the wrong technology that cannot&nbsp;meet requirements</p>\n"
+            },
+            {
+                "text": "<p>Homegrown solutions&nbsp;typically require substantial investments in specialized manpower&nbsp;and expensive maintenance</p>\n"
+            }
+        ],
+        "content": "<p>Most well-known ecommerce solutions do not support vertical-specific SaaS development, which creates a temptation to develop in-house solutions. Ignoring the risks associated with SaaS platform development can have negative downstream effects in the long-run. According to industry experts, 80%&nbsp;of&nbsp;the budget&nbsp;for homegrown, in-house SaaS solutions is spent on general platform features and only 20% is spent on specific, more valuable niche features -- requiring companies to spend 5 times more to deliver critical MVP functionality.</p>\n\n<p>&nbsp;</p>\n\n<p>Speed-to-market is important for niche solutions. Cost-savings on a technology does not always translate when it comes to performance. Limitations in the capacity of development teams can have an impact on feature functionality as well as development velocity, postponing an immediate return on investment.</p>\n\n<p>&nbsp;</p>\n\n<p>Hidden tangible and intangible costs are the main issue associated with homegrown solutions. There is a significant people-risk as businesses become critically dependent on a few specialists who know how the system works, making it almost impossible to find experienced talent and very difficult to&nbsp;scale.&nbsp;If those employees leave, development can be locked or stagnate for a significant amount of time. &nbsp;The ongoing maintenance risk associated with the solution becomes more and more expensive as vendors assume &nbsp;80% of the responsibility for general platform functionality and non-functional requirements (performance, security,&nbsp;extensibility etc.).</p>\n",
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "Resolve industry-specific SaaS risks with Virto Commerce ",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<ul>\n\t<li>\n\t<h4>Virto Commerce platform is designed for fast MVP delivery&nbsp;</h4>\n\t</li>\n\t<li>\n\t<h4>Optimized license model fits SaaS solutions built on top of&nbsp;Virto Commerce platform&nbsp;</h4>\n\t</li>\n\t<li>\n\t<h4>Virto Commerce and our partner network have startup experience and reliable technical expertise</h4>\n\t</li>\n</ul>\n\n<p><strong>Fast MVP Delivery.</strong> B2B companies require a reliable ecommerce partner who addresses the business risks associated with defining a proper MVP scope delivering an efficient and effective solution to support industry-specific business models. The Virto Commerce solution is a customizable and extensible platform designed to be adoptive and flexible due to its modular architecture, enabling the creation of any complex solution with minimal time, costs and risk.&nbsp;</p>\n\n<p><strong>Optimized SaaS licensing model.</strong> Client and partner experience led us to develop specific licensing models for building niche SaaS solutions on the Virto Commerce platform in order to meet the funding challenges start-ups face.</p>\n\n<p><strong>Reliable technical expertise.&nbsp;</strong>Based on experience&nbsp;of our customers and partners&nbsp;we realize the license-related challenges which startups face. We&nbsp;have&nbsp;developed specific licensing models which fit&nbsp;companies who builds&nbsp;niche SaaS solution on top of Virto Commerce platform.&nbsp;Virto Commerce has extensive successful technical and management experience facilitating startup MVPs. Our consultative approach helps startups fill gaps in expertise and select the right implementation partner, engaging leaders when needed to guarantee a successful project. &nbsp;</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "hidden": true
+    },
+    {
+        "id": 6,
+        "type": "image-with-text",
+        "name": "Image with text",
+        "title": "Resolve industry-specific SaaS risks with Virto Commerce",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "align": "left",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/solving complexity (1).png",
+            "altText": null
+        },
+        "content": "<ul>\n\t<li>\n\t<h4>Fast MVP delivery with the Virto Commerce flexbile platform and&nbsp;modular architecture</h4>\n\t</li>\n\t<li>\n\t<h4>Optimized license model fits SaaS solutions built on top of&nbsp;Virto Commerce platform&nbsp;</h4>\n\t</li>\n\t<li>\n\t<h4>Leverage start-up expertise and technical talent&nbsp;from Virto Commerce and our partner network</h4>\n\t</li>\n</ul>\n\n<p><strong>Fast MVP Delivery.</strong> B2B companies require a reliable ecommerce partner who addresses the business risks associated with defining a proper MVP scope delivering an efficient and effective solution to support industry-specific business models. The Virto Commerce solution is a customizable and extensible platform designed to be adoptive and flexible due to its modular architecture, enabling the creation of any complex solution with minimal time, costs and risk.&nbsp;</p>\n\n<p><strong>Optimized SaaS licensing model.</strong> Client and partner experience led us to develop specific licensing models for building niche SaaS solutions on the Virto Commerce platform in order to meet the funding challenges start-ups face.</p>\n\n<p><strong>Reliable technical expertise.&nbsp;</strong>Based on experience&nbsp;of our customers and partners&nbsp;we realize the license-related challenges which startups face. We&nbsp;have&nbsp;developed specific licensing models which fit&nbsp;companies who builds&nbsp;niche SaaS solution on top of Virto Commerce platform.&nbsp;Virto Commerce has extensive successful technical and management experience facilitating startup MVPs. Our consultative approach helps startups fill gaps in expertise and select the right implementation partner, engaging leaders when needed to guarantee a successful project. &nbsp;</p>\n",
+        "url1": null,
+        "url2": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "text-with-button",
+        "name": "Text",
+        "text": "Ready to get started? Connect with our experts",
+        "style": "light",
+        "url": {
+            "url": "https://virtocommerce.com/contact-us",
+            "urlText": "Contact us",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    },
+    {
+        "id": 8,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Resolve industry-specific SaaS risks with Virto Commerce",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<p style=\"text-align:center\">To mitigate risks and ensure project success, select&nbsp;Virto Commerce&nbsp;as the optimal platform for&nbsp;fast MVP delivery, SaaS-model licensing, and support from seasoned experts.</p>\n",
+        "style": "light",
+        "colStyle": "col-lg-12",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_1.png"
+                },
+                "title": "Faster time to market with the Virto Commerce platform that is designed for fast MVP delivery ",
+                "text": "<p><strong>Fast MVP Delivery.</strong>&nbsp;B2B companies require a reliable ecommerce partner who addresses the business risks associated with defining a proper MVP scope delivering an efficient and effective solution to support industry-specific business models. The Virto Commerce solution is a customizable and extensible platform designed to be adoptive and flexible due to its modular architecture, enabling the creation of any complex solution with minimal time, costs and risk.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_3.png"
+                },
+                "title": "Optimized license model fits SaaS solutions built on top of Virto Commerce platform ",
+                "text": "<p><strong>Optimized SaaS licensing model.</strong>&nbsp;Client and partner experience led us to develop specific licensing models for building niche SaaS solutions on the Virto Commerce platform in order to meet the funding challenges start-ups face.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/icon_5.png"
+                },
+                "title": "Leverage support, startup experience, and reliable technical expertise from Virto Commerce and our partner network",
+                "text": "<ul>\n\t<li>\n\t<p><strong>Reliable technical expertise.&nbsp;</strong>Based on experience&nbsp;of our customers and partners&nbsp;we realize the license-related challenges which startups face. We&nbsp;have&nbsp;developed specific licensing models which fit&nbsp;companies who builds&nbsp;niche SaaS solution on top of Virto Commerce platform.&nbsp;Virto Commerce has extensive successful technical and management experience facilitating startup MVPs. Our consultative approach helps startups fill gaps in expertise and select the right implementation partner, engaging leaders when needed to guarantee a successful project. &nbsp;</p>\n\t</li>\n</ul>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": false,
+        "noBottom": false,
+        "noPad": true,
+        "hidden": true
+    }
+]

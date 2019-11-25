@@ -2,11 +2,11 @@
     {
         "type": "settings",
         "title": "",
-        "permalink": "",
+        "permalink": "VladimirTest",
         "id": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "text",
         "name": "Text",
         "title": "This is a simple text block",
@@ -21,18 +21,5 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null
-    },
-    {
-        "id": 2,
-        "type": "download-case-studies-form",
-        "name": "Download Case studies form",
-        "style": "light",
-        "noTop": true,
-        "noBottom": true,
-        "noPad": true,
-        "title": "Download Case Studies",
-        "buttonText": "Download Case Studies",
-        "downloadUrl": "Browse...",
-        "description": "<p>By clicking &laquo;Download Case Studies&raquo; I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>.</p>\n"
     }
 ]

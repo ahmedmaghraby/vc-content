@@ -1,28 +1,33 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "Thank you for requesting demo",
         "permalink": "request-thanks-touch",
-        "id": 1
+        "id": 1,
+        "layout": "footer-only",
+        "header": "Thank you for requesting demo"
     },
     {
-        "id": 1,
+        "id": 2,
         "type": "thank-you",
         "name": "Thank you!",
         "thankYou": "Thank you!<br/>We will be in touch soon.",
         "whatsNext": "What's next",
         "thankYouItems": [
             {
-                "url": "#",
+                "url": "https://virtocommerce.com/case-studies",
+                "icon": null,
                 "text": "Discover Virto Commerce success stories"
             },
             {
-                "url": "#",
+                "url": "https://virtocommerce.com/enterprise-ecommerce-architecture",
+                "icon": null,
                 "text": "Explore Virto Commerce architecture"
             },
             {
-                "url": "#",
-                "text": "Explore Virto Commerce architecture"
+                "url": "https://virtocommerce.com/docs",
+                "icon": null,
+                "text": "Read Virto Commerce documentation"
             }
         ],
         "phone": "+1 800 980—5288",
