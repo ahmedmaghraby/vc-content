@@ -1,9 +1,11 @@
 [
     {
         "type": "settings",
-        "title": "",
+        "title": "Enterprise ASP.NET open-source Microsoft e-commerce platform - Open Source License",
         "permalink": "open-source-license",
-        "id": 1
+        "id": 1,
+        "layout": "theme",
+        "header": "Enterprise ASP.NET open-source Microsoft e-commerce platform - Open Source License"
     },
     {
         "id": 1,

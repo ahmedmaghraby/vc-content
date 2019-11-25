@@ -1,0 +1,22 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "blogs-test",
+        "layout": "theme",
+        "header": "Blogs test",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "blogs-list",
+        "style": null,
+        "count": "3",
+        "isShowLast": null,
+        "items": [
+            {
+                "text": "blog/bla-bla"
+            }
+        ]
+    }
+]

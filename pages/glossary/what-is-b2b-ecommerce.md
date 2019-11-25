@@ -158,9 +158,8 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
                 <div class="glosary-videos center">
                     <div class="list-item">
                         <div class="video">
-                            <iframe src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <a class="button fill" href="/migration-whitepaper">Download B2B Whitepaper</a>
                     </div>
                 </div>
             </div>
@@ -175,7 +174,7 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
                     <p class="text">A B2B e-commerce solution must meet the following requirements:</p>
                     <div class="row">
                         <div class="col-md-3">
-                            <img alt="Scalability" src="assets/images/scalability.png" width="120" />
+                            <img alt="Scalability" src="assets/images/paperplane.png" width="120" />
                         </div>
                         <div class="col-md text">
                             <strong>Scalability</strong>
@@ -226,7 +225,7 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
                         <div class="col-md text">
                             <p class="text">EDI (stands for electronic data interchange) is a paperless highly efficient way to send various documents between companies (such as purchase orders and invoices). EDI lets businesses exchange information using a standardized format. It is generally used to help streamline the communication and build efficient workflow between a manufacturer and its supply chain.</p>
                             <p class="text">In retail industry, EDI helps cut costs while still maintaining a high level of customer service. </p>
-                            <p class="text">EDI is not to be confused with a web store, however. Just like business to consumer and business to business e-commerce platforms, EDI and web stores serve different purposes. EDI is a more efficient way to handle communication between organizations regarding the recurring orders of standard goods, while a web store is more efficient when it comes to incidental purchases that do not need to be fully automated. Web stores are usually better for promoting new products to clients and exploring cross-selling and upselling options.</p>
+                            <p class="text">EDI is not to be confused with a web store, however. Just like business to consumer and B2B e commerce platforms, EDI and web stores serve different purposes. EDI is a more efficient way to handle communication between organizations regarding the recurring orders of standard goods, while a web store is more efficient when it comes to incidental purchases that do not need to be fully automated. Web stores are usually better for promoting new products to clients and exploring cross-selling and upselling options.</p>
                         </div>
                     </div>
                 </div>
@@ -239,7 +238,7 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
                             <img alt="Integrated e-commerce" src="assets/images/integrated-b2b-ecommerce.png" width="120" />
                         </div>
                         <div class="col-md text">
-                            <p class="text">Integrated e-commerce is a system organization that uses business logic and data from your ERP (and potentially other systems) to increase the performance of your online store. </p>
+                            <p class="text">Integrated B2B e-commerce is a system organization that uses business logic and data from your ERP (and potentially other systems) to increase the performance of your online store.</p>
                             <p class="text">Integrated web store software dips directly into your ERP system, which helps avoid complex connections and enables it to gather data directly offering a number of important benefits, such as:</p>
                             <p class="text">• Product catalog, that updates automatically and is always current</p>
                             <p class="text">• Custom pricing options</p>
@@ -257,7 +256,7 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
                         </div>
                         <div class="col-md text">
                             <p class="text">PIM systems enrich ERP product data by categorizing and unifying product data. The result can be used in your business to business in ecommerce in order to make sure your product pages provide complete and comprehensive data.</p>
-                            <p class="text"><a href="{{ '/product-information-management-software' | absolute_url }}">Product information management (PIM)</a> systems give a huge advantage for B2B ecommerce stores by allowing them to provide more detailed product specifications.</p>
+                            <p class="text"><a href="{{ '/product-information-management-software' | absolute_url }}">Product information management (PIM)</a> systems give a huge advantage for B2B e-commerce stores by allowing them to provide more detailed product specifications.</p>
                         </div>
                     </div>
                 </div>
