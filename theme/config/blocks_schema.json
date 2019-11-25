@@ -1792,17 +1792,37 @@
           },
           {
             "id": "iconStyle",
-            "label": "Icon style",
+            "label": "Icon size",
             "type": "select",
             "default": null,
             "options": [
               {
                 "value": null,
-                "label": "Normal"
+                "label": "Middle"
               },
               {
                 "value": "list__icon--mini",
                 "label": "Small"
+              },
+              {
+                "value": "list__icon--large",
+                "label": "Large"
+              }
+            ]
+          },
+          {
+            "id": "iconAlign",
+            "label": "Icon alignment",
+            "type": "select",
+            "default": null,
+            "options": [
+              {
+                "value": null,
+                "label": "Left"
+              },
+              {
+                "value": "list__icon--center",
+                "label": "Center"
               }
             ]
           },
@@ -2145,6 +2165,23 @@
         "label": "Url to video",
         "type": "string",
         "default": "https://www.youtube.com/watch?v=QpRG-HOlrbc"
+      },
+      {
+        "id": "align",
+        "label": "Video position",
+        "type": "select",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "tab": "Settings"
       },
       {
         "id": "noTop",

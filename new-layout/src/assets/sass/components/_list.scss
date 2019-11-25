@@ -38,6 +38,18 @@
         {
             height: 2.5rem;
         }
+
+        &--large
+        {
+            height: 10rem;
+        }
+		
+		&--center
+		{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
     }
 
     .list__pic

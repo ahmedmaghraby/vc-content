@@ -9213,6 +9213,16 @@ textarea {
     height: 2.5rem;
 }
 
+.list--columns .list__icon--large {
+    height: 10rem;
+}
+
+.list--columns .list__icon--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .list--columns .list__pic {
     margin-bottom: 1.875rem;
     max-width: 21rem;
