@@ -1339,6 +1339,23 @@
         }
     }
 
+    &.brown
+    {
+        background-color: transparent;
+
+        &::before
+        {
+            background: #763225;
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            opacity: .8;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
     .section__animate
     {
         display: flex;

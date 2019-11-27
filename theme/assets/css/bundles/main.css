@@ -6468,6 +6468,21 @@ code {
     top: 0;
 }
 
+.section--form.brown {
+    background-color: transparent;
+}
+
+.section--form.brown::before {
+    background: #763225;
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .section--form .section__animate {
     display: -ms-flexbox;
     display: flex;

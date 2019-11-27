@@ -164,22 +164,26 @@ $(function (){
         });
     }
 
-    var lavazzaForm = $('#lavazza-form');
-    if (lavazzaForm.length) {
-        lavazzaForm.submit(function (event) {
-            event.preventDefault();
-            if (!this.agree.checked) {
-                $('#agree-error').parent().show();
-                return;
-            }
-            else
-                $('#agree-error').parent().hide();
+    function caseStudyFormHandler(formSelector, caseStudyRedirectUrl) {
+        var lavazzaForm = $(formSelector);
+        if (lavazzaForm.length) {
+            lavazzaForm.submit(function (event) {
+                event.preventDefault();
+                if (!this.agree.checked) {
+                    $('#agree-error').parent().show();
+                    return;
+                }
+                else
+                    $('#agree-error').parent().hide();
 
-            if (this.checkValidity())
-                window.location.href = '/case-studies/lavazza';
-        });
+                if (this.checkValidity())
+                    window.location.href = caseStudyRedirectUrl;
+            });
+        }
     }
 
+    caseStudyFormHandler('#lavazza-form', '/case-studies/lavazza');
+    caseStudyFormHandler('#standaard-boekhandel-form', '/case-studies/standaard-boekhandel');
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
