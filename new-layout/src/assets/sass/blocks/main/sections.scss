@@ -1325,34 +1325,40 @@
     &.dark
     {
         background-color: transparent;
+        opacity: .8;
 
         &::before
         {
-            background: #0a2d4b;
             bottom: 0;
             content: ' ';
             left: 0;
-            opacity: .8;
             position: absolute;
             right: 0;
             top: 0;
         }
-    }
 
-    &.brown
-    {
-        background-color: transparent;
-
-        &::before
+        &.blue
         {
-            background: #763225;
-            bottom: 0;
-            content: ' ';
-            left: 0;
-            opacity: .8;
-            position: absolute;
-            right: 0;
-            top: 0;
+            &::before
+            {
+                background: #0a2d4b;
+            }
+        }
+
+        &.brown
+        {
+            &::before
+            {
+                background: #763225;
+            }
+        }
+
+        &.lime
+        {
+            &::before
+            {
+                background: #4F9E34;
+            }
         }
     }
 

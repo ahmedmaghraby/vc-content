@@ -184,6 +184,7 @@ $(function (){
 
     caseStudyFormHandler('#lavazza-form', '/case-studies/lavazza');
     caseStudyFormHandler('#standaard-boekhandel-form', '/case-studies/standaard-boekhandel');
+    caseStudyFormHandler('#de-klok-form', '/case-studies/deklok');
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
