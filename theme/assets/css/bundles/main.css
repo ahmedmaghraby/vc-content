@@ -9402,6 +9402,14 @@ textarea {
     width: calc(100% + 3.75rem);
 }
 
+.list--cards .list__img--by-size {
+    border-radius: 0;
+    -ms-flex: 0;
+    flex: 0;
+    height: auto;
+    margin: 1.25rem 0 0 0;
+}
+
 .list--cards .list__pic {
     border-radius: .625rem .625rem 0 0;
     display: block;
@@ -9419,6 +9427,14 @@ textarea {
     color: #b3b7d0;
     font-size: .875rem;
     margin-bottom: 1.25rem;
+}
+
+.list--cards .list__descr p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C1015;
 }
 
 .list--cards .btn {
