@@ -6455,10 +6455,10 @@ code {
 
 .section--form.dark {
     background-color: transparent;
-    opacity: .8;
 }
 
 .section--form.dark::before {
+    opacity: .8;
     bottom: 0;
     content: ' ';
     left: 0;
@@ -6468,15 +6468,15 @@ code {
 }
 
 .section--form.dark.blue::before {
-    background: #0a2d4b;
+    background-color: #0a2d4b;
 }
 
 .section--form.dark.brown::before {
-    background: #763225;
+    background-color: #763225;
 }
 
 .section--form.dark.lime::before {
-    background: #4F9E34;
+    background-color: #4F9E34;
 }
 
 .section--form .section__animate {
