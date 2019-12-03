@@ -8,24 +8,26 @@ priority: 1
 ## Summary
 
 This tutorial will show you the steps required when creating a new module and adding it to the Virto Commerce Manager web application.
-You can also 
+You can also
 Download / fork source code for described modules from GitHub [vc-samples repository](https://github.com/VirtoCommerce/vc-samples).
 
 ## Overview
 
-Virto Commerce Platform is an ASP.NET MVC and [AngularJS](http://angularjs.org/) Single Page Application with VirtoCommerce modularity extension.
+VirtoCommerce Platform is an ASP.NET MVC and [AngularJS](http://angularjs.org/) Single Page Application with VirtoCommerce modularity extension.
 
 A module in VirtoCommerce is a folder which contains at least **module.manifest** file. It can also contain any other content such as JavaScript files, CSS files, images, .NET assemblies, etc. Some content has a special meaning and should be mentioned in the module manifest. If a module contains .NET assemblies it is called a **managed module**.
 
 Modules can extend the Virto Commerce Platform with JavaScript and/or managed code.
 
 JavaScript allows you to:
+
 * add new items to main menu
 * add new widgets to widget containers (on dashboard or in blades)
 * add new blades
 * add new buttons to existing blade toolbars
 
 Managed code allows you to:
+
 * add new Web API controllers
 * add new services
 * override existing services
@@ -52,26 +54,44 @@ When the application starts, it iterates two times through all managed modules:
 
 2. Method **PostInitialize** is called for each module. In this method a module can resolve registered resources using Unity container and use them. The two-step initialization allows modules which are initialized later to override implementation of interfaces registered with modules which are initialized earlier.
 
-### Create new module 
+### Create new module
 
-Download [Virto Commerce Module template](https://marketplace.visualstudio.com/items?itemName=VirtoCommerce2xModuleProjectTemplate.VirtoCommerce2xModule) from Visual Studio Marketplace, or simply search for "Virto" under online templates.
+Download [Virto Commerce 2.x Module Templates](https://marketplace.visualstudio.com/items?itemName=Virto-Commerce.VirtoCommerceModuleTemplates) from Visual Studio Marketplace, or simply search for "Virto" under online templates.
 
 Create project by using our template as follows:
 
 ![Virto Commerce Module Template](../../../../assets/images/docs/project-template.png)
 
-###  Module project structure and content
+### Module solution structure and content
 
-After clickong OK button you will have the following project:
+After clicking OK button you will have the following solution:
 
 ![Virto Commerce Module Project](../../../../assets/images/docs/project-structure.png)
+
+In the solution, each project has its own responsibilities. Thus, certain types belong to each project, and you can always find the folders corresponding to these types in the corresponding project.
+
+The figure below shows a representation of the layers of architecture. Notice that the solid arrows correspond to the compile-time dependencies, and the dashed arrows to the dependencies that exist only at run time. As part of the current architecture, a Web project works with interfaces that are defined in the Core project at compile time, and ideally should not know anything about the implementation types defined in the Data project. But at run time, these types of implementations are necessary to run the application, so they must exist and be tied to the interfaces of the Core project through dependency injection.
+
+![Virto Commerce Module Arch](../../../../assets/images/docs/scheme-solution-arch.png)
+
+#### .Core Business/Application Model
+
+The project must contain a business model, services and interfaces. These interfaces should include abstractions for operations that will be performed using infrastructure, such as data access, file system access, network calls, etc. In addition, services or interfaces defined at this level can work with non-object types. that are independent of the user. interface or infrastructure and are defined as simple data transfer objects (DTO).
+
+#### .Data Data Access Logic
+
+The project includes the implementation of data access. Namely, the data access implementation classes (Repositories), any EF Migration objects that have been defined, and EF Entities models. In addition to the data access implementations, the project must contain service implementations that must interact with infrastructure problems. These services must implement the interfaces defined in Core, and therefore the project must have a reference to the Core project.
+
+#### .Web Presentation Logic and Entry Point
+
+The user interface level in an ASP.NET MVC application is the entry point for the application. This project must refer to the Core project, and its types must interact with the data layer strictly through the interfaces defined in Core. Direct creation or static calls for user-level data types are not allowed at the user interface level.
 
 * **module.manifest** Contains various attributes describing the module and its content.
 * **module.ignore** Contains a list of files which should be excluded from the resulting module package. This is useful if your module depends on some other module and you don't want files which are already included in that module to be duplicated in your module.
 * **Module.cs** Contains a class which is responsible for the server side library initialization.
 * Content
   * css
-    * **ManagedModule1.css** Contains a style sheet for the Hello World blade.
+    * **managed-module1.css** Contains a style sheet for the Hello World blade.
   * **help** This folder contains files required for a help page which is displayed after generating the project from template. You can safely delete this folder.
 * Controllers
   * Api
@@ -79,10 +99,10 @@ After clickong OK button you will have the following project:
 * Scripts
   * **ManagedModule1.js** Contains an AngularJS module definition.
   * blades
-    * **helloWorld_blade1.js** Contains an AngularJS controller for the Hello World blade.
-    * **helloWorld_blade1.tpl.html** Contains a markup for the Hello World blade.
+    * **hello-world.js** Contains an AngularJS controller for the Hello World blade.
+    * **hello-world.html** Contains a markup for the Hello World blade.
   * resources
-    * **ManagedModule1Api.js** Contains definitions for the resources (services) available inside AngularJS module.
+    * **managed-module1-api.js** Contains definitions for the resources (services) available inside AngularJS module.
 
 ### Running the module
 
@@ -90,7 +110,8 @@ If ManagedModule1 folder is not located under Manager's ~/Modules virtual direct
 
 1. Run Command Prompt as an administrator
 2. Navigate to the physical location folder of Manager's ~/Modules virtual directory
-3. Run the following command: 
+3. Run the following command:
+
 ```
 mklink /d ManagedModule1 <full_path_to_ManagedModule1_project>
 ```

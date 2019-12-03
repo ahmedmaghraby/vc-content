@@ -26,7 +26,7 @@ Install-WindowsFeature -name Web-Server -IncludeAllSubFeature
 * [Microsoft SQL Server 2008 or later](https://www.microsoft.com/en-us/evalcenter/evaluate-sql-server-2017-rtm) with SQL Management Studio(free MS SQL Express would be enough)
 * [Visual C++ Redistributable Packages for Visual Studio](https://go.microsoft.com/fwlink/?LinkId=746572)
 * [Prerequisites for .NET Core on Windows](https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites)
-* [.NET Core Runtime](https://dotnet.microsoft.com/download)
+* [.NET Core Runtime v2.2.0](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-2.2.0-windows-hosting-bundle-installer)
 
 ## Initial configuration of VirtoCommerce Platform (backend)
 
