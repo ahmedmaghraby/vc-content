@@ -62,7 +62,7 @@ Create project by using our template as follows:
 
 ![Virto Commerce Module Template](../../../../assets/images/docs/project-template.png)
 
-### Module project structure and content
+### Module solution structure and content
 
 After clicking OK button you will have the following solution:
 
