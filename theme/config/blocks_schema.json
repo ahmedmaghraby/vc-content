@@ -1440,6 +1440,10 @@
 			  {
 				"value": "bySize",
 				"label": "By size"
+			  },
+			  {
+				"value": "portrait",
+				"label": "Portrait"
 			  }
 			],
 			"default": "stretch"
@@ -3417,8 +3421,8 @@
     ]
   },
   "technologies-list": {
-	"name": "technologies-list",
-	"icon": "Technologies List",
+	"name": "Technologies List",
+	"icon": "category",
 	"settings": [
 	{
         "id": "style",
@@ -3493,6 +3497,341 @@
                 }
             ]
         }
+    ]
+  },
+  "text-over-image-test": {
+    "name": "Text over image (test)",
+    "icon": "image-text",
+    "displayField": "name",
+    "settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Text over image",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "description",
+        "label": "Description",
+        "type": "string",
+        "default": ""
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://vcpro.blob.core.windows.net/blogs/agiledefinitionheader.png" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "url1",
+        "label": "Link",
+        "type": "url",
+        "textLabel": "Text",
+        "styleLabel": "Link style",
+        "styles": [
+          {
+            "value": "btn--orange",
+            "label": "Orange button"
+          },
+          {
+            "value": "btn--white",
+            "label": "White button"
+          }
+        ]
+      },
+      {
+        "id": "noTop",
+        "label": "Remove top margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noBottom",
+        "label": "Remove bottom margin",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      },
+      {
+        "id": "noPad",
+        "label": "Remove paddings",
+        "type": "checkbox",
+        "tab": "Settings",
+        "default": false
+      }
+    ]
+  },
+  "case-study-info": {
+	"id": "caseStudyInfo",
+	"name": "Case study info",
+	"icon": "image-text",
+	"settings": [
+		{
+			"id": "image",
+			"label": "Upload picture",
+			"type": "image"
+		},
+		{
+			"id": "description",
+			"label": "Description",
+			"type": "string"
+		},
+		{
+			"id": "occupation",
+			"label": "Occupation",
+			"type": "string"
+		},
+		{
+			"id": "country",
+			"label": "Country",
+			"type": "string"
+		},
+		{
+			"id": "sourceLink",
+			"label": "Link",
+			"type": "url",
+			"textLabel": "Text",
+          	"styles": []
+		}
+	]
+  },
+  "case-study-solution": {
+    "id": "caseStudySolution",
+    "name": "Case study solution",
+    "icon": "image-text",
+    "settings": [
+      {
+        "id": "sections",
+        "label": "Sections",
+        "type": "list",
+        "addText": "Add field",
+        "removeText": "Remove field",
+        "displayField": "title",
+        "element": [
+		  {
+            "id": "titleStyle",
+            "label": "Title style",
+            "type": "select",
+            "default": "visible",
+            "options": [
+              {
+                "value": "visible",
+              	"label": "Visible"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "id": "title",
+            "label": "Title",
+            "type": "string"
+          },
+          {
+            "id": "text",
+            "label": "Text",
+            "type": "string"
+          },
+          {
+			"id": "image",
+			"label": "Upload picture",
+			"type": "image"
+		  },
+          {
+            "id": "imagePosition",
+            "label": "Image position",
+			"default": "top",
+            "type": "select",
+            "options": [
+				{
+					"value": "top",
+					"label": "Top"
+				},
+				{
+					"value": "float-left",
+					"label": "Float left"
+				},
+				{
+					"value": "bottom-float-left",
+					"label": "Bottom float left"
+				}
+            ]
+          },
+		  {
+			"id": "country",
+			"label": "Country",
+			"type": "string"
+		  },
+		  {
+			"id": "sourceLink",
+			"label": "Link",
+			"type": "url",
+			"textLabel": "Text",
+          	"styles": []
+		  },
+          {
+            "id": "footerContent",
+            "label": "Footer content",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "case-study-form": {
+	"id": "caseStudyForm",
+	"name": "Case study form",
+	"icon": "image-text",
+	"settings": [
+      {
+        "id": "name",
+        "label": "Block name",
+        "type": "string",
+        "default": "Form Case Study",
+        "tab": "Settings"
+      },
+      {
+        "id": "title",
+        "label": "Title",
+        "type": "string",
+        "default": "Block title",
+        "autofocus": true
+      },
+      {
+        "id": "image",
+        "label": "Upload picture",
+        "type": "image",
+        "default": { "url": "https://img2.goodfon.ru/original/1440x900/8/3d/sova-vzglyad-belyy-white.jpg" },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+      {
+        "id": "logo",
+        "label": "Header logo",
+        "type": "image",
+        "default": { "url": null },
+        "previewWidth": 120,
+        "previewHeight": 80
+      },
+	  {
+		"id": "color",
+		"label": "Color",
+		"type": "select",
+		"default": "none",
+		"options": [
+			{
+              "value": "none",
+              "label": "None"
+            },
+			{
+				"value": "blue",
+				"label": "Blue"
+			},
+			{
+				"value": "brown",
+				"label": "Brown"
+			},
+			{
+				"value": "lime",
+				"label": "Lime"
+			}
+		]
+	  },
+      {
+        "id": "formFields",
+        "label": "Form",
+        "type": "list",
+        "addText": "Add field",
+        "removeText": "Remove field",
+        "displayField": "labelText",
+        "element": [
+          {
+            "id": "fieldName",
+            "label": "Field name",
+            "type": "string"
+          },
+          {
+            "id": "fieldId",
+            "label": "Field ID",
+            "type": "string"
+          },
+          {
+            "id": "fieldType",
+            "label": "fieldType",
+            "type": "select",
+            "options": [
+              {
+                "value": "text",
+                "label": "Text"
+              },
+              {
+                "value": "checkbox",
+                "label": "Checkbox"
+              },
+              {
+                "value": "hidden",
+                "label": "Hidden"
+              }
+            ]
+          },
+          {
+            "id": "labelText",
+            "label": "Label text",
+            "type": "text"
+          },
+          {
+            "id": "data",
+            "label": "Additional data",
+            "type": "string"
+          },
+          {
+            "id": "required",
+            "label": "Required field",
+            "type": "checkbox"
+          }
+        ],
+        "default": [
+          {
+            "fieldName": "fullname",
+            "fieldId": "fullname",
+            "fieldType": "text",
+            "labelText": "Full name"
+          },
+          {
+            "fieldName": "email",
+            "fieldId": "email",
+            "fieldType": "text",
+            "labelText": "Email"
+          },
+          {
+            "fieldName": "agree",
+            "fieldId": "agree",
+            "fieldType": "checkbox",
+            "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+          }
+        ],
+        "tab": "Form"
+      },
+      {
+        "id": "submitButtonText",
+        "label": "Submit button text",
+        "type": "string",
+        "tab": "Form",
+        "default": "Download Case Study"
+      }
     ]
   }
 }

@@ -82,15 +82,3 @@ input.ng-touched.ng-invalid, .input-validation-error
 {
     border-color: #E32636 !important;
 }
-
-@media (max-width: 991px) {
-    #lavazza-col {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    #lavazza-col {
-        margin-top: -7.5rem;
-    }
-}

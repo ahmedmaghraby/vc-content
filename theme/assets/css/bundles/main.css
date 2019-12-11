@@ -5313,6 +5313,14 @@ code {
     margin-top: 0;
 }
 
+.section__descr--container {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 .section a.link-large {
     font-size: 1.5rem;
     font-weight: 900;
@@ -5326,6 +5334,29 @@ code {
     max-width: 41.25rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section__info--container {
+    padding: 4rem;
+}
+
+.section__info .container-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767.98px) {
+    .section__info .container-title {
+        font-size: 19.5px;
+        line-height: 23px;
+    }
+
+    .section__info .section__descr--container {
+        font-size: 16px;
+    }
 }
 
 .section__num {
@@ -5538,6 +5569,107 @@ code {
 
 .section .section__content-header .btn {
     margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .section .section__casestudy img {
+        float: left;
+    }
+
+    .section .section__casestudy .section__descr {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section .section__casestudy img {
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .section .section__casestudy .section__descr {
+        margin-left: 0;
+    }
+}
+
+.section .section__casestudy .section__descr .description {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.section .section__casestudy .section__descr .info .occupation {
+    color: #AAAAAA;
+}
+
+.section .section__casestudy a {
+    color: #374198;
+}
+
+.section .section__casestudy-solution a {
+    color: #374198;
+}
+
+.section .section__casestudy-solution .list__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section .section__casestudy-solution .no-title-section {
+    margin-top: 3rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--top {
+    margin-bottom: 1rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--float-left {
+    float: left;
+    margin-right: 2.5rem;
+    margin-bottom: 6.75rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--bottom-float-left {
+    float: left;
+    margin-right: 2.5rem;
+}
+
+.section .section__casestudy-header .col-lg-6 {
+    margin-right: 5rem;
+}
+
+.section .section__casestudy-header .col-lg-6 .section__t {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.section .section__casestudy-header .col-lg-6 .section__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media (min-width: 576px) {
+    .section .section__casestudy-header .col-lg-5 {
+        margin-top: -7.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section .section__casestudy-header .col-lg-5 {
+        margin-top: 0;
+    }
+}
+
+.section .section__casestudy-header .col-lg-5 form {
+    margin-bottom: 0;
 }
 
 .section .form-helper-holder {
@@ -7455,18 +7587,6 @@ code {
 
 input.ng-touched.ng-invalid, .input-validation-error {
     border-color: #E32636 !important;
-}
-
-@media (max-width: 991px) {
-    #lavazza-col {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    #lavazza-col {
-        margin-top: -7.5rem;
-    }
 }
 
 .glossary {
@@ -9407,7 +9527,7 @@ textarea {
     -ms-flex: 0;
     flex: 0;
     height: auto;
-    margin: 1.25rem 0 0 0;
+    margin: 1.25rem 0 1.25rem 0;
 }
 
 .list--cards .list__pic {
@@ -9423,6 +9543,14 @@ textarea {
     margin-bottom: 1.25rem;
 }
 
+.list--cards .list__t--portrait {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 1rem;
+}
+
 .list--cards .list__descr {
     color: #b3b7d0;
     font-size: .875rem;
@@ -9435,6 +9563,17 @@ textarea {
     font-size: 16px;
     line-height: 24px;
     color: #0C1015;
+}
+
+.list--cards .list__descr .portrait-content {
+    color: #0C1015;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    float: right;
+    margin-left: 1rem;
 }
 
 .list--cards .btn {
