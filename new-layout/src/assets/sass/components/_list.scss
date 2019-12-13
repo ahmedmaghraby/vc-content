@@ -380,6 +380,21 @@
                 font-size: 3.75rem;
                 font-weight: 900;
             }
+
+            &--circle
+            {
+                &::after
+                {
+                    font-size: 1.35rem;
+                    width: 44px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    border: 3px solid #FF9A05;
+                    color: #FF9A05;
+                    padding: 0.5rem 0.5rem 0.5rem 0.85rem;
+                    margin-bottom: 1rem;
+                }
+            }
         }
 
         .list__descr
@@ -413,6 +428,11 @@
         {
             display: flex;
             margin: 0 -.9375rem;
+
+            @include media-breakpoint-down(lg)
+            {
+                display: block;
+            }
         }
 
         .list__sidebar
@@ -424,6 +444,11 @@
             .list__item
             {
                 padding: 0 .9375rem;
+
+                @include media-breakpoint-down(lg)
+                {
+                    padding: 0 .9375rem .9375rem;
+                }
             }
 
             .list__item ~ .list__item

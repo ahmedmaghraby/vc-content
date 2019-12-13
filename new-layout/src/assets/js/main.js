@@ -164,10 +164,43 @@ $(function (){
         });
     }
 
+    var replatformFormV2 = $('#replatform-form-v2');
+    if (replatformFormV2.length) {
+
+        replatformFormV2.submit(function (event) {
+            event.preventDefault();
+            if (!this.agree.checked) {
+                $('#agree-error').parent().show();
+                return;
+            }
+            else
+                $('#agree-error').parent().hide();
+
+            if (this.checkValidity()) {
+                this.requestSubmit();
+                location.reload();
+            }
+        });
+
+        $(document).on('change', '#replatform-form input[name="fullname"]', function () {
+            var value = $(this).val().trim();
+            var firstName = value;
+            var lastName = '';
+            var index = value.indexOf(' ');
+            if (index !== -1) {
+                firstName = value.substring(0, index);
+                lastName = value.substring(index + 1);
+            }
+            var form = $(this).closest('form').get(0);
+            form.firstname.value = firstName;
+            form.lastname.value = lastName;
+        });
+    }
+
     function caseStudyFormHandler(formSelector, caseStudyRedirectUrl) {
-        var lavazzaForm = $(formSelector);
-        if (lavazzaForm.length) {
-            lavazzaForm.submit(function (event) {
+        var form = $(formSelector);
+        if (form.length) {
+            form.submit(function (event) {
                 event.preventDefault();
                 if (!this.agree.checked) {
                     $('#agree-error').parent().show();
@@ -185,7 +218,31 @@ $(function (){
     caseStudyFormHandler('#lavazza-form', '/case-studies/lavazza');
     caseStudyFormHandler('#standaard-boekhandel-form', '/case-studies/standaard-boekhandel');
     caseStudyFormHandler('#de-klok-form', '/case-studies/deklok');
-	
+
+    var pos = 0;
+    var containers = $('.section__gallery .container');
+
+    function showAnimation() {
+        containers.eq(pos).hide();
+        containers.eq(++pos).show();
+        containers.eq(pos).animate({ opacity: 1 }, 1000);
+
+        if (pos >= containers.length) {
+            pos = 0;
+            containers.eq(containers.length).hide();
+            containers.eq(pos).show();
+            containers.eq(pos).animate({ opacity: 1 }, 1000);
+        }
+    }
+
+    function hideAnimation() {
+        containers.eq(pos).animate({ opacity: 0 }, 1000, showAnimation);
+    }
+
+    if (containers.length > 1) {
+        setInterval(hideAnimation, 5000);
+    }
+
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
 	//  utm_term=--Asset Type--&

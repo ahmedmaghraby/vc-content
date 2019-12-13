@@ -504,6 +504,63 @@
         }
     }
 
+    .section__gallery
+    {
+        overflow: hidden;
+        text-align: left;
+
+        .container
+        {
+            display: none;
+            opacity: 0;
+
+            img
+            {
+                @include media-breakpoint-up(xl)
+                {
+                    float: right;
+                    margin-right: 5rem;
+                    transform: translateY(-100%);
+                }
+
+                @include media-breakpoint-down(lg)
+                {
+                    display: block;
+                    margin: 2rem auto 0 auto;
+                }
+            }
+
+            .title
+            {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 1.25rem;
+            }
+
+            .description
+            {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+
+                @include media-breakpoint-up(xl)
+                {
+                    width: 30rem;
+                }
+            }
+        }
+
+        .container:first-child
+        {
+            display: block;
+            opacity: 1;
+        }
+    }
+
+
 	.form-helper-holder {
 		margin: .375rem 0 .75rem 0;
 		a {
@@ -1536,6 +1593,14 @@
                 background-color: #4F9E34;
             }
         }
+
+        &.shadow
+        {
+            &::before
+            {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+        }
     }
 
     .section__animate
@@ -1696,9 +1761,18 @@
 
         .btn
         {
-            font-size: 1.25rem;
             font-weight: 900;
             height: 3.125rem;
+
+            @include media-breakpoint-up(xl)
+            {
+                font-size: 1.25rem;
+            }
+
+            @include media-breakpoint-down(lg)
+            {
+                font-size: 1rem;
+            }
         }
 
         .thanks
