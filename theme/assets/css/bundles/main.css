@@ -5313,6 +5313,14 @@ code {
     margin-top: 0;
 }
 
+.section__descr--container {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 .section a.link-large {
     font-size: 1.5rem;
     font-weight: 900;
@@ -5326,6 +5334,29 @@ code {
     max-width: 41.25rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section__info--container {
+    padding: 4rem;
+}
+
+.section__info .container-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767.98px) {
+    .section__info .container-title {
+        font-size: 19.5px;
+        line-height: 23px;
+    }
+
+    .section__info .section__descr--container {
+        font-size: 16px;
+    }
 }
 
 .section__num {
@@ -5538,6 +5569,159 @@ code {
 
 .section .section__content-header .btn {
     margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .section .section__casestudy img {
+        float: left;
+    }
+
+    .section .section__casestudy .section__descr {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section .section__casestudy img {
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .section .section__casestudy .section__descr {
+        margin-left: 0;
+    }
+}
+
+.section .section__casestudy .section__descr .description {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.section .section__casestudy .section__descr .info .occupation {
+    color: #AAAAAA;
+}
+
+.section .section__casestudy a {
+    color: #374198;
+}
+
+.section .section__casestudy-solution a {
+    color: #374198;
+}
+
+.section .section__casestudy-solution .list__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section .section__casestudy-solution .no-title-section {
+    margin-top: 3rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--top {
+    margin-bottom: 1rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--float-left {
+    float: left;
+    margin-right: 2.5rem;
+    margin-bottom: 6.75rem;
+}
+
+.section .section__casestudy-solution .solution-section-image--bottom-float-left {
+    float: left;
+    margin-right: 2.5rem;
+}
+
+.section .section__casestudy-header .col-lg-6 {
+    margin-right: 5rem;
+}
+
+.section .section__casestudy-header .col-lg-6 .section__t {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.section .section__casestudy-header .col-lg-6 .section__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@media (min-width: 576px) {
+    .section .section__casestudy-header .col-lg-5 {
+        margin-top: -7.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section .section__casestudy-header .col-lg-5 {
+        margin-top: 0;
+    }
+}
+
+.section .section__casestudy-header .col-lg-5 form {
+    margin-bottom: 0;
+}
+
+.section .section__gallery {
+    overflow: hidden;
+    text-align: left;
+}
+
+.section .section__gallery .container {
+    display: none;
+    opacity: 0;
+}
+
+@media (min-width: 1200px) {
+    .section .section__gallery .container img {
+        float: right;
+        margin-right: 5rem;
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .section .section__gallery .container img {
+        display: block;
+        margin: 2rem auto 0 auto;
+    }
+}
+
+.section .section__gallery .container .title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 1.25rem;
+}
+
+.section .section__gallery .container .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (min-width: 1200px) {
+    .section .section__gallery .container .description {
+        width: 30rem;
+    }
+}
+
+.section .section__gallery .container:first-child {
+    display: block;
+    opacity: 1;
 }
 
 .section .form-helper-holder {
@@ -6458,14 +6642,29 @@ code {
 }
 
 .section--form.dark::before {
-    background: #0a2d4b;
+    opacity: .8;
     bottom: 0;
     content: ' ';
     left: 0;
-    opacity: .8;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.section--form.dark.blue::before {
+    background-color: #0a2d4b;
+}
+
+.section--form.dark.brown::before {
+    background-color: #763225;
+}
+
+.section--form.dark.lime::before {
+    background-color: #4F9E34;
+}
+
+.section--form.dark.shadow::before {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .section--form .section__animate {
@@ -6610,9 +6809,20 @@ code {
 }
 
 .section--form .form .btn {
-    font-size: 1.25rem;
     font-weight: 900;
     height: 3.125rem;
+}
+
+@media (min-width: 1200px) {
+    .section--form .form .btn {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .section--form .form .btn {
+        font-size: 1rem;
+    }
 }
 
 .section--form .form .thanks {
@@ -7444,18 +7654,6 @@ code {
 
 input.ng-touched.ng-invalid, .input-validation-error {
     border-color: #E32636 !important;
-}
-
-@media (max-width: 991px) {
-    #lavazza-col {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    #lavazza-col {
-        margin-top: -7.5rem;
-    }
 }
 
 .glossary {
@@ -9391,6 +9589,14 @@ textarea {
     width: calc(100% + 3.75rem);
 }
 
+.list--cards .list__img--by-size {
+    border-radius: 0;
+    -ms-flex: 0;
+    flex: 0;
+    height: auto;
+    margin: 1.25rem 0 1.25rem 0;
+}
+
 .list--cards .list__pic {
     border-radius: .625rem .625rem 0 0;
     display: block;
@@ -9404,10 +9610,37 @@ textarea {
     margin-bottom: 1.25rem;
 }
 
+.list--cards .list__t--portrait {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 1rem;
+}
+
 .list--cards .list__descr {
     color: #b3b7d0;
     font-size: .875rem;
     margin-bottom: 1.25rem;
+}
+
+.list--cards .list__descr p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C1015;
+}
+
+.list--cards .list__descr .portrait-content {
+    color: #0C1015;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    float: right;
+    margin-left: 1rem;
 }
 
 .list--cards .btn {
@@ -9489,6 +9722,17 @@ textarea {
     font-weight: 900;
 }
 
+.list--text .list__sidebar .list__num--circle::after {
+    font-size: 1.35rem;
+    width: 44px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid #FF9A05;
+    color: #FF9A05;
+    padding: 0.5rem 0.5rem 0.5rem 0.85rem;
+    margin-bottom: 1rem;
+}
+
 .list--text .list__sidebar .list__descr {
     font-size: 1.125rem;
     font-weight: 500;
@@ -9515,6 +9759,12 @@ textarea {
     margin: 0 -.9375rem;
 }
 
+@media (max-width: 1199.98px) {
+    .list--text.list--horizontal .list__sidebar-inner {
+        display: block;
+    }
+}
+
 .list--text.list--horizontal .list__sidebar {
     display: -ms-flexbox;
     display: flex;
@@ -9525,6 +9775,12 @@ textarea {
 
 .list--text.list--horizontal .list__sidebar .list__item {
     padding: 0 .9375rem;
+}
+
+@media (max-width: 1199.98px) {
+    .list--text.list--horizontal .list__sidebar .list__item {
+        padding: 0 .9375rem .9375rem;
+    }
 }
 
 .list--text.list--horizontal .list__sidebar .list__item ~ .list__item {

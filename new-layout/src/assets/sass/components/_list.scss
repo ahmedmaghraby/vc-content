@@ -233,6 +233,14 @@
         margin: -1px -1.875rem 1.25rem;
         overflow: hidden;
         width: calc(100% + 3.75rem);
+
+        &--by-size
+        {
+            border-radius: 0;
+            flex: 0;
+            height: auto;
+            margin: 1.25rem 0 1.25rem 0;
+        }
     }
 
     .list__pic
@@ -248,6 +256,15 @@
         font-size: 1.125rem;
         font-weight: bold;
         margin-bottom: 1.25rem;
+
+        &--portrait
+        {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 34px;
+            margin-top: 1rem;
+        }
     }
 
     .list__descr
@@ -255,6 +272,27 @@
         color: $gray-500;
         font-size: .875rem;
         margin-bottom: 1.25rem;
+
+        p
+        {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0C1015;
+        }
+
+        .portrait-content
+        {
+            color: #0C1015;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            float: right;
+            margin-left: 1rem;
+        }
     }
 
     .btn
@@ -342,6 +380,21 @@
                 font-size: 3.75rem;
                 font-weight: 900;
             }
+
+            &--circle
+            {
+                &::after
+                {
+                    font-size: 1.35rem;
+                    width: 44px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    border: 3px solid #FF9A05;
+                    color: #FF9A05;
+                    padding: 0.5rem 0.5rem 0.5rem 0.85rem;
+                    margin-bottom: 1rem;
+                }
+            }
         }
 
         .list__descr
@@ -375,6 +428,11 @@
         {
             display: flex;
             margin: 0 -.9375rem;
+
+            @include media-breakpoint-down(lg)
+            {
+                display: block;
+            }
         }
 
         .list__sidebar
@@ -386,6 +444,11 @@
             .list__item
             {
                 padding: 0 .9375rem;
+
+                @include media-breakpoint-down(lg)
+                {
+                    padding: 0 .9375rem .9375rem;
+                }
             }
 
             .list__item ~ .list__item

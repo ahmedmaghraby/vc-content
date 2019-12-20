@@ -1,0 +1,44 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+  <div class="section__inner section__casestudy-solution container">
+    <div class="section__t like-h2 section__t--left-alignment">Solution</div>
+    <div class="list list--columns row">
+      {% for section in block.sections %}
+      	{% if section.imagePosition == 'bottom-float-left' %}
+      		<div class="col-lg-6 {% if section.titleStyle == 'none' %}no-title-section{% endif %}">
+              	{% if section.titleStyle == 'visible' %}
+              		<div class="list__t">{{section.title}}</div>
+          		{% endif %}
+              	<div class="list__descr">
+                  <p>{{section.text}}</p>
+                  <p>&nbsp;</p>
+              	</div>
+              	<div>
+                  <img class="solution-section-image--bottom-float-left" src="{{section.image.url}}">
+                  <div>
+                    <p>{{section.country}}</p>
+                    <a href="{{section.sourceLink.url}}" target="_blank" class="">{{{section.sourceLink.urlText}}</a>
+                  </div>
+              </div>
+        	</div>
+      	{% else %}
+      		<div class="col-lg-6 {% if section.titleStyle == 'none' %}no-title-section{% endif %}">
+              <img class="solution-section-image--{{section.imagePosition}}" src="{{section.image.url}}" />
+              {% if section.titleStyle == 'visible' %}
+              	<div class="list__t">{{section.title}}</div>
+              {% endif %}
+              	<div class="list__descr">{{section.text}}</div>
+              	<div class="list__descr">{{section.footerContent}}</div>
+            </div>
+      	{% endif %}
+      	{% assign isEven = forloop.index | modulo: 2 %}
+        {% if isEven == 0 and forloop.last == false %}
+        <div class="section section--no-padding">
+            <svg class="section__inner container" width="1240" height="1" viewBox="0 0 1240 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1240" height="1" fill="#E1E1E1" />
+            </svg>
+        </div>
+      	{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

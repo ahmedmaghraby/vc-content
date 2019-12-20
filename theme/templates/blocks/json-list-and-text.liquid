@@ -7,9 +7,13 @@
         <div class="row list list--text {{ block.listPosition }} {{ block.listEnumType }}">
             <div class="list__sidebar col-md">
                 <ul class="list__sidebar-inner">
+                    {% assign elementsClass = 'list__num' %}
+                    {% if item.elementsStyle == 'orangeCircle' %}
+                        {% assign elementsClass = 'list__num list__num--circle' %}
+                    {% endif %}
                     {% for item in block.list %}
                     <li class="list__item col-md">
-                        <div class="list__num"></div>
+                        <div class="{{elementsClass}}"></div>
                         <div class="list__descr">{{ item.text }}</div>
                     </li>
                     {% endfor %}

@@ -85,6 +85,15 @@
         {
             margin-top: 0;
         }
+
+        &--container
+        {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
     }
 
 	a.link-large
@@ -103,6 +112,34 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+        &--container
+        {
+            padding: 4rem;
+        }
+
+        & .container-title
+        {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+
+        @include media-breakpoint-down(sm)
+        {
+            & .container-title
+            {
+                font-size: 19.5px;
+                line-height: 23px;
+            }
+
+            .section__descr--container
+            {
+                font-size: 16px;
+            }
+        }
     }
 
     &__num
@@ -327,6 +364,202 @@
             }
         }
     }
+
+    .section__casestudy
+    {
+        @include media-breakpoint-up(sm)
+        {
+            img
+            {
+                float: left;
+            }
+
+	        .section__descr
+            {
+                margin-left: 10rem;
+	        }
+        }
+
+         @include media-breakpoint-down(sm)
+         {
+            img
+            {
+                float: none;
+                margin-bottom: 1rem;
+            }
+
+            .section__descr
+            {
+                margin-left: 0;
+	        }
+         }
+
+        .section__descr
+        {
+            .description
+            {
+                margin-bottom: 1rem;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 28px;
+                line-height: 42px;
+            }
+
+            .info
+            {
+                .occupation
+                {
+                    color: #AAAAAA;
+                }
+            }
+        }
+
+        a
+        {
+            color: #374198;
+        }
+    }
+
+    .section__casestudy-solution
+    {
+        a
+        {
+            color: #374198;
+        }
+
+        .list__descr
+        {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .no-title-section
+        {
+            margin-top: 3rem;
+        }
+
+        .solution-section-image
+        {
+            &--top
+            {
+                margin-bottom: 1rem;
+            }
+
+            &--float-left
+            {
+                float: left;
+                margin-right: 2.5rem;
+                margin-bottom: 6.75rem;
+            }
+
+            &--bottom-float-left
+            {
+                float: left;
+                margin-right: 2.5rem;
+            }
+        }
+    }
+
+    .section__casestudy-header
+    {
+        .col-lg-6
+        {
+            margin-right: 5rem;
+
+            .section__t
+            {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 40px;
+            }
+
+            .section__descr
+            {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+
+        .col-lg-5
+        {
+            @include media-breakpoint-up(sm)
+            {
+	            margin-top: -7.5rem;
+            }
+
+            @include media-breakpoint-down(sm)
+            {
+	            margin-top: 0;
+            }
+
+            form
+            {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .section__gallery
+    {
+        overflow: hidden;
+        text-align: left;
+
+        .container
+        {
+            display: none;
+            opacity: 0;
+
+            img
+            {
+                @include media-breakpoint-up(xl)
+                {
+                    float: right;
+                    margin-right: 5rem;
+                    transform: translateY(-100%);
+                }
+
+                @include media-breakpoint-down(lg)
+                {
+                    display: block;
+                    margin: 2rem auto 0 auto;
+                }
+            }
+
+            .title
+            {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 1.25rem;
+            }
+
+            .description
+            {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+
+                @include media-breakpoint-up(xl)
+                {
+                    width: 30rem;
+                }
+            }
+        }
+
+        .container:first-child
+        {
+            display: block;
+            opacity: 1;
+        }
+    }
+
 
 	.form-helper-holder {
 		margin: .375rem 0 .75rem 0;
@@ -1328,14 +1561,45 @@
 
         &::before
         {
-            background: #0a2d4b;
+            opacity: .8;
             bottom: 0;
             content: ' ';
             left: 0;
-            opacity: .8;
             position: absolute;
             right: 0;
             top: 0;
+        }
+
+        &.blue
+        {
+            &::before
+            {
+                background-color: #0a2d4b;
+            }
+        }
+
+        &.brown
+        {
+            &::before
+            {
+                background-color: #763225;
+            }
+        }
+
+        &.lime
+        {
+            &::before
+            {
+                background-color: #4F9E34;
+            }
+        }
+
+        &.shadow
+        {
+            &::before
+            {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
         }
     }
 
@@ -1497,9 +1761,18 @@
 
         .btn
         {
-            font-size: 1.25rem;
             font-weight: 900;
             height: 3.125rem;
+
+            @include media-breakpoint-up(xl)
+            {
+                font-size: 1.25rem;
+            }
+
+            @include media-breakpoint-down(lg)
+            {
+                font-size: 1rem;
+            }
         }
 
         .thanks
