@@ -7337,7 +7337,7 @@ code {
 }
 
 .docs .nav__item--active > .nav__link {
-    color: #43b0e6;
+    color: #ff9a05;
 }
 
 .docs .nav__item--active > .nav__link .nav__icon {
@@ -7686,16 +7686,16 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin-top: 1.25rem;
 }
 
-.glossary .nav__item--active > .nav__link {
+.glossary .nav__item > .nav__link.selected {
     color: #ff9a05;
 }
 
-.glossary .nav__item--active > .nav__link .nav__icon {
+.glossary .nav__item > .nav__link.selected .nav__icon {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.glossary .nav__item--active > .nav__link .path {
+.glossary .nav__item > .nav__link.selected .path {
     fill: #ff9a05;
 }
 
