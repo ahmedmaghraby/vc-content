@@ -59,9 +59,9 @@
     {% include 'form-support-vendor' %}
     {% include 'form-thank-you' %}
     {% include 'getting-started' %}
-    {% assign menu = linklists.main-menu %}
+    {% assign menu = linklists['main-menu'] %}
     {% if isAppsStore %}
-    {% assign menu = linklists.apps-menu %}
+    {% assign menu = linklists['apps-menu'] %}
     {% endif %}
     <div id="layout">
         <div class="layout-canvas">

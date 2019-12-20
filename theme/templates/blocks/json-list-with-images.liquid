@@ -1,7 +1,10 @@
-<div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop != null and block.noTop %} section--small-top {% endif %}
+     {% if block.noBottom != null and block.noBottom %} section--small-bottom {% endif %}
+     {% if block.noPad != null and block.noPad %} section--no-padding {% endif %}">
     <div class="section__inner container">
-        {% include 'blocks/block-title', block %}
-        {% if block.intro != blank %}
+        {% include 'blocks/block-title' block: block %}
+        {% if block.intro != '' %}
         <div class="section__descr">
             {{ block.intro }}
         </div>
@@ -9,16 +12,16 @@
         <div class="list list--columns row">
             {% for item in block.items %}
             <div class="list__item {{ block.colStyle }}">
-                {% if item.image != blank and item.image.url != blank %}
+                {% if item.image != null and item.image.url != '' %}
                 <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" class="list__icon {{ item.iconStyle }} {{ item.iconAlign }}">
                 {% endif %}
-                {% if item.title != blank %}
+                {% if item.title != '' %}
                 <div class="list__t">{{ item.title }}</div>
-                {% endif %}
-                {% if item.text != blank %}
-                <div class="list__descr">
+                    {% endif %}
+                    {% if item.text != '' %}
+                    <div class="list__descr">
                     {{ item.text }}
-                    {% if item.url != blank and item.url.urlText != blank %}
+                    {% if item.url != '' and item.url.urlText != '' %}
                     <a href="{{ item.url.url }}" class="{{ item.url.style }}">{{ item.url.urlText }}</a>
                     {% endif %}
                 </div>
@@ -28,8 +31,3 @@
         </div>
     </div>
 </div>
-
-{% comment %}
-
-
-{% endcomment %}

@@ -50,7 +50,7 @@ tags :
         <p class="text">
             If you see a potential issue with this like we do, we would love to explore some Salesforce Commerce Cloud alternatives.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/demandware-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/demandware-alternatives' %}
         <div class="section-title">Magento </div>
         <div class="row">
             <div class="col-md-4">
@@ -96,7 +96,7 @@ tags :
         <p class="text">
             Pricing is way lower when compared to the e-commerce giants like Shopify or Volusion, which makes it easier for small businesses to handle. Starter plan costs $8 per month with a 3% transaction fee from every sale. With this plan, you will have enough features to create a web store for a small business with the ability to upload 10 product listings.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/demandware-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/demandware-alternatives' %}
         <div class="section-title">Virto Commerce</div>
         <div class="row">
             <div class="col-md text">
@@ -113,7 +113,7 @@ tags :
             When using Virto Commerce as an alternative to Demandware you will be able to enjoy its agile features and great customer support. Scale up your market outreach in no time without needing to hire a single IT professional. All this puts Virto Commerce among the leaders on the market making it stand out from the other Demandware competitors.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 1789 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.6, ratingCount: 1789 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

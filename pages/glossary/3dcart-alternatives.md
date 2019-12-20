@@ -50,7 +50,7 @@ tags :
         <p class="text">
             If this looks like it might be an issue for your business, have a look at some of the most prominent 3dcart alternatives.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/3dcart-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/3dcart-alternatives' %}
         <div class="section-title">Shopify</div>
         <div class="row">
             <div class="col-md-4">
@@ -86,7 +86,7 @@ tags :
         <p class="text">
             Just like other large ecommerce platforms (like Shopify and such), this one comes with a large price tag. There are also a lot of add-on fees that can sum up to a noticeable amount of money to pay for a small business owner.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/3dcart-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/3dcart-alternatives' %}
         <div class="section-title">Virto Commerce</div>
         <div class="row">
             <div class="col-md-4">
@@ -104,7 +104,7 @@ tags :
             While there is no perfect universal eCommerce solution, we have presented you with some that are considered to be the best on the market. During your search for an ecommerce solution, always shoot for the 3dcart alternative that is going to be well-suited for your business.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4, ratingCount: 485 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

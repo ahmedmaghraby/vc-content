@@ -11,8 +11,8 @@
         </form>
         <p>... or follow the events on <br />social networks</p>
         <div class="list list--socials">
-            {% if article != blank %}
-            {% include 'blog-socials', article: article %}
+            {% if article != nil %}
+            {% include 'blog-socials' article: article %}
             {% else %}
             {% include 'blog-social-links' %}
             {% endif %}

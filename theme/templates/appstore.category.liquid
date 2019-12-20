@@ -3,23 +3,22 @@
 <div class="apps">
     <div class="container">
         {% include 'breadcrumb' %}
-        {% paginate collection.products by 30 %}
-            <div class="apps__items">
-                <div class="apps__items-t">
-                    <h1>{{ collection.title }}</h1>
-                </div>
-                <div class="list list--cards row">
-                        {% assign products = collection.products | sort: 'title' %}
-
-                        {% for product in products %}
-                            {% include 'grid-item' %}
-                        {% endfor %}
-                </div>
-
-                {% if paginate.pages > 1 %}
-                    {% include 'pagination-custom' %}
-                {% endif %}
+        {{ paginator = collection.products | paginate 30 }}
+        <div class="apps__items">
+            <div class="apps__items-t">
+                <h1>{{ collection.title }}</h1>
             </div>
-        {% endpaginate %}
+            <div class="list list--cards row">
+                    {% assign products = collection.products | sort_list: 'title' %}
+
+                    {% for product in products %}
+                        {% include 'grid-item' %}
+                    {% endfor %}
+            </div>
+
+            {% if paginator.pages > 1 %}
+                {% include 'pagination-custom' %}
+            {% endif %}
+        </div>
     </div>
 </div>

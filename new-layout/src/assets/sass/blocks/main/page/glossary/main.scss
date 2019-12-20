@@ -27,23 +27,20 @@
             margin-top: 1.25rem;
         }
 
-        &--active
-        {
-            > .nav__link
-            {
-                color: $orange;
+		> .nav__link.selected
+		{
+			color: $orange;
 
-                .nav__icon
-                {
-                    transform: rotate(90deg);
-                }
+			.nav__icon
+			{
+				transform: rotate(90deg);
+			}
 
-                .path
-                {
-                    fill: $orange;
-                }
-            }
-        }
+			.path
+			{
+				fill: $orange;
+			}
+		}
 
         &--dropdown
         {

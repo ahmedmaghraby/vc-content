@@ -45,6 +45,8 @@
     {% include 'autopilot' %}
 </head>
 <body ng-controller="docsController">
+    {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort_list: 'url' %}
+    {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
     {% include 'google-tag-manager-body' %}
     {% if can_track %}
     {% include 'gdpr-cookie-compliance' %}
@@ -59,9 +61,9 @@
     {% include 'form-support-vendor' %}
     {% include 'form-thank-you' %}
     {% include 'getting-started' %}
-    {% assign menu = linklists.main-menu %}
+    {% assign menu = linklists['main-menu'] %}
     {% if isAppsStore %}
-    {% assign menu = linklists.apps-menu %}
+    {% assign menu = linklists['apps-menu'] %}
     {% endif %}
     <div id="layout">
         <div class="layout-canvas">
@@ -97,7 +99,7 @@
                                         <span class="docs-contributors__author-img" style="background-image: url('/assets/images/logo-mini.png');"></span>
                                     </a>
                                     <div class="docs-contributors__date">
-                                        Updated: <span itemprop="datePublished">{{ page.published_at | date: '%m/%d/%Y %I:%M %p' }}</span>
+                                        Updated: <span itemprop="datePublished">{{ page.published_at | date: '%M/%d/%y %h:%mm %t\\M' }}</span>
                                     </div>
                                     <div class="docs-contributors__t">Contributors:</div>
                                     <div ng-if="authors" class="list list--contributors">
@@ -129,7 +131,7 @@
                             {{ content_for_layout }}
                             {% if template != 'search' %}
                             <div id="topics">
-                                {% include 'docs-topics', docs_tree: docs_tree %}
+                                {% include 'docs-topics' docs_tree: docs_tree %}
                                 {% include 'disqus' %}
                             </div>
                             {% endif %}

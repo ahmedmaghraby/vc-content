@@ -1,36 +1,16 @@
-{% if page.url contains 'glossary/what-is-b2b-ecommerce' or
-      page.url contains 'glossary/b2b-ecommerce-companies-websites' or
-      page.url contains 'glossary/b2b-ecommerce-trends' or
-      page.url contains 'glossary/b2c-ecommerce-b2b2c' or
-      page.url contains 'glossary/punchout-catalog' or
-      page.url contains 'glossary/what-is-b2c-ecommerce' or
-      page.url contains 'glossary/e-procurement-software'
-%}
+{% if page.url contains 'glossary/what-is-b2b-ecommerce' or page.url contains 'glossary/b2b-ecommerce-companies-websites' or page.url contains 'glossary/b2b-ecommerce-trends' or page.url contains 'glossary/b2c-ecommerce-b2b2c' or page.url contains 'glossary/punchout-catalog' or page.url contains 'glossary/what-is-b2c-ecommerce' or page.url contains 'glossary/e-procurement-software' %}
     <li class="nav__item">
         <a href="/b2b-ecommerce-platform" onClick="ga('send', 'event', { eventCategory: 'b2b-ecommerce-platform_redirect', eventAction: 'vertical-b2b_b2c-banner_click', eventLabel: 'b2b-ecommerce'});">
             <img style="height:100%;width:100%;" src="assets/images/vc-b2b_b2c-vertical-banner.jpg" />
         </a>
     </li>
-{% elsif page.url contains 'glossary/how-to-calculate-safety-stock' or
-         page.url contains 'glossary/what-is-backorder' or
-         page.url contains 'glossary/what-is-a-dead-stock' or
-         page.url contains 'glossary/what-is-sku'
-%}
+{% elsif page.url contains 'glossary/how-to-calculate-safety-stock' or page.url contains 'glossary/what-is-backorder' or page.url contains 'glossary/what-is-a-dead-stock' or page.url contains 'glossary/what-is-sku' %}
     <li class="nav__item">
         <a href="/order-management-software" onClick="ga('send', 'event', { eventCategory: 'order-management-software_redirect', eventAction: 'vertical-magento-banner_click', eventLabel: 'order-management'});">
             <img style="height:100%;width:100%;" src="assets/images/vc-magento-vertical-banner.jpg" />
         </a>
     </li>
-{% elsif page.url contains 'glossary/magento-alternatives' or
-         page.url contains 'glossary/best-ecommerce-platforms' or
-         page.url contains 'glossary/shopify-alternatives' or
-         page.url contains 'glossary/nopcommerce-alternative' or
-         page.url contains 'glossary/elastic-path-alternatives' or
-         page.url contains 'glossary/znode-alternatives' or
-         page.url contains 'glossary/3dcart-alternatives' or
-         page.url contains 'glossary/demandware-alternatives' or
-         page.url contains 'glossary/episerver-alternatives'
-%}
+{% elsif page.url contains 'glossary/magento-alternatives' or page.url contains 'glossary/best-ecommerce-platforms' or page.url contains 'glossary/shopify-alternatives' or page.url contains 'glossary/nopcommerce-alternative' or page.url contains 'glossary/elastic-path-alternatives' or page.url contains 'glossary/znode-alternatives' or page.url contains 'glossary/3dcart-alternatives' or page.url contains 'glossary/demandware-alternatives' or page.url contains 'glossary/episerver-alternatives' %}
     <li class="nav__item">
         <a href="#" onClick="ga('send', 'event', { eventCategory: 'mainPage_redirect', eventAction: 'vertical-magento-banner_click', eventLabel: 'main-page'});">
             <img style="height:100%;width:100%;" src="assets/images/vc-magento-vertical-banner.jpg" />

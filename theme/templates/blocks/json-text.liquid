@@ -1,21 +1,17 @@
-<div class="section {{ block.decorator }} {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+<div class="section {{ block.decorator }} {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop != null and block.noTop %} section--small-top {% endif %}
+     {% if block.noBottom != null and block.noBottom %} section--small-bottom {% endif %}
+     {% if block.noPad != null and block.noPad %} section--no-padding {% endif %}">
     <div class="section__inner container">
-        {% include 'blocks/block-title', block %}
+        {% include 'blocks/block-title' block: block %}
 
-        {% if block.content != blank %}
+        {% if block.content != '' %}
         <div class="section__descr">
             {{ block.content }}
         </div>
         {% endif %}
-        {% if block.url != blank and block.url.urlText != blank %}
+        {% if block.url != '' and block.url.urlText != '' %}
         <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
         {% endif %}
     </div>
 </div>
-
-{% comment %}
-
-{"id": "name","label": "Block name","type": "string","default": "Text"},
-{"id": "content","label": "Content","type": "text","default": "Lorem ipsum dolor sit amet, consectetur ..." }
-
-{% endcomment %}

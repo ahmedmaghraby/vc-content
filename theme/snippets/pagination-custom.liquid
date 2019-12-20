@@ -1,17 +1,17 @@
 <div class="list list--paging">
-  {% if paginate.previous %}
-    <a class="list__item list__item--prev" href="{{ paginate.previous.url }}" title="{{ paginate.previous.title }}">Prev</a>
-  {% endif %}
+  {% if paginator.previous %}
+    <a class="list__item list__item--prev" href="{{ paginator.previous.url }}" title="{{ paginator.previous.title }}">Prev</a>
+    {% endif %}
 
-  {% for part in paginate.parts %}
+    {% for part in paginator.parts %}
     {% if part.is_link %}
-        <a class="list__item" href="{{ part.url }}" title="">{{ part.title }}</a>
+    <a class="list__item" href="{{ part.url }}" title="">{{ part.title }}</a>
     {% else %}
         <span class="list__item list__item--active">{{ part.title }}</span>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
 
-  {% if paginate.next %}
-    <a class="list__item list__item--next" href="{{ paginate.next.url }}" title="{{ paginate.next.title }}">Next</a>
+    {% if paginator.next %}
+    <a class="list__item list__item--next" href="{{ paginator.next.url }}" title="{{ paginator.next.title }}">Next</a>
   {% endif %}
 </div>

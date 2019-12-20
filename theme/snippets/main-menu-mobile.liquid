@@ -1,13 +1,11 @@
 {% assign url_parts = page.url | split: '/' %}
-{% if url_parts contains 'docs' or search.search_in == '/docs' %}
+{% if (url_parts contains 'docs') or (search.search_in == '/docs') %}
     <form class="search" action="{{ '/content/search' | absolute_url }}" method="post">
         <input name="SearchIn" id="SearchIn" type="hidden" value="/docs">
         <input name="Layout" id="Layout" type="hidden" value="docs">
         <input name="Keyword" id="Keyword" type="search" placeholder="Search docs" required="required" value="{{ search.terms }}">
     </form>
-    {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'url' %}
-    {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
-    {% include 'docs-menu', docs_tree: docs_tree %}
+    
 {% else %}
     <div class="swipe__header">
         <div class="swipe__nav">

@@ -3,15 +3,15 @@
     <div class="list list--posts">
         {% if settings.blog_trending_article_url_1 %}
             {% assign article = blog.articles | where: 'Url', '==', settings.blog_trending_article_url_1 | first %}
-            {% include 'blog-list-item', article: article, style: "single" %}
+            {% include 'blog-list-item' article: article, style: "single" %}
         {% endif %}
         {% if settings.blog_trending_article_url_2 %}
             {% assign article = blog.articles | where: 'Url', '==', settings.blog_trending_article_url_2 | first %}
-            {% include 'blog-list-item', article: article, style: "single" %}
+            {% include 'blog-list-item' article: article, style: "single" %}
         {% endif %}
         {% if settings.blog_trending_article_url_3 %}
             {% assign article = blog.articles | where: 'Url', '==', settings.blog_trending_article_url_3 | first %}
-            {% include 'blog-list-item', article: article, style: "single" %}
+            {% include 'blog-list-item' article: article, style: "single" %}
         {% endif %}
     </div>
 </div>

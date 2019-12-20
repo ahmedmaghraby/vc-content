@@ -1,16 +1,13 @@
-<div class="section section--bg-pattern {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+<div class="section section--bg-pattern
+     {% if block.noTop != null and block.noTop %} section--small-top {% endif %}
+     {% if block.noBottom != null and block.noBottom %} section--small-bottom {% endif %}
+     {% if block.noPad != null and block.noPad %} section--no-padding {% endif %}">
     <div class="section__inner container">
-        {% include 'blocks/block-title', block %}
-        {% if block.content != blank %}
+        {% include 'blocks/block-title' block: block %}
+        {% if block.content != '' %}
         <div class="section__descr">
             {{ block.content }}
         </div>
         {% endif %}
     </div>
 </div>
-
-
-{% comment %}
-
-
-{% endcomment %}

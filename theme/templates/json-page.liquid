@@ -1,5 +1,5 @@
-{% if json_page.settings.layout != blank %}
-    {% layout json_page.settings.layout %}
+{% if page.layout != blank %}
+    {% layout page.layout %}
 {% endif %}
 
 {{ 'blocks.css' | asset_url | stylesheet_tag }}

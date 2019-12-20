@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Virto Commerce" />
-    {% if page_description != blank %}
+    {% if page_description != '' %}
     <meta name="description" content="{{ page_description | escape }}" />
     <meta property="og:description" content="{{ page_description | escape }}" />
     {% else %}
@@ -20,7 +20,7 @@
     <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
     <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
     <link rel="publisher" href="//plus.google.com/+Virtocommerce" />
-    {% if page_title != blank %}
+    {% if page_title != '' %}
     <title>{{ page_title }}</title>
     <meta property="og:title" content="{{ page_title }}" />
     {% else %}
@@ -57,7 +57,7 @@
     {% include 'form-contact-vendor' %}
     {% include 'form-support-vendor' %}
     {% include 'form-thank-you' %}
-    {% assign menu = linklists.apps-menu %}
+    {% assign menu = linklists['apps-menu'] %}
 
     <div id="layout">
         <div class="layout-canvas">

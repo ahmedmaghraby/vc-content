@@ -147,7 +147,7 @@ tags:
             </div>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 1851 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.5, ratingCount: 1851 %}
     </div>
     <div class="actions">
         <a class="btn btn--orange" href="/contact-us">Try It Now</a>

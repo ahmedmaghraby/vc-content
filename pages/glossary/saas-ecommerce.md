@@ -144,7 +144,7 @@ tags :
             All sorts of businesses can have many benefits from using SAAS applications. Businesses looking for a big variety of features and those who prioritize integration and automation can get what they need most. Those who want to have modern design and those who enjoy providing excellent customer experience to the clients will achieve their goals, too. Overall, SAAS platforms offer the ease of creating a website, featuring immense amount of options and excellent scalability. And most importantly, e-commerce SAAS platforms provide a good fit for the majority of your business goals online, allow you to be realistic with your business strategy and deliver the most pleasant shopping experience to your clients.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 889 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.8, ratingCount: 889 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
