@@ -3503,6 +3503,11 @@
             "tab": "Settings"
         },
         {
+			"id": "title",
+			"label": "Title",
+			"type": "string"
+        },
+        {
             "id": "count",
             "label": "Count",
             "type": "number",
