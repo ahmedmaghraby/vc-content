@@ -5582,7 +5582,7 @@ code {
 }
 
 @media (max-width: 767.98px) {
-    .section .section__casestudy img {
+    .section .section__casestudy img.casestudy-img {
         float: none;
         margin-bottom: 1rem;
     }
@@ -5608,7 +5608,7 @@ code {
     color: #374198;
 }
 
-.section .section__casestudy-solution a {
+.section .section__casestudy-solution .dark-blue-link {
     color: #374198;
 }
 
@@ -5636,6 +5636,10 @@ code {
 .section .section__casestudy-solution .solution-section-image--bottom-float-left {
     float: left;
     margin-right: 2.5rem;
+}
+
+.section .section__casestudy-solution .col-lg-6 {
+    margin-bottom: 2rem;
 }
 
 .section .section__casestudy-header .col-lg-6 {
@@ -5670,6 +5674,54 @@ code {
 
 .section .section__casestudy-header .col-lg-5 form {
     margin-bottom: 0;
+}
+
+.section .section__casestudy-header .item {
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: table-cell;
+    padding: 1rem;
+}
+
+.section .section__casestudy-header .item input[type="radio"] {
+    display: none;
+}
+
+.section .section__casestudy-header .item label {
+    font-style: normal;
+    font-weight: 900;
+    font-size: .875rem;
+    line-height: .875rem;
+    color: #AAAAAA;
+}
+
+.section .section__casestudy-header .item .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.0625rem;
+    color: #AAAAAA;
+}
+
+.section .section__casestudy-header .item--selected {
+    border: 2px solid #FF9A05;
+}
+
+.section .section__casestudy-header .item--selected label {
+    font-style: normal;
+    font-weight: 900;
+    font-size: .875rem;
+    line-height: .875rem;
+    color: #0c1015;
+}
+
+.section .section__casestudy-header .item--selected .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #0c1015;
 }
 
 .section .section__gallery {
@@ -5732,6 +5784,11 @@ code {
     color: #AE7A2C;
     font-size: .875rem;
     font-weight: bold;
+}
+
+.section .form-helper-holder .optional-mark {
+    position: absolute;
+    right: 40px;
 }
 
 .section .form-horizontal {
@@ -5968,6 +6025,65 @@ code {
     .section .thank-you .list .arrow {
         width: 2.5rem;
     }
+}
+
+.section .bordered {
+    border-radius: 6px;
+}
+
+.section .bordered--gray {
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.section .bordered .middle {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 2rem;
+}
+
+.section .bordered .middle :last-child {
+    margin: -.25rem 0 0 1.875rem;
+}
+
+.section .colored {
+    background: #FFB608;
+}
+
+.section .colored .container-title :first-child {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+@media (max-width: 575.98px) {
+    .section .colored .container-title :first-child {
+        font-size: 1rem;
+        -ms-transform: translate(10%, 25%);
+        transform: translate(10%, 25%);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section .colored .container-title :first-child {
+        -ms-transform: translate(10%, 25%);
+        transform: translate(10%, 25%);
+    }
+}
+
+.section .colored .container-title * {
+    margin: 2rem 1rem;
+}
+
+.section__casestudy .section__descr .info img.mini-img {
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
+    border-radius: 2.25rem;
+    height: 2.125rem;
+    width: 2.125rem;
+    margin-top: -.375rem;
+    float: left;
 }
 
 .page .section__pic,
@@ -6635,6 +6751,15 @@ code {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.section--form.none {
+    background-color: inherit;
+}
+
+.section--form.none .section__t,
+    .section--form.none .section__descr {
+    color: #0c1015;
 }
 
 .section--form.dark {
@@ -9815,9 +9940,23 @@ textarea {
     max-width: 100%;
 }
 
-.list--text.list--horizontal-reverse .list__sidebar-inner {
-    display: -ms-flexbox;
-    display: flex;
+@media (min-width: 992px) {
+    .list--text.list--horizontal-reverse .list__sidebar-inner {
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    .list--text.list--horizontal-reverse .list__sidebar-inner .list__item.col-md {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .list--text.list--horizontal-reverse .list__sidebar-inner .list__item.col-md {
+        margin-top: 1rem;
+    }
 }
 
 .list--text.list--horizontal-reverse .list__item ~ .list__item {
@@ -9826,6 +9965,47 @@ textarea {
 
 .list--text.list--horizontal-reverse .list__content {
     margin: 0 0 2.5rem;
+}
+
+.list--text .message {
+    width: 23.3125rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    float: left;
+    margin-top: 2rem;
+}
+
+@media (max-width: 767.98px) {
+    .list--text .message {
+        padding: 2rem 0;
+        width: auto;
+    }
+}
+
+.list--text .message .message-container {
+    margin: 0 4rem;
+    top: 50%;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.list--text .message .message-container .title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.125rem;
+}
+
+.list--text .message .message-container .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.list--text .message .message-container a.btn {
+    margin-top: 1.25rem;
 }
 
 .list--paging {
