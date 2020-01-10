@@ -1,4 +1,4 @@
-{% assign top_level_items = docs_tree | where: 'level', '==', '2' | sort: 'priority' %}
+{% assign top_level_items = docs_tree | where: 'level', '==', '2' | sort_list: 'priority' %}
 <div class="docs__sidebar" id="topics">
     <ul class="nav flex-column">
         {% for item_1 in top_level_items %}

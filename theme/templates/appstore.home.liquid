@@ -15,7 +15,7 @@
                 <a class="ml-sm-auto" href="{{ collections['featured'].url | absolute_url }}">View All</a>
             </div>
             <div class="list list--cards row">
-                {% assign featured_products = collections['featured'].products | sort:"createddate:desc" %}
+                {% assign featured_products = collections['featured'].products | sort_list:"createddate:desc" %}
                 {% for product in featured_products limit: 5 %}
                     {% include 'grid-item' %}
                 {% endfor %}
@@ -25,7 +25,7 @@
                 <h2>{{ 'apps.category.new_extensions' | t }}</h2>
             </div>
             <div class="list list--cards row">
-                {% assign new_extensions = collections['new-extensions'].products | sort:"createddate:desc" %}
+                {% assign new_extensions = collections['new-extensions'].products | sort_list:"createddate:desc" %}
                 {% for product in new_extensions limit: 5 %}
                     {% include 'grid-item' %}
                 {% endfor %}
