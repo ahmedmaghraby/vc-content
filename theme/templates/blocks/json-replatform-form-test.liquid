@@ -9,7 +9,7 @@
                      alt="{{ item.image.altText }}" class="section__pic">
             </div>
             <div class="col-lg-auto section__info">
-                {% include 'blocks/block-title', block %}
+                {% include 'blocks/block-title' block: block %}
                 <div class="row">
 					<form name="replatformForm" ng-submit="submit()" class="form col-sm-6">
 						<div class="section__descr section__descr--tiny" ng-init="setReplatformForm(replatformForm)">{{ block.content }}</div>
