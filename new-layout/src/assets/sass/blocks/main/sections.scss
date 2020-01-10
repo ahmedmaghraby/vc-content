@@ -382,7 +382,7 @@
 
          @include media-breakpoint-down(sm)
          {
-            img
+            img.casestudy-img
             {
                 float: none;
                 margin-bottom: 1rem;
@@ -422,7 +422,7 @@
 
     .section__casestudy-solution
     {
-        a
+        .dark-blue-link
         {
             color: #374198;
         }
@@ -459,6 +459,11 @@
                 float: left;
                 margin-right: 2.5rem;
             }
+        }
+
+        .col-lg-6
+        {
+            margin-bottom: 2rem;
         }
     }
 
@@ -500,6 +505,61 @@
             form
             {
                 margin-bottom: 0;
+            }
+        }
+
+        .item
+        {
+            border: 1px solid #E1E1E1;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: table-cell;
+            padding: 1rem;
+
+            input[type="radio"]
+            {
+                display: none;
+            }
+
+            label
+            {
+                font-style: normal;
+                font-weight: 900;
+                font-size: .875rem;
+                line-height: .875rem;
+                color: #AAAAAA;
+            }
+
+            .description
+            {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 1.0625rem;
+                color: #AAAAAA;
+            }
+        }
+
+        .item--selected
+        {
+            border: 2px solid #FF9A05;
+
+            label
+            {
+                font-style: normal;
+                font-weight: 900;
+                font-size: .875rem;
+                line-height: .875rem;
+                color: $black;
+            }
+
+            .description
+            {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 17px;
+                color: $black;
             }
         }
     }
@@ -568,6 +628,12 @@
 			font-size: .875rem;
 			font-weight: bold;
 		}
+
+        .optional-mark
+        {
+            position: absolute;
+            right: 40px;
+        }
 	}
 
     .form-horizontal
@@ -830,6 +896,79 @@
                 {
                     width: 2.5rem;
                 }
+            }
+        }
+    }
+
+    .bordered
+    {
+        border-radius: 6px;
+
+        &--gray
+        {
+            border: 1px solid #E4E4E4;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .middle
+        {
+            display: inline-flex;
+            margin: 2rem;
+
+            :last-child
+            {
+                margin: -.25rem 0 0 1.875rem;
+            }
+        }
+    }
+
+    .colored
+    {
+        background: #FFB608;
+
+        .container-title
+        {
+            :first-child
+            {
+                flex-grow: 1;
+
+                @include media-breakpoint-down(xs)
+                {
+                    font-size: 1rem;
+                    transform: translate(10%, 25%);
+                }
+
+                @include media-breakpoint-only(sm)
+                {
+                    transform: translate(10%, 25%);
+                }
+            }
+
+            *
+            {
+                margin: 2rem 1rem;
+            }
+        }
+    }
+}
+
+.section__casestudy
+{
+    .section__descr
+    {
+        .info
+        {
+            img.mini-img
+            {
+                border: 3px solid #FFFFFF;
+                box-sizing: border-box;
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
+                border-radius: 2.25rem;
+                height: 2.125rem;
+                width: 2.125rem;
+                margin-top: -.375rem;
+                float: left;
             }
         }
     }
@@ -1554,6 +1693,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    &.none
+    {
+        background-color: inherit;
+
+        .section__t,
+        .section__descr
+        {
+            color: $black;
+        }
+    }
 
     &.dark
     {

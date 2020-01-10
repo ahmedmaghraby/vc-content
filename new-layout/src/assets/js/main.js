@@ -243,12 +243,26 @@ $(function (){
         setInterval(hideAnimation, 5000);
     }
 
+    $('.radio-select .item').click(function () {
+        var item = $(this);
+        var selectedClass = 'item--selected';
+        var radioItems = $('.radio-select .' + selectedClass);
+        radioItems.children('input[type="radio"]').prop('checked', 'false');
+        radioItems.removeClass(selectedClass);
+        item.children('input[type="radio"]').prop('checked', 'true');
+        if (item.hasClass(selectedClass)) {
+            item.removeClass(selectedClass);
+        } else {
+            item.addClass(selectedClass);
+        }
+    });
+
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
 	//  utm_term=--Asset Type--&
 	//  utm_content=--Asset Name--&
 	//  utm_campaign=--Campaign--
-
+    
 	if (false) {
 		var files = {};
 		files['lavazza'] = '/assets/files/lavazza-case-study.pdf';

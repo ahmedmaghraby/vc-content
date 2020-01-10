@@ -1,14 +1,26 @@
 <div class="section {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
   <div class="section__casestudy container">
-    <img src="{{block.image.url}}" />
+    <img class="casestudy-img" src="{{block.image.url}}" />
     <div class="section__descr">
       <div class="description">
         {{block.description}}
       </div>
       <div class="info">
-        <span class="occupation">{{block.occupation}}</span>&nbsp; &nbsp; &nbsp;
-        <span>{{block.country}}</span>&nbsp; &nbsp; &nbsp;
-        <a href="{{block.sourceLink}}" target="_blank">{{block.sourceLink}}</a>
+        {% if block.occupation != blank %}
+        	<span class="occupation">{{block.occupation}}</span>&nbsp; &nbsp; &nbsp;
+        {% endif %}
+        {% if block.country != blank %}
+        	<span>{{block.country}}</span>&nbsp; &nbsp; &nbsp;
+        {% endif %}
+        {% if block.footerImage != blank %}
+        	<img class="mini-img" src="{{block.footerImage.url}}" />
+        {% endif %}
+        {% if block.content != blank %}
+        	{{block.content}}
+        {% endif %}
+        {% if block.sourceLink != blank %}
+        	<a href="{{block.sourceLink.url}}" target="_blank">{{block.sourceLink.urlText}}</a>
+        {% endif %}
       </div>
     </div>
   </div>

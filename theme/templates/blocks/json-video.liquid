@@ -2,17 +2,21 @@
     <div class="section__inner container">
         <div class="row align-items-lg-center {% if block.align == 'right' %} flex-row-reverse {% endif %}">
             <div class="section__img col-lg">
-                <a href="{{ block.videoUrl }}" class="section-video" data-fancybox>
+                <a href="{{ block.videoUrl }}" class="section-video" data-fancybox="">
                     <img src="{{ block.image.url }}" alt="" class="section__pic">
-                    <div class="section-author">
-                        <div class="section-author__pic" style="background-image: url({{ block.avatar.url }});"></div>
-                        <div class="section-author__name">{{ block.videoName }}</div>
-                    </div>
-                    <div class="section-video__icon"></div>
-                </a>
+                        <div class="section-author">
+                            <div class="section-author__pic" style="background-image: url({{ block.avatar.url }});"></div>
+                            <div class="section-author__name">{{ block.videoName }}</div>
+                        </div>
+                        <div class="section-video__icon"></div>
+                    </a>
             </div>
             <div class="section__info col-lg-auto">
+                {% if block.headerType == 'h1' %}
+                <h1 class="section__t">{{ block.title }}</h1>
+                {% else %}
                 <h2 class="section__t">{{ block.title }}</h2>
+                {% endif %}
                 <div class="section__descr">
                     {{ block.content }}
                 </div>

@@ -4,6 +4,9 @@
      {% if block.noPad != null and block.noPad %} section--no-padding {% endif %}">
     <div class="blog">
         <div class="posts __responsive container">
+          	{% if block.title != blank %}
+          	    <h2>{{block.title}}</h2>
+          	{% endif %}
             {% for blog in blogs %}
           		{% assign isShowLast = true %}
                 {% if isShowLast %}
