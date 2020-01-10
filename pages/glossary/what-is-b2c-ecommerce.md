@@ -111,7 +111,7 @@ tags :
             </li>
         </ol>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 976 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.5, ratingCount: 976 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information &amp; Demo</a>

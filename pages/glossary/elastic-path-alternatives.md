@@ -50,7 +50,7 @@ tags :
         <p class="text">
             If these issues look like they might be deal breakers for you, here are some of the most popular Elastic Path alternatives.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/elastic-path-alternatives' %}
+        {% include 'vc-magento-banner' current_url: 'glossary/elastic-path-alternatives' %}
         <div class="section-title">Demandware</div>
         <div class="row">
             <div class="col-md-4">
@@ -100,7 +100,7 @@ tags :
                 <img alt="Elasticpath Alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
         </div>
-        {% include 'vc-magento-banner' with current_url : 'glossary/elastic-path-alternatives' %}
+        {% include 'vc-magento-banner' current_url: 'glossary/elastic-path-alternatives' %}
         <p class="text">
             <a href="{{ 'https://virtocommerce.com/b2b-ecommerce-platform' | absolute_url }}">This platform</a> can be used by any kind of business of any size. Whether it is a small one or an enterprise-level company, the platform will provide the necessary functionality and some nifty additional features relevant to your field.
         </p>
@@ -111,7 +111,7 @@ tags :
             Its flexible pricing lets you save greatly in the long run by. And the way its functionality is built allows your business to achieve great customer satisfaction and increase conversion rates without hiring any customer support team members.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 1047 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.7, ratingCount: 1047 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

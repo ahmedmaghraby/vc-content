@@ -1,0 +1,339 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "become-partner-new",
+        "layout": "theme",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "case-study-form",
+        "name": "Form Case Study",
+        "title": "Facilitate digital transformation and growth for your customers.",
+        "description": "Our Virto Commerce Partner Program empowers you with professional training, expert services, sales enablement and best practices to help you bring your customers value at speed and scale.",
+        "image": {
+            "url": null,
+            "altText": null
+        },
+        "logo": {
+            "url": null
+        },
+        "color": "none",
+        "formId": "become-partner",
+        "formFields": [
+            {
+                "fieldName": "fullname",
+                "fieldId": "fullname",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your name",
+                "labelText": "<p>Full name</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "email",
+                "fieldId": "email",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your email",
+                "labelText": "<p>Email</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "phoneNumber",
+                "fieldId": "phoneNumber",
+                "fieldType": "optional",
+                "optionalText": "+ Add a Telephone Number",
+                "radioListItems": [],
+                "placeholder": "Enter your phone number",
+                "labelText": "<p>Phone number</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "partner",
+                "fieldId": "",
+                "fieldType": "radioList",
+                "optionalText": null,
+                "radioListItems": [
+                    {
+                        "title": "Solution partner",
+                        "text": "Build ecommerce solutions for your clients",
+                        "formValue": "solution-partner"
+                    },
+                    {
+                        "title": "Technology partner",
+                        "text": "Build an app or integration VC customers",
+                        "formValue": "technology-partner"
+                    }
+                ],
+                "placeholder": null,
+                "labelText": null,
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "agree",
+                "fieldId": "agree",
+                "fieldType": "checkbox",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": "<p>By clicking &laquo;Apply Now&raquo; I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": true
+            }
+        ],
+        "submitButtonText": "Apply Now",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 3,
+        "type": "case-study-solution",
+        "showTitle": false,
+        "title": "Solution",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": "Solution Partners",
+                "text": "Build ecommerce solutions on the most flexible and transparent platform. You will get tech-savvy support and expertise along with modular architecture and modern technologies to deliver next-level experience for your customers.",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/protection.png"
+                },
+                "imagePosition": "top",
+                "country": null,
+                "sourceLink": {
+                    "url": "",
+                    "urlText": "Apply now",
+                    "style": null
+                },
+                "footerContent": null,
+                "footerLink": {
+                    "url": "#",
+                    "urlText": "Apply Now",
+                    "style": "btn btn--orange"
+                }
+            },
+            {
+                "titleStyle": "visible",
+                "title": "Technology Partners",
+                "text": "Build ecommerce apps and integrations on the platform that is built by developers for developers. You will access the growing ecosystem and help enterprises grow with your custom apps and business software integrations.",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/technology-partners.png"
+                },
+                "imagePosition": "top",
+                "country": null,
+                "sourceLink": {
+                    "url": "",
+                    "urlText": "Apply Now",
+                    "style": null
+                },
+                "footerContent": null,
+                "footerLink": {
+                    "url": "#",
+                    "urlText": "Apply Now",
+                    "style": "btn btn--orange"
+                }
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text-over-image-test",
+        "name": "Text over image",
+        "title": "Looking for an ecommerce<br/>platform for your next project?",
+        "description": "Learn how you and your customers can<br/>benefit from Virto Commerce.",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/replatform-vc.png",
+            "altText": null
+        },
+        "url1": {
+            "url": "contact-us",
+            "urlText": "Start Success Story Now",
+            "style": "btn--white"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 5,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Virto Commerce is committed to building long term relationships with our partners.",
+        "elementsStyle": "black",
+        "listPosition": "list--horizontal-reverse",
+        "listEnumType": "list--latin",
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": null,
+        "list": [
+            {
+                "title": "",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/book.png"
+                },
+                "text": "<h3>Dedicated onboarding and enablement trainings</h3>\n\n<p><span class=\"section__descr--gray\">Empower your team with the knowledge and resources to build demanding digital experiences and accelerate your revenue.</span></p>\n"
+            },
+            {
+                "title": null,
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/thumb-up.png"
+                },
+                "text": "<h3>Commitment to provide best-in-class expert services</h3>\n\n<p><span class=\"section__descr--gray\">Our services are designed to boost your implementation resources and provide 24/7 support to help your business succeed.</span></p>\n"
+            },
+            {
+                "title": null,
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/chart.png"
+                },
+                "text": "<h3>Results-oriented and demand generation approach</h3>\n\n<p><span class=\"section__descr--gray\">Dedicated account executives work closely with partners so that you have everything you need to grow your business.</span></p>\n"
+            }
+        ],
+        "content": "<p>Benefit from the most transparent and results-oriented partnership in the market. Join the growing network of next-level solutions providers who are building solutions on Virto Commerce for companies of any industry, size, or business complexity.</p>\n",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false,
+        "showMessage": null,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
+    },
+    {
+        "id": 6,
+        "type": "divider",
+        "name": "Divider",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    },
+    {
+        "id": 7,
+        "type": "case-study-solution",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": "Virto Commerce Solution Partner",
+                "text": "Rb2 specializes in innovative ecommerce and loyalty solutions, attractive subscription models, powerful metasearch engines and flexible platforms.",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/rb2-logo-colored.png"
+                },
+                "imagePosition": "bottom-float-left",
+                "country": "The Netherlands",
+                "sourceLink": {
+                    "url": "http://www.rb2.nl",
+                    "urlText": "www.rb2.nl",
+                    "style": null
+                },
+                "footerContent": null
+            },
+            {
+                "titleStyle": "none",
+                "title": "",
+                "text": "Virto Commerce provides the correct technical answer to the ecommerce question.",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/case-study-solution-quotes.png"
+                },
+                "imagePosition": "float-left",
+                "country": "",
+                "sourceLink": null,
+                "footerContent": "<p>&nbsp;</p>\n\n<p>Richard Birksteiner</p>\n\n<p><span class=\"section__descr--gray\">Chief Technology Officer, rb2</span></p>\n"
+            }
+        ],
+        "title": "Solution",
+        "showTitle": false,
+        "noTop": false,
+        "noBottom": false,
+        "noPad": true
+    },
+    {
+        "id": 8,
+        "type": "divider",
+        "name": "Divider",
+        "style": "light",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    },
+    {
+        "id": 9,
+        "type": "cards-test",
+        "name": "Text",
+        "title": "Learn other success stories",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "items": [
+            {
+                "title": "",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/standaard-boekhandel-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic ecommerce platform, and came to Virto for flexibility and scalability.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "#"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/de-klok-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Dutch Beverage Distributor, De Klok Dranken quenches ecommerce thirst by launching its new commerce platform with improved user experience and technical flexibility.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "#"
+                }
+            },
+            {
+                "title": "Do you want a personal demo?",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/alain-van-hove.png",
+                    "altText": null
+                },
+                "imageStyle": "portrait",
+                "text": "<p>Alain Van Hove<br />\nSales Director / EMEA</p>\n\n<p>&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Reach Me Out",
+                    "style": "btn--orange",
+                    "url": "#"
+                }
+            }
+        ],
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    }
+]

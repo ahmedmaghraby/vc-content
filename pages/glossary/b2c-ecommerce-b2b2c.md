@@ -53,7 +53,7 @@ tags :
             <p>With you being determined on adopting the new business model, don’t fool yourself that this approach does not require a big amount of effort put into customer acquisition. It is a wrong way to think that you will get a bulk load of clients with the B2B2C model. If the only motivation you have is to avoid effort, then your business will not enjoy this ecommerce format and generate profit out of it.</p>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.3, ratingCount: 875 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.3, ratingCount: 875 %}
         <div class="actions">
             <a class="btn btn--orange" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

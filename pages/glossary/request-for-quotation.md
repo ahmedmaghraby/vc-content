@@ -65,7 +65,7 @@ tags :
         <div class="section-title">Conclusion</div>
         <p class="text">The process of requesting for proposal is one of the most influential tools for the buyer to inquire additional information about the price on the supplier market. It is vital for mid-large companies to figure out how to run the RFQ process efficiently. Consider the request for quotation is like a bonding between a husband and wife. It is essential to find the right supplier for your business as this connection can be advantageous for years ahead. Nurturing this relationship is vital for both sides. The strategy is important, and you always have to remember that while conducting the request for quotation.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 874 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.6, ratingCount: 874 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

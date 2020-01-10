@@ -32,7 +32,7 @@ tags :
             <meta itemprop="width" content="910">
             <meta itemprop="height" content="376">
         </span>
-        {% include 'vc-magento-banner' with current_url : 'glossary/what-is-a-dead-stock' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/what-is-a-dead-stock' %}
         <div class="section-title">What is dead stock/ what does headstock mean?</div>
         <p class="text">
             <strong>First of all, what does dead stock mean (or what does headstock mean)?  Take a close look at your warehouse. The products might be selling well, but with every change of seasonal collections, with every inventory re-stock there’s an ever growing pile of products that just don’t sell and the additional weight it adds to your business is dragging it down. That is referred to as dead stock (or deadstock/headstock). </strong>
@@ -67,7 +67,7 @@ tags :
         <p class="text">
             For example, “Buy 5 shirts and get a free hat” or “Spend $150 and get a free gift”.  Offering good value for money is the key here. Consumers would not want to pay for items they don’t like enough, but a free gift or a good discount is likely to change their mind.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/what-is-a-dead-stock' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/what-is-a-dead-stock' %}
         <div class="section-title-h4">Donate it</div>
         <p class="text">
             Now, this option might not apply to any country or business, but if you’re a clothing retailer in the USA, this option might work for you.
@@ -81,7 +81,7 @@ tags :
             Now that you’ve managed to get rid of all the dead stock from your warehouse, the next step is trying to avoid accumulating more. This is where good <a href="{{ '/glossary/what-is-inventory-management' | absolute_url }}">Inventory management software</a> comes in handy. It will provide better visibility of stock movements and allow to keep track of how well your different <a href="{{ '/glossary/what-is-sku' | absolute_url }}">SKU s</a> are performing. So, when something is not selling well, you would be able to catch it and take action right away!
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 987 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.5, ratingCount: 987 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

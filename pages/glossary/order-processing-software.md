@@ -93,7 +93,7 @@ tags :
             An order tracking system by Virto Commerce introduces the best practices when it comes to order fulfillment and helps manufacturers, wholesalers, and distributors reduce costs, improve customer support and start selling globally without the pain of processing orders manually. Virto Commerce allows you to consolidate and process your orders across multiple sales channels with seamless tracking.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 1278 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.8, ratingCount: 1278 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

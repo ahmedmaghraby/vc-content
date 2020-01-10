@@ -56,7 +56,7 @@ tags :
         <p class="text">Many small businesses rely on excel spreadsheets for their inventory management, but once your business starts growing, those become extremely limiting. To save yourself the trouble of dealing with all sorts of stock-related issues, look for a cloud-based inventory management system that tracks inventory movement across all your sales channels in real time. It will significantly reduce your risk of overselling.</p>
         <p class="text">One of the main advantages of switching to inventory management software is automation of the whole process - you won’t have to worry about overselling by accident or missing reorder points. It will also help reduce the likelihood of human error. Plus, it will save you a significant amount of time that you could allocate to growing your business.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.4, ratingCount: 984 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.4, ratingCount: 984 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

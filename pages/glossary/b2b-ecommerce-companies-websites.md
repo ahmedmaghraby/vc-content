@@ -239,7 +239,7 @@ title: 'Top B2B e commerce sites and companies'
                 </p>
             </div>
             {% include 'micro-mark-publisher' %}
-            {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
+            {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
             <div class="buttons" style="padding-bottom:20px;">
                 <a class="btn btn--orange" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
                 <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

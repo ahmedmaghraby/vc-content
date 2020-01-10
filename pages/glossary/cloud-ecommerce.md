@@ -116,7 +116,7 @@ tags:
             <iframe width="48%" height="250" src="https://www.youtube.com/embed/22BMH86RQys?ecver=1" frameborder="0" allowfullscreen></iframe>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 678 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.8, ratingCount: 678 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
             <a class="btn btn--orange" href="/whitepapers">Download Cloud Whitepaper</a>

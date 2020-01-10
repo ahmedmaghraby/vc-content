@@ -166,7 +166,7 @@ tags :
     </div>
         <p class="text">All of the data about the product is neatly organized and can also be customized to show the preferred data selections for users. The company is good at gathering intelligence about the product and will be able to help you file RFPs, RFQs, and RFIs automatically, based on your inventory. With TradeGecko, all of the orders and sales are closely monitored and can even be automated in order to quote. After the deal closing, the system tracks payments and shipments in real time, saving you time and money. With TradeGecko, you will manage your procurement as never before and will enjoy the great deal of automation that the system brings to you at a reasonable price. </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.5, ratingCount: 893 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.5, ratingCount: 893 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

@@ -67,7 +67,7 @@ tags :
             <p>The punch out catalog increases <a href="{{ '/order-management-software' | absolute_url }}">order</a> accuracy and speed of processing, and these factors always affect the customers’ loyalty and satisfaction.</p>
         </div>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.6, ratingCount: 424 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.6, ratingCount: 424 %}
         <div class="actions">
             <a class="btn btn--orange" href="/contact-us">Try It Now</a>
             <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>

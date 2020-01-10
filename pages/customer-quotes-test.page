@@ -1,0 +1,215 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "customer-quotes-test",
+        "layout": "theme",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "video",
+        "name": "Video and text",
+        "title": "Hot to overcome main<br/>e-commerce challenges faced<br/>by enterprises?",
+        "headerType": "h2",
+        "content": "<p>The main e-commerce challenge for enterprises is a general business complexity which makes long run planning and execution totally different. The right approach to e-commerce projects is required to overcome this complexity.</p>\n",
+        "style": "dark",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/customer-quotes-video-background.png",
+            "altText": null
+        },
+        "avatar": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/garren-perkins.png",
+            "altText": null
+        },
+        "videoName": "Garren Perkins Presented",
+        "videoUrl": "https://www.youtube.com/watch?v=QpRG-HOlrbc",
+        "align": "right",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "OUR CUSTOMERS ABOUT ENTERPRISE E-COMMERCE PLATFORM",
+        "elementsStyle": "black",
+        "listPosition": "list--horizontal",
+        "listEnumType": null,
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Organizational complexity: multiple stakeholders, KPIs, budgets, rules</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Regional complexity: local laws, markets, practices, cultures</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>IT complexity: mix of new, old, in-house, acquired and other software</p>\n"
+            }
+        ],
+        "content": "<p>E-commerce impacts and is impacted by many enterprise departments which have their own KPIs, budgets, decision making rules and ambitions: sales, marketing, IT, finances, logistics, buyers, security, HR, legal etc. Big changes (like implementing e-commerce solution or significant changes in business processes) usually take a lot of energy and be very continuous.</p>\n\n<p>Regional variability creates an additional challenge on top of the organizational complexity. Additional regions may give additional stakeholders, and the local specific creates additional complexity by itself. Local specific matters in taxation (which may impact pricing), legal requirements and practices, HR specific, cultural differences.</p>\n\n<p>The complexity of the enterprise IT is explained by the previous IT growth and acquiring other companies. It results with extreme complexity of the IT infrastructure: it consists of a mix of super-actual software (like AI services), very old legacy systems, software inherited from acquired companies, big variety of local and industry specific software (like bookkeeping, legal, ERPs etc).&nbsp;</p>\n",
+        "noTop": false,
+        "noBottom": true,
+        "noPad": null,
+        "showMessageWithLink": true,
+        "showMessage": true,
+        "messageTitle": "Ready to get started?",
+        "messageText": "View just a handful of the top companies that use Virto Commerce",
+        "messageLink": {
+            "url": "#",
+            "urlText": "Download",
+            "style": "btn btn--orange"
+        }
+    },
+    {
+        "id": 4,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "OUR CUSTOMERS ABOUT VIRTO’S B2B E-COMMERCE PLATFORM",
+        "elementsStyle": "black",
+        "listPosition": "list--horizontal",
+        "listEnumType": "list--latin",
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Slow changes results with the slow progress on a growing e-commerce segment</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Unified monolith up-to-bottom designed cross-regional solutions cannot be changes fast</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>IT complexity restricts business transformation and threatens the market leadership</p>\n"
+            }
+        ],
+        "content": "<p>Enterprises needs to keep speed and flexibility to stay a leader on the market. However, the organizational complexity makes changes (like implementing e-commerce solution or significant changes of business processes) very expensive in terms of time and efforts.&nbsp;</p>\n\n<p>It takes a lot of energy to run a project and it is used to be very continuous. When projects size grows linear, then efforts, risks and continuity grow exponentially.&nbsp;</p>\n\n<p>An effort to resolve the regional complexity by designing and implementing by one time a unified solution which covers all or most of all of regions leads to creation of a &ldquo;monster&rdquo; which is very expensive to change, very expensive to maintain and which cannot be easily replaced when it becomes a problem (what happens quite soon after launch).&nbsp;</p>\n\n<p>The IT complexity restricts business transformation and may be a threat to the market leadership. It should be approached somehow; it is required to work out the method of constant complexity reduction and painless legacy substitution.</p>\n",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "showMessage": false,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
+    },
+    {
+        "id": 5,
+        "type": "title-with-link",
+        "title": "Ready to start learning?",
+        "style": "bordered--gray",
+        "titleAlignment": "middle",
+        "link": {
+            "0": "b",
+            "1": "t",
+            "2": "n",
+            "3": " ",
+            "4": "b",
+            "5": "t",
+            "6": "n",
+            "7": "-",
+            "8": "-",
+            "9": "w",
+            "10": "h",
+            "11": "i",
+            "12": "t",
+            "13": "e",
+            "url": "#",
+            "urlText": "Download",
+            "style": "btn btn--orange"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "OUR CUSTOMERS ABOUT MICROSOFT E-COMMERCE PLATFORM",
+        "elementsStyle": "black",
+        "listPosition": "list--horizontal-reverse",
+        "listEnumType": "list--roman",
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "list": [
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>It is possible to move fast even for enterprise by making small steps in e-commerce</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Building multi-layer platforms creates a transparent unified solution for multi-regional enterprises</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Modular architecture allows constant gradual elimination of IT legacy</p>\n"
+            }
+        ],
+        "content": "<p>Virto Commerce philosophy is based on the idea that making gradual changes is the only way to overcome the enterprise complexity described above. Virto Commerce platform is designed in a way to facilitate this approach.&nbsp;</p>\n\n<p>Customizable &amp; Extensible Platform and Modular architecture makes possible to start acting locally (in terms of regions, functions, processes) and continue by gradual extending the solution, adding new stakeholders, regions, functions, integrations.&nbsp;</p>\n\n<p>Small projects reduce a quantity of affected stakeholders on each step and come to the situation when each small step is not critical for most of stakeholders, so that you can keep high implementation speed.&nbsp;</p>\n\n<p>Virto Commerce is very efficient in building a flexible and well maintainable multi-layer platforms for multi-regional companies. Experience of our customers proofs the efficiency of starting to build a few local VC solutions and then generalizing common rules, practices, integrations and requirements in a more generic platform.</p>\n\n<p>Virto Commerce is an API-based modular solution. It can be embedded into any process or replace any function without running a huge project. You can start substituting your legacy systems, improve the process structure or add new functionality without creating additional risks.</p>\n",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "showMessage": false,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
+    },
+    {
+        "id": 7,
+        "type": "case-study-info",
+        "image": {
+            "altText": null,
+            "url": "https://vcpro.blob.core.windows.net/blogs/lavazza-logo.png.png"
+        },
+        "description": "We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need – today and long-term",
+        "occupation": "",
+        "country": "",
+        "sourceLink": null,
+        "footerImage": {
+            "altText": null,
+            "url": "https://vcpro.blob.core.windows.net/blogs/Slava Nikitin.jpg"
+        },
+        "content": "<p>&nbsp; &nbsp; Slava Nikitin&nbsp; &nbsp; &nbsp;<span class=\"section__descr--gray\">CFO</span></p>\n",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 8,
+        "type": "title-with-link",
+        "title": "Ready to get started?",
+        "style": "colored",
+        "link": {
+            "url": null,
+            "urlText": "Download",
+            "style": "btn btn--white"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false,
+        "titleAlignment": "row"
+    }
+]
