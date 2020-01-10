@@ -7,7 +7,7 @@
         {% if block.subTitle != blank %}
         <div class="section__sub-t">{{ block.subTitle }}</div>
         {% endif %}
-        {% include 'blocks/block-title', block %}
+        {% include 'blocks/block-title' block: block %}
         {% if block.content != blank %}
         <div class="section__descr">
             {{ block.content }}
