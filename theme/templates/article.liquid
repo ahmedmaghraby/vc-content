@@ -54,7 +54,7 @@
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
     <div class="posts __responsive">
-        {% include 'blog-categories-item', categories: blog.categories %}
+        {% include 'blog-categories-item' categories: blog.categories %}
         <div class="post post-double post-detail">
             <div class="post-inner">
                 <div class="post-media{% if article.image_url == nil %} no-image{% endif %}" style="background-image: url('{{ article.image_url }}');">
@@ -74,7 +74,7 @@
                             <div class="date" itemprop="datePublished">{{ article.created_at | date: "%b %d, %Y" }}</div>
                         </div>
                     </div>
-                    {% include 'blog-list-tags', tags: article.tags, position: "top" %}
+                    {% include 'blog-list-tags' tags: article.tags, position: "top" %}
                 </div>
                 <div class="post-descr">
                     <div class="inner" itemprop="articleBody">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="post-meta">
-                    {% include 'blog-list-tags', tags: article.tags, position: "bottom" %}
+                    {% include 'blog-list-tags' tags: article.tags, position: "bottom" %}
                     <ul class="socials list">
                         <li class="list-item fb">
                             <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ article.url | full_url }}" target="_blank"><i class="list-ico fa fa-facebook"></i></a>
@@ -104,7 +104,7 @@
         <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
     </div>
     {% if blog.trending_articles %}
-    {% include 'blog-trending-list', articles: blog.trending_articles %}
+        {% include 'blog-trending-list' articles: blog.trending_articles %}
     {% endif %}
     <div class="posts __responsive">
         <div class="post post-triple post-detail">
