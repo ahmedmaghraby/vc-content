@@ -22,6 +22,7 @@
         {% elseif blog_search.tag != nil %}
             {% assign articles = articles | where: 'Tags', 'contains', blog_search.tag %}
         {% endif %}
+        {% assign articles = articles | sort_list: 'publishedAt:desc' %}
         <div class="list list--posts">
             {% for article in articles %}
                 {% include 'blog-list-item' article: article, style: "single" %}

@@ -28,11 +28,11 @@
                         {% endfor %}
                     </div>
                     <div class="list list--socials">
-                        {% include 'blog-socials', article: article %}
+                        {% include 'blog-socials' article: article %}
                     </div>
                 </div>
             </div>
-            {% include 'blog-subscribe', cssClass: 'collapsed', article: article %}
+            {% include 'blog-subscribe' cssClass: 'collapsed', article: article %}
         </div>
         <!-- End Blog main -->
 
@@ -45,73 +45,3 @@
         </div>
     </div>
 </div>
-<!---------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------->
-{% comment %}
-<div class="blog" itemtype="http://schema.org/Article" itemscope>
-    <div class="posts __responsive">
-        <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
-    </div>
-    <div class="posts __responsive">
-        {% include 'blog-categories-item' categories: blog.categories %}
-        <div class="post post-double post-detail">
-            <div class="post-inner">
-                <div class="post-media{% if article.image_url == nil %} no-image{% endif %}" style="background-image: url('{{ article.image_url }}');">
-                    <h1>{{ article.title }}</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="posts __responsive">
-        <div class="post post-triple post-detail">
-            <div class="post-inner">
-                <div class="post-other">
-                    <div class="post-info">
-                        <div class="post-logo"><img src="{{ 'logo-mini.png' | asset_url }}" /></div>
-                        <div class="post-author">
-                            <div class="author" itemprop="author">{{ article.author }}</div>
-                            <div class="date" itemprop="datePublished">{{ article.created_at | date: "%b %d, %Y" }}</div>
-                        </div>
-                    </div>
-                    {% include 'blog-list-tags' tags: article.tags, position: "top" %}
-                </div>
-                <div class="post-descr">
-                    <div class="inner" itemprop="articleBody">
-                        {{ article.content | render }}
-                    </div>
-                </div>
-                <div class="post-meta">
-                    {% include 'blog-list-tags' tags: article.tags, position: "bottom" %}
-                    <ul class="socials list">
-                        <li class="list-item fb">
-                            <a class="list-link" href="https://www.facebook.com/sharer/sharer.php?u={{ article.url | full_url }}" target="_blank"><i class="list-ico fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-item tw">
-                            <a class="list-link" href="https://twitter.com/intent/tweet?text={{ article.url | full_url }}" target="_blank"><i class="list-ico fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-item in">
-                            <a class="list-link" href="https://www.linkedin.com/shareArticle?mini=true&url={{ article.url | full_url }}&title={{ article.title }}&summary={{ article.excerpt }}&source=" target="_blank"><i class="list-ico fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                {% if article.comments_count > 0 %}
-                <div class="post-comments">
-                </div>
-                {% endif %}
-            </div>
-        </div>
-        <a class="post-back" href="{{ '/blog' | absolute_url }}"><i class="fa fa-arrow-left"></i></a>
-    </div>
-    {% if blog.trending_articles %}
-        {% include 'blog-trending-list' articles: blog.trending_articles %}
-    {% endif %}
-    <div class="posts __responsive">
-        <div class="post post-triple post-detail">
-            <div class="post-inner disqus">
-                {% include 'disqus' %}
-            </div>
-        </div>
-    </div>
-</div>
-{% endcomment %}
