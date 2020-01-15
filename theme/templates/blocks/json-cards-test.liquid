@@ -26,7 +26,7 @@
                     {% endif %}
                     {% else %}
                     <div class="{{imageStyle}}">
-                        <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" {% if="" item.imageStyle =""= 'stretch' %} class="list__pic" {% endif="" %} />
+                        <img src="{{ item.image.url }}" alt="{{ item.image.altText }}" {% if item.imageStyle == 'stretch' %} class="list__pic" {% endif %} />
                     </div>
                     <div class="list__t">{{ item.title }}</div>
                     <div class="list__descr">
