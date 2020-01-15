@@ -1,0 +1,43 @@
+{
+ "name": "Virto Commerce Platform",
+     "children": [
+         {
+            "name": "Platform Modules",
+            "children": [
+                {"name": "Security", "size": 10},
+                {"name": "Notifications", "size": 10},
+                {"name": "Data Migration", "size": 10},
+                {"name": "Background Jobs", "size": 10},
+                {"name": "Assets", "size": 10}
+            ]
+         },
+         {
+            "name": "Commerce Modules",
+            "children": [
+                {"name": "Orders", "size": 10},
+                {"name": "Product Information Management", "size": 10},
+                {"name": "Marketing", "size": 10},
+                {"name": "Content Management", "size": 10},
+                {"name": "Stores", "size": 10},
+                {"name": "Customers", "size": 10},
+                {"name": "Pricing", "size": 10}
+            ]
+         },
+         {
+            "name": "Custom Modules",
+            "children": [
+                {"name": "Integration Services", "size": 10},
+                {"name": "Marketplaces", "size": 10},
+                {
+                    "name": "Payments Methods",
+                    "children": [
+                        {"name": "PayPal Express", "size": 3},
+                        {"name": "Klarna", "size": 3},
+                        {"name": "Authorize.NET", "size": 3}
+                    ]
+                },
+                {"name": "Shipment Gateways", "size": 10}
+            ]
+         }
+     ]
+}
