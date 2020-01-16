@@ -1,18 +1,9 @@
-<div class="section {% if block.size == 'page' %} section--cover {% endif %} {% if block.style == 'dark' %} section--gray {% endif %} {% if block.noTop == true %} section--small-top {% endif %} {% if block.noBottom == true %} section--small-bottom {% endif %} {% if block.noPad == true %} section--no-padding {% endif %}">
+<div class="section {% if block.size == 'page' %} section--cover {% endif %} {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="{% if block.size != 'page' %} section__inner container {% endif %}">
         <img src="{{ block.image.url }}" alt="{{ item.image.altText }}" class="{% if block.size == 'middle' %} section__pic {% endif %} {% if block.size != 'middle' and block.size != 'normal' %} section__pic--full {% endif %}">
     </div>
 </div>
 
-{% comment %}
-
-    {"id": "name","label": "Block name","type": "string"},
-    {"id": "size","label": "Choose size","type": "select","default": "medium",
-        "options": { "value": "normal", "label": "Normal" },
-                   { "value": "middle", "label": "Middle" },
-                   { "value": "block",  "label": "Block" },
-                   { "value": "page",   "label": "Page" }
-    },
-    {"id": "url","label": "Upload picture","type": "image","previewWidth": 120,"previewHeight": 80}
-
-{% endcomment %}
