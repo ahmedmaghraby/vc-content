@@ -13,7 +13,7 @@
                     {% endif %}
                     {% for item in block.list %}
                     <li class="list__item col-md">
-                        {% if item.image != blank %}
+                        {% if item.image != '' %}
                         <img src="{{item.image.url}}" />
                         {% else %}
                         <div class="{{elementsClass}}"></div>
@@ -29,13 +29,13 @@
             {% if block.showMessage == true %}
             <div class="message bordered">
                 <div class="message-container">
-                    {% if block.messageTitle != blank %}
+                    {% if block.messageTitle != '' %}
                     <div class="like-h3 title">{{block.messageTitle}}</div>
                     {% endif %}
-                    {% if block.messageText != blank %}
+                    {% if block.messageText != '' %}
                     <div class="text">{{block.messageText}}</div>
                     {% endif %}
-                    {% if block.messageLink != blank %}
+                    {% if block.messageLink != '' %}
                     <a class="{{block.messageLink.style}}" href="{{block.messageLink.url}}">{{block.messageLink.urlText}}</a>
                     {% endif %}
                 </div>

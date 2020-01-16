@@ -9,7 +9,7 @@
 		    </div>
 		    <div class="section__sidebar col-lg-auto">
 			    <div class="section__inner">
-				    {% if block.image != blank and block.image.url != blank %}
+				    {% if block.image != '' and block.image.url != '' %}
 				    <img class="section__pic" src="{{ block.image.url }}" alt="{{ item.image.altText }}">
 				    {% endif %}
 				    <form class="form">

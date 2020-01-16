@@ -6,8 +6,8 @@
         <div class="row align-items-lg-center flex-row-reverse">
             <div class="section__img col-lg" style="text-align: {{ block.align }};">
                 <img src="{{ block.image.url }}"
-                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
-                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
+                     {% if block.image.width != '' %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != '' %} height="{{block.image.height}}" {% endif %}
                      style="max-width: 100%;"
                      alt="{{ item.image.altText }}" class="section__pic">
             </div>

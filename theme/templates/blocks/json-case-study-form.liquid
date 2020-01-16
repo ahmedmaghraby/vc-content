@@ -2,10 +2,10 @@
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
-  <div class="section section--form {% if block.image.url != blank %} dark {% endif %} {{block.color}}" {% if block.image.url != blank %} style="background-image: url({{ block.image.url }});" {% endif %}>
+  <div class="section section--form {% if block.image.url != '' %} dark {% endif %} {{block.color}}" {% if block.image.url != '' %} style="background-image: url({{ block.image.url }});" {% endif %}>
     <div class="section__inner container">
       <div class="section__header">
-        {% if block.logo != blank %}
+        {% if block.logo != '' %}
         <img src="{{block.logo.url}}" />
         {% endif %}
       </div>
@@ -29,15 +29,15 @@
             {% if item.type != 'hidden' %}
             <div class="form-group">
               {% if item.fieldType == 'text' %}
-              <label {% if item.fieldId != blank %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
-              <input {% if item.fieldId != blank %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" placeholder="{{item.placeholder}}" type="text" class="form-control" {% if item.required %}required{% endif %} />
+              <label {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
+              <input {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" placeholder="{{item.placeholder}}" type="text" class="form-control" {% if item.required %}required{% endif %} />
               {% elsif item.fieldType == 'email' %}
-              <label {% if item.fieldId != blank %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
-              <input {% if item.fieldId != blank %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" placeholder="{{item.placeholder}}" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" {% if item.required %}required{% endif %} class="form-control" />
+              <label {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
+              <input {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" placeholder="{{item.placeholder}}" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" {% if item.required %}required{% endif %} class="form-control" />
               {% elsif item.fieldType == 'checkbox' %}
               <div class="form-checkbox">
-                <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != blank %} id="{{ item.fieldId }}" {% endif %} />
-                <label class="form-checkbox__label" {% if item.fieldId != blank %} for="{{ item.fieldId }}" {% endif %}>
+                <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} />
+                <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>
                   {{ item.labelText }}
                 </label>
               </div>
@@ -58,7 +58,7 @@
                       {% assign itemClass = 'item item--selected' %}
                   {% endif %}
                   <div class="{{itemClass}}">
-                    <input type="radio" {% if item.fieldId != blank %}id="{{item.fieldId}}"{% endif %} name="{{item.fieldName}}" value="{{radio.formValue}}" {% if forloop.index == 1 %}checked{% endif %}>
+                    <input type="radio" {% if item.fieldId != '' %}id="{{item.fieldId}}"{% endif %} name="{{item.fieldName}}" value="{{radio.formValue}}" {% if forloop.index == 1 %}checked{% endif %}>
                     <label for="{{item.fieldName}}">{{radio.title}}</label>
                     <div class="description">{{radio.text}}</div>
                   </div>

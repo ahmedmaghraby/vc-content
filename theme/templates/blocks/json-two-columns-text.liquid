@@ -5,7 +5,7 @@
 	<div class="section__inner container">
         {% include 'blocks/block-title' block: block %}
         <div class="section__info">
-            {% if block.contentBefore != blank %}
+            {% if block.contentBefore != '' %}
             <div class="section__descr">
                 {{ block.contentBefore }}
             </div>

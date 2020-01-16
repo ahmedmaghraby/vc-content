@@ -4,7 +4,7 @@
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="blog">
         <div class="posts __responsive container">
-          	{% if block.title != blank %}
+          	{% if block.title != '' %}
           	    <h2>{{block.title}}</h2>
           	{% endif %}
             {% for blog in blogs %}

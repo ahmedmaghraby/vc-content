@@ -6,7 +6,7 @@
         {% include 'blocks/block-title' block: block %}
         <div class="section__info">
 
-		    {% if block.contentTop != blank %}
+		    {% if block.contentTop != '' %}
             <div class="row mt-5">
                 <div class="col">
                     <div class="section__descr">
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-		    {% if block.contentBottom != blank %}
+		    {% if block.contentBottom != '' %}
             <div class="row mt-5">
                 <div class="col">
                     <div class="section__descr">

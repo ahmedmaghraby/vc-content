@@ -21,7 +21,7 @@
                     <img class="solution-section-image--bottom-float-left" src="{{section.image.url}}">
                         <div>
                             <p>{{section.country}}</p>
-                            <a href="{{section.sourceLink.url}}" target="_blank" class="dark-blue-link">{{section.sourceLink.urlText}}</a>
+                            <a href="{{section.sourceLink.url}}" target="_''" class="dark-blue-link">{{section.sourceLink.urlText}}</a>
                         </div>
                     </div>
             </div>
@@ -31,11 +31,11 @@
                 {% if section.titleStyle == 'visible' %}
                 <div class="list__t">{{section.title}}</div>
                 {% endif %}
-                {% assign hasFooterLink = section.footerLink != blank %}
-                {% if section.text != blank %}
+                {% assign hasFooterLink = section.footerLink != '' %}
+                {% if section.text != '' %}
                 <div class="list__descr {% if hasFooterLink %} section__descr {% endif %}">{{section.text}}</div>
                 {% endif %}
-                {% if section.footerContent != blank %}
+                {% if section.footerContent != '' %}
                 <div class="list__descr {% if hasFooterLink %} section__descr {% endif %}">{{section.footerContent}}</div>
                 {% endif %}
                 {% if hasFooterLink %}

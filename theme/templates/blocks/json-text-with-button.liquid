@@ -5,7 +5,7 @@
 	<div class="section__inner container">
 		<div class="ready">
 			<div class="ready__t">{{ block.text }}</div>
-			{% if block.url != blank and block.url.urlText != blank %}
+			{% if block.url != '' and block.url.urlText != '' %}
 			<a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
 			{% endif %}
 		</div>

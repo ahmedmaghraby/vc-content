@@ -1,17 +1,17 @@
-<div class="section section--form section--animated {% if block.image.url != blank %} dark {% endif %}" {% if block.image.url != blank %} style="background-image: url({{ block.image.url }});" {% endif %}>
+<div class="section section--form section--animated {% if block.image.url != '' %} dark {% endif %}" {% if block.image.url != '' %} style="background-image: url({{ block.image.url }});" {% endif %}>
 	<div class="section__inner container">
 		<div class="section__header">
 			<div class="section__logo"></div>
 			<div class="section__links">
 				<a href="block.phoneLink" class="section__links-item" data-name="phone">{{ block.phone }}</a>
-                {% if block.chatLink != blank %}
+                {% if block.chatLink != '' %}
 				<a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">{{ block.chat }}</a>
                 {% endif %}
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-6">
-                {% if block.logo != blank %}
+                {% if block.logo != '' %}
 				<div class="section__logo d-none d-sm-block">
 					<img src="{{ block.logo.url }}" alt="" />
 				</div>
@@ -34,12 +34,12 @@
                         {% if item.type != 'hidden' %}
                             <div class="form-group">
                                 {% if item.fieldType == 'text' %}
-						            <label {% if item.fieldId != blank %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
-						            <input {% if item.fieldId != blank %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" {% if item.required %} placeholder="Required input field" data-val="true" data-val-required="The required field" {% endif %} type="text" class="form-control" />
+						            <label {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
+						            <input {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" {% if item.required %} placeholder="Required input field" data-val="true" data-val-required="The required field" {% endif %} type="text" class="form-control" />
                                 {% elsif item.fieldType == 'checkbox' %}
                                     <div class="form-checkbox">
-                                        <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != blank %} id="{{ item.fieldId }}" {% endif %} />
-                                        <label class="form-checkbox__label" {% if item.fieldId != blank %} for="{{ item.fieldId }}" {% endif %}>
+                                        <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} />
+                                        <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>
                                             {{ item.labelText }}
                                         </label>
                                     </div>

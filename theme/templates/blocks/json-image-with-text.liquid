@@ -6,17 +6,17 @@
         <div class="row align-items-lg-center {% if block.align == 'right' %} flex-row-reverse {% endif %}">
             <div class="section__img col-lg">
                 <img src="{{ block.image.url }}"
-                     {% if block.image.width != blank %} width="{{block.image.width}}" {% endif %}
-                     {% if block.image.height != blank %} height="{{block.image.height}}" {% endif %}
+                     {% if block.image.width != '' %} width="{{block.image.width}}" {% endif %}
+                     {% if block.image.height != '' %} height="{{block.image.height}}" {% endif %}
                      alt="{{ item.image.altText }}" class="section__pic">
             </div>
             <div class="col-lg-auto section__info">
                 {% include 'blocks/block-title' block: block%}
                 <div class="section__descr">
                     {{ block.content }}
-                    {% if block.url1 != blank and block.url1.urlText != blank %}
+                    {% if block.url1 != '' and block.url1.urlText != '' %}
                     <a href="{{ block.url1.url }}" class="{{ block.url1.style }}">{{ block.url1.urlText }}</a>
-                    {% if block.url2 != blank and block.url2.urlText != blank %}
+                    {% if block.url2 != '' and block.url2.urlText != '' %}
                     <a href="{{ block.url2.url }}" class="{{ block.url2.style }}">{{ block.url2.urlText }}</a>
                     {% endif %}
                     {% endif %}

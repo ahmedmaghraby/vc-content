@@ -12,17 +12,17 @@
         {% if block.occupation != '' %}
         	<span class="occupation">{{block.occupation}}</span>&nbsp; &nbsp; &nbsp;
         {% endif %}
-        {% if block.country != blank %}
+        {% if block.country != '' %}
         	<span>{{block.country}}</span>&nbsp; &nbsp; &nbsp;
         {% endif %}
-        {% if block.footerImage != blank %}
+        {% if block.footerImage != '' %}
         	<img class="mini-img" src="{{block.footerImage.url}}" />
         {% endif %}
-        {% if block.content != blank %}
+        {% if block.content != '' %}
         	{{block.content}}
         {% endif %}
-        {% if block.sourceLink != blank %}
-        	<a href="{{block.sourceLink.url}}" target="_blank">{{block.sourceLink.urlText}}</a>
+        {% if block.sourceLink != '' %}
+        	<a href="{{block.sourceLink.url}}" target="_''">{{block.sourceLink.urlText}}</a>
         {% endif %}
       </div>
     </div>

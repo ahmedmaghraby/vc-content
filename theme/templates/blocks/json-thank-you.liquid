@@ -7,7 +7,7 @@
             <a class="section__logo" href="/"></a>
             <div class="section__links">
                 <a href="{{ block.phoneLink }}" class="section__links-item" data-name="phone">{{ block.phone }}</a>
-                {% if block.chatLink != blank %}
+                {% if block.chatLink != '' %}
                 <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">{{ block.chat }}</a>
                 {% endif %}
             </div>

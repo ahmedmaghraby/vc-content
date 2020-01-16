@@ -4,7 +4,7 @@
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="section__inner container">
         {% include 'blocks/block-title' block: block %}
-        {% if block.content != blank %}
+        {% if block.content != '' %}
         <div class="section__descr">
             {{ block.content }}
         </div>
@@ -13,19 +13,19 @@
             {% for column in block.columns %}
             <div class="list__item col-md-6 col-lg-4">
                 <div class="{% if block.frame == 'True' %}has-border{% endif %}">
-                    {% if column.image.url != blank %}
+                    {% if column.image.url != '' %}
                     <img src="{{ column.image.url }}"
-                         {% if column.image.width != blank %} width="{{column.image.width}}" {% endif %}
-                         {% if column.image.height != blank %} height="{{column.image.height}}" {% endif %}
+                         {% if column.image.width != '' %} width="{{column.image.width}}" {% endif %}
+                         {% if column.image.height != '' %} height="{{column.image.height}}" {% endif %}
                          alt="{{ item.image.altText }}" class="columns__pic {{ block.imageAlignment }}">
                     {% endif %}
-                    {% if column.title != blank %}
+                    {% if column.title != '' %}
                     <div class="list__t {{ block.titleAlignment }}">{{ column.title }}</div>
                     {% endif %}
-                    {% if column.content != blank %}
+                    {% if column.content != '' %}
                     {{ column.content }}
                     {% endif %}
-                    {% if block.url != blank and block.url.urlText != blank %}
+                    {% if block.url != '' and block.url.urlText != '' %}
                     <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
                     {% endif %}
                 </div>

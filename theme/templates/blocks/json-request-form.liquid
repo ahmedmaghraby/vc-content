@@ -7,7 +7,7 @@
             <a class="section__logo" href="/"></a>
             <div class="section__links">
                 <a href="{{ block.phoneLink }}" class="section__links-item" data-name="phone">+1 800 980—5288</a>
-                {% if block.chatLink != blank %}
+                {% if block.chatLink != '' %}
                 <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">Chat with us</a>
                 {% endif %}
             </div>
@@ -93,7 +93,7 @@
             <div class="mobile-block">
                 <div class="mobile-block__t">Or</div>
                 <a href="{{ block.phoneLink }}" class="mobile-block__item" data-name="phone">+1 800 980—5288</a>
-                {% if block.chatLink != blank %}
+                {% if block.chatLink != '' %}
                 <a href="{{ block.chatLink }}" class="mobile-block__item" data-name="chat">Chat with us</a>
                 {% endif %}
             </div>
