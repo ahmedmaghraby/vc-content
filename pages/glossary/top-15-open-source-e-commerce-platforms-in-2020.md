@@ -178,7 +178,7 @@ permalink: glossary/open-source-ecommerce-platform
                 Basically, CSS and HTML knowledge is all you need. You can also pay a bit of extra for expert’s support, or you can ask the community of this platform.
             </p>
             <a href="https://wpe-commerce.org">
-                <img src="assets/images/glossary/wp-e-commerce-landing-page" alt="wp e-commerce landing page" />
+                <img src="assets/images/glossary/wp-e-commerce-landing-page.png" alt="wp e-commerce landing page" />
             </a>
             <h2>Ubercart</h2>
             <p class="text">
@@ -217,7 +217,7 @@ permalink: glossary/open-source-ecommerce-platform
                 applications, like MailChimp - but it’s still nowhere close enough to OpenCart’s numbers when it comes to third-party integrations.
             </p>
             <a href="https://www.cubecart.com">
-                <img src="assets/images/glossary/cubecart-landing-page" alt="cubecart landing page" />
+                <img src="assets/images/glossary/cubecart-landing-page.png" alt="cubecart landing page" />
             </a>
             <h2>Virto Commerce</h2>
             <p class="text">
@@ -229,7 +229,7 @@ permalink: glossary/open-source-ecommerce-platform
                 included in the same package, allowing for easy feature integration, no matter how simple or difficult your enterprise workflow is.
             </p>
             <a href="https://www.virtocommerce.com">
-                <img src="assets/images/glossary/virto-commerce-landing-page" alt="virto commerce landing page" />
+                <img src="assets/images/glossary/virto-commerce-landing-page.png" alt="virto commerce landing page" />
             </a>
             <h2>Is it actually free?</h2>
             <p class="text">
