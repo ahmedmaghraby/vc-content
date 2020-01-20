@@ -95,7 +95,7 @@ permalink: glossary/open-source-ecommerce-platform
                 Drupal Commerce is a paid feature, and it costs quite a lot of money. And it partially makes sense, since Drupal is widely used by large companies and enterprises.
             </p>
             <a href="https://drupalcommerce.org/">
-                <img src="assets/images/glossary/drupal-landing-page.png" alt="drupal landing page" />
+                <img src="assets/images/glossary/drupal-commerce-landing-page.png" alt="drupal landing page" />
             </a>
             <h2>X-Cart e-commerce platform</h2>
             <p class="text">
