@@ -58,7 +58,7 @@ permalink: glossary/open-source-ecommerce-platform
                 platform by large businesses - even though it’s just as good for small or medium-sized companies.
             </p>
             <a href="https://woocommerce.com">
-                <img src="assets/images/glossary/woocommerce-landing-page.png" alt="magento landing page" />
+                <img src="assets/images/glossary/woocommerce-landing-page.png" title="magento landing page" alt="magento landing page" />
             </a>
             <h2>Magento Community Edition</h2>
             <p class="text">
@@ -66,7 +66,7 @@ permalink: glossary/open-source-ecommerce-platform
                 Enterprise Edition, but it’s still a good choice for anyone who is looking for a free open source platform specifically.
             </p>
             <a href="https://magento.com/tech-resources/download">
-                <img src="assets/images/glossary/magento-community-download-page.png" alt="magento community download page" />
+                <img src="assets/images/glossary/magento-community-download-page.png" title="magento community download page" alt="magento community download page" />
             </a>
             <h2>OpenCart</h2>
             <p class="text">
@@ -82,7 +82,7 @@ permalink: glossary/open-source-ecommerce-platform
                 One of the most prominent features of OpenCart is its “turnkey” nature - meaning you don’t have to work with lines and lines of code from the beginning.
             </p>
             <a href="https://www.opencart.com/">
-                <img src="assets/images/glossary/opencart-landing-page.png" alt="opencart landing page" />
+                <img src="assets/images/glossary/opencart-landing-page.png" title="opencart landing page" alt="opencart landing page" />
             </a>
             <h2>Drupal Commerce</h2>
             <p class="text">
@@ -95,7 +95,7 @@ permalink: glossary/open-source-ecommerce-platform
                 Drupal Commerce is a paid feature, and it costs quite a lot of money. And it partially makes sense, since Drupal is widely used by large companies and enterprises.
             </p>
             <a href="https://drupalcommerce.org/">
-                <img src="assets/images/glossary/drupal-commerce-landing-page.png" alt="drupal landing page" />
+                <img src="assets/images/glossary/drupal-commerce-landing-page.png" title="drupal landing page" alt="drupal landing page" />
             </a>
             <h2>X-Cart e-commerce platform</h2>
             <p class="text">
@@ -111,7 +111,7 @@ permalink: glossary/open-source-ecommerce-platform
                 X-Cart, they have a pretty good support in both design and development, and their enterprise edition is quite interesting, as well.
             </p>
             <a href="https://www.x-cart.com">
-                <img src="assets/images/glossary/x-cart-landing-page.png" alt="x-cart landing page" />
+                <img src="assets/images/glossary/x-cart-landing-page.png" title="x-cart landing page" alt="x-cart landing page" />
             </a>
             <h2>paGO Commerce</h2>
             <p class="text">
@@ -121,7 +121,7 @@ permalink: glossary/open-source-ecommerce-platform
                 has a real-time backend support.
             </p>
             <a href="https://www.corephp.com/joomla-products/pago-commerce">
-                <img src="assets/images/glossary/pago-commerce-landing-page.png" alt="pago commerce landing page" />
+                <img src="assets/images/glossary/pago-commerce-landing-page.png" title="pago commerce landing page" alt="pago commerce landing page" />
             </a>
             <h2>PrestaShop</h2>
             <p class="text">
@@ -130,7 +130,7 @@ permalink: glossary/open-source-ecommerce-platform
                 200 countries as a platform.
             </p>
             <a href="https://www.prestashop.com/en">
-                <img src="assets/images/glossary/prestashop-landing-page.png" alt="prestashop landing page" />
+                <img src="assets/images/glossary/prestashop-landing-page.png" title="prestashop landing page" alt="prestashop landing page" />
             </a>
             <h2>Spree Commerce</h2>
             <p class="text">
@@ -167,7 +167,7 @@ permalink: glossary/open-source-ecommerce-platform
                 kinds of add-ons and plug-ins for your site.
             </p>
             <a href="https://www.virtuemart.net">
-                <img src="assets/images/glossary/virtuemart-landing-page.png" alt="virtuemart landing page" />
+                <img src="assets/images/glossary/virtuemart-landing-page.png" title="virtuemart landing page" alt="virtuemart landing page" />
             </a>
             <h2>WP e-commerce</h2>
             <p class="text">
@@ -178,7 +178,7 @@ permalink: glossary/open-source-ecommerce-platform
                 Basically, CSS and HTML knowledge is all you need. You can also pay a bit of extra for expert’s support, or you can ask the community of this platform.
             </p>
             <a href="https://wpe-commerce.org">
-                <img src="assets/images/glossary/wp-e-commerce-landing-page.png" alt="wp e-commerce landing page" />
+                <img src="assets/images/glossary/wp-e-commerce-landing-page.png" title="wp e-commerce landing page" alt="wp e-commerce landing page" />
             </a>
             <h2>Ubercart</h2>
             <p class="text">
@@ -217,7 +217,7 @@ permalink: glossary/open-source-ecommerce-platform
                 applications, like MailChimp - but it’s still nowhere close enough to OpenCart’s numbers when it comes to third-party integrations.
             </p>
             <a href="https://www.cubecart.com">
-                <img src="assets/images/glossary/cubecart-landing-page.png" alt="cubecart landing page" />
+                <img src="assets/images/glossary/cubecart-landing-page.png" title="cubecart landing page" alt="cubecart landing page" />
             </a>
             <h2>Virto Commerce</h2>
             <p class="text">
@@ -229,7 +229,7 @@ permalink: glossary/open-source-ecommerce-platform
                 included in the same package, allowing for easy feature integration, no matter how simple or difficult your enterprise workflow is.
             </p>
             <a href="https://www.virtocommerce.com">
-                <img src="assets/images/glossary/virto-commerce-landing-page.png" alt="virto commerce landing page" />
+                <img src="assets/images/glossary/virto-commerce-landing-page.png" title="virto commerce landing page" alt="virto commerce landing page" />
             </a>
             <h2>Is it actually free?</h2>
             <p class="text">

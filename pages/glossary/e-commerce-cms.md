@@ -53,7 +53,7 @@ permalink: glossary/e-commerce-cms
                 much more.
             </p>
             <a href="https://magento.com/">
-                <img src="assets/images/glossary/magento-landing-page.png" alt="magento landing page" />
+                <img src="assets/images/glossary/magento-landing-page.png" title="magento landing page" alt="magento landing page" />
             </a>
             <h2>Shopify</h2>
              <p class="text">
@@ -70,7 +70,7 @@ permalink: glossary/e-commerce-cms
                 Shopify’s own payment system.
             </p>
             <a href="https://www.shopify.com">
-                <img src="assets/images/glossary/shopify-landing-page.png" alt="shopify landing page" />
+                <img src="assets/images/glossary/shopify-landing-page.png" title="shopify landing page" alt="shopify landing page" />
             </a>
             <h2>BigCommerce</h2>
             <p class="text">
@@ -85,7 +85,7 @@ permalink: glossary/e-commerce-cms
                 as a negative point for BigCommerce.
             </p>
             <a href="https://www.bigcommerce.com">
-                <img src="assets/images/glossary/bigcommerce-landing-page.png" alt="bigcommerce landing page" />
+                <img src="assets/images/glossary/bigcommerce-landing-page.png" title="bigcommerce landing page" alt="bigcommerce landing page" />
             </a>
             <h2>OsCommerce</h2>
             <p class="text">
@@ -98,7 +98,7 @@ permalink: glossary/e-commerce-cms
                 large businesses is quite questionable in general.
             </p>
             <a href="https://www.oscommerce.com">
-                <img src="assets/images/glossary/oscommerce-landing-page.png" alt="oscommerce landing page" />
+                <img src="assets/images/glossary/oscommerce-landing-page.png" title="oscommerce landing page" alt="oscommerce landing page" />
             </a>
             <h2>OpenCart</h2>
             <p class="text">
@@ -115,7 +115,7 @@ permalink: glossary/e-commerce-cms
                 additional plugins might be a little lower than you’d expect, and even that can be fixed by finding necessary performance plugins or modules.
             </p>
             <a href="https://www.opencart.com">
-                <img src="assets/images/glossary/opencart-landing-page.png" alt="opencart landing page" />
+                <img src="assets/images/glossary/opencart-landing-page.png" title="opencart landing page" alt="opencart landing page" />
             </a>
             <h2>WooCommerce</h2>
             <p class="text">
@@ -132,7 +132,7 @@ permalink: glossary/e-commerce-cms
                 spend a lot of money on their online store.
             </p>
             <a href="https://woocommerce.com">
-                <img src="assets/images/glossary/woocommerce-landing-page.png" alt="woocommerce landing page" />
+                <img src="assets/images/glossary/woocommerce-landing-page.png" title="woocommerce landing page" alt="woocommerce landing page" />
             </a>
             <h2>PrestaShop</h2>
             <p class="text">
@@ -149,7 +149,7 @@ permalink: glossary/e-commerce-cms
                 which might be crucial for smaller businesses in the middle of their work.
             </p>
             <a href="https://www.prestashop.com/en">
-                <img src="assets/images/glossary/prestashop-landing-page.png" alt="prestashop landing page" />
+                <img src="assets/images/glossary/prestashop-landing-page.png" title="prestashop landing page" alt="prestashop landing page" />
             </a>
             <h2>SAP Hybris</h2>
             <p class="text">
@@ -165,7 +165,7 @@ permalink: glossary/e-commerce-cms
                 with CMS in general reported from both users and developers.
             </p>
             <a href="https://www.sap.com/products/crm.html">
-                <img src="assets/images/glossary/sap-hybris-landing-page.png" alt="sap hybris landing page" />
+                <img src="assets/images/glossary/sap-hybris-landing-page.png" title="sap hybris landing page" alt="sap hybris landing page" />
             </a>
             <h2>Drupal Commerce</h2>
             <p class="text">
@@ -182,7 +182,7 @@ permalink: glossary/e-commerce-cms
                 switching in general.
             </p>
             <a href="https://drupalcommerce.org">
-                <img src="assets/images/glossary/drupal-commerce-landing-page.png" alt="drupal commerce landing page" />
+                <img src="assets/images/glossary/drupal-commerce-landing-page.png" title="drupal commerce landing page" alt="drupal commerce landing page" />
             </a>
             <h2>Wix</h2>
             <p class="text">
@@ -197,7 +197,7 @@ permalink: glossary/e-commerce-cms
                 down and start from scratch. The customization options are also limited to everything that is available in the interface itself, with no access to website’s code at all.
             </p>
             <a href="https://www.wix.com">
-                <img src="assets/images/glossary/wix-landing-page.png" alt="wix landing page" />
+                <img src="assets/images/glossary/wix-landing-page.png" title="wix landing page" alt="wix landing page" />
             </a>
             <h2>VirtueMart</h2>
             <p class="text">
@@ -209,7 +209,7 @@ permalink: glossary/e-commerce-cms
                 number of payment gateways available and the payment process itself can get quite complicated at times.
             </p>
             <a href="https://www.virtuemart.net">
-                <img src="assets/images/glossary/virtuemart-landing-page.png" alt="virtuemart landing page" />
+                <img src="assets/images/glossary/virtuemart-landing-page.png" title="virtuemart landing page" alt="virtuemart landing page" />
             </a>
             <h2>SquareSpace</h2>
             <p class="text">
@@ -221,7 +221,7 @@ permalink: glossary/e-commerce-cms
                 content can become an incredibly long and complicated process at times.
             </p>
             <a href="https://www.squarespace.com">
-                <img src="assets/images/glossary/squarespace-landing-page.png" alt="squarespace landing page" />
+                <img src="assets/images/glossary/squarespace-landing-page.png" title="squarespace landing page" alt="squarespace landing page" />
             </a>
             <h2>Pinnacle Cart</h2>
             <p class="text">
@@ -233,7 +233,7 @@ permalink: glossary/e-commerce-cms
                 also some limitations on both storage amount and bandwidth available, which might create a lot of inconveniences for bigger stores.
             </p>
             <a href="https://www.pinnaclecart.com">
-                <img src="assets/images/glossary/pinnacle-cart-landing-page.png" alt="pinnacle cart landing page" />
+                <img src="assets/images/glossary/pinnacle-cart-landing-page.png" title="pinnacle cart landing page" alt="pinnacle cart landing page" />
             </a>
             <h2>Core Commerce</h2>
             <p class="text">
@@ -245,7 +245,7 @@ permalink: glossary/e-commerce-cms
                 you’ll get Core Commerce as it is.
             </p>
             <a href="https://www.corecommerce.com">
-                <img src="assets/images/glossary/core-commerce-landing-page.png" alt="core commerce landing page" />
+                <img src="assets/images/glossary/core-commerce-landing-page.png" title="core commerce landing pag" alt="core commerce landing page" />
             </a>
             <h2>Conclusion</h2>
             <p class="text">
