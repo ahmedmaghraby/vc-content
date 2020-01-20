@@ -330,6 +330,7 @@ priority: 4
                                         </button>
                                     </div>
                                 </div>
+								{% raw %}
                                 <div class="form-group" ng-controller="DatepickerDemoCtrl">
                                     <label class="form-label">Form input calendar</label>
                                     <div class="form-input __calendar">
@@ -339,6 +340,7 @@ priority: 4
                                         </button>
                                     </div>
                                 </div>
+								{% endraw %}
                             </form>
                         </div>
                         <pre class="code" data-src="themes/assets/guides/templates/forms/input.html"></pre>
