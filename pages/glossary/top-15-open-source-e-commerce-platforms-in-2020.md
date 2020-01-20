@@ -1,7 +1,8 @@
 ---
 date: 2020-01-17
 layout: glossary
-title: Open source e-commerce platform guide for 2020
+title: Open source E-commerce platform guide for 2020
+description: This article includes a list of top 15 e-commerce platforms with open code and a deeper look at each one of them. You can use this article to choose the best open source e-commerce platform in the upcoming 2020.
 permalink: glossary/open-source-ecommerce-platform
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
@@ -12,10 +13,6 @@ permalink: glossary/open-source-ecommerce-platform
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Top 15 open source e-commerce platforms in 2020</h1>
             </div>
-             <div class="glossary-article">
-                This article includes a list of top 15 e-commerce platforms with open code and a deeper look at each one of them. You can use this article to choose the best open source
-                e-commerce platform in the upcoming 2020.
-             </div>
              <p class="text">
                 A lot of different e-commerce store owners, from small to huge, are trying to work with free open source e-commerce platforms. It’s true that selling things online isn’t
                 cheap. On the other hand, using free open source software means at least less monthly fees that you have to pay.
@@ -30,23 +27,53 @@ permalink: glossary/open-source-ecommerce-platform
             </p>
             <h2>Top 15 e-commerce open source platforms</h2>
             <ul class="text" style="margin-left:30px">
-                <li>WooCommerce</li>
-                <li>Magento Community Edition</li>
-                <li>OpenCart</li>
-                <li>Drupal Commerce</li>
-                <li>X-Cart e-commerce platform</li>
-                <li>paGO Commerce</li>
-                <li>Prestashop</li>
-                <li>Spree Commerce</li>
-                <li>JigoShop</li>
-                <li>VirtueMart</li>
-                <li>WP e-commerce</li>
-                <li>Ubercart</li>
-                <li>Zeuscart</li>
-                <li>CubeCart</li>
-                <li>Virto Commerce</li>
+                <li>
+                    <a href="{{page}}/#wooCommerce">WooCommerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#magentoCommunityEdition">Magento Community Edition</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#openCart">OpenCart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#drupalCommerce">Drupal Commerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#xCart">X-Cart e-commerce platform</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#paGO">paGO Commerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#prestaShop">Prestashop</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#spreeCommerce">Spree Commerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#jigoShop">JigoShop</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#virtueMart">VirtueMart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#wpEcommerce">WP e-commerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#uberCart">Ubercart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#zeusCart">Zeuscart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#cubeCart">CubeCart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#virtoCommerce">Virto Commerce</a>
+                </li>
             </ul>
-            <h2>WooCommerce</h2>
+            <h2 id="wooCommerce">WooCommerce</h2>
             <p class="text">
                 Boasting their 37% part in total online store count, WooCommerce’s download statistics is impressive - over 14 million downloads in total. This makes WooCommerce the most
                 popular e-commerce solution available - and yes, it’s open source. It was created by WooThemes, which is equally popular, and the very purpose of WooCommerce from the
@@ -60,7 +87,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://woocommerce.com">
                 <img src="assets/images/glossary/woocommerce-landing-page.png" title="magento landing page" alt="magento landing page" />
             </a>
-            <h2>Magento Community Edition</h2>
+            <h2 id="magentoCommunityEdition">Magento Community Edition</h2>
             <p class="text">
                 While Magento Community Edition is not as popular as WooCommerce, it is still well-known, with 200,000+ users. It lacks some features of its paid counterpart, Magento
                 Enterprise Edition, but it’s still a good choice for anyone who is looking for a free open source platform specifically.
@@ -68,7 +95,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://magento.com/tech-resources/download">
                 <img src="assets/images/glossary/magento-community-download-page.png" title="magento community download page" alt="magento community download page" />
             </a>
-            <h2>OpenCart</h2>
+            <h2 id="openCart">OpenCart</h2>
             <p class="text">
                 One of OpenCart’s catch phrases might as well be “appearance matters”, since it’s boasting over 2,700 different themes available for free use. The platform itself is used
                 at just a little less than 600k e-commerce sites - and almost 5,000 of those are in the top-1 million sites on Alexa.com. Not bad for a somewhat small e-commerce platform.
@@ -84,7 +111,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.opencart.com/">
                 <img src="assets/images/glossary/opencart-landing-page.png" title="opencart landing page" alt="opencart landing page" />
             </a>
-            <h2>Drupal Commerce</h2>
+            <h2 id="drupalCommerce">Drupal Commerce</h2>
             <p class="text">
                 Drupal Commerce just might be one of the most sophisticated open source e-commerce platforms - it was created by the Commerce Guys and provides a lot of support for
                 different languages and currencies.
@@ -97,7 +124,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://drupalcommerce.org/">
                 <img src="assets/images/glossary/drupal-commerce-landing-page.png" title="drupal landing page" alt="drupal landing page" />
             </a>
-            <h2>X-Cart e-commerce platform</h2>
+            <h2 id="xCart">X-Cart e-commerce platform</h2>
             <p class="text">
                 X-Cart is just a good open source platform in general. And it offers a lifetime license, too - basically no other free platform does that. As a PHP-based e-commerce
                 platform, X-Cart also offers a lot of features and built on a solid source code.
@@ -113,7 +140,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.x-cart.com">
                 <img src="assets/images/glossary/x-cart-landing-page.png" title="x-cart landing page" alt="x-cart landing page" />
             </a>
-            <h2>paGO Commerce</h2>
+            <h2 id="paGO">paGO Commerce</h2>
             <p class="text">
                 paGo Commerce is a platform that was built by the developers at corePHP, and it’s also open source. As a e-commerce platform it’s built on a Joomla! Ecosystem and has a
                 lot of useful features and abilities that don’t require in-depth code knowledge, like extensive coupon system, a clean single-page checkout, paGO Quickpay for payments,
@@ -123,7 +150,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.corephp.com/joomla-products/pago-commerce">
                 <img src="assets/images/glossary/pago-commerce-landing-page.png" title="pago commerce landing page" alt="pago commerce landing page" />
             </a>
-            <h2>PrestaShop</h2>
+            <h2 id="prestaShop">PrestaShop</h2>
             <p class="text">
                 PrestaShop has quite a lot of users of their open source e-commerce platform - apparently, it’s over a quarter of a million shops. Their forum is also quite extensive, as
                 well - with more than 850,000 members. PrestaShop as a platform is generally pretty popular, it was translated into 65 different languages in total and it’s spread over
@@ -132,7 +159,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.prestashop.com/en">
                 <img src="assets/images/glossary/prestashop-landing-page.png" title="prestashop landing page" alt="prestashop landing page" />
             </a>
-            <h2>Spree Commerce</h2>
+            <h2 id="spreeCommerce">Spree Commerce</h2>
             <p class="text">
                 Spree Commerce as a platform is affordable and has a lot of features, it’s modern and visually appealing. Its development community is active and extensive, and there are
                 over 45,000 stores that use it as a platform for their e-commerce needs.
@@ -143,7 +170,7 @@ permalink: glossary/open-source-ecommerce-platform
                 your way around it. Spree Commerce has also been translated into over 30 languages.
             </p>
             <a href="https://spreecommerce.com">https://spreecommerce.com</a>
-            <h2>JigoShop</h2>
+            <h2 id="jigoShop">JigoShop</h2>
             <p class="text">
                 JigoShop is a platform that is built on WordPress, similar to WooCommerce. That’s the main reason why a lot of people would have zero to no problems with navigating
                 through this platform’s backend and changing it to fit their needs. Most competitors have a larger theme choice compared to JigoShop, but it seems to be working quite
@@ -154,7 +181,7 @@ permalink: glossary/open-source-ecommerce-platform
                 still in the works, as well as completely new version currently being tested.
             </p>
             <a href="https://www.jigoshop.com">https://www.jigoshop.com</a>
-            <h2>VirtueMart</h2>
+            <h2 id="virtueMart">VirtueMart</h2>
             <p class="text">
                 VirtueMart is a Joomla!-based e-commerce platform that has an impressive number of features, has stores all over the planet and has an active developer community. The
                 official user count of this platform is well over 300,000 - and almost one thousand of those are in top one million. The biggest markets for VirtueMart are Russia and the
@@ -169,7 +196,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.virtuemart.net">
                 <img src="assets/images/glossary/virtuemart-landing-page.png" title="virtuemart landing page" alt="virtuemart landing page" />
             </a>
-            <h2>WP e-commerce</h2>
+            <h2 id="wpEcommerce">WP e-commerce</h2>
             <p class="text">
                 WP e-commerce is, as the name suggests, one more WordPress plugin. It prides itself on being the “original” e-commerce WordPress solution. Its download count is over 3M
                 times, and the coding is quite easy to grasp.
@@ -180,7 +207,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://wpe-commerce.org">
                 <img src="assets/images/glossary/wp-e-commerce-landing-page.png" title="wp e-commerce landing page" alt="wp e-commerce landing page" />
             </a>
-            <h2>Ubercart</h2>
+            <h2 id="uberCart">Ubercart</h2>
             <p class="text">
                 Ubercart is one of those platforms that’s been around for a while and forever stuck at the bottom of top 30 e-commerce platforms by user count.
             </p>
@@ -190,7 +217,7 @@ permalink: glossary/open-source-ecommerce-platform
                 are a lot of choices that would be a lot better if you’re a medium-sized business or larger.
             </p>
             <a href="http://www.ubercart.org">http://www.ubercart.org</a>
-            <h2>Zeuscart</h2>
+            <h2 id="zeusCart">Zeuscart</h2>
             <p class="text">
                 Unlike most of their competition, Zeuscart as a platform doesn’t even bother to hide their dev-centric nature. Instead, they embrace it. The platform’s landing page is
                 riddled with enough acronyms to immediately scare anyone who doesn’t know their way around coding - GPL license, PHP, MySQL and a lot of other terms.
@@ -205,7 +232,7 @@ permalink: glossary/open-source-ecommerce-platform
                 2014. You can still download the platform itself from their website, though.
             </p>
             <a href="http://zeuscart.com">http://zeuscart.com</a>
-            <h2>CubeCart</h2>
+            <h2 id="cubeCart">CubeCart</h2>
             <p class="text">
                 As a platform, CubeCart is decently popular around the globe. It’s entirely based on templates, which makes it look better than the most when using mobile devices and
                 such. The list of proficiencies goes on - social media plugins, unlimited products, great customer support and a lot more. The platform itself sees themselves as a part
@@ -219,7 +246,7 @@ permalink: glossary/open-source-ecommerce-platform
             <a href="https://www.cubecart.com">
                 <img src="assets/images/glossary/cubecart-landing-page.png" title="cubecart landing page" alt="cubecart landing page" />
             </a>
-            <h2>Virto Commerce</h2>
+            <h2 id="virtoCommerce">Virto Commerce</h2>
             <p class="text">
                 Virto Commerce is a professional enterprise business solution and an extensively flexible platform in general.
             </p>
