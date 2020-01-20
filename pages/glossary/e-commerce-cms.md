@@ -1,7 +1,8 @@
 ---
 date: 2020-01-16
 layout: glossary
-title: e-commerce CMS Platforms in 2020
+title: E-commerce CMS Platforms in 2020
+description: This article examines several different e-commerce CMS platforms and offers a deeper look at each one of them. Included is a list of the best e-commerce CMS platforms for 2020.
 permalink: glossary/e-commerce-cms
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
@@ -10,11 +11,8 @@ permalink: glossary/e-commerce-cms
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
-                <h1 itemprop="headline" class="glosary-t">Top 15 e-commerce CMS platforms</h1>
+                <h1 itemprop="headline" class="glosary-t">15 Best e-commerce CMS platforms in 2020</h1>
             </div>
-             <div class="glossary-article">
-                This article examines several different e-commerce CMS platforms and offers a deeper look at each one of them. Included is a list of the best e-commerce CMS platforms for 2020.
-             </div>
              <p class="text">
                 Selecting the right e-commerce CMS platform for your webstore is one of the most important steps to consider when planning to sell something online. The choice itself
                 might be challenging as there are many different platforms available, each with their own advantages and disadvantages.
@@ -22,24 +20,50 @@ permalink: glossary/e-commerce-cms
             <p class="text">
                 In this article we’ll go through several different e-commerce CMS platforms, noting each one’s features, advantages, pros and cons.
             </p>
-            <h2>15 Best e-commerce CMS platforms in 2020</h2>
+            <h2>Top 15 E-commerce CMS platforms</h2>
             <ul class="text" style="margin-left:30px">
-                <li>Magento</li>
-                <li>Shopify</li>
-                <li>BigCommerce</li>
-                <li>OsCommerce</li>
-                <li>OpenCart</li>
-                <li>WooCommerce</li>
-                <li>Prestashop</li>
-                <li>SAP Hybris</li>
-                <li>Drupal Commerce Wix</li>
-                <li>VirtueMart</li>
-                <li>SquareSpace</li>
-                <li>Pinnacle Cart</li>
-                <li>Core Commerce</li>
+                <li>
+                    <a href="{{page}}/#magento">Magento</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#shopify">Shopify</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#bigCommerce">BigCommerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#osCommerce">OsCommerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#openCart">OpenCart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#wooCommerce">WooCommerce</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#prestaShop">Prestashop</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#sapHybris">SAP Hybris</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#drupalCommerce">Drupal Commerce Wix</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#virtueMart">VirtueMart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#squareSpace">SquareSpace</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#pinnacleCart">Pinnacle Cart</a>
+                </li>
+                <li>
+                    <a href="{{page}}/#coreCommerce">Core Commerce</a>
+                </li>
                 <li>Virto Commerce</li>
             </ul>
-            <h2>Magento</h2>
+            <h2 id="magento">Magento</h2>
             <p class="text">
                 Magento is one of the most popular open source CMS platforms out there, with a huge number of features and services available. It prides itself on having high performance
                 standards and also scalability, making it fit for a wide variety of businesses, from small companies to enterprise-level clients. Their customization options are quite
@@ -55,7 +79,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://magento.com/">
                 <img src="assets/images/glossary/magento-landing-page.png" title="magento landing page" alt="magento landing page" />
             </a>
-            <h2>Shopify</h2>
+            <h2 id="shopify">Shopify</h2>
              <p class="text">
                 Shopify is a solution that doesn’t require you to install any sort of software for it to work - this type of a solution is called Software as a Service (SaaS). Smaller
                 business may enjoy Shopify’s extensive catalogue of both Themes and Templates with many variations.
@@ -72,7 +96,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.shopify.com">
                 <img src="assets/images/glossary/shopify-landing-page.png" title="shopify landing page" alt="shopify landing page" />
             </a>
-            <h2>BigCommerce</h2>
+            <h2 id="bigCommerce">BigCommerce</h2>
             <p class="text">
                 One of the key features of BigCommerce as a CMS platform is their ability to provide back-end support to their customers. Clients also note BigCommerce’s simplicity and
                 an abundance of features available. That usability is a significant advantage for any company’s potential revenue.
@@ -87,7 +111,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.bigcommerce.com">
                 <img src="assets/images/glossary/bigcommerce-landing-page.png" title="bigcommerce landing page" alt="bigcommerce landing page" />
             </a>
-            <h2>OsCommerce</h2>
+            <h2 id="osCommerce">OsCommerce</h2>
             <p class="text">
                 OsCommerce is an open source e-commerce platform that looks somewhat like an older version of Amazon. It has existed for over 18 years, however their download numbers are
                 not as high as one would expect.
@@ -100,7 +124,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.oscommerce.com">
                 <img src="assets/images/glossary/oscommerce-landing-page.png" title="oscommerce landing page" alt="oscommerce landing page" />
             </a>
-            <h2>OpenCart</h2>
+            <h2 id="openCart">OpenCart</h2>
             <p class="text">
                 OpenCart is widely considered to be one of the most popular CMS platforms in general, boasting their flexibility, scalability and user-friendliness. It also has a very
                 active community in general and the platform itself is always striving to be even better than before.
@@ -117,7 +141,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.opencart.com">
                 <img src="assets/images/glossary/opencart-landing-page.png" title="opencart landing page" alt="opencart landing page" />
             </a>
-            <h2>WooCommerce</h2>
+            <h2 id="wooCommerce">WooCommerce</h2>
             <p class="text">
                 At its core, WooCommerce is a free WordPress plugin. Even so, its open-source nature makes for an immensely popular platform that has both extensive features and
                 user-friendly interface. WooCommerce is both free and extremely flexible, which makes it a great choice for all kinds of e-commerce startups and such.    
@@ -134,7 +158,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://woocommerce.com">
                 <img src="assets/images/glossary/woocommerce-landing-page.png" title="woocommerce landing page" alt="woocommerce landing page" />
             </a>
-            <h2>PrestaShop</h2>
+            <h2 id="prestaShop">PrestaShop</h2>
             <p class="text">
                 PrestaShop’s free and open source nature makes for a good choice when looking for an e-commerce platform. Built with PHP and MySQL, it’s specifically designed to handle
                 any types of online stores with no license fees attached. There’s also various payment gateways like Paypal, Google Checkout, and more.
@@ -151,7 +175,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.prestashop.com/en">
                 <img src="assets/images/glossary/prestashop-landing-page.png" title="prestashop landing page" alt="prestashop landing page" />
             </a>
-            <h2>SAP Hybris</h2>
+            <h2 id="sapHybris">SAP Hybris</h2>
             <p class="text">
                 SAP Hybris is a multichannel e-commerce CMS platform that has a lot of integrated tools and services available. It is capable of working within both B2B and B2C markets
                 and performs the best in specific industries, like finance, telecommunications, media, insurance, retail and manufacturing.
@@ -167,7 +191,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.sap.com/products/crm.html">
                 <img src="assets/images/glossary/sap-hybris-landing-page.png" title="sap hybris landing page" alt="sap hybris landing page" />
             </a>
-            <h2>Drupal Commerce</h2>
+            <h2 id="drupalCommerce">Drupal Commerce</h2>
             <p class="text">
                 Drupal Commerce was not designed to be specifically for e-commerce business however, it evolved into this nonetheless. Its focus is on digital marketing support and
                 enterprise-level CMS.
@@ -184,7 +208,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://drupalcommerce.org">
                 <img src="assets/images/glossary/drupal-commerce-landing-page.png" title="drupal commerce landing page" alt="drupal commerce landing page" />
             </a>
-            <h2>Wix</h2>
+            <h2 id="wix">Wix</h2>
             <p class="text">
                 Wix is one more exclusively cloud-based web development platform that might be good for your e-commerce needs. Wix makes for a great choice for smaller companies with its
                 template-based design and customization capabilities that require little to no coding knowledge.
@@ -199,7 +223,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.wix.com">
                 <img src="assets/images/glossary/wix-landing-page.png" title="wix landing page" alt="wix landing page" />
             </a>
-            <h2>VirtueMart</h2>
+            <h2 id="virtueMart">VirtueMart</h2>
             <p class="text">
                 VirtueMart is a Joomla-based expansion that is simple to use for both beginners and experts. It uses several types of components, modules and plugins to greatly expand
                 its customization capabilities. There’s also an option to see your in-depth shop statistics for any period of time.
@@ -211,7 +235,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.virtuemart.net">
                 <img src="assets/images/glossary/virtuemart-landing-page.png" title="virtuemart landing page" alt="virtuemart landing page" />
             </a>
-            <h2>SquareSpace</h2>
+            <h2 id="squareSpace">SquareSpace</h2>
             <p class="text">
                 SquareSpace is one more platform that allows you to create a website with little to no effort, including everything you’ll need for the site in question to function
                 properly. It is quite cheap, and also extremely user-friendly.
@@ -223,7 +247,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.squarespace.com">
                 <img src="assets/images/glossary/squarespace-landing-page.png" title="squarespace landing page" alt="squarespace landing page" />
             </a>
-            <h2>Pinnacle Cart</h2>
+            <h2 id="pinnacleCart">Pinnacle Cart</h2>
             <p class="text">
                 Pinnacle Cart is a relatively popular PHP-based e-commerce platform that’s designed with a marketing perspective in mind. Its scalability is also pretty good, it works
                 fine no matter how much items you’re selling.
@@ -235,7 +259,7 @@ permalink: glossary/e-commerce-cms
             <a href="https://www.pinnaclecart.com">
                 <img src="assets/images/glossary/pinnacle-cart-landing-page.png" title="pinnacle cart landing page" alt="pinnacle cart landing page" />
             </a>
-            <h2>Core Commerce</h2>
+            <h2 id="coreCommerce">Core Commerce</h2>
             <p class="text">
                 Core Commerce is one more example of a platform that’s created specifically to work with small or medium sized businesses, this includes easy navigation, user-friendly
                 interface, vast integration capabilities and a lot of customizability in general.
