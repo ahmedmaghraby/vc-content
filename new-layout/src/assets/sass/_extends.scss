@@ -130,3 +130,46 @@
         }
     }
 }
+
+%max-with-text
+{
+    max-width: 24rem;
+
+    @include media-breakpoint-up(xl) {
+       max-width: 37.5rem;
+    }
+}
+
+%font-size-text
+{
+    .block__note
+    {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .block__t
+    {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .block__descr
+    {
+        font-size: 1.125rem;
+        font-weight: normal;
+        line-height: 1.625rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        .block__t
+        {
+            font-size: 1.75rem;
+        }
+
+        .block__descr
+        {
+            font-size: 1rem;
+        }
+    }
+}
