@@ -3617,6 +3617,22 @@
                 "previewWidth": 120,
                 "previewHeight": 80
             },
+			{
+				"id": "sectionStyle",
+				"label": "Section style",
+				"type": "select",
+				"default": "section--cover",
+				"options": [
+					{
+						"value": "section--cover",
+						"label": "Section cover"
+					},
+					{
+						"value": "container",
+						"label": "Container"
+					}
+				]
+			}
             {
                 "id": "url1",
                 "label": "Link",
