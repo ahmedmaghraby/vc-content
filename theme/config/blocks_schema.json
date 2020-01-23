@@ -3651,21 +3651,6 @@
                 ]
             },
             {
-                "id": "linkPosition",
-                "label": "Link position",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "bottom",
-                        "label": "Bottom"
-                    },
-                    {
-                        "value": "right",
-                        "label": "Right"
-                    }
-                ]
-            },
-            {
                 "id": "noTop",
                 "label": "Remove top margin",
                 "type": "checkbox",
