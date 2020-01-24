@@ -104,6 +104,30 @@
         }
     }
 
+    &--black
+    {
+        background: $black;
+        border-color: $black;
+        color: $white;
+
+        &:hover
+        {
+            background: lighten($black, 4%);
+            color: $white;
+        }
+
+        &.btn--outline
+        {
+            border-color: $black;
+            color: $black;
+
+            &:hover
+            {
+                color: $white;
+            }
+        }
+    }
+
     @include media-breakpoint-down(sm) {
         &--lg
         {

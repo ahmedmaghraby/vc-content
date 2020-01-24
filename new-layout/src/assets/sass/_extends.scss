@@ -135,41 +135,95 @@
 {
     max-width: 24rem;
 
+    @include media-breakpoint-down(md) {
+        max-width: 100%;
+    }
+
     @include media-breakpoint-up(xl) {
        max-width: 37.5rem;
     }
 }
 
-%font-size-text
+%font-headings
 {
-    .block__note
+    font-family: 'CircularStd', sans-serif;
+}
+
+%list-items
+{
+    counter-reset: list;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.25rem;
+
+    .list__item
     {
-        font-size: 1.5rem;
-        line-height: 1;
+        counter-increment: list;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 0 1.25rem 1.25rem;
     }
 
-    .block__t
+    .list__num,
+    .list__ico
     {
-        font-size: 2rem;
-        line-height: 2.5rem;
+        display: block;
+        margin-bottom: 1.25rem;
+        max-height: 3.125rem;
+        max-width: 3.125rem;
     }
 
-    .block__descr
+    .list__num
     {
-        font-size: 1.125rem;
-        font-weight: normal;
-        line-height: 1.625rem;
-    }
+        align-items: center;
+        background-color: $white;
+        border: 0.1875rem solid $orange;
+        border-radius: 3.125rem;
+        display: flex;
+        height: 3.125rem;
+        justify-content: center;
+        width: 3.125rem;
 
-    @include media-breakpoint-down(md) {
-        .block__t
+        &::after
         {
-            font-size: 1.75rem;
+            color: $orange;
+            content: counter(list);
+            font-size: 1.5rem;
+            font-weight: bold;
         }
 
-        .block__descr
+        &--filled
         {
-            font-size: 1rem;
+            background-color: $orange;
+
+            &::after
+            {
+                color: $white;
+            }
+        }
+    }
+
+    .list__descr
+    {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    &.list-items--cols-2
+    {
+        .list__item
+        {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    &.list-items--cols-4
+    {
+        .list__item
+        {
+            flex: 0 0 25%;
+            max-width: 25%;
         }
     }
 }
