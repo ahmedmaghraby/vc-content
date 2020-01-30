@@ -161,7 +161,34 @@
         counter-increment: list;
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
-        padding: 0 1.25rem 1.25rem;
+        padding: 0 1.25rem 2.5rem;
+    }
+
+    .list__img
+    {
+        flex: 0 0 12.5rem;
+        margin-bottom: 1.25rem;
+        min-height: 12.5rem;
+        position: relative;
+
+        &::after
+        {
+            background: #ddd;
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .list__pic
+    {
+        display: block;
+        position: relative;
+        width: 100%;
+        z-index: 5;
     }
 
     .list__num,
@@ -203,12 +230,6 @@
         }
     }
 
-    .list__descr
-    {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
     &.list-items--cols-2
     {
         .list__item
@@ -224,6 +245,280 @@
         {
             flex: 0 0 25%;
             max-width: 25%;
+        }
+    }
+
+    &.list-items--type-letters {
+        .list__num::after {
+            content: counter(list, lower-latin);
+        }
+    }
+
+    .list__tags
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.25rem;
+
+        &-item
+        {
+            align-items: center;
+            background-color: $white;
+            border: 1px solid #e1e1e1;
+            border-radius: 0.25rem;
+            display: flex;
+            font-size: 1rem;
+            height: 2.125rem;
+            margin-bottom: 0.625rem;
+            margin-right: 0.625rem;
+            padding: 0 0.9375rem;
+
+            &:last-child
+            {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .list__author
+    {
+        display: flex;
+        flex-direction: column;
+        height: 2.75rem;
+        justify-content: center;
+        margin-top: 0.625rem;
+        padding-left: 3.25rem;
+        position: relative;
+
+        &-t
+        {
+            font-size: 1rem;
+            line-height: 1rem;
+            font-weight: bold;
+        }
+
+        &-date
+        {
+            color: #aaa;
+            font-size: 0.75rem;
+            font-weight: bold;
+            line-height: 1rem;
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        &-t,
+        &-date
+        {
+            @extend %font-headings;
+        }
+
+        &::after,
+        &::before
+        {
+            content: ' ';
+            position: absolute;
+        }
+
+        &::after
+        {
+            background: url($tpl-img-url + 'vc-author-logo.svg') no-repeat scroll 0 0;
+            height: 1.5rem;
+            left: 0.5625rem;
+            top: 0.625rem;
+            width: 1.625rem;
+        }
+
+        &::before
+        {
+            background-color: $gray-200;
+            border-radius: 2.75rem;
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 2.75rem;
+        }
+    }
+
+    &.list-items--reviews
+    {
+        .list__img
+        {
+            border-radius: 100%;
+            flex: 0 0 4.375rem;
+            height: 4.375rem;
+            min-height: 0;
+            width: 4.375rem;
+
+            &::after
+            {
+                border-radius: 100%;
+            }
+        }
+
+        .list__pic
+        {
+            border-radius: 100%;
+        }
+
+        .list__pos
+        {
+            color: #aaa;
+            font-size: 1rem;
+            line-height: 1rem;
+            margin-bottom: 1.25rem;
+            margin-top: -0.625rem;
+        }
+
+        .list__company
+        {
+            font-size: 1rem;
+            line-height: 1rem;
+            font-weight: bold;
+            margin-top: 1.25rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &.list-items--cols-4 .list__item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .list__item,
+        &.list-items--cols-2 .list__item,
+        &.list-items--cols-4 .list__item {
+            flex-basis: auto;
+            flex-grow: 1;
+            max-width: 100%;
+        }
+    }
+}
+
+%list-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.25rem;
+
+    .list__item
+    {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 0 1.25rem 2.5rem;
+    }
+
+    .list__inner
+    {
+        border: 1px solid #e1e1e1;
+        border-radius: 0.25rem;
+        padding: 1.875rem;
+    }
+
+    .list__img
+    {
+        margin-bottom: 1.25rem;
+    }
+
+    .list__pic
+    {
+        display: block;
+        max-width: 100%;
+    }
+
+    .btn
+    {
+        font-weight: bold;
+        margin-top: 1.25rem;
+
+        @extend %font-headings;
+    }
+
+    @include media-breakpoint-down(md) {
+        .list__item
+        {
+            flex-basis: auto;
+            flex-grow: 1;
+            max-width: 100%;   
+        }
+    }
+}
+
+%list-partners
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.25rem -3.125rem;
+
+    .list__item
+    {
+        flex: 0 0 25%;
+        margin-bottom: 3.125rem;
+        max-width: 25%;
+        padding: 0 1.25rem;
+        text-align: center;
+    }
+
+    .list__img
+    {
+        align-items: center;
+        display: flex;
+        height: 3.125rem;
+        justify-content: center;
+        position: relative;
+
+        &::after
+        {
+            background-color: #ddd;
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    .list__pic
+    {
+        display: block;
+        max-width: 100%;
+        position: relative;
+        z-index: 5;
+    }
+
+    @include media-breakpoint-down(md) {
+        .list__item
+        {
+            flex: 0 0 33.3333%;
+            margin-bottom: 1.25rem;
+            max-width: 33.3333%;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        margin: 0 -1.25rem -1.25rem;
+
+        .list__item
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .list__item
+        {
+            min-width: 12.5rem;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        .list__item
+        {
+            flex: 0 0 20%;
+            max-width: 20%;
         }
     }
 }

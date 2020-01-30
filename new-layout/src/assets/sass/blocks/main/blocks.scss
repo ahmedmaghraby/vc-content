@@ -8,27 +8,74 @@
 	min-height: 37.5rem;
     position: relative;
 
-    &::after
-    {
-        background: rgba(0,0,0,.7);
-        bottom: 0;
-        content: ' ';
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 5;
-    }
+    .block__t,
+	.block__descr
+	{
+		@extend %max-with-text;
+	}
 
-    .block__inner
-    {
-    	color: $white;
-    }
+    &__note,
+	&__t,
+	&__descr
+	{
+		margin: 0;
+		max-width: 37.5rem;
+	}
+
+	&__note
+	{
+		font-weight: bold;
+	}
 
     &-fixed
     {
 		background-attachment: fixed;
     }
+
+    &-static {
+    	background-attachment: scroll;
+    }
+
+    &-fixed,
+    &-static {
+    	.block__inner
+	    {
+	    	color: $white;
+	    }
+
+    	&::after
+	    {
+	        background: rgba(0,0,0,.7);
+	        bottom: 0;
+	        content: ' ';
+	        left: 0;
+	        position: absolute;
+	        right: 0;
+	        top: 0;
+	        z-index: 5;
+	    }
+    }
+
+    // Bg colors for block
+	.block--bg-light
+	{
+		background-color: $gray-100;
+
+		.block__inner
+	    {
+	    	color: $gray-900;
+	    }
+	}
+
+	.block--bg-orange
+	{
+		background-color: $orange;
+
+		.block__inner
+	    {
+	    	color: $white;
+	    }
+	}
 }
 
 .block
@@ -37,6 +84,18 @@
 	display: flex;
 	font-family: Helvetica, sans-serif;
 	padding: 6.25rem 3.75rem;
+
+	&--padding-none
+	{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	&--padding-half
+	{
+		padding-bottom: 3.125rem;
+		padding-top: 3.125rem;
+	}
 
 	@include media-breakpoint-down(sm) {
 		padding: 1.25rem;
@@ -53,6 +112,7 @@
 
 	&__inner
 	{
+		align-items: flex-start;
 		color: $gray-900;
 		display: flex;
 		flex-direction: column;
@@ -62,14 +122,18 @@
 
 	&__note
     {
-        font-size: 1.5rem;
-        line-height: 1;
+    	color: #aaa;
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.625;
+        margin-top: 1.25rem;
     }
 
     &__t
     {
         font-size: 2rem;
         line-height: 2.5rem;
+        margin-bottom: 0;
 
         @extend %font-headings;
     }
@@ -81,18 +145,9 @@
         line-height: 1.625rem;
     }
 
-	&__note,
 	&__t
 	{
 		font-weight: 900;
-	}
-
-	&__note,
-	&__t,
-	&__descr
-	{
-		margin: 0;
-		max-width: 37.5rem;
 	}
 
 	@include media-breakpoint-down(md) {
@@ -144,7 +199,7 @@
 				width: 100%;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-breakpoint-up(sm) {
 				margin-right: 1.25rem;
 			}
 		}
@@ -154,6 +209,7 @@
 	&--align-center .block__inner
 	{
 		align-items: center;
+		text-align: center;
 
 		@include media-breakpoint-up(md) {
 			.block__text
@@ -182,6 +238,11 @@
 	&--bg-light
 	{
 		background-color: $gray-100;
+
+		.block__inner
+	    {
+	    	color: $gray-900;
+	    }
 	}
 
 	&--bg-orange
@@ -191,6 +252,11 @@
 		.block__inner
 	    {
 	    	color: $white;
+	    }
+
+	    .block__note
+	    {
+	    	color: rgba(255,255,255,.7);
 	    }
 	}
 
@@ -311,6 +377,49 @@
 		}
 	}
 
+	.block__pic
+	{
+		display: block;
+		width: 100%;
+	}
+
+	[class*="col-"]
+	{
+		&:first-child
+		{
+			.block__form,
+			.block__media
+			{
+				margin-right: 3.75rem;
+
+				@include media-breakpoint-down(md) {
+					margin-right: 0;
+				}
+
+				@include media-breakpoint-up(xl) {
+					margin-right: 6.25rem;
+				}
+			}
+		}
+
+		&:last-child
+		{
+			.block__form,
+			.block__media
+			{
+				margin-left: 3.75rem;
+
+				@include media-breakpoint-down(md) {
+					margin-left: 0;
+				}
+
+				@include media-breakpoint-up(xl) {
+					margin-left: 6.25rem;
+				}
+			}
+		}
+	}
+
 	&.block--bg-light,
 	&.block--bg-dark
 	{
@@ -320,15 +429,42 @@
 		}
 	}
 
-	.block__t,
-	.block__descr
-	{
-		@extend %max-with-text;
-	}
-
 	// List items
 	.list-items
 	{
 		@extend %list-items;
+	}
+
+	// List cards
+	.list-cards
+	{
+		@extend %list-cards;
+	}
+	
+	// List partners
+	.list-partners
+	{
+		@extend %list-partners;
+	}
+
+	.list-items,
+	.list-cards
+	{
+		margin-bottom: -2.5rem;
+
+		.list__t {
+	        font-size: 1.25rem;
+	        font-weight: 900;
+	        line-height: 1.625rem;
+	        margin-bottom: 1.25rem;
+
+	        @extend %font-headings;
+	    }
+
+	    .list__descr
+	    {
+	        font-size: 1rem;
+	        line-height: 1.5rem;
+	    }
 	}
 }
