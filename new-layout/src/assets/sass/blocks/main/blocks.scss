@@ -143,6 +143,21 @@
         font-size: 1.125rem;
         font-weight: normal;
         line-height: 1.625rem;
+
+        &--b
+        {
+            font-weight: bold;
+        }
+
+        &--i
+        {
+            font-style: italic;
+        }
+
+        &--lt
+        {
+            text-decoration: line-through;
+        }
     }
 
 	&__t
