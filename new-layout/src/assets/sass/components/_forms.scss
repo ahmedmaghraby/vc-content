@@ -210,6 +210,73 @@ textarea
     }
 }
 
+// Radio list
+.radio-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.625rem;
+
+    &__item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0.625rem;
+    }
+
+    &__input
+    {
+        left: 0;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+
+        &:checked ~ .radio-list__label
+        {
+            box-shadow: 0 0 0 0.125rem $orange inset;
+            color: $black;
+        }
+    }
+
+    &__label
+    {
+        background-color: $white;
+        border-radius: .25rem;
+        box-shadow: 0 0 0 0.125rem #e1e1e1 inset;
+        box-sizing: border-box;
+        color: #aaa;
+        cursor: pointer;
+        display: block;
+        flex: 1 0 auto;
+        margin: 0;
+        padding: 0.9375rem;
+        position: relative;
+    }
+
+    &__t
+    {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 900;
+    }
+
+    &__descr
+    {
+        display: block;
+        font-size: 0.8125rem;
+        margin-top: 0.5rem;
+    }
+
+    @include media-breakpoint-down(xs) {
+        &__item
+        {
+            flex-basis: auto;
+            flex-grow: 1;
+            max-width: 100%;
+        }
+    }
+}
+
 // Select2
 .select2-container .select2-selection--single
 {
