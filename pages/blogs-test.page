@@ -13,7 +13,7 @@
         "horizontalAlignment": "left",
         "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "titleStyle": "h2",
-        "subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
         "subtitleFontWeight": "block__descr--n",
         "subtitleTextStyle": "block__descr--n",
         "note": "Lorem Ipsum",
@@ -23,7 +23,7 @@
         },
         "backgroundColor": "none",
         "backgroundColorHex": null,
-        "backgroundOverlayColor": "block--cover-black",
+        "backgroundOverlayColor": "--black",
         "backgroundOverlayColorHex": null,
         "backgroundScrollEffect": "block--cover-fixed",
         "firstLink": {
@@ -35,7 +35,9 @@
             "url": "",
             "urlText": "",
             "style": "btn btn--black"
-        }
+        },
+        "firstButton": null,
+        "secondButton": null
     },
     {
         "id": 3,
@@ -97,7 +99,7 @@
         "horizontalAlignment": "center",
         "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "titleStyle": "h2",
-        "subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
         "subtitleFontWeight": "block__descr--n",
         "subtitleTextStyle": "block__descr--n",
         "note": "Lorem Ipsum",
@@ -107,7 +109,7 @@
         },
         "backgroundColor": "none",
         "backgroundColorHex": null,
-        "backgroundOverlayColor": "block--cover-black",
+        "backgroundOverlayColor": "--black",
         "backgroundOverlayColorHex": null,
         "backgroundScrollEffect": "block--cover-fixed",
         "firstLink": {
@@ -119,7 +121,9 @@
             "url": "",
             "urlText": "",
             "style": "btn btn--black"
-        }
+        },
+        "firstButton": null,
+        "secondButton": null
     },
     {
         "id": 6,
@@ -181,7 +185,7 @@
         "horizontalAlignment": "center",
         "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "titleStyle": "h2",
-        "subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
         "subtitleFontWeight": "block__descr--n",
         "subtitleTextStyle": "block__descr--n",
         "note": "Lorem Ipsum",
@@ -191,7 +195,71 @@
         },
         "backgroundColor": "none",
         "backgroundColorHex": null,
-        "backgroundOverlayColor": "block--cover-black",
+        "backgroundOverlayColor": "--black",
+        "backgroundOverlayColorHex": "",
+        "backgroundScrollEffect": "block--cover-static",
+        "firstLink": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--black"
+        },
+        "secondLink": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--black"
+        },
+        "firstButton": null,
+        "secondButton": null
+    },
+    {
+        "id": 9,
+        "type": "cover",
+        "horizontalAlignment": "center",
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "titleStyle": "h2",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
+        "subtitleFontWeight": "block__descr--n",
+        "subtitleTextStyle": "block__descr--n",
+        "note": "Lorem Ipsum",
+        "background": {
+            "altText": null,
+            "url": "/assets/pages/bg.jpg"
+        },
+        "backgroundColor": "none",
+        "backgroundColorHex": null,
+        "backgroundOverlayColor": "--white",
+        "backgroundOverlayColorHex": "",
+        "backgroundScrollEffect": "block--cover-static",
+        "firstLink": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--black"
+        },
+        "secondLink": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--black"
+        },
+        "firstButton": null,
+        "secondButton": null
+    },
+    {
+        "id": 12,
+        "type": "cover",
+        "horizontalAlignment": "center",
+        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "titleStyle": "h2",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
+        "subtitleFontWeight": "block__descr--n",
+        "subtitleTextStyle": "block__descr--n",
+        "note": "Lorem Ipsum",
+        "background": {
+            "altText": null,
+            "url": "/assets/pages/bg.jpg"
+        },
+        "backgroundColor": "none",
+        "backgroundColorHex": null,
+        "backgroundOverlayColor": "none",
         "backgroundOverlayColorHex": "#ace560",
         "backgroundScrollEffect": "block--cover-static",
         "firstLink": {
@@ -203,15 +271,17 @@
             "url": "",
             "urlText": "",
             "style": "btn btn--black"
-        }
+        },
+        "firstButton": null,
+        "secondButton": null
     },
     {
-        "id": 9,
+        "id": 10,
         "type": "cover",
         "horizontalAlignment": "center",
         "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "titleStyle": "h2",
-        "subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
         "subtitleFontWeight": "block__descr--b",
         "subtitleTextStyle": "block__descr--u",
         "note": "Lorem Ipsum",
@@ -230,15 +300,17 @@
             "url": "",
             "urlText": "",
             "style": "btn btn--black"
-        }
+        },
+        "firstButton": null,
+        "secondButton": null
     },
     {
-        "id": 10,
+        "id": 11,
         "type": "cover",
         "horizontalAlignment": "center",
         "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "titleStyle": "h2",
-        "subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "subtitle": "<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>\n",
         "subtitleFontWeight": "block__descr--n",
         "subTitleIsItalic": true,
         "subtitleIsStrikeThrough": true,
@@ -255,20 +327,30 @@
         "background": null,
         "backgroundColor": "none",
         "backgroundColorHex": null,
-        "backgroundOverlayColor": "block--cover-black",
+        "backgroundOverlayColor": "block--cover",
         "backgroundOverlayColorHex": null,
         "backgroundScrollEffect": "block--cover",
         "firstLink": {
-            "url": "",
-            "urlText": "",
+            "url": "#",
+            "urlText": "Action button",
             "style": "btn btn--black"
         },
         "secondLink": {
-            "url": "",
-            "urlText": "",
+            "url": "#",
+            "urlText": "Action button",
             "style": "btn btn--black"
         },
         "subtitleUrl": "contact-us",
-        "subtitleIsItalic": true
+        "subtitleIsItalic": true,
+        "firstButton": {
+            "url": null,
+            "urlText": "Action button",
+            "style": "btn btn--black"
+        },
+        "secondButton": {
+            "url": null,
+            "urlText": "Action button",
+            "style": "btn btn--orange"
+        }
     }
 ]

@@ -21,10 +21,11 @@
          </style>
      {% endif %}
 
-     <div class="block {{block.backgroundScrollEffect}} {{alignment}} 
+     <div class="block {{alignment}} 
      {% if block.backgroundColor == 'none' and block.backgroundColorHex == '' %} block--cover {% endif %}
      {% if block.backgroundColor != 'none' and block.backgroundColorHex == '' %} {{block.backgroundColor}} {% endif %}
-     {% if block.backgroundOverlayColorHex != '' %} has-hex-{{counter}} {% endif %}"
+     {% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
+     {% if block.backgroundOverlayColorHex != '' %} {{block.backgroundScrollEffect}} has-hex-{{counter}} {% endif %}"
      {% if block.backgroundColorHex != '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}
      {% if block.backgroundColor == 'none' and block.background.url != '' %} style="background-image: url('{{block.background.url}}') {% endif %}">
         <div class="block__inner container">
@@ -43,31 +44,13 @@
                     <div class="block__t">{{block.title}}</div>
                 {% endif %}
                 <div class="block__space"></div>
-                <h3 class="block__descr {{block.subtitleFontWeight}}
-                    {% if block.subtitleIsItalic == 'True' %} block__descr--i {% endif %}
-                    {% if block.subtitleIsStrikeThrough == 'True' %} block__descr--lt {% endif %}">
-                    {% if block.subtitleIsLink == 'True' %}
-                        <a href="{{block.subtitleUrl}}">
-                            {% if block.subtitleIsUnderline == 'True' %}
-                                <u>{{block.subtitle}}</u>
-                            {% else %}
-                                {{block.subtitle}}
-                            {% endif %}
-                        </a>
-                    {% else %}
-                        {% if block.subtitleIsUnderline == 'True' %}
-                            <u>{{block.subtitle}}</u>
-                        {% else %}
-                            {{block.subtitle}}
-                        {% endif %}
-                    {% endif %}
-                </h3>
-                {% if block.firstLink != '' and block.firstLink.urlText != '' %}
+                <h3 class="block__descr">{{block.subtitle}}</h3>
+                {% if block.firstButton != '' and block.firstButton.urlText != '' %}
                     <div class="block__space"></div>
                     <div class="block__actions">
-                        <a href="{{block.firstLink.url}}" class="{{block.firstLink.style}}">{{block.firstLink.urlText}}</a>
-                        {% if block.secondLink != '' and block.secondLink.urlText != '' %}
-                            <a href="{{block.secondLink.url}}" class="{{block.secondLink.style}}">{{block.secondLink.urlText}}</a>
+                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}">{{block.firstButton.urlText}}</a>
+                        {% if block.secondButton != '' and block.secondButton.urlText != '' %}
+                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}">{{block.secondButton.urlText}}</a>
                         {% endif %}
                     </div>
                 {% endif %}
