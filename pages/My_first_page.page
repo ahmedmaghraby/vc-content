@@ -1,0 +1,30 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "MyFirstPage",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "text",
+        "name": "Text",
+        "title": "This is a title",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>This is the content</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

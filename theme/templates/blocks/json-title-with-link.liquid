@@ -1,0 +1,20 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+
+  {% assign titleStyle = 'section__t' %}
+  {% assign sectionStyle = 'section__info' %}
+  {% if block.titleAlignment == 'middle' %}
+  	{% assign titleStyle = 'like-h3' %}
+  	{% assign sectionStyle = 'section__descr' %}
+  {% endif %}
+  <div class="section">
+    <div class="{{sectionStyle}} container bordered {{block.style}}">
+      <div class="{{titleStyle}} container-title {{block.titleAlignment}}">
+        <div>{{block.title}}</div>
+        <a class="{{block.link.style}}" href="{{block.link.url}}">{{block.link.urlText}}</a>
+      </div>
+    </div>
+  </div>
+</div>

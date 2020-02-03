@@ -1,180 +1,137 @@
 <!DOCTYPE html>
-<html ng-class="{ 'loading': loading }" ng-controller="docsController" ng-app="storefrontApp">
+<html ng-app="storefrontApp">
 <head>
+    {% include 'google-tag-manager-head' %}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="author" content="Virto Commerce" />
+    {% if page_description != '' %}
+    <meta name="description" content="{{ page_description | escape }}" />
+    <meta property="og:description" content="{{ page_description | escape }}" />
+    {% else %}
+    <meta name="description" content="Virto Commerce - enterprise .NET Microsoft Ecommerce Platform for B2B & B2C solutions" />
+    {% endif %}
+    <meta name="keywords" content="Virto Commerce, Enterprise eCommerce, ASP.NET eCommerce, Azure eCommerce, Cloud eCommerce, MVC eCommerce, .net shopping cart" />
+    <meta itemprop="name" content="Virto Commerce" />
+    <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
+    <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
+    <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
+    {% if page_title != '' %}
+    <title>{{ page_title }}</title>
+    <meta property="og:title" content="{{ page_title }}" />
+    {% else %}
+    <title>Virto Commerce - Enterprise ASP.NET open-source Microsoft e-commerce platform</title>
+    {% endif %}
     {{ '//fonts.googleapis.com/css?family=Lato' | stylesheet_tag }}
+    {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
     {{ '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css' | stylesheet_tag }}
-    {{ 'reset.css' | asset_url | stylesheet_tag }}
-    {{ 'main.css' | asset_url | stylesheet_tag }}
-    {{ 'responsive.css' | asset_url | stylesheet_tag }}
-    {{ 'docs.css' | asset_url | stylesheet_tag }}
-
-    {{ content_for_header }}
-
-    {% if page_title != 'Virto Commerce Documentation' %}
-    {% assign page_title = page_title | append: ' - Virto Commerce Documentation' %}
-    {% endif %}
-    {% if page_description == empty %}
-    {% assign page_description = page_title %}
-    {% endif %}
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ page_description }}" />
-    <meta name="og:type" property="og:type" content="article" />
-    <meta name="og:url" property="og:url" content="{{ page.url | full_url }}" />
-    <meta name="og:image" property="og:image" content="{{ 'logox2.jpg' | asset_url }}" />
-    <meta name="og:title" property="og:title" content="{{ page_title }}" />
-    <meta name="og:description" property="og:description" content="{{ page_description }}" />
-    <meta name="twitter:card" property="twitter:card" content="summary" />
-    <meta name="twitter:url" property="twitter:url" content="{{ page.url | full_url }}" />
-    <meta name="twitter:image" property="twitter:image" content="{{ 'logox2.jpg' | asset_url }}" />
-    <meta name="twitter:title" property="twitter:title" content="{{ page_title }}}" />
-    <meta name="twitter:description" property="twitter:description" content="{{ page_description }}" />
-    <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
-    <link href="{{ page.url | full_url }}" rel="canonical" />
-
-    <base href="{{ '/' | absolute_url }}" />
-
-    {% include 'segment' %}
-
-    <script type='application/ld+json'>
-        {
-        "@context": "http://www.schema.org",
-        "@type": "Article",
-        "name": "{{ page_title }}",
-        "author": {
-        "@type": "Person",
-        "name": "Virto Commerce"
-        },
-        "datePublished": "{{ page.published_at }}",
-        "dateModified": "{{ page.published_at }}",
-        "headLine": "{{ page_description }}",
-        "image": {
-        "@type": "ImageObject",
-        "url": "{{ 'logox2.jpg' | asset_url }}",
-        "height": 112,
-        "width": 300
-        },
-        "publisher": {
-        "@type": "Organization",
-        "name": "Virto Commerce",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "{{ 'logo.jpg' | asset_url }}",
-        "height": 56,
-        "width": 150
-        }
-        },
-        "mainEntityOfPage": "{{ page.url | full_url }}"
-        }
+    {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i) }) }}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t
+                }({
+                    instrumentationKey: "{{ application_settings.ApplicationInsightsInstrumentationKey }}"
+                });
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
     </script>
+    {% include 'segment' %}
+    {{ content_for_header }}
+    <base href="{{ '/' | absolute_url }}" />
     {% include 'autopilot' %}
 </head>
-<body ng-class="{'modal-open' : showAll }">
+<body ng-controller="docsController">
+    {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort_list: 'url' %}
+    {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
+    {% include 'google-tag-manager-body' %}
+    {% if can_track %}
+    {% include 'gdpr-cookie-compliance' %}
+    {% endif %}
+    <div class="google-like">
+        <div class="g-plusone" data-href="https://virtocommerce.com" data-size="tall"></div>
+    </div>
+    {% include 'apps-identifier' %}
+    {% include 'form-become-a-developer' %}
+    {% include 'form-write-a-review' %}
+    {% include 'form-contact-vendor' %}
+    {% include 'form-support-vendor' %}
+    {% include 'form-thank-you' %}
     {% include 'getting-started' %}
-    <div class="layout">
+    {% assign menu = linklists['main-menu'] %}
+    {% if isAppsStore %}
+    {% assign menu = linklists['apps-menu'] %}
+    {% endif %}
+    <div id="layout">
         <div class="layout-canvas">
-            <div class="swipe" id="menu-mobile">
+            <div class="swipe">
+                <!-- TODO: Fix main-menu for mobile -->
                 {% include 'main-menu-mobile' %}
             </div>
-            <div class="header-wrap">
-                <header class="responsive" id="header" role="banner">
-                    <a class="logo" href="{{ '/' | absolute_url }}" title="Virto Commerce"></a>
-                    <a class="mobile-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                    {% assign menu = linklists.main-menu %}
-                    {% include 'main-menu-static' %}
-                </header>
-            </div>
+
             <article class="main" role="main">
-                <div class="docs responsive">
-                    <div class="docs-column">
-                        <div class="nav" id="menu">
-                            <form class="search" action="{{ '/content/search' | absolute_url }}" method="post">
-                                <input name="SearchIn" id="SearchIn" type="hidden" value="/docs">
-                                <input name="Layout" id="Layout" type="hidden" value="docs">
-                                <input name="Keyword" id="Keyword" type="search" placeholder="Search docs" required="required" value="{{ search.terms }}">
-                            </form>
-
-                            {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'url' %}
-                            {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
-                            {% include 'docs-menu', docs_tree: docs_tree %}
-
+                <div class="docs">
+                    <div class="docs__header">
+                        <div class="docs__inner container">
+                            <div class="docs__header-search">
+                                <form class="form" action="{{ '/content/search' | absolute_url }}" method="post">
+                                    <input name="SearchIn" id="SearchIn" type="hidden" value="/docs">
+                                    <input name="Layout" id="Layout" type="hidden" value="docs">
+                                    <input class="form-control" name="Keyword" id="Keyword" type="search" placeholder="Search documentation…" required="required" value="{{ search.terms }}">
+                                </form>
+                            </div>
+                            <div class="docs__header-nav">
+                                {% include 'docs-breadcrumbs' %}
+                            </div>
                         </div>
                     </div>
-                    <div class="docs-column docs-content">
-
-                        <div class="docs-overlay" ng-class="{ 'visible': loading }">
-                            <div class="sk-fading-circle">
-                                <div class="sk-circle1 sk-circle"></div>
-                                <div class="sk-circle2 sk-circle"></div>
-                                <div class="sk-circle3 sk-circle"></div>
-                                <div class="sk-circle4 sk-circle"></div>
-                                <div class="sk-circle5 sk-circle"></div>
-                                <div class="sk-circle6 sk-circle"></div>
-                                <div class="sk-circle7 sk-circle"></div>
-                                <div class="sk-circle8 sk-circle"></div>
-                                <div class="sk-circle9 sk-circle"></div>
-                                <div class="sk-circle10 sk-circle"></div>
-                                <div class="sk-circle11 sk-circle"></div>
-                                <div class="sk-circle12 sk-circle"></div>
-                            </div>
-                        </div>
-
-                        <div class="cnt" id="content" itemscope itemtype="http://schema.org/Article">
-                            <img src="{{ 'logox2.jpg' | asset_url }}" style="display: none;" itemtype="http://schema.org/ImageObject" itemprop="image" />
-                            <span style="display: none;" itemprop="dateModified">{{ page.published_at | date: '%m/%d/%Y %I:%M %p' }}</span>
-                            <a href="{{ page.url | full_url }}" style="display: none;" itemprop="mainEntityOfPage">{{ page.title }}</a>
-                            <div itemscope itemtype="http://schema.org/Organization" itemprop="Publisher" style="display: none;">
-                                <span itemprop="name">Virto Commerce</span>
-                                <img itemprop="logo" src="{{ 'logo.jpg' | asset_url }}" />
-                            </div>
-                            <div id="breadcrumbs">
-                                {% include 'docs-breadcrumbs', docs_tree: docs_tree %}
-                            </div>
-                            <div ng-init="getCurrentArticleUrl('{{page.url}}')" id="page-content">
-                                <h1 itemprop="headline">{{ page.title }}</h1>
-                                {% if template != 'search' %}
-                                <div class="contributors">
-                                    <div class="author-bio">
-                                        <a href="https://github.com/virtocommerce" target="_blank">
-                                            <span class="author-img" style="background-image: url('{{ 'logo-mini.png' | asset_url }}');"></span>
-                                        </a>
-                                        <div class="author-content">
-                                            <!-- <div itemprop="author">
-                                                By <a href="https://github.com/virtocommerce" target="_blank"><span itemprop="name">Virto Commerce</span></a>
-                                            </div> -->
-                                            <div>
-                                                Updated: <span itemprop="datePublished">{{ page.published_at | date: '%m/%d/%Y %I:%M %p' }}</span>
-                                            </div>
-                                            <div>Contributors:</div>
-                                            <ul ng-if="authors" class="list list-contributors">
-                                                <li class="list-item" ng-repeat="author in authors |limitTo:5">
-                                                    <a ng-href="{%raw%}{{author.html_url}}{%endraw%}" target="_blank">
-                                                        <img class="list-pic" ng-src="{%raw%}{{author.avatar_url}}{%endraw%}" ng-attr-title="{%raw%}{{author.login}}{%endraw%}" />
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <a ng-show="authors.length>5" ng-click="showAll=!showAll" class="see-all">See all</a>
+                    <div class="docs__body container">
+                        {% include 'docs-menu' %}
+                        <div class="docs__content" ng-init="getCurrentArticleUrl('{{page.url}}')" id="page-content">
+                            <h1 itemprop="headline">{{ page.title }}</h1>
+                            {% if template != 'search' %}
+                            <div class="docs-contributors">
+                                <div class="docs-contributors__author">
+                                    <a class="docs-contributors__author-link" href="https://github.com/virtocommerce" rel="nofollow" target="_blank">
+                                        <span class="docs-contributors__author-img" style="background-image: url('/assets/images/logo-mini.png');"></span>
+                                    </a>
+                                    <div class="docs-contributors__date">
+                                        Updated: <span itemprop="datePublished">{{ page.published_at | date: '%M/%d/%y %h:%mm %t\\M' }}</span>
+                                    </div>
+                                    <div class="docs-contributors__t">Contributors:</div>
+                                    <div ng-if="authors" class="list list--contributors">
+                                        <div class="list__item" ng-repeat="author in authors |limitTo:5">
+                                            <a ng-href="{%raw%}{{author.html_url}}{%endraw%}" target="_blank">
+                                                <img class="list__pic" ng-src="{%raw%}{{author.avatar_url}}{%endraw%}" ng-attr-title="{%raw%}{{author.login}}{%endraw%}" />
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="edit-on-github">
-                                        <a href="https://github.com/VirtoCommerce/vc-content/blob/deploy/pages/{{ page.url }}.md" rel="nofollow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Edit on GitHub</a>
-                                    </div>
+                                    <a ng-show="authors.length>5" ng-click="showAll=!showAll" class="see-all">See all</a>
                                 </div>
-                                {% endif %}
-                                <div itemprop="articleBody" ng-non-bindable>
-                                    {{ content_for_layout }}
-                                </div>
+                                <a class="docs-contributors__link" href="https://github.com/VirtoCommerce/vc-content/blob/deploy/pages/{{ page.url }}.md" target="_blank" rel="nofollow">
+                                    <svg class="docs-contributors__ico" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g transform="translate(-510.000000, -175.000000)">
+                                                <g>
+                                                    <g transform="translate(510.000000, 175.000000)">
+                                                        <path class="path" d="M12,0.297 C5.37,0.297 0,5.67 0,12.297 C0,17.6 3.438,22.097 8.205,23.682 C8.805,23.795 9.025,23.424 9.025,23.105 C9.025,22.82 9.015,22.065 9.01,21.065 C5.672,21.789 4.968,19.455 4.968,19.455 C4.422,18.07 3.633,17.7 3.633,17.7 C2.546,16.956 3.717,16.971 3.717,16.971 C4.922,17.055 5.555,18.207 5.555,18.207 C6.625,20.042 8.364,19.512 9.05,19.205 C9.158,18.429 9.467,17.9 9.81,17.6 C7.145,17.3 4.344,16.268 4.344,11.67 C4.344,10.36 4.809,9.29 5.579,8.45 C5.444,8.147 5.039,6.927 5.684,5.274 C5.684,5.274 6.689,4.952 8.984,6.504 C9.944,6.237 10.964,6.105 11.984,6.099 C13.004,6.105 14.024,6.237 14.984,6.504 C17.264,4.952 18.269,5.274 18.269,5.274 C18.914,6.927 18.509,8.147 18.389,8.45 C19.154,9.29 19.619,10.36 19.619,11.67 C19.619,16.28 16.814,17.295 14.144,17.59 C14.564,17.95 14.954,18.686 14.954,19.81 C14.954,21.416 14.939,22.706 14.939,23.096 C14.939,23.411 15.149,23.786 15.764,23.666 C20.565,22.092 24,17.592 24,12.297 C24,5.67 18.627,0.297 12,0.297"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    Edit on GitHub
+                                </a>
                             </div>
+                            {% endif %}
+
+                            {{ content_for_layout }}
                             {% if template != 'search' %}
                             <div id="topics">
-                                {% include 'docs-topics', docs_tree: docs_tree %}
+                                {% include 'docs-topics' docs_tree: docs_tree %}
                                 {% include 'disqus' %}
                             </div>
                             {% endif %}
@@ -185,29 +142,23 @@
             {% include 'footer' %}
         </div>
     </div>
-    <div ng-show="showAll && authors" ng-class="{ 'modal' : showAll }">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    Contributors:
-                    <a class="modal-close" ng-click="showAll=!showAll">
-                        <i class="fa fa-close"></i>
-                    </a>
-                </div>
-                <div class="modal-body">
-                    <ul class="list list-contributors">
-                        <li class="list-item" ng-repeat="author in authors">
-                            <a ng-href="{%raw%}{{author.html_url}}{%endraw%}" target="_blank">
-                                <img class="list-pic" ng-src="{%raw%}{{author.avatar_url}}{%endraw%}" ng-attr-title="{%raw%}{{author.login}}{%endraw%}" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
+    <script type="text/javascript">
+        var ShareIt = {
+            facebook: function (url) {
+                window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank');
+            },
+            google: function (url) {
+                window.open('https://plus.google.com/share?url=' + encodeURIComponent(url), '_blank');
+            },
+            twitter: function (url) {
+                window.open('https://twitter.com/home?status=' + encodeURIComponent(url), '_blank');
+            },
+            linkedIn: function (url) {
+                window.open('https://www.linkedin.com/cws/share?url=' + encodeURIComponent(url), '_blank');
+            }
+        }
+    </script>
+    {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.js' | script_tag }}
     {{ '//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js' | script_tag }}
     {{ '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js' | script_tag }}
     {{ '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/cs.min.js' | script_tag }}
@@ -220,11 +171,20 @@
     {{ '//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.0/angular-moment.min.js' | script_tag }}
     {{ 'app.js' | asset_url | script_tag }}
     {{ 'themes/assets/scripts/angular/docs.js' | script_tag }}
-    {{ 'main.js' | asset_url | script_tag }}
+    {{ 'js/main.js' | asset_url | script_tag }}
     <script>
-        window.abdoluteUrl = '{{ page.url | full_url }}';
-        hljs.initHighlightingOnLoad();
+        var BASE_URL = '{{ "/" | full_url }}';
+
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+            hljs.initHighlightingOnLoad();
+        });
     </script>
     <script src="//apis.google.com/js/platform.js" async defer></script>
+    {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>
 </html>

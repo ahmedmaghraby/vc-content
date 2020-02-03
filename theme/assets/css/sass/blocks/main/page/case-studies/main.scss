@@ -1,0 +1,81 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.studies
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -1.25rem;
+    padding-top: 1.5rem;
+
+    &__item
+    {
+        box-sizing: border-box;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 2.5rem 1.25rem 0;
+        text-align: left;
+
+        @include media-breakpoint-down(md) {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        margin: 0;
+
+        &__item
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 1.25rem 0 0;
+        }
+    }
+
+    &__inner
+    {
+        align-items: flex-start;
+        border: 1px solid $gray-400;
+        border-radius: .625rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem;
+        height: 100%;
+    }
+
+    &__pic
+    {
+        margin-bottom: 1.5rem;
+        max-width: 100%;
+    }
+
+    &__t
+    {
+        font-size: .875rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    &__cat
+    {
+        color: $gray-500;
+        margin-top: .5rem;
+    }
+
+    &__cat,
+    &__descr
+    {
+        font-size: .75rem;
+    }
+
+    &__descr
+    {
+        margin: 1rem 0;
+    }
+
+    .btn
+    {
+        margin-top: auto;
+    }
+}

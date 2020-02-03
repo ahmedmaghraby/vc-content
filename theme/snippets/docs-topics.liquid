@@ -3,7 +3,7 @@
 {% if current_node.children.size > 0 %}
     <h2>Topics</h2>
     <ul>
-        {% for current_node_child in current_node.children %}
+        {% for current_node_child in current_node.children limit:100 %}
             {% if current_node_child.level == accepted_child_level %}
                 <li>
                     <a href="{{ current_node_child.path }}" ng-click="navigateUrl('{{ current_node_child.path }}', $event)">{{ current_node_child.title }}</a>
@@ -14,12 +14,12 @@
 	
 	<h2>Recent changes</h2>
     <ul>
-		{% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'publishedAt:desc' %}
+		{% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort_list: 'publishedAt:desc' %}
         
 		{% for docs_page in docs_pages limit:15 %}
 			<li>
 				<a class="menu-link" href="{{ docs_page.url }}" ng-click="navigateUrl('{{ docs_page.url }}', $event)">{{ docs_page.title }}</a>
-				<span style="font-size:12px;">changed <span ng-bind="timeSpan('{{ docs_page.published_at | date: '%Y-%m-%d' }}')"></span></span>
+				<span style="font-size:12px;">changed <span ng-bind="timeSpan('{{ docs_page.published_at | date: 'yyyy-MM-dd' }}')"></span></span>
 			</li>			
         {% endfor %}
     </ul>

@@ -1,4 +1,4 @@
-﻿{% if product.price > 0 %}
+{% if product.price.actualPrice.amount > 0 %}
     {{ product.price | money }}
 {% else %}
     {% if product.metafields.properties.Pricing.size > 0%}

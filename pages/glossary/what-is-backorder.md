@@ -1,6 +1,6 @@
 ---
 title: What is a backorder? Backorder definition and meaning
-description: What does Backorder mean? Why is it important for retail how to deal with it? Learn more about backorder definitions and meaning in this article.
+description: What does Backorder mean? Why is it important for retail to know how to deal with it? Learn more about backorder definitions and meaning in this article.
 date: 2017-08-21
 canonical: https://virtocommerce.com/glossary/what-is-backorder
 permalink: glossary/what-is-backorder
@@ -38,7 +38,7 @@ tags :
         <p class="text">
             <strong>Allowing to backorder means giving your customers an option to still purchase your products even when you don’t have enough in stock – creating backordered items. Backorders are really common in retail.</strong>
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/what-is-backorder' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/what-is-backorder' %}
         <h2>The challenge of back orders and how to address it</h2>
         <p class="text">
             So, you’ve got a backorder meaning you now have a problem (which is a good one to have by the way). To define backorder most precisely just think of having more orders than you have products in stock – this is what it ultimately comes down to when we ask a question of “what does backordered mean?” It’s definitely a dream come true for any retail business! However, it can also become a big challenge if you don’t know how to deal with it.
@@ -60,7 +60,7 @@ tags :
         <p class="text">
             Offering to get products backordered means increased sales and more customers. However, it is important to remember what backorder is  - you are essentially asking your customers to pay for a product in advance. Naturally, they’ll be worried and expecting regular updates. So, timely communication is absolutely essential!
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/what-is-backorder' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/what-is-backorder' %}
         <p class="text">
             Customers waiting for their backordered products will be expecting to receive shipping notifications on the shipping date they’ve been provided. So always keeping your customers in the loop in case of any delays or changes will help avoid a storm of complaints and help maintain your company’s good reputation. Send out regular emails, update the buyers on the current state of events, provide estimated times of arrival, and you’ll save yourself from customers’ rage.
         </p>
@@ -68,10 +68,10 @@ tags :
             A good inventory tracking system will help you can keep track of backorders and make sure your customers aren’t left waiting for too long.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.8, ratingCount: 754 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.8, ratingCount: 754 %}
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

@@ -1,0 +1,74 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.features
+{
+    @include media-breakpoint-down(md) {
+        margin-top: 2rem;
+    }
+
+    &__item
+    {
+        align-items: center;
+        display: flex;
+        margin-bottom: 2.5rem;
+    }
+
+    &__img
+    {
+        flex: 0 0 3.75rem;
+        margin-right: 1.25rem;
+        max-width: 3.75rem;
+        text-align: center;
+    }
+
+    &__icon
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__descr
+    {
+        font-size: .875rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        &__item
+        {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        &__item
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        &__item
+        {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        &__item
+        {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        &__item
+        {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}

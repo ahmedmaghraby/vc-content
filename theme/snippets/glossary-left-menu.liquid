@@ -1,110 +1,41 @@
-<div class="business-menu">
-    <ul class="menu __business-features">
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/what-is-b2c-ecommerce">What is B2C</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/what-is-b2b-ecommerce">What is B2B ecommerce</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/b2b-ecommerce-companies-websites">B2B ecommerce companies and websites</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/api-based-digital-commerce">API-based digital commerce</a>
-        </li>
-        <li class="menu-item __promo">
-            <a class="menu-link" href="glossary/b2b-ecommerce-trends">B2B eCommerce trends</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/best-ecommerce-platforms">Best Ecommerce platforms</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/hosted-shopping-cart">Hosted shopping cart</a>
-        </li>
-        <li class="menu-item __cart">
-            <a class="menu-link" href="glossary/agile-software-platform">Agile Platform</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/b2c-ecommerce-b2b2c">B2B2C eCommerce</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/saas-ecommerce">SAAS e-commerce</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/epcm-process-software">E procurement software systems</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/punchout-catalog">Punchout catalog</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/cloud-ecommerce-solution">Сloud ecommerce</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/magento-alternatives">Magento alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/shopify-alternatives">Shopify Alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/nopcommerce-alternative">NopCommerce alternative</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/what-is-sku">What is an SKU?</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/what-is-a-dead-stock">What is a dead stock?</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/what-is-backorder">What is a backorder?</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/how-to-calculate-safety-stock">How to calculate safety stock?</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/what-is-inventory-management">What is inventory management?</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/znode-alternatives">Znode alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/3dcart-alternatives">3dCart alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/demandware-alternatives">Demandware alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/episerver-alternatives">Episerver alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/elastic-path-alternatives">Elastic Path Alternatives</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/purchase-order-management-software">Purchase Order Management Software</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/product-recommendation-engine">Product recommendation engine</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/order-processing-software">Order Processing Software</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/request-for-proposal">Request for proposal (RFS)</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/request-for-quotation">Request for quotation (RFQ)</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/purchase-order-request-form">Purchase Order Request Form</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/request-for-information">Request for Information (RFI)</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/conversational-commerce">Key Components of Conversational Commerce</a>
-        </li>
-        <li class="menu-item __features">
-            <a class="menu-link" href="glossary/thing-commerce">Thing Commerce</a>
-        </li>
+<div class="glossary__sidebar">
+    <ul class="nav flex-column">
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-b2c-ecommerce', title: 'What is B2C' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-b2b-ecommerce', title: 'What is B2B ecommerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/b2b-ecommerce-companies-websites', title: 'B2B ecommerce companies and websites' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/api-based-digital-commerce', title: 'API-based digital commerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/b2b-ecommerce-trends', title: 'B2B eCommerce trends' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/best-ecommerce-platforms', title: 'Best Ecommerce platforms' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/hosted-shopping-cart', title: 'Hosted shopping cart' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/agile-software-platform', title: 'Agile Platform' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/b2c-ecommerce-b2b2c', title: 'B2B2C eCommerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/saas-ecommerce', title: 'SAAS e-commerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/e-procurement-software', title: 'E procurement software systems' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/punchout-catalog', title: 'Punchout catalog' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/cloud-ecommerce-solution', title: 'Сloud ecommerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/magento-alternatives', title: 'Magento alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/shopify-alternatives', title: 'Shopify Alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/nopcommerce-alternative', title: 'NopCommerce alternative' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-sku', title: 'What is an SKU?' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-a-dead-stock', title: 'What is a dead stock?' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-backorder', title: 'What is a backorder?' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/how-to-calculate-safety-stock', title: 'How to calculate safety stock?' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/what-is-inventory-management', title: 'What is inventory management?' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/znode-alternatives', title: 'Znode alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/3dcart-alternatives', title: '3dCart alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/demandware-alternatives', title: 'Demandware alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/episerver-alternatives', title: 'Episerver alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/elastic-path-alternatives', title: 'Elastic Path Alternatives' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/purchase-order-management-software', title: 'Purchase Order Management Software' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/product-recommendation-engine', title: 'Product recommendation engine' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/order-processing-software', title: 'Order Processing Software' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/request-for-proposal', title: 'Request for proposal (RFS)' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/request-for-quotation', title: 'Request for quotation (RFQ)' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/purchase-order-request-form', title: 'Purchase Order Request Form' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/request-for-information', title: 'Request for Information (RFI)' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/conversational-commerce', title: 'Key Components of Conversational Commerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/thing-commerce', title: 'Thing Commerce' %}</li>
+        <li class="nav__item">{% include 'glossary-left-menu-item' url: '/glossary/digital-experience-platforms', title: 'Digital Experience Platforms (DXP) Definition and Meaning' %}</li>
         {% include 'vc-vertical-banners' %}
     </ul>
 </div>

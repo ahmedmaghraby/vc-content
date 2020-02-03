@@ -27,7 +27,7 @@ You can find all the details and a lot of additional information about it in our
 
 **Elasticsearch**
 
-{Elasticsearch - https://www.elastic.co/} is a component that lets you do very fast full-text searches in all kinds of documents in many languages. It saves whole objects, provides scalable search in near real-time, and supports multitenancy. 
+{Elasticsearch - https://www.elastic.co/ is a component that lets you do very fast full-text searches in all kinds of documents in many languages. It saves whole objects, provides scalable search in near real-time, and supports multitenancy. 
 
 Elasticsearch achieves faster responses by searching an index instead of going through the text directly. It uses [Apache Lucene](https://lucene.apache.org/) to create and manage the “inverted index” – essentially it’s like finding pages in a book that contain a certain keyword by scanning the index on the book cover, as opposed to going through every word on every page. With its features and upgrades it can basically function as kind of a schema-less JSON datastore, where you can access the data through either search queries or regular database CRUD commands.
 

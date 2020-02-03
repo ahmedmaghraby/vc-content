@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0" />
+
+    <title>{{ shop.name }}</title>
+
+    {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    <base href="{{ '/' | absolute_url }}" />
+    {{ content_for_header }}
+</head>
+<body>
+    <main class="wrapper main-content" role="main">
+        {{ content_for_layout }}
+    </main>
+</body>
+</html>

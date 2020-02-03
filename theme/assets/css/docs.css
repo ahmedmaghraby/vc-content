@@ -78,7 +78,7 @@ a:hover
 
 .docs {
 	display: flex;
-	min-height: 1000px;
+	/*min-height: 1000px;*/
 }
 
 .docs .docs-column {
@@ -100,10 +100,10 @@ a:hover
 }
 
 .docs ul li,
-.docs ol li
-{
-	padding: 0 0 0 15px;
-	position: relative;
+.docs ol li {
+    padding: 0 0 0 15px;
+    position: relative;
+    word-wrap: break-word;
 }
 
 .docs ul li::before
@@ -363,7 +363,7 @@ table th
     width: 20px;
 }
 
-#layout
+/*#layout
 {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -371,7 +371,7 @@ table th
 	display: -o-flex;
 	display: flex;
 	min-height: 100%;
-}
+}*/
 
 .nav
 {

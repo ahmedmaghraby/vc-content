@@ -1,0 +1,242 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "lavazza-test",
+        "layout": "theme",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "form-case-study",
+        "name": "Form Case Study",
+        "title": "Lavazza Digital Commerce: Expanded Capabilities and Growth.",
+        "content": "<p>Learn about how we created a new and unified B2B &amp; B2C e-commerce solution for Lavazza Nederland and gained insights into customer behavior in partnership with RB2.</p>\n",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/lav.png",
+            "altText": null
+        },
+        "logo": {
+            "url": null
+        },
+        "phone": "",
+        "phoneLink": "",
+        "chat": "Chat with us",
+        "chatLink": null,
+        "formFields": [
+            {
+                "fieldName": "fullname",
+                "fieldId": "fullname",
+                "fieldType": "text",
+                "labelText": "Full name",
+                "data": null,
+                "required": null
+            },
+            {
+                "fieldName": "email",
+                "fieldId": "email",
+                "fieldType": "text",
+                "labelText": "Email",
+                "data": null,
+                "required": null
+            },
+            {
+                "fieldName": "agree",
+                "fieldId": "agree",
+                "fieldType": "checkbox",
+                "labelText": "<p>By checking this checkbox,&nbsp;I&#39;m agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+                "data": null,
+                "required": null
+            }
+        ],
+        "submitButtonText": "Download Case Study Now"
+    },
+    {
+        "id": 3,
+        "type": "image-with-text",
+        "name": "Image with text",
+        "title": "",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "align": "left",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/lav_logo.png",
+            "altText": null
+        },
+        "content": "<p><span class=\"section__descr--medium\">European Coffee brand Lavazza has passion for excellence that makes every cup a unique experience. With online, in store, and B2B distribution, Lavazza coffee delights customers worldwide.</span></p>\n\n<p>Coffee &amp; Coffee machines disitrbution&nbsp; &nbsp; &nbsp; The Netherlands</p>\n",
+        "url1": {
+            "url": "www.lavazza-nederland.nl",
+            "urlText": "www.lavazza-nederland.nl",
+            "style": null
+        },
+        "url2": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Solution",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/flag.png",
+                    "altText": null
+                },
+                "title": "The Challenges",
+                "text": "<p>In order to satisfy the growing need of their customers, Lavazza Nederland needed a robust and flexible platform that could handle complex pricing and order lists and was able to integrate across various systems while unifying B2B and B2C activities.</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/roun1d.png",
+                    "altText": null
+                },
+                "title": "Result",
+                "text": "<p>Brand new ecommerce website both for B2B and B2C channels, which made the product catalog, pricing agreements and order lists management faster and more efficient by eliminating duplicate work on the backend and allowing customers to manage the processes from one interface.</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 5,
+        "type": "divider",
+        "name": "Divider",
+        "style": "light",
+        "noTop": false,
+        "noBottom": false,
+        "noPad": true
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-lg-6",
+        "items": [
+            {
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "title": "Partner",
+                "text": "<p>Rb2 specializes in innovative ecommerce and loyalty solutions, attractive subscription models, powerful metasearch engines and flexible platforms.</p>\n\n<p>&nbsp;</p>\n\n<p>The Netherlands</p>\n",
+                "iconStyle": "",
+                "url": {
+                    "url": "www.rb2.nl",
+                    "urlText": "www.rb2.nl",
+                    "style": null
+                }
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/k.png",
+                    "altText": null
+                },
+                "title": "",
+                "text": "<p>Virto Commerce provides the correct technical answer to the ecommerce question.</p>\n\n<p>&nbsp;</p>\n\n<p>Richard Birksteiner</p>\n\n<p>Chief Technology Officer, rb2</p>\n",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 7,
+        "type": "image-with-text",
+        "name": "Image with text",
+        "title": "Looking for an ecommerce platform for your next project?",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "align": "right",
+        "image": {
+            "url": null,
+            "altText": null
+        },
+        "content": "<p>Learn how you and your customers can benefit from Virto Commerce.</p>\n",
+        "url1": {
+            "url": null,
+            "urlText": "Start Success Story Now",
+            "style": "btn btn--orange btn--lg"
+        },
+        "url2": null,
+        "noTop": null,
+        "noBottom": false,
+        "noPad": false
+    },
+    {
+        "id": 8,
+        "type": "cards",
+        "name": "Text",
+        "title": "Learn other success stories",
+        "headerType": "h2",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "items": [
+            {
+                "title": "",
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic ecommerce platform, and came to Virto for flexibility and scalability.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange btn--round",
+                    "url": "#"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "text": "<p>Dutch Beverage Distributor, De Klok Dranken quenches ecommerce thirst by launching its new commerce platform with improved user experience and technical flexibility.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange btn--round",
+                    "url": "#"
+                }
+            },
+            {
+                "title": "Do you want a personal demo?",
+                "image": {
+                    "url": null,
+                    "altText": null
+                },
+                "text": "",
+                "link": {
+                    "urlText": "Reach Me Out",
+                    "style": "btn--orange btn--round",
+                    "url": "#"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

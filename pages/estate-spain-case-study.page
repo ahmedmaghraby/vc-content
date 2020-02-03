@@ -1,0 +1,99 @@
+[
+    {
+        "type": "settings",
+        "title": "Estate Spain Ecommerce Case Study",
+        "permalink": "case-studies/estatespain",
+        "header": "Estate Spain Ecommerce Case Study",
+        "description": "Estate Spain Ecommerce Case Study.  B2B and B2C Ecommerce Case Studies.",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Estate Spain Success Story",
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/estate-spain.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>&quot;We selected Virto Commerce to replace our ecommerce solution because of its ability to scale quickly to other countries and languages - and for its ability to create and maintain a large property catalog. Virto allowed us to maintain 24/7 availability, which is critical to our international business.&quot; said Olga Lomko, CEO of Estate-Spain.com</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "image",
+        "name": "Simple image",
+        "title": "Block title",
+        "style": "light",
+        "size": "middle",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/estate-spain.png"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>Estate Spain wanted to build an online real estate site to serve an unmet need in providing digital commerce to a specific Russian-speaking audience. When this project started in 2016, no other websites in this market provided a comprehensive site for searching, viewing, and purchasing property. The market was ripe for ecommerce disruption to provide a premium user experience.</h3>\n\n<h3>Estate-Spain.com started with a basic site builder and quickly outgrew it. They found Virto Commerce in their search for a replacement ecommerce solution that could scale with its explosive growth, offer better functionality, and provide a cleaner user experience.</h3>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download the Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/estatespain-case-study.pdf",
+        "headerType": null,
+        "formIdentifier": "Estate spain case study"
+    }
+]

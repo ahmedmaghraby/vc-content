@@ -1,0 +1,20 @@
+<div class="section {{block.sectionStyle}} {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div {% if block.sectionStyle == 'container' %} class="section__info section__info--container" {% else %} class="section__bg" {% endif %} style="background-image: url('{{ block.image.url }}');">
+        {% if block.title != '' %}
+        <div class="section__t like-h2 {% if block.sectionStyle == 'container' %} container-title {% endif %}">{{ block.title }}</div>
+        {% endif %}
+        {% if block.description != '' %}
+        <div class="section__descr {% if block.sectionStyle == 'container' %} section__descr--container {% endif %}">
+            {{ block.description }}
+        </div>
+        {% endif %}
+        {% if block.url1 != '' and block.url1.urlText != '' %}
+        <div class="section__actions">
+            <a href="{{ block.url1.url }}" class="btn {{ block.url1.style }}">{{ block.url1.urlText }}</a>
+        </div>
+        {% endif %}
+    </div>
+</div>

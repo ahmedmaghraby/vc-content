@@ -1,0 +1,102 @@
+<div class="section section--request
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        <div class="section__header">
+            <a class="section__logo" href="/"></a>
+            <div class="section__links">
+                <a href="{{ block.phoneLink }}" class="section__links-item" data-name="phone">+1 800 980—5288</a>
+                {% if block.chatLink != '' %}
+                <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">Chat with us</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="section__body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__t">{{ block.title }}</div>
+                    <div class="section__descr">
+                        {{ block.content }}
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form">
+                        <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}">
+                            <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
+                            <input data-segment-name="cf_segmentcampaign" type="text" name="cf_segmentcampaign" value="RequestForm" style="display: none;" />
+                            <div class="form-group">
+                                <label>Full name</label>
+                                <input data-segment-name="fullname" placeholder="Required input field" data-val="true" data-val-required="Please enter your Full name" id="fullname" name="fullname" type="text" class="form-control" />
+                                <input data-segment-name="firstName" type="text" style="display: none;" id="firstName" name="firstName" value="" />
+                                <input data-segment-name="lastName" type="text" style="display: none;" id="lastName" name="lastName" value="" />
+                                <span class="form-error field-validation-valid" data-valmsg-for="fullname" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Business email</label>
+                                <input data-segment-name="email" placeholder="Required input field" data-val="true" data-val-email="Email address is invalid" data-val-required="Please enter your email" id="email" name="email" type="text" class="form-control" />
+                                <span class="form-error field-validation-valid" data-valmsg-for="email" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input data-segment-name="phone" type="text" id="phone" name="phone" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>How would you describe yourself?</label>
+                                <select data-segment-name="message" id="message" class="form-control" name="message">
+                                    <option value="I’m looking for an e-commerce platform">I’m looking for an e-commerce platform</option>
+                                    <option value="I'm creating a solution for a client">I'm creating a solution for a client</option>
+                                    <option value="I'm interested in trying Virto Commerce">I'm interested in trying Virto Commerce</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Access Transfer Method</label>
+                                <ul class="list list--method">
+                                    <li class="list__item">
+                                        <input class="list__input" type="radio" data-target-url="{{block.touchUrl}}" name="access" checked="checked" id="access1" value="Get in touch with me" />
+                                        <label class="list__inner" for="access1">
+                                            <span class="list__t">Get in touch with me</span>
+                                            <span class="list__descr">
+                                                Someone will contact you to give a demo, shortly after the submission
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="list__item">
+                                        <input class="list__input" type="radio" data-target-url="{{block.linkUrl}}" name="access" id="access2" value="Get only link access" />
+                                        <label class="list__inner" for="access2">
+                                            <span class="list__t">Get only link access</span>
+                                            <span class="list__descr">
+                                                You will receive a link to access the Virto Commerce demo environment right away on your email
+                                            </span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-descr">
+                                    <input data-val="true" data-val-mandatory="Please agree with our terms" onchange="this.value = this.checked" type="checkbox" id="agree" name="agree" value="false" class="form-checkbox__input"/>
+                                    <label class="form-checkbox__label" for="agree">
+                                        By clicking «Request Demo» I agree to the Virto Commerce <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.
+                                    </label>
+                                </div>
+                                <span class="form-error--highlight field-validation-valid" data-valmsg-for="agree" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn--orange btn--block">Request demo</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-block">
+                <div class="mobile-block__t">Or</div>
+                <a href="{{ block.phoneLink }}" class="mobile-block__item" data-name="phone">+1 800 980—5288</a>
+                {% if block.chatLink != '' %}
+                <a href="{{ block.chatLink }}" class="mobile-block__item" data-name="chat">Chat with us</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

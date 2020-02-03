@@ -170,6 +170,7 @@
             "submit": "Submit",
             "cancel": "Cancel",
             "thank_you": "Thank you!",
+			"thank_you_stay_tuned": "Thank you, stay tuned for something awesome!",
             "close": "Close"
         }
     },
@@ -262,12 +263,14 @@
             "technology": "Technology",
             "business": "Business",
             "strategy": "Strategy",
-            "ntara": "Ntara"
+            "ntara": "Ntara",
+            "rainbow": "Rainbow"
         },
         "categories": {
             "virtocommerce-news": "Virto Commerce News",
             "technical": "Technical",
             "release": "Release",
+            "ecommerce": "Ecommerce",
             "important": "Important"
         }
     },

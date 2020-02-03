@@ -154,8 +154,9 @@ $RECYCLE.BIN/
 
 .vs/
 .vscode/
-/node_modules
-/node_modules
-/node_modules
+node_modules
+theme/config/drafts
 /theme/cms-content/Pages
-/bower_components
+bower_components
+
+theme/config/drafts/

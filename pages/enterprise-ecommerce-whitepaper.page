@@ -1,0 +1,60 @@
+[
+    {
+        "type": "settings",
+        "title": "Top Enterprise Ecommerce Challenges White Paper",
+        "permalink": "enterprise-ecommerce-whitepaper",
+        "header": "White Labeled Open Source Ecommerce Platform",
+        "description": "Top Enterprise Ecommerce Challenges White Paper",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Top Enterprise Ecommerce Challenges",
+        "subTitle": "Virto Commerce Ecommerce Education",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/sean-pollock-PhYq704ffdA-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1",
+        "titleAlignment": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align: center;\">It&#39;s a common myth that Enterprise e-commerce is essentially just a bigger version of a normal online store. This is not correct. Running a business at an enterprise level is a completely different journey. There are multiple factors that come into play once a business grows to the enterprise level, making ecommerce complex due to many different stakeholders, all with unique and sometimes competing requirements. In this white paper we&#39;ll provide the top 4 challenges that enterprise ecommerce websites face and their best solutions.</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download White Paper",
+        "buttonText": "Download White Paper",
+        "description": "<p>By clicking &laquo;Download White Paper&raquo; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/whitepaper-ecommerce-platform-migration-problems.pdf",
+        "headerType": null,
+        "formIdentifier": "Enterprise Challenges white paper"
+    }
+]

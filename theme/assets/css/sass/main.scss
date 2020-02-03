@@ -1,0 +1,24 @@
+﻿@charset "UTF-8";
+
+@import "_functions";
+@import "_fonts";
+@import "_variables";
+
+// Import for Bootstrap Sass
+@import "./node_modules/bootstrap-scss/bootstrap-grid.scss";
+
+@import "_reboot";
+@import "_extends";
+@import "_custom";
+
+@media (max-width: 991px)
+{
+    div.cookie-bar
+    {
+        display: none;
+    }
+
+    div#layout {
+        margin-top: 20px;
+    }
+}

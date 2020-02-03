@@ -1,0 +1,198 @@
+@import "./theme/assets/css/sass/_variables.scss";
+
+.swipe
+{
+    background: $white;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: all .35s;
+    width: 18rem;
+    z-index: 9500;
+
+    @include media-breakpoint-down(md) {
+        display: flex;
+
+        &.opened
+        {
+            transform: translateX(0);
+        }
+
+        .btn
+        {
+            text-transform: uppercase;
+        }
+
+        &__header
+        {
+            border-bottom: 1px solid $gray-200;
+            box-sizing: border-box;
+            display: flex;
+            height: 5rem;
+            padding: 1.25rem;
+            position: relative;
+        }
+
+        &__back
+        {
+            background: url(../assets/images/icons/arrow-back.svg) no-repeat;
+            cursor: pointer;
+            height: .75rem;
+            width: 1.125rem;
+        }
+
+        &__close
+        {
+            background: url(../assets/images/icons/close.svg) no-repeat;
+            cursor: pointer;
+            height: 1.1875rem;
+            position: absolute;
+            right: 1.25rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1.1875rem;
+        }
+
+        &__nav-item
+        {
+            align-items: center;
+            display: none;
+            height: 2.5rem;
+
+            &--show
+            {
+                display: flex;
+            }
+        }
+
+        &__nav-link
+        {
+            color: inherit;
+            font-size: .875rem;
+        }
+
+        &__body
+        {
+            display: flex;
+            flex-direction: colmun;
+            flex: 1 0 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .nav
+        {
+            padding: 0 1.25rem;
+            position: relative;
+            width: 100%;
+
+            &__item
+            {
+                display: flex;
+                height: 3.125rem;
+                transition: all .35s;
+
+                &--animated,
+                &--active
+                {
+                    transform: translateX(-100%);
+                }
+            }
+
+            &__link,
+            &__t
+            {
+                align-items: center;
+                border-bottom: 1px solid $gray-200;
+                display: flex;
+                font-size: .875rem;
+                width: 100%;
+            }
+
+            &__link
+            {
+                cursor: pointer;
+            }
+
+            &__t
+            {
+                font-size: 1rem;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            &__input
+            {
+                left: -100rem;
+                position: absolute;
+                visibility: hidden;
+            }
+
+            &__label
+            {
+                align-items: center;
+                border-bottom: 1px solid $gray-200;
+                cursor: pointer;
+                display: flex;
+                height: 3.125rem;
+                transition: all .35s;
+            }
+
+            &__carret
+            {
+                background: url(../assets/images/icons/angle-arrow.svg) no-repeat;
+                cursor: pointer;
+                height: .625rem;
+                width: .375rem;
+            }
+
+            &__content
+            {
+                background: $white;
+                bottom: 0;
+                left: 0;
+                max-height: 0;
+                overflow: hidden;
+                position: absolute;
+                right: 0;
+                top: 0;
+                transition: all .35s;
+                transform: translateX(100%);
+                z-index: 5;
+
+                &--opened
+                {
+                    max-height: 100rem;
+                    overflow: visible;
+                    transform: translateX(0);
+                }
+            }
+
+            @for $i from 1 through 6
+            {
+                &__input:nth-of-type(#{$i}):checked
+                {
+                    & ~ .nav__content:nth-of-type(#{$i})
+                    {
+                        max-height: 100rem;
+                        overflow: visible;
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+
+        &__footer
+        {
+            padding: 1.25rem;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        width: 100%;
+    }
+}

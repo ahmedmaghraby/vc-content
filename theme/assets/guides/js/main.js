@@ -1,4 +1,4 @@
-$(function (){
+$(function () {
 
     Navbar(window.scrollY);
     checkScroll(window.scrollY);
@@ -30,11 +30,11 @@ $(function (){
 
     $('.navbar .menu-link').on('click', function () {
         var self = $(this).parent();
-            type = self.data('type');
+        type = self.data('type');
 
         $('.navbar .menu-item').removeClass('__selected');
 
-        if(self.data('type') == type) {
+        if (self.data('type') == type) {
             self.addClass('__selected');
         }
 
@@ -42,32 +42,32 @@ $(function (){
             var self = $(this).parent(),
                 type = self.data('type');
 
-            if(self.data('type') == type) {
+            if (self.data('type') == type) {
                 self.addClass('__selected');
                 self.parent().parent().addClass('__selected');
             }
         });
 
-        $('html, body').animate({scrollTop: $('#' + type).offset().top + 'px'}, 0);
+        $('html, body').animate({ scrollTop: $('#' + type).offset().top + 'px' }, 0);
     });
 
     $('.tables-modificators').on('click', function () {
-        $('html, body').animate({scrollTop: $('#tblmodificators').offset().top + 'px'}, 0);
+        $('html, body').animate({ scrollTop: $('#tblmodificators').offset().top + 'px' }, 0);
     });
 
     $('.icons').on('click', function () {
-        $('html, body').animate({scrollTop: $('#icons').offset().top + 'px'}, 0);
+        $('html, body').animate({ scrollTop: $('#icons').offset().top + 'px' }, 0);
     });
 
     $('.tree-horizontal').on('click', function () {
-        $('html, body').animate({scrollTop: $('#tree_h').offset().top + 'px'}, 0);
+        $('html, body').animate({ scrollTop: $('#tree_h').offset().top + 'px' }, 0);
     });
 
     $('section').each(function () {
         var self = $(this),
             example = self.find('.example');
 
-        if(!example.hasClass('__bg')) {
+        if (!example.hasClass('__bg')) {
             example.before('<a class="preview-blade"><i class="fa fa-eye"></i>Preview in blade</a>');
         }
     });
@@ -80,40 +80,40 @@ $(function (){
         var htmlCnt,
             self = $(this).next();
 
-        if(self.find('form').length) {
+        if (self.find('form').length) {
             htmlCnt = self.html();
         }
         else {
-            if(self.find('.list.__items').length || self.find('.table-wrapper').length || self.find('.pagination').length) {
+            if (self.find('.list.__items').length || self.find('.table-wrapper').length || self.find('.pagination').length) {
                 htmlCnt = self.html();
             }
             else {
                 htmlCnt = '<div class="form">' + self.html() + '</div>';
             }
         }
-        
+
         var html = '<div class="blade">';
-            html += '<header class="blade-head">';
-            html += '<div class="blade-t">';
-            html += '<i class="blade-t_ico fa fa-file"></i>';
-            html += '<div class="blade-t_head">Title</div>';
-            html += '</div>';
-            html += '<div class="blade-toolbar">';
-            html += '<ul class="menu __inline">';
-            html += '<li class="menu-item">';
-            html += '<a class="menu-btn"><i class="menu-ico fa fa-edit"></i>Manage</a>';
-            html += '</li>';
-            html += '</ul>';
-            html += '</div>';
-            html += '</header>';
-            html += '<div class="blade-container">';
-            html += '<div class="blade-content">';
-            html += '<div class="blade-inner">';
-            html += '<div class="inner-block">' + htmlCnt + '</div>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
-            html += '</div>';
+        html += '<header class="blade-head">';
+        html += '<div class="blade-t">';
+        html += '<i class="blade-t_ico fa fa-file"></i>';
+        html += '<div class="blade-t_head">Title</div>';
+        html += '</div>';
+        html += '<div class="blade-toolbar">';
+        html += '<ul class="menu __inline">';
+        html += '<li class="menu-item">';
+        html += '<a class="menu-btn"><i class="menu-ico fa fa-edit"></i>Manage</a>';
+        html += '</li>';
+        html += '</ul>';
+        html += '</div>';
+        html += '</header>';
+        html += '<div class="blade-container">';
+        html += '<div class="blade-content">';
+        html += '<div class="blade-inner">';
+        html += '<div class="inner-block">' + htmlCnt + '</div>';
+        html += '</div>';
+        html += '</div>';
+        html += '</div>';
+        html += '</div>';
 
         $('body').append('<div class="popup-overlay"><div class="overlay-cnt"><div class="popup"><div class="t">Blade example</div></div></div></div>');
         $('.popup').append(html);
@@ -123,7 +123,7 @@ $(function (){
         var self = $(this).parent().find('.tabs'),
             tabItemCounts = self.find('.tab-item').length;
 
-        if(tabItemCounts < 5) {
+        if (tabItemCounts < 5) {
             $('.tabs-elements', self).append('<div class="tab-item">Tab ' + (tabItemCounts + 1) + '</div>');
             var clone = $('.tab-cnt:first', self).clone();
             clone.removeClass('__opened');
@@ -137,11 +137,11 @@ $(function (){
         var self = $(this).parent().find('.tabs'),
             tabItemCounts = self.find('.tab-item').length;
 
-            console.log(self)
+        console.log(self)
 
-        if(tabItemCounts > 2) {
-            
-            if($('.tab-item', self).hasClass('__selected')) {
+        if (tabItemCounts > 2) {
+
+            if ($('.tab-item', self).hasClass('__selected')) {
                 $('.tab-item:first', self).addClass('__selected');
                 $('.tab-cnt:first', self).addClass('__opened');
             };
@@ -151,7 +151,7 @@ $(function (){
     });
 
     $('button').attr('type', 'button');
-    
+
     $(document).on("click", function (event) {
         if (!$('.tooltip, .btn').is(event.target) && !$('.tooltip, .btn').has(event.target).length) {
             $('.tooltip').remove();
@@ -165,7 +165,7 @@ $(function (){
     //****** F U N C T I O N S
 
     function Navbar(scrollTop) {
-        if(scrollTop >= 316) {
+        if (scrollTop >= 316) {
             $('.navbar > .menu').addClass('__fixed');
         }
         else {
@@ -176,7 +176,7 @@ $(function (){
     function checkScroll(scrollTop) {
         // List types
         var types, defaultMargin, typesMain;
- 
+
         types = [
             'icons',
             'typography',
@@ -222,9 +222,9 @@ $(function (){
             'tabs',
             'blade_constructor'
         ];
-     
+
         defaultMargin = 10;
-     
+
         typesMain = {
             icons: {
                 margin: 40
@@ -263,28 +263,28 @@ $(function (){
                 margin: 40
             }
         };
-     
-        for(var i = 0; i < types.length; i++) {
-     
+
+        for (var i = 0; i < types.length; i++) {
+
             var $type, margin, typeOffset, name;
-     
+
             $type = $('#' + types[i]);
-     
-            if(!$type.length) {
+
+            if (!$type.length) {
                 break;
             }
-     
+
             margin = defaultMargin;
-     
+
             // Margin
-            if(types[i] in typesMain) {
+            if (types[i] in typesMain) {
                 margin = typesMain[types[i]]['margin'];
             }
 
             typeOffset = $type.offset().top - margin;
             name = $type.prop('id');
 
-            if(scrollTop >= typeOffset) {
+            if (scrollTop >= typeOffset) {
                 $('.navbar .__sub .menu-item').removeClass('__selected');
                 $('.menu-item[data-type=' + name + ']').addClass('__selected').siblings().removeClass('__selected');
             }
@@ -294,4 +294,4 @@ $(function (){
         }
     }
 
-});
+}); 

@@ -1,23 +1,18 @@
-var storefrontApp = angular.module('storefrontApp', ['pascalprecht.translate']);
-
-storefrontApp.config(['$translateProvider', function ($translateProvider) {
-    $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
-    $translateProvider.useUrlLoader(BASE_URL + 'themes/localization.json');
-    $translateProvider.preferredLanguage('en');
-}]);
+var storefrontApp = angular.module('storefrontApp');
 
 storefrontApp.service('blogService', ['$http', function ($http) {
     return {
         getArticles: function (blogName, criteria) {
             return $http.post('storefrontapi/blog/' + blogName + '/search', { criteria: criteria });
         }
-    }
+    };
 }]);
 
-storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', function ($scope, $window, blogService) {
+storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 'dialogService', function ($scope, $window, blogService, dialogService) {
     $scope.pageNumber = 2;
     $scope.articles = [];
-    
+    $scope.emailPattern = new RegExp(/((^|((?!^)([,;]|\r|\r\n|\n)))([a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))+$/);
+
     $scope.getArticles = function (pageNumber) {
         var blogSearchCriteria = {
             category: $window.currentBlogCategory,
@@ -39,5 +34,14 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
             $scope.pageNumber++;
             $scope.isLoading = false;
         });
-    }
+    };
+
+    $scope.displayResult = function () {
+        if ($scope.blogSubscribeForm.$valid) {
+            dialogService.showDialog(null, 'feedbackController', 'storefront.form-thank-you.tpl');
+            $scope.email = null;
+        } else {
+            event.preventDefault();
+        }
+    };
 }]);

@@ -1,21 +1,7 @@
-{% if current_url contains 'glossary/how-to-calculate-safety-stock' or
-         current_url contains 'glossary/what-is-backorder' or
-         current_url contains 'glossary/what-is-a-dead-stock' or
-         current_url contains 'glossary/what-is-sku'
-%}
+{% if current_url contains 'glossary/how-to-calculate-safety-stock' or current_url contains 'glossary/what-is-backorder' or current_url contains 'glossary/what-is-a-dead-stock' or current_url contains 'glossary/what-is-sku' %}
     {% assign redirect_url = '/order-management-software' %}
     {% assign eventName = 'order-management-software_redirect' %}
-{% else current_url contains 'glossary/magento-alternatives' or
-         current_url contains 'glossary/best-ecommerce-platforms' or
-         current_url contains 'glossary/shopify-alternatives' or
-         current_url contains 'glossary/nopcommerce-alternative' or
-         current_url contains 'glossary/elastic-path-alternatives' or
-         current_url contains 'glossary/znode-alternatives' or
-         current_url contains 'glossary/3dcart-alternatives' or
-         current_url contains 'glossary/demandware-alternatives' or
-         current_url contains 'glossary/episerver-alternatives' or
-         current_url == false
-%}
+{% elsif current_url contains 'glossary/magento-alternatives' or current_url contains 'glossary/best-ecommerce-platforms' or current_url contains 'glossary/shopify-alternatives' or current_url contains 'glossary/nopcommerce-alternative' or current_url contains 'glossary/elastic-path-alternatives' or current_url contains 'glossary/znode-alternatives' or current_url contains 'glossary/3dcart-alternatives' or current_url contains 'glossary/demandware-alternatives' or current_url contains 'glossary/episerver-alternatives' or current_url == false %}
     {% assign redirect_url = '#' %}
     {% assign eventName = 'mainPage_redirect' %}
 {% endif %}

@@ -1,28 +1,25 @@
-<li class="list-item">
-    <a class="list-link" href="{{ product.url | absolute_url }}">
-        {% if product.metafields.properties.InProcess == true %}
-            <div class="list-item-bar">In progress</div> 
-        {% endif %}
-        <div class="top-bg">
+<div class="list__item">
+    <a class="list__inner" href="{{ product.url | absolute_url }}">
+        <div class="list__watermark">
             <svg xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <filter id="blur">
                         <feGaussianBlur stdDeviation="50"></feGaussianBlur>
                     </filter>
                 </defs>
-                <image width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ product.featured_image.src }}" filter="url({{ canonical_url }}#blur)"></image>
+                <image width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ product.featured_image.src }}" filter="url(/apps#blur)"></image>
             </svg>
-        </div>    
-        <figure class="image-outer">
-            <img alt="" class="list-img" onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.featured_image.src }}" />
-        </figure>
-        <h3 class="list-name">{{ product.title }}</h3>
+        </div>
+        <div class="list__bg">
+            <img onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.featured_image.src }}" alt="" class="list__pic" />
+        </div>
+        <h3 class="list__t">{{ product.title }}</h3>
         {% if product.metafields.properties.Description %}
-        <span class="list-vendor">By {{ product.vendor.name }}</span>
-        <span class="list-descr">{{ product.metafields.properties.Description }}</span>
+        <div class="list__vendor">By {{ product.vendor.name }}</div>
+        <div class="list__descr">
+            {{ product.metafields.properties.Description }}
+        </div>
         {% endif %}
-        <span class="list-price">
-            {% include 'product-pricing' %}
-        </span>
+        <div class="list__price mt-auto">{% include 'product-pricing' %}</div>
     </a>
-</li>
+</div>

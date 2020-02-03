@@ -1,0 +1,25 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "VladimirTest",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "name": "Text",
+        "title": "This is a simple text block",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Text block content</p>\n",
+        "url": {
+            "urlText": "Read more",
+            "url": "#",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

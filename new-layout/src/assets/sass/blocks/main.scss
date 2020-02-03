@@ -1,0 +1,110 @@
+#layout
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    padding-top: 5rem;
+	
+	&.hide-header
+	{
+		padding-top: 0;
+	}
+}
+
+.cookie-bar
+{
+    background: $gray-200;
+    bottom: 0;
+    font-size: .875rem;
+    left: 0;
+    padding: .625rem;
+    position: fixed;
+    right: 0;
+    z-index: 5000;
+
+    a[href]
+    {
+        margin-left: .25rem;
+    }
+
+    &__inner
+    {
+        align-items: center;
+        display: flex;
+    }
+
+    .btn
+    {
+        margin-left: auto;
+        margin-top: .625rem;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .btn
+        {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
+
+.container
+{
+
+}
+
+.main
+{
+    flex: 1 0 0;
+}
+
+.overlay,
+.dropdown-overlay
+{
+    background: rgba(248,148,6,.3);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 900;
+}
+
+.overlay
+{
+    z-index: 9000;
+}
+
+/* Sections */
+@import "main/sections";
+
+/* New: Blocks */
+@import "main/blocks";
+
+/* Home */
+@import "main/page/home/main";
+
+/* Features */
+@import "main/page/features/main";
+
+/* Contacts */
+@import "main/page/contacts/main";
+
+/* Documentation */
+@import "main/page/docs/main";
+
+/* Case studies */
+@import "main/page/case-studies/main";
+
+// Glossary
+@import "main/page/glossary/main";
+
+// Page 404
+@import "main/page/page-404/main";
+
+// Blog
+@import "main/page/blog/main";
+
+// Apps
+@import "main/page/apps/main";

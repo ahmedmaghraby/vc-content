@@ -568,6 +568,7 @@
             <match url="^admin/api/licenses/activate/(.+)" />
             <action type="Redirect" url="https://vc-admin-pro.azurewebsites.net/api/licenses/activate/{R:1}" redirectType="Permanent"/>
         </rule>
+        </rule>
         <!--
     <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true"><match url="\w*b2b-ecommerce$" /><action type="Redirect" url="https://virtocommerce.com/b2b-ecommerce-platform" /></rule>
     -->

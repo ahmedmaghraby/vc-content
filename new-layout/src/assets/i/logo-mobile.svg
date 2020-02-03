@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-Menu" transform="translate(-20.000000, -15.000000)">
+            <g id="Group-26" transform="translate(20.000000, 15.000000)">
+                <g id="Group-25">
+                    <polygon id="Fill-1" fill="#C3C3C3" points="17.9998125 0 9 20 17.9998125 20 27 0"></polygon>
+                    <polygon id="Fill-2" fill="#DB3A35" points="0 0 9 20 18 20 9 0"></polygon>
+                </g>
+                <g id="Group-24" transform="translate(21.000000, 8.000000)">
+                    <path d="M19,16 C19,17.657 17.6566667,19 16,19 C14.343,19 13,17.657 13,16 C13,14.343 14.343,13 16,13 C17.6566667,13 19,14.343 19,16" id="Fill-3" fill="#DB3A35"></path>
+                    <path d="M9.22988749,18 L0,18 C1.10079158,25.8566215 7.85436779,31.922841 16,31.922841 L16,22.891809 C12.8509619,22.891809 10.1765908,20.8380018 9.22988749,18" id="Fill-6" fill="#F89406"></path>
+                    <path d="M9.22988749,14 C10.1765908,11.1462703 12.8509619,9.08108108 16,9.08108108 L16,0 C7.85436779,0 1.10079158,6.09983784 0,14 L9.22988749,14 Z" id="Fill-8" fill="#F89406"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

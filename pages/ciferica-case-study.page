@@ -1,0 +1,64 @@
+[
+    {
+        "type": "settings",
+        "title": "Ecommerce Case Studies I Virto Commerce",
+        "permalink": "case-studies/ciferica",
+        "header": "Ecommerce Case Studies I Virto Commerce",
+        "description": "Ecommerce Case Studies I Virto Commerce",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Ciferica AB Case Study",
+        "titleAlignment": null,
+        "subTitle": null,
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-07-16 at 10.01.06 PM.png"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "From Initial Idea to Full-Fledged Product",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3>CIFERECA AB Case Study</h3>\n\n<p>Cifereca AB was a startup with a promising idea: a new consultant brokerage model that directly connects the consultants and the consultees. The model removes the traditional middle-man and would only cost users an initial signup fee, instead of an hourly intermediary charge in the existing brokerage models</p>\n\n<h4>CHALLENGE</h4>\n\n<p>This is Cifereca&#39;s first impression on the&nbsp;market, so we had zero room for error.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "download-case-studies-form",
+        "name": "Download Case studies form",
+        "style": "dark",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "title": "Download Full Case Study",
+        "buttonText": "Download Now",
+        "description": "<p>By clicking &laquo;Download Now&gt; I agree to the Virto Commerce <a href=\"/terms\" target=\"_blank\">Terms</a> and <a href=\"/privacy\" target=\"_blank\">Privacy</a>.</p>\n",
+        "downloadUrl": "https://vcpro.blob.core.windows.net/blogs/niteco-cifereca-case-study.pdf",
+        "headerType": null,
+        "formIdentifier": "Ciferica case study"
+    }
+]

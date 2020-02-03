@@ -1,0 +1,485 @@
+// Cover block
+.block--cover
+{
+	background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: cover;
+    flex: 0 0 37.5rem;
+	min-height: 37.5rem;
+    position: relative;
+
+    .block__t,
+	.block__descr
+	{
+		@extend %max-with-text;
+	}
+
+    &__note,
+	&__t,
+	&__descr
+	{
+		margin: 0;
+		max-width: 37.5rem;
+	}
+
+	&__note
+	{
+		font-weight: bold;
+	}
+
+    &-fixed
+    {
+		background-attachment: fixed;
+    }
+
+    &-static {
+    	background-attachment: scroll;
+    }
+
+    &-fixed,
+    &-static {
+    	.block__inner
+	    {
+	    	color: $white;
+	    }
+
+    	&::after
+	    {
+	        background: rgba(0,0,0,.7);
+	        bottom: 0;
+	        content: ' ';
+	        left: 0;
+	        position: absolute;
+	        right: 0;
+	        top: 0;
+	        z-index: 5;
+	    }
+    }
+
+    // Bg colors for block
+	.block--bg-light
+	{
+		background-color: $gray-100;
+
+		.block__inner
+	    {
+	    	color: $gray-900;
+	    }
+	}
+
+	.block--bg-orange
+	{
+		background-color: $orange;
+
+		.block__inner
+	    {
+	    	color: $white;
+	    }
+	}
+}
+
+.block
+{
+	align-items: center;
+	display: flex;
+	font-family: Helvetica, sans-serif;
+	padding: 6.25rem 3.75rem;
+
+	&--padding-none
+	{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	&--padding-half
+	{
+		padding-bottom: 3.125rem;
+		padding-top: 3.125rem;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 1.25rem;
+
+		.container
+		{
+			padding: 0;
+		}
+	}
+
+	@include media-breakpoint-up(xl) {
+		padding: 6.25rem;
+	}
+
+	&__inner
+	{
+		align-items: flex-start;
+		color: $gray-900;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 10;
+	}
+
+	&__note
+    {
+    	color: #aaa;
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.625;
+        margin-top: 1.25rem;
+    }
+
+    &__t
+    {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 0;
+
+        @extend %font-headings;
+    }
+
+    &__descr
+    {
+        font-size: 1.125rem;
+        font-weight: normal;
+        line-height: 1.625rem;
+
+        &--b
+        {
+            font-weight: bold;
+        }
+
+        &--i
+        {
+            font-style: italic;
+        }
+
+        &--lt
+        {
+            text-decoration: line-through;
+        }
+    }
+
+	&__t
+	{
+		font-weight: 900;
+	}
+
+	@include media-breakpoint-down(md) {
+        &__t
+        {
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+        }
+
+        &__descr
+        {
+            font-size: 1rem;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &__t
+        {
+        	font-size: 1.5rem;
+        	line-height: 2rem;
+        }
+
+        &__note
+        {
+        	font-size: 1.25rem;
+        }
+    }
+
+	&__space
+	{
+		height: 1.25rem;
+
+		&--size-lg
+		{
+			height: 2.5rem;
+		}
+	}
+
+	&__actions
+	{
+		display: flex;
+		flex-wrap: wrap;
+
+		.btn
+		{
+			@include media-breakpoint-down(xs) {
+				justify-content: center;
+				margin-bottom: 1.25rem;
+				width: 100%;
+			}
+
+			@include media-breakpoint-up(sm) {
+				margin-right: 1.25rem;
+			}
+		}
+	}
+
+	// Align for block
+	&--align-center .block__inner
+	{
+		align-items: center;
+		text-align: center;
+
+		@include media-breakpoint-up(md) {
+			.block__text
+			{
+				text-align: center;
+			}
+		}
+
+		.block__actions
+		{
+			justify-content: center;
+		}
+	}
+
+	&--align-right .block__inner
+	{
+		align-items: flex-end;
+
+		.block__actions
+		{
+			justify-content: flex-end;
+		}
+	}
+
+	// Bg colors for block
+	&--bg-light
+	{
+		background-color: $gray-100;
+
+		.block__inner
+	    {
+	    	color: $gray-900;
+	    }
+	}
+
+	&--bg-orange
+	{
+		background-color: $orange;
+
+		.block__inner
+	    {
+	    	color: $white;
+	    }
+
+	    .block__note
+	    {
+	    	color: rgba(255,255,255,.7);
+	    }
+	}
+
+	// Elements
+	ul,
+	ol
+	{
+		li
+		{
+			align-items: center;
+			display: flex;
+			font-size: 0.875rem;
+		}
+	}
+
+	.btn--white
+	{
+		border-color: $white;
+		color: $orange;
+
+		&:hover
+		{
+			background-color: $orange;
+			border-color: $orange;
+			color: $white;
+		}
+	}
+
+	.row
+	{
+		flex-wrap: nowrap;
+
+		@include media-breakpoint-down(md) {
+			flex-wrap: wrap;
+
+			[class*="col-"]:not(:first-child) {
+				padding-top: 2.5rem;
+			}
+		}
+	}
+
+	.block__form
+	{
+		background-color: $gray-100;
+		color: $gray-900;
+		padding: 1.875rem;
+		
+
+		.form-checkbox__label
+		{
+			font-size: 0.875rem;
+			line-height: 1.15;
+			padding-top: 0.25rem;
+		}
+	}
+
+	.block__form,
+	.block__media
+	{
+		border-radius: 0.3125rem;
+		flex: 0 0 28.75rem;
+		width: 28.75rem;
+
+		@include media-breakpoint-down(sm) {
+			flex-basis: auto;
+			flex-grow: 1;
+			width: auto;
+		}
+	}
+
+	.block__media
+	{
+		padding: 0;
+
+		iframe,
+		object,
+		embed
+		{
+			border-radius: 0.3125rem;
+		}
+
+		&-pic
+		{
+			display: block;
+			max-width: 100%;
+			width: 100%;
+		}
+
+		.block-video
+		{
+			border-radius: 0.25rem;
+			cursor: pointer;
+			overflow: hidden;
+			display: block;
+			position: relative;
+			
+			&__action
+			{
+				background: url(../../images/redesign/icons/play.svg) no-repeat;
+				background-size: auto;
+				background-size: contain;
+				height: 5.125rem;
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				transform: translate(-50%,-50%);
+				transition: all .25s ease;
+				width: 5.125rem;
+			}
+
+			&:hover
+			{
+				.block-video__action
+				{
+					opacity: 0.75;
+				}
+			}
+		}
+	}
+
+	.block__pic
+	{
+		display: block;
+		width: 100%;
+	}
+
+	[class*="col-"]
+	{
+		&:first-child
+		{
+			.block__form,
+			.block__media
+			{
+				margin-right: 3.75rem;
+
+				@include media-breakpoint-down(md) {
+					margin-right: 0;
+				}
+
+				@include media-breakpoint-up(xl) {
+					margin-right: 6.25rem;
+				}
+			}
+		}
+
+		&:last-child
+		{
+			.block__form,
+			.block__media
+			{
+				margin-left: 3.75rem;
+
+				@include media-breakpoint-down(md) {
+					margin-left: 0;
+				}
+
+				@include media-breakpoint-up(xl) {
+					margin-left: 6.25rem;
+				}
+			}
+		}
+	}
+
+	&.block--bg-light,
+	&.block--bg-dark
+	{
+		.block__form
+		{
+			background-color: $white;
+		}
+	}
+
+	// List items
+	.list-items
+	{
+		@extend %list-items;
+	}
+
+	// List cards
+	.list-cards
+	{
+		@extend %list-cards;
+	}
+	
+	// List partners
+	.list-partners
+	{
+		@extend %list-partners;
+	}
+
+	.list-items,
+	.list-cards
+	{
+		margin-bottom: -2.5rem;
+
+		.list__t {
+	        font-size: 1.25rem;
+	        font-weight: 900;
+	        line-height: 1.625rem;
+	        margin-bottom: 1.25rem;
+
+	        @extend %font-headings;
+	    }
+
+	    .list__descr
+	    {
+	        font-size: 1rem;
+	        line-height: 1.5rem;
+	    }
+	}
+}

@@ -1,12 +1,7 @@
-﻿<ul class="list __inline __socials" for="share-blog-post-{{ forloop.index }}" style="width: 200px;">
+<ul class="list __inline __socials" for="share-blog-post-{{ forloop.index }}" style="width: 200px;">
     <li class="list-item fb" onclick="ShareIt.facebook('{{ article.url | full_url }}')">
         <a>
 
-        </a>
-    </li>
-    <li class="list-item plus" onclick="ShareIt.google('{{ article.url | full_url }}')">
-        <a>
-            
         </a>
     </li>
     <li class="list-item" onclick="ShareIt.twitter('{{ article.url | full_url }}')">

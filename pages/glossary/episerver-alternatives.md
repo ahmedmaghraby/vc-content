@@ -56,13 +56,13 @@ tags :
         <p class="text">
             While Episerver is a very dynamic and flexible platform that works well for large and medium-sized businesses, it doesn’t hurt to have a look at a few Episerver alternatives that might work better when it comes to choosing the right CMS for your business.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/episerver-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/episerver-alternatives' %}
         <div class="section-title">Wordpress</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Episerver alternatives - Wordpress" src="assets/images/wordpress.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 While originally the main purpose of Wordpress is to be a social blogging software, when paired with Woocommerce it becomes a major Episerver alternative in the field of ecommerce. It is particularly great for small business owners because it offers free hosting with limited features.
                 <a href="https://wordpress.org/" rel="nofollow">Wordpress</a> can become a great tool for your content management because it can work with lots and lots of plugins. However, to uncover the full potential of Wordpress you would need to purchase the plan that will cost around $25 a month.
             </div>
@@ -77,12 +77,12 @@ tags :
             Wordpress is tremendously popular, it is intuitive to use and is considered to be among the best CMS out there. Its robust web-building tools make it one of the best content management tools, as well as an interactive business store solution.
         </p>
         <div class="section-title">Joomla</div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text">
                 The next Episerver competitor on the list is <a href="https://www.joomla.org/" rel="nofollow">Joomla</a>. This is an open-source content management system that helps promote products at marketplaces of various sizes and kinds. If you are a small or a medium-sized business owner, you may value Joomla more than Wordpress for its corporation-orientated approach and sophistication in every touch.
                 This is also another open-source platform that engages a large community of active web-developers and thus provides many plugins and add-ons to work with.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="Episerver alternatives - Joomla" src="assets/images/joomla.jpg" />
             </div>
         </div>
@@ -93,11 +93,11 @@ tags :
             Joomla is very easy to use and with its customizability and expandability, allows you to create websites ranging from basic portfolio ones to sophisticated online stores.
         </p>
         <h2>Virto Commerce</h2>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="Episerver alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text">
                 Another great open source alternative to Episerver is Virto Commerce. Just like Episerver, it is based on .NET technology and includes such sophisticated technologies as Liquid and Angular. It serves as an enterprise-level CMS solution that is well-suited for businesses of any kind.
                 You can always be prepared for what is coming next by simply downloading Virto Commerce’s code. This way you will have total control over your website’s modifications, customizability, and compatibility.
             </div>
@@ -105,7 +105,7 @@ tags :
         <p class="text">
             The engaging Virto Commerce community can also help you achieve the most out of your developing process and enhance the already robust features of the <a href="{{ 'https://virtocommerce.com/b2b-ecommerce-platform' | absolute_url }}">platform</a>. Virto Commerce’s own application store allows you to find the best add-ons and plugins that will help expand your options of customizing even more.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/episerver-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/episerver-alternatives' %}
         <p class="text">
             With the platform’s modern architecture, you can enhance the performance of your website and easily replace existing modules when needed. By using Virto Commerce as an Episerver alternative, you can fully engage into using its agile features to the fullest. Deploy your website via Microsoft Cloud and scale it using Virto Commerce’s rich resources and multichannel solutions. With CMS like Virto Commerce, you can easily set up a web store and start selling beyond your business hours.
         </p>
@@ -113,10 +113,10 @@ tags :
             The right CMS platform can be a very important element in reaching the success of your business. While there are undoubtedly great features in Episerver, it lacks some important functionality that is available with some of the Episerver competitors. We have done this brief overview of the available options, so you can choose the one that works best for your particular business.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4.7, ratingCount: 1687 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.7, ratingCount: 1687 %}
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

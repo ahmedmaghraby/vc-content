@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app="storefrontApp">
+<head>
+    {% include 'google-tag-manager-head' %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Virto Commerce" />
+    {% if page_description != '' %}
+    <meta name="description" content="{{ page_description | escape }}" />
+    <meta property="og:description" content="{{ page_description | escape }}" />
+    {% else %}
+    <meta name="description" content="Enterprise B2B .NET Ecommerce Platform for Complex Ecommerce" />
+    {% endif %}
+    <meta name="keywords" content="Virto Commerce, Enterprise e-Commerce, ASP.NET eCommerce, Azure eCommerce, Cloud eCommerce, MVC eCommerce, .net shopping cart" />
+    <meta itemprop="name" content="Virto Commerce" />
+    <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
+    <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
+    <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
+    <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
+    {% if page_title != '' %}
+    <title>{{ page_title }}</title>
+    <meta property="og:title" content="{{ page_title }}" />
+    {% else %}
+    <title>ASP.NET ecommerce platform - Virto Commerce</title>
+    {% endif %}
+    {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    {% include 'segment' %}
+    {{ content_for_header }}
+    <base href="{{ '/' | absolute_url }}" />
+    <link rel="canonical" href="{{ canonical_url }}" />
+    <script>
+        var BASE_URL = '{{ "/" | full_url }}';
+    </script>
+    {% include 'autopilot' %}
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcWH7oUAAAAAAQaej1aEz7hNfB2x0E3ZxXqV-Or"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LcWH7oUAAAAAAQaej1aEz7hNfB2x0E3ZxXqV-Or', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+</head>
+<body>
+    {% include 'google-tag-manager-body' %}
+    {% if can_track %}
+    {% include 'gdpr-cookie-compliance' %}
+    {% endif %}
+
+    <div id="layout" class="hide-header">
+        <div class="layout-canvas">
+            <article class="main" role="main">
+                {{ content_for_layout }}
+            </article>
+            {% include 'footer' %}
+        </div>
+    </div>
+    {{ '//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js' | script_tag }}
+    {{ 'jquery.validate.min.js' | asset_url | script_tag }}
+    {{ 'jquery.validate.unobtrusive.min.js' | asset_url | script_tag }}
+    <script>
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
+    </script>
+    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js' | script_tag }}
+    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-resource.min.js' | script_tag }}
+    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js' | script_tag }}
+    {{ '//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-cookies.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.min.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.2/ui-bootstrap-tpls.min.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.7/angular-sanitize.min.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.12.1/angular-translate.min.js' | script_tag }}
+    {{ '//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.12.1/angular-translate-loader-url/angular-translate-loader-url.min.js' | script_tag }}
+
+    {{ 'js/app.js' | asset_url | script_tag }}
+    {{ 'themes/assets/scripts/angular/casestudy.js' | script_tag }}
+    {{ 'js/main.js' | asset_url | script_tag }}
+    {{ 'js/team.js' | asset_url | script_tag }}
+    {{ 'segment-form-handler.js' | asset_url | script_tag }}
+</body>
+</html>

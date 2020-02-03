@@ -1,0 +1,45 @@
+<div class="section section--request
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        <div class="section__header">
+            <a class="section__logo" href="/"></a>
+            <div class="section__links">
+                <a href="{{ block.phoneLink }}" class="section__links-item" data-name="phone">{{ block.phone }}</a>
+                {% if block.chatLink != '' %}
+                <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">{{ block.chat }}</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="section__body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__animate">
+                        <div class="section__animate-item completed">
+                            <div class="section__descr section__descr--large section__descr--opacity">
+                                {{ block.thankYou }}
+                            </div>
+                            <div class="section__t">{{ block.whatsNext }}</div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+            <div class="thank-you animated">
+                <div class="list">
+                    {% for item in block.thankYouItems %}
+                    <div class="list__item">
+                        <a class="list__inner" href="{{ item.url }}">
+                            <img src="{{ item.icon.url }}" />
+                            <div class="list__descr">
+                                {{ item.text }}
+                            </div>
+                            <svg class="arrow" width="100px" height="70px" viewBox="0 0 100 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="feedback" transform="translate(-100.000000, -776.000000)" class="fill"><path d="M200,811.022375 C200,811.019375 199.998996,811.015375 199.998996,811.011375 C200.002009,809.728389 199.51292,808.444402 198.529722,807.464413 L168.401073,777.464734 C166.439698,775.511755 163.260121,775.511755 161.298746,777.464734 C159.338375,779.417713 159.338375,782.583679 161.298746,784.535659 L182.877889,806.022428 L105.021442,806.022428 C102.248602,806.022428 100,808.260404 100,811.022375 C100,813.784345 102.248602,816.022321 105.021442,816.022321 L182.832696,816.022321 L161.298746,837.464091 C159.338375,839.417071 159.338375,842.583037 161.298746,844.535016 C162.279935,845.511005 163.56442,846 164.849909,846 C166.135398,846 167.419883,845.511005 168.401073,844.535016 L198.39816,814.666336 C199.158406,813.958343 199.700722,813.026353 199.904593,811.967365 C199.938738,811.793366 199.942756,811.614368 199.95782,811.43637 C199.969871,811.297372 200,811.164373 200,811.022375" id="Fill-1"></path></g></g></svg>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

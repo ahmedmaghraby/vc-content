@@ -1,0 +1,19 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "Test121119",
+        "id": 1
+    },
+    {
+        "id": 1,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "Our new test block",
+        "headerType": "like-h2",
+        "content": "<p>Short block content</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

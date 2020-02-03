@@ -50,13 +50,13 @@ tags :
         <p class="text">
             If this looks like it might be an issue for your business, have a look at some of the most prominent 3dcart alternatives.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/3dcart-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/3dcart-alternatives' %}
         <div class="section-title">Shopify</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="3dCart alternatives - Shopify" src="assets/images/3dcart-alternatives-shopify.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 <a href="/glossary/shopify-alternatives"> Shopify</a> is one of the popular 3dcart competitors. It combines a convenient process of creating a store with having maximum control over it.
                 The platform is valued by customers all over the world for its intuitive design and tremendous support base that is there to help whenever you need it. A wide variety of tools and extensions is also offered through Shopify’s unique AppStore to help you to broaden your website’s feature base.
             </div>
@@ -71,12 +71,12 @@ tags :
             Keep in mind though that despite its wonderful features, it may seem hard to scale and customize, due to its close source origin.
         </p>
         <div class="section-title">Volusion </div>
-        <div class="col-w">
-            <div class="col __col-70 text" style="margin-top: 0; padding-right: 20px;">
+        <div class="row">
+            <div class="col-md text" style="margin-top: 0; padding-right: 20px;">
                 Another great alternative to 3dcart is <a href="https://www.volusion.com/" rel="nofollow">Volusion</a>. Just like the Shopify, it is also closed source shopping cart software. If you are tech savvy, this platform will impress you with its expandability and functionality. Lots of extensions and plugins are designed specifically to suit your most peculiar needs.
                 The downside is in content marketing functionality (or rather lack of thereof) and design templates as Volusion does not offer many of those.
             </div>
-            <div class="col __col-30">
+            <div class="col-md-4">
                 <img alt="3dCart alternatives - Volusion" src="assets/images/volusion.jpg" />
             </div>
         </div>
@@ -86,13 +86,13 @@ tags :
         <p class="text">
             Just like other large ecommerce platforms (like Shopify and such), this one comes with a large price tag. There are also a lot of add-on fees that can sum up to a noticeable amount of money to pay for a small business owner.
         </p>
-        {% include 'vc-magento-banner' with current_url : 'glossary/3dcart-alternatives' %}
+        {% include 'vc-magento-banner' current_url : 'glossary/3dcart-alternatives' %}
         <div class="section-title">Virto Commerce</div>
-        <div class="col-w">
-            <div class="col __col-30">
+        <div class="row">
+            <div class="col-md-4">
                 <img alt="3dCart alternatives - Virto Commerce" src="assets/images/virto-commerce-screen.jpg" />
             </div>
-            <div class="col __col-70 text" style="margin-top: 0; padding-left: 20px;">
+            <div class="col-md text" style="margin-top: 0; padding-left: 20px;">
                 Unlike most other 3dcart competitors, this platform is open source and it offers all of the tools and features needed to build a full-fledged web store and to easily set up the processes for selling your products and services.
                 This ecommerce solution is based on .NET 4.6 framework and uses cutting-edge technologies that give you all the freedom and flexibility you need when creating your website. Launch and scale your website using Microsoft cloud and market it with agile features.
             </div>
@@ -104,10 +104,10 @@ tags :
             While there is no perfect universal eCommerce solution, we have presented you with some that are considered to be the best on the market. During your search for an ecommerce solution, always shoot for the 3dcart alternative that is going to be well-suited for your business.
         </p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4, ratingCount: 485 %}
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

@@ -1,0 +1,32 @@
+@import "solution";
+
+@import "capabilities";
+
+.section--features
+{
+    .section__descr
+    {
+        font-size: 1rem;
+        line-height: 1.6;
+
+        & ~ .section__descr
+        {
+            margin-top: 3rem;
+        }
+    }
+
+    .section__pic
+    {
+        max-width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .section__info
+        {
+            flex: 0 0 39.375rem;
+            max-width: 39.375rem;
+            position: relative;
+            z-index: 5;
+        }
+    }
+}

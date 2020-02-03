@@ -1,22 +1,19 @@
-<div class="post" ng-class="{ 'post-single': !article.isSticked, 'post-double': article.isSticked }" ng-repeat="article in articles">
-    <div class="post-inner">
-        <div class="post-media" ng-class="{ 'no-image': !article.imageUrl }" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }">
-            <div class="category-name" ng-if="article.category" ng-bind="'blogs.categories.' + article.category | translate"></div>
-            <h3><a ng-href="{% raw %}{{ article.url }}{% endraw %}" ng-bind="article.title"></a></h3>
+<div class="list__item" ng-repeat="article in articles">
+    <a class="list__bg" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
+    <div class="list__category" ng-if="article.category" ng-bind="'blogs.categories.' + article.category | translate"></div>
+    <div class="list__info">
+        <div class="list__t" ng-bind="article.title"></div>
+        <div class="list__descr">
+            {% raw %}{{ article.excerpt }}{% endraw %}
         </div>
-        <div class="post-descr">{% raw %}{{ article.excerpt }}{% endraw %} <a href="{% raw %}{{ article.url }}{% endraw %}">Read more...</a></div>
-        <div class="post-tags" ng-if="article.tags.length > 0">
-            <ul class="tags list">
-                <li class="list-item" ng-repeat="tag in article.tags | limitTo: 3">
-                    <a class="list-link" ng-href="/blog/tag/{% raw %}{{ tag }}{% endraw %}" ng-bind="'blogs.tags.' + tag | translate"></a>
-                </li>
-            </ul>
+        <div class="list list--tags" ng-if="article.tags.length > 0">
+            <a class="list__item" ng-repeat="tag in article.tags | limitTo: 3" ng-href="/blog/tag/{% raw %}{{ tag }}{% endraw %}" ng-bind="'blogs.tags.' + tag | translate"></a>
         </div>
-        <div class="post-other">
-            <div class="post-logo"><img ng-src="{% raw %}{{ article.authorImageUrl }}{% endraw %}" /></div>
-            <div class="post-author">
-                <div class="author" ng-bind="article.author"></div>
-                <div class="date" ng-bind="article.createdDate | date: format: 'MMMM d, y'"></div>
+        <div class="list__author">
+            <div class="list__author-logo"></div>
+            <div class="list__author-text">
+                <div class="list__author-name" ng-bind="article.author"></div>
+                <div class="list__author-date" ng-bind="article.createdDate | date: format: 'MMMM d, y'"></div>
             </div>
         </div>
     </div>

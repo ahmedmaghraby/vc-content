@@ -1,0 +1,329 @@
+[
+    {
+        "type": "settings",
+        "title": "ASP.NET open source ecommerce platform - Virto  Commerce",
+        "permalink": "net-ecommerce-platform",
+        "header": "Microsoft .NET e-Commerce platform",
+        "description": "Virto Commerce - ASP.NET Microsoft E-commerce Platform for B2B & B2C solutions.",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "Open Source Microsoft ASP.NET E-commerce Platform",
+        "h1": true,
+        "content": "<p>Microsoft provides a technology&nbsp;stack for development of enterprise-class business solutions. However, most other ASP.NET e-commerce solutions developed with Microsoft .NET are designed for small business. They do not support B2B functionality,&nbsp;and their&nbsp;architecture doesn&#39;t fit the complex needs of enterprise&nbsp;and mid-market companies.</p>\n\n<p>Virto Commerce is different: it&nbsp;is the leading Microsoft e-commerce platform, built on .NET, and its open source design provides ultimate flexibilty to meet the&nbsp;complex needs of enterprise companies.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerStyle": null,
+        "headerType": "h1"
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Common Issues with Other Microsoft ASP.NET E-commerce Platforms",
+        "style": "light",
+        "h1": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--large section__t--gray",
+        "list": [
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Does not support B2B and complicated B2C scenarios</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Not scalable because of architecture,&nbsp; so doesn&#39;t fit enterprise&nbsp;and mid-market company needs</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Closed code means only&nbsp;the vendor can alter the software</p>\n"
+            }
+        ],
+        "content": "<p>Applying a B2C approach to B2B e-commerce generally doesn&#39;t work. B2B e-commerce inherently requires more&nbsp;complex processes, rules, entities, and interfaces. B2B e-commerce solutions need&nbsp;to manage&nbsp;bulk orders, POs, contract pricing, approval workflows, and order quote&nbsp;support.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Most&nbsp;Microsoft .NET e-commerce platforms on the market don&rsquo;t have the flexible and modular architecture which is required for <a href=\"https://virtocommerce.com/enterprise-ecommerce-platform\">enterprise</a>&nbsp;and mid-market companies. Architecture predefines the business limitations of the system and the way it works. Monolith solutions are not truly scalable, with interconnected&nbsp;and interdependent components of the software.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Other Microsoft .NET e-commerce platforms on the market are also closed code solutions, so that only the vendor can alter the software, and it is&nbsp;impossible for external developers to analyze the code, understand how the software&nbsp;works, or understand why it works the way it does. Developers must only rely on information published by the vendor.</p>\n",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "headerStyle": null,
+        "listPosition": null,
+        "listEnumType": null,
+        "headerType": "h2",
+        "elementsStyle": null,
+        "showMessage": null,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
+    },
+    {
+        "id": 4,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Without Virto Commerce, how do these problems impact companies using the Microsoft tech stack?",
+        "h1": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Loss of deals where B2C or B2B functionality is required",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Problems with scalability, extensibility, & development speed increase delivery costs and cost of ownership",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Closed code makes a customer’s innovations totally dependent on vendor roadmaps ",
+                "text": "",
+                "iconStyle": "",
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "headerType": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>Companies&nbsp;in the <a href=\"https://virtocommerce.com/b2b-ecommerce-platform\">B2B</a> space seek&nbsp;enterprise e-commerce software solutions to solve their complicated challenges and to start bringing value as soon as possible. The same goes for B2C companies with complicated business models. Enterprises and mid-market&nbsp;companies are usually not ready to change their internal processes just because of software limitations. They expect that implementation partners will deliver enterprise e-commerce solution which fits precisely into their business and can be delivered with short release cycles. Having only native B2C solutions in their portfolio,&nbsp;an implementation partner will lose B2B business opportunities.&nbsp;</p>\n\n<p>Architecture predefines the business limitations of the system and the way of working with it. Monolith architecture doesn&rsquo;t allow scaling an application, scaling&nbsp;development teams or&nbsp;delegating&nbsp;responsibility for feature&nbsp;development, makes it impossible to adopt the software for an enterprise&#39;s complexity and mid-market companies&#39; velocity of change.&nbsp;All these lead&nbsp;to the constant growth of risks and implementation costs.&nbsp;The more features you deliver, the slower you do it, the more money it takes. Together with the constant growth of technical&nbsp;debt it makes cost of ownership too high.</p>\n\n<p>Problems with closed code applications are well known for companies who work closely with business application&nbsp;implementation.&nbsp;Being&nbsp;totally&nbsp;dependent on a vendor&#39;s roadmap makes it&nbsp;impossible to make system changes in the right direction with the desired speed,&nbsp;as the vendor is more interested in delivering universal functionality required for thousands of&nbsp;his&nbsp;customers, rather than a function your customer personally requires.&nbsp; Additionally,&nbsp;since the code is closed &ndash;&nbsp;the&nbsp;system will never become 100% predictable for a developer.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "headerStyle": null,
+        "headerType": null
+    },
+    {
+        "id": 6,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "How Virto Commerce's Microsoft .NET E-commerce Platform Solves These Issues",
+        "h1": null,
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": "section__t--gray",
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Designed for the B2B market, extensibility solves what is missing ",
+                "text": "",
+                "iconStyle": "",
+                "iconAlign": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Modern modular architecture guarantees high scalability, extensibility and delivery velocity ",
+                "text": "",
+                "iconStyle": "",
+                "iconAlign": null,
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Open source  e-commerce platform with 100% open code",
+                "text": "",
+                "iconStyle": "",
+                "iconAlign": null,
+                "url": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "headerType": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "h1": null,
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<p>The Virto Commerce platform is designed as&nbsp;B2B e-commerce software which is mature and flexible enough to facilitate&nbsp;business for companies of different scales: disruptive startups, rapid growing mid-market-companies, and multi-national enterprises with high complexity. Virto Commerce&#39;s platform is a customizable&nbsp;&amp;&nbsp;extensible&nbsp;platform, which was initially designed to implement complex custom B2B scenarios on top of it.&nbsp;</p>\n\n<p>Due to modern modular architecture, Virto Commerce&#39;s platform enables an agile way of doing implementation projects. It is possible to start&nbsp;acting locally (in terms of&nbsp;countries, functions, processes) and&nbsp;then&nbsp;continue by gradually extending the solution, adding new&nbsp;features,&nbsp;functions,&nbsp; and integrations&nbsp;with fast release cycles. A company&nbsp;starts getting value fast and keeps&nbsp;implementation going fast.&nbsp;</p>\n\n<p>Virto Commerce is an open source e-commerce platform.&nbsp;The&nbsp;code is in GitHub. No hidden problems, no&nbsp;hidden technical dept,&nbsp;the product is&nbsp;open. Developers can read the code and make their decision based on what they see.&nbsp;It is easy to extend the system and adapt it to a customer&rsquo;s&nbsp;business needs&nbsp;without any risks. We build relationships with our implementation partners and give them a voice when make decisions about roadmap priorities.&nbsp;</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "headerStyle": null,
+        "headerType": null
+    },
+    {
+        "id": 8,
+        "type": "text-with-button",
+        "name": "Text",
+        "text": "Download architecture overview",
+        "style": "light",
+        "url": {
+            "url": "/download-arch-guidelines",
+            "style": "btn btn--orange btn--round",
+            "urlText": "Download Now"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 9,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Virto Commerce Platform Capabilities",
+        "h1": null,
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "",
+        "style": "light",
+        "colStyle": "col-6 col-sm-4 col-lg-3",
+        "items": [
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Catalog",
+                "text": "<p>&middot; Master &amp; virtual catalogs</p>\n\n<p>&middot; Categories</p>\n\n<p>&middot; Multiple languages</p>\n\n<p>&middot; Multiple currencies</p>\n\n<p>&middot; Physical products</p>\n\n<p>&middot; Digital products</p>\n\n<p>&middot; Subscription products</p>\n\n<p>&middot; Product &amp; category attributes</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Pricing",
+                "text": "<ul>\n\t<li>\n\t<p>&middot; Multiple price lists</p>\n\n\t<p>&middot; Tiered pricing</p>\n\n\t<p>&middot; Sale pricing</p>\n\n\t<p>&middot; Personalized pricing</p>\n\n\t<p>&middot; Import/Export price list from ERP</p>\n\n\t<p>&middot; B2B pricing</p>\n\n\t<p>&middot; Points</p>\n\n\t<p>&middot; Bitcoin &amp; customer currencies</p>\n\t</li>\n\t<li>&nbsp;</li>\n</ul>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Merchandising",
+                "text": "<ul>\n\t<li>\n\t<p>&middot; Cross-sell products</p>\n\n\t<p>&middot; Up-sell products</p>\n\n\t<p>&middot; Replacement products</p>\n\n\t<p>&middot; Accessories</p>\n\n\t<p>&middot; Featured products</p>\n\n\t<p>&middot; Recently viewed products</p>\n\n\t<p>&middot; Machine learning based recommendations</p>\n\t</li>\n</ul>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": null
+                },
+                "title": "Promotions",
+                "text": "<p>&middot; Product promotions</p>\n\n<p>&middot; Shopping cart promotions</p>\n\n<p>&middot; Shipping promotions</p>\n\n<p>&middot; Public-use coupons</p>\n\n<p>&middot; Limited-use coupons</p>\n\n<p>&middot; Private-use coupons</p>\n\n<p>&middot; Build custom promotions engine</p>\n\n<p>&middot; Personalized banners</p>\n",
+                "iconStyle": "",
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Order Management",
+                "text": "<p>&middot; Customer order history</p>\n\n<p>&middot; Search orders</p>\n\n<p>&middot; Define &amp; associate documents</p>\n\n<p>&middot; Split order shipments</p>\n\n<p>&middot; Purchase orders</p>\n\n<p>&middot; Punchout</p>\n\n<p>&middot; Subscriptions</p>\n\n<p>&middot; Refunds</p>\n\n<p>&middot; Returns</p>\n\n<p>&middot; Exchanges</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Cart & Checkout",
+                "text": "<p>&middot; Physical and digital orders</p>\n\n<p>&middot; Anonymous persistent cart</p>\n\n<p>&middot; Registered persistent cart</p>\n\n<p>&middot; Guest user checkout</p>\n\n<p>&middot; Subscription products</p>\n\n<p>&middot; Request for quote</p>\n\n<p>&middot; Punchout</p>\n\n<p>&middot; Wishlists</p>\n\n<p>&middot; Gift registry</p>\n\n<p>&middot; Tax calculations</p>\n\n<p>&middot; Shipping methods</p>\n\n<p>&middot; Payment methods</p>\n\n<p>&middot; Tokenized billing</p>\n\n<p>&middot; Order confirmation</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Content Management (CMS)",
+                "text": "<p>&middot; Professional themes</p>\n\n<p>&middot; Edit HTML and CSS</p>\n\n<p>&middot; Brand and customize your store</p>\n\n<p>&middot; Web-based website builder</p>\n\n<p>&middot; Full blogging platform</p>\n\n<p>&middot; Mobile commerce ready</p>\n\n<p>&middot; Create pages</p>\n\n<p>&middot; Multiple stores</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Customer Profile",
+                "text": "<p>&middot; Account registration</p>\n\n<p>&middot; Profile attributes</p>\n\n<p>&middot; Address book</p>\n\n<p>&middot; Payment methods</p>\n\n<p>&middot; Subscriptions</p>\n\n<p>&middot; Passwords</p>\n\n<p>&middot; Orders</p>\n\n<p>&middot; Invoice PDF</p>\n\n<p>&middot; Quotes</p>\n\n<p>&middot; Segmentation</p>\n\n<p>&middot; Login on behalf</p>\n\n<p>&middot; Customer self-management</p>\n\n<p>&middot; Social login</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Search & Browse",
+                "text": "<p>&middot; Keyword product search</p>\n\n<p>&middot; Attribute product search</p>\n\n<p>&middot; Product filtering</p>\n\n<p>&middot; Search engine optimization (SEO)</p>\n\n<p>&middot; Dynamic content and banners</p>\n\n<p>&middot; Facet filtering</p>\n\n<p>&middot; Similar search terms</p>\n\n<p>&middot; Spell checking</p>\n\n<p>&middot; Google Analytics</p>\n",
+                "iconStyle": null,
+                "url": null
+            },
+            {
+                "image": null,
+                "title": "Administration",
+                "text": "<p>&middot; Modules/Extensions Auto Updates</p>\n\n<p>&middot; Data import/export</p>\n\n<p>&middot; Data synchronization</p>\n\n<p>&middot; Backup and restor</p>\n\n<p>&middot; Staging and production environments</p>\n\n<p>&middot; Manage roles and permissions</p>\n\n<p>&middot; REST API permissions</p>\n\n<p>&middot; Active directory and federation</p>\n\n<p>&middot; Email notifications</p>\n\n<p>&middot; SMS notifications</p>\n",
+                "iconStyle": null,
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 10,
+        "type": "technologies-list",
+        "style": "light",
+        "headline": "The open source e-commerce platform build using cutting-edge web technologies"
+    },
+    {
+        "id": 11,
+        "type": "blogs-list",
+        "style": "light",
+        "count": "3",
+        "isShowLast": true,
+        "items": [],
+        "title": "The latest entries from our open source .NET e-commerce blog"
+    }
+]

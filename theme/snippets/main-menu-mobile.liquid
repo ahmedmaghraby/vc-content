@@ -1,33 +1,194 @@
 {% assign url_parts = page.url | split: '/' %}
-{% if url_parts contains 'docs' or search.search_in == '/docs' %}
+{% if (url_parts contains 'docs') or (search.search_in == '/docs') %}
     <form class="search" action="{{ '/content/search' | absolute_url }}" method="post">
         <input name="SearchIn" id="SearchIn" type="hidden" value="/docs">
         <input name="Layout" id="Layout" type="hidden" value="docs">
         <input name="Keyword" id="Keyword" type="search" placeholder="Search docs" required="required" value="{{ search.terms }}">
     </form>
-    {% assign docs_pages = pages | where: 'url', 'contains', 'docs' | sort: 'url' %}
-    {% assign docs_tree = docs_pages | tree: 'url', 'title', '/', 'priority' %}
-    {% include 'docs-menu', docs_tree: docs_tree %}
+    
 {% else %}
-    <ul class="menu">
-        {% for link in menu.links %}
-            {% assign child_list_handle = link.title | handleize %}
-        <li class="menu-item" data-id="swipeli">
-                <a href="{{ link.url }}" data-swipe="opened">{{ link.title | escape }}</a>
-            {% if linklists[child_list_handle].links.size > 0 %}
-            <ul class="menu sub-menu">
-                {% for child_link in linklists[child_list_handle].links %}
-                <li class="menu-item">
-                    {% if child_link.url contains '/#' %}
-                        <span>{{ child_link.title  }}</span>
-                    {% else %}
-                        <a href="{{ child_link.url }}">{{ child_link.title | escape }}</a>
-                    {% endif %}
+    <div class="swipe__header">
+        <div class="swipe__nav">
+            <div class="swipe__nav-item swipe__nav-item--show">
+                {% comment %}
+                <a class="swipe__nav-link" href="#">Login</a>
+                {% endcomment %}
+            </div>
+            <div class="swipe__nav-item">
+                <div class="swipe__back"></div>
+            </div>
+        </div>
+        <div class="swipe__close ml-auto"></div>
+    </div>
+    <div class="swipe__body">
+        <div class="nav">
+            <ul class="flex-column">
+                <li class="nav__item">
+                    <a class="nav__link">
+                        Why Virto?
+                        <span class="nav__carret ml-auto"></span>
+                    </a>
                 </li>
-                {% endfor %}
+                <li class="nav__item">
+                    <a class="nav__link">
+                        Solutions
+                        <span class="nav__carret ml-auto"></span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link">
+                        Partners
+                        <span class="nav__carret ml-auto"></span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link">
+                        Resources
+                        <span class="nav__carret ml-auto"></span>
+                    </a>
+                </li>
             </ul>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+            <div class="nav__content">
+                <ul class="nav flex-column">
+                    <li class="nav__item">
+                        <div class="nav__t">Digital Commerce Platform</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/enterprise-ecommerce-architecture">Architecture Overview</a>
+                    </li>
+                    {% comment %}
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-implementation">Delivery Strategy</a>
+                    </li>
+                    {% endcomment %}
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-services">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/roadmap">Roadmap</a>
+                    </li>
+                    {% comment %}
+                    <li class="nav__item">
+                        <div class="nav__t">Business Need</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-catalog-management">Catalog &amp; Product Management</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-marketing-tools">Marketing &amp; Promotions</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-pricing-tools">Pricing Tools</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-cms">CMS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-order-management">Order Management</a>
+                    </li>
+                    {% endcomment %}
+                </ul>
+            </div>
+            <div class="nav__content">
+                <ul class="nav flex-column">
+                    <li class="nav__item">
+                        <div class="nav__t">By Business Size</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/enterprise-ecommerce-platform">Enterprise</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-midmarket-ecommerce-platform">Mid-Market</a>
+                    </li>
+                    {% comment %}
+                    <li class="nav__item">
+                        <a class="nav__link" href="/ecommerce-platform-small-business">Small Business</a>
+                    </li>
+                    {% endcomment %}
+                    <li class="nav__item">
+                        <a class="nav__link" href="/startup-ecommerce-platform">Startups</a>
+                    </li>
+                    {% comment %}
+                    <li class="nav__item">
+                        <div class="nav__t">By Use Case</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-platform">B2B Solutions</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2x-b2c-ecommerce">B2X (B2C, B2B2C, B2G)</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/headless-ecommerce">Multi-touch User Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/b2b-ecommerce-digital-transformation">Digital Transformation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/ecommerce-whitelabel">White Label Solutions</a>
+                    </li>
+                    {% endcomment %}
+                </ul>
+            </div>
+            <div class="nav__content">
+                <ul class="nav flex-column">
+                    <li class="nav__item">
+                        <a class="nav__link" href="/become-partner">Become a Partner</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/find-implementation-partner">Find a Partner</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__content">
+                <ul class="nav flex-column">
+                    <li class="nav__item">
+                        <div class="nav__t">About Virto Commerce</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/about-us">Our Team &amp; Story</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/case-studies">Case Studies</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/whitepapers">White Papers</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/contact-us">Contact Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="nav__t">Tools</div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/glossary">Ecommerce Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/apps">Appstore</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/docs">Documentation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" rel="nofollow" href="http://stackoverflow.com/questions/tagged/virtocommerce">Stackoverflow Group</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" rel="nofollow" href="https://github.com/VirtoCommerce/vc-community">GitHub Repository</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" rel="nofollow" href="https://admin-demo.virtocommerce.com/docs/ui/index">API Reference</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/contribute-agreement">How to Contribute</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="swipe__footer">
+        <a href="/contact-us" class="btn btn--orange btn--expand btn--round">Try virto now</a>
+    </div>
 {% endif %}

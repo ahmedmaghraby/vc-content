@@ -1,0 +1,192 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "DigitalTransformation",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "decorated-hero",
+        "name": "Text over image",
+        "title": "Digital Transformation in Ecommerce",
+        "headerType": "like-h2",
+        "content": "<p>Ecommerce digital transformation can be a challenge for non-digitally savvy manufacturers, wholesalers, and distributors. For companies in the early stage&nbsp;of digital adoption, digital transformation involves getting control of the customer experience and leveraging customer insights.</p>\n\n<p>Avoid common mistakes by creating a roadmap for ecommerce that includes a strategic&nbsp;approach&nbsp;to organizational process and careful technology selection.&nbsp;</p>\n",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true
+    },
+    {
+        "id": 3,
+        "type": "list-with-images",
+        "name": "List with images",
+        "title": "Why is digital transformation so important?",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "intro": "<h3 style=\"text-align:center\"><strong>When done well, ecommerce digital transformation ensures:</strong></h3>\n",
+        "style": "light",
+        "colStyle": "col-md-6 col-lg-4",
+        "items": [
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Insights big.png",
+                    "altText": null
+                },
+                "title": "Access to customer insights yields competitive advantage",
+                "text": "<p><strong>Gain access to customer insights to drive ecommerce personalization, which creates a strategic advantage and helps prevent&nbsp;product commoditization.</strong>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Direct connection to the customer and getting their feedback is crucial for creating a relevant product and providing unique value. Without customer insights, products can become commoditized quickly. &nbsp;If a company resists digital transformation and only sells via other companies or platforms outside of its purview, it misses the opportunity to know its customers and act on this knowledge. Such a non-digital company cannot guide customers experiences, cannot learn from direct feedback, trends, and insights, and finally cannot personalize the purchasing journey to provide unique customer value.</p>\n\n<p>&nbsp;</p>\n\n<p>Read&nbsp;<a href=\"https://virtocommerce.com/case-studies/bosch\">how Bosch solved this customer insights problem with ecommerce.</a></p>\n",
+                "iconStyle": "list__icon--large",
+                "iconAlign": "list__icon--center",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/innovation big3.png",
+                    "altText": null
+                },
+                "title": "Ability to innovate and implement new solutions fast.",
+                "text": "<p><strong>Prepare to innovate by reacting to challenges and implementing&nbsp;new solutions quickly to maintain a competitive edge.&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p>The most dominant competitors are not the largest, well-known companies but fast disruptors who break into a market by focusing on volume and reducing the margin. This trend makes it impossible to stay on top of the market with a traditional, inflexible business model. Common examples are well known for everyone (Uber,&nbsp;AirBnB, Amazon) while a lot of niche markets have their own disruptors.</p>\n\n<p>While it is not possible to predict what next disruptive model will be successful, the best strategy is to be either a disruptor or to be a company who is ready to react to disruptors. Both scenarios require that the company has implemented ecommerce in its customer channels and that the company is skilled in managing drastic changes and adapting its strategy.</p>\n",
+                "iconStyle": "list__icon--large",
+                "iconAlign": "list__icon--center",
+                "url": null
+            },
+            {
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/stickyrelationships big.png",
+                    "altText": null
+                },
+                "title": "Stronger & \"stickier\" customer relationships ",
+                "text": "<p><strong>Embed&nbsp;supplier services into customer&nbsp;digital environments to increase&nbsp;&ldquo;stickiness&rdquo; and B2B customer loyalty.</strong></p>\n\n<p>&nbsp;</p>\n\n<p>To build and maintain a close customer relationship, a supplier must understand and align closely with the customer business and decision-making processes and infrastructure. Ecommerce digital transformation can&nbsp;stronger customer and B2B&nbsp;relationships with embedded supplier services into customer&nbsp;digital environments. Successful ecommerce solutions require both optimal user experiences and strategic integration with the customer IT environment. These loyalty-building strategies create additional value for the product and provide additional reasons for customer to stay with the supplier.</p>\n",
+                "iconStyle": "list__icon--large",
+                "iconAlign": "list__icon--center",
+                "url": null
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "What are common mistakes to avoid when starting a digital transformation? ",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "decorator": "none",
+        "content": "<ul>\n\t<li>Digital transformation is not a one-time&nbsp;activity --&nbsp;it is a continuous, ongoing&nbsp;process that cannot be planned&nbsp;and scheduled.</li>\n\t<li>Adding Amazon or Alibaba sales channels might be a step forward, but it that alone does not complete a digital transformation strategy.</li>\n\t<li>Building in-house solutions are time-consuming and expensive&nbsp;and may not guarantee results.&nbsp;&nbsp;</li>\n</ul>\n\n<p>Successful digital transformation is a continuous agile process, where&nbsp;companies innovate in measured steps, gaining regular market feedback to move forward incrementally. Digital transformation requires change management and a readiness to adopt according to market demands. Lost opportunities occur when companies spend a year planning and preparing for a project that lasts the next two years. Companies should launch, learn, and re-launch in an ongoing cycle reacting to changing conditions and customer needs.&nbsp;</p>\n\n<p>Making short-term-fixes,&nbsp;such as adding a simple shopping cart to an existing&nbsp;website, using Amazon as a sales channel, or delivering basic online order management options to customers,&nbsp;may seem like a good place to start; however, there is much more to consider when it comes to digital transformation. The primary goal of digital transformation is to truly know the customer by gaining control of the customer experience and building intimacy to drive engagement.</p>\n\n<p>According to experts, 80% of an ecommerce platform development budget&nbsp;is spent on general platform functionality and only 20% is allocated for high value, market-specific&nbsp;features. Therefore, it can be cost prohibitive to develop home-grown functionality in-house, making the digital transformation&nbsp;more expensive, resource-intensive, and&nbsp;laborious ongoing effort.</p>\n",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn--orange btn--round",
+            "urlText": ""
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": true,
+        "hidden": false
+    },
+    {
+        "id": 5,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "What are best practices in digital transformation?",
+        "listPosition": null,
+        "listEnumType": null,
+        "style": "dark",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "titleStyle": null,
+        "list": [
+            {
+                "text": "<p>Get access to customers and deeply integrate with them</p>\n"
+            },
+            {
+                "text": "<p>Be agile in&nbsp;decision-making, marketing, software development and other processes</p>\n"
+            },
+            {
+                "text": "<p>Partner wisely and build IT teams strategically</p>\n"
+            }
+        ],
+        "content": "<p><strong>Direct access to the customer and controlling the&nbsp;user experience </strong>is key to digital transformation. Avoid situations where the customers only see your product as one of many &ldquo;on a shelf&rdquo; in a huge online marketplace. While there is value in marketplace channels, it is increasingly important to communicate with customers directly, gather insights from their visit, and personalize their user experience. The structure of B2B sector companies&nbsp;provide&nbsp;multiple opportunities for deep integration with customer&nbsp;processes and IT ecosystem. Suppliers can provide procurement portals, order management and tracking systems, order approval workflows, smart pre-ordering systems and demand forecasting engines that customers cannot afford themselves.</p>\n\n<p><strong>Be agile.&nbsp;</strong>Establishing an agile approach is a reasonable way to begin a digital transformation. Start by analyzing feedback from the market, taking relatively small steps in several sprints versus diving deeply into annual projects with large budgets and heavy obligations. Embrace the agile process in decision-making, marketing and software development to create an advantage.</p>\n\n<p><strong>Partner and build your teams wisely.&nbsp;</strong>Organizations must prioritize risks associated with their operations. It is important that you choose a trustworthy partner with the expertise and experience in agile ecommerce development and implementation.</p>\n\n<p>Focus in-house talent to work together with the IT partner to support the speed, safety and growth required in the digital economy, learning and contributing the (endless) improvement of the digital ecosystem.</p>\n",
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text-with-button",
+        "name": "Ready",
+        "text": "Ready to get started? Reach out to our experts",
+        "style": "light",
+        "url": {
+            "url": {
+                "url": "#",
+                "urlText": "Contact us",
+                "style": "btn btn--orange btn--round"
+            },
+            "style": "btn btn--orange btn--round",
+            "urlText": "Contact Us"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 7,
+        "type": "cards",
+        "name": "Text",
+        "title": "Case Studies of Digital Transformation",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "light",
+        "items": [
+            {
+                "title": "Bosch: New customer insights through digital transformation",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Bosch case study image website 4x3 in (3).png",
+                    "altText": null
+                },
+                "text": "<p>Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/bosch"
+                }
+            },
+            {
+                "title": "Lavazza: Unified platform for B2B & B2C for customer insights",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Lavazza case study image website 4x3 in (5).png",
+                    "altText": null
+                },
+                "text": "<p>Lavazza needed a new ecommerce platform to re-platform an&nbsp;outdated solution. They needed to respond to both B2B and B2C customers&#39; needs for a better online&nbsp;shopping experience, personalized transactions, up-to-date customer insights, and product information.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "https://virtocommerce.com/case-studies/lavazza"
+                }
+            },
+            {
+                "title": "Standaard Boekhandel: Omni-channel customer experience",
+                "image": {
+                    "altText": null,
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Standaard Boekhandel case study image website 4x3 in (2).png"
+                },
+                "text": "<p>Looking to strengthen its position in a fiercely competitive online book sales market, Standaard Boekhandel, Belgium&#39;s largest book retailer, embarked on a digital transformation process that was to deliver a best-in-class omnichannel customer experience.&nbsp;</p>\n",
+                "link": {
+                    "url": "https://virtocommerce.com/case-studies/standaard-boekhandel",
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]

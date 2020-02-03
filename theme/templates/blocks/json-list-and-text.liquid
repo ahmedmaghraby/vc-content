@@ -1,0 +1,46 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% include 'blocks/block-title' block: block %}
+        <div class="row list list--text {{ block.listPosition }} {{ block.listEnumType }}">
+            <div class="list__sidebar col-md">
+                <ul class="list__sidebar-inner">
+                    {% assign elementsClass = 'list__num' %}
+                    {% if item.elementsStyle == 'orangeCircle' %}
+                    {% assign elementsClass = 'list__num list__num--circle' %}
+                    {% endif %}
+                    {% for item in block.list %}
+                    <li class="list__item col-md">
+                        {% if item.image != '' %}
+                        <img src="{{item.image.url}}" />
+                        {% else %}
+                        <div class="{{elementsClass}}"></div>
+                        {% endif %}
+                        <div class="list__descr">{{ item.text }}</div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="list__content col-md">
+                {{ block.content }}
+            </div>
+            {% if block.showMessage == 'True' %}
+            <div class="message bordered">
+                <div class="message-container">
+                    {% if block.messageTitle != '' %}
+                    <div class="like-h3 title">{{block.messageTitle}}</div>
+                    {% endif %}
+                    {% if block.messageText != '' %}
+                    <div class="text">{{block.messageText}}</div>
+                    {% endif %}
+                    {% if block.messageLink != '' %}
+                    <a class="{{block.messageLink.style}}" href="{{block.messageLink.url}}">{{block.messageLink.urlText}}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

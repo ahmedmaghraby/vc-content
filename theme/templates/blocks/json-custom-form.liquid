@@ -1,0 +1,83 @@
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% include 'blocks/block-title' block: block %}
+        <div class="section__info--center-block">
+            {% if block.intro != '' %}
+            <div class="section__descr">{{ block.intro }}</div>
+            {% endif %}
+
+            {% assign rowStarted = false %}
+            {% assign thecycle = 'odd' %}
+            <form id="{{ block.formName }}" data-segment-name="{{ block.formName }}" data-segment-options='{{ block.segmentOptions }}'>
+                {% for item in block.fields %}
+                    {% if item.type != 'hidden' %}
+                        {% if thecycle == 'odd' %}
+                            {% assign thecycle = 'even' %}
+                        {% else %}
+                            {% assign thecycle = 'odd' %}
+                        {% endif %}
+                        {% if item.fullrow == 'True' and rowStarted == true %}
+                            </div>
+                            {% assign rowStarted = false %}
+                        {% endif %}
+
+                        {% if rowStarted != true or thecycle == 'odd' and item.fullrow == 'True' and forloop.last != true %}
+                            {% assign rowStarted = true %}
+                            {% assign thecycle = 'odd' %}
+                            <div class="form-group row">
+                        {% endif %}
+                        <div class="{% if item.fullrow == 'True' %} col-md {% else %} col-md-6 {% endif %}">
+                            {% if item.type != 'checkbox' %}
+                            <label class="form-label">{{ item.label }}</label>
+                            {% endif %}
+                            {% if item.type == 'textarea' %}
+                                <textarea data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == 'True' %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}" id="" cols="30" rows="5"></textarea>
+                            {% elsif item.type == 'select' %}
+                                {% assign options = item.data | split: ";" %}
+                                <select data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == 'True' %} data-val="true" data-val-required {% endif %} class="form-control" name="{{ item.name }}">
+                                    {% for opt in options %}
+                                        <option value="{{opt}}">{{opt}}</option>
+                                    {% endfor %}
+                                </select>
+                            {% elsif item.type == 'email' %}
+                                <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" data-val="true" data-val-email {% if item.required == 'True' %} data-val-required {% endif %} type="email" class="form-control" name="{{ item.name }}" />
+                            {% elsif item.type == 'checkbox' %}
+                                <label>
+                                    <input value="{{ item.data }}" data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == 'True' %} data-val="true" data-val-required {% endif %} type="checkbox" name="{{ item.name }}" />
+                                    {{ item.label }}
+                                </label>
+                            {% else %}
+                                <input data-segment-name="{{ item.segmentFieldName }}" id="{{ item.name }}" {% if item.required == 'True' %} data-val="true" data-val-required {% endif %} type="text" class="form-control" name="{{ item.name }}" />
+                            {% endif %}
+                        </div>
+                                {% if rowStarted == true and thecycle == 'even' or forloop.last == true or item.fullrow == 'True' %}
+                            </div>
+                            {% assign rowStarted = false %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% for item in block.fields %}
+                    {% if item.type == 'hidden' %}
+                        <input id="{{ item.name }}" data-segment-name="{{ item.segmentFieldName }}" type="text" style="display: none;" name="{{ item.name }}" value="{{ item.data }}" />
+                    {% endif %}
+                {% endfor %}
+
+                <div class="form-group row">
+                    <div class="col-md">
+                        {% if block.outtro != '' %}
+                        <div class="form-descr">{{ block.outtro }}</div>
+                        {% endif %}
+                        {% if block.buttonText != '' %}
+                        <div class="section__descr--centered">
+                            <button type="submit" class="btn btn--orange">{{ block.buttonText }}</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

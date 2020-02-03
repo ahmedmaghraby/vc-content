@@ -1,0 +1,40 @@
+.contacts-page
+{
+    @include media-breakpoint-up(lg) {
+        .form
+        {
+            flex: 0 0 30rem;
+            max-width: 30rem;
+        }
+
+        .features
+        {
+            margin-left: 3rem;
+        }
+    }
+
+    // Features
+    @import "features";
+}
+
+// Question
+.section--question
+{
+    .question
+    {
+        &__t
+        {
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin-bottom: 1.25rem;
+            margin-top: 3.125rem;
+        }
+
+        &__descr
+        {
+            font-size: .875rem;
+            margin: auto;
+            max-width: 37.5rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{% assign current_url = 'https://virtocommerce.com/blog' %}
+{% assign title = 'Virto Commerce Enterprise eCommerce Blog' %}
+{% if article %}
+    {% assign current_url = article.url | full_url %}
+    {% assign title = article.title %}
+{% endif %}
+<a rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u={{ current_url }}" target="_blank" class="list__item">
+    <img class="blog-sidebar__pic" src="{{ 'fb_c.svg' | asset_url }}" alt="">
+</a>
+<a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url={{ current_url }}&title={{ title }}&summary={{ article.excerpt }}&source=" target="_blank" class="list__item">
+    <img class="blog-sidebar__pic" src="{{ 'images/icons/linkedin.svg' | asset_url }}" alt="">
+</a>
+<a rel="nofollow" href="https://twitter.com/intent/tweet?text={{ current_url }}" target="_blank" class="list__item">
+    <img class="blog-sidebar__pic" src="{{ 'tw_c.svg' | asset_url }}" alt="">
+</a>

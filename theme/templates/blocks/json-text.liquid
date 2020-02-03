@@ -1,0 +1,17 @@
+<div class="section {{ block.decorator }} {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="section__inner container">
+        {% include 'blocks/block-title' block: block %}
+
+        {% if block.content != '' %}
+        <div class="section__descr">
+            {{ block.content }}
+        </div>
+        {% endif %}
+        {% if block.url != '' and block.url.urlText != '' %}
+        <a href="{{ block.url.url }}" class="{{ block.url.style }}">{{ block.url.urlText }}</a>
+        {% endif %}
+    </div>
+</div>

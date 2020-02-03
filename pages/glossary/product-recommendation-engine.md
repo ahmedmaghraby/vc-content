@@ -61,6 +61,6 @@ tags :
         <p class="text">Uses the purchase history of each specific customer to recommend products unique to that customer.</p>
         <p class="text">For example, after a customer purchased a phone from the store they are taken to the order processing pages, where underneath their current order they would get recommended a variety of different cases for the exact phone they have purchased aiming to encourage a second purchase.</p>
         {% include 'micro-mark-publisher' %}
-        {% include 'micro-mark-rating', bestRating: 5, ratingValue: 4, ratingCount: 485 %}
+        {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4, ratingCount: 485 %}
     </div>
 </section>

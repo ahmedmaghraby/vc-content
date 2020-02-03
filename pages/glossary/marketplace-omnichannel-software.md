@@ -25,7 +25,7 @@ tags :
 	<h2 class="sub-title">Omni-channel</h2>
 	<p class="text">An omni-channel business model refers to a vendor who seeks to interact with potential customers through multiple ecommerce platforms availing themselves of multiple marketplace operators.</p>
 	<div class="buttons">
-		<a class="button fill" href="/try-now">Try It Now</a>
+		<a class="button fill" href="/contact-us">Try It Now</a>
 		<a class="button fill" href="/contact-us">Request Information & Demo</a>
 	</div>
 </div>

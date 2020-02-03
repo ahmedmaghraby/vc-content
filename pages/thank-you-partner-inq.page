@@ -1,0 +1,94 @@
+[
+    {
+        "type": "settings",
+        "title": "Thanks for your interest in becoming a Virto Commerce Partner",
+        "permalink": "thank-you-partner-inq",
+        "header": "Thank you for your inquiry",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "Thank You ",
+        "subTitle": "",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/shapelined-_JBKdviweXI-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "Text",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<h3 style=\"text-align:center\">Thanks For Expressing Interest in Our Partner Program.</h3>\n\n<h3 style=\"text-align:center\">We have received your inquiry, and someone will be in touch shortly.&nbsp;&nbsp;</h3>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        
+        "titleAlignment": null
+    },
+    {
+        "id": 4,
+        "type": "cards",
+        "name": "Text",
+        "title": "Explore Our Case Studies",
+        "style": "light",
+        "items": [
+            {
+                "title": "Lavazza & rb2 Case Study",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/Screenshot 2019-06-28 at 11.29.53 AM.png"
+                },
+                "text": "<p>When Lavazza needed a complex B2B and B2C solution, Virto Commerce and our partner, rb2 created a unique solution.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read more",
+                    "style": "btn--orange btn--round",
+                    "url": "/case-studies/lavazza"
+                }
+            },
+            {
+                "title": "Bosch Case Study",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/bosch_site.png"
+                },
+                "text": "<p>See how Virto Commerce created a custom solution for Bosch&#39;s customer loyalty portal.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round",
+                    "url": "/case-studies/bosch"
+                }
+            },
+            {
+                "title": "Standaard Boekhandel Case Study",
+                "image": {
+                    "url": "https://vcpro.blob.core.windows.net/blogs/standard.png"
+                },
+                "text": "<p>Belgium&#39;s largest book seller needed a replacement ecommerce platform for their monolithic solution.&nbsp;&nbsp;</p>\n",
+                "link": {
+                    "url": "/case-studies/standaard-boekhandel",
+                    "urlText": "Read More",
+                    "style": "btn--orange btn--round"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        
+        "titleAlignment": null
+    }
+]

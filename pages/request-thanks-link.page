@@ -1,0 +1,36 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "request-thanks-link",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "thank-you",
+        "name": "Thank you!",
+        "thankYou": "Thank you!<br/>We've sent you a link to demo",
+        "whatsNext": "What's next",
+        "thankYouItems": [
+            {
+                "url": "https://virtocommerce.com/case-studies",
+                "icon": null,
+                "text": "Discover Virto Commerce success stories"
+            },
+            {
+                "url": "https://virtocommerce.com/enterprise-ecommerce-architecture",
+                "icon": null,
+                "text": "Explore Virto Commerce architecture"
+            },
+            {
+                "url": "https://virtocommerce.com/docs",
+                "icon": null,
+                "text": "Read Virto Commerce documentation"
+            }
+        ],
+        "phone": "+1 800 980—5288",
+        "phoneLink": "tel:+18009805288",
+        "chat": "Chat with us",
+        "chatLink": null
+    }
+]

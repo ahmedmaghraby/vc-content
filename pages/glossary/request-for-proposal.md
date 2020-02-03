@@ -72,9 +72,9 @@ tags :
         <p class="text">Request for proposal serves as a versatile tool for companies to inquire more information about certain products as well as attract new suppliers to cooperation. Every mid to large-sized company has to master creating of RFP and know how to do it efficiently. </p>
         <p class="text">With this document, you can build better relationships with your suppliers. Work on the skills of creating RFPs and it will pay off in the long term. </p>
         <p class="text">To make it more convincing, the strategy should be your top priority when it comes to expanding your business. </p>
-        <div class="buttons">
-            <a class="button fill" href="/try-now">Try It Now</a>
-            <a class="button fill" href="/contact-us">Request Information & Demo</a>
+        <div class="actions">
+            <a class="btn btn--orange" href="/contact-us">Try It Now</a>
+            <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
         </div>
     </div>
 </section>

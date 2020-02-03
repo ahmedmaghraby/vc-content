@@ -1,0 +1,243 @@
+.header
+{
+    background: $white;
+    box-shadow: 0 0 .25rem rgba(0,0,0,.25);
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+
+    &-inner
+    {
+        position: relative;
+    }
+
+    &-logo
+    {
+        background: url($tpl-img-url + 'logo.svg') no-repeat scroll 0 0;
+        display: block;
+        font-size: 0;
+        height: 2.5rem;
+        width: 8.6875rem;
+
+        &--apps
+        {
+            background-image: url($tpl-img-url + 'logo-apps.png');
+            height: 3rem;
+            width: 9.1875rem;
+        }
+    }
+
+    &-nav
+    {
+        align-items: center;
+        display: flex;
+        position: static;
+
+        .btn
+        {
+            text-transform: uppercase;
+        }
+    }
+
+    &-phone > *
+    {
+        color: inherit;
+    } 
+
+    .nav
+    {
+        display: flex;
+    }
+
+    .nav__item,
+    .nav__link
+    {
+        display: flex;
+    }
+
+    .nav__item--active
+    {
+        box-shadow: 0 -3px 0 0 $orange inset;
+        transition: all .35s;
+    }
+
+    .nav__item
+    {
+        display: none;
+    }
+
+    .nav__item--try
+    {
+        align-items: center;
+        display: flex;
+
+        .btn
+        {
+            margin: 1.25rem 0;
+        }
+    }
+
+    .nav__link
+    {
+        box-sizing: content-box;
+        align-items: center;
+        font-size: 1rem;
+        height: 2.5rem;
+        padding: 1.25rem 0;
+		cursor: pointer;
+
+        &:hover
+        {
+            color: $orange;
+        }
+    }
+
+	.form--search
+	{
+        @include media-breakpoint-up(lg) {
+            width: 16rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-right: 3.5rem;
+        }
+
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+	}
+
+    .dropdown-menu .container
+    {
+        @include media-breakpoint-up(lg) {
+            padding-left: 11.875rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-left: 19.625rem;
+        }
+    }
+
+    &-toggle
+    {
+        border-bottom: .125rem solid $black;
+        cursor: pointer;
+        display: none;
+        height: 1.125rem;
+        position: relative;
+        width: 1.5rem;
+
+        &::after,
+        &::before
+        {
+            background: $black;
+            content: ' ';
+            height: .125rem;
+            left: 0;
+            position: absolute;
+            right: 0;
+        }
+
+        &::after
+        {
+            top: 0;
+        }
+
+        &::before
+        {
+            top: .5rem;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        &-logo
+        {
+            width: 2.5rem;
+
+            &--apps
+            {
+                width: 9.1875rem;
+            }
+        }
+
+        .nav__item--login
+        {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+		[class*='-logo']
+		{
+			margin: 1.25rem 0;
+		}
+
+        &-nav .btn
+        {
+            margin-left: 1.25rem;
+        }
+
+        &-toggle
+        {
+            display: block;
+            position: absolute;
+            right: .9375rem;
+        }
+
+        .nav__item--try
+        {
+            display: flex;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        &-phone > *
+        {
+            align-items: center;
+            background: url($tpl-img-url + 'icons/phone.svg') no-repeat scroll 0 0;
+            background-size: cover;
+            display: flex;
+            font-size: 0;
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+        
+        &-nav .btn
+        {
+            margin: 0;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-nav .btn,
+        .nav__item
+        {
+            margin-left: 1.25rem;
+        }
+
+        .nav__item
+        {
+            display: flex;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 6rem;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        &-nav .btn,
+        .nav__item
+        {
+            margin-left: 1.875rem;
+        }
+
+        .nav__item--login
+        {
+            margin-left: 7rem;
+        }
+    }
+}
