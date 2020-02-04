@@ -7549,13 +7549,6 @@ code {
 
 .block--cover-fixed--black::after, .block--cover-static--black::after {
     background: rgba(0, 0, 0, 0.7);
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 5;
 }
 
 .block--cover-fixed--white .block__inner, .block--cover-static--white .block__inner {
@@ -7564,13 +7557,6 @@ code {
 
 .block--cover-fixed--white::after, .block--cover-static--white::after {
     background: rgba(255, 255, 255, 0.7);
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 5;
 }
 
 .block--cover .block--bg-light {
