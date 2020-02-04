@@ -21,13 +21,11 @@
          </style>
      {% endif %}
 
-     <div class="block {{alignment}} 
-     {% if block.backgroundColor == 'none' and block.backgroundColorHex == '' %} block--cover {% endif %}
-     {% if block.backgroundColor != 'none' and block.backgroundColorHex == '' %} {{block.backgroundColor}} {% endif %}
-     {% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
+     <div class="block {{alignment}} {% if block.backgroundColorHex == '' %} block--cover {% endif %} {{block.backgroundColor}}
+     {% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
      {% if block.backgroundOverlayColorHex != '' %} {{block.backgroundScrollEffect}} has-hex-{{counter}} {% endif %}"
      {% if block.backgroundColorHex != '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}
-     {% if block.backgroundColor == 'none' and block.background.url != '' %} style="background-image: url('{{block.background.url}}') {% endif %}">
+     {% if block.backgroundColor == 'none' and block.background.url != '' %} style="background-image: url('{{block.background.url}}')" {% endif %}>
         <div class="block__inner container">
             <div class="block__text">
                 {% if block.note != '' %}
@@ -48,9 +46,9 @@
                 {% if block.firstButton != '' and block.firstButton.urlText != '' %}
                     <div class="block__space"></div>
                     <div class="block__actions">
-                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}">{{block.firstButton.urlText}}</a>
+                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButtonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
                         {% if block.secondButton != '' and block.secondButton.urlText != '' %}
-                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}">{{block.secondButton.urlText}}</a>
+                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButtonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
                         {% endif %}
                     </div>
                 {% endif %}

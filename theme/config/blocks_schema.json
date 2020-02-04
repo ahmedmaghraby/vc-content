@@ -264,7 +264,14 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Content"
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButtonIsNewWindow",
+				"label": "First button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
 			},
 			{
 				"id": "secondButton",
@@ -290,7 +297,14 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Content"
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButtonIsNewWindow",
+				"label": "Second button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
 			}
 		]
 	}
