@@ -82,9 +82,9 @@
             }
         ]
     },
-	"cover": {
-		"id": "cover",
-		"name": "Cover",
+	"cover-block-with-background-and-overlay-text": {
+		"id": "cover-block-with-background-and-overlay-text",
+		"name": "Cover block with background and overlay text",
 		"icon": "image-text",
 		"displayField": "title",
 		"settings": [
