@@ -82,9 +82,9 @@
             }
         ]
     },
-	"cover-block-with-background-and-overlay-text": {
-		"id": "cover-block-with-background-and-overlay-text",
-		"name": "Cover block with background and overlay text",
+	"cover-with-background-and-overlay-text": {
+		"id": "cover-with-background-and-overlay-text",
+		"name": "Cover with background and overlay text",
 		"icon": "image-text",
 		"displayField": "title",
 		"settings": [
@@ -308,9 +308,9 @@
 			}
 		]
 	},
-	"cover-block-with-background-overlay-text-and-video": {
-		"id": "cover-block-with-background-overlay-text-and-video",
-		"name": "Cover block with background overlay text and video",
+	"cover-with-background-overlay-text-and-video": {
+		"id": "cover-with-background-overlay-text-and-video",
+		"name": "Cover with background overlay text and video",
 		"icon": "image-text",
 		"displayField": "title",
 		"settings": [
@@ -542,9 +542,9 @@
 			}
 		]
 	},
-	"cover-block-with-background-overlay-text-and-form": {
-		"id": "cover-block-with-background-overlay-text-and-form",
-		"name": "Cover block with background overlay text and form",
+	"cover-with-background-overlay-text-and-form": {
+		"id": "cover-with-background-overlay-text-and-form",
+		"name": "Cover with background overlay text and form",
 		"icon": "image-text",
 		"displayField": "title",
 		"settings": [
