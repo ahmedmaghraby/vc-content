@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-lg-auto">
                         <div class="block__form">
-                            <form {% if block.formId != '' %}id="{{block.formId}}"{% endif %} {% if block.formName != '' %}id="{{block.formName}}"{% endif %} class="form">
+                            <form {% if block.formId != '' %}id="{{block.formId}}"{% endif %} {% if block.formName != '' %}name="{{block.formName}}"{% endif %} class="form">
                                 {% for item in block.formFields %}
                                     {% if item.fieldType == 'text' %}
                                         <div class="form-group">
@@ -107,7 +107,7 @@
                 {% if block.horizontalAlignment == 'right' %}
                     <div class="col-lg-auto">
                         <div class="block__form">
-                            <form {% if block.formId != '' %}id="{{block.formId}}"{% endif %} {% if block.formName != '' %}id="{{block.formName}}"{% endif %} class="form">
+                            <form {% if block.formId != '' %}id="{{block.formId}}"{% endif %} {% if block.formName != '' %}name="{{block.formName}}"{% endif %} class="form">
                                 {% for item in block.formFields %}
                                 {% if item.fieldType == 'text' %}
                                 <div class="form-group">
