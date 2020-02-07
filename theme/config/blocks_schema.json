@@ -541,5 +541,345 @@
 				"tab": "Content"
 			}
 		]
+	},
+	"cover-block-with-background-overlay-text-and-form": {
+		"id": "cover-block-with-background-overlay-text-and-form",
+		"name": "Cover block with background overlay text and form",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings"
+			},
+			{
+				"id": "containerFormButtonColour",
+				"label": "Container Form Button Colour",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "buttonColour",
+				"label": "Button colour",
+				"type": "url",
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "formFields",
+                "label": "Container Form",
+                "type": "list",
+                "addText": "Add field",
+                "removeText": "Remove field",
+                "displayField": "labelText",
+                "element": [
+                    {
+                        "id": "fieldName",
+                        "label": "Field name",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "Field ID",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldType",
+                        "label": "Type",
+                        "type": "select",
+                        "default": "text",
+                        "options": [
+							{
+                                "value": "button",
+                                "label": "Button"
+                            },
+							{
+                                "value": "checkbox",
+                                "label": "Checkbox"
+                            },
+                            {
+                                "value": "radio",
+                                "label": "Radio"
+                            },
+                            {
+                                "value": "select",
+                                "label": "Select"
+                            },
+                            {
+                                "value": "text",
+                                "label": "Text"
+                            },
+                            {
+                                "value": "textarea",
+                                "label": "Textarea"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "labelText",
+                        "label": "Label text",
+                        "type": "string"
+                    },
+                    {
+                        "id": "placeholder",
+                        "label": "Placeholder",
+                        "type": "string",
+                        "default": "Enter the value"
+                    },
+                    {
+                        "id": "required",
+                        "label": "Required field",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "radioListItems",
+                        "label": "Radio items",
+                        "type": "list",
+                        "addText": "Add item (for radio type)",
+                        "removeText": "Remove item",
+                        "displayField": "text",
+                        "element": [
+                            {
+                                "id": "title",
+                                "type": "string",
+                                "label": "Title"
+                            },
+                            {
+                                "id": "text",
+                                "type": "string",
+                                "label": "Text"
+                            },
+                            {
+                                "id": "formValue",
+                                "type": "string",
+                                "label": "Form value"
+                            }
+                        ]
+                    },
+					{
+						"id": "selectOptions",
+						"label": "Select options",
+						"type": "list",
+						"addText": "Add option (for select type)",
+						"removeText": "Remove option",
+						"displayField": "label",
+						"element": [
+							{
+                                "id": "label",
+                                "type": "string",
+                                "label": "Label"
+                            },
+                            {
+                                "id": "value",
+                                "type": "string",
+                                "label": "Value"
+                            }
+						]
+					},
+                    {
+                        "id": "agreeTermsMessage",
+                        "label": "Use agree terms",
+                        "type": "checkbox"
+                    }
+                ],
+                "default": [
+                    {
+                        "fieldName": "fullname",
+                        "fieldId": "fullname",
+                        "fieldType": "text",
+                        "labelText": "Full name"
+                    },
+                    {
+                        "fieldName": "email",
+                        "fieldId": "email",
+                        "fieldType": "text",
+                        "labelText": "Email"
+                    },
+                    {
+                        "fieldName": "agree",
+                        "fieldId": "agree",
+                        "fieldType": "checkbox",
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                    },
+                    {
+                        "fieldType": "button",
+                        "labelText": "Action button"
+                    }
+                ],
+                "tab": "Content"
+            }
+		]
 	}
 }
