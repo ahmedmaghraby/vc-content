@@ -402,27 +402,45 @@
 					width: auto;
 				}
 			}
+
+			.form-control
+			{
+				margin-bottom: 0;
+			}
 		}
 
 		.form-control
 		{
 			border: none;
+			margin-bottom: 0.625rem;
 			min-width: 15.625rem;
 		}
 
-		@include media-breakpoint-up(sm) {
-			.form-control
-			{
-				margin-right: 0.625rem;
-			}
+		.btn
+		{
+			margin-bottom: 0.625rem;
+			width: 100%;
 		}
 
-		.form-text
+		&--inline
 		{
-			font-size: 0.875rem;
-			max-width: 18.75rem;
-			text-align: center;
+			align-items: flex-start;
+			flex-direction: row;
+
+			@include media-breakpoint-up(sm) {
+			.form-control
+				{
+					margin-right: 0.625rem;
+				}
+			}
 		}
+	}
+
+	.block__note2
+	{
+		font-size: 0.875rem;
+		max-width: 18.75rem;
+		text-align: center;
 	}
 
 	.block__form

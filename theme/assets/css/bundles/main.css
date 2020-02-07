@@ -7945,18 +7945,35 @@ code {
     width: auto;
 }
 
+.block .form .form-group .form-control {
+    margin-bottom: 0;
+}
+
 .block .form .form-control {
     border: none;
+    margin-bottom: 0.625rem;
     min-width: 15.625rem;
 }
 
+.block .form .btn {
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+
+.block .form--inline {
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
 @media (min-width: 576px) {
-    .block .form .form-control {
+    .block .form--inline .form-control {
         margin-right: 0.625rem;
     }
 }
 
-.block .form .form-text {
+.block .block__note2 {
     font-size: 0.875rem;
     max-width: 18.75rem;
     text-align: center;
