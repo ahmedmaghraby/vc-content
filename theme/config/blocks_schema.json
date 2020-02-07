@@ -705,12 +705,6 @@
 				"tab": "Settings"
 			},
 			{
-				"id": "buttonColour",
-				"label": "Button colour",
-				"type": "url",
-				"tab": "Settings"
-			},
-			{
 				"id": "title",
 				"label": "Title",
 				"type": "string",
@@ -881,5 +875,234 @@
                 "tab": "Content"
             }
 		]
+	},
+	"cover-with-background-overlay-text-and-image": {
+		"id": "cover-with-background-overlay-text-and-image",
+		"name": "Cover with background, overlay text and image",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+			
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButtonIsNewWindow",
+				"label": "First button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButtonIsNewWindow",
+				"label": "Second button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundImage",
+				"label": "Background Image",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "containerImage",
+				"label": "Container Image",
+				"type": "image",
+				"tab": "Content"
+			}
+		]	
 	}
 }
