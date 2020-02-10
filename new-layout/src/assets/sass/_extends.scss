@@ -139,7 +139,7 @@
         max-width: 100%;
     }
 
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(lg) {
        max-width: 37.5rem;
     }
 }
@@ -230,30 +230,6 @@
         }
     }
 
-    &.list-items--cols-2
-    {
-        .list__item
-        {
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-    }
-
-    &.list-items--cols-4
-    {
-        .list__item
-        {
-            flex: 0 0 25%;
-            max-width: 25%;
-        }
-    }
-
-    &.list-items--type-letters {
-        .list__num::after {
-            content: counter(list, lower-latin);
-        }
-    }
-
     .list__tags
     {
         display: flex;
@@ -340,6 +316,75 @@
         }
     }
 
+    .list__links
+    {
+        align-items: center;
+        display: flex;
+        margin-top: 1.95rem;
+
+        &-item
+        {
+            margin-right: 1rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            height: 3.125rem;
+            margin-left: 5rem;
+        }
+    }
+
+    .list__country
+    {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.875rem;
+
+        &-img
+        {
+            background-color: $gray-300;
+            height: 3.125rem;
+            margin-bottom: 1.25rem;
+            width: 12.5rem;
+
+            img
+            {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        &-text
+        {
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+        }
+    
+        @include media-breakpoint-down(xs) {
+            align-items: flex-start;
+            flex-direction: column;
+            
+            &-img
+            {
+                margin-bottom: 1.25rem;
+            }
+        }
+
+        @include media-breakpoint-up(sm) {
+            &-img
+            {
+                margin-right: 1.25rem;
+            }
+        }
+    }
+
+    .list__pos
+    {
+        color: #aaa;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
     &.list-items--reviews
     {
         .list__img
@@ -363,9 +408,6 @@
 
         .list__pos
         {
-            color: #aaa;
-            font-size: 1rem;
-            line-height: 1rem;
             margin-bottom: 1.25rem;
             margin-top: -0.625rem;
         }
@@ -376,6 +418,40 @@
             line-height: 1rem;
             font-weight: bold;
             margin-top: 1.25rem;
+        }
+    }
+
+    &.list-items--cols-1
+    {
+        .list__item
+        {
+            flex-basis: auto;
+            flex-grow: 1;
+            max-width: 100%;
+        }
+    }
+
+    &.list-items--cols-2
+    {
+        .list__item
+        {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    &.list-items--cols-4
+    {
+        .list__item
+        {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
+    &.list-items--type-letters {
+        .list__num::after {
+            content: counter(list, lower-latin);
         }
     }
 
@@ -434,6 +510,14 @@
         margin-top: 1.25rem;
 
         @extend %font-headings;
+    }
+
+    &.list-cards--cols-2
+    {
+        .list__item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
     }
 
     @include media-breakpoint-down(md) {

@@ -111,8 +111,7 @@ gulp.task("image:build", function () {
             svgoPlugins: [{removeViewBox: false}],
             interlaced: true
         }))
-        .pipe(gulp.dest(path.build.img_dev))
-        .pipe(gulp.dest(path.build.img_prod));
+        .pipe(gulp.dest(path.build.img_dev));
 });
 
 
