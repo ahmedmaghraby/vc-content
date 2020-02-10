@@ -4,10 +4,13 @@
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="section__inner container">
         {% include 'blocks/block-title' block: block %}
+      	{% if block.upperText != '' %}
+      		<div class="list__descr" style="text-align:left">{{block.upperText}}</div>
+      	{% endif %}
         <div class="list list--cards row">
             {% for item in block.items %}
             <div class="list__item col-md-6 col-lg-4">
-                <div class="list__inner">
+                <div class="list__inner" {% if block.isShowBorders == 'True' %} style="border:none" {% endif %}>
                     {% if item.image != '' and item.image.url != '' %}
                     {% assign imageStyle = 'list__img' %}
                     {% endif %}
@@ -42,6 +45,9 @@
                 </div>
             </div>
             {% endfor %}
+          	{% if block.lowerText != '' %}
+          		<div>{{block.lowerText}}</div>
+          	{% endif %}
         </div>
     </div>
 </div>

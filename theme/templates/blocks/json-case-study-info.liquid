@@ -15,7 +15,7 @@
         {% if block.country != '' %}
         	<span>{{block.country}}</span>&nbsp; &nbsp; &nbsp;
         {% endif %}
-        {% if block.footerImage != '' %}
+        {% if block.footerImage != '' and block.footerImage.url != '' %}
         	<img class="mini-img" src="{{block.footerImage.url}}" />
         {% endif %}
         {% if block.content != '' %}

@@ -1,44 +1,84 @@
-<div class="{% if block.style == 'dark' %} section--gray {% endif %}
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="blog">
         <div class="posts __responsive container">
-          	{% if block.title != '' %}
-          	    <h2>{{block.title}}</h2>
-          	{% endif %}
+            {% if block.title != '' %}
+            <h2>{{block.title}}</h2>
+            {% endif %}
             {% for blog in blogs %}
-          		{% assign isShowLast = true %}
-                {% if isShowLast %}
-                    {% assign articles = blog.articles %}
-                {% else %}
-                    {% assign articles = blog.articles | where: 'Permalink', '==', '' %}
-                {% endif %}
-                <div class="list list--posts">
-                    {% for article in articles %}
-                        <div class="list__item">
-                            <a class="list__bg" href="{{ article.url }}" style="background-image: url({% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></a>
-                            <div class="list__info">
-                                <a href="{{ article.url }}" class="list__t">{{ article.title }}</a>
-                                <div class="list__descr">{{ article.excerpt }}</div>
-                                {% if article.tags.size > 0 %}
-                                    <div class="list list--tags">
-                                        {% for tag in article.tags limit:3 %}
-                                            {% assign tag_url = '/blog/tag/' | append: tag  %}
-                                            <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
-                                        {% endfor %}
-                                    </div>
-                                {% endif %}
-                                <div class="list__author">
-                                    <div class="list__author-logo"></div>
-                                    <div class="list__author-text">
-                                        <div class="list__author-name">{{ article.author }}</div>
-                                        <div class="list__author-date">{{ article.created_at | date: "%b %d, %Y" }}</div>
-                                    </div>
-                                </div>
+            {% assign articles = blog.articles %}
+            <div class="list list--posts">
+                {% for article in articles reversed %}
+                <div class="list__item">
+                    <a class="list__bg" href="{{ article.url }}" style="background-image: url({% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></a>
+                    <div class="list__info">
+                        <a href="{{ article.url }}" class="list__t">{{ article.title }}</a>
+                        <div class="list__descr">{{ article.excerpt }}</div>
+                        {% if article.tags.size > 0 %}
+                        <div class="list list--tags">
+                            {% for tag in article.tags limit:3 %}
+                            {% assign tag_url = '/blog/tag/' | append: tag  %}
+                            <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        <div class="list__author">
+                            <div class="list__author-logo"></div>
+                            <div class="list__author-text">
+                                <div class="list__author-name">{{ article.author }}</div>
+                                <div class="list__author-date">{{ article.created_at | date: "%b %d, %Y" }}</div>
                             </div>
                         </div>
-                        {% if forloop.index == block.count and isShowLast %}
+                    </div>
+                </div>
+                {% assign counter = counter | plus: 1 %}
+                {% if counter == block.count %}
+                {% break %}
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="section {% if block.style == 'dark' %} section--gray {% endif %}
+     {% if block.noTop == 'True' %} section--small-top {% endif %}
+     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
+     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
+    <div class="blog">
+        <div class="posts __responsive block__inner container">
+            {% if block.title != '' %}
+                <h2 class="block__t">{{block.title}}</h2>
+            {% endif %}
+            {% for blog in blogs %}
+                {% assign articles = blog.articles %}
+                <div class="list list-items">
+                    {% for article in articles reversed %}
+                        <div class="list__item">
+                            <a class="list__bg" href="{{ article.url }}">
+                                <div class="list__img">
+                                    <img src="{% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %}" class="list__pic" />
+                                </div>
+                            </a>
+                            <div class="list__t">{{ article.title }}</div>
+                            <div class="list__descr">{{ article.excerpt }}</div>
+                            {% if article.tags.size > 0 %}
+                            <div class="list__tags">
+                                {% for tag in article.tags limit:3 %}
+                                {% assign tag_url = '/blog/tag/' | append: tag  %}
+                                <div class="list__tags-item">{{ "blogs.tags." | append: tag | t }}</div>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            <div class="list__author">
+                                <div class="list__author-t">{{ article.author }}</div>
+                                <div class="list__author-date">{{ article.created_at | date: "%b %d, %Y" }}</div>
+                            </div>
+                        </div>
+                        {% assign counter = counter | plus: 1 %}
+                        {% if counter == block.count %}
                             {% break %}
                         {% endif %}
                     {% endfor %}

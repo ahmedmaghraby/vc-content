@@ -82,572 +82,174 @@
             }
         ]
     },
-    "form-case-study": {
-        "name": "Form Case Study",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Form Case Study",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Short block content"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://img2.goodfon.ru/original/1440x900/8/3d/sova-vzglyad-belyy-white.jpg" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "logo",
-                "label": "Partner logo",
-                "type": "image",
-                "default": { "url": null },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "phone",
-                "label": "Phone number",
-                "type": "string",
-                "default": "+1 800 980—5288",
-                "tab": "Contacts"
-            },
-            {
-                "id": "phoneLink",
-                "label": "Phone link",
-                "type": "string",
-                "default": "tel:+18009805288",
-                "tab": "Contacts"
-            },
-            {
-                "id": "chat",
-                "label": "Caption for chat",
-                "type": "string",
-                "default": "Chat with us",
-                "tab": "Contacts"
-            },
-            {
-                "id": "chatLink",
-                "label": "Link for chat",
-                "type": "string",
-                "tab": "Contacts"
-            },
-            {
-                "id": "formFields",
-                "label": "Form",
-                "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
-                "displayField": "labelText",
-                "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldType",
-                        "label": "fieldType",
-                        "type": "select",
-                        "options": [
-                            {
-                                "value": "text",
-                                "label": "Text"
-                            },
-                            {
-                                "value": "checkbox",
-                                "label": "Checkbox"
-                            },
-                            {
-                                "value": "hidden",
-                                "label": "Hidden"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "labelText",
-                        "label": "Label text",
-                        "type": "text"
-                    },
-                    {
-                        "id": "data",
-                        "label": "Additional data",
-                        "type": "string"
-                    },
-                    {
-                        "id": "required",
-                        "label": "Required field",
-                        "type": "checkbox"
-                    }
-                ],
-                "default": [
-                    {
-                        "fieldName": "fullname",
-                        "fieldId": "fullname",
-                        "fieldType": "text",
-                        "labelText": "Full name"
-                    },
-                    {
-                        "fieldName": "email",
-                        "fieldId": "email",
-                        "fieldType": "text",
-                        "labelText": "Email"
-                    },
-                    {
-                        "fieldName": "agree",
-                        "fieldId": "agree",
-                        "fieldType": "checkbox",
-                        "labelText": "By clicking «Request Demo» I agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
-                    }
-                ],
-                "tab": "Form"
-            },
-            {
-                "id": "submitButtonText",
-                "label": "Submit button text",
-                "type": "string",
-                "tab": "Form",
-                "default": "Request demo"
-            }
-        ]
-    },
-    "thank-you": {
-        "name": "Thank you",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Thank you!",
-                "tab": "Settings"
-            },
-            {
-                "id": "thankYou",
-                "label": "Thank you text",
-                "type": "string",
-                "default": "Thank you!<br/>We will be in touch soon."
-            },
-            {
-                "id": "whatsNext",
-                "label": "\"What's next\" text",
-                "type": "string",
-                "default": "What's next"
-            },
-            {
-                "id": "thankYouItems",
-                "label": "Thank you links",
-                "type": "list",
-                "addText": "Add link",
-                "removeText": "Remove link",
-                "displayField": "text",
-                "element": [
-                    {
-                        "id": "url",
-                        "type": "string",
-                        "label": "Url"
-                    },
-                    {
-                        "id": "icon",
-                        "type": "image",
-                        "label": "Icon"
-                    },
-                    {
-                        "id": "text",
-                        "type": "string",
-                        "label": "Text"
-                    }
-                ],
-                "default": [
-                    {
-                        "url": "#",
-                        "text": "Discover Virto Commerce success stories"
-                    },
-                    {
-                        "url": "#",
-                        "text": "Explore Virto Commerce architecture"
-                    },
-                    {
-                        "url": "#",
-                        "text": "Explore Virto Commerce architecture"
-                    }
-                ]
-            },
-            {
-                "id": "phone",
-                "label": "Phone number",
-                "type": "string",
-                "default": "+1 800 980—5288",
-                "tab": "Contacts"
-            },
-            {
-                "id": "phoneLink",
-                "label": "Phone link",
-                "type": "string",
-                "default": "tel:+18009805288",
-                "tab": "Contacts"
-            },
-            {
-                "id": "chat",
-                "label": "Caption for chat",
-                "type": "string",
-                "default": "Chat with us",
-                "tab": "Contacts"
-            },
-            {
-                "id": "chatLink",
-                "label": "Link for chat",
-                "type": "string",
-                "tab": "Contacts"
-            }
-
-        ]
-    },
-    "decorated-hero": {
-        "name": "Decorated hero",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text over image",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Short block content"
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "list-and-text": {
-        "name": "List and text",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text over image",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "elementsStyle",
-                "label": "Elements style",
-                "type": "select",
-                "options": [
-                    {
-                        "label": "Black",
-                        "value": "black"
-                    },
-                    {
-                        "label": "Orange circle",
-                        "value": "orangeCircle"
-                    }
-                ],
-                "default": "black"
-            },
-            {
-                "id": "listPosition",
-                "label": "List position",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Left"
-                    },
-                    {
-                        "value": "list--horizontal",
-                        "label": "Top"
-                    },
-                    {
-                        "value": "list--reverse",
-                        "label": "Right"
-                    },
-                    {
-                        "value": "list--horizontal-reverse",
-                        "label": "Bottom"
-                    }
-                ]
-            },
-            {
-                "id": "listEnumType",
-                "label": "List marker type",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Numbers"
-                    },
-                    {
-                        "value": "list--latin",
-                        "label": "Latin"
-                    },
-                    {
-                        "value": "list--roman",
-                        "label": "Roman"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "titleStyle",
-                "label": "Title style",
-                "type": "select",
-                "default": null,
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Standard"
-                    },
-                    {
-                        "value": "section__t--gray",
-                        "label": "Gray"
-                    },
-                    {
-                        "value": "section__t--large",
-                        "label": "Large"
-                    },
-                    {
-                        "value": "section__t--large section__t--gray",
-                        "label": "Large gray"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "list",
-                "label": "List items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "List element title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image"
-                    },
-                    {
-                        "id": "text",
-                        "label": "Text",
-                        "type": "text"
-                    }
-                ],
-                "default": [
-                    {
-                        "text": "Out-of-the box solutions don’t fit startups"
-                    },
-                    {
-                        "text": "Licensing doesn’t work for startup’s business models"
-                    },
-                    {
-                        "text": "It is hard to find qualified experts to achieve MVP fast"
-                    }
-                ]
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Short block content"
-            },
-            {
-                "id": "showMessage",
-                "label": "Show message",
-                "type": "checkbox",
-                "default": false
-            },
-            {
-                "id": "messageTitle",
-                "label": "Message title",
-                "type": "string",
-                "default": "Message title"
-            },
-            {
-                "id": "messageText",
-                "label": "Message text",
-                "type": "string",
-                "default": "Message text"
-            },
-            {
-                "id": "messageLink",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
+	"cover-with-background-and-overlay-text": {
+		"id": "cover-with-background-and-overlay-text",
+		"name": "Cover with background and overlay text",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "center",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "center",
+						"label": "Center"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"styleLabel": "Link style",
                 "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
                     {
                         "value": "btn btn--orange",
                         "label": "Orange button"
@@ -656,3305 +258,482 @@
                         "value": "btn btn--white",
                         "label": "White button"
                     }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "image-with-text": {
-        "name": "Image with text",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image with text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
                 ],
-                "tab": "Settings"
-            },
-            {
-                "id": "align",
-                "label": "Image position",
-                "type": "select",
-                "default": "left",
-                "options": [
-                    {
-                        "value": "left",
-                        "label": "Left"
-                    },
-                    {
-                        "value": "right",
-                        "label": "Right"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Useful content"
-            },
-            {
-                "id": "url1",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButtonIsNewWindow",
+				"label": "First button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"styleLabel": "Link style",
                 "styles": [
-                    {
-                        "value": "btn",
-                        "label": "Button"
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
                     },
                     {
-                        "value": "btn btn--orange btn--lg",
+                        "value": "btn btn--orange",
                         "label": "Orange button"
                     },
                     {
-                        "value": "btn btn--lg",
-                        "label": "Gray button"
-                    },
-                    {
-                        "value": "benefits__link",
-                        "label": "Link"
-                    },
-                    {
-                        "value": "link-large",
-                        "label": "Large link"
-                    },
-                    {
-                        "value": "btn btn--orange btn--round",
-                        "label": "Round orange"
-                    }
-                ]
-            },
-            {
-                "id": "url2",
-                "label": "Second Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
-                "styles": [
-                    {
-                        "value": "btn",
-                        "label": "Button"
-                    },
-                    {
-                        "value": "btn btn--orange btn--lg",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--lg",
-                        "label": "Gray button"
-                    },
-                    {
-                        "value": "benefits__link",
-                        "label": "Link"
-                    },
-                    {
-                        "value": "link-large",
-                        "label": "Large link"
-                    },
-                    {
-                        "value": "btn btn--orange btn--round",
-                        "label": "Round orange"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "replatform-form": {
-        "name": "Replatform form",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Replatform form",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "align",
-                "label": "Image alignment",
-                "type": "select",
-                "default": "right",
-                "options": [
-                    {
-                        "value": "left",
-                        "label": "Left"
-                    },
-                    {
-                        "value": "center",
-                        "label": "Center"
-                    },
-                    {
-                        "value": "right",
-                        "label": "Right"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/Partner%20Community.png" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Useful content"
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "text-over-image": {
-        "name": "Text over image",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text over image",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "subTitle",
-                "label": "Subtitle",
-                "type": "string",
-                "default": ""
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/agiledefinitionheader.png" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Short block content"
-            },
-            {
-                "id": "url1",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
-                "styles": [
-                    {
-                        "value": "btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn--white",
+                        "value": "btn btn--white",
                         "label": "White button"
                     }
-                ]
-            },
-            {
-                "id": "url2",
-                "label": "Second Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButtonIsNewWindow",
+				"label": "Second button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			}
+		]
+	},
+	"cover-with-background-overlay-text-and-video": {
+		"id": "cover-with-background-overlay-text-and-video",
+		"name": "Cover with background overlay text and video",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"styleLabel": "Link style",
                 "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
                     {
-                        "value": "btn--orange",
+                        "value": "btn btn--orange",
                         "label": "Orange button"
                     },
                     {
-                        "value": "btn--white",
+                        "value": "btn btn--white",
                         "label": "White button"
                     }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "cards": {
-        "name": "Cards list",
-        "icon": "text-columns",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Yellowstone National Park",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
                 ],
-                "tab": "Settings"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "imageStyle",
-                        "label": "Image style",
-                        "type": "select",
-                        "options": [
-                            {
-                                "value": "stretch",
-                                "label": "Stretch"
-                            },
-                            {
-                                "value": "bySize",
-                                "label": "By size"
-                            }
-                        ],
-                        "default": "stretch"
-                    },
-                    {
-                        "id": "text",
-                        "label": "Content",
-                        "type": "text"
-                    },
-                    {
-                        "id": "link",
-                        "label": "Link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styleLabel": "Link style",
-                        "styles": [
-                            {
-                                "value": "btn--orange btn--round",
-                                "label": "Orange button"
-                            },
-                            {
-                                "value": "btn--white btn--round",
-                                "label": "White button"
-                            }
-                        ]
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "What is a Hosted Shopping Cart?",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/hostedshoppingct.jpeg" },
-                        "text": "Hosted Shopping Cart Definition and Uses",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    },
-                    {
-                        "title": "Inventory Management",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/inventory.jpeg" },
-                        "text": "What is Inventory Management? Why is it important in ecommerce?",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    },
-                    {
-                        "title": "What is Backorder?",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/agilephoto.jpeg" },
-                        "text": "Learn more on how to handle backorders and fulfillment",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "cards-test": {
-        "name": "Cards list (test)",
-        "icon": "text-columns",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Yellowstone National Park",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "imageStyle",
-                        "label": "Image style",
-                        "type": "select",
-                        "options": [
-                            {
-                                "value": "stretch",
-                                "label": "Stretch"
-                            },
-                            {
-                                "value": "bySize",
-                                "label": "By size"
-                            },
-                            {
-                                "value": "portrait",
-                                "label": "Portrait"
-                            }
-                        ],
-                        "default": "stretch"
-                    },
-                    {
-                        "id": "text",
-                        "label": "Content",
-                        "type": "text"
-                    },
-                    {
-                        "id": "link",
-                        "label": "Link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styleLabel": "Link style",
-                        "styles": [
-                            {
-                                "value": "btn--orange btn--round",
-                                "label": "Orange round button"
-                            },
-                            {
-                                "value": "btn--white btn--round",
-                                "label": "White round button"
-                            },
-                            {
-                                "value": "btn--orange",
-                                "label": "Orange button"
-                            },
-                            {
-                                "value": "btn--white",
-                                "label": "White button"
-                            }
-                        ]
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "What is a Hosted Shopping Cart?",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/hostedshoppingct.jpeg" },
-                        "text": "Hosted Shopping Cart Definition and Uses",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    },
-                    {
-                        "title": "Inventory Management",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/inventory.jpeg" },
-                        "text": "What is Inventory Management? Why is it important in ecommerce?",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    },
-                    {
-                        "title": "What is Backorder?",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/agilephoto.jpeg" },
-                        "text": "Learn more on how to handle backorders and fulfillment",
-                        "link": {
-                            "urlText": "Read more",
-                            "style": "btn--orange btn--round",
-                            "url": "#"
-                        }
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "text": {
-        "name": "Simple text",
-        "icon": "text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "decorator",
-                "label": "Block decorator",
-                "type": "select",
-                "default": "none",
-                "options": [
-                    {
-                        "value": "none",
-                        "label": "None"
-                    },
-                    {
-                        "value": "section--pattern",
-                        "label": "Pattern 1"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Text block content"
-            },
-            {
-                "id": "url",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButtonIsNewWindow",
+				"label": "First button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"styleLabel": "Link style",
                 "styles": [
-                    {
-                        "value": "btn",
-                        "label": "Button"
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
                     },
                     {
-                        "value": "btn btn--orange btn--lg",
+                        "value": "btn btn--orange",
                         "label": "Orange button"
                     },
                     {
-                        "value": "btn btn--lg",
-                        "label": "Gray button"
-                    },
-                    {
-                        "value": "benefits__link",
-                        "label": "Link"
-                    },
-                    {
-                        "value": "link-large",
-                        "label": "Large link"
-                    },
-                    {
-                        "value": "btn btn--orange btn--round",
-                        "label": "Round orange"
-                    }
-                ],
-                "default": {
-                    "url": {
-                        "url": "#",
-                        "urlText": "Contact us",
-                        "style": "btn btn--orange btn--round"
-                    },
-                    "style": "btn--orange btn--round"
-                }
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "two-columns-text": {
-        "name": "Two columns text",
-        "icon": "text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "titleStyle",
-                "label": "Title style",
-                "type": "select",
-                "default": null,
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Standard"
-                    },
-                    {
-                        "value": "section__t--gray",
-                        "label": "Gray"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "contentBefore",
-                "label": "Content",
-                "type": "text",
-                "default": "Intro text for the block"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "text",
-                        "label": "Text",
-                        "type": "text"
-                    }
-                ],
-                "default": [
-                    {
-                        "text": "Left column content"
-                    },
-                    {
-                        "text": "Right column content"
-                    },
-                    {
-                        "text": "Last item content it it exists"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "list-with-images": {
-        "name": "List with images",
-        "icon": "text-columns",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "List with images",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "All you need in one place",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Align title",
-                "default": null,
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Center"
-                    },
-                    {
-                        "value": "section__t--left-alignment",
-                        "label": "Left"
-                    }
-                ]
-            },
-            {
-                "id": "titleStyle",
-                "label": "Title style",
-                "type": "select",
-                "default": null,
-                "options": [
-                    {
-                        "value": null,
-                        "label": "Standard"
-                    },
-                    {
-                        "value": "section__t--gray",
-                        "label": "Gray"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "intro",
-                "label": "Intro",
-                "type": "text",
-                "default": "Intro text for the block"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "colStyle",
-                "label": "Columns",
-                "type": "select",
-                "default": "col-lg-6",
-                "options": [
-                    {
-                        "value": "col-lg-12",
-                        "label": "1 per row"
-                    },
-                    {
-                        "value": "col-lg-6",
-                        "label": "2 per row"
-                    },
-                    {
-                        "value": "col-md-6 col-lg-4",
-                        "label": "3 per row"
-                    },
-                    {
-                        "value": "col-6 col-sm-4 col-lg-3",
-                        "label": "4 per row"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "text",
-                        "label": "Text",
-                        "type": "text"
-                    },
-                    {
-                        "id": "iconStyle",
-                        "label": "Icon size",
-                        "type": "select",
-                        "default": null,
-                        "options": [
-                            {
-                                "value": null,
-                                "label": "Middle"
-                            },
-                            {
-                                "value": "list__icon--mini",
-                                "label": "Small"
-                            },
-                            {
-                                "value": "list__icon--large",
-                                "label": "Large"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "iconAlign",
-                        "label": "Icon alignment",
-                        "type": "select",
-                        "default": null,
-                        "options": [
-                            {
-                                "value": null,
-                                "label": "Left"
-                            },
-                            {
-                                "value": "list__icon--center",
-                                "label": "Center"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "url",
-                        "label": "Link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styleLabel": "Link style",
-                        "styles": [
-                            {
-                                "value": "btn",
-                                "label": "Button"
-                            },
-                            {
-                                "value": "btn btn--orange btn--lg",
-                                "label": "Orange button"
-                            },
-                            {
-                                "value": "btn btn--lg",
-                                "label": "Gray button"
-                            },
-                            {
-                                "value": "benefits__link",
-                                "label": "Link"
-                            },
-                            {
-                                "value": "link-large",
-                                "label": "Large link"
-                            },
-                            {
-                                "value": "btn btn--orange btn--round",
-                                "label": "Round orange"
-                            }
-                        ]
-                    }
-                ],
-                "default": [
-                    {
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_1.png" },
-                        "title": "Conditional Promotions",
-                        "text": "<p>Flexible promotion module provides the right targeted incentives to specific customers for certain products or categories.</p>",
-                        "iconStyle": ""
-                    },
-                    {
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_3.png" },
-                        "title": "Coupons &amp; Tracking",
-                        "text": "<p>Use promo codes and coupons to run targeted promotions, and easily track the results and revenue for each coupon.</p>",
-                        "iconStyle": ""
-                    },
-                    {
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_5.png" },
-                        "title": "Minimum Advertised Price (MAP) Support Tools",
-                        "text": "<p>Ensure that third party sellers are not hurting your brand by selling your products at prices lower than they should be.</p>",
-                        "iconStyle": ""
-                    },
-                    {
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/icon_2.png" },
-                        "title": "Customer Segmenting",
-                        "text": "<p>Leverage the flexibility to segment your customers endlessly, ensuring they received promotions targeted exactly to their wants and needs.</p>",
-                        "iconStyle": ""
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "text-with-button": {
-        "name": "Text with button",
-        "icon": "text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text",
-                "tab": "Settings"
-            },
-            {
-                "id": "text",
-                "label": "Text",
-                "type": "string",
-                "default": "Ready to get started?",
-                "autofocus": true
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "url",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
-                "styles": [
-                    {
-                        "value": "btn",
-                        "label": "Button"
-                    },
-                    {
-                        "value": "btn btn--orange btn--lg",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--lg",
-                        "label": "Gray button"
-                    },
-                    {
-                        "value": "benefits__link",
-                        "label": "Link"
-                    },
-                    {
-                        "value": "link-large",
-                        "label": "Large link"
-                    },
-                    {
-                        "value": "btn btn--orange btn--round",
-                        "label": "Round orange"
-                    }
-                ],
-                "default": {
-                    "url": "#",
-                    "urlText": "Contact us",
-                    "style": "btn btn--orange btn--round"
-                }
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "image": {
-        "name": "Simple image",
-        "icon": "image",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Simple image",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "size",
-                "label": "Block size",
-                "type": "select",
-                "default": "middle",
-                "options": [
-                    {
-                        "value": "normal",
-                        "label": "Normal"
-                    },
-                    {
-                        "value": "middle",
-                        "label": "Middle"
-                    },
-                    {
-                        "value": "block",
-                        "label": "Block"
-                    },
-                    {
-                        "value": "page",
-                        "label": "Page"
-                    }
-                ]
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "previewWidth": 120,
-                "previewHeight": 80,
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/hero.png" }
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "video": {
-        "name": "Video and text",
-        "icon": "image",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Video and text",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "type": "select",
-                "default": "h2",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    }
-                ]
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "Text block content"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "image",
-                "label": "Upload background picture",
-                "type": "image",
-                "previewWidth": 120,
-                "previewHeight": 80,
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/hero.png" }
-            },
-            {
-                "id": "avatar",
-                "label": "Author avatar",
-                "type": "image",
-                "previewWidth": 80,
-                "previewHeight": 80,
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/hero.png" }
-            },
-            {
-                "id": "videoName",
-                "label": "Video title",
-                "type": "string",
-                "default": "video title"
-            },
-            {
-                "id": "videoUrl",
-                "label": "Url to video",
-                "type": "string",
-                "default": "https://www.youtube.com/watch?v=QpRG-HOlrbc"
-            },
-            {
-                "id": "align",
-                "label": "Video position",
-                "type": "select",
-                "default": "left",
-                "options": [
-                    {
-                        "value": "left",
-                        "label": "Left"
-                    },
-                    {
-                        "value": "right",
-                        "label": "Right"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "download-case-studies-form": {
-        "name": "Download Case studies form",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "tab": "Settings",
-                "default": "Download Case studies form"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "headerType",
-                "label": "Header type",
-                "default": "like-h2",
-                "tab": "Settings",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "h1",
-                        "label": "H1"
-                    },
-                    {
-                        "value": "h2",
-                        "label": "H2"
-                    },
-                    {
-                        "value": "h3",
-                        "label": "H3"
-                    },
-                    {
-                        "value": "like-h1",
-                        "label": "Like H1"
-                    },
-                    {
-                        "value": "like-h2",
-                        "label": "Like H2"
-                    },
-                    {
-                        "value": "like-h3",
-                        "label": "Like H3"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Download Case Studies"
-            },
-            {
-                "id": "buttonText",
-                "label": "Button text",
-                "type": "string",
-                "default": "Download Case Studies"
-            },
-            {
-                "id": "buttonId",
-                "label": "Button identifier",
-                "type": "string",
-                "default": "caseStudyBtn"
-            },
-            {
-                "id": "downloadUrl",
-                "label": "File",
-                "type": "file",
-                "default": "Choose file"
-            },
-            {
-                "id": "description",
-                "label": "Description",
-                "type": "text",
-                "default": "By clicking «Download Case Studies» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
-            },
-            {
-                "id": "formIdentifier",
-                "label": "Form identifier",
-                "type": "string"
-            }
-        ]
-    },
-    "request-form": {
-        "name": "Request Demo Form",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Request demo form"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Request a Virto Commerce Demo"
-            },
-            {
-                "id": "formName",
-                "label": "Segment event name",
-                "type": "string",
-                "tab": "Settings"
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "<p>Please fill out the form and we will send you a link to the Virto Commerce demo environment right away or if you want us to run you through the platform, hit the \"Get in touch with me\" option and we will contact you shortly.</p>"
-            },
-            {
-                "id": "phoneLink",
-                "label": "Link for Phone",
-                "type": "string"
-            },
-            {
-                "id": "chatLink",
-                "label": "Link for Chat",
-                "type": "string"
-            },
-            {
-                "id": "touchUrl",
-                "label": "\"Get in touch\" case url",
-                "type": "string"
-            },
-            {
-                "id": "linkUrl",
-                "label": "\"Link access\" case url",
-                "type": "string"
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            }
-        ]
-    },
-    "custom-form": {
-        "name": "Custom Form",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Custom form"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Join our network"
-            },
-            {
-                "id": "formName",
-                "label": "Segment event name",
-                "type": "string",
-                "tab": "Segment"
-            },
-            {
-                "id": "segmentOptions",
-                "label": "Segment Options",
-                "type": "string",
-                "tab": "Segment"
-            },
-            {
-                "id": "intro",
-                "label": "Intro",
-                "type": "text",
-                "default": "<p>Please fill out the below form, and someone from our partner program will be in touch.</p>"
-            },
-            {
-                "id": "fields",
-                "label": "Fields",
-                "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
-                "displayField": "label",
-                "element": [
-                    {
-                        "id": "label",
-                        "label": "Label",
-                        "type": "string"
-                    },
-                    {
-                        "id": "name",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "type",
-                        "label": "Field type",
-                        "type": "select",
-                        "options": [
-                            {
-                                "value": "text",
-                                "label": "String"
-                            },
-                            {
-                                "value": "email",
-                                "label": "Email"
-                            },
-                            {
-                                "value": "select",
-                                "label": "Select"
-                            },
-                            {
-                                "value": "checkbox",
-                                "label": "Checkbox"
-                            },
-                            {
-                                "value": "textarea",
-                                "label": "Textarea"
-                            },
-                            {
-                                "value": "hidden",
-                                "label": "Hidden"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "data",
-                        "label": "Additional data",
-                        "type": "string",
-                        "info": "For select options is a semicolon separated values. For hidden field is a value."
-                    },
-                    {
-                        "id": "fullrow",
-                        "label": "Full row",
-                        "type": "checkbox"
-                    },
-                    {
-                        "id": "segmentFieldName",
-                        "label": "Name for segment",
-                        "type": "string"
-                    },
-                    {
-                        "id": "required",
-                        "label": "Required field",
-                        "type": "checkbox"
-                    }
-                ],
-                "default": [
-                    {
-                        "label": "Full name",
-                        "name": "fullname",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Email",
-                        "name": "email",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Phone",
-                        "name": "phone",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Company",
-                        "name": "company",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Job Title",
-                        "name": "jobtitle",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Website",
-                        "name": "website",
-                        "type": "text",
-                        "fullrow": false
-                    },
-                    {
-                        "label": "Region",
-                        "name": "region",
-                        "type": "text",
-                        "fullrow": true
-                    },
-                    {
-                        "label": "Comments",
-                        "name": "comments",
-                        "type": "textarea",
-                        "fullrow": true
-                    }
-                ]
-            },
-            {
-                "id": "outtro",
-                "label": "Outtro",
-                "type": "text",
-                "default": "By clicking «Send Message» I agree to the Virto Commerce <a href=\"#\">Terms</a> and <a href=\"#\">Privacy</a>."
-            },
-            {
-                "id": "buttonText",
-                "label": "Button text",
-                "type": "string",
-                "default": "Send Message"
-            }
-        ]
-    },
-    "divider": {
-        "name": "Divider",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Divider"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            }
-        ]
-    },
-    "business-leaders": {
-        "name": "Business Leaders",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Business Leaders"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "tab": "Settings",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": true
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "image-with-text-overlay": {
-        "hide": true,
-        "name": "Image with text overlay",
-        "icon": "fas fa-file-contract",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image with text overlay",
-                "autofocus": true
-            },
-            {
-                "id": "textColor",
-                "label": "Text color",
-                "type": "color",
-                "default": "black"
-            },
-            {
-                "id": "textOpacity",
-                "label": "Text opacity",
-                "type": "number",
-                "default": "opacity"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "previewWidth": 120,
-                "previewHeight": 80,
-                "default": { "url": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Grand_Canyon.jpg" }
-            },
-            {
-                "id": "align",
-                "label": "Choose text alignment",
-                "type": "select",
-                "default": "center",
-                "options": [
-                    {
-                        "label": "Left",
-                        "value": "left"
-                    },
-                    {
-                        "label": "Center",
-                        "value": "center"
-                    },
-                    {
-                        "label": "Right",
-                        "value": "right"
-                    }
-                ]
-            },
-            {
-                "id": "width",
-                "label": "Block width",
-                "type": "select",
-                "default": "screen",
-                "options": [
-                    {
-                        "label": "Screen",
-                        "value": "screen"
-                    },
-                    {
-                        "label": "Container",
-                        "value": "container"
-                    },
-                    {
-                        "label": "Small",
-                        "value": "small"
-                    }
-                ]
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States.  <a href='https://en.wikipedia.org/wiki/Grand_Canyon'>See more on Wiki</a>"
-            }
-        ]
-    },
-    "textcolumns-with-images": {
-        "hide": true,
-        "name": "Text columns with images",
-        "icon": "text-columns",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text columns with images",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "All you need in one place",
-                "autofocus": true
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": ""
-            },
-            {
-                "id": "columns",
-                "label": "Columns",
-                "type": "list",
-                "addText": "Add column",
-                "removeText": "Remove column",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "content",
-                        "label": "Content",
-                        "type": "text"
-                    },
-                    {
-                        "id": "url",
-                        "label": "Link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styleLabel": "Link style",
-                        "styles": [
-                            {
-                                "value": "btn",
-                                "label": "Button"
-                            },
-                            {
-                                "value": "btn btn--orange btn--lg",
-                                "label": "Orange button"
-                            },
-                            {
-                                "value": "btn btn--lg",
-                                "label": "Gray button"
-                            },
-                            {
-                                "value": "benefits__link",
-                                "label": "Link"
-                            },
-                            {
-                                "value": "link-large",
-                                "label": "Large link"
-                            },
-                            {
-                                "value": "btn btn--orange btn--round",
-                                "label": "Round orange"
-                            }
-                        ]
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Left column",
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg",
-                        "content": "Bachalpsee is a lake close to the First above Grindelwald in the Bernese Oberland, Switzerland. <a href='https://en.wikipedia.org/wiki/Bachalpsee'>See more on Wiki</a>"
-                    },
-                    {
-                        "title": "Right column",
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg",
-                        "content": "Mount Galunggung is an active stratovolcano in West Java, Indonesia. <a href='https://en.wikipedia.org/wiki/Galunggung'>See more on Wiki</a>"
-                    }
-                ]
-            },
-            {
-                "id": "columnsWidth",
-                "label": "Columns width",
-                "type": "select",
-                "default": "auto",
-                "options": [
-                    {
-                        "value": "auto",
-                        "label": "auto"
-                    },
-                    {
-                        "value": "col-md-6 col-lg-4",
-                        "label": "3 per row"
-                    },
-                    {
-                        "value": "col-6 col-sm-4 col-lg-3",
-                        "label": "4 per row"
-                    }
-                ],
-                "tab": "Settings"
-            }
-        ]
-    },
-    "image-carousel": {
-        "hide": true,
-        "name": "Image carousel",
-        "icon": "image-carousel",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image carousel",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "autofocus": true
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "images",
-                "label": "Images",
-                "type": "list",
-                "addText": "Add image",
-                "removeText": "Remove image",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    }
-                ],
-                "default": [
-                    {
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Galunggung.jpg"
-                    },
-                    {
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Hopetoun_falls.jpg"
-                    },
-                    {
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Bachalpsee_reflection.jpg"
-                    }
-                ]
-            }
-        ]
-    },
-    "contacts-form": {
-        "hide": true,
-        "name": "Contacts form",
-        "icon": "contacts-form",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Contacts form",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "autofocus": true
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "text",
-                "element": [
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    },
-                    {
-                        "id": "text",
-                        "label": "Text",
-                        "type": "string"
-                    }
-                ],
-                "default": []
-            }
-        ]
-    },
-    "text-with-form": {
-        "hide": true,
-        "name": "Text with form",
-        "icon": "text-with-form",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text with form",
-                "tab": "Settings"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            }
-        ]
-    },
-    "images-layout": {
-        "hide": true,
-        "name": "Images layout",
-        "icon": "far fa-file-image",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Image carousel",
-                "autofocus": true
-            },
-            {
-                "id": "layout",
-                "label": "Layout",
-                "type": "select",
-                "default": "one-two",
-                "options": [
-                    {
-                        "label": "One left, two right",
-                        "value": "one-two"
-                    },
-                    {
-                        "label": "Two left, one right",
-                        "value": "two-one"
-                    },
-                    {
-                        "label": "One left, one right",
-                        "value": "one-one"
-                    }
-                ]
-            },
-            {
-                "id": "images",
-                "label": "Images",
-                "type": "list",
-                "addText": "Add image",
-                "removeText": "Remove image",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image",
-                        "previewWidth": 120,
-                        "previewHeight": 80
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Tower of Pisa",
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/pisa_tower.jpeg"
-                    },
-                    {
-                        "title": "Sagrada Família",
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/barcelona.jpeg"
-                    },
-                    {
-                        "title": "Paris Opera",
-                        "image": "http://dev-cms-vm.westeurope.cloudapp.azure.com/v2/admin/Assets/blogs/Paris_Opera.jpeg"
-                    }
-                ]
-            }
-        ]
-    },
-    "category": {
-        "name": "Category",
-        "icon": "category",
-        "hide": true,
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Category",
-                "autofocus": true
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Headphones"
-            },
-            {
-                "id": "categoryId",
-                "label": "Category id",
-                "type": "string",
-                "default": "",
-                "placeholder": "Enter category id"
-            }
-        ]
-    },
-    "technologies-list": {
-        "name": "Technologies List",
-        "icon": "category",
-        "settings": [
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "headline",
-                "label": "Headline",
-                "type": "string",
-                "default": "Your headline is here"
-            }
-        ]
-    },
-    "blogs-list": {
-        "name": "Blogs list",
-        "icon": "text-columns",
-        "settings": [
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
-                    },
-                    {
-                        "value": "dark",
-                        "label": "Dark"
-                    }
-                ],
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string"
-            },
-            {
-                "id": "count",
-                "label": "Count",
-                "type": "number",
-                "default": "3"
-            },
-            {
-                "id": "isShowLast",
-                "label": "Show last blogs",
-                "type": "boolean",
-                "default": "true"
-            },
-            {
-                "id": "items",
-                "label": "Items",
-                "type": "list",
-                "addText": "Add item",
-                "removeText": "Remove item",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "text",
-                        "label": "Blog permalink",
-                        "type": "string"
-                    }
-                ]
-            }
-        ]
-    },
-    "text-over-image-test": {
-        "name": "Text over image (test)",
-        "icon": "image-text",
-        "displayField": "name",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Text over image",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "description",
-                "label": "Description",
-                "type": "string",
-                "default": ""
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://vcpro.blob.core.windows.net/blogs/agiledefinitionheader.png" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "url1",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styleLabel": "Link style",
-                "styles": [
-                    {
-                        "value": "btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn--white",
+                        "value": "btn btn--white",
                         "label": "White button"
                     }
-                ]
-            },
-            {
-                "id": "linkPosition",
-                "label": "Link position",
-                "type": "select",
-                "options": [
-                    {
-                        "value": "bottom",
-                        "label": "Bottom"
-                    },
-                    {
-                        "value": "right",
-                        "label": "Right"
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "case-study-info": {
-        "id": "caseStudyInfo",
-        "name": "Case study info",
-        "icon": "image-text",
-        "settings": [
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image"
-            },
-            {
-                "id": "description",
-                "label": "Description",
-                "type": "string",
-                "default": "Block description is here"
-            },
-            {
-                "id": "footerImage",
-                "label": "Footer image",
-                "type": "image"
-            },
-            {
-                "id": "occupation",
-                "label": "Occupation",
-                "type": "string",
-                "default": "Occupation"
-            },
-            {
-                "id": "country",
-                "label": "Country",
-                "type": "string",
-                "default": "Country"
-            },
-            {
-                "id": "content",
-                "label": "Content",
-                "type": "text",
-                "default": "<p>Content block is here</p>"
-            },
-            {
-                "id": "sourceLink",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
-                "styles": []
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "case-study-solution": {
-        "id": "caseStudySolution",
-        "name": "Case study solution",
-        "icon": "image-text",
-        "settings": [
-            {
-                "id": "showTitle",
-                "type": "checkbox",
-                "label": "Show title",
-                "default": true
-            },
-            {
-                "id": "title",
-                "type": "string",
-                "label": "Title",
-                "default": "Solution"
-            },
-            {
-                "id": "sections",
-                "label": "Sections",
-                "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "titleStyle",
-                        "label": "Title style",
-                        "type": "select",
-                        "default": "visible",
-                        "options": [
-                            {
-                                "value": "visible",
-                                "label": "Visible"
-                            },
-                            {
-                                "value": "none",
-                                "label": "None"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "title",
-                        "label": "Title",
-                        "type": "string"
-                    },
-                    {
-                        "id": "text",
-                        "label": "Text",
-                        "type": "string"
-                    },
-                    {
-                        "id": "image",
-                        "label": "Upload picture",
-                        "type": "image"
-                    },
-                    {
-                        "id": "imagePosition",
-                        "label": "Image position",
-                        "default": "top",
-                        "type": "select",
-                        "options": [
-                            {
-                                "value": "top",
-                                "label": "Top"
-                            },
-                            {
-                                "value": "float-left",
-                                "label": "Float left"
-                            },
-                            {
-                                "value": "bottom-float-left",
-                                "label": "Bottom float left"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "country",
-                        "label": "Country",
-                        "type": "string"
-                    },
-                    {
-                        "id": "sourceLink",
-                        "label": "Link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styles": []
-                    },
-                    {
-                        "id": "footerContent",
-                        "label": "Footer content",
-                        "type": "text"
-                    },
-                    {
-                        "id": "footerLink",
-                        "label": "Footer link",
-                        "type": "url",
-                        "textLabel": "Text",
-                        "styles": [
-                            {
-                                "value": "btn btn--white",
-                                "label": "White button"
-                            },
-                            {
-                                "value": "btn btn--orange",
-                                "label": "Orange button"
-                            }
-                        ],
-                        "default": {
-                            "style": "btn btn--white"
-                        }
-                    }
-                ]
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    },
-    "case-study-form": {
-        "id": "caseStudyForm",
-        "name": "Case study form",
-        "icon": "image-text",
-        "settings": [
-            {
-                "id": "name",
-                "label": "Block name",
-                "type": "string",
-                "default": "Form Case Study",
-                "tab": "Settings"
-            },
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title",
-                "autofocus": true
-            },
-            {
-                "id": "description",
-                "label": "Description",
-                "type": "string"
-            },
-            {
-                "id": "image",
-                "label": "Upload picture",
-                "type": "image",
-                "default": { "url": "https://img2.goodfon.ru/original/1440x900/8/3d/sova-vzglyad-belyy-white.jpg" },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "logo",
-                "label": "Header logo",
-                "type": "image",
-                "default": { "url": null },
-                "previewWidth": 120,
-                "previewHeight": 80
-            },
-            {
-                "id": "color",
-                "label": "Color",
-                "type": "select",
-                "default": "none",
-                "options": [
-                    {
-                        "value": "none",
-                        "label": "None"
-                    },
-                    {
-                        "value": "blue",
-                        "label": "Blue"
-                    },
-                    {
-                        "value": "brown",
-                        "label": "Brown"
-                    },
-                    {
-                        "value": "lime",
-                        "label": "Lime"
-                    },
-                    {
-                        "value": "shadow",
-                        "label": "Shadow"
-                    }
-                ]
-            },
-            {
-                "id": "formId",
-                "label": "Form ID",
-                "type": "string",
-                "tab": "Form"
-            },
-            {
-                "id": "formFields",
-                "label": "Form",
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButtonIsNewWindow",
+				"label": "Second button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "containerVideo",
+				"label": "Container Video",
+				"type": "string",
+				"tab": "Content"
+			},
+			{
+				"id": "containerVideoThumbnail",
+				"label": "Container Video Thumbnail",
+				"type": "image",
+				"tab": "Content"
+			}
+		]
+	},
+	"cover-with-background-overlay-text-and-form": {
+		"id": "cover-with-background-overlay-text-and-form",
+		"name": "Cover with background overlay text and form",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings"
+			},
+			{
+				"id": "containerFormButtonColour",
+				"label": "Container Form Button Colour",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "formFields",
+                "label": "Container Form",
                 "type": "list",
                 "addText": "Add field",
                 "removeText": "Remove field",
@@ -3976,44 +755,54 @@
                         "type": "select",
                         "default": "text",
                         "options": [
+							{
+                                "value": "button",
+                                "label": "Button"
+                            },
+							{
+                                "value": "checkbox",
+                                "label": "Checkbox"
+                            },
+                            {
+                                "value": "radio",
+                                "label": "Radio"
+                            },
+                            {
+                                "value": "select",
+                                "label": "Select"
+                            },
                             {
                                 "value": "text",
                                 "label": "Text"
                             },
                             {
-                                "value": "checkbox",
-                                "label": "Checkbox"
-                            },
-                            {
-                                "value": "email",
-                                "label": "Email"
-                            },
-                            {
-                                "value": "optional",
-                                "label": "Optional"
-                            },
-                            {
-                                "value": "radioList",
-                                "label": "Radio list"
-                            },
-                            {
-                                "value": "hidden",
-                                "label": "Hidden"
+                                "value": "textarea",
+                                "label": "Textarea"
                             }
                         ]
                     },
                     {
-                        "id": "optionalText",
-                        "label": "Optional text",
+                        "id": "labelText",
+                        "label": "Label text",
+                        "type": "string"
+                    },
+                    {
+                        "id": "placeholder",
+                        "label": "Placeholder",
                         "type": "string",
-                        "default": "+ Enter your optional text"
+                        "default": "Enter the value"
+                    },
+                    {
+                        "id": "required",
+                        "label": "Required field",
+                        "type": "checkbox"
                     },
                     {
                         "id": "radioListItems",
                         "label": "Radio items",
                         "type": "list",
-                        "addText": "Add",
-                        "removeText": "Remove",
+                        "addText": "Add item (for radio type)",
+                        "removeText": "Remove item",
                         "displayField": "text",
                         "element": [
                             {
@@ -4033,27 +822,26 @@
                             }
                         ]
                     },
-                    {
-                        "id": "placeholder",
-                        "label": "Placeholder",
-                        "type": "string",
-                        "default": "Enter the value"
-                    },
-                    {
-                        "id": "labelText",
-                        "label": "Label text",
-                        "type": "text"
-                    },
-                    {
-                        "id": "data",
-                        "label": "Additional data",
-                        "type": "string"
-                    },
-                    {
-                        "id": "required",
-                        "label": "Required field",
-                        "type": "checkbox"
-                    },
+					{
+						"id": "selectOptions",
+						"label": "Select options",
+						"type": "list",
+						"addText": "Add option (for select type)",
+						"removeText": "Remove option",
+						"displayField": "label",
+						"element": [
+							{
+                                "id": "label",
+                                "type": "string",
+                                "label": "Label"
+                            },
+                            {
+                                "id": "value",
+                                "type": "string",
+                                "label": "Value"
+                            }
+						]
+					},
                     {
                         "id": "agreeTermsMessage",
                         "label": "Use agree terms",
@@ -4078,181 +866,243 @@
                         "fieldId": "agree",
                         "fieldType": "checkbox",
                         "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
-                    }
-                ],
-                "tab": "Form"
-            },
-            {
-                "id": "submitButtonText",
-                "label": "Submit button text",
-                "type": "string",
-                "tab": "Form",
-                "default": "Download Case Study"
-            },
-            {
-                "id": "style",
-                "label": "Block style",
-                "type": "select",
-                "default": "light",
-                "options": [
-                    {
-                        "value": "light",
-                        "label": "Light"
                     },
                     {
-                        "value": "dark",
-                        "label": "Dark"
+                        "fieldType": "button",
+                        "labelText": "Action button"
                     }
                 ],
-                "tab": "Settings"
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
+                "tab": "Content"
             }
-        ]
-    },
-    "case-studies-gallery": {
-        "id": "caseStudiesGallery",
-        "name": "Case-studies gallery",
-        "icon": "image-text",
-        "settings": [
-            {
-                "id": "items",
-                "type": "list",
-                "addText": "Add",
-                "removeText": "Remove",
-                "displayField": "title",
-                "element": [
-                    {
-                        "id": "title",
-                        "type": "string",
-                        "label": "Title"
-                    },
-                    {
-                        "id": "description",
-                        "type": "string",
-                        "label": "Description"
-                    },
-                    {
-                        "id": "image",
-                        "type": "image",
-                        "label": "Picture",
-                        "default": { "url": null }
-                    }
-                ],
-                "default": [
-                    {
-                        "title": "Business Leaders Choose Virto Commerce",
-                        "description": "View just a handful of the top companies that use Virto Commerce<br>to power their ecommerce",
-                        "image": { "url": "https://vcpro.blob.core.windows.net/blogs/lavazza-logo.png.png" }
-                    }
-                ]
-            }
-        ]
-    },
-    "title-with-link": {
-        "id": "titleWithLink",
-        "name": "Title with link",
-        "icon": "image-text",
-        "settings": [
-            {
-                "id": "title",
-                "label": "Title",
-                "type": "string",
-                "default": "Block title"
-            },
-            {
-                "id": "style",
-                "label": "Style",
-                "type": "select",
-                "default": "colored",
-                "options": [
-                    {
-                        "value": "colored",
-                        "label": "Colored"
-                    },
-                    {
-                        "value": "bordered--gray",
-                        "label": "Bordered gray"
-                    }
-                ]
-            },
-            {
-                "id": "titleAlignment",
-                "label": "Alignment",
-                "type": "select",
-                "default": "row",
-                "options": [
-                    {
-                        "value": "row",
-                        "label": "Left"
-                    },
-                    {
-                        "value": "middle",
-                        "label": "Middle"
-                    }
-                ]
-            },
-            {
-                "id": "link",
-                "label": "Link",
-                "type": "url",
-                "textLabel": "Text",
+		]
+	},
+	"cover-with-background-overlay-text-and-image": {
+		"id": "cover-with-background-overlay-text-and-image",
+		"name": "Cover with background, overlay text and image",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover",
+				"options": [
+					{
+						"value": "block--cover",
+						"label": "None"
+					},
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+			
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"styleLabel": "Link style",
                 "styles": [
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
                     },
                     {
                         "value": "btn btn--orange",
                         "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
                     }
                 ],
-                "default": {
-                    "url": "#",
-                    "urlText": "Download",
-                    "style": "btn btn--white"
-                }
-            },
-            {
-                "id": "noTop",
-                "label": "Remove top margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noBottom",
-                "label": "Remove bottom margin",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            },
-            {
-                "id": "noPad",
-                "label": "Remove paddings",
-                "type": "checkbox",
-                "tab": "Settings",
-                "default": false
-            }
-        ]
-    }
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "firstButtonIsNewWindow",
+				"label": "First button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Settings"
+			},
+			{
+				"id": "secondButtonIsNewWindow",
+				"label": "Second button lead to new window",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum",
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundImage",
+				"label": "Background Image",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "containerImage",
+				"label": "Container Image",
+				"type": "image",
+				"tab": "Content"
+			}
+		]	
+	}
 }

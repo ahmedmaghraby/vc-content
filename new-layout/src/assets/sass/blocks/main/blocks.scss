@@ -31,7 +31,8 @@
     }
 
     &-fixed,
-    &-static {
+    &-static
+    {
     	.block__inner
 	    {
 	    	color: $white;
@@ -48,6 +49,32 @@
 	        top: 0;
 	        z-index: 5;
 	    }
+
+        &--black
+        {
+            .block__inner
+	        {
+	    	    color: $white;
+	        }
+
+    	    &::after
+	        {
+	            background: rgba(0,0,0,.7);
+	        }
+        }
+
+        &--white
+        {
+            .block__inner
+	        {
+	    	    color: $black;
+	        }
+
+    	    &::after
+	        {
+	            background: rgba(255,255,255,.7);
+	        }
+        }
     }
 
     // Bg colors for block
