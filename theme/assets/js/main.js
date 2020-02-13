@@ -164,16 +164,34 @@ $(function (){
         });
     }
   
-  	var lavazzaForm = $('#lavazza-form');
-  	if (lavazzaForm.length) {
-   		lavazzaForm.submit(function (event) {
-        	event.preventDefault();
-            if (this.checkValidity())
-                window.location.href = '/case-studies/lavazza';
-        });
+  	function caseStudyFormHandler(formSelector, caseStudyRedirectUrl) {
+        var form = $(formSelector);
+        if (form.length) {
+            form.submit(function (event) {
+                event.preventDefault();
+                if (!this.agree.checked) {
+                    $('#agree-error').parent().show();
+                    return;
+                }
+                else
+                    $('#agree-error').parent().hide();
+
+                if (this.checkValidity())
+                    if (caseStudyRedirectUrl !== undefined) {
+                        window.location.href = caseStudyRedirectUrl;
+                    } else {
+                        return true;
+                    }
+            });
+        }
     }
 
-	
+    caseStudyFormHandler('#asset-form-wp01');
+    caseStudyFormHandler('#asset-form-cs01');
+    caseStudyFormHandler('#asset-form-cs02');
+    caseStudyFormHandler('#asset-form-cs03');
+    caseStudyFormHandler('#asset-form-cs04');
+  
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
 	//  utm_term=--Asset Type--&

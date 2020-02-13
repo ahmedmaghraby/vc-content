@@ -4,7 +4,7 @@
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div {% if block.sectionStyle == 'container' %} class="section__info section__info--container" {% else %} class="section__bg" {% endif %} style="background-image: url('{{ block.image.url }}');">
         {% if block.title != '' %}
-        <div class="section__t like-h2 {% if block.sectionStyle == 'container' %} container-title {% endif %}">{{ block.title }}</div>
+        <div class="section__t like-h2 {% if block.sectionStyle == 'container' %} container-title {% endif %}" style="color:{{block.titleColor}}">{{ block.title }}</div>
         {% endif %}
         {% if block.description != '' %}
         <div class="section__descr {% if block.sectionStyle == 'container' %} section__descr--container {% endif %}">
@@ -14,6 +14,9 @@
         {% if block.url1 != '' and block.url1.urlText != '' %}
         <div class="section__actions">
             <a href="{{ block.url1.url }}" class="btn {{ block.url1.style }}">{{ block.url1.urlText }}</a>
+          	{% if block.url2 != '' and block.url2.urlText != '' %}
+          		<a href="{{ block.url2.url }}" class="btn {{ block.url2.style }}">{{ block.url2.urlText }}</a>
+          	{% endif %}
         </div>
         {% endif %}
     </div>

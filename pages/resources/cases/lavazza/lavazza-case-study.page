@@ -1,0 +1,304 @@
+[
+    {
+        "type": "settings",
+        "title": "Lavazza Nederland case study",
+        "permalink": "case-studies/lavazza",
+        "layout": "theme",
+        "id": 1,
+        "header": "Lavazza Nederland case study",
+        "description": "Lavazza Nederland case study"
+    },
+    {
+        "id": 2,
+        "type": "case-study-form",
+        "name": "Form Case Study",
+        "title": "Lavazza Nederland digital commerce: Expanded capabilities and growth.",
+        "description": "Learn about how we created in partnership with RB2 a new and unified B2B & B2C e-commerce solution for Lavazza Nederland Nederland and gained insights into customer behavior.",
+        "image": {
+            "url": "/assets/pages/lavazza-form-background.png",
+            "altText": null
+        },
+        "logo": {
+            "url": "/assets/pages/rb2-header.png",
+            "altText": null
+        },
+        "color": "blue",
+        "formId": "asset-form-cs02",
+        "formFields": [
+            {
+                "fieldName": "fullname",
+                "fieldId": "fullname",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your name",
+                "labelText": "<p>Full name</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "email",
+                "fieldId": "email",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your email",
+                "labelText": "<p>Business email</p>\n",
+                "data": "",
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "company",
+                "fieldId": "company",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your company name",
+                "labelText": "<p>Company name</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "agree",
+                "fieldId": "agree",
+                "fieldType": "checkbox",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": "<p>By checking this checkbox, I&nbsp;agree to the Virto Commerce <a href=\"/terms\">terms</a>&nbsp;and <a href=\"/privacy\">privacy</a>.</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": true
+            },
+            {
+                "fieldName": "asset-id",
+                "fieldId": "asset-id",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "CS02",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-name",
+                "fieldId": "asset-name",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "Lavazza Nederland case study",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-url",
+                "fieldId": "asset-url",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "https://vcpro.blob.core.windows.net/cases/VC-Case-Lavazza.pdf",
+                "required": null,
+                "agreeTermsMessage": null
+            }
+        ],
+        "submitButtonText": "Download case study",
+        "style": "light",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "case-study-info",
+        "image": {
+            "altText": null,
+            "url": "/assets/pages/lavazza-logo.png.png"
+        },
+        "description": "European Coffee brand Lavazza has passion for excellence that makes every cup a unique experience. With online, in store, and B2B distribution, Lavazza Nederland coffee delights customers worldwide.",
+        "footerImage": null,
+        "occupation": "Coffee & Coffee machines distribution",
+        "country": "The Netherlands",
+        "content": "",
+        "sourceLink": {
+            "url": "http://www.lavazza-nederland.nl",
+            "urlText": "www.lavazza-nederland.nl",
+            "style": null
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "case-study-solution",
+        "showTitle": true,
+        "title": "Solution",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": "The challenges",
+                "text": "In order to satisfy the growing need of their customers, Lavazza Nederland needed a robust and flexible platform that could handle complex pricing and order lists and was able to integrate across various systems while unifying B2B and B2C activities.",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-challenges.png"
+                },
+                "imagePosition": "top",
+                "country": null,
+                "sourceLink": null,
+                "footerContent": null,
+                "footerLink": null
+            },
+            {
+                "titleStyle": "visible",
+                "title": "Result",
+                "text": "Brand new e-commerce website both for B2B and B2C channels, which made the product catalog, pricing agreements and order lists management faster and more efficient by eliminating duplicate work on the backend and allowing customers to manage the processes from one interface.",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-result.png"
+                },
+                "imagePosition": "top",
+                "country": null,
+                "sourceLink": null,
+                "footerContent": null,
+                "footerLink": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "case-study-solution",
+        "showTitle": false,
+        "title": "",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": "Partner",
+                "text": "Rb2 specializes in innovative e-commerce and loyalty solutions, attractive subscription models, powerful metasearch engines and flexible platforms.",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/rb2-logo-colored.png"
+                },
+                "imagePosition": "bottom-float-left",
+                "country": "The Netherlands",
+                "sourceLink": {
+                    "url": "https://www.rb2.nl",
+                    "urlText": "www.rb2.nl",
+                    "style": null
+                },
+                "footerContent": null,
+                "footerLink": null
+            },
+            {
+                "titleStyle": "none",
+                "title": "",
+                "text": "Virto Commerce provides the correct technical answer to the e-commerce question.",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-quotes-2.png"
+                },
+                "imagePosition": "float-left",
+                "country": null,
+                "sourceLink": null,
+                "footerContent": "<p>&nbsp;</p>\n\n<p>Richard Birksteiner</p>\n\n<p><span class=\"section__descr--gray\">Chief Technology Officer, rb2</span></p>\n",
+                "footerLink": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": false
+    },
+    {
+        "id": 6,
+        "type": "text-over-image-test",
+        "name": "Text over image",
+        "title": "Looking for an e-commerce </br>platform for your next project?",
+        "description": "Learn how you can benefit from Virto Commerce.",
+        "image": {
+            "url": "/assets/pages/lavazza-vc.png",
+            "altText": null
+        },
+        "sectionStyle": "container",
+        "url1": {
+            "url": "contact-us",
+            "urlText": "Get started",
+            "style": "btn--orange"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "titleColor": null,
+        "url2": {
+            "url": null,
+            "urlText": null,
+            "style": "btn--orange"
+        }
+    },
+    {
+        "id": 7,
+        "type": "cards-test",
+        "name": "Text",
+        "title": "Learn from other success stories",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "items": [
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/standaard-boekhandel-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic e-commerce platform, and came to Virto Commerce for flexibility and scalability.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "/case-studies/standaard-boekhandel"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/de-klok-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Dutch Beverage Distributor, De Klok Dranken quenches e-commerce thirst by launching its new commerce platform with improved user experience and technical flexibility.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "case-studies/deklok"
+                }
+            },
+            {
+                "title": "Do you want a personal demo?",
+                "image": {
+                    "url": "/assets/pages/alain-van-hove.png",
+                    "altText": null
+                },
+                "imageStyle": "portrait",
+                "text": "<p>Alain Van Hove</p>\n\n<p>Sales Director / EMEA</p>\n",
+                "link": {
+                    "urlText": "Contact me",
+                    "style": "btn--orange",
+                    "url": "contact-us"
+                }
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    }
+]
