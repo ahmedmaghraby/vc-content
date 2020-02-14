@@ -256,66 +256,6 @@
         }
     }
 
-    .list__author
-    {
-        display: flex;
-        flex-direction: column;
-        height: 2.75rem;
-        justify-content: center;
-        margin-top: 0.625rem;
-        padding-left: 3.25rem;
-        position: relative;
-
-        &-t
-        {
-            font-size: 1rem;
-            line-height: 1rem;
-            font-weight: bold;
-        }
-
-        &-date
-        {
-            color: #aaa;
-            font-size: 0.75rem;
-            font-weight: bold;
-            line-height: 1rem;
-            margin-top: 0.5rem;
-            text-transform: uppercase;
-        }
-
-        &-t,
-        &-date
-        {
-            @extend %font-headings;
-        }
-
-        &::after,
-        &::before
-        {
-            content: ' ';
-            position: absolute;
-        }
-
-        &::after
-        {
-            background: url($tpl-img-url + 'vc-author-logo.svg') no-repeat scroll 0 0;
-            height: 1.5rem;
-            left: 0.5625rem;
-            top: 0.625rem;
-            width: 1.625rem;
-        }
-
-        &::before
-        {
-            background-color: $gray-200;
-            border-radius: 2.75rem;
-            height: 100%;
-            left: 0;
-            top: 0;
-            width: 2.75rem;
-        }
-    }
-
     .list__links
     {
         align-items: center;
