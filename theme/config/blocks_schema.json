@@ -2186,5 +2186,178 @@
 				"tab": "Settings"
 			}
 		]
+	},
+	"image-with-logotypes": {
+		"id": "image-with-logotypes",
+		"name": "Image with logotypes",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"tab": "Content"
+			},
+			{
+				"id": "logotypes",
+				"label": "Logotypes",
+				"type": "list",
+				"addText": "Add logotype",
+				"removeText": "Remove logotype",
+				"displayField": "image.url",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-left",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }

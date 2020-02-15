@@ -1,0 +1,32 @@
+<div class="block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block__inner container">
+        <div class="block__text">
+            {% if block.title != '' %}
+                {% if block.titleStyle == 'h1' %}
+                    <h1 class="block__t">{{block.title}}</h1>
+                {% elsif  block.titleStyle == 'h2' %}
+                    <h2 class="block__t">{{block.title}}</h2>
+                {% elsif block.titleStyle == 'h3' %}
+                    <h3 class="block__t">{{block.title}}</h3>
+                {% else %}
+                    <div class="block__t">{{block.title}}</div>
+                {% endif %}
+            {% endif %}
+            <div class="block__space block__space--size-lg"></div>
+        </div>
+
+        {% if block.logotypes.size > 0 %}
+            <div class="list list-partners">
+                {% for logotype in block.logotypes %}
+                    <div class="list__item">
+                        <div class="list__img">
+                            <img src="{{logotype.image.url}}" alt="" class="list__pic" />
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>
