@@ -227,6 +227,27 @@
             {
                 color: $white;
             }
+            
+            &-orange
+            {
+                background-color: $orange;
+
+                &::after
+                {
+                    color: $white;
+                }
+            }
+
+            &-black
+            {
+                background-color: $black;
+                border: .1875rem solid $black;
+
+                &::after
+                {
+                    color: $white;
+                }
+            }
         }
     }
 
