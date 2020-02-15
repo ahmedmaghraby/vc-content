@@ -1997,5 +1997,194 @@
 				"tab": "Content"
 			}
 		]
+	},
+	"features-with-icons-in-list": {
+		"id": "features-with-icons-in-list",
+		"name": "Features with icons in list",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "title",
+				"element": [
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					}
+				],
+				"default": [
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsType",
+				"label": "Icons type",
+				"type": "select",
+				"default": "letters",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "numbers",
+						"label": "Numbers"
+					},
+					{
+						"value": "letters",
+						"label": "Letters"
+					},
+					{
+						"value": "images",
+						"label": "Images"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsAreFilled",
+				"label": "Icons are filled",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsFilling",
+				"label": "Icons filling",
+				"type": "select",
+				"default": "orange",
+				"options": [
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }
