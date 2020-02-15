@@ -1748,5 +1748,254 @@
 				"tab": "Content"
 			}
 		]
+	},
+	"features-with-icons-in-columns": {
+		"id": "features-with-icons-in-columns",
+		"name": "Features with icons in columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "2",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					},
+					{
+						"value": "4",
+						"label": "4"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsType",
+				"label": "Icons type",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "numbers",
+						"label": "Numbers"
+					},
+					{
+						"value": "letters",
+						"label": "Letters"
+					},
+					{
+						"value": "images",
+						"label": "Images"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsAreFilled",
+				"label": "Icons are filled",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "subtitlePosition",
+				"label": "Subtitle position",
+				"type": "select",
+				"default": "upper",
+				"options": [
+					{
+						"value": "upper",
+						"label": "Upper"
+					},
+					{
+						"value": "lower",
+						"label": "Lower"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"tab": "Content"
+			},
+			{
+				"id": "columns",
+				"label": "Columns",
+				"type": "list",
+				"addText": "Add column",
+				"removeText": "Remove column",
+				"displayField": "title",
+				"element": [
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Column image"
+					},
+					{
+						"id": "button",
+						"label": "Button",
+						"type": "url",
+						"urlLabel": "Url",
+						"textLabel": "Button text",
+						"styleLabel": "Link style",
+						"styles": [
+							{
+								"value": "btn btn--black",
+								"label": "Black button"
+							},
+							{
+								"value": "btn btn--orange",
+								"label": "Orange button"
+							},
+							{
+								"value": "btn btn--white",
+								"label": "White button"
+							}
+						],
+						"default": {
+							"url": "",
+							"urlText": "",
+							"style": "btn btn--orange"
+						}
+					}
+				],
+				"default": [
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					}
+				],
+				"tab": "Content"
+			}
+		]
 	}
 }

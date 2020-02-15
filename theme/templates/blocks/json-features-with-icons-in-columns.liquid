@@ -1,0 +1,50 @@
+<div class="block {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}">
+    <div class="block__inner container">
+        {% if block.titleStyle == 'h1' %}
+            <h1 class="block__t">{{block.title}}</h1>
+        {% elsif  block.titleStyle == 'h2' %}
+            <h2 class="block__t">{{block.title}}</h2>
+        {% elsif block.titleStyle == 'h3' %}
+            <h3 class="block__t">{{block.title}}</h3>
+        {% else %}
+            <div class="block__t">{{block.title}}</div>
+        {% endif %}
+        {% if block.subtitle != '' and block.subtitlePosition == 'upper' %}
+            <div class="block__space"></div>
+            <h3 class="block__descr">{{block.subtitle}}</h3>
+        {% endif %}
+        <div class="block__space block__space--size-lg"></div>
+        {% if block.columns.size > 0 %}
+            <div class="list list-items list-items--cols-{{block.columnsCount}} {% if block.iconsType == 'letters' %} list-items--type-letters {% endif %}">
+                {% for column in block.columns %}
+                    <div class="list__item">
+                        {% if block.iconsType == 'numbers' or block.iconsType == 'letters' %}
+                            <div class="list__num {% if block.iconsAreFilled == 'True' %} list__num--filled {% endif %}"></div>
+                        {% endif %}
+                        {% if block.iconsType == 'images' %}
+                            {% if column.image.url != '' %}
+                                <img src="{{column.image.url}}" alt="" class="list__ico">
+                            {% endif %}
+                        {% endif %}
+                        {% if column.title != '' %}
+                            <div class="list__t">{{column.title}}</div>
+                        {% endif %}
+                        {% if column.subtitle != '' %}
+                            <div class="list__descr">{{column.subtitle}}</div>
+                        {% endif %}
+                        {% if column.button != '' and column.button.urlText != '' %}
+                            <div class="block__space"></div>
+                            <div class="block__actions">
+                                <a href="{{column.button.url}}" class="{{column.button.style}}" {% if column.buttonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{column.button.urlText}}</a>
+                            </div>
+                    {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% if block.subtitle != '' and block.subtitlePosition == 'lower' %}
+            <div class="block__space"></div>
+            <h3 class="block__descr">{{block.subtitle}}</h3>
+        {% endif %}
+    </div>
+</div>
