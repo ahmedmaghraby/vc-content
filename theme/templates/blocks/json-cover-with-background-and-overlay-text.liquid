@@ -1,58 +1,53 @@
-<div class="{% if block.style == 'dark' %} section--gray {% endif %}
-     {% if block.noTop == 'True' %} section--small-top {% endif %}
-     {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
-     {% if block.noPad == 'True' %} section--no-padding {% endif %}">
-     {% assign alignment = 'block--align-center' %}
-     {% if block.horizontalAlignment == 'left' %}
-        {% assign alignment = 'block--align-left' %}
-     {% endif %}
-     {% if block.horizontalAlignment == 'right' %}
-        {% assign alignment = 'block--align-right' %}
-     {% endif %}
+{% assign alignment = 'block--align-center' %}
+{% if block.horizontalAlignment == 'left' %}
+{% assign alignment = 'block--align-left' %}
+{% endif %}
+{% if block.horizontalAlignment == 'right' %}
+{% assign alignment = 'block--align-right' %}
+{% endif %}
 
-     {% if block.backgroundOverlayColorHex != '' %}
-        {% assign counter = counter | plus: 1 %}
-         <style>
-            .has-hex-{{counter}}:after
-            {
-                background: {{block.backgroundOverlayColorHex}};
-                opacity:.7;
-            }
-         </style>
-     {% endif %}
+{% if block.backgroundOverlayColorHex != '' %}
+{% assign counter = counter | plus: 1 %}
+    <style>
+    .has-hex-{{counter}}:after
+    {
+        background: {{block.backgroundOverlayColorHex}};
+        opacity:.7;
+    }
+    </style>
+{% endif %}
 
-     <div class="block {{alignment}} block--cover {{block.backgroundColor}}
-     {% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
-     {% if block.backgroundOverlayColorHex != '' %} {{block.backgroundScrollEffect}} has-hex-{{counter}} {% endif %}"
-     {% if block.backgroundColorHex != '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}
-     {% if block.backgroundColor == 'none' and block.background.url != '' %} style="background-image: url('{{block.background.url}}')" {% endif %}>
-        <div class="block__inner container">
-            <div class="block__text">
-                {% if block.note != '' %}
-                    <div class="block__note">{{block.note}}</div>
-                {% endif %}
+<div class="block {{alignment}} block--cover {{block.backgroundColor}}
+    {% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
+    {% if block.backgroundOverlayColorHex != '' %} {{block.backgroundScrollEffect}} has-hex-{{counter}} {% endif %}"
+    {% if block.backgroundColorHex != '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}
+    {% if block.backgroundColor == 'none' and block.background.url != '' %} style="background-image: url('{{block.background.url}}')" {% endif %}>
+    <div class="block__inner container">
+        <div class="block__text">
+            {% if block.note != '' %}
+                <div class="block__note">{{block.note}}</div>
+            {% endif %}
+            <div class="block__space"></div>
+            {% if block.titleStyle == 'h1' %}
+                <h1 class="block__t">{{block.title}}</h1>
+            {% elsif  block.titleStyle == 'h2' %}
+                <h2 class="block__t">{{block.title}}</h2>
+            {% elsif block.titleStyle == 'h3' %}
+                <h3 class="block__t">{{block.title}}</h3>
+            {% else %}
+                <div class="block__t">{{block.title}}</div>
+            {% endif %}
+            <div class="block__space"></div>
+            <h3 class="block__descr">{{block.subtitle}}</h3>
+            {% if block.firstButton != '' and block.firstButton.urlText != '' %}
                 <div class="block__space"></div>
-                {% if block.titleStyle == 'h1' %}
-                    <h1 class="block__t">{{block.title}}</h1>
-                {% elsif  block.titleStyle == 'h2' %}
-                    <h2 class="block__t">{{block.title}}</h2>
-                {% elsif block.titleStyle == 'h3' %}
-                    <h3 class="block__t">{{block.title}}</h3>
-                {% else %}
-                    <div class="block__t">{{block.title}}</div>
-                {% endif %}
-                <div class="block__space"></div>
-                <h3 class="block__descr">{{block.subtitle}}</h3>
-                {% if block.firstButton != '' and block.firstButton.urlText != '' %}
-                    <div class="block__space"></div>
-                    <div class="block__actions">
-                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButtonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
-                        {% if block.secondButton != '' and block.secondButton.urlText != '' %}
-                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButtonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
-                        {% endif %}
-                    </div>
-                {% endif %}
-            </div>
+                <div class="block__actions">
+                    <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
+                    {% if block.secondButton != '' and block.secondButton.urlText != '' %}
+                        <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
+                    {% endif %}
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>

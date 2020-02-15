@@ -244,6 +244,8 @@
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -264,19 +266,14 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "firstButtonIsNewWindow",
-				"label": "First button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			},
 			{
 				"id": "secondButton",
 				"label": "Second button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -297,13 +294,6 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "secondButtonIsNewWindow",
-				"label": "Second button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			}
 		]
@@ -466,6 +456,8 @@
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -486,19 +478,14 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "firstButtonIsNewWindow",
-				"label": "First button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			},
 			{
 				"id": "secondButton",
 				"label": "Second button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -519,13 +506,6 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "secondButtonIsNewWindow",
-				"label": "Second button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			},
 			{
@@ -538,6 +518,7 @@
 				"id": "containerVideoThumbnail",
 				"label": "Container Video Thumbnail",
 				"type": "image",
+				"default": { "url": "/assets/pages/video-screen-4.png" },
 				"tab": "Content"
 			}
 		]
@@ -873,7 +854,63 @@
                     }
                 ],
                 "tab": "Content"
-            }
+            },
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--black"
+                },
+				"tab": "Content"
+			}
 		]
 	},
 	"cover-with-background-overlay-text-and-image": {
@@ -1008,6 +1045,8 @@
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -1028,19 +1067,14 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "firstButtonIsNewWindow",
-				"label": "First button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			},
 			{
 				"id": "secondButton",
 				"label": "Second button",
 				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
 				"styleLabel": "Link style",
                 "styles": [
 					{
@@ -1061,13 +1095,6 @@
 					"urlText": "",
                     "style": "btn btn--black"
                 },
-				"tab": "Settings"
-			},
-			{
-				"id": "secondButtonIsNewWindow",
-				"label": "Second button lead to new window",
-				"type": "checkbox",
-				"default": false,
 				"tab": "Settings"
 			},
 			{
@@ -1101,6 +1128,7 @@
 				"id": "containerImage",
 				"label": "Container Image",
 				"type": "image",
+				"default": "/assets/pages/video-screen-4.png",
 				"tab": "Content"
 			}
 		]	
