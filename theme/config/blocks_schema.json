@@ -1344,5 +1344,192 @@
 				"tab": "Settings"
 			}
 		]
+	},
+	"title-with-two-columns": {
+		"id": "title-with-two-columns",
+		"name": "Title with two columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "string",
+				"default": "Lorem Ipsum is simply dummy text",
+				"tab": "Content"
+			},
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }
