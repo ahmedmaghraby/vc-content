@@ -512,6 +512,7 @@
 				"id": "containerVideo",
 				"label": "Container Video",
 				"type": "string",
+				"default": "https://",
 				"tab": "Content"
 			},
 			{
@@ -1128,7 +1129,7 @@
 				"id": "containerImage",
 				"label": "Container Image",
 				"type": "image",
-				"default": "/assets/pages/video-screen-4.png",
+				"default": { "url": "/assets/pages/video-screen-4.png" },
 				"tab": "Content"
 			}
 		]	
@@ -1738,6 +1739,7 @@
 				"id": "containerVideo",
 				"label": "Container Video",
 				"type": "string",
+				"default": "http://",
 				"tab": "Content"
 			},
 			{
