@@ -186,11 +186,11 @@ $(function (){
         }
     }
 
-    caseStudyFormHandler('#asset-form-wp01');
-    caseStudyFormHandler('#asset-form-cs01');
-    caseStudyFormHandler('#asset-form-cs02');
-    caseStudyFormHandler('#asset-form-cs03');
-    caseStudyFormHandler('#asset-form-cs04');
+    caseStudyFormHandler('#asset-form-wp01', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs01', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs02', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs03', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs04', 'asset-download-thank-you');
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
