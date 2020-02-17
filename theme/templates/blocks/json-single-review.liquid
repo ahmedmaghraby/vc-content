@@ -1,0 +1,31 @@
+<div class="block {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block__inner container">
+        <div class="review">
+            <div class="review__img {% if block.pictureIsRounded == 'True' %} review__img--rounded {% endif %}">
+                {% if block.picture != '' and block.picture.url != '' %}
+                    <img src="{{block.picture.url}}" title="{{block.picture.alt}}" />
+                {% endif %}
+            </div>
+            <div class="review__info">
+                {% if block.review != '' %}
+                    {% if block.reviewStyle == 'h1' %}
+                        <h1 class="review__text">{{block.review}}</h1>
+                    {% elsif block.reviewStyle == 'h2' %}
+                        <h2 class="review__text">{{block.review}}</h2>
+                    {% elsif block.reviewStyle == 'h3' %}
+                        <h3 class="review__text">{{block.review}}</h3>
+                    {% else %}
+                        <div class="review__text">{{block.review}}</div>
+                    {% endif %}
+                {% endif %}
+                <div class="review__links">
+                    <div class="review__links-item">{{block.nameOrCompany}}</div>
+                    <div class="review__links-item field">{{block.jobTitleOrField}}</div>
+                    <a href="{{block.siteUrl.url}}" class="review__links-item">{{block.siteUrl.urlText}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

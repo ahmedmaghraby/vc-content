@@ -613,6 +613,14 @@
 		{
 			flex: 0 0 7.5rem;
 			max-width: 7.5rem;
+
+            &--rounded
+            {
+                img
+                {
+                    border-radius: 2rem;
+                }
+            }
 		}
 
 		&__info

@@ -8129,6 +8129,10 @@ code {
     max-width: 7.5rem;
 }
 
+.block .review__img--rounded img {
+    border-radius: 2rem;
+}
+
 .block .review__info {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
