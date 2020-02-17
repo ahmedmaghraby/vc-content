@@ -21,12 +21,12 @@
                     <div class="block__media">
                         <div class="block-video">
                             {% if block.containerVideo != '' %}
-                            <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                {% if block.containerVideoThumbnail.url != '' %}
-                                <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
-                                <div class="block-video__action"></div>
-                                {% endif %}
-                            </a>
+                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
+                                    {% if block.containerVideoThumbnail != '' and block.containerVideoThumbnail.url != '' %}
+                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                                        <div class="block-video__action"></div>
+                                    {% endif %}
+                                </a>
                             {% endif %}
                         </div>
                     </div>
@@ -65,12 +65,12 @@
                     <div class="block__media">
                         <div class="block-video">
                             {% if block.containerVideo != '' %}
-                            <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                {% if block.containerVideoThumbnail.url != '' %}
-                                <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
-                                <div class="block-video__action"></div>
-                                {% endif %}
-                            </a>
+                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
+                                    {% if block.containerVideoThumbnail != '' and block.containerVideoThumbnail.url != '' %}
+                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                                        <div class="block-video__action"></div>
+                                    {% endif %}
+                                </a>
                             {% endif %}
                         </div>
                     </div>
