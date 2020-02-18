@@ -4894,10 +4894,7 @@ code {
 }
 
 .block .list-items .list__country-img {
-    background-color: #d3d3d3;
-    height: 3.125rem;
     margin-bottom: 1.25rem;
-    width: 12.5rem;
 }
 
 .block .list-items .list__country-img img {

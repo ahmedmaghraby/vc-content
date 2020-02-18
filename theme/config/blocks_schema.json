@@ -3083,5 +3083,197 @@
 				"tab": "Settings"
 			}
 		]
+	},
+	"two-columns-review": {
+		"id": "two-columns-review",
+		"name": "Two columns review",
+		"icon": "image-text",
+		"displayField": "review",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "companyLogo",
+						"type": "image",
+						"label": "Company logo"
+					},
+					{
+						"id": "companyTitle",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "site",
+						"type": "url",
+						"label": "Site URL",
+						"urlLabel": "Url",
+						"textLabel": "Text",
+						"styles": []
+					},
+					{
+						"id": "isCompany",
+						"label": "Item is company",
+						"type": "checkbox"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					},
+					{
+						"id": "name",
+						"type": "string",
+						"label": "Name"
+					},
+					{
+						"id": "jobTitle",
+						"type": "string",
+						"label": "Job title"
+					},
+					{
+						"id": "review",
+						"type": "text",
+						"label": "Review"
+					}
+				],
+				"default": [
+					{
+						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
+						"companyTitle": "Country or company name",
+						"site": {
+							"url": "www.site.com",
+							"urlText": "www.site.com"
+						},
+						"isCompany": true,
+						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					},
+					{
+						"image": { "url": "/assets/pages/quotes.svg" },
+						"name": "Name Surname",
+						"jobTitle": "Position",
+						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }
