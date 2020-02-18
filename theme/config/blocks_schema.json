@@ -3597,5 +3597,229 @@
 				"tab": "Settings"
 			}
 		]
+	},
+	"case-studies-in-columns": {
+		"id": "case-studies-in-columns",
+		"name": "Case studies in columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					},
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "button",
+						"label": "Button",
+						"type": "url",
+						"urlLabel": "Url",
+						"textLabel": "Button text",
+						"styleLabel": "Link style",
+						"styles": [
+							{
+								"value": "btn btn--black",
+								"label": "Black button"
+							},
+							{
+								"value": "btn btn--orange",
+								"label": "Orange button"
+							},
+							{
+								"value": "btn btn--white",
+								"label": "White button"
+							}
+						]
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }
