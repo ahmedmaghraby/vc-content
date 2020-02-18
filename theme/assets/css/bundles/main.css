@@ -7910,6 +7910,14 @@ code {
     justify-content: center;
 }
 
+.block .block__learn--white-title .block__t {
+    color: #fff;
+}
+
+.block .block__learn--black-title .block__t {
+    color: #0c1015;
+}
+
 @media (max-width: 575.98px) {
     .block .block__learn {
         -ms-flex-direction: column;

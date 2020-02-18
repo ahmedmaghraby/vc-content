@@ -387,6 +387,22 @@
 			justify-content: center;
 		}
 
+        &--white-title
+        {
+            .block__t
+            {
+                color: $white;
+            }
+        }
+
+        &--black-title
+        {
+            .block__t
+            {
+                color: $black;
+            }
+        }
+
 		@include media-breakpoint-down(xs) {
 			&--center
 			{
