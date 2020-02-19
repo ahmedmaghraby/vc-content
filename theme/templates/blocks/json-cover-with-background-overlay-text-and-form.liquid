@@ -53,25 +53,27 @@
                                     <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
                                     <select class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" {% if item.required == 'True' %}required{% endif %}>
                                         {% for option in item.selectOptions %}
-                                        <option value="{{option.value}}" {% if forloop.index == 0 %} selected {% endif %}>{{option.label}}</option>
+                                            <option value="{{option.value}}" {% if forloop.index == 0 %} selected {% endif %}>{{option.label}}</option>
                                         {% endfor %}
                                     </select>
                                 </div>
                             {% elsif item.fieldType == 'radio' %}
-                                <div class="radio-list">
-                                    {% for radio in item.radioListItems %}
-                                        {% assign itemClass = 'item' %}
-                                        {% if forloop.index == 1 %}
-                                            {% assign itemClass = 'item item--selected' %}
-                                        {% endif %}
-                                        <div class="radio-list__item">
-                                            <input class="radio-list__input" type="radio" {% if item.fieldId != '' %}id="{{item.fieldId}}"{% endif %} name="{{item.fieldName}}" value="{{radio.formValue}}">
-                                            <label class="radio-list__label" {% if item.fieldId != '' %}for="{{item.fieldId}}"{% endif %}>
-                                                <span class="radio-list__t">{{radio.title}}</span>
-                                                <span class="radio-list__descr">{{radio.text}}</span>
-                                            </label>
-                                        </div>
-                                    {% endfor %}
+                                <div class="form-group">
+                                    <div class="radio-list">
+                                        {% for radio in item.radioListItems %}
+                                            {% assign itemClass = 'item' %}
+                                            {% if forloop.index == 1 %}
+                                                {% assign itemClass = 'item item--selected' %}
+                                            {% endif %}
+                                            <div class="radio-list__item">
+                                                <input class="radio-list__input" type="radio" {% if item.fieldId != '' %}id="{{item.fieldId}}"{% endif %} name="{{item.fieldName}}" value="{{radio.formValue}}">
+                                                <label class="radio-list__label" {% if item.fieldId != '' %}for="{{item.fieldId}}"{% endif %}>
+                                                    <span class="radio-list__t">{{radio.title}}</span>
+                                                    <span class="radio-list__descr">{{radio.text}}</span>
+                                                </label>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
                                 </div>
                             {% elsif item.fieldType == 'button' %}
                                 <input type="submit" class="{{block.containerFormButtonColour}}" value="{{item.labelText}}" />
@@ -81,7 +83,7 @@
                                     <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}" {% if item.required == 'True' %}required{% endif %}></textarea>
                                 </div>
                             {% endif %}
-                            {% if item.agreeTermsMessage %}
+                            {% if item.fieldType == 'checkbox' and item.required == 'True' %}
                                 <span style="display:none;margin-top: 1rem" style="display:none" class="form-error--highlight field-validation-error" data-valmsg-for="agree" data-valmsg-replace="true"><span id="agree-error" class="">Please agree with our terms</span></span>
                             {% endif %}
                         {% endfor %}

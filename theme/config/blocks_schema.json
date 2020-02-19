@@ -742,7 +742,7 @@
                     {
                         "id": "labelText",
                         "label": "Label text",
-                        "type": "string"
+                        "type": "text"
                     },
                     {
                         "id": "placeholder",
@@ -799,25 +799,22 @@
                                 "label": "Value"
                             }
 						]
-					},
-                    {
-                        "id": "agreeTermsMessage",
-                        "label": "Use agree terms",
-                        "type": "checkbox"
-                    }
+					}
                 ],
                 "default": [
                     {
                         "fieldName": "fullname",
                         "fieldId": "fullname",
                         "fieldType": "text",
-                        "labelText": "Full name"
+                        "labelText": "Full name",
+						"placeholder": "Enter your name"
                     },
                     {
                         "fieldName": "email",
                         "fieldId": "email",
                         "fieldType": "text",
-                        "labelText": "Email"
+                        "labelText": "Email",
+						"placeholder": "Enter your email"
                     },
                     {
                         "fieldName": "agree",
