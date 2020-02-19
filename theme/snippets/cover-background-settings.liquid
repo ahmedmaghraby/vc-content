@@ -1,0 +1,5 @@
+block--cover {{block.backgroundColor}} {{block.backgroundScrollEffect}}
+{% if block.backgroundOverlayColor != 'none' %} {{block.backgroundScrollEffect}}{{block.backgroundOverlayColor}} {% endif %}
+{% if block.backgroundOverlayColorHex != '' %} has-hex-{{counter}} {% endif %}"
+{% if block.backgroundColorHex != '' and block.background == '' or block.background.url == '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}
+{% if block.background != '' and block.background.url != '' %} style="background-image: url('{{block.background.url}}')" {% endif %}

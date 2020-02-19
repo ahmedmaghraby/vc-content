@@ -969,30 +969,14 @@
 		background-attachment: fixed;
     }
 
-    &-static {
+    &-static
+    {
     	background-attachment: scroll;
     }
 
     &-fixed,
     &-static
     {
-    	.block__inner
-	    {
-	    	color: $white;
-	    }
-
-    	&::after
-	    {
-	        background: rgba(0,0,0,.7);
-	        bottom: 0;
-	        content: ' ';
-	        left: 0;
-	        position: absolute;
-	        right: 0;
-	        top: 0;
-	        z-index: 5;
-	    }
-
         &--black
         {
             .block__inner
@@ -1003,6 +987,13 @@
     	    &::after
 	        {
 	            background: rgba(0,0,0,.7);
+                bottom: 0;
+	            content: ' ';
+	            left: 0;
+	            position: absolute;
+	            right: 0;
+	            top: 0;
+	            z-index: 5;
 	        }
         }
 
@@ -1016,6 +1007,13 @@
     	    &::after
 	        {
 	            background: rgba(255,255,255,.7);
+                bottom: 0;
+	            content: ' ';
+	            left: 0;
+	            position: absolute;
+	            right: 0;
+	            top: 0;
+	            z-index: 5;
 	        }
         }
     }

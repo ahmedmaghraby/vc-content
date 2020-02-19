@@ -1,0 +1,15 @@
+{% assign counter = counter | plus: 1 %}
+<style>
+    .has-hex-{{counter}}:after
+    {
+        background: {{block.backgroundOverlayColorHex}};
+        opacity:.7;
+        bottom: 0;
+	    content: ' ';
+	    left: 0;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    z-index: 5;
+    }
+</style>

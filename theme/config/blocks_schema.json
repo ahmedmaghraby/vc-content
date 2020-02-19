@@ -165,12 +165,8 @@
 				"id": "backgroundColor",
 				"label": "Background color",
 				"type": "select",
-				"default": "none",
+				"default": "block--bg-white",
 				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
 					{
 						"value": "block--bg-white",
 						"label": "White"
@@ -223,12 +219,8 @@
 				"id": "backgroundScrollEffect",
 				"label": "Background scroll effect",
 				"type": "select",
-				"default": "block--cover",
+				"default": "block--cover-static",
 				"options": [
-					{
-						"value": "block--cover",
-						"label": "None"
-					},
 					{
 						"value": "block--cover-fixed",
 						"label": "Fixed"
@@ -377,12 +369,8 @@
 				"id": "backgroundColor",
 				"label": "Background color",
 				"type": "select",
-				"default": "none",
+				"default": "block--bg-white",
 				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
 					{
 						"value": "block--bg-white",
 						"label": "White"
@@ -435,12 +423,8 @@
 				"id": "backgroundScrollEffect",
 				"label": "Background scroll effect",
 				"type": "select",
-				"default": "block--cover",
+				"default": "block--cover-static",
 				"options": [
-					{
-						"value": "block--cover",
-						"label": "None"
-					},
 					{
 						"value": "block--cover-fixed",
 						"label": "Fixed"
@@ -586,12 +570,8 @@
 				"id": "backgroundColor",
 				"label": "Background color",
 				"type": "select",
-				"default": "none",
+				"default": "block--bg-white",
 				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
 					{
 						"value": "block--bg-white",
 						"label": "White"
@@ -644,12 +624,8 @@
 				"id": "backgroundScrollEffect",
 				"label": "Background scroll effect",
 				"type": "select",
-				"default": "block--cover",
+				"default": "block--cover-static",
 				"options": [
-					{
-						"value": "block--cover",
-						"label": "None"
-					},
 					{
 						"value": "block--cover-fixed",
 						"label": "Fixed"
@@ -941,12 +917,8 @@
 				"id": "backgroundColor",
 				"label": "Background color",
 				"type": "select",
-				"default": "none",
+				"default": "block--bg-white",
 				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
 					{
 						"value": "block--bg-white",
 						"label": "White"
@@ -999,12 +971,8 @@
 				"id": "backgroundScrollEffect",
 				"label": "Background scroll effect",
 				"type": "select",
-				"default": "block--cover",
+				"default": "block--cover-static",
 				"options": [
-					{
-						"value": "block--cover",
-						"label": "None"
-					},
 					{
 						"value": "block--cover-fixed",
 						"label": "Fixed"
