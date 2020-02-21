@@ -3,14 +3,14 @@
 	align-items: center;
 	display: flex;
 	font-family: Helvetica, sans-serif;
-	padding: 6.25rem 3.75rem;
+	padding: 3.75rem 6.25rem;
 
 	.w-100
 	{
 		width: 100%;
 	}
 
-	@include media-breakpoint-down(md) {
+	@include media-breakpoint-down(sm) {
 		padding: 1.25rem;
 
 		.container
@@ -159,12 +159,6 @@
 		flex-direction: column;
 		position: relative;
 		z-index: 10;
-	}
-
-	.block__t,
-	.block__descr
-	{
-		@extend %max-with-text;
 	}
 
 	&__note
@@ -506,7 +500,7 @@
 	{
 		border-radius: 0.3125rem;
 		flex: 0 0 28.75rem;
-		width: 28.75rem;
+		width: 25rem;
 
 		@include media-breakpoint-down(sm) {
 			flex-basis: auto;
@@ -579,14 +573,15 @@
 			.block__media,
 			.block__text
 			{
-				margin-right: 3.75rem;
+				margin-right: 1.75rem;
 
 				@include media-breakpoint-down(md) {
-					margin-right: 0;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
 				@include media-breakpoint-up(xl) {
-					margin-right: 6.25rem;
+					margin-right: 3.75rem;
 				}
 			}
 		}
@@ -597,14 +592,15 @@
 			.block__media,
 			.block__text
 			{
-				margin-left: 3.75rem;
+				margin-left: 1.25rem;
 
 				@include media-breakpoint-down(md) {
-					margin-left: 0;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
 				@include media-breakpoint-up(xl) {
-					margin-left: 6.25rem;
+					margin-left: 3.75rem;
 				}
 			}
 		}
@@ -892,6 +888,12 @@
 	.list-partners
 	{
 		@extend %list-partners;
+	}
+
+	// List images
+	.list-images
+	{
+		@extend %list-images;
 	}
 
 	.list-items,

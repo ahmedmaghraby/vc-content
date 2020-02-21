@@ -196,7 +196,7 @@
     {
         display: block;
         margin-bottom: 1.25rem;
-        max-height: 3.125rem;
+        height: 3.125rem;
         max-width: 3.125rem;
     }
 
@@ -207,7 +207,6 @@
         border: 0.1875rem solid $orange;
         border-radius: 3.125rem;
         display: flex;
-        height: 3.125rem;
         justify-content: center;
         width: 3.125rem;
 
@@ -508,20 +507,10 @@
         align-items: center;
         display: flex;
         height: 3.125rem;
-        justify-content: center;
+        justify-content: flex-start;
         position: relative;
-
-        &::after
-        {
-            background-color: #ddd;
-            bottom: 0;
-            content: ' ';
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
     }
+
     .list__pic
     {
         display: block;
@@ -530,7 +519,26 @@
         z-index: 5;
     }
 
+    &.list-partners--centered
+    {
+    	.list__img
+    	{
+    		justify-content: center;
+    	}
+    }
+
+    &.list-partners--bordered
+    {
+    	.list__img
+    	{
+    		border: 1px solid $gray-200;
+    		justify-content: center;
+    	}
+    }
+
     @include media-breakpoint-down(md) {
+    	margin-bottom: -1.25rem;
+
         .list__item
         {
             flex: 0 0 33.3333%;
@@ -540,8 +548,6 @@
     }
 
     @include media-breakpoint-down(xs) {
-        margin: 0 -1.25rem -1.25rem;
-
         .list__item
         {
             flex: 0 0 100%;
@@ -561,6 +567,52 @@
         {
             flex: 0 0 20%;
             max-width: 20%;
+        }
+    }
+}
+
+%list-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    width: 100%;
+
+    .list__item
+    {
+        flex-basis: 0;
+        flex-grow: 1;
+        padding: 0 1rem;
+        width: 33.3333%;
+    }
+
+    .list__img
+    {
+        background-position: 50%;
+        background-size: cover;
+        height: 15rem;
+        overflow: hidden;
+
+        &--big
+        {
+            height: 24rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        margin: 0;
+
+        .list__item
+        {
+            flex-basis: auto;
+            margin-bottom: 1rem;
+            padding: 0;
+            width: 100%;
+        }
+
+        .list__img
+        {
+            height: 20rem;
         }
     }
 }
