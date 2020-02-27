@@ -546,6 +546,12 @@
 				"tab": "Settings"
 			},
 			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
 				"id": "containerFormButtonColour",
 				"label": "Container Form Button Colour",
 				"type": "select",
@@ -721,6 +727,14 @@
                                 "value": "checkbox",
                                 "label": "Checkbox"
                             },
+							{
+								"value": "email",
+								"label": "Email"
+							},
+							{
+								"value": "phone",
+								"label": "Phone"
+							},
                             {
                                 "value": "radio",
                                 "label": "Radio"
@@ -742,7 +756,7 @@
                     {
                         "id": "labelText",
                         "label": "Label text",
-                        "type": "text"
+                        "type": "string"
                     },
                     {
                         "id": "placeholder",
@@ -755,6 +769,11 @@
                         "label": "Required field",
                         "type": "checkbox"
                     },
+					{
+						"id": "validationMessage",
+						"label": "Validation message",
+						"type": "string"
+					},
                     {
                         "id": "radioListItems",
                         "label": "Radio items",
@@ -773,10 +792,15 @@
                                 "type": "string",
                                 "label": "Text"
                             },
+							{
+								"id": "id",
+								"type": "string",
+								"label": "Id"
+							},
                             {
-                                "id": "formValue",
+                                "id": "value",
                                 "type": "string",
-                                "label": "Form value"
+                                "label": "Value"
                             }
                         ]
                     },
@@ -820,7 +844,8 @@
                         "fieldName": "agree",
                         "fieldId": "agree",
                         "fieldType": "checkbox",
-                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.",
+						"validationMessage": "Please agree with our terms"
                     },
                     {
                         "fieldType": "button",

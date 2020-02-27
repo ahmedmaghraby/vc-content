@@ -173,6 +173,21 @@ $(function (){
         });
     }
 
+    var blockForms = $('.block .form');
+    if (blockForms.length) {
+        blockForms.submit(function (obj) {
+            if ($(obj.target).valid()) {
+                var redirectUrl = obj.target.dataset.targetUrl;
+                if (redirectUrl && redirectUrl != '') {
+                    document.location.href = redirectUrl;
+                }
+                return true;
+            } else {
+                $(obj.target).find('.form-error').show();
+            }
+        });
+    }
+
 	
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&

@@ -36,17 +36,41 @@
                 
             <div class="col-lg-auto">
                 <div class="block__form">
-                    <form {% if block.formId != '' %}id="{{block.formId}}"{% endif %} {% if block.formName != '' %}name="{{block.formName}}"{% endif %} class="form">
+                    <form class="form" {% if block.formId != '' %}id="{{block.formId}}" data-segment-name="{{block.formId}}"{% endif %}
+                    {% if block.formName != '' %}name="{{block.formName}}"{% endif %}
+                    {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
                         {% for item in block.formFields %}
                             {% if item.fieldType == 'text' %}
                                 <div class="form-group">
                                     <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                                    <input {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}" type="text" class="form-control" {% if item.required == 'True' %}required{% endif %} />
+                                    <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                           placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %} />
+                                    {% include 'form-validation-message' inputItem: item %}
+                                </div>
+                            {% elsif item.fieldType == 'email' %}
+                                <div class="form-group">
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                    <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                           placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
+                                           data-val-email="{{item.labelText}} is invalid" />
+                                    {% include 'form-validation-message' inputItem: item %}
+                                </div>
+                            {% elsif item.fieldType == 'phone' %}
+                                <div class="form-group">
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                    <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                           placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
+                                           data-val-regex="{{item.labelText}} is invalid" data-val-regex-pattern="[0-9]{11,}" />
+                                    {% include 'form-validation-message' inputItem: item %}
                                 </div>
                             {% elsif item.fieldType == 'checkbox' %}
                                 <div class="form-group">
-                                    <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} {% if item.required == 'True' %}required{% endif %} />
+                                    <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} {% if item.fieldName != '' %} name="{{item.fieldName}}" {% endif %}
+                                    {% if item.required == 'True' %}
+                                        data-val="true" data-val-mandatory="{% if item.validationMessage == '' %} Please choose this checkbox {% else %} {{item.validationMessage}} {% endif %}"
+                                    {% endif %} />
                                     <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                    {% include 'form-validation-message' inputItem: item %}
                                 </div>
                             {% elsif item.fieldType == 'select' %}
                                 <div class="form-group">
@@ -61,30 +85,27 @@
                                 <div class="form-group">
                                     <div class="radio-list">
                                         {% for radio in item.radioListItems %}
-                                            {% assign itemClass = 'item' %}
-                                            {% if forloop.index == 1 %}
-                                                {% assign itemClass = 'item item--selected' %}
-                                            {% endif %}
                                             <div class="radio-list__item">
-                                                <input class="radio-list__input" type="radio" {% if item.fieldId != '' %}id="{{item.fieldId}}"{% endif %} name="{{item.fieldName}}" value="{{radio.formValue}}">
-                                                <label class="radio-list__label" {% if item.fieldId != '' %}for="{{item.fieldId}}"{% endif %}>
+                                                <input class="radio-list__input" type="radio" id="{{radio.id}}" name="{{item.fieldId}}" value="{{radio.value}}"
+                                                {% include 'input-validation-attributes' inputItem: item %} />
+                                                <label class="radio-list__label" for="{{radio.id}}">
                                                     <span class="radio-list__t">{{radio.title}}</span>
                                                     <span class="radio-list__descr">{{radio.text}}</span>
                                                 </label>
                                             </div>
                                         {% endfor %}
                                     </div>
+                                    {% include 'form-validation-message' inputItem: item %}
                                 </div>
                             {% elsif item.fieldType == 'button' %}
                                 <input type="submit" class="{{block.containerFormButtonColour}}" value="{{item.labelText}}" />
                             {% elsif item.fieldType == 'textarea' %}
                                 <div class="form-group">
                                     <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                                    <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}" {% if item.required == 'True' %}required{% endif %}></textarea>
+                                    <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}"
+                                    {% include 'input-validation-attributes' inputItem: item %}></textarea>
+                                    {% include 'form-validation-message' inputItem: item %}
                                 </div>
-                            {% endif %}
-                            {% if item.fieldType == 'checkbox' and item.required == 'True' %}
-                                <span style="display:none;margin-top: 1rem" style="display:none" class="form-error--highlight field-validation-error" data-valmsg-for="agree" data-valmsg-replace="true"><span id="agree-error" class="">Please agree with our terms</span></span>
                             {% endif %}
                         {% endfor %}
                     </form>
