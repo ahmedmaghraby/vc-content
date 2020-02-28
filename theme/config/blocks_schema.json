@@ -1529,21 +1529,21 @@
 				"id": "title",
 				"label": "Title",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
-				"default": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content"
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text",
+				"default": "Our company",
 				"tab": "Content"
 			},
 			{
@@ -1569,7 +1569,7 @@
                 ],
 				"default": {
 					"url": "",
-					"urlText": "",
+					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
 				"tab": "Content"
@@ -1683,7 +1683,7 @@
 				"id": "titleStyle",
 				"label": "Title style",
 				"type": "select",
-				"default": "h2",
+				"default": "div",
 				"options": [
 					{
 						"value": "h1",
@@ -1708,7 +1708,7 @@
 				"id": "containerMediaAlignment",
 				"label": "Container Media Alignment",
 				"type": "select",
-				"default": "left",
+				"default": "right",
 				"options": [
 					{
 						"value": "left",
