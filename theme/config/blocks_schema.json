@@ -1747,7 +1747,7 @@
 				"id": "columnsCount",
 				"label": "Columns count",
 				"type": "select",
-				"default": "2",
+				"default": "3",
 				"options": [
 					{
 						"value": "2",
@@ -1775,7 +1775,7 @@
 				"id": "iconsType",
 				"label": "Icons type",
 				"type": "select",
-				"default": "none",
+				"default": "numbers",
 				"options": [
 					{
 						"value": "none",
@@ -1807,7 +1807,7 @@
 				"id": "titleStyle",
 				"label": "Title style",
 				"type": "select",
-				"default": "h2",
+				"default": "div",
 				"options": [
 					{
 						"value": "h1",
@@ -1908,13 +1908,14 @@
 				"id": "title",
 				"label": "Title",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content"
 			},
 			{
@@ -1960,26 +1961,33 @@
 								"value": "btn btn--white",
 								"label": "White button"
 							}
-						],
-						"default": {
-							"url": "",
-							"urlText": "",
-							"style": "btn btn--orange"
-						}
+						]
 					}
 				],
 				"default": [
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					},
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					},
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					}
 				],
 				"tab": "Content"
