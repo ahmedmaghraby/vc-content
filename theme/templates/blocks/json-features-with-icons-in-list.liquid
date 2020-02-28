@@ -20,7 +20,7 @@
                         {% endif %}
                         {% if block.iconsType == 'images' %}
                             {% if item.image.url != '' %}
-                                <img src="{{item.image.url}}" alt="" class="list__ico">
+                                <img src="{{item.image.url}}" alt="" class="list__ico" />
                             {% endif %}
                         {% endif %}
                         {% if item.title != '' %}
@@ -28,6 +28,12 @@
                         {% endif %}
                         {% if item.subtitle != '' %}
                             <div class="list__descr">{{item.subtitle}}</div>
+                        {% endif %}
+                        {% if item.button != '' and item.button.urlText != '' %}
+                            <div class="block__space"></div>
+                            <div class="block__actions">
+                                <a href="{{item.button.url}}" class="{{item.button.style}}" {% if item.buttonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{item.button.urlText}}</a>
+                            </div>
                         {% endif %}
                     </div>
                 {% endfor %}

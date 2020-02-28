@@ -2010,13 +2010,14 @@
 				"id": "title",
 				"label": "Title",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content"
 			},
 			{
@@ -2041,20 +2042,57 @@
 						"id": "image",
 						"type": "image",
 						"label": "Item image"
+					},
+					{
+						"id": "button",
+						"label": "Button",
+						"type": "url",
+						"urlLabel": "Url",
+						"textLabel": "Button text",
+						"styleLabel": "Link style",
+						"styles": [
+							{
+								"value": "btn btn--black",
+								"label": "Black button"
+							},
+							{
+								"value": "btn btn--orange",
+								"label": "Orange button"
+							},
+							{
+								"value": "btn btn--white",
+								"label": "White button"
+							}
+						]
 					}
 				],
 				"default": [
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					},
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					},
 					{
 						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
 					}
 				],
 				"tab": "Content"
