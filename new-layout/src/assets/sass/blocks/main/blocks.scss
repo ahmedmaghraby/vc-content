@@ -278,6 +278,12 @@
 		{
 			justify-content: center;
 		}
+
+		.list-items--reviews.list-items .list__img
+		{
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 	&--align-right .block__inner
@@ -424,8 +430,16 @@
 		align-items: center;
 		display: flex;
 		flex-direction: column;
+		flex-wrap: wrap;
 		margin-bottom: 1rem;
+		max-width: 36rem;
 		min-width: 20rem;
+
+		&__divider
+		{
+			margin: 0.25rem 0;
+			width: 100%;
+		}
 
 		.form-group
 		{
@@ -449,14 +463,14 @@
 		.form-control
 		{
 			margin-bottom: 0.625rem;
-			min-width: 15.625rem;
+			min-width: 12rem;
+			width: auto;
 		}
 
 		.btn
 		{
             font-weight: bold;
 			margin-bottom: 0.625rem;
-			width: 100%;
 		}
 
 		&--inline
@@ -469,6 +483,18 @@
 				{
 					margin-right: 0.625rem;
 				}
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			min-width: 0;
+			width: 100%;
+
+			.form-control,
+			.btn
+			{
+				margin-right: 0;
+				width: 100%;
 			}
 		}
 	}

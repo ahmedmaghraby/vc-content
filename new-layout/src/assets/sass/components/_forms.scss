@@ -169,6 +169,7 @@ textarea
 .form-checkbox
 {
     display: inline-block;
+    user-select: none;
 
     &__input
     {
@@ -179,7 +180,7 @@ textarea
 
         &:checked ~ .form-checkbox__label::after
         {
-            background-position: 60% 50%;
+            background-position: 55% 50%;
             background-repeat: no-repeat;
             background-image: url($tpl-img-url + 'page/request/check.svg');
         }
@@ -193,9 +194,11 @@ textarea
     &__label
     {
         cursor: pointer;
+        display: block;
         font-size: .875rem;
         position: relative;
         padding-left: 2rem;
+        padding-top: 0.125rem;
 
         &::after,
         &::before
