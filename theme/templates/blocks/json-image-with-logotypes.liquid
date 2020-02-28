@@ -14,7 +14,11 @@
                     <div class="block__t">{{block.title}}</div>
                 {% endif %}
             {% endif %}
-            <div class="block__space block__space--size-lg"></div>
+            {% if block.subtitle != '' %}
+                <div class="block__space"></div>
+                <div class="block__descr">{{block.subtitle}}</div>
+                <div class="block__space block__space--size-lg"></div>
+            {% endif %}
         </div>
 
         {% if block.logotypes.size > 0 %}
