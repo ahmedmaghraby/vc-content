@@ -2231,13 +2231,14 @@
 				"id": "title",
 				"label": "Title",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content"
 			},
 			{
@@ -2347,14 +2348,14 @@
 				"id": "carousel",
 				"label": "Carousel (mobile)",
 				"type": "checkbox",
-				"default": false,
+				"default": true,
 				"tab": "Settings"
 			},
 			{
 				"id": "containerAlignment",
 				"label": "Container Alignment",
 				"type": "select",
-				"default": "block--align-left",
+				"default": "block--align-center",
 				"options": [
 					{
 						"value": "block--align-left",
@@ -2371,7 +2372,7 @@
 				"id": "titleStyle",
 				"label": "Title style",
 				"type": "select",
-				"default": "h2",
+				"default": "div",
 				"options": [
 					{
 						"value": "h1",
