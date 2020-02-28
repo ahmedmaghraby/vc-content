@@ -3191,19 +3191,19 @@
 				"default": [
 					{
 						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
-						"companyTitle": "Country or company name",
+						"companyTitle": "Lavazza",
 						"site": {
-							"url": "www.site.com",
-							"urlText": "www.site.com"
+							"url": "https://www.lavazza.com",
+							"urlText": "www.lavazza.com"
 						},
 						"isCompany": true,
-						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
 					},
 					{
 						"image": { "url": "/assets/pages/quotes.png" },
-						"name": "Name Surname",
-						"jobTitle": "Position",
-						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
 					}
 				],
 				"tab": "Content"
