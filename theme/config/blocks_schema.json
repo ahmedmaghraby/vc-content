@@ -2748,13 +2748,14 @@
 				"id": "title",
 				"label": "Title",
 				"type": "string",
-				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content"
 			},
 			{
@@ -2794,24 +2795,24 @@
 				"default": [
 					{
 						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Name Surname",
-						"jobTitle": "Position",
-						"company": "Company",
-						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"company": "Lavazza",
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
 					},
 					{
 						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Name Surname",
-						"jobTitle": "Position",
-						"company": "Company",
-						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"name": "Dmitry M",
+						"jobTitle": "Managing Director",
+						"company": "Kitmall",
+						"review": "Virto Commerce let us reduce the number of people involved in management of promotions from six to one. We don't depend on IT guys anymore, and everybody benefits from this"
 					},
 					{
 						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Name Surname",
-						"jobTitle": "Position",
-						"company": "Company",
-						"review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+						"name": "Andreas K",
+						"jobTitle": "Management Consulting",
+						"company": "Caromba",
+						"review": "Scalable open source e-commerce platform in the (Azure) cloud for companies that want to be unique"
 					}
 				],
 				"tab": "Content"
@@ -2934,7 +2935,7 @@
 				"id": "titleStyle",
 				"label": "Title style",
 				"type": "select",
-				"default": "h2",
+				"default": "div",
 				"options": [
 					{
 						"value": "h1",
