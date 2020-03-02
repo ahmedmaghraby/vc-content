@@ -4470,5 +4470,297 @@
 				"tab": "Settings"
 			}
 		]
+	},
+	"inline-form": {
+		"id": "inline-form",
+		"name": "Inline form",
+		"icon": "image-text",
+		"displayField": "title",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "formFields",
+                "label": "Container Form",
+                "type": "list",
+                "addText": "Add field",
+                "removeText": "Remove field",
+                "displayField": "labelText",
+                "element": [
+                    {
+                        "id": "fieldName",
+                        "label": "Field name",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "Field ID",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldType",
+                        "label": "Type",
+                        "type": "select",
+                        "default": "text",
+                        "options": [
+							{
+                                "value": "button",
+                                "label": "Button"
+                            },
+							{
+                                "value": "checkbox",
+                                "label": "Checkbox"
+                            },
+							{
+								"value": "email",
+								"label": "Email"
+							},
+							{
+								"value": "phone",
+								"label": "Phone"
+							},
+                            {
+                                "value": "text",
+                                "label": "Text"
+                            }
+                        ]
+                    },
+					{
+						"id": "labelText",
+						"label": "Label text",
+						"type": "string"
+					},
+                    {
+                        "id": "placeholder",
+                        "label": "Placeholder",
+                        "type": "string"
+                    },
+                    {
+                        "id": "required",
+                        "label": "Required field",
+                        "type": "checkbox"
+                    },
+					{
+						"id": "checkboxValidationMessage",
+						"label": "Checkbox validation message",
+						"type": "string"
+					}
+                ],
+                "default": [
+                    {
+                        "fieldName": "email",
+                        "fieldType": "email",
+						"required": true,
+						"placeholder": "Email"
+                    },
+                    {
+                        "fieldType": "button",
+                        "labelText": "Call to action"
+                    },
+                    {
+						"fieldId": "agree",
+                        "fieldName": "agree",
+                        "fieldType": "checkbox",
+						"required": true,
+						"checkboxValidationMessage": "Please agree with our terms",
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                    }
+                ],
+                "tab": "Content"
+            },
+			{
+				"id": "containerFormButtonColour",
+				"label": "Container Form Button Colour",
+				"type": "select",
+				"default": "btn btn--orange",
+				"options": [
+					{
+						"value": "btn btn--black",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white",
+						"label": "White"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings"
+			},
+			{
+				"id": "formName",
+				"label": "Form name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "--black",
+						"label": "Black"
+					},
+					{
+						"value": "--white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
 	}
 }
