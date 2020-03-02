@@ -86,6 +86,7 @@
     "name": "Form Case Study",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -238,6 +239,7 @@
     "name": "Thank you",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -331,6 +333,7 @@
     "name": "Decorated hero",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Decorations",
     "settings": [
       {
         "id": "name",
@@ -412,6 +415,7 @@
     "name": "List and text",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -685,6 +689,7 @@
     "name": "Image with text",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -891,6 +896,7 @@
     "name": "Replatform form",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -1035,6 +1041,7 @@
     "name": "Text over image",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -1181,6 +1188,7 @@
     "name": "Cards list",
     "icon": "text-columns",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -1382,6 +1390,7 @@
     "name": "Cards list (test)",
     "icon": "text-columns",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -1611,6 +1620,7 @@
     "name": "Simple text",
     "icon": "text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -1784,6 +1794,7 @@
     "name": "Two columns text",
     "icon": "text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -1941,6 +1952,7 @@
   "list-with-images": {
     "name": "List with images",
     "icon": "text-columns",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -2224,6 +2236,7 @@
     "name": "Text with button",
     "icon": "text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -2320,6 +2333,7 @@
   "image": {
     "name": "Simple image",
     "icon": "image",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -2409,7 +2423,8 @@
   },
   "video": {
     "name": "Video and text",
-    "icon": "image",
+	"icon": "image",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -2536,6 +2551,7 @@
     "name": "Download Case studies form",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -2656,6 +2672,7 @@
     "name": "Request Demo Form",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -2728,6 +2745,7 @@
     "name": "Custom Form",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -2937,6 +2955,7 @@
     "name": "Divider",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Decorations",
     "settings": [
       {
         "id": "name",
@@ -2988,6 +3007,7 @@
     "name": "Business Leaders",
     "icon": "image-text",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -3039,6 +3059,7 @@
     "hide": true,
     "name": "Image with text overlay",
     "icon": "fas fa-file-contract",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -3119,6 +3140,7 @@
     "hide": true,
     "name": "Text columns with images",
     "icon": "text-columns",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -3257,6 +3279,7 @@
     "name": "Image carousel",
     "icon": "image-carousel",
     "displayField": "name",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -3323,6 +3346,7 @@
     "name": "Contacts form",
     "icon": "contacts-form",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -3384,6 +3408,7 @@
     "name": "Text with form",
     "icon": "text-with-form",
     "displayField": "name",
+	"category": "Forms",
     "settings": [
       {
         "id": "name",
@@ -3427,6 +3452,7 @@
     "hide": true,
     "name": "Images layout",
     "icon": "far fa-file-image",
+	"category": "Content",
     "settings": [
       {
         "id": "name",
@@ -3523,6 +3549,7 @@
   "technologies-list": {
     "name": "Technologies List",
     "icon": "category",
+	"category": "Content",
     "settings": [
       {
         "id": "style",
