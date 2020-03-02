@@ -8,7 +8,7 @@ tags:
   - 'b2b e commerce'
   - 'what is b2b e-commerce'
   - 'b2b ecommerce examples'
-title: 'What is business to business e commerce - B2B ecommerce definition | Glossary Virto Commerce.'
+title: 'What is business to business e commerce - B2B ecommerce definition & examples'
 
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
@@ -20,7 +20,7 @@ title: 'What is business to business e commerce - B2B ecommerce definition | Glo
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">What is business to business e commerce? B2B e-commerce examples</h1>
             </div>
-            <p class="glosary-date">Updated: March 30, 2018 | Virtocommerce | 0 Comments</p>
+            <p class="glosary-date">Updated: February 13, 2020 | Ilse Lauwens, Marketing Director</p>
             <div class="glosary-article">
                 <p class="text">B2B ecommerce has become vital to the global economy. Following the most recent predictions, by 2020, all B2B ecommerce revenue will be around 6.7 trillion USD by 2020. We can see that this prediction can even be an underestimate, taking into the account the <a href="{{ '/glossary/b2b-ecommerce-trends' | absolute_url }}"> rapid market growth</a> which is viewed in the past years and the amount of $5.7 trillion in revenue in 2014.</p>
                 <figure style="text-align: center;">
