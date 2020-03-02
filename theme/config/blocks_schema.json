@@ -821,7 +821,17 @@
                                 "id": "value",
                                 "type": "string",
                                 "label": "Value"
-                            }
+                            },
+							{
+								"id": "isSelected",
+								"type": "checkbox",
+								"label": "Selected"
+							},
+							{
+								"id": "isDisabled",
+								"type": "checkbox",
+								"label": "Disabled"
+							}
 						]
 					}
                 ],
@@ -4261,7 +4271,17 @@
                                 "id": "value",
                                 "type": "string",
                                 "label": "Value"
-                            }
+                            },
+							{
+								"id": "isSelected",
+								"type": "checkbox",
+								"label": "Selected"
+							},
+							{
+								"id": "isDisabled",
+								"type": "checkbox",
+								"label": "Disabled"
+							}
 						]
 					}
                 ],
@@ -4929,7 +4949,17 @@
                                 "id": "value",
                                 "type": "string",
                                 "label": "Value"
-                            }
+                            },
+							{
+								"id": "isSelected",
+								"type": "checkbox",
+								"label": "Selected"
+							},
+							{
+								"id": "isDisabled",
+								"type": "checkbox",
+								"label": "Disabled"
+							}
 						]
 					}
                 ],

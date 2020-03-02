@@ -75,11 +75,7 @@
                             {% elsif item.fieldType == 'select' %}
                                 <div class="form-group">
                                     <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                                    <select class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" {% if item.required == 'True' %}required{% endif %}>
-                                        {% for option in item.selectOptions %}
-                                            <option value="{{option.value}}" {% if forloop.index == 0 %} selected {% endif %}>{{option.label}}</option>
-                                        {% endfor %}
-                                    </select>
+                                    {% include 'select-form-input' inputItem: item %}
                                 </div>
                             {% elsif item.fieldType == 'radio' %}
                                 <div class="form-group">
