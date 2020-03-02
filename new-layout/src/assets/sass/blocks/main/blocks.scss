@@ -464,7 +464,6 @@
 		{
 			margin-bottom: 0.625rem;
 			min-width: 12rem;
-			width: auto;
 		}
 
 		.btn
@@ -477,11 +476,19 @@
 		{
 			align-items: flex-start;
 			flex-direction: row;
+			justify-content: center;
 
 			@include media-breakpoint-up(sm) {
-			.form-control
+				.form-control
 				{
+					flex-basis: 0;
+					flex-grow: 1;
 					margin-right: 0.625rem;
+				}
+
+				.form-checkbox
+				{
+					width: 100%;
 				}
 			}
 		}
@@ -493,6 +500,7 @@
 			.form-control,
 			.btn
 			{
+				flex-basis: auto;
 				margin-right: 0;
 				width: 100%;
 			}
