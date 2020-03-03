@@ -85,7 +85,7 @@ permalink: glossary/multi-store-ecommerce-platform
             Choosing the right developer or vendor would allow you to fully embrace all of the benefits of the multi-store e-commerce as a trend. Creating and managing multiple stores within one
             platform, delivering your customers the best experience possible at each of your stores - all of that goes a long way in making your multi-store e-commerce as successful as possible.
         </div>
-        <h2 class="glosary-sub-t">B2B Ecommerce Case Studies from Virto Commerce</h2>
+        <h2 class="glosary-sub-t">Multi-store ecommerce case studies from Virto Commerce</h2>
         <div class="glosary-article">
             <ul class="list list--studios">
                 <li class="list__item col-md-6">
