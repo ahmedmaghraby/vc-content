@@ -1425,7 +1425,7 @@
 						"label": "Orange"
 					}
 				],
-				"tab": "Content"
+				"tab": "Settings"
 			},
 			{
 				"id": "containerAlignment",
@@ -1633,7 +1633,7 @@
 						"label": "Orange"
 					}
 				],
-				"tab": "Content"
+				"tab": "Settings"
 			},
 			{
 				"id": "topDivider",
@@ -1820,7 +1820,7 @@
 						"label": "Orange"
 					}
 				],
-				"tab": "Content"
+				"tab": "Settings"
 			},
 			{
 				"id": "topDivider",
