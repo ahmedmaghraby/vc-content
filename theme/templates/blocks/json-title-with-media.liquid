@@ -6,16 +6,22 @@
             {% if block.containerMediaAlignment == 'left' %}
                 <div class="col-lg-auto">
                     <div class="block__media">
-                        <div class="block-video">
-                            {% if block.containerVideo != '' %}
-                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                    {% if block.containerVideoThumbnail.url != '' %}
-                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
-                                        <div class="block-video__action"></div>
-                                    {% endif %}
-                                </a>
-                            {% endif %}
-                        </div>
+                        {% if block.containerImage.url != '' %}
+                            <div class="block__media">
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                            </div>
+                        {% else %}
+                            <div class="block-video">
+                                {% if block.containerVideo != '' %}
+                                    <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
+                                        {% if block.containerVideoThumbnail.url != '' %}
+                                            <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                                            <div class="block-video__action"></div>
+                                        {% endif %}
+                                    </a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                     </div>
                 </div>
             {% endif %}
@@ -50,16 +56,22 @@
             {% if block.containerMediaAlignment == 'right' %}
                 <div class="col-lg-auto">
                     <div class="block__media">
-                        <div class="block-video">
-                            {% if block.containerVideo != '' %}
-                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                    {% if block.containerVideoThumbnail.url != '' %}
-                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
-                                        <div class="block-video__action"></div>
-                                    {% endif %}
-                                </a>
-                            {% endif %}
-                        </div>
+                        {% if block.containerImage.url != '' %}
+                            <div class="block__media">
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                            </div>
+                        {% else %}
+                            <div class="block-video">
+                                {% if block.containerVideo != '' %}
+                                    <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
+                                        {% if block.containerVideoThumbnail.url != '' %}
+                                            <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                                            <div class="block-video__action"></div>
+                                        {% endif %}
+                                    </a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                     </div>
                 </div>
             {% endif %}

@@ -1921,6 +1921,13 @@
 				"tab": "Settings"
 			},
 			{
+				"id": "containerImage",
+				"label": "Container image",
+				"type": "image",
+				"default": { "url": "" },
+				"tab": "Content"
+			},
+			{
 				"id": "containerVideo",
 				"label": "Container Video",
 				"type": "string",
