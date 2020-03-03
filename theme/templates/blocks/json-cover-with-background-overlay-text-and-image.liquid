@@ -2,7 +2,7 @@
     {% include 'overlay-color-hex-style-with-counter' %}
 {% endif %}
 
-<div class="block {% include 'cover-background-settings' %}>
+<div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row align-items-center">
             {% if block.horizontalAlignment == 'left' %}
