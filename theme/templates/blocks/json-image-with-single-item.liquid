@@ -14,7 +14,8 @@
             {% endif %}
         {% endif %}
         <div class="block__space block__space--size-lg"></div>
-        <div class="block__cover-pic" {% if block.backgroundImage != '' and block.backgroundImage.url != '' %} style="background-image: url('{{block.backgroundImage.url}}')" {% endif %}">
+        {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.imageOverlayColor, customColor: block.imageOverlayColorHex %}
+        <div class="block__cover-pic cover-hex-{{hexCounter}}" {% if block.backgroundImage != '' and block.backgroundImage.url != '' %} style="background-image: url('{{block.backgroundImage.url}}')" {% endif %}>
             <div class="block__note">{{block.subtitle}}</div>
         </div>
     </div>

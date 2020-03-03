@@ -228,6 +228,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -241,11 +242,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -255,6 +256,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -474,6 +476,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -487,11 +490,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -501,6 +504,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -723,6 +727,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -736,11 +741,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -750,6 +755,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -1141,6 +1147,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -1154,11 +1161,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -1168,6 +1175,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -2871,6 +2879,34 @@
 				"tab": "Settings"
 			},
 			{
+				"id": "imageOverlayColor",
+				"label": "Image overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "imageOverlayColorHex",
+				"label": "Image overlay color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
 				"id": "carousel",
 				"label": "Carousel (mobile)",
 				"type": "checkbox",
@@ -3656,6 +3692,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -3751,6 +3788,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -4611,6 +4649,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -4624,11 +4663,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -4638,6 +4677,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -4903,6 +4943,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -4916,11 +4957,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -4930,6 +4971,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -5289,6 +5331,7 @@
 				"id": "backgroundColorHex",
 				"label": "Background color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{
@@ -5302,11 +5345,11 @@
 						"label": "None"
 					},
 					{
-						"value": "--black",
+						"value": "black",
 						"label": "Black"
 					},
 					{
-						"value": "--white",
+						"value": "white",
 						"label": "White"
 					}
 				],
@@ -5316,6 +5359,7 @@
 				"id": "backgroundOverlayColorHex",
 				"label": "Background overlay color (HEX)",
 				"type": "string",
+				"default": "",
 				"tab": "Settings"
 			},
 			{

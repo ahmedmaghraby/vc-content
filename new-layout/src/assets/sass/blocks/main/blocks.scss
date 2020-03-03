@@ -750,18 +750,6 @@
 		position: relative;
 		width: 100%;
 
-		&::after
-		{
-			background: rgba(0,0,0,.7);
-	        bottom: 0;
-	        content: ' ';
-	        left: 0;
-	        position: absolute;
-	        right: 0;
-	        top: 0;
-	        z-index: 5;
-		}
-
 		.block__note
 		{
 			color: $white;
@@ -1009,50 +997,6 @@
     &-static
     {
     	background-attachment: scroll;
-    }
-
-    &-fixed,
-    &-static
-    {
-        &--black
-        {
-            .block__inner
-	        {
-	    	    color: $white;
-	        }
-
-    	    &::after
-	        {
-	            background: rgba(0,0,0,.7);
-                bottom: 0;
-	            content: ' ';
-	            left: 0;
-	            position: absolute;
-	            right: 0;
-	            top: 0;
-	            z-index: 5;
-	        }
-        }
-
-        &--white
-        {
-            .block__inner
-	        {
-	    	    color: $black;
-	        }
-
-    	    &::after
-	        {
-	            background: rgba(255,255,255,.7);
-                bottom: 0;
-	            content: ' ';
-	            left: 0;
-	            position: absolute;
-	            right: 0;
-	            top: 0;
-	            z-index: 5;
-	        }
-        }
     }
 
     // Bg colors for block

@@ -1,6 +1,4 @@
-{% if block.backgroundOverlayColorHex != '' %}
-    {% include 'overlay-color-hex-style-with-counter' %}
-{% endif %}
+{% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
 <div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">

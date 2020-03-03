@@ -1,8 +1,12 @@
-{% assign counter = counter | plus: 1 %}
+{% assign colorHex = predefinedColor %}
+{% if customColor != '' %}
+    {% assign colorHex = customColor %}
+{% endif %}
+{% assign hexCounter = hexCounter | plus: 1 %}
 <style>
-    .has-hex-{{counter}}:after
+    .cover-hex-{{hexCounter}}:after
     {
-        background: {{block.backgroundOverlayColorHex}};
+        background: {{colorHex}};
         opacity:.7;
         bottom: 0;
 	    content: ' ';
