@@ -1,6 +1,6 @@
 ---
-title: 20 best ecommerce platforms for websites in 2018. Top ecommerce platforms list
-description: 20 best ecommerce platforms for websites in April 2018. Top ecommerce platforms list
+title: 20 best ecommerce platforms for websites in 2020. Top ecommerce platforms list
+description: 20 best ecommerce platforms for websites in April 2020. Top ecommerce platforms list
 date: 2018-05-12
 canonical: https://virtocommerce.com/glossary/ecommerce-platforms
 permalink: glossary/best-ecommerce-platforms
@@ -26,7 +26,7 @@ tags:
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">20 best e-commerce platforms for websites in April 2020. Top e-commerce platforms list</h1>
             </div>
-            <p class="glosary-date">Updated: February 10, 2020 | Ilse Lauwens, Marketing Director | <span>0 Comments</span></p>
+            <p class="glosary-date">Updated: February 10, 2020 | Ilse Lauwens, Marketing Director</p>
             <div class="glosary-article">
                 <div class="glosary-inner">
                     <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -398,6 +398,3 @@ tags:
         </div>
     </div>
 </div>
-<script>
-    $('.glosary-date span').text($('.comment-count').text());
-</script>
