@@ -191,6 +191,13 @@ $(function (){
     caseStudyFormHandler('#asset-form-cs02', 'asset-download-thank-you');
     caseStudyFormHandler('#asset-form-cs03', 'asset-download-thank-you');
     caseStudyFormHandler('#asset-form-cs04', 'asset-download-thank-you');
+
+    $('a[href*=#]').on('click', function (e) {
+        e.preventDefault();
+        var linkHref = $(this).attr('href');
+        var anchorId = linkHref.substr(linkHref.indexOf('#'));
+        $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
+    });
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
