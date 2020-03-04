@@ -25,91 +25,16 @@ title: 'Digital Experience Platforms (DXP) Definition and Meaning'
                     <a href="{{page}}/#whyDoesAnEnterpriseANeedDXP">Why Does an Enterprise Need a DXP?</a>
                 </li>
                 <li>
-                    <a href="{{page}}/#isTheMajorityOfMyBusinessOnline">Is the majority of my business online?</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#whatIsTheCurrentStateOfMyWorkingEnvironment">What is the current state of my working environment?</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#howManyTouchpointsDoIHaveWithMyCustomers">How many touchpoints do I have with my customers?</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#isMyTargetAudienceDiverse">Is my target audience diverse?</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#doIWantToDeliverMyClientsAHighlyDifferentiatedCustomerExperience">Do I want to deliver my clients a highly differentiated customer experience?</a>
-                </li>
-                <li>
                     <a href="{{page}}/#3DigitalExperiencePlatformTypes">3 Digital Experience Platform Types</a>
                 </li>
                 <li>
                     <a href="{{page}}/#CMSAndDXPWhatsTheDifference">CMS and DXP - what’s the difference</a>
                 </li>
                 <li>
-                    <a href="{{page}}/#CMSAsADigitalHeart">CMS as a digital heart</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#CMSArchitecture">CMS architecture</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#DXPPersonalizedEngagementAndItsScaling">DXP: personalized engagement and its scaling</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#CMSDXP">CMS DXP</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#portalDXP">Portal DXP</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#commercialDXP">Commercial DXP</a>
-                </li>
-                <li>
                     <a href="{{page}}/#startingYourOwnDXPOrientedStrategyWhereToBegin">Starting Your Own DXP-oriented Strategy: Where to Begin?</a>
                 </li>
                 <li>
-                    <a href="{{page}}/#choosingADXPConsiderations">Choosing a DXP: Considerations</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#benefitsOfDigitalExperiencePlatformsToEnterprises">Benefits of Digital Experience Platforms to Enterprises</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#buildingRelationships">Building Relationships</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#organizingOmnichannelExperiences">Organizing Omnichannel Experiences</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#enhancingIntegrations">Enhancing Integrations</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#multiTouchpointManagement">Multi-touchpoint Management</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#aSingleDataCentralizationPoint">A Single Data Centralization Point</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#increasesInInternalPerformance">Increases in Internal Performance</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#uptimeCostEffectiveness">Uptime Cost Effectiveness</a>
-                </li>
-                <li>
                     <a href="{{page}}/#DXPTrends">DXP Trends</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#digitalIntegrationIsGoodForBusiness">Digital integration is good for business</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#weShouldTrustAIMore">We should trust AI more</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#flexibilityIsTheKeyToTheFuture">Flexibility is the key to the future</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#theEvolutionOfVoiceInteractionIsntOver">The evolution of voice interaction isn’t over</a>
-                </li>
-                <li>
-                    <a href="{{page}}/#maintainingCustomerPrivacyIsAnEnormousCompetitiveAdvantage">Maintaining customer privacy is an enormous competitive advantage</a>
                 </li>
                 <li>
                     <a href="{{page}}/#conclusion">Conclusion</a>
