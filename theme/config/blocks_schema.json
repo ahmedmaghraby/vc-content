@@ -3400,9 +3400,20 @@
 						"styles": []
 					},
 					{
-						"id": "isCompany",
-						"label": "Item is company",
-						"type": "checkbox"
+						"id": "type",
+						"type": "select",
+						"label": "Item type",
+						"default": "company",
+						"options": [
+							{
+								"value": "company",
+								"label": "Company"
+							},
+							{
+								"value": "reviewer",
+								"label": "Reviewer"
+							}
+						]
 					},
 					{
 						"id": "image",
@@ -3433,13 +3444,14 @@
 							"url": "https://www.lavazza.com",
 							"urlText": "www.lavazza.com"
 						},
-						"isCompany": true,
+						"type": "company",
 						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
 					},
 					{
 						"image": { "url": "/assets/pages/quotes.png" },
 						"name": "Nicolas A",
 						"jobTitle": "Developer",
+						"type": "reviewer",
 						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
 					}
 				],
