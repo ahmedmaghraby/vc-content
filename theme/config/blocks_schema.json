@@ -648,7 +648,7 @@
 				"id": "horizontalAlignment",
 				"label": "Horizontal alignment",
 				"type": "select",
-				"default": "left",
+				"default": "right",
 				"options": [
 					{
 						"value": "left",

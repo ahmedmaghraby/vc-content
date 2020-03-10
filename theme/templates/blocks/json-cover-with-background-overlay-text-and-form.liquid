@@ -3,7 +3,7 @@
 <div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row align-items-center">
-            {% if block.horizontalAlignment == 'left' %}
+            {% if block.horizontalAlignment == 'right' %}
                 <div class="col-lg mr-auto">
                     {% if block.note != '' %}
                         <div class="block__note">{{block.note}}</div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            {% if block.horizontalAlignment == 'right' %}
+            {% if block.horizontalAlignment == 'left' %}
                 <div class="col-lg mr-auto">
                     {% if block.note != '' %}
                         <div class="block__note">{{block.note}}</div>
