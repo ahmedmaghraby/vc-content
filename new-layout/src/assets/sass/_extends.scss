@@ -495,9 +495,7 @@
 
     .list__item
     {
-        flex: 0 0 25%;
         margin-bottom: 3.125rem;
-        max-width: 25%;
         padding: 0 1.25rem;
         text-align: center;
     }
@@ -514,6 +512,7 @@
     .list__pic
     {
         display: block;
+        max-height: 100%;
         max-width: 100%;
         position: relative;
         z-index: 5;
@@ -541,9 +540,7 @@
 
         .list__item
         {
-            flex: 0 0 33.3333%;
             margin-bottom: 1.25rem;
-            max-width: 33.3333%;
         }
     }
 
@@ -558,15 +555,15 @@
     @include media-breakpoint-up(lg) {
         .list__item
         {
-            min-width: 12.5rem;
+            // min-width: 12.5rem;
         }
     }
 
     @include media-breakpoint-up(xl) {
         .list__item
         {
-            flex: 0 0 20%;
-            max-width: 20%;
+            // flex: 0 0 20%;
+            // max-width: 20%;
         }
     }
 }
