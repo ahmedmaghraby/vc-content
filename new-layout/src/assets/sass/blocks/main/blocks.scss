@@ -11,8 +11,6 @@
 	}
 
 	@include media-breakpoint-down(sm) {
-		padding: 1.25rem;
-
 		.container
 		{
 			padding: 0;
@@ -150,6 +148,21 @@
 	{
 		padding-bottom: 3.125rem;
 	}
+
+    &--padding-top-large
+	{
+		padding-top: 6.25rem;
+	}
+
+	&--padding-bottom-large
+	{
+		padding-bottom: 6.25rem;
+	}
+
+    @include media-breakpoint-down(sm)
+    {
+        padding: 1.25rem;
+    }
 
 	&__inner
 	{

@@ -7589,10 +7589,6 @@ code {
 }
 
 @media (max-width: 767.98px) {
-    .block {
-        padding: 1.25rem;
-    }
-
     .block .container {
         padding: 0;
     }
@@ -7725,6 +7721,20 @@ code {
 
 .block--padding-bottom-half {
     padding-bottom: 3.125rem;
+}
+
+.block--padding-top-large {
+    padding-top: 6.25rem;
+}
+
+.block--padding-bottom-large {
+    padding-bottom: 6.25rem;
+}
+
+@media (max-width: 767.98px) {
+    .block {
+        padding: 1.25rem;
+    }
 }
 
 .block__inner {
