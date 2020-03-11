@@ -6,9 +6,11 @@
     <div class="block__inner container">
         <div class="row align-items-center">
             <div class="col-lg-auto">
-                {% if block.containerImage != '' and block.containerImage.url != '' %}
-                    <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
-                {% endif %}
+                <div class="block__media">
+                    {% if block.containerImage != '' and block.containerImage.url != '' %}
+                        <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                    {% endif %}
+                </div>
             </div>
             <div class="col-lg mr-auto">
                 <div class="block__text">
