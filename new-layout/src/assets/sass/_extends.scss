@@ -557,6 +557,11 @@
         height: 3.125rem;
         justify-content: flex-start;
         position: relative;
+        
+        @include media-breakpoint-down(xs)
+        {
+            justify-content: center;
+        }
     }
 
     .list__pic

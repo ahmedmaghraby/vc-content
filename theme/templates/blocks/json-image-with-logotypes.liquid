@@ -22,7 +22,7 @@
         </div>
 
         {% if block.logotypes.size > 0 %}
-            <div class="list list-partners">
+            <div class="list list-partners {% if block.containerAlignment == 'block--align-center' %}list-partners--centered{% endif %}">
                 {% for logotype in block.logotypes %}
                     <div class="list__item">
                         <div class="list__img">

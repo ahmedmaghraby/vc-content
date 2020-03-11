@@ -5101,6 +5101,13 @@ code {
     position: relative;
 }
 
+@media (max-width: 575.98px) {
+    .block .list-partners .list__img {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
 .block .list-partners .list__pic {
     display: block;
     max-height: 100%;
