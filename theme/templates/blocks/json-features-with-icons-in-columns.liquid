@@ -19,11 +19,11 @@
                 {% for column in block.columns %}
                     <div class="list__item">
                         {% if block.iconsType == 'numbers' or block.iconsType == 'letters' %}
-                            <div class="list__num {% if block.iconsAreFilled == 'True' %} list__num--filled {% endif %}"></div>
+                            <div class="list__num list__num-{{block.iconsFilling}} {% if block.iconsAreFilled == 'True' %} list__num--filled-{{block.iconsFilling}} {% endif %}"></div>
                         {% endif %}
                         {% if block.iconsType == 'images' %}
                             {% if column.image.url != '' %}
-                                <img src="{{column.image.url}}" alt="" class="list__ico">
+                                <img src="{{column.image.url}}" alt="" class="list__ico" />
                             {% endif %}
                         {% endif %}
                         {% if column.title != '' %}

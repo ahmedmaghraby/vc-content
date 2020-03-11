@@ -218,6 +218,45 @@
             font-weight: bold;
         }
 
+        &-black
+        {
+            border: 0.1875rem solid $orange;
+
+            &::after
+            {
+                color: $orange;
+                content: counter(list);
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+
+        &-black
+        {
+            border: 0.1875rem solid $black;
+
+            &::after
+            {
+                color: $black;
+                content: counter(list);
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+
+        &-grey
+        {
+            border: 0.1875rem solid $gray-600;
+
+            &::after
+            {
+                color: $gray-600;
+                content: counter(list);
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+
         &--filled
         {
             background-color: $orange;
@@ -241,6 +280,17 @@
             {
                 background-color: $black;
                 border: .1875rem solid $black;
+
+                &::after
+                {
+                    color: $white;
+                }
+            }
+
+            &-grey
+            {
+                background-color: $gray-600;
+                border: .1875rem solid $gray-600;
 
                 &::after
                 {

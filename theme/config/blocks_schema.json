@@ -2010,6 +2010,27 @@
 				"tab": "Settings"
 			},
 			{
+				"id": "iconsFilling",
+				"label": "Icons filling",
+				"type": "select",
+				"default": "orange",
+				"options": [
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "grey",
+						"label": "Grey"
+					},
+					{
+						"value": "orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
 				"id": "titleStyle",
 				"label": "Title style",
 				"type": "select",
@@ -2417,6 +2438,10 @@
 					{
 						"value": "black",
 						"label": "Black"
+					},
+					{
+						"value": "grey",
+						"label": "Grey"
 					},
 					{
 						"value": "orange",
