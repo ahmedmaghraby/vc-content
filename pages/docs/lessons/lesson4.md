@@ -221,6 +221,7 @@ angular.module('customerReviewsModule')
 
 2. To show a Customer reviews list in a blade create a new **reviews-list.tpl.html** blade template file in the same folder:
 
+{% raw %}
 ```html
 <div class="blade-static">
     <div class="form-group">
@@ -250,11 +251,11 @@ angular.module('customerReviewsModule')
         </div>
     </div>
 </div>
-
 <script type="text/ng-template" id="list.row.html">
     <div ng-click="grid.appScope.blade.selectNode(row.entity)" ng-repeat="(colRenderIndex, col) in colContainer.renderedColumns track by col.uid" ui-grid-one-bind-id-grid="rowRenderIndex + '-' + col.uid + '-cell'" class="ui-grid-cell" ng-class="{'ui-grid-row-header-cell': col.isRowHeader, '__hovered': grid.appScope.contextMenuEntity === row.entity, '__selected': row.entity.id===grid.appScope.selectedNodeId }" role="{{col.isRowHeader ? 'rowheader' : 'gridcell' }}" ui-grid-cell></div>
 </script>
 ```
+{% endraw %}
 
 3. Update the blade shown on activating the `workspace.customerReviewsModuleState` state in the AngularJS module by editing *\Scripts\module.js*:
 
@@ -338,6 +339,7 @@ angular.module('customerReviewsModule')
 
 3. Create a new *customerReviewWidget.tpl.html* widget template file in the same folder:
 
+{% raw %}
 ```html
 <div class="gridster-cnt" ng-click="openBlade()">
     <div class="cnt-inner">
@@ -347,6 +349,7 @@ angular.module('customerReviewsModule')
     </div>
 </div>
 ```
+{% endraw %}
 
 4. "Inject" the new widget into the Product detail UI, by registering it in **module.js**:
 
