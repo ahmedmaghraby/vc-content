@@ -154,7 +154,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -193,7 +193,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -402,7 +402,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -441,7 +441,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -803,7 +803,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -817,7 +817,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -1290,7 +1290,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -1304,7 +1304,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -1332,7 +1332,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -1346,7 +1346,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -1540,7 +1540,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
 				"tab": "Content"
 			},
@@ -1554,7 +1554,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Lorem Ipsum is simply dummy text",
 				"tab": "Content"
 			},
@@ -1727,7 +1727,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -1741,7 +1741,7 @@
 			{
 				"id": "note",
 				"label": "Note",
-				"type": "string",
+				"type": "text",
 				"default": "Our company",
 				"tab": "Content"
 			},
@@ -2134,7 +2134,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -2236,7 +2236,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -2461,7 +2461,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -2641,7 +2641,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -2836,7 +2836,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -3008,7 +3008,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -3387,7 +3387,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -3591,7 +3591,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -3785,7 +3785,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -3915,7 +3915,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -4139,7 +4139,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -4381,7 +4381,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -4772,7 +4772,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
@@ -5066,7 +5066,7 @@
 			{
 				"id": "title",
 				"label": "Title",
-				"type": "string",
+				"type": "text",
 				"default": "Bring your ideas to life",
 				"tab": "Content"
 			},
