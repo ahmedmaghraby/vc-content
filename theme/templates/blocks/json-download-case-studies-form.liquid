@@ -10,7 +10,7 @@
                 <div ng-init="setCaseStudyForm(caseStudyForm)"></div>
 				<input type="text" id="CaseStudy[Email]" class="form-control" name="CaseStudy[Email]" placeholder="Your email" ng-model="email" required ng-pattern="emailPattern" />
 				<input type="text" id="CaseStudy[Name]" class="form-control" name="CaseStudy[Name]" placeholder="John Smith" ng-model="name" required />
-				<input type="submit" class="btn btn--orange" id="{{ block.buttonId }}" value="{{ block.buttonText }}" />
+				<input type="submit" class="btn btn--orange" id="{{ block.buttonId }}" value="{{ block.buttonText }}" disabled />
 				<div class="form-descr">
 					{{ block.description }}
 				</div>

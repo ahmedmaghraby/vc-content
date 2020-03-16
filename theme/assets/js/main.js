@@ -198,6 +198,10 @@ $(function (){
         var anchorId = linkHref.substr(linkHref.indexOf('#'));
         $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
     });
+
+    window.onload = function () {
+        $('button,input[type="submit"][disabled]').removeAttr('disabled');
+    };
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
