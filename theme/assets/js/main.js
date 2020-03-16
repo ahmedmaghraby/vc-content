@@ -199,9 +199,12 @@ $(function (){
         $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
     });
 
-    window.onload = function () {
-        $('button,input[type="submit"][disabled]').removeAttr('disabled');
-    };
+    var autopilotWatcher = setInterval(function () {
+        if (Autopilot._inited) {
+            clearInterval(autopilotWatcher);
+            $('button,input[type="submit"][disabled]').removeAttr('disabled');
+        }
+    }, 1000);
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
