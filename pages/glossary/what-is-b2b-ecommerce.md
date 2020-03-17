@@ -8,7 +8,7 @@ tags:
   - 'b2b e commerce'
   - 'what is b2b e-commerce'
   - 'b2b ecommerce examples'
-title: 'What is business to business e commerce - B2B ecommerce definition & examples'
+title: 'What is business to business e commerce? B2B e-commerce examples'
 
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
