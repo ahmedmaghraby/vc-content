@@ -8567,7 +8567,9 @@ input.ng-touched.ng-invalid, .input-validation-error {
     border-color: #E32636 !important;
 }
 
-button[disabled] {
+button:disabled,
+button:hover:disabled,
+button:active:disabled {
     cursor: progress;
     background-color: #d2d2d2;
     border: 1px solid #d2d2d2;
