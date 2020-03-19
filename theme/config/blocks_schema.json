@@ -335,7 +335,7 @@
 			}
 		]
 	},
-	"сover-with-image": {
+	"cover-with-image": {
 		"id": "cover-with-image",
 		"name": "Cover with image",
 		"icon": "image-text",
