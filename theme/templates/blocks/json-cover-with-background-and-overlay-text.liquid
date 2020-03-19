@@ -10,6 +10,7 @@
 
 <div class="block {{alignment}} {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
+        {{block.backgroundOverlayColorHex}}
         <div class="block__text">
             {% if block.note != '' %}
                 <div class="block__note">{{block.note}}</div>

@@ -87,6 +87,7 @@
 		"name": "Cover with background and overlay text",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Covers and Hero",
 		"settings": [
 			{
 				"id": "topPadding",
@@ -339,6 +340,7 @@
 		"name": "Cover with background overlay text and video",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Covers and Hero",
 		"settings": [
 			{
 				"id": "topPadding",
@@ -601,6 +603,7 @@
 		"name": "Cover with background overlay text and form",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Covers and Hero",
 		"settings": [
 			{
 				"id": "topPadding",
@@ -1072,6 +1075,7 @@
 		"name": "Cover with background, overlay text and image",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Covers and Hero",
 		"settings": [
 			{
 				"id": "topPadding",
@@ -1323,11 +1327,12 @@
 			}
 		]	
 	},
-	"title-with-simple-text": {
-		"id": "title-with-simple-text",
-		"name": "Title with simple text",
+	"headline-with-simple-text": {
+		"id": "headline-with-simple-text",
+		"name": "Headline with simple text",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Headlines and Forms",
 		"settings": [
 			{
 				"id": "title",
@@ -1531,11 +1536,12 @@
 			}
 		]
 	},
-	"title-with-two-columns": {
-		"id": "title-with-two-columns",
-		"name": "Title with two columns",
+	"headline-in-columns": {
+		"id": "headline-in-columns",
+		"name": "Headline in columns",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Headlines and Forms",
 		"settings": [
 			{
 				"id": "title",
@@ -1718,11 +1724,12 @@
 			}
 		]
 	},
-	"title-with-media": {
-		"id": "title-with-media",
-		"name": "Title with media",
+	"headline-with-image": {
+		"id": "headline-with-image",
+		"name": "Headline with image",
 		"icon": "image-text",
 		"displayField": "title",
+		"category": "Headlines and Forms",
 		"settings": [
 			{
 				"id": "title",
@@ -1943,3125 +1950,12 @@
 			}
 		]
 	},
-	"features-with-icons-in-columns": {
-		"id": "features-with-icons-in-columns",
-		"name": "Features with icons in columns",
+	"headline-with-form": {
+		"id": "headline-with-form",
+		"name": "Headline with form",
 		"icon": "image-text",
 		"displayField": "title",
-		"settings": [
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					},
-					{
-						"value": "4",
-						"label": "4"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsType",
-				"label": "Icons type",
-				"type": "select",
-				"default": "numbers",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "numbers",
-						"label": "Numbers"
-					},
-					{
-						"value": "letters",
-						"label": "Letters"
-					},
-					{
-						"value": "images",
-						"label": "Images"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsAreFilled",
-				"label": "Icons are filled",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsFilling",
-				"label": "Icons filling",
-				"type": "select",
-				"default": "orange",
-				"options": [
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "grey",
-						"label": "Grey"
-					},
-					{
-						"value": "orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "subtitlePosition",
-				"label": "Subtitle position",
-				"type": "select",
-				"default": "upper",
-				"options": [
-					{
-						"value": "upper",
-						"label": "Upper"
-					},
-					{
-						"value": "lower",
-						"label": "Lower"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "columns",
-				"label": "Columns",
-				"type": "list",
-				"addText": "Add column",
-				"removeText": "Remove column",
-				"displayField": "title",
-				"element": [
-					{
-						"id": "title",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Column image"
-					},
-					{
-						"id": "button",
-						"label": "Button",
-						"type": "url",
-						"urlLabel": "Url",
-						"textLabel": "Button text",
-						"styleLabel": "Link style",
-						"styles": [
-							{
-								"value": "btn btn--black",
-								"label": "Black button"
-							},
-							{
-								"value": "btn btn--orange",
-								"label": "Orange button"
-							},
-							{
-								"value": "btn btn--white",
-								"label": "White button"
-							}
-						]
-					}
-				],
-				"default": [
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					}
-				],
-				"tab": "Content"
-			}
-		]
-	},
-	"features-with-icons-in-list": {
-		"id": "features-with-icons-in-list",
-		"name": "Features with icons in list",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "title",
-				"element": [
-					{
-						"id": "title",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "button",
-						"label": "Button",
-						"type": "url",
-						"urlLabel": "Url",
-						"textLabel": "Button text",
-						"styleLabel": "Link style",
-						"styles": [
-							{
-								"value": "btn btn--black",
-								"label": "Black button"
-							},
-							{
-								"value": "btn btn--orange",
-								"label": "Orange button"
-							},
-							{
-								"value": "btn btn--white",
-								"label": "White button"
-							}
-						]
-					}
-				],
-				"default": [
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"title": "Access to customer insights yields competitive advantage",
-						"subtitle": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-						"button": {
-							"url": "",
-							"urlText": "Call to action",
-							"style": "btn btn--orange"
-						}
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsType",
-				"label": "Icons type",
-				"type": "select",
-				"default": "letters",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "numbers",
-						"label": "Numbers"
-					},
-					{
-						"value": "letters",
-						"label": "Letters"
-					},
-					{
-						"value": "images",
-						"label": "Images"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsAreFilled",
-				"label": "Icons are filled",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Settings"
-			},
-			{
-				"id": "iconsFilling",
-				"label": "Icons filling",
-				"type": "select",
-				"default": "orange",
-				"options": [
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "grey",
-						"label": "Grey"
-					},
-					{
-						"value": "orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"image-with-logotypes": {
-		"id": "image-with-logotypes",
-		"name": "Image with logotypes",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "logotypes",
-				"label": "Logotypes",
-				"type": "list",
-				"addText": "Add logotype",
-				"removeText": "Remove logotype",
-				"displayField": "image.url",
-				"element": [
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
-					},
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
-					},
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
-					},
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-center",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"image-in-gallery": {
-		"id": "image-in-gallery",
-		"name": "Image in gallery",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "backgroundImage",
-				"label": "Background image",
-				"type": "image",
-				"tab": "Content"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "images",
-				"label": "Images",
-				"type": "list",
-				"addText": "Add image",
-				"removeText": "Remove image",
-				"displayField": "image.url",
-				"element": [
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/img.jpg" }
-					},
-					{
-						"image": { "url": "/assets/pages/img.jpg" }
-					},
-					{
-						"image": { "url": "/assets/pages/img.jpg" }
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "3",
-						"label": "3"
-					},
-					{
-						"value": "4",
-						"label": "4"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-center",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"image-with-single-item": {
-		"id": "image-with-single-item",
-		"name": "Image with single item",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "backgroundImage",
-				"label": "Background image",
-				"type": "image",
-				"default": { "url": "" },
-				"tab": "Content"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "imageOverlayColor",
-				"label": "Image overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "imageOverlayColorHex",
-				"label": "Image overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-center",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"reviews-in-columns": {
-		"id": "reviews-in-columns",
-		"name": "Reviews in columns",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "name",
-				"element": [
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Picture"
-					},
-					{
-						"id": "name",
-						"type": "string",
-						"label": "Name"
-					},
-					{
-						"id": "jobTitle",
-						"type": "string",
-						"label": "Job title"
-					},
-					{
-						"id": "company",
-						"type": "string",
-						"label": "Company"
-					},
-					{
-						"id": "review",
-						"type": "string",
-						"label": "Review"
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Nicolas A",
-						"jobTitle": "Developer",
-						"company": "Lavazza",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					},
-					{
-						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Dmitry M",
-						"jobTitle": "Managing Director",
-						"company": "Kitmall",
-						"review": "Virto Commerce let us reduce the number of people involved in management of promotions from six to one. We don't depend on IT guys anymore, and everybody benefits from this"
-					},
-					{
-						"image": { "url": "/assets/pages/SN.png" },
-						"name": "Andreas K",
-						"jobTitle": "Management Consulting",
-						"company": "Caromba",
-						"review": "Scalable open source e-commerce platform in the (Azure) cloud for companies that want to be unique"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-left",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"single-review": {
-		"id": "single-review",
-		"name": "Single review",
-		"icon": "image-text",
-		"displayField": "review",
-		"settings": [
-			{
-				"id": "picture",
-				"type": "image",
-				"label": "Picture",
-				"default": { "url": "/assets/pages/quotes.png" },
-				"tab": "Content"
-			},
-			{
-				"id": "pictureIsRounded",
-				"label": "Picture rounded",
-				"type": "checkbox",
-				"tab": "Content"
-			},
-			{
-				"id": "nameOrCompany",
-				"type": "string",
-				"label": "Name / Company",
-				"default": "Company",
-				"tab": "Content"
-			},
-			{
-				"id": "jobTitleOrField",
-				"type": "string",
-				"label": "Job title / Field",
-				"default": "Field of activity",
-				"tab": "Content"
-			},
-			{
-				"id": "siteUrl",
-				"label": "Site URL",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Text",
-				"default": {
-					"url": "www.site.com",
-					"urlText": "www.site.com"
-				},
-				"tab": "Content"
-			},
-			{
-				"id": "review",
-				"label": "Review",
-				"type": "string",
-				"default": "We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need – today and long-term",
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "reviewStyle",
-				"label": "Review style",
-				"type": "select",
-				"default": "h2",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"two-columns-review": {
-		"id": "two-columns-review",
-		"name": "Two columns review",
-		"icon": "image-text",
-		"displayField": "review",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "review",
-				"element": [
-					{
-						"id": "companyLogo",
-						"type": "image",
-						"label": "Company logo"
-					},
-					{
-						"id": "companyTitle",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "site",
-						"type": "url",
-						"label": "Site URL",
-						"urlLabel": "Url",
-						"textLabel": "Text",
-						"styles": []
-					},
-					{
-						"id": "type",
-						"type": "select",
-						"label": "Item type",
-						"default": "company",
-						"options": [
-							{
-								"value": "company",
-								"label": "Company"
-							},
-							{
-								"value": "reviewer",
-								"label": "Reviewer"
-							}
-						]
-					},
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "name",
-						"type": "string",
-						"label": "Name"
-					},
-					{
-						"id": "jobTitle",
-						"type": "string",
-						"label": "Job title"
-					},
-					{
-						"id": "review",
-						"type": "text",
-						"label": "Review"
-					}
-				],
-				"default": [
-					{
-						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
-						"companyTitle": "Lavazza",
-						"site": {
-							"url": "https://www.lavazza.com",
-							"urlText": "www.lavazza.com"
-						},
-						"type": "company",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					},
-					{
-						"image": { "url": "/assets/pages/quotes.png" },
-						"name": "Nicolas A",
-						"jobTitle": "Developer",
-						"type": "reviewer",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"promo-with-image": {
-		"id": "promo-with-image",
-		"name": "Promo with image",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "image",
-				"label": "Image",
-				"type": "image",
-				"default": { "url": "/assets/pages/vc-logo-gray.png" },
-				"tab": "Content"
-			},
-			{
-				"id": "firstButton",
-				"label": "First button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "Call to action",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content"
-			},
-			{
-				"id": "secondButton",
-				"label": "Second button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"simple-promo": {
-		"id": "simple-promo",
-		"name": "Simple promo",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "button",
-				"label": "Button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "Call to action",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleAlignment",
-				"label": "Title alignment",
-				"type": "select",
-				"default": "center",
-				"options": [
-					{
-						"value": "center",
-						"label": "Center"
-					},
-					{
-						"value": "left",
-						"label": "Left"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleColor",
-				"label": "Title color",
-				"type": "select",
-				"default": "block__learn--black-title",
-				"options": [
-					{
-						"value": "block__learn--black-title",
-						"label": "Black"
-					},
-					{
-						"value": "block__learn--white-title",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"case-studies-in-columns": {
-		"id": "case-studies-in-columns",
-		"name": "Case studies in columns",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "review",
-				"element": [
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "title",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
-					{
-						"id": "button",
-						"label": "Button",
-						"type": "url",
-						"urlLabel": "Url",
-						"textLabel": "Button text",
-						"styleLabel": "Link style",
-						"styles": [
-							{
-								"value": "btn btn--black",
-								"label": "Black button"
-							},
-							{
-								"value": "btn btn--orange",
-								"label": "Orange button"
-							},
-							{
-								"value": "btn btn--white",
-								"label": "White button"
-							}
-						]
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" },
-						"title": "Get access to customers and deeply integrate with them",
-						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
-						"button": {
-							"url": "",
-							"urlText": "Read more",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" },
-						"title": "Get access to customers and deeply integrate with them",
-						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
-						"button": {
-							"url": "",
-							"urlText": "Read more",
-							"style": "btn btn--orange"
-						}
-					},
-					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" },
-						"title": "Get access to customers and deeply integrate with them",
-						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
-						"button": {
-							"url": "",
-							"urlText": "Read more",
-							"style": "btn btn--orange"
-						}
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"news-in-columns": {
-		"id": "news-in-columns",
-		"name": "News in columns",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "review",
-				"element": [
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "title",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
-					{
-						"id": "labels",
-						"label": "Labels",
-						"type": "list",
-						"addText": "Add label",
-						"removeText": "Remove label",
-						"displayField": "name",
-						"element": [
-							{
-								"id": "name",
-								"type": "string",
-								"label": "Name"
-							}
-						]
-					},
-					{
-						"id": "authorName",
-						"type": "string",
-						"label": "Author name"
-					},
-					{
-						"id": "date",
-						"type": "string",
-						"label": "Date"
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
-						"title": "Virto Commerce demo is available",
-						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
-						"authorName": "Virtocommerce",
-						"date": "30 JAN 2020"
-					},
-					{
-						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
-						"title": "Virto Commerce demo is available",
-						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
-						"authorName": "Virtocommerce",
-						"date": "30 JAN 2020"
-					},
-					{
-						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
-						"title": "Virto Commerce demo is available",
-						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
-						"authorName": "Virtocommerce",
-						"date": "30 JAN 2020"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"form-with-multiple-inputs": {
-		"id": "form-with-multiple-inputs",
-		"name": "Form with multiple inputs",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content"
-			},
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content"
-			},
-			{
-				"id": "formFields",
-                "label": "Container Form",
-                "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
-                "displayField": "labelText",
-                "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldType",
-                        "label": "Type",
-                        "type": "select",
-                        "default": "text",
-                        "options": [
-							{
-                                "value": "button",
-                                "label": "Button"
-                            },
-							{
-                                "value": "checkbox",
-                                "label": "Checkbox"
-                            },
-							{
-								"value": "email",
-								"label": "Email"
-							},
-							{
-								"value": "phone",
-								"label": "Phone"
-							},
-                            {
-                                "value": "radio",
-                                "label": "Radio"
-                            },
-                            {
-                                "value": "select",
-                                "label": "Select"
-                            },
-                            {
-                                "value": "text",
-                                "label": "Text"
-                            },
-                            {
-                                "value": "textarea",
-                                "label": "Textarea"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "labelText",
-                        "label": "Label text",
-                        "type": "string"
-                    },
-                    {
-                        "id": "placeholder",
-                        "label": "Placeholder",
-                        "type": "string",
-                        "default": "Enter the value"
-                    },
-                    {
-                        "id": "required",
-                        "label": "Required field",
-                        "type": "checkbox"
-                    },
-					{
-						"id": "validationMessage",
-						"label": "Validation message",
-						"type": "string"
-					},
-                    {
-                        "id": "radioListItems",
-                        "label": "Radio items",
-                        "type": "list",
-                        "addText": "Add item (for radio type)",
-                        "removeText": "Remove item",
-                        "displayField": "text",
-                        "element": [
-                            {
-                                "id": "title",
-                                "type": "string",
-                                "label": "Title"
-                            },
-                            {
-                                "id": "text",
-                                "type": "string",
-                                "label": "Text"
-                            },
-							{
-								"id": "id",
-								"type": "string",
-								"label": "Id"
-							},
-                            {
-                                "id": "value",
-                                "type": "string",
-                                "label": "Value"
-                            },
-							{
-								"id": "isChecked",
-                                "type": "checkbox",
-                                "label": "Checked"
-							},
-							{
-								"id": "isDisabled",
-                                "type": "checkbox",
-                                "label": "Disabled"
-							}
-                        ]
-                    },
-					{
-						"id": "selectOptions",
-						"label": "Select options",
-						"type": "list",
-						"addText": "Add option (for select type)",
-						"removeText": "Remove option",
-						"displayField": "label",
-						"element": [
-							{
-                                "id": "label",
-                                "type": "string",
-                                "label": "Label"
-                            },
-                            {
-                                "id": "value",
-                                "type": "string",
-                                "label": "Value"
-                            },
-							{
-								"id": "isSelected",
-								"type": "checkbox",
-								"label": "Selected"
-							},
-							{
-								"id": "isDisabled",
-								"type": "checkbox",
-								"label": "Disabled"
-							}
-						]
-					}
-                ],
-                "default": [
-                    {
-                        "fieldName": "firstname",
-                        "fieldId": "firstname",
-                        "fieldType": "text",
-						"required": true,
-						"placeholder": "First name"
-                    },
-					{
-                        "fieldName": "lastname",
-                        "fieldId": "lastname",
-                        "fieldType": "text",
-						"required": true,
-						"placeholder": "Last name"
-                    },
-                    {
-                        "fieldName": "email",
-                        "fieldId": "email",
-                        "fieldType": "email",
-						"required": true,
-						"placeholder": "Email"
-                    },
-                    {
-                        "fieldName": "agree",
-                        "fieldId": "agree",
-                        "fieldType": "checkbox",
-						"required": true,
-                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
-                    },
-                    {
-                        "fieldType": "button",
-                        "labelText": "Call to action"
-                    }
-                ],
-                "tab": "Content"
-            },
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "formId",
-				"label": "Form ID",
-				"type": "string",
-				"default": "formId",
-				"tab": "Settings"
-			},
-			{
-				"id": "formName",
-				"label": "Form Name",
-				"type": "string",
-				"default": "formName",
-				"tab": "Settings"
-			},
-			{
-				"id": "formSubmitRedirectUrl",
-				"label": "Submit redirect URL",
-				"type": "string",
-				"tab": "Settings"
-			},
-			{
-				"id": "containerFormButtonColour",
-				"label": "Container Form Button Colour",
-				"type": "select",
-				"default": "btn btn--orange btn--block",
-				"options": [
-					{
-						"value": "btn btn--black btn--block",
-						"label": "Black"
-					},
-					{
-						"value": "btn btn--orange btn--block",
-						"label": "Orange"
-					},
-					{
-						"value": "btn btn--white btn--block",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
-				"type": "select",
-				"default": "block--cover-static",
-				"options": [
-					{
-						"value": "block--cover-fixed",
-						"label": "Fixed"
-					},
-					{
-						"value": "block--cover-static",
-						"label": "Static"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"inline-form": {
-		"id": "inline-form",
-		"name": "Inline form",
-		"icon": "image-text",
-		"displayField": "title",
-		"settings": [
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content"
-			},
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content"
-			},
-			{
-				"id": "formFields",
-                "label": "Container Form",
-                "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
-                "displayField": "labelText",
-                "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldType",
-                        "label": "Type",
-                        "type": "select",
-                        "default": "text",
-                        "options": [
-							{
-                                "value": "button",
-                                "label": "Button"
-                            },
-							{
-                                "value": "checkbox",
-                                "label": "Checkbox"
-                            },
-							{
-								"value": "email",
-								"label": "Email"
-							},
-							{
-								"value": "phone",
-								"label": "Phone"
-							},
-                            {
-                                "value": "text",
-                                "label": "Text"
-                            }
-                        ]
-                    },
-					{
-						"id": "labelText",
-						"label": "Label text",
-						"type": "string"
-					},
-                    {
-                        "id": "placeholder",
-                        "label": "Placeholder",
-                        "type": "string"
-                    },
-                    {
-                        "id": "required",
-                        "label": "Required field",
-                        "type": "checkbox"
-                    },
-					{
-						"id": "checkboxValidationMessage",
-						"label": "Checkbox validation message",
-						"type": "string"
-					}
-                ],
-                "default": [
-                    {
-                        "fieldName": "email",
-                        "fieldType": "email",
-						"required": true,
-						"placeholder": "Email"
-                    },
-                    {
-                        "fieldType": "button",
-                        "labelText": "Call to action"
-                    },
-                    {
-						"fieldId": "agree",
-                        "fieldName": "agree",
-                        "fieldType": "checkbox",
-						"required": true,
-						"checkboxValidationMessage": "Please agree with our terms",
-                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
-                    }
-                ],
-                "tab": "Content"
-            },
-			{
-				"id": "containerFormButtonColour",
-				"label": "Container Form Button Colour",
-				"type": "select",
-				"default": "btn btn--orange",
-				"options": [
-					{
-						"value": "btn btn--black",
-						"label": "Black"
-					},
-					{
-						"value": "btn btn--orange",
-						"label": "Orange"
-					},
-					{
-						"value": "btn btn--white",
-						"label": "White"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "formId",
-				"label": "Form ID",
-				"type": "string",
-				"default": "formId",
-				"tab": "Settings"
-			},
-			{
-				"id": "formName",
-				"label": "Form name",
-				"type": "string",
-				"default": "formName",
-				"tab": "Settings"
-			},
-			{
-				"id": "formSubmitRedirectUrl",
-				"label": "Submit redirect URL",
-				"type": "string",
-				"tab": "Settings"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
-				"type": "select",
-				"default": "block--cover-static",
-				"options": [
-					{
-						"value": "block--cover-fixed",
-						"label": "Fixed"
-					},
-					{
-						"value": "block--cover-static",
-						"label": "Static"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"form-with-image": {
-		"id": "form-with-image",
-		"name": "Form with image",
-		"icon": "image-text",
-		"displayField": "title",
+		"category": "Headlines and Forms",
 		"settings": [
 			{
 				"id": "title",
@@ -5449,6 +2343,2902 @@
 					{
 						"value": "block--cover-static",
 						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"headline-with-form-in-list": {
+		"id": "headline-with-form-in-list",
+		"name": "Headline with form in list",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Headlines and Forms",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "formFields",
+                "label": "Container Form",
+                "type": "list",
+                "addText": "Add field",
+                "removeText": "Remove field",
+                "displayField": "labelText",
+                "element": [
+                    {
+                        "id": "fieldName",
+                        "label": "Field name",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "Field ID",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldType",
+                        "label": "Type",
+                        "type": "select",
+                        "default": "text",
+                        "options": [
+							{
+                                "value": "button",
+                                "label": "Button"
+                            },
+							{
+                                "value": "checkbox",
+                                "label": "Checkbox"
+                            },
+							{
+								"value": "email",
+								"label": "Email"
+							},
+							{
+								"value": "phone",
+								"label": "Phone"
+							},
+                            {
+                                "value": "radio",
+                                "label": "Radio"
+                            },
+                            {
+                                "value": "select",
+                                "label": "Select"
+                            },
+                            {
+                                "value": "text",
+                                "label": "Text"
+                            },
+                            {
+                                "value": "textarea",
+                                "label": "Textarea"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "labelText",
+                        "label": "Label text",
+                        "type": "string"
+                    },
+                    {
+                        "id": "placeholder",
+                        "label": "Placeholder",
+                        "type": "string",
+                        "default": "Enter the value"
+                    },
+                    {
+                        "id": "required",
+                        "label": "Required field",
+                        "type": "checkbox"
+                    },
+					{
+						"id": "validationMessage",
+						"label": "Validation message",
+						"type": "string"
+					},
+                    {
+                        "id": "radioListItems",
+                        "label": "Radio items",
+                        "type": "list",
+                        "addText": "Add item (for radio type)",
+                        "removeText": "Remove item",
+                        "displayField": "text",
+                        "element": [
+                            {
+                                "id": "title",
+                                "type": "string",
+                                "label": "Title"
+                            },
+                            {
+                                "id": "text",
+                                "type": "string",
+                                "label": "Text"
+                            },
+							{
+								"id": "id",
+								"type": "string",
+								"label": "Id"
+							},
+                            {
+                                "id": "value",
+                                "type": "string",
+                                "label": "Value"
+                            },
+							{
+								"id": "isChecked",
+                                "type": "checkbox",
+                                "label": "Checked"
+							},
+							{
+								"id": "isDisabled",
+                                "type": "checkbox",
+                                "label": "Disabled"
+							}
+                        ]
+                    },
+					{
+						"id": "selectOptions",
+						"label": "Select options",
+						"type": "list",
+						"addText": "Add option (for select type)",
+						"removeText": "Remove option",
+						"displayField": "label",
+						"element": [
+							{
+                                "id": "label",
+                                "type": "string",
+                                "label": "Label"
+                            },
+                            {
+                                "id": "value",
+                                "type": "string",
+                                "label": "Value"
+                            },
+							{
+								"id": "isSelected",
+								"type": "checkbox",
+								"label": "Selected"
+							},
+							{
+								"id": "isDisabled",
+								"type": "checkbox",
+								"label": "Disabled"
+							}
+						]
+					}
+                ],
+                "default": [
+                    {
+                        "fieldName": "firstname",
+                        "fieldId": "firstname",
+                        "fieldType": "text",
+						"required": true,
+						"placeholder": "First name"
+                    },
+					{
+                        "fieldName": "lastname",
+                        "fieldId": "lastname",
+                        "fieldType": "text",
+						"required": true,
+						"placeholder": "Last name"
+                    },
+                    {
+                        "fieldName": "email",
+                        "fieldId": "email",
+                        "fieldType": "email",
+						"required": true,
+						"placeholder": "Email"
+                    },
+                    {
+                        "fieldName": "agree",
+                        "fieldId": "agree",
+                        "fieldType": "checkbox",
+						"required": true,
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                    },
+                    {
+                        "fieldType": "button",
+                        "labelText": "Call to action"
+                    }
+                ],
+                "tab": "Content"
+            },
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "containerFormButtonColour",
+				"label": "Container Form Button Colour",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"headline-with-form-in-line": {
+		"id": "headline-with-form-in-line",
+		"name": "Headline with form in line",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Headlines and Forms",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "formFields",
+                "label": "Container Form",
+                "type": "list",
+                "addText": "Add field",
+                "removeText": "Remove field",
+                "displayField": "labelText",
+                "element": [
+                    {
+                        "id": "fieldName",
+                        "label": "Field name",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "Field ID",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldType",
+                        "label": "Type",
+                        "type": "select",
+                        "default": "text",
+                        "options": [
+							{
+                                "value": "button",
+                                "label": "Button"
+                            },
+							{
+                                "value": "checkbox",
+                                "label": "Checkbox"
+                            },
+							{
+								"value": "email",
+								"label": "Email"
+							},
+							{
+								"value": "phone",
+								"label": "Phone"
+							},
+                            {
+                                "value": "text",
+                                "label": "Text"
+                            }
+                        ]
+                    },
+					{
+						"id": "labelText",
+						"label": "Label text",
+						"type": "string"
+					},
+                    {
+                        "id": "placeholder",
+                        "label": "Placeholder",
+                        "type": "string"
+                    },
+                    {
+                        "id": "required",
+                        "label": "Required field",
+                        "type": "checkbox"
+                    },
+					{
+						"id": "checkboxValidationMessage",
+						"label": "Checkbox validation message",
+						"type": "string"
+					}
+                ],
+                "default": [
+                    {
+                        "fieldName": "email",
+                        "fieldType": "email",
+						"required": true,
+						"placeholder": "Email"
+                    },
+                    {
+                        "fieldType": "button",
+                        "labelText": "Call to action"
+                    },
+                    {
+						"fieldId": "agree",
+                        "fieldName": "agree",
+                        "fieldType": "checkbox",
+						"required": true,
+						"checkboxValidationMessage": "Please agree with our terms",
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                    }
+                ],
+                "tab": "Content"
+            },
+			{
+				"id": "containerFormButtonColour",
+				"label": "Container Form Button Colour",
+				"type": "select",
+				"default": "btn btn--orange",
+				"options": [
+					{
+						"value": "btn btn--black",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white",
+						"label": "White"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings"
+			},
+			{
+				"id": "formName",
+				"label": "Form name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Background overlay color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Background scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"logotypes-in-line": {
+		"id": "logotypes-in-line",
+		"name": "Logotypes in line",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Media and Logotypes",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "logotypes",
+				"label": "Logotypes",
+				"type": "list",
+				"addText": "Add logotype",
+				"removeText": "Remove logotype",
+				"displayField": "image.url",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"media-with-images-in-gallery": {
+		"id": "media-with-images-in-gallery",
+		"name": "Media with images in gallery",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Media and Logotypes",
+		"settings": [
+			{
+				"id": "backgroundImage",
+				"label": "Background image",
+				"type": "image",
+				"tab": "Content"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "images",
+				"label": "Images",
+				"type": "list",
+				"addText": "Add image",
+				"removeText": "Remove image",
+				"displayField": "image.url",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/img.jpg" }
+					},
+					{
+						"image": { "url": "/assets/pages/img.jpg" }
+					},
+					{
+						"image": { "url": "/assets/pages/img.jpg" }
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Settings"
+			},
+			{
+				"id": "columnsCount",
+				"label": "Columns",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "3",
+						"label": "3"
+					},
+					{
+						"value": "4",
+						"label": "4"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"media-with-single-image": {
+		"id": "media-with-single-image",
+		"name": "Media with single image",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Media and Logotypes",
+		"settings": [
+			{
+				"id": "backgroundImage",
+				"label": "Background image",
+				"type": "image",
+				"default": { "url": "" },
+				"tab": "Content"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "imageOverlayColor",
+				"label": "Image overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "imageOverlayColorHex",
+				"label": "Image overlay color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"features-with-icons-in-columns": {
+		"id": "features-with-icons-in-columns",
+		"name": "Features with icons in columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Features and Cards",
+		"settings": [
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					},
+					{
+						"value": "4",
+						"label": "4"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsType",
+				"label": "Icons type",
+				"type": "select",
+				"default": "numbers",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "numbers",
+						"label": "Numbers"
+					},
+					{
+						"value": "letters",
+						"label": "Letters"
+					},
+					{
+						"value": "images",
+						"label": "Images"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsAreFilled",
+				"label": "Icons are filled",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "iconsFilling",
+				"label": "Icons filling",
+				"type": "select",
+				"default": "orange",
+				"options": [
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "grey",
+						"label": "Grey"
+					},
+					{
+						"value": "orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "subtitlePosition",
+				"label": "Subtitle position",
+				"type": "select",
+				"default": "upper",
+				"options": [
+					{
+						"value": "upper",
+						"label": "Upper"
+					},
+					{
+						"value": "lower",
+						"label": "Lower"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "columns",
+				"label": "Columns",
+				"type": "list",
+				"addText": "Add column",
+				"removeText": "Remove column",
+				"displayField": "title",
+				"element": [
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Column image"
+					},
+					{
+						"id": "button",
+						"label": "Button",
+						"type": "url",
+						"urlLabel": "Url",
+						"textLabel": "Button text",
+						"styleLabel": "Link style",
+						"styles": [
+							{
+								"value": "btn btn--black",
+								"label": "Black button"
+							},
+							{
+								"value": "btn btn--orange",
+								"label": "Orange button"
+							},
+							{
+								"value": "btn btn--white",
+								"label": "White button"
+							}
+						]
+					}
+				],
+				"default": [
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"title": "Access to customer insights yields competitive advantage",
+						"button": {
+							"url": "",
+							"urlText": "Call to action",
+							"style": "btn btn--orange"
+						}
+					}
+				],
+				"tab": "Content"
+			}
+		]
+	},
+	"customer-references-in-columns": {
+		"id": "customer-references-in-columns",
+		"name": "Customer references in columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "References and Quotes",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "name",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Picture"
+					},
+					{
+						"id": "name",
+						"type": "string",
+						"label": "Name"
+					},
+					{
+						"id": "jobTitle",
+						"type": "string",
+						"label": "Job title"
+					},
+					{
+						"id": "company",
+						"type": "string",
+						"label": "Company"
+					},
+					{
+						"id": "review",
+						"type": "string",
+						"label": "Review"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/SN.png" },
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"company": "Lavazza",
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					},
+					{
+						"image": { "url": "/assets/pages/SN.png" },
+						"name": "Dmitry M",
+						"jobTitle": "Managing Director",
+						"company": "Kitmall",
+						"review": "Virto Commerce let us reduce the number of people involved in management of promotions from six to one. We don't depend on IT guys anymore, and everybody benefits from this"
+					},
+					{
+						"image": { "url": "/assets/pages/SN.png" },
+						"name": "Andreas K",
+						"jobTitle": "Management Consulting",
+						"company": "Caromba",
+						"review": "Scalable open source e-commerce platform in the (Azure) cloud for companies that want to be unique"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "columnsCount",
+				"label": "Columns",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-left",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"direct-speech": {
+		"id": "direct-speech",
+		"name": "Direct speech",
+		"icon": "image-text",
+		"displayField": "review",
+		"category": "References and Quotes",
+		"settings": [
+			{
+				"id": "picture",
+				"type": "image",
+				"label": "Picture",
+				"default": { "url": "/assets/pages/quotes.png" },
+				"tab": "Content"
+			},
+			{
+				"id": "pictureIsRounded",
+				"label": "Picture rounded",
+				"type": "checkbox",
+				"tab": "Content"
+			},
+			{
+				"id": "nameOrCompany",
+				"type": "string",
+				"label": "Name / Company",
+				"default": "Company",
+				"tab": "Content"
+			},
+			{
+				"id": "jobTitleOrField",
+				"type": "string",
+				"label": "Job title / Field",
+				"default": "Field of activity",
+				"tab": "Content"
+			},
+			{
+				"id": "siteUrl",
+				"label": "Site URL",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Text",
+				"default": {
+					"url": "www.site.com",
+					"urlText": "www.site.com"
+				},
+				"tab": "Content"
+			},
+			{
+				"id": "review",
+				"label": "Review",
+				"type": "string",
+				"default": "We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need – today and long-term",
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "reviewStyle",
+				"label": "Review style",
+				"type": "select",
+				"default": "h2",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"quote-with-customer-reference-in-columns": {
+		"id": "quote-with-customer-reference-in-columns",
+		"name": "Quote with customer reference in columns",
+		"icon": "image-text",
+		"displayField": "review",
+		"category": "References and Quotes",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "companyLogo",
+						"type": "image",
+						"label": "Company logo"
+					},
+					{
+						"id": "companyTitle",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "site",
+						"type": "url",
+						"label": "Site URL",
+						"urlLabel": "Url",
+						"textLabel": "Text",
+						"styles": []
+					},
+					{
+						"id": "type",
+						"type": "select",
+						"label": "Item type",
+						"default": "company",
+						"options": [
+							{
+								"value": "company",
+								"label": "Company"
+							},
+							{
+								"value": "reviewer",
+								"label": "Reviewer"
+							}
+						]
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					},
+					{
+						"id": "name",
+						"type": "string",
+						"label": "Name"
+					},
+					{
+						"id": "jobTitle",
+						"type": "string",
+						"label": "Job title"
+					},
+					{
+						"id": "review",
+						"type": "text",
+						"label": "Review"
+					}
+				],
+				"default": [
+					{
+						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
+						"companyTitle": "Lavazza",
+						"site": {
+							"url": "https://www.lavazza.com",
+							"urlText": "www.lavazza.com"
+						},
+						"type": "company",
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					},
+					{
+						"image": { "url": "/assets/pages/quotes.png" },
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"type": "reviewer",
+						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"vc-branded-call-to-action": {
+		"id": "vc-branded-call-to-action",
+		"name": "VC-branded call-to-action",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Promotions and CTAs",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "image",
+				"label": "Image",
+				"type": "image",
+				"default": { "url": "/assets/pages/vc-logo-gray.png" },
+				"tab": "Content"
+			},
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "Call to action",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"simple-call-to-action": {
+		"id": "simple-call-to-action",
+		"name": "Simple call-to-action",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Promotions and CTAs",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "button",
+				"label": "Button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "Call to action",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Background color (HEX)",
+				"type": "string",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleAlignment",
+				"label": "Title alignment",
+				"type": "select",
+				"default": "center",
+				"options": [
+					{
+						"value": "center",
+						"label": "Center"
+					},
+					{
+						"value": "left",
+						"label": "Left"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleColor",
+				"label": "Title color",
+				"type": "select",
+				"default": "block__learn--black-title",
+				"options": [
+					{
+						"value": "block__learn--black-title",
+						"label": "Black"
+					},
+					{
+						"value": "block__learn--white-title",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"query-case-studies": {
+		"id": "query-case-studies",
+		"name": "Query case studies",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Queries and Other",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					},
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "button",
+						"label": "Button",
+						"type": "url",
+						"urlLabel": "Url",
+						"textLabel": "Button text",
+						"styleLabel": "Link style",
+						"styles": [
+							{
+								"value": "btn btn--black",
+								"label": "Black button"
+							},
+							{
+								"value": "btn btn--orange",
+								"label": "Orange button"
+							},
+							{
+								"value": "btn btn--white",
+								"label": "White button"
+							}
+						]
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"title": "Get access to customers and deeply integrate with them",
+						"subtitle": "Bosch wanted a direct line of communication with their customer base. To gain this important customer access, they decided to create a customer loyalty program that awarded points and ultimately allowed them to interact directly with their customers.",
+						"button": {
+							"url": "",
+							"urlText": "Read more",
+							"style": "btn btn--orange"
+						}
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings"
+			}
+		]
+	},
+	"query-blog-posts": {
+		"id": "query-blog-posts",
+		"name": "Query blog posts",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Queries and Other",
+		"settings": [
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image"
+					},
+					{
+						"id": "title",
+						"type": "string",
+						"label": "Title"
+					},
+					{
+						"id": "subtitle",
+						"type": "string",
+						"label": "Subtitle"
+					},
+					{
+						"id": "labels",
+						"label": "Labels",
+						"type": "list",
+						"addText": "Add label",
+						"removeText": "Remove label",
+						"displayField": "name",
+						"element": [
+							{
+								"id": "name",
+								"type": "string",
+								"label": "Name"
+							}
+						]
+					},
+					{
+						"id": "authorName",
+						"type": "string",
+						"label": "Author name"
+					},
+					{
+						"id": "date",
+						"type": "string",
+						"label": "Date"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
+						"title": "Virto Commerce demo is available",
+						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
+						"labels": [
+							{
+								"name": "Alpha"
+							},
+							{
+								"name": "Announcements"
+							}
+						],
+						"authorName": "Virtocommerce",
+						"date": "30 JAN 2020"
+					},
+					{
+						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
+						"title": "Virto Commerce demo is available",
+						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
+						"labels": [
+							{
+								"name": "Alpha"
+							},
+							{
+								"name": "Announcements"
+							}
+						],
+						"authorName": "Virtocommerce",
+						"date": "30 JAN 2020"
+					},
+					{
+						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
+						"title": "Virto Commerce demo is available",
+						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
+						"labels": [
+							{
+								"name": "Alpha"
+							},
+							{
+								"name": "Announcements"
+							}
+						],
+						"authorName": "Virtocommerce",
+						"date": "30 JAN 2020"
+					}
+				],
+				"tab": "Content"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "carousel",
+				"label": "Carousel (mobile)",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
+			},
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "titleStyle",
+				"label": "Title style",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
 					}
 				],
 				"tab": "Settings"
