@@ -11,20 +11,14 @@
 <div class="block {{alignment}} {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         {{block.backgroundOverlayColorHex}}
-        <div class="block__text">
+        <div class="block__text {{block.textAreaWidth}}">
             {% if block.note != '' %}
                 <div class="block__note">{{block.note}}</div>
             {% endif %}
             <div class="block__space"></div>
-            {% if block.titleStyle == 'h1' %}
-                <h1 class="block__t">{{block.title}}</h1>
-            {% elsif  block.titleStyle == 'h2' %}
-                <h2 class="block__t">{{block.title}}</h2>
-            {% elsif block.titleStyle == 'h3' %}
-                <h3 class="block__t">{{block.title}}</h3>
-            {% else %}
-                <div class="block__t">{{block.title}}</div>
-            {% endif %}
+
+            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
             <div class="block__space"></div>
             <h3 class="block__descr">{{block.subtitle}}</h3>
             {% if block.firstButton != '' and block.firstButton.urlText != '' %}
