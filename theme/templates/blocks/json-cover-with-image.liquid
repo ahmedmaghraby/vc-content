@@ -20,15 +20,8 @@
                     <div class="block__note">{{block.note}}</div>
                 {% endif %}
                 <div class="block__space"></div>
-                {% if block.titleStyle == 'h1' %}
-                    <h1 class="block__t">{{block.title}}</h1>
-                {% elsif  block.titleStyle == 'h2' %}
-                    <h2 class="block__t">{{block.title}}</h2>
-                {% elsif block.titleStyle == 'h3' %}
-                    <h3 class="block__t">{{block.title}}</h3>
-                {% else %}
-                    <div class="block__t">{{block.title}}</div>
-                {% endif %}
+
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
                     
                 {% if block.subtitle != '' %}
                     <div class="block__space"></div>
