@@ -1,16 +1,16 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+<div class="block {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row align-items-center">
             {% if block.horizontalAlignment == 'left' %}
                 <div class="col-lg-auto">
                     <div class="block__media">
                         <div class="block-video">
-                            {% if block.containerVideo != '' %}
-                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                    {% if block.containerVideoThumbnail != '' and block.containerVideoThumbnail.url != '' %}
-                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                            {% if block.video != '' %}
+                                <a href="{{ block.video }}" class="section-video" data-fancybox="">
+                                    {% if block.videoThumbnail != '' and block.videoThumbnail.url != '' %}
+                                        <img src="{{block.videoThumbnail.url}}" title="{{block.videoThumbnail.altText}}" class="block__pic" />
                                         <div class="block-video__action"></div>
                                     {% endif %}
                                 </a>
@@ -25,15 +25,9 @@
                     <div class="block__note">{{block.note}}</div>
                 {% endif %}
                 <div class="block__space"></div>
-                {% if block.titleStyle == 'h1' %}
-                    <h1 class="block__t">{{block.title}}</h1>
-                {% elsif  block.titleStyle == 'h2' %}
-                    <h2 class="block__t">{{block.title}}</h2>
-                {% elsif block.titleStyle == 'h3' %}
-                    <h3 class="block__t">{{block.title}}</h3>
-                {% else %}
-                    <div class="block__t">{{block.title}}</div>
-                {% endif %}
+
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
                 <div class="block__space"></div>
                 <h3 class="block__descr">{{block.subtitle}}</h3>
                 {% if block.firstButton != '' and block.firstButton.urlText != '' %}
@@ -51,10 +45,10 @@
                 <div class="col-lg-auto">
                     <div class="block__media">
                         <div class="block-video">
-                            {% if block.containerVideo != '' %}
-                                <a href="{{ block.containerVideo }}" class="section-video" data-fancybox="">
-                                    {% if block.containerVideoThumbnail != '' and block.containerVideoThumbnail.url != '' %}
-                                        <img src="{{block.containerVideoThumbnail.url}}" alt="{{block.containerVideoThumbnail.alt}}" class="block__pic" />
+                            {% if block.video != '' %}
+                                <a href="{{ block.video }}" class="section-video" data-fancybox="">
+                                    {% if block.videoThumbnail != '' and block.videoThumbnail.url != '' %}
+                                        <img src="{{block.videoThumbnail.url}}" title="{{block.videoThumbnail.altText}}" class="block__pic" />
                                         <div class="block-video__action"></div>
                                     {% endif %}
                                 </a>

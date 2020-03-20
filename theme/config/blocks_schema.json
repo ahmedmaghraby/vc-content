@@ -562,48 +562,6 @@
 		"category": "Covers and Hero",
 		"settings": [
 			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
 				"id": "horizontalAlignment",
 				"label": "Horizontal alignment",
 				"type": "select",
@@ -618,18 +576,12 @@
 						"label": "Right"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -650,31 +602,12 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content"
-			},
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content"
+				"tab": "Settings",
+				"group": "Typography"
 			},
 			{
 				"id": "backgroundColor",
-				"label": "Background color",
+				"label": "Colour",
 				"type": "select",
 				"default": "block--bg-white",
 				"options": [
@@ -691,18 +624,20 @@
 						"label": "Orange"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Background"
 			},
 			{
 				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
+				"label": "Colour HEX",
 				"type": "string",
 				"default": "",
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Background"
 			},
 			{
 				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
+				"label": "Overlay colour",
 				"type": "select",
 				"default": "none",
 				"options": [
@@ -719,18 +654,20 @@
 						"label": "White"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Background"
 			},
 			{
 				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
+				"label": "Overlay colour HEX",
 				"type": "string",
 				"default": "",
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Background"
 			},
 			{
 				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
+				"label": "Scroll effect",
 				"type": "select",
 				"default": "block--cover-static",
 				"options": [
@@ -743,7 +680,8 @@
 						"label": "Static"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Background"
 			},
 			{
 				"id": "firstButton",
@@ -771,7 +709,8 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Buttons"
 			},
 			{
 				"id": "secondButton",
@@ -799,21 +738,52 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Buttons"
 			},
 			{
-				"id": "containerVideo",
-				"label": "Container Video",
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content"
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content",
+				"group": "Background"
+			},
+			{
+				"id": "video",
+				"label": "Video URL",
 				"type": "string",
 				"default": "https://",
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Container media"
 			},
 			{
-				"id": "containerVideoThumbnail",
-				"label": "Container Video Thumbnail",
+				"id": "videoThumbnail",
+				"label": "Video Thumbnail",
 				"type": "image",
 				"default": { "url": "/assets/pages/video-screen-4.png" },
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Container media"
 			}
 		]
 	},
