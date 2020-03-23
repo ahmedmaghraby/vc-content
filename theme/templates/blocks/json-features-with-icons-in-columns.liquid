@@ -11,7 +11,7 @@
         {% endif %}
         {% if block.subtitle != '' and block.subtitlePosition == 'upper' %}
             <div class="block__space"></div>
-            <div class="block__descr">{{block.subtitle}}</h3>
+            <h3 class="block__descr">{{block.subtitle}}</h3>
         {% endif %}
         <div class="block__space block__space--size-lg"></div>
         {% if block.columns.size > 0 %}
@@ -44,7 +44,7 @@
         {% endif %}
         {% if block.subtitle != '' and block.subtitlePosition == 'lower' %}
             <div class="block__space"></div>
-            <div class="block__descr">{{block.subtitle}}</h3>
+            <h3 class="block__descr">{{block.subtitle}}</h3>
         {% endif %}
     </div>
 </div>
