@@ -2,25 +2,17 @@
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
     {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
     <div class="block__inner container">
-        <div class="block__text">
+        <div class="block__text {{block.textAreaWidth}}">
             {% if block.note != '' %}
                 <div class="block__note">{{block.note}}</div>
                 <div class="block__space"></div>
             {% endif %}
-            
-            {% if block.titleStyle == 'h1' %}
-                <h1 class="block__t">{{block.title}}</h1>
-            {% elsif  block.titleStyle == 'h2' %}
-                <h2 class="block__t">{{block.title}}</h2>
-            {% elsif block.titleStyle == 'h3' %}
-                <h3 class="block__t">{{block.title}}</h3>
-            {% else %}
-                <div class="block__t">{{block.title}}</div>
-            {% endif %}
+
+            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
             {% if block.subtitle != '' %}
-                <div class="block__space"></div>
-                <h3 class="block__descr">{{block.subtitle}}</h3>
+            <div class="block__space"></div>
+                <div class="block__descr">{{block.subtitle}}</h3>
             {% endif %}
             {% if block.firstButton != '' and block.firstButton.urlText != '' %}
                 <div class="block__space"></div>
