@@ -9,15 +9,9 @@
                         <div class="block__note">{{block.note}}</div>
                     {% endif %}
                     <div class="block__space"></div>
-                    {% if block.titleStyle == 'h1' %}
-                        <h1 class="block__t">{{block.title}}</h1>
-                    {% elsif  block.titleStyle == 'h2' %}
-                        <h2 class="block__t">{{block.title}}</h2>
-                    {% elsif block.titleStyle == 'h3' %}
-                        <h3 class="block__t">{{block.title}}</h3>
-                    {% else %}
-                        <div class="block__t">{{block.title}}</div>
-                    {% endif %}
+
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
                     <div class="block__space"></div>
                     <h3 class="block__descr">{{block.subtitle}}</h3>
                     {% if block.firstButton != '' and block.firstButton.urlText != '' %}
@@ -94,7 +88,7 @@
                                     {% include 'form-validation-message' inputItem: item %}
                                 </div>
                             {% elsif item.fieldType == 'button' %}
-                                <input type="submit" class="{{block.containerFormButtonColour}}" value="{{item.labelText}}" />
+                                <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
                             {% elsif item.fieldType == 'textarea' %}
                                 <div class="form-group">
                                     <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>

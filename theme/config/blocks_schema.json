@@ -795,48 +795,6 @@
 		"category": "Covers and Hero",
 		"settings": [
 			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
 				"id": "horizontalAlignment",
 				"label": "Horizontal alignment",
 				"type": "select",
@@ -851,125 +809,12 @@
 						"label": "Right"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
-				"id": "formId",
-				"label": "Form ID",
-				"type": "string",
-				"default": "formId",
-				"tab": "Settings"
-			},
-			{
-				"id": "formName",
-				"label": "Form Name",
-				"type": "string",
-				"default": "formName",
-				"tab": "Settings"
-			},
-			{
-				"id": "formSubmitRedirectUrl",
-				"label": "Submit redirect URL",
-				"type": "string",
-				"tab": "Settings"
-			},
-			{
-				"id": "containerFormButtonColour",
-				"label": "Container Form Button Colour",
-				"type": "select",
-				"default": "btn btn--orange btn--block",
-				"options": [
-					{
-						"value": "btn btn--black btn--block",
-						"label": "Black"
-					},
-					{
-						"value": "btn btn--orange btn--block",
-						"label": "Orange"
-					},
-					{
-						"value": "btn btn--white btn--block",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
-				"type": "select",
-				"default": "block--cover-static",
-				"options": [
-					{
-						"value": "block--cover-fixed",
-						"label": "Fixed"
-					},
-					{
-						"value": "block--cover-static",
-						"label": "Static"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -990,7 +835,189 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Overlay color HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formSubmitButtonStyle",
+				"label": "Submit button style",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "Call to action",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Settings",
+				"group": "Buttons"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Settings",
+				"group": "Buttons"
 			},
 			{
 				"id": "title",
@@ -1017,26 +1044,17 @@
 				"id": "background",
 				"label": "Background",
 				"type": "image",
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Background"
 			},
 			{
 				"id": "formFields",
-                "label": "Container Form",
+                "label": "Fields list",
                 "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
+                "addText": "Add a field",
+                "removeText": "Remove a field",
                 "displayField": "labelText",
                 "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
                     {
                         "id": "fieldType",
                         "label": "Type",
@@ -1075,34 +1093,51 @@
                                 "value": "textarea",
                                 "label": "Textarea"
                             }
-                        ]
+                        ],
+						"group": "Field name settings"
+                    },
+                    {
+                        "id": "fieldName",
+                        "label": "Name",
+                        "type": "string",
+						"group": "Field name settings"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "ID",
+                        "type": "string",
+						"group": "Field name settings"
                     },
                     {
                         "id": "labelText",
-                        "label": "Label text",
-                        "type": "string"
+                        "label": "Label",
+                        "type": "string",
+						"group": "Field name settings"
                     },
                     {
                         "id": "placeholder",
                         "label": "Placeholder",
                         "type": "string",
-                        "default": "Enter the value"
+                        "default": "Enter the value",
+						"group": "Field name settings"
                     },
                     {
                         "id": "required",
                         "label": "Required field",
-                        "type": "checkbox"
+                        "type": "checkbox",
+						"group": "Validation"
                     },
 					{
 						"id": "validationMessage",
 						"label": "Validation message",
-						"type": "string"
+						"type": "string",
+						"group": "Validation"
 					},
                     {
                         "id": "radioListItems",
                         "label": "Radio items",
                         "type": "list",
-                        "addText": "Add item (for radio type)",
+                        "addText": "Add radio option",
                         "removeText": "Remove item",
                         "displayField": "text",
                         "element": [
@@ -1114,27 +1149,27 @@
                             {
                                 "id": "text",
                                 "type": "string",
-                                "label": "Text"
+                                "label": "Subtitle"
                             },
 							{
 								"id": "id",
 								"type": "string",
-								"label": "Id"
+								"label": "Radio ID"
 							},
                             {
                                 "id": "value",
                                 "type": "string",
-                                "label": "Value"
+                                "label": "Radio value"
                             },
 							{
 								"id": "isChecked",
                                 "type": "checkbox",
-                                "label": "Checked"
+                                "label": "Checked checkbox"
 							},
 							{
 								"id": "isDisabled",
                                 "type": "checkbox",
-                                "label": "Disabled"
+                                "label": "Disabled checkbox"
 							}
                         ]
                     },
@@ -1142,7 +1177,7 @@
 						"id": "selectOptions",
 						"label": "Select options",
 						"type": "list",
-						"addText": "Add option (for select type)",
+						"addText": "Add select option",
 						"removeText": "Remove option",
 						"displayField": "label",
 						"element": [
@@ -1159,12 +1194,12 @@
 							{
 								"id": "isSelected",
 								"type": "checkbox",
-								"label": "Selected"
+								"label": "Selected checkbox"
 							},
 							{
 								"id": "isDisabled",
 								"type": "checkbox",
-								"label": "Disabled"
+								"label": "Disabled checkbox"
 							}
 						]
 					}
@@ -1199,64 +1234,9 @@
                         "labelText": "Action button"
                     }
                 ],
-                "tab": "Content"
-            },
-			{
-				"id": "firstButton",
-				"label": "First button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "Call to action",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content"
-			},
-			{
-				"id": "secondButton",
-				"label": "Second button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content"
-			}
+                "tab": "Content",
+				"group": "Form"
+            }
 		]
 	},
 	"headline-with-simple-text": {
