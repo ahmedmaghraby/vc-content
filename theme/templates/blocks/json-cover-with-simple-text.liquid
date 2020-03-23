@@ -8,9 +8,8 @@
 
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block {{alignment}} {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+<div class="block {{alignment}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
-        {{block.backgroundOverlayColorHex}}
         <div class="block__text {{block.textAreaWidth}}">
             {% if block.note != '' %}
                 <div class="block__note">{{block.note}}</div>

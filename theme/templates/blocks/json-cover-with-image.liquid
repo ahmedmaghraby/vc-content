@@ -1,6 +1,6 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+<div class="block {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row align-items-center">
             {% if block.horizontalAlignment == 'left' %}
@@ -8,7 +8,7 @@
                     <div class="block__media">
                         {% if block.containerImage != '' %}
                             {% if block.containerImage.url != '' %}
-                                <img src="{{block.containerImage.url}}" alt="{{block.containerImage.alt}}" class="block__pic" />
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
                             {% endif %}
                         {% endif %}
                     </div>
@@ -44,7 +44,7 @@
                     <div class="block__media">
                         {% if block.containerImage != '' %}
                             {% if block.containerImage.url != '' %}
-                                <img src="{{block.containerImage.url}}" alt="{{block.containerImage.alt}}" class="block__pic" />
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
                             {% endif %}
                         {% endif %}
                     </div>
