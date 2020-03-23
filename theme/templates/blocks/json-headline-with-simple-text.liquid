@@ -1,25 +1,19 @@
-<div class="block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+<div class="block {{block.containerAlignment}} {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}>
     <div class="block__inner container">
         <div class="block__text">
             {% if block.note != '' %}
                 <div class="block__note">{{block.note}}</div>
                 <div class="block__space"></div>
             {% endif %}
-            
-            {% if block.titleStyle == 'h1' %}
-                <h1 class="block__t">{{block.title}}</h1>
-            {% elsif  block.titleStyle == 'h2' %}
-                <h2 class="block__t">{{block.title}}</h2>
-            {% elsif block.titleStyle == 'h3' %}
-                <h3 class="block__t">{{block.title}}</h3>
-            {% else %}
-                <div class="block__t">{{block.title}}</div>
-            {% endif %}
+
+            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
             {% if block.subtitle != '' %}
-                <div class="block__space"></div>
+            <div class="block__space"></div>
                 <div class="block__descr">{{block.subtitle}}</div>
             {% endif %}
             {% if block.firstButton != '' and block.firstButton.urlText != '' %}
