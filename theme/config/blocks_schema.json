@@ -1164,12 +1164,12 @@
 							{
 								"id": "isChecked",
                                 "type": "checkbox",
-                                "label": "Checked checkbox"
+                                "label": "Checked"
 							},
 							{
 								"id": "isDisabled",
                                 "type": "checkbox",
-                                "label": "Disabled checkbox"
+                                "label": "Disabled"
 							}
                         ]
                     },
@@ -1199,7 +1199,7 @@
 							{
 								"id": "isDisabled",
 								"type": "checkbox",
-								"label": "Disabled checkbox"
+								"label": "Disabled"
 							}
 						]
 					}
