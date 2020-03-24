@@ -5,17 +5,20 @@
     {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row align-items-center">
-            <div class="col-lg-auto">
-                <div class="block__media">
-                    {% if block.containerImage != '' and block.containerImage.url != '' %}
-                        <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
-                    {% endif %}
+            {% if block.horizontalAlignment == 'left' %}
+                <div class="col-lg-auto">
+                    <div class="block__media">
+                        {% if block.containerImage != '' and block.containerImage.url != '' %}
+                            <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
+            {% endif %}
+
             <div class="col-lg mr-auto">
                 <div class="block__text">
                     {% if block.title != '' %}
-                        <h2 class="block__t">{{block.title}}</h2>
+                        {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
                         <div class="block__space"></div>
                     {% endif %}
                     {% if block.subtitle != '' %}
@@ -80,7 +83,7 @@
                                         {% include 'form-validation-message' inputItem: item %}
                                     </div>
                                 {% elsif item.fieldType == 'button' %}
-                                    <input type="submit" class="{{block.containerFormButtonColour}}" value="{{item.labelText}}" />
+                                    <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
                                 {% elsif item.fieldType == 'textarea' %}
                                     <div class="form-group">
                                         <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}"
@@ -96,6 +99,16 @@
                     {% endif %}
                 </div>
             </div>
+
+            {% if block.horizontalAlignment == 'right' %}
+                <div class="col-lg-auto">
+                    <div class="block__media">
+                        {% if block.containerImage != '' and block.containerImage.url != '' %}
+                            <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>

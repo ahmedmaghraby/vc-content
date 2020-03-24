@@ -1951,6 +1951,233 @@
 		"category": "Headlines and Forms",
 		"settings": [
 			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+                        "value": "left",
+                        "label": "Left"
+                    },
+                    {
+                        "value": "right",
+                        "label": "Right"
+                    }
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formSubmitButtonStyle",
+				"label": "Submit button style",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Overlay color HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -1975,7 +2202,8 @@
 				"id": "background",
 				"label": "Background",
 				"type": "image",
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Background"
 			},
 			{
 				"id": "containerImage",
@@ -1986,22 +2214,12 @@
 			},
 			{
 				"id": "formFields",
-                "label": "Container Form",
+                "label": "Fields list",
                 "type": "list",
-                "addText": "Add field",
-                "removeText": "Remove field",
+                "addText": "Add a field",
+                "removeText": "Remove a field",
                 "displayField": "labelText",
                 "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
                     {
                         "id": "fieldType",
                         "label": "Type",
@@ -2040,34 +2258,51 @@
                                 "value": "textarea",
                                 "label": "Textarea"
                             }
-                        ]
+                        ],
+						"group": "Field name settings"
+                    },
+                    {
+                        "id": "fieldId",
+                        "label": "ID",
+                        "type": "string",
+						"group": "Field name settings"
+                    },
+                    {
+                        "id": "fieldName",
+                        "label": "Name",
+                        "type": "string",
+						"group": "Field name settings"
                     },
                     {
                         "id": "labelText",
-                        "label": "Label text",
-                        "type": "string"
+                        "label": "Label",
+                        "type": "string",
+						"group": "Field name settings"
                     },
                     {
                         "id": "placeholder",
                         "label": "Placeholder",
                         "type": "string",
-                        "default": "Enter the value"
+                        "default": "Enter the value",
+						"group": "Field name settings"
                     },
                     {
                         "id": "required",
                         "label": "Required field",
-                        "type": "checkbox"
+                        "type": "checkbox",
+						"group": "Validation"
                     },
 					{
 						"id": "validationMessage",
 						"label": "Validation message",
-						"type": "string"
+						"type": "string",
+						"group": "Validation"
 					},
                     {
                         "id": "radioListItems",
                         "label": "Radio items",
                         "type": "list",
-                        "addText": "Add item (for radio type)",
+                        "addText": "Add radio option",
                         "removeText": "Remove item",
                         "displayField": "text",
                         "element": [
@@ -2079,17 +2314,17 @@
                             {
                                 "id": "text",
                                 "type": "string",
-                                "label": "Text"
+                                "label": "Subtitle"
                             },
 							{
 								"id": "id",
 								"type": "string",
-								"label": "Id"
+								"label": "Radio ID"
 							},
                             {
                                 "id": "value",
                                 "type": "string",
-                                "label": "Value"
+                                "label": "Radio value"
                             },
 							{
 								"id": "isChecked",
@@ -2107,7 +2342,7 @@
 						"id": "selectOptions",
 						"label": "Select options",
 						"type": "list",
-						"addText": "Add option (for select type)",
+						"addText": "Add select option",
 						"removeText": "Remove option",
 						"displayField": "label",
 						"element": [
@@ -2136,210 +2371,37 @@
                 ],
                 "default": [
                     {
-                        "fieldName": "firstname",
-                        "fieldId": "firstname",
+                        "fieldName": "fullname",
+                        "fieldId": "fullname",
                         "fieldType": "text",
 						"required": true,
-						"placeholder": "First name"
-                    },
-					{
-                        "fieldName": "lastname",
-                        "fieldId": "lastname",
-                        "fieldType": "text",
-						"required": true,
-						"placeholder": "Last name"
+                        "labelText": "Full name",
+						"placeholder": "Enter your name"
                     },
                     {
                         "fieldName": "email",
                         "fieldId": "email",
-                        "fieldType": "email",
+                        "fieldType": "text",
 						"required": true,
-						"placeholder": "Email"
+                        "labelText": "Email",
+						"placeholder": "Enter your email"
                     },
                     {
                         "fieldName": "agree",
                         "fieldId": "agree",
                         "fieldType": "checkbox",
 						"required": true,
-                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>."
+                        "labelText": "By checking this checkbox,&nbsp;I'm agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.",
+						"validationMessage": "Please agree with our terms"
                     },
                     {
                         "fieldType": "button",
-                        "labelText": "Call to action"
+                        "labelText": "Action button"
                     }
                 ],
-                "tab": "Content"
-            },
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "formId",
-				"label": "Form ID",
-				"type": "string",
-				"default": "formId",
-				"tab": "Settings"
-			},
-			{
-				"id": "formName",
-				"label": "Form Name",
-				"type": "string",
-				"default": "formName",
-				"tab": "Settings"
-			},
-			{
-				"id": "formSubmitRedirectUrl",
-				"label": "Submit redirect URL",
-				"type": "string",
-				"tab": "Settings"
-			},
-			{
-				"id": "containerFormButtonColour",
-				"label": "Container Form Button Colour",
-				"type": "select",
-				"default": "btn btn--orange btn--block",
-				"options": [
-					{
-						"value": "btn btn--black btn--block",
-						"label": "Black"
-					},
-					{
-						"value": "btn btn--orange btn--block",
-						"label": "Orange"
-					},
-					{
-						"value": "btn btn--white btn--block",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-light",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
-				"type": "select",
-				"default": "block--cover-static",
-				"options": [
-					{
-						"value": "block--cover-fixed",
-						"label": "Fixed"
-					},
-					{
-						"value": "block--cover-static",
-						"label": "Static"
-					}
-				],
-				"tab": "Settings"
-			}
+                "tab": "Content",
+				"group": "Form"
+            }
 		]
 	},
 	"headline-with-form-in-list": {
