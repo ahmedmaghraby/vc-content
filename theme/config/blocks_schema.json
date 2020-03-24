@@ -2874,6 +2874,219 @@
 		"category": "Headlines and Forms",
 		"settings": [
 			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "formId",
+				"label": "Form ID",
+				"type": "string",
+				"default": "formId",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formName",
+				"label": "Form Name",
+				"type": "string",
+				"default": "formName",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "formSubmitRedirectUrl",
+				"label": "Submit redirect URL",
+				"type": "string",
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColor",
+				"label": "Background overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Overlay color HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -2898,27 +3111,18 @@
 				"id": "background",
 				"label": "Background",
 				"type": "image",
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Background"
 			},
 			{
 				"id": "formFields",
-                "label": "Container Form",
+                "label": "Fields",
                 "type": "list",
                 "addText": "Add field",
                 "removeText": "Remove field",
                 "displayField": "labelText",
                 "element": [
-                    {
-                        "id": "fieldName",
-                        "label": "Field name",
-                        "type": "string"
-                    },
-                    {
-                        "id": "fieldId",
-                        "label": "Field ID",
-                        "type": "string"
-                    },
-                    {
+					{
                         "id": "fieldType",
                         "label": "Type",
                         "type": "select",
@@ -2946,9 +3150,19 @@
                             }
                         ]
                     },
+                    {
+                        "id": "fieldId",
+                        "label": "Field ID",
+                        "type": "string"
+                    },
+                    {
+                        "id": "fieldName",
+                        "label": "Field name",
+                        "type": "string"
+                    },
 					{
 						"id": "labelText",
-						"label": "Label text",
+						"label": "Label",
 						"type": "string"
 					},
                     {
@@ -2958,12 +3172,12 @@
                     },
                     {
                         "id": "required",
-                        "label": "Required field",
+                        "label": "Required",
                         "type": "checkbox"
                     },
 					{
 						"id": "checkboxValidationMessage",
-						"label": "Checkbox validation message",
+						"label": "Validation error message",
 						"type": "string"
 					}
                 ],
@@ -2988,177 +3202,7 @@
                     }
                 ],
                 "tab": "Content"
-            },
-			{
-				"id": "containerFormButtonColour",
-				"label": "Container Form Button Colour",
-				"type": "select",
-				"default": "btn btn--orange",
-				"options": [
-					{
-						"value": "btn btn--black",
-						"label": "Black"
-					},
-					{
-						"value": "btn btn--orange",
-						"label": "Orange"
-					},
-					{
-						"value": "btn btn--white",
-						"label": "White"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "formId",
-				"label": "Form ID",
-				"type": "string",
-				"default": "formId",
-				"tab": "Settings"
-			},
-			{
-				"id": "formName",
-				"label": "Form name",
-				"type": "string",
-				"default": "formName",
-				"tab": "Settings"
-			},
-			{
-				"id": "formSubmitRedirectUrl",
-				"label": "Submit redirect URL",
-				"type": "string",
-				"tab": "Settings"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundScrollEffect",
-				"label": "Background scroll effect",
-				"type": "select",
-				"default": "block--cover-static",
-				"options": [
-					{
-						"value": "block--cover-fixed",
-						"label": "Fixed"
-					},
-					{
-						"value": "block--cover-static",
-						"label": "Static"
-					}
-				],
-				"tab": "Settings"
-			}
+            }
 		]
 	},
 	"logotypes-in-line": {
