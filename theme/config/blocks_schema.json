@@ -1499,6 +1499,140 @@
 		"category": "Headlines and Forms",
 		"settings": [
 			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment (title)",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+                        "value": "left",
+                        "label": "Left"
+                    },
+                    {
+                        "value": "right",
+                        "label": "Right"
+                    }
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -1545,7 +1679,8 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
+				"tab": "Settings",
+				"group": "Buttons"
 			},
 			{
 				"id": "secondButton",
@@ -1573,109 +1708,8 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "h2",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Buttons"
 			}
 		]
 	},
