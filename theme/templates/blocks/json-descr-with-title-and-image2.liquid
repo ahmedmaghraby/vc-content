@@ -1,0 +1,17 @@
+<div class="block {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block__inner container">
+        <div class="row">
+            <div class="col-lg">
+                {% if block.image != '' and block.image.url != '' %}
+                    <img src="{{block.image.url}}" title="{{block.image.alt}}" class="block__quote" />
+                {% endif %}
+                <div class="block__t mt-auto">{{block.title}}</div>
+            </div>
+            <div class="col-lg">
+                <div class="block__descr">{{block.text}}</div>
+            </div>
+        </div>
+    </div>
+</div>
