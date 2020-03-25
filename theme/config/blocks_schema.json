@@ -3213,48 +3213,48 @@
 		"category": "Media and Logotypes",
 		"settings": [
 			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "logotypes",
-				"label": "Logotypes",
-				"type": "list",
-				"addText": "Add logotype",
-				"removeText": "Remove logotype",
-				"displayField": "image.url",
-				"element": [
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
 					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
 					}
 				],
-				"default": [
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
 					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+						"value": "col-lg",
+						"label": "Full width"
 					},
 					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+						"value": "col-lg-10",
+						"label": "10 cols"
 					},
 					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+						"value": "col-lg-8",
+						"label": "8 cols"
 					},
 					{
-						"image": { "url": "/assets/pages/lavazza-logo.svg" }
+						"value": "col-lg-6",
+						"label": "6 cols"
 					}
 				],
-				"tab": "Content"
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topPadding",
@@ -3275,7 +3275,8 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "bottomPadding",
@@ -3296,66 +3297,28 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-center",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -3376,7 +3339,101 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "logotypes",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add logotype",
+				"removeText": "Remove logotype",
+				"displayField": "image.url",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Item image",
+						"group": "Image"
+					},
+					{
+						"id": "url",
+						"type": "string",
+						"label": "URL"
+					},
+					{
+						"id": "openInNewTab",
+						"type": "checkbox",
+						"label": "Open in new tab"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"url": "",
+						"openInNewTab": false
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"url": "",
+						"openInNewTab": false
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"url": "",
+						"openInNewTab": false
+					},
+					{
+						"image": { "url": "/assets/pages/lavazza-logo.svg" },
+						"url": "",
+						"openInNewTab": false
+					}
+				],
+				"tab": "Content"
 			}
 		]
 	},
