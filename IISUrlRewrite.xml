@@ -188,6 +188,10 @@
         </rewriteMap>
     </rewriteMaps>
     <rules>
+        <rule name="redirect demo" stopProcessing="true">
+            <match url="^demo(.*)" />
+            <action type="Redirect" url="https://demo.virtocommerce.com" redirectType="Permanent"/>
+        </rule>
         <rule name="Robots.txt for staging" stopProcessing="true">
             <match url="robots.txt" />
             <conditions>
