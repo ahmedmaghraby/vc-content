@@ -1,54 +1,104 @@
-<div class="block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+<div class="block {{block.containerAlignment}} {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}"
-    {% if block.backgroundImage != '' and block.backgroundImage.url != '' %} style="background-image: url('{{block.backgroundImage.url}}')" {% endif %}>
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
-        {% if block.title != '' %}
-            {% if block.titleStyle == 'h1' %}
-                <h1 class="block__t">{{block.title}}</h1>
-            {% elsif  block.titleStyle == 'h2' %}
-                <h2 class="block__t">{{block.title}}</h2>
-            {% elsif block.titleStyle == 'h3' %}
-                <h3 class="block__t">{{block.title}}</h3>
-            {% else %}
-                <div class="block__t">{{block.title}}</div>
+        <div class="block__text {{block.textAreaWidth}}">
+            {% if block.title != '' %}
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
             {% endif %}
-        {% endif %}
 
-        {% if block.subtitle != '' %}
-            <div class="block__space"></div>
-            <div class="block__descr">{{block.subtitle}}</div>
-            <div class="block__space block__space--size-lg"></div>
-        {% else %}
-            <div class="block__space block__space--size-lg"></div>
-        {% endif %}
+            {% if block.subtitle != '' %}
+                <div class="block__space"></div>
+                <div class="block__descr">{{block.subtitle}}</div>
+                <div class="block__space block__space--size-lg"></div>
+            {% else %}
+                <div class="block__space block__space--size-lg"></div>
+            {% endif %}
+        </div>
 
         {% if block.columnsCount == 4 %}
             <div class="list list-images mb-4">
                 <div class="list__item">
                     {% assign firstImage = block.images[0].image %}
                     {% if firstImage != '' and firstImage.url != '' %}
-                        <div class="list__img list__img--big" style="background-image: url('{{firstImage.url}}')"></div>
+                        {% if block.images[0].url != '' %}
+                            <a href="{{block.images[0].url}}" {% if block.images[0].openInNewTab == 'True' %}target="_blank"{% endif %}>
+                                <div class="list__img list__img--big" style="background-image: url('{{firstImage.url}}')"></div>
+                            </a>
+                        {% else %}
+                            <div class="list__img list__img--big" style="background-image: url('{{firstImage.url}}')"></div>
+                        {% endif %}
                     {% endif %}
                 </div>
             </div>
             <div class="block__space"></div>
             {% assign isNeedToSkipFirstImage = true %}
+            <div class="list list-images">
+                {% for item in block.images %}
+                    {% if isNeedToSkipFirstImage %}
+                        {% assign isNeedToSkipFirstImage = false %}
+                        {% continue %}
+                    {% else %}
+                        {% if item.image != '' and item.image.url != '' %}
+                            <div class="list__item">
+                                {% if item.url != '' %}
+                                    <a href="{{item.url}}" {% if item.openInNewTab == 'True' %}target="_blank"{% endif %}>
+                                        <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                                    </a>
+                                {% else %}
+                                    <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
         {% endif %}
 
-        <div class="list list-images">
-            {% for item in block.images %}
-                {% if isNeedToSkipFirstImage %}
-                    {% assign isNeedToSkipFirstImage = false %}
-                    {% continue %}
-                {% else %}
-                    {% if item.image != '' and item.image.url != '' %}
-                        <div class="list__item">
-                            <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
-                        </div>
+        {% if block.columnsCount == 3 %}
+            <div class="list list-images">
+                {% for item in block.images %}
+                    {% if isNeedToSkipFirstImage %}
+                        {% assign isNeedToSkipFirstImage = false %}
+                        {% continue %}
+                    {% else %}
+                        {% if item.image != '' and item.image.url != '' %}
+                            <div class="list__item">
+                                {% if item.url != '' %}
+                                    <a href="{{item.url}}" {% if item.openInNewTab == 'True' %}target="_blank"{% endif %}>
+                                        <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                                    </a>
+                                {% else %}
+                                    <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                     {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if block.columnsCount == 2 %}
+            {% for item in block.images %}
+                {% assign isEven = forloop.index | modulo: 2 %}
+                {% if isEven == 0 %}
+                    <div class="list list-images">
+                {% endif %}
+                <div class="list__item">
+                    {% if item.url != '' %}
+                        <a href="{{item.url}}" {% if item.openInNewTab == 'True' %}target="_blank"{% endif %}>
+                            <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                        </a>
+                    {% else %}
+                        <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                    {% endif %}
+                </div>
+                {% if isEven == 1 %}
+                    </div>
                 {% endif %}
             {% endfor %}
-        </div>
+        {% endif %}
     </div>
 </div>

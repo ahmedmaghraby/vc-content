@@ -3445,51 +3445,70 @@
 		"category": "Media and Logotypes",
 		"settings": [
 			{
-				"id": "backgroundImage",
-				"label": "Background image",
-				"type": "image",
-				"tab": "Content"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "images",
-				"label": "Images",
-				"type": "list",
-				"addText": "Add image",
-				"removeText": "Remove image",
-				"displayField": "image.url",
-				"element": [
+				"id": "columnsCount",
+				"label": "Number of columns",
+				"type": "select",
+				"default": "3",
+				"options": [
 					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					}
-				],
-				"default": [
-					{
-						"image": { "url": "/assets/pages/img.jpg" }
+						"value": "2",
+						"label": "2"
 					},
 					{
-						"image": { "url": "/assets/pages/img.jpg" }
+						"value": "3",
+						"label": "3"
 					},
 					{
-						"image": { "url": "/assets/pages/img.jpg" }
+						"value": "4",
+						"label": "4"
 					}
 				],
-				"tab": "Content"
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topPadding",
@@ -3510,7 +3529,8 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "bottomPadding",
@@ -3531,83 +3551,28 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "3",
-						"label": "3"
-					},
-					{
-						"value": "4",
-						"label": "4"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "containerAlignment",
-				"label": "Container Alignment",
-				"type": "select",
-				"default": "block--align-center",
-				"options": [
-					{
-						"value": "block--align-left",
-						"label": "Left"
-					},
-					{
-						"value": "block--align-center",
-						"label": "Center"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -3628,7 +3593,91 @@
 						"label": "DIV"
 					}
 				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Background color",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					}
+				],
 				"tab": "Settings"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "images",
+				"label": "Items",
+				"type": "list",
+				"addText": "Add image",
+				"removeText": "Remove image",
+				"displayField": "url",
+				"element": [
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Image upload",
+						"group": "Image"
+					},
+					{
+						"id": "url",
+						"type": "string",
+						"label": "URL"
+					},
+					{
+						"id": "openInNewTab",
+						"type": "checkbox",
+						"label": "Open in new tab"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/img.jpg" },
+						"url": "",
+						"openInNewTab": false
+					},
+					{
+						"image": { "url": "/assets/pages/img.jpg" },
+						"url": "",
+						"openInNewTab": false
+					},
+					{
+						"image": { "url": "/assets/pages/img.jpg" },
+						"url": "",
+						"openInNewTab": false
+					}
+				],
+				"tab": "Content"
 			}
 		]
 	},

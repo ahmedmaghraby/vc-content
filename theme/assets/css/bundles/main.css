@@ -5192,6 +5192,10 @@ code {
     }
 }
 
+.block .list-images ~ .list-images {
+    margin-top: 1rem;
+}
+
 .swipe {
     background: #fff;
     bottom: 0;
