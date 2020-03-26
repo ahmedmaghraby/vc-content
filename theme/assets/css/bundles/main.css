@@ -5066,6 +5066,12 @@ code {
     max-width: 50%;
 }
 
+.block .list-cards--cols-4.list-cards .list__item {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
 @media (max-width: 991.98px) {
     .block .list-cards .list__item {
         -ms-flex-preferred-size: auto;
