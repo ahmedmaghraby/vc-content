@@ -68,11 +68,18 @@
                   {% if item.fieldType == 'checkbox' and item.agreeTermsMessage == 'True' %}
                     <span style="display:none;margin-top: 1rem" style="display:none" class="form-error--highlight field-validation-error" data-valmsg-for="agree" data-valmsg-replace="true"><span id="agree-error" class="">Please agree with our terms</span></span>
                   {% endif %}
+                  {% if item.fieldType == 'select' %}
+                    <select class="form-control" {% if item.required == 'True' %}required{% endif %}>
+                        {% for option in item.selectOptions %}
+                            <option {% if option.selected == 'True' %}selected{% endif %} {% if option.disabled == 'True' %}disabled{% endif %} value="{{option.value}}">{{option.text}}</option>
+                        {% endfor %}
+                    </select>
+                  {% endif %}
                 </div>
                 {% endif %}
             {% endfor %}
             <div class="form-group">
-              <button type="submit" class="btn btn--orange btn--block" disabled>{{ block.submitButtonText }}</button>
+              <button type="submit" class="btn btn--orange btn--block">{{ block.submitButtonText }}</button>
             </div>
           </form>
         </div>

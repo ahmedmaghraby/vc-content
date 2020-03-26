@@ -4080,6 +4080,10 @@
               {
                 "value": "hidden",
                 "label": "Hidden"
+              },
+			  {
+                "value": "select",
+                "label": "Select"
               }
             ]
           },
@@ -4114,6 +4118,36 @@
               }
             ]
           },
+		  {
+			"id": "selectOptions",
+			"label": "Options",
+			"type": "list",
+			"addText": "Add select option",
+			"removeText": "Remove",
+			"displayField": "text",
+			"element": [
+				{
+					"id": "text",
+					"type": "string",
+					"label": "Text"
+				},
+				{
+					"id": "value",
+					"type": "string",
+					"label": "Value"
+				},
+				{
+					"id": "selected",
+					"type": "checkbox",
+					"label": "Selected"
+				},
+				{
+					"id": "disabled",
+					"type": "checkbox",
+					"label": "Disabled"
+				}
+			]
+		  },
           {
             "id": "placeholder",
             "label": "Placeholder",
