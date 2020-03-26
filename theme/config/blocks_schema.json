@@ -5569,6 +5569,169 @@
 		"category": "Queries and Other",
 		"settings": [
 			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					},
+					{
+						"value": "4",
+						"label": "4"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -5606,21 +5769,6 @@
 						"label": "Subtitle"
 					},
 					{
-						"id": "labels",
-						"label": "Labels",
-						"type": "list",
-						"addText": "Add label",
-						"removeText": "Remove label",
-						"displayField": "name",
-						"element": [
-							{
-								"id": "name",
-								"type": "string",
-								"label": "Name"
-							}
-						]
-					},
-					{
 						"id": "authorName",
 						"type": "string",
 						"label": "Author name"
@@ -5636,14 +5784,6 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					},
@@ -5651,14 +5791,6 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					},
@@ -5666,141 +5798,11 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					}
 				],
 				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
 			}
 		]
 	}
