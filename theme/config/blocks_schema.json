@@ -5169,6 +5169,96 @@
 		"category": "Promotions and CTAs",
 		"settings": [
 			{
+				"id": "titleAlignment",
+				"label": "Title alignment",
+				"type": "select",
+				"default": "center",
+				"options": [
+					{
+						"value": "center",
+						"label": "Center"
+					},
+					{
+						"value": "left",
+						"label": "Left"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -5202,93 +5292,6 @@
                     "style": "btn btn--orange"
                 },
 				"tab": "Content"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleAlignment",
-				"label": "Title alignment",
-				"type": "select",
-				"default": "center",
-				"options": [
-					{
-						"value": "center",
-						"label": "Center"
-					},
-					{
-						"value": "left",
-						"label": "Left"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleColor",
-				"label": "Title color",
-				"type": "select",
-				"default": "block__learn--black-title",
-				"options": [
-					{
-						"value": "block__learn--black-title",
-						"label": "Black"
-					},
-					{
-						"value": "block__learn--white-title",
-						"label": "White"
-					}
-				],
-				"tab": "Settings"
 			}
 		]
 	},
