@@ -4946,6 +4946,148 @@
 		"category": "Promotions and CTAs",
 		"settings": [
 			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -4957,13 +5099,6 @@
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "image",
-				"label": "Image",
-				"type": "image",
-				"default": { "url": "/assets/pages/vc-logo-gray.png" },
 				"tab": "Content"
 			},
 			{
@@ -4992,7 +5127,8 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Buttons"
 			},
 			{
 				"id": "secondButton",
@@ -5020,116 +5156,8 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
+				"tab": "Content",
+				"group": "Buttons"
 			}
 		]
 	},
