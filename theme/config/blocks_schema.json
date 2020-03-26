@@ -1943,9 +1943,9 @@
 			}
 		]
 	},
-	"headline-with-form": {
-		"id": "headline-with-form",
-		"name": "Headline with form",
+	"headline-with-form-and-image": {
+		"id": "headline-with-form-and-image",
+		"name": "Headline with form and image",
 		"icon": "image-text",
 		"displayField": "title",
 		"category": "Headlines and Forms",
@@ -3205,9 +3205,9 @@
             }
 		]
 	},
-	"logotypes-in-line": {
-		"id": "logotypes-in-line",
-		"name": "Logotypes in line",
+	"media-with-logotypes-in-line": {
+		"id": "media-with-logotypes-in-line",
+		"name": "Media with logotypes in line",
 		"icon": "image-text",
 		"displayField": "title",
 		"category": "Media and Logotypes",
