@@ -1,40 +1,32 @@
-{% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
-
-<div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+<div class="block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
         <div class="row align-items-center">
             {% if block.horizontalAlignment == 'left' %}
                 <div class="col-lg-auto">
                     <div class="block__media">
-                        {% if block.containerImage != '' %}
-                            {% if block.containerImage.url != '' %}
-                                <img src="{{block.containerImage.url}}" alt="{{block.containerImage.alt}}" class="block__pic" />
-                            {% endif %}
+                        {% if block.containerImage.url != '' %}
+                            <div class="block__media">
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
+                            </div>
                         {% endif %}
                     </div>
                 </div>
             {% endif %}
-                
+
             <div class="col-lg mr-auto">
                 {% if block.note != '' %}
                     <div class="block__note">{{block.note}}</div>
                 {% endif %}
                 <div class="block__space"></div>
-                {% if block.titleStyle == 'h1' %}
-                    <h1 class="block__t">{{block.title}}</h1>
-                {% elsif  block.titleStyle == 'h2' %}
-                    <h2 class="block__t">{{block.title}}</h2>
-                {% elsif block.titleStyle == 'h3' %}
-                    <h3 class="block__t">{{block.title}}</h3>
-                {% else %}
-                    <div class="block__t">{{block.title}}</div>
-                {% endif %}
-                    
-                {% if block.subtitle != '' %}
-                    <div class="block__space"></div>
-                    <h3 class="block__descr">{{block.subtitle}}</h3>
-                {% endif %}
-                    
+
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
+                <div class="block__space"></div>
+                <div class="block__descr">{{block.subtitle}}</div>
                 {% if block.firstButton != '' and block.firstButton.urlText != '' %}
                     <div class="block__space"></div>
                     <div class="block__actions">
@@ -45,14 +37,14 @@
                     </div>
                 {% endif %}
             </div>
-                
+
             {% if block.horizontalAlignment == 'right' %}
                 <div class="col-lg-auto">
                     <div class="block__media">
-                        {% if block.containerImage != '' %}
-                            {% if block.containerImage.url != '' %}
-                                <img src="{{block.containerImage.url}}" alt="{{block.containerImage.alt}}" class="block__pic" />
-                            {% endif %}
+                        {% if block.containerImage.url != '' %}
+                            <div class="block__media">
+                                <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
+                            </div>
                         {% endif %}
                     </div>
                 </div>

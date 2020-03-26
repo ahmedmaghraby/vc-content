@@ -4,13 +4,13 @@
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
     {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
-        <div class="block__text">
+        <div class="block__text {{block.textAreaWidth}}">
             {% if block.title != '' %}
                 <h2 class="block__t">{{block.title}}</h2>
                 <div class="block__space"></div>
             {% endif %}
             {% if block.subtitle != '' %}
-                <h3 class="block__descr">{{block.subtitle}}</h3>
+                <div class="block__descr">{{block.subtitle}}</div>
                 <div class="block__space"></div>
             {% endif %}
         </div>
@@ -31,7 +31,7 @@
                             {% include 'form-validation-message' inputItem: item %}
                         </div>
                     {% elsif item.fieldType == 'button' %}
-                        <input type="submit" class="{{block.containerFormButtonColour}}" value="{{item.labelText}}" />
+                        <input type="submit" class="btn btn--orange" value="{{item.labelText}}" />
                     {% else %}
                         {% if counter < 3 %}
                             <input type="text" class="form-control"

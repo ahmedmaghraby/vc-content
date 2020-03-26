@@ -1,0 +1,46 @@
+<div class="block {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
+    <div class="block__inner container">
+         <div class="row">
+            {% if block.horizontalAlignment == 'left' %}
+                <div class="col-md-6">
+                    <div class="block__space"></div>
+
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
+                    {% if block.note != '' %}
+                        <div class="block__note">{{block.note}}</div>
+                    {% endif %}
+                </div>
+            {% endif %}
+            
+            <div class="col-md-6">
+                <div class="block__descr">{{block.subtitle}}</div>
+                {% if block.firstButton != '' and block.firstButton.urlText != '' %}
+                    <div class="block__space"></div>
+                    <div class="block__actions">
+                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
+                        {% if block.secondButton != '' and block.secondButton.urlText != '' %}
+                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+
+             {% if block.horizontalAlignment == 'right' %}
+                 <div class="col-md-6">
+                     <div class="block__space"></div>
+
+                     {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+
+                     {% if block.note != '' %}
+                        <div class="block__note">{{block.note}}</div>
+                     {% endif %}
+                 </div>
+             {% endif %}
+         </div>
+    </div>
+</div>

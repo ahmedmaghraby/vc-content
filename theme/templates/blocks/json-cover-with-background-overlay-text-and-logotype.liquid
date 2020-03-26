@@ -1,0 +1,29 @@
+{% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
+
+<div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+    <div class="block__inner container">
+        {% if block.logotypeImage.url != '' %}
+            <img src="{{block.logotypeImage.url}}" />
+            <span>{{block.logotypeTitle}}</span>
+        {% endif %}
+        {% if block.note != '' %}
+            <div class="block__note">{{block.note}}</div>
+            <div class="block__space"></div>
+        {% endif %}
+        
+        {% if block.titleStyle == 'h1' %}
+            <h1 class="block__t">{{block.title}}</h1>
+        {% elsif  block.titleStyle == 'h2' %}
+            <h2 class="block__t">{{block.title}}</h2>
+        {% elsif block.titleStyle == 'h3' %}
+            <h3 class="block__t">{{block.title}}</h3>
+        {% else %}
+            <div class="block__t">{{block.title}}</div>
+        {% endif %}
+                    
+        {% if block.subtitle != '' %}
+            <div class="block__space"></div>
+            <div class="block__descr">{{block.subtitle}}</div>
+        {% endif %}
+    </div>
+</div>
