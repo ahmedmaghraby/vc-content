@@ -115,22 +115,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -1272,22 +1272,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -2415,22 +2415,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -2877,22 +2877,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3234,22 +3234,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3488,22 +3488,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3710,22 +3710,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3930,22 +3930,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4280,22 +4280,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4535,22 +4535,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4744,22 +4744,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4983,22 +4983,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -5361,22 +5361,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -5627,22 +5627,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
