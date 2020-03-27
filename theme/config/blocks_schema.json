@@ -4741,102 +4741,30 @@
 		"category": "References and Quotes",
 		"settings": [
 			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "review",
-				"element": [
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
 					{
-						"id": "companyLogo",
-						"type": "image",
-						"label": "Company logo"
+						"value": "col-lg",
+						"label": "Full width"
 					},
 					{
-						"id": "companyTitle",
-						"type": "string",
-						"label": "Title"
+						"value": "col-lg-10",
+						"label": "10 cols"
 					},
 					{
-						"id": "site",
-						"type": "url",
-						"label": "Site URL",
-						"urlLabel": "Url",
-						"textLabel": "Text",
-						"styles": []
+						"value": "col-lg-8",
+						"label": "8 cols"
 					},
 					{
-						"id": "type",
-						"type": "select",
-						"label": "Item type",
-						"default": "company",
-						"options": [
-							{
-								"value": "company",
-								"label": "Company"
-							},
-							{
-								"value": "reviewer",
-								"label": "Reviewer"
-							}
-						]
-					},
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "name",
-						"type": "string",
-						"label": "Name"
-					},
-					{
-						"id": "jobTitle",
-						"type": "string",
-						"label": "Job title"
-					},
-					{
-						"id": "review",
-						"type": "text",
-						"label": "Review"
+						"value": "col-lg-6",
+						"label": "6 cols"
 					}
 				],
-				"default": [
-					{
-						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
-						"companyTitle": "Lavazza",
-						"site": {
-							"url": "https://www.lavazza.com",
-							"urlText": "www.lavazza.com"
-						},
-						"type": "company",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					},
-					{
-						"image": { "url": "/assets/pages/quotes.png" },
-						"name": "Nicolas A",
-						"jobTitle": "Developer",
-						"type": "reviewer",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					}
-				],
-				"tab": "Content"
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topPadding",
@@ -4857,7 +4785,8 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "bottomPadding",
@@ -4878,42 +4807,28 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -4934,7 +4849,126 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "items",
+				"label": "Quotes / Reference items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "type",
+						"type": "select",
+						"label": "Type of item",
+						"default": "company",
+						"options": [
+							{
+								"value": "company",
+								"label": "Company"
+							},
+							{
+								"value": "reviewer",
+								"label": "Reviewer"
+							}
+						]
+					},
+					{
+						"id": "text",
+						"type": "text",
+						"label": "Text"
+					},
+					{
+						"id": "name",
+						"type": "string",
+						"label": "Name / Company"
+					},
+					{
+						"id": "jobTitle",
+						"type": "string",
+						"label": "Job title / Field of activity"
+					},
+					{
+						"id": "site",
+						"type": "url",
+						"label": "Site URL",
+						"urlLabel": "Url",
+						"textLabel": "Text"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Image upload",
+						"group": "Image"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/rb2-logo-colored.png" },
+						"name": "Lavazza",
+						"site": {
+							"url": "https://www.lavazza.com",
+							"urlText": "www.lavazza.com"
+						},
+						"type": "company",
+						"text": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					},
+					{
+						"image": { "url": "/assets/pages/quotes.png" },
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"type": "reviewer",
+						"text": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					}
+				],
+				"tab": "Content"
 			}
 		]
 	},
