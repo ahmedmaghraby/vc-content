@@ -188,7 +188,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -218,7 +218,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -404,8 +404,8 @@
 			},
 			{
 				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
+				"label": "Colour HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -434,8 +434,8 @@
 			},
 			{
 				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
+				"label": "Overlay color HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -630,7 +630,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -660,7 +660,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -863,7 +863,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -893,7 +893,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1405,7 +1405,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1627,7 +1627,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1849,7 +1849,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2124,7 +2124,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2154,7 +2154,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2593,7 +2593,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2623,7 +2623,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3033,7 +3033,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3063,7 +3063,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3367,7 +3367,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3616,7 +3616,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3858,7 +3858,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3886,8 +3886,8 @@
 			},
 			{
 				"id": "imageOverlayColorHex",
-				"label": "Image overlay color (HEX)",
-				"type": "string",
+				"label": "Overlay colour HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings"
 			}
@@ -4133,7 +4133,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4413,7 +4413,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4443,7 +4443,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Image overlay"
@@ -4668,7 +4668,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4877,7 +4877,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5116,7 +5116,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5287,7 +5287,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5494,7 +5494,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5760,7 +5760,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
