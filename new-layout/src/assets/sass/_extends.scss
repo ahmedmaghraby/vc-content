@@ -527,6 +527,14 @@
         }
     }
 
+    &.list-cards--cols-4
+    {
+        .list__item {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
     @include media-breakpoint-down(md) {
         .list__item
         {
@@ -553,7 +561,6 @@
     .list__img
     {
         align-items: center;
-        display: flex;
         height: 3.125rem;
         justify-content: flex-start;
         position: relative;

@@ -5,18 +5,10 @@
     {% if block.backgroundColorHex != '' %} style="background-color:{{block.backgroundColorHex}}" {% endif %}>
     <div class="block__inner container">
         {% if block.image != '' and block.image.url != '' %}
-            <img src="{{block.image.url}}" title="{{block.image.alt}}" class="block__logo">
+            <img src="{{block.image.url}}" title="{{block.image.altText}}" class="block__logo">
         {% endif %}
-        <div class="block__text">
-            {% if block.titleStyle == 'h1' %}
-                <h1 class="block__t">{{block.title}}</h1>
-            {% elsif  block.titleStyle == 'h2' %}
-                <h2 class="block__t">{{block.title}}</h2>
-            {% elsif block.titleStyle == 'h3' %}
-                <h3 class="block__t">{{block.title}}</h3>
-            {% else %}
-                <div class="block__t">{{block.title}}</div>
-            {% endif %}
+        <div class="block__text {{block.textAreaWidth}}">
+            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
             {% if block.subtitle != '' %}
                 <div class="block__space"></div>

@@ -1943,9 +1943,9 @@
 			}
 		]
 	},
-	"headline-with-form": {
-		"id": "headline-with-form",
-		"name": "Headline with form",
+	"headline-with-form-and-image": {
+		"id": "headline-with-form-and-image",
+		"name": "Headline with form and image",
 		"icon": "image-text",
 		"displayField": "title",
 		"category": "Headlines and Forms",
@@ -3205,9 +3205,9 @@
             }
 		]
 	},
-	"logotypes-in-line": {
-		"id": "logotypes-in-line",
-		"name": "Logotypes in line",
+	"media-with-logotypes-in-line": {
+		"id": "media-with-logotypes-in-line",
+		"name": "Media with logotypes in line",
 		"icon": "image-text",
 		"displayField": "title",
 		"category": "Media and Logotypes",
@@ -4532,50 +4532,30 @@
 		"category": "References and Quotes",
 		"settings": [
 			{
-				"id": "picture",
-				"type": "image",
-				"label": "Picture",
-				"default": { "url": "/assets/pages/quotes.png" },
-				"tab": "Content"
-			},
-			{
-				"id": "pictureIsRounded",
-				"label": "Picture rounded",
-				"type": "checkbox",
-				"tab": "Content"
-			},
-			{
-				"id": "nameOrCompany",
-				"type": "string",
-				"label": "Name / Company",
-				"default": "Company",
-				"tab": "Content"
-			},
-			{
-				"id": "jobTitleOrField",
-				"type": "string",
-				"label": "Job title / Field",
-				"default": "Field of activity",
-				"tab": "Content"
-			},
-			{
-				"id": "siteUrl",
-				"label": "Site URL",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Text",
-				"default": {
-					"url": "www.site.com",
-					"urlText": "www.site.com"
-				},
-				"tab": "Content"
-			},
-			{
-				"id": "review",
-				"label": "Review",
-				"type": "string",
-				"default": "We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need – today and long-term",
-				"tab": "Content"
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topPadding",
@@ -4596,7 +4576,8 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "bottomPadding",
@@ -4617,51 +4598,30 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "reviewStyle",
-				"label": "Review style",
-				"type": "select",
-				"default": "h2",
+				"default": "div",
 				"options": [
 					{
 						"value": "h1",
@@ -4680,7 +4640,96 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content"
+			},
+			{
+				"id": "text",
+				"label": "Text",
+				"type": "string",
+				"default": "We chose Virto Commerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need – today and long-term",
+				"tab": "Content",
+				"group": "Review"
+			},
+			{
+				"id": "nameOrCompany",
+				"type": "string",
+				"label": "Name / Company",
+				"default": "Company",
+				"tab": "Content",
+				"group": "Review"
+			},
+			{
+				"id": "jobTitleOrField",
+				"type": "string",
+				"label": "Job title / Field of activity",
+				"default": "Field of activity",
+				"tab": "Content",
+				"group": "Review"
+			},
+			{
+				"id": "siteUrl",
+				"label": "Site URL",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Text",
+				"default": {
+					"url": "www.site.com",
+					"urlText": "www.site.com"
+				},
+				"tab": "Content"
+			},
+			{
+				"id": "picture",
+				"type": "image",
+				"label": "Image upload",
+				"default": { "url": "/assets/pages/quotes.png" },
+				"tab": "Content",
+				"group": "Image"
 			}
 		]
 	},
@@ -4897,6 +4946,148 @@
 		"category": "Promotions and CTAs",
 		"settings": [
 			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -4908,13 +5099,6 @@
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "image",
-				"label": "Image",
-				"type": "image",
-				"default": { "url": "/assets/pages/vc-logo-gray.png" },
 				"tab": "Content"
 			},
 			{
@@ -4943,7 +5127,8 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
+				"tab": "Content",
+				"group": "Buttons"
 			},
 			{
 				"id": "secondButton",
@@ -4971,95 +5156,55 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Content"
-			},
+				"tab": "Content",
+				"group": "Buttons"
+			}
+		]
+	},
+	"simple-call-to-action": {
+		"id": "simple-call-to-action",
+		"name": "Simple call-to-action",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Promotions and CTAs",
+		"settings": [
 			{
-				"id": "topPadding",
-				"label": "Top padding",
+				"id": "titleAlignment",
+				"label": "Title alignment",
 				"type": "select",
-				"default": "block--padding-top-large",
+				"default": "center",
 				"options": [
 					{
-						"value": "block--padding-top-none",
-						"label": "None"
+						"value": "center",
+						"label": "Center"
 					},
 					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
+						"value": "left",
+						"label": "Left"
 					}
 				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					},
-					{
-						"value": "block--bg-orange",
-						"label": "Orange"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -5080,17 +5225,39 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"simple-call-to-action": {
-		"id": "simple-call-to-action",
-		"name": "Simple call-to-action",
-		"icon": "image-text",
-		"displayField": "title",
-		"category": "Promotions and CTAs",
-		"settings": [
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
 			{
 				"id": "title",
 				"label": "Title",
@@ -5125,38 +5292,126 @@
                     "style": "btn btn--orange"
                 },
 				"tab": "Content"
-			},
+			}
+		]
+	},
+	"query-case-studies": {
+		"id": "query-case-studies",
+		"name": "Query case studies",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Queries and Other",
+		"settings": [
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
+				"id": "columnsCount",
+				"label": "Columns count",
 				"type": "select",
-				"default": "block--bg-white",
+				"default": "3",
 				"options": [
 					{
-						"value": "block--bg-white",
-						"label": "White"
+						"value": "2",
+						"label": "2"
 					},
 					{
-						"value": "block--bg-light",
-						"label": "Gray"
+						"value": "3",
+						"label": "3"
 					},
 					{
-						"value": "block--bg-orange",
-						"label": "Orange"
+						"value": "4",
+						"label": "4"
 					}
 				],
 				"tab": "Settings"
 			},
 			{
-				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
-				"default": "",
-				"tab": "Settings"
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -5177,51 +5432,39 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Typography"
 			},
 			{
-				"id": "titleAlignment",
-				"label": "Title alignment",
+				"id": "backgroundColor",
+				"label": "Colour",
 				"type": "select",
-				"default": "center",
+				"default": "block--bg-white",
 				"options": [
 					{
-						"value": "center",
-						"label": "Center"
-					},
-					{
-						"value": "left",
-						"label": "Left"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleColor",
-				"label": "Title color",
-				"type": "select",
-				"default": "block__learn--black-title",
-				"options": [
-					{
-						"value": "block__learn--black-title",
-						"label": "Black"
-					},
-					{
-						"value": "block__learn--white-title",
+						"value": "block--bg-white",
 						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
 					}
 				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"query-case-studies": {
-		"id": "query-case-studies",
-		"name": "Query case studies",
-		"icon": "image-text",
-		"displayField": "title",
-		"category": "Queries and Other",
-		"settings": [
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
 			{
 				"id": "title",
 				"label": "Title",
@@ -5315,6 +5558,62 @@
 					}
 				],
 				"tab": "Content"
+			}
+		]
+	},
+	"query-blog-posts": {
+		"id": "query-blog-posts",
+		"name": "Query blog posts",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Queries and Other",
+		"settings": [
+			{
+				"id": "columnsCount",
+				"label": "Columns count",
+				"type": "select",
+				"default": "3",
+				"options": [
+					{
+						"value": "2",
+						"label": "2"
+					},
+					{
+						"value": "3",
+						"label": "3"
+					},
+					{
+						"value": "4",
+						"label": "4"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg",
+				"options": [
+					{
+						"value": "col-lg",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
 			},
 			{
 				"id": "topPadding",
@@ -5335,7 +5634,8 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "bottomPadding",
@@ -5356,66 +5656,28 @@
 						"label": "Medium"
 					}
 				],
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Paddings"
 			},
 			{
 				"id": "topDivider",
 				"label": "Top divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
 				"id": "bottomDivider",
 				"label": "Bottom divider",
 				"type": "checkbox",
 				"default": false,
-				"tab": "Settings"
+				"tab": "Settings",
+				"group": "Dividers"
 			},
 			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
 				"type": "select",
 				"default": "div",
 				"options": [
@@ -5436,17 +5698,39 @@
 						"label": "DIV"
 					}
 				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"query-blog-posts": {
-		"id": "query-blog-posts",
-		"name": "Query blog posts",
-		"icon": "image-text",
-		"displayField": "title",
-		"category": "Queries and Other",
-		"settings": [
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "string",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
 			{
 				"id": "title",
 				"label": "Title",
@@ -5485,21 +5769,6 @@
 						"label": "Subtitle"
 					},
 					{
-						"id": "labels",
-						"label": "Labels",
-						"type": "list",
-						"addText": "Add label",
-						"removeText": "Remove label",
-						"displayField": "name",
-						"element": [
-							{
-								"id": "name",
-								"type": "string",
-								"label": "Name"
-							}
-						]
-					},
-					{
 						"id": "authorName",
 						"type": "string",
 						"label": "Author name"
@@ -5515,14 +5784,6 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					},
@@ -5530,14 +5791,6 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					},
@@ -5545,141 +5798,11 @@
 						"image": { "url": "/assets/pages/video-screen-asp-net-shopping-cart.png" },
 						"title": "Virto Commerce demo is available",
 						"subtitle": "Our vision is to offer the best lighting on the market at an affordable price and to make sure that our cus...",
-						"labels": [
-							{
-								"name": "Alpha"
-							},
-							{
-								"name": "Announcements"
-							}
-						],
 						"authorName": "Virtocommerce",
 						"date": "30 JAN 2020"
 					}
 				],
 				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "carousel",
-				"label": "Carousel (mobile)",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "columnsCount",
-				"label": "Columns count",
-				"type": "select",
-				"default": "3",
-				"options": [
-					{
-						"value": "2",
-						"label": "2"
-					},
-					{
-						"value": "3",
-						"label": "3"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
 			}
 		]
 	}
