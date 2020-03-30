@@ -1,0 +1,70 @@
+<div class="block block--info {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block__inner container">
+        {% if block.title != '' %}
+            <div class="block__t">
+                {% include 'seo-text' text: block.title %}
+            </div>
+            <div class="block__space"></div>
+        {% endif %}
+        {% if block.paragraph != '' %}
+            <div class="row">
+                {% assign words = block.paragraph | split: " " %}
+                {% assign columnsWordsCount = [] %}
+                {% if block.numberOfColumns == '2' %}
+                    {% assign wordsInColumn = words.size | divided_by: 2 %}
+                    {% assign mod = words.size | modulo: 2 %}
+                    {% for n in (0..1) %}
+                        {% assign columnsWordsCount[n] = wordsInColumn %}
+                    {% endfor %}
+                    {% assign compareIndex = 2 %}
+                {% elsif block.numberOfColumns == '3' %}
+                    {% assign wordsInColumn = words.size | divided_by: 3 %}
+                    {% assign mod = words.size | modulo: 3 %}
+                    {% for n in (0..2) %}
+                        {% assign columnsWordsCount[n] = wordsInColumn %}
+                    {% endfor %}
+                    {% assign compareIndex = 3 %}
+                {% else %}
+                    {% assign wordsInColumn = words.size | divided_by: 4 %}
+                    {% assign mod = words.size | modulo: 4 %}
+                    {% for n in (0..3) %}
+                        {% assign columnsWordsCount[n] = wordsInColumn %}
+                    {% endfor %}
+                    {% assign compareIndex = 4 %}
+                {% endif %}
+
+                {% if mod > 0 %}
+                    {% assign index = 0 %}
+                    {% for m in (1..mod) %}
+                        {% assign columnsWordsCount[index] = columnsWordsCount[index] | plus: 1 %}
+                        {% if index < compareIndex %}
+                            {% assign index = index | plus: 1 %}
+                        {% else %}
+                            {% assign index = 0 %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+                {% assign startIndex = 0 %}
+                {% assign endIndex = 0 %}
+                {% for count in columnsWordsCount %}
+                    {% if endIndex == 0 %}
+                        {% assign endIndex = count | minus: 1 %}
+                    {% else %}
+                        {% assign endIndex = endIndex | plus: count %}
+                    {% endif %}
+                    <div class="col-lg">
+                        <div class="block__descr">
+                            {% for i in (startIndex..endIndex) %}
+                                {{words[i]}}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% assign startIndex = startIndex | plus: count %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>
