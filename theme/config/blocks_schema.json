@@ -267,7 +267,7 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -296,7 +296,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -526,7 +526,7 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -555,7 +555,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			}
 		]	
@@ -715,7 +715,7 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -744,7 +744,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -996,7 +996,7 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -1025,7 +1025,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -1448,7 +1448,7 @@
 					"urlText": "Call to action",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -1477,7 +1477,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -1697,7 +1697,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			},
 			{
@@ -1726,7 +1726,7 @@
 					"urlText": "",
                     "style": "btn btn--orange"
                 },
-				"tab": "Settings",
+				"tab": "Content",
 				"group": "Buttons"
 			}
 		]
@@ -5046,36 +5046,6 @@
 				"group": "Background"
 			},
 			{
-				"id": "backgroundOverlayColor",
-				"label": "Background overlay color",
-				"type": "select",
-				"default": "none",
-				"options": [
-					{
-						"value": "none",
-						"label": "None"
-					},
-					{
-						"value": "black",
-						"label": "Black"
-					},
-					{
-						"value": "white",
-						"label": "White"
-					}
-				],
-				"tab": "Settings",
-				"group": "Image overlay"
-			},
-			{
-				"id": "backgroundOverlayColorHex",
-				"label": "Overlay color HEX",
-				"type": "color",
-				"default": "",
-				"tab": "Settings",
-				"group": "Image overlay"
-			},
-			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -5117,13 +5087,44 @@
 					{
 						"id": "review",
 						"type": "text",
-						"label": "Review"
+						"label": "Review",
+						"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 					},
 					{
 						"id": "image",
 						"type": "image",
 						"label": "Image upload",
 						"group": "Image"
+					},
+					{
+						"id": "overlayColor",
+						"label": "Image overlay colour",
+						"type": "select",
+						"default": "none",
+						"options": [
+							{
+								"value": "none",
+								"label": "None"
+							},
+							{
+								"value": "black",
+								"label": "Black"
+							},
+							{
+								"value": "white",
+								"label": "White"
+							}
+						],
+						"tab": "Settings",
+						"group": "Image overlay"
+					},
+					{
+						"id": "overlayColorHex",
+						"label": "Image overlay colour HEX",
+						"type": "color",
+						"default": "",
+						"tab": "Settings",
+						"group": "Image overlay"
 					}
 				],
 				"default": [
