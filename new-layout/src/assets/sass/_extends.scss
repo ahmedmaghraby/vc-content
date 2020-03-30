@@ -170,17 +170,6 @@
         margin-bottom: 1.25rem;
         min-height: 12.5rem;
         position: relative;
-
-        &::after
-        {
-            background: #ddd;
-            bottom: 0;
-            content: ' ';
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
     }
 
     .list__pic

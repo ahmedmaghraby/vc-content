@@ -115,22 +115,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -188,7 +188,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -218,7 +218,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -304,21 +304,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -404,8 +407,8 @@
 			},
 			{
 				"id": "backgroundColorHex",
-				"label": "Background color (HEX)",
-				"type": "string",
+				"label": "Colour HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -434,8 +437,8 @@
 			},
 			{
 				"id": "backgroundOverlayColorHex",
-				"label": "Background overlay color (HEX)",
-				"type": "string",
+				"label": "Overlay color HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -463,21 +466,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "backgroundImage",
@@ -630,7 +636,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -660,7 +666,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -746,21 +752,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -863,7 +872,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -893,7 +902,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1024,21 +1033,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -1272,22 +1284,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -1405,7 +1417,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1473,21 +1485,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			}
 		]
 	},
@@ -1627,7 +1642,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1637,21 +1652,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Lorem Ipsum is simply dummy text",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "firstButton",
@@ -1849,7 +1867,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -1859,21 +1877,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "containerImage",
@@ -2124,7 +2145,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2154,7 +2175,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2182,21 +2203,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -2415,22 +2439,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -2593,7 +2617,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2623,7 +2647,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -2651,21 +2675,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -2877,22 +2904,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3033,7 +3060,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3063,7 +3090,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3091,21 +3118,24 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "note",
 				"label": "Note",
 				"type": "text",
 				"default": "Our company",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "background",
@@ -3234,22 +3264,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3367,7 +3397,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3377,14 +3407,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "logotypes",
@@ -3488,22 +3520,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3616,7 +3648,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3626,14 +3658,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "images",
@@ -3710,22 +3744,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -3823,7 +3857,8 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "image",
@@ -3858,7 +3893,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -3886,8 +3921,8 @@
 			},
 			{
 				"id": "imageOverlayColorHex",
-				"label": "Image overlay color (HEX)",
-				"type": "string",
+				"label": "Overlay colour HEX",
+				"type": "color",
 				"default": "",
 				"tab": "Settings"
 			}
@@ -3930,22 +3965,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4133,7 +4168,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4143,14 +4178,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "columns",
@@ -4280,22 +4317,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4413,7 +4450,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4443,7 +4480,7 @@
 			{
 				"id": "backgroundOverlayColorHex",
 				"label": "Overlay color HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Image overlay"
@@ -4453,14 +4490,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "items",
@@ -4535,22 +4574,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -4668,7 +4707,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -4678,14 +4717,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "text",
@@ -4741,230 +4782,25 @@
 		"category": "References and Quotes",
 		"settings": [
 			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content"
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
-			},
-			{
-				"id": "items",
-				"label": "Items",
-				"type": "list",
-				"addText": "Add item",
-				"removeText": "Remove item",
-				"displayField": "review",
-				"element": [
-					{
-						"id": "companyLogo",
-						"type": "image",
-						"label": "Company logo"
-					},
-					{
-						"id": "companyTitle",
-						"type": "string",
-						"label": "Title"
-					},
-					{
-						"id": "site",
-						"type": "url",
-						"label": "Site URL",
-						"urlLabel": "Url",
-						"textLabel": "Text",
-						"styles": []
-					},
-					{
-						"id": "type",
-						"type": "select",
-						"label": "Item type",
-						"default": "company",
-						"options": [
-							{
-								"value": "company",
-								"label": "Company"
-							},
-							{
-								"value": "reviewer",
-								"label": "Reviewer"
-							}
-						]
-					},
-					{
-						"id": "image",
-						"type": "image",
-						"label": "Item image"
-					},
-					{
-						"id": "name",
-						"type": "string",
-						"label": "Name"
-					},
-					{
-						"id": "jobTitle",
-						"type": "string",
-						"label": "Job title"
-					},
-					{
-						"id": "review",
-						"type": "text",
-						"label": "Review"
-					}
-				],
-				"default": [
-					{
-						"companyLogo": { "url": "/assets/pages/rb2-logo-colored.png" },
-						"companyTitle": "Lavazza",
-						"site": {
-							"url": "https://www.lavazza.com",
-							"urlText": "www.lavazza.com"
-						},
-						"type": "company",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					},
-					{
-						"image": { "url": "/assets/pages/quotes.png" },
-						"name": "Nicolas A",
-						"jobTitle": "Developer",
-						"type": "reviewer",
-						"review": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
-					}
-				],
-				"tab": "Content"
-			},
-			{
-				"id": "topPadding",
-				"label": "Top padding",
-				"type": "select",
-				"default": "block--padding-top-large",
-				"options": [
-					{
-						"value": "block--padding-top-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-top-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-top-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomPadding",
-				"label": "Bottom padding",
-				"type": "select",
-				"default": "block--padding-bottom-large",
-				"options": [
-					{
-						"value": "block--padding-bottom-none",
-						"label": "None"
-					},
-					{
-						"value": "block--padding-bottom-half",
-						"label": "Small"
-					},
-					{
-						"value": "block--padding-bottom-large",
-						"label": "Medium"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "topDivider",
-				"label": "Top divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "bottomDivider",
-				"label": "Bottom divider",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
-			},
-			{
-				"id": "backgroundColor",
-				"label": "Background color",
-				"type": "select",
-				"default": "block--bg-white",
-				"options": [
-					{
-						"value": "block--bg-white",
-						"label": "White"
-					},
-					{
-						"value": "block--bg-light",
-						"label": "Gray"
-					}
-				],
-				"tab": "Settings"
-			},
-			{
-				"id": "titleStyle",
-				"label": "Title style",
-				"type": "select",
-				"default": "div",
-				"options": [
-					{
-						"value": "h1",
-						"label": "H1"
-					},
-					{
-						"value": "h2",
-						"label": "H2"
-					},
-					{
-						"value": "h3",
-						"label": "H3"
-					},
-					{
-						"value": "div",
-						"label": "DIV"
-					}
-				],
-				"tab": "Settings"
-			}
-		]
-	},
-	"vc-branded-call-to-action": {
-		"id": "vc-branded-call-to-action",
-		"name": "VC-branded call-to-action",
-		"icon": "image-text",
-		"displayField": "title",
-		"category": "Promotions and CTAs",
-		"settings": [
-			{
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -5082,7 +4918,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5092,14 +4928,257 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+			},
+			{
+				"id": "items",
+				"label": "Quotes / Reference items",
+				"type": "list",
+				"addText": "Add item",
+				"removeText": "Remove item",
+				"displayField": "review",
+				"element": [
+					{
+						"id": "type",
+						"type": "select",
+						"label": "Type of item",
+						"default": "company",
+						"options": [
+							{
+								"value": "company",
+								"label": "Company"
+							},
+							{
+								"value": "reviewer",
+								"label": "Reviewer"
+							}
+						]
+					},
+					{
+						"id": "text",
+						"type": "text",
+						"label": "Text"
+					},
+					{
+						"id": "name",
+						"type": "string",
+						"label": "Name / Company"
+					},
+					{
+						"id": "jobTitle",
+						"type": "string",
+						"label": "Job title / Field of activity"
+					},
+					{
+						"id": "site",
+						"type": "url",
+						"label": "Site URL",
+						"urlLabel": "Url",
+						"textLabel": "Text"
+					},
+					{
+						"id": "image",
+						"type": "image",
+						"label": "Image upload",
+						"group": "Image"
+					}
+				],
+				"default": [
+					{
+						"image": { "url": "/assets/pages/rb2-logo-colored.png" },
+						"name": "Lavazza",
+						"site": {
+							"url": "https://www.lavazza.com",
+							"urlText": "www.lavazza.com"
+						},
+						"type": "company",
+						"text": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					},
+					{
+						"image": { "url": "/assets/pages/quotes.png" },
+						"name": "Nicolas A",
+						"jobTitle": "Developer",
+						"type": "reviewer",
+						"text": "We chose VirtoCommerce for Lavazza because it is the only ecommerce platform that has the functionality, flexibility, and scalability we need - today and long-term"
+					}
+				],
 				"tab": "Content"
+			}
+		]
+	},
+	"vc-branded-call-to-action": {
+		"id": "vc-branded-call-to-action",
+		"name": "VC-branded call-to-action",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Promotions and CTAs",
+		"settings": [
+			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg px-0",
+				"options": [
+					{
+						"value": "col-lg px-0",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10 px-0",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8 px-0",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6 px-0",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "color",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "firstButton",
@@ -5253,7 +5332,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5263,7 +5342,8 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "button",
@@ -5327,22 +5407,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -5460,7 +5540,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5470,14 +5550,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "items",
@@ -5593,22 +5675,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg",
+				"default": "col-lg px-0",
 				"options": [
 					{
-						"value": "col-lg",
+						"value": "col-lg px-0",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10",
+						"value": "col-lg-10 px-0",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8",
+						"value": "col-lg-8 px-0",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6",
+						"value": "col-lg-6 px-0",
 						"label": "6 cols"
 					}
 				],
@@ -5726,7 +5808,7 @@
 			{
 				"id": "backgroundColorHex",
 				"label": "Colour HEX",
-				"type": "string",
+				"type": "color",
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
@@ -5736,14 +5818,16 @@
 				"label": "Title",
 				"type": "text",
 				"default": "Bring your ideas to life",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
 				"id": "subtitle",
 				"label": "Subtitle",
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content"
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "items",
