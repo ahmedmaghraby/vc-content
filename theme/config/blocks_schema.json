@@ -242,6 +242,37 @@
 				"group": "Background"
 			},
 			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content",
+				"group": "Background"
+			},
+			{
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
@@ -298,37 +329,6 @@
                 },
 				"tab": "Content",
 				"group": "Buttons"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content",
-				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
-			},
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content",
-				"group": "Background"
 			}
 		]
 	},
@@ -690,6 +690,53 @@
 				"group": "Background"
 			},
 			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content",
+				"group": "Background"
+			},
+			{
+				"id": "video",
+				"label": "Video URL",
+				"type": "string",
+				"default": "https://",
+				"tab": "Content",
+				"group": "Container media"
+			},
+			{
+				"id": "videoThumbnail",
+				"label": "Video Thumbnail",
+				"type": "image",
+				"default": { "url": "/assets/pages/video-screen-4.png" },
+				"tab": "Content",
+				"group": "Container media"
+			},
+			{
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
@@ -746,53 +793,6 @@
                 },
 				"tab": "Content",
 				"group": "Buttons"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content",
-				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
-			},
-			{
-				"id": "background",
-				"label": "Background",
-				"type": "image",
-				"tab": "Content",
-				"group": "Background"
-			},
-			{
-				"id": "video",
-				"label": "Video URL",
-				"type": "string",
-				"default": "https://",
-				"tab": "Content",
-				"group": "Container media"
-			},
-			{
-				"id": "videoThumbnail",
-				"label": "Video Thumbnail",
-				"type": "image",
-				"default": { "url": "/assets/pages/video-screen-4.png" },
-				"tab": "Content",
-				"group": "Container media"
 			}
 		]
 	},
@@ -969,64 +969,6 @@
 				],
 				"tab": "Settings",
 				"group": "Form"
-			},
-			{
-				"id": "firstButton",
-				"label": "First button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "Call to action",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content",
-				"group": "Buttons"
-			},
-			{
-				"id": "secondButton",
-				"label": "Second button",
-				"type": "url",
-				"urlLabel": "Url",
-				"textLabel": "Button text",
-				"styleLabel": "Link style",
-                "styles": [
-					{
-                        "value": "btn btn--black",
-                        "label": "Black button"
-                    },
-                    {
-                        "value": "btn btn--orange",
-                        "label": "Orange button"
-                    },
-                    {
-                        "value": "btn btn--white",
-                        "label": "White button"
-                    }
-                ],
-				"default": {
-					"url": "",
-					"urlText": "",
-                    "style": "btn btn--orange"
-                },
-				"tab": "Content",
-				"group": "Buttons"
 			},
 			{
 				"id": "title",
@@ -1248,7 +1190,65 @@
                 ],
                 "tab": "Content",
 				"group": "Form"
-            }
+            },
+			{
+				"id": "firstButton",
+				"label": "First button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "Call to action",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content",
+				"group": "Buttons"
+			},
+			{
+				"id": "secondButton",
+				"label": "Second button",
+				"type": "url",
+				"urlLabel": "Url",
+				"textLabel": "Button text",
+				"styleLabel": "Link style",
+                "styles": [
+					{
+                        "value": "btn btn--black",
+                        "label": "Black button"
+                    },
+                    {
+                        "value": "btn btn--orange",
+                        "label": "Orange button"
+                    },
+                    {
+                        "value": "btn btn--white",
+                        "label": "White button"
+                    }
+                ],
+				"default": {
+					"url": "",
+					"urlText": "",
+                    "style": "btn btn--orange"
+                },
+				"tab": "Content",
+				"group": "Buttons"
+			}
 		]
 	},
 	"headline-with-simple-text": {
@@ -1423,6 +1423,30 @@
 				"group": "Background"
 			},
 			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+			},
+			{
+				"id": "note",
+				"label": "Note",
+				"type": "text",
+				"default": "Our company",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
@@ -1479,30 +1503,6 @@
                 },
 				"tab": "Content",
 				"group": "Buttons"
-			},
-			{
-				"id": "title",
-				"label": "Title",
-				"type": "text",
-				"default": "Bring your ideas to life",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
-			},
-			{
-				"id": "subtitle",
-				"label": "Subtitle",
-				"type": "text",
-				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
-				"tab": "Content",
-				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
-			},
-			{
-				"id": "note",
-				"label": "Note",
-				"type": "text",
-				"default": "Our company",
-				"tab": "Content",
-				"settings": [ "TextColor", "Link", "Unlink" ]
 			}
 		]
 	},
