@@ -1,0 +1,23 @@
+<div class="block {{block.containerAlignment}} {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
+    <div class="block__inner container">
+        {% if block.title != '' %}
+            <div class="block__text">
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+            </div>
+            <div class="block__space block__space--size-lg"></div>
+        {% endif %}
+        {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.imageOverlayColor, customColor: block.imageOverlayColorHex %}
+        <div id="block-{{block.id}}" class="block__cover-pic" title="{{block.image.altText}}"
+            {% if block.backgroundImage != '' and block.backgroundImage.url != '' %} style="background-image: url('{{block.image.url}}')" {% endif %}>
+            <div class="block__media">
+                <div class="block-video">
+                    <a href="{{block.videoUrl}}" class="block-video__action"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -4169,6 +4169,193 @@
 			}
 		]
 	},
+	"media-with-single-video": {
+		"id": "media-with-single-video",
+		"name": "Media with single video",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Media and Logotypes",
+		"settings": [
+			{
+				"id": "containerAlignment",
+				"label": "Container Alignment",
+				"type": "select",
+				"default": "block--align-center",
+				"options": [
+					{
+						"value": "block--align-left",
+						"label": "Left"
+					},
+					{
+						"value": "block--align-center",
+						"label": "Center"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "color",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "imageOverlayColor",
+				"label": "Image overlay color",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings"
+			},
+			{
+				"id": "imageOverlayColorHex",
+				"label": "Overlay colour HEX",
+				"type": "color",
+				"default": "",
+				"tab": "Settings"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "text",
+				"default": "Bring your ideas to life",
+				"tab": "Content",
+				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "image",
+				"label": "Image upload",
+				"type": "image",
+				"default": { "url": "/assets/pages/bg.jpg" },
+				"tab": "Content",
+				"group": "Image"
+			}
+		]
+	},
 	"features-with-icons-in-columns": {
 		"id": "features-with-icons-in-columns",
 		"name": "Features with icons in columns",
