@@ -6157,7 +6157,7 @@
 				"type": "list",
 				"addText": "Add item",
 				"removeText": "Remove item",
-				"displayField": "review",
+				"displayField": "title",
 				"element": [
 					{
 						"id": "image",
@@ -6425,7 +6425,7 @@
 				"type": "list",
 				"addText": "Add item",
 				"removeText": "Remove item",
-				"displayField": "review",
+				"displayField": "title",
 				"element": [
 					{
 						"id": "image",
