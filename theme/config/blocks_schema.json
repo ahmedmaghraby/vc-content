@@ -486,7 +486,7 @@
 				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
-				"id": "backgroundImage",
+				"id": "background",
 				"label": "Upload background image",
 				"type": "image",
 				"tab": "Content",
@@ -5557,7 +5557,8 @@
 					{
 						"id": "text",
 						"type": "text",
-						"label": "Text"
+						"label": "Text",
+						"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 					},
 					{
 						"id": "name",
