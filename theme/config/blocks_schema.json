@@ -3822,6 +3822,198 @@
 			}
 		]
 	},
+	"paragraph-with-reference-in-two-columns": {
+		"id": "paragraph-with-reference-in-two-columns",
+		"name": "Paragraph with reference in two columns",
+		"icon": "image-text",
+		"displayField": "title",
+		"category": "Paragraphs and Links",
+		"settings": [
+			{
+				"id": "horizontalAlignment",
+				"label": "Horizontal alignment",
+				"type": "select",
+				"default": "left",
+				"options": [
+					{
+						"value": "left",
+						"label": "Left"
+					},
+					{
+						"value": "right",
+						"label": "Right"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "referenceStyle",
+				"label": "Reference style",
+				"type": "select",
+				"default": "reference",
+				"options": [
+					{
+						"value": "reference",
+						"label": "Reference"
+					},
+					{
+						"value": "directSpeech",
+						"label": "Direct speech"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
+				"id": "topPadding",
+				"label": "Top padding",
+				"type": "select",
+				"default": "block--padding-top-large",
+				"options": [
+					{
+						"value": "block--padding-top-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-top-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-top-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "bottomPadding",
+				"label": "Bottom padding",
+				"type": "select",
+				"default": "block--padding-bottom-large",
+				"options": [
+					{
+						"value": "block--padding-bottom-none",
+						"label": "None"
+					},
+					{
+						"value": "block--padding-bottom-half",
+						"label": "Small"
+					},
+					{
+						"value": "block--padding-bottom-large",
+						"label": "Medium"
+					}
+				],
+				"tab": "Settings",
+				"group": "Paddings"
+			},
+			{
+				"id": "topDivider",
+				"label": "Top divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "bottomDivider",
+				"label": "Bottom divider",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings",
+				"group": "Dividers"
+			},
+			{
+				"id": "titleSeoTag",
+				"label": "Title SEO tag",
+				"type": "select",
+				"default": "div",
+				"options": [
+					{
+						"value": "h1",
+						"label": "H1"
+					},
+					{
+						"value": "h2",
+						"label": "H2"
+					},
+					{
+						"value": "h3",
+						"label": "H3"
+					},
+					{
+						"value": "div",
+						"label": "DIV"
+					}
+				],
+				"tab": "Settings",
+				"group": "Typography"
+			},
+			{
+				"id": "backgroundColor",
+				"label": "Colour",
+				"type": "select",
+				"default": "block--bg-white",
+				"options": [
+					{
+						"value": "block--bg-white",
+						"label": "White"
+					},
+					{
+						"value": "block--bg-light",
+						"label": "Gray"
+					},
+					{
+						"value": "block--bg-orange",
+						"label": "Orange"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundColorHex",
+				"label": "Colour HEX",
+				"type": "color",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "title",
+				"label": "Title",
+				"type": "string",
+				"default": "Bring your ideas to life",
+				"tab": "Content"
+			},
+			{
+				"id": "paragraph",
+				"label": "Paragraph",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+			},
+			{
+				"id": "authorOrCompany",
+				"label": "Author / Company name",
+				"type": "string",
+				"default": "Virtocommerce",
+				"tab": "Content",
+				"group": "Reference"
+			},
+			{
+				"id": "image",
+				"label": "Upload image",
+				"type": "image",
+				"default": { "url": "/assets/pages/quotes.png" },
+				"tab": "Content",
+				"group": "Reference"
+			}
+		]
+	},
 	"media-with-logotypes-in-line": {
 		"id": "media-with-logotypes-in-line",
 		"name": "Media with logotypes in line",
