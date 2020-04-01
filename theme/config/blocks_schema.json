@@ -3251,6 +3251,28 @@
 				"group": "Form"
 			},
 			{
+				"id": "formSubmitButtonStyle",
+				"label": "Submit button style",
+				"type": "select",
+				"default": "btn btn--orange btn--block",
+				"options": [
+					{
+						"value": "btn btn--black btn--block",
+						"label": "Black"
+					},
+					{
+						"value": "btn btn--orange btn--block",
+						"label": "Orange"
+					},
+					{
+						"value": "btn btn--white btn--block",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Form"
+			},
+			{
 				"id": "titleSeoTag",
 				"label": "Title SEO tag",
 				"type": "select",
@@ -4733,6 +4755,32 @@
 				"group": "Main block settings"
 			},
 			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg px-0",
+				"options": [
+					{
+						"value": "col-lg px-0",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10 px-0",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8 px-0",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6 px-0",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
 				"id": "topPadding",
 				"label": "Top padding",
 				"type": "select",
@@ -4850,7 +4898,7 @@
 			},
 			{
 				"id": "imageOverlayColor",
-				"label": "Image overlay color",
+				"label": "Overlay colour",
 				"type": "select",
 				"default": "none",
 				"options": [
@@ -4885,12 +4933,20 @@
 				"settings": [ "TextColor", "Link", "Unlink" ]
 			},
 			{
+				"id": "videoUrl",
+				"label": "Video URL",
+				"type": "string",
+				"default": "",
+				"tab": "Content",
+				"group": "Media"
+			},
+			{
 				"id": "image",
 				"label": "Image upload",
 				"type": "image",
 				"default": { "url": "/assets/pages/bg.jpg" },
 				"tab": "Content",
-				"group": "Image"
+				"group": "Media"
 			}
 		]
 	},
@@ -6131,6 +6187,13 @@
 				"default": "",
 				"tab": "Settings",
 				"group": "Background"
+			},
+			{
+				"id": "brandColor",
+				"label": "Brand colour",
+				"type": "color",
+				"default": "gray",
+				"tab": "Settings"
 			},
 			{
 				"id": "title",

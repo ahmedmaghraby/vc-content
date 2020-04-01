@@ -5,19 +5,17 @@
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
         {% if block.title != '' %}
-            <div class="block__text">
+            <div class="block__text {{block.textAreaWidth}}">
                 {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
             </div>
             <div class="block__space block__space--size-lg"></div>
         {% endif %}
+
         {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.imageOverlayColor, customColor: block.imageOverlayColorHex %}
-        <div id="block-{{block.id}}" class="block__cover-pic" title="{{block.image.altText}}"
-            {% if block.backgroundImage != '' and block.backgroundImage.url != '' %} style="background-image: url('{{block.image.url}}')" {% endif %}>
-            <div class="block__media">
-                <div class="block-video">
-                    <a href="{{block.videoUrl}}" class="block-video__action"></a>
-                </div>
-            </div>
-        </div>
+
+        <a href="{{block.videoUrl}}" class="block__cover-pic block__media block-video" id="block-{{block.id}}" title="{{block.image.altText}}"
+            {% if block.image != '' and block.image.url != '' %} style="background-image: url('{{block.image.url}}')" {% endif %}>
+            <div class="block-video__action"></div>
+        </a>
     </div>
 </div>
