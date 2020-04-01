@@ -1,0 +1,48 @@
+<div class="block block--info {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}>
+    <div class="block__inner container">
+        {% if block.verticalAlignment == 'top' %}
+            {% if block.inTextNote != '' %}
+                <div class="row mb-4">
+                    <div class="block__descr">{{block.inTextNote}}</div>
+                </div>
+            {% endif %}
+        {% endif %}
+        <div class="row flex-column-reverse flex-lg-row">
+            {% if block.horizontalAlignment == 'left' %}
+                {% if block.title != '' %}
+                    <div class="col-lg px-0">
+                        <div class="block__t">
+                            {% include 'seo-text' text: block.title %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+
+            <div class="col-lg">
+                {% if block.paragraph != '' %}
+                    <div class="block__descr">{{block.paragraph}}</div>
+                {% endif %}
+            </div>
+            {% if block.horizontalAlignment == 'right' %}
+                {% if block.title != '' %}
+                    <div class="col-lg px-0">
+                        <div class="block__t">
+                            {% include 'seo-text' text: block.title %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        </div>
+        {% if block.verticalAlignment == 'bottom' %}
+            {% if block.inTextNote != '' %}
+                <div class="row mt-4">
+                    <div class="block__descr">{{block.inTextNote}}</div>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>

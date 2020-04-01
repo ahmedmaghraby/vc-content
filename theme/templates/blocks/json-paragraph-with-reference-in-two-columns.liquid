@@ -1,0 +1,45 @@
+<div class="block block--info {{block.topPadding}} {{block.bottomPadding}}
+    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
+    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}>
+    <div class="block__inner container">
+        <div class="row">
+            {% if block.horizontalAlignment == 'right' %}
+                {% if block.paragraph != '' %}
+                    <div class="col-lg">
+                        <div class="block__descr">{{block.paragraph}}</div>
+                    </div>
+                {% endif %}
+            {% endif %}
+
+             <div class="col-lg">
+                {% if block.referenceStyle == 'directSpeech' %}
+                    {% if block.title != '' %}
+                        <div class="block__t">
+                            {% include 'seo-text' text: block.title %}
+                        </div>
+                    {% endif %}
+                    <div class="author">
+                        <div class="author__t">{{block.authorOrCompany}}</div>
+                    </div>
+                {% endif %}
+
+                {% if block.referenceStyle == 'reference' %}
+                    <img src="{{block.image.url}}" title="{{block.image.altText}}" class="block__quote" />
+                    <div class="block__t mt-auto">
+                        {% include 'seo-text' text: block.title %}
+                    </div>
+                {% endif %}
+            </div>
+
+            {% if block.horizontalAlignment == 'left' %}
+                {% if block.paragraph != '' %}
+                    <div class="col-lg">
+                        <div class="block__descr">{{block.paragraph}}</div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+</div>
