@@ -172,28 +172,6 @@
 		flex-direction: column;
 		position: relative;
 		z-index: 10;
-
-        &--vc-branded
-        {
-            align-items: normal;
-
-            & svg.vc-brand
-            {
-                @include media-breakpoint-up(md)
-                {
-                    position: absolute;
-                    right: 0;
-                }
-
-                @include media-breakpoint-down(md)
-                {
-                    position: absolute;
-                    bottom: 0;
-                    top: -250px;
-                    z-index: -1;
-                }
-            }
-        }
 	}
 
 	&__note

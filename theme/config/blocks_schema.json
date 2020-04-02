@@ -3254,18 +3254,18 @@
 				"id": "formSubmitButtonStyle",
 				"label": "Submit button style",
 				"type": "select",
-				"default": "btn btn--orange btn--block",
+				"default": "btn btn--orange",
 				"options": [
 					{
-						"value": "btn btn--black btn--block",
+						"value": "btn btn--black",
 						"label": "Black"
 					},
 					{
-						"value": "btn btn--orange btn--block",
+						"value": "btn btn--orange",
 						"label": "Orange"
 					},
 					{
-						"value": "btn btn--white btn--block",
+						"value": "btn btn--white",
 						"label": "White"
 					}
 				],
@@ -4660,6 +4660,14 @@
 				"default": "Bring your ideas to life",
 				"tab": "Content",
 				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "subtitle",
+				"label": "Subtitle",
+				"type": "text",
+				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
+				"tab": "Content",
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
 			},
 			{
 				"id": "image",
