@@ -1028,6 +1028,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -1075,6 +1079,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -2504,6 +2515,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -2551,6 +2566,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -2969,6 +2991,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -3016,6 +3042,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -3434,6 +3467,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -3463,6 +3500,13 @@
                         "label": "Placeholder",
                         "type": "string"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required",
@@ -3509,8 +3553,12 @@
 				"id": "numberOfColumns",
 				"label": "Number of columns",
 				"type": "select",
-				"default": "2",
+				"default": "1",
 				"options": [
+					{
+						"value": "1",
+						"label": "1"
+					},
 					{
 						"value": "2",
 						"label": "2"
@@ -5230,13 +5278,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "image",
 						"type": "image",
@@ -6616,13 +6666,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "button",
 						"label": "Button",
@@ -6884,13 +6936,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "authorName",
 						"type": "string",

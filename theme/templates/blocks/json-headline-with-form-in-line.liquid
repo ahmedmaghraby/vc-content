@@ -32,6 +32,8 @@
                         </div>
                     {% elsif item.fieldType == 'button' %}
                         <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
+                    {% elsif item.fieldType == 'hidden' %}
+                        <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
                     {% else %}
                         {% if counter < 3 %}
                             <input type="text" class="form-control"
