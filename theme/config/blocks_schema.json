@@ -5278,13 +5278,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "image",
 						"type": "image",
@@ -6664,13 +6666,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "button",
 						"label": "Button",
@@ -6932,13 +6936,15 @@
 					{
 						"id": "title",
 						"type": "string",
-						"label": "Title"
+						"label": "Title",
+						"settings": [ "TextColor", "Link", "Unlink" ]
 					},
-					{
-						"id": "subtitle",
-						"type": "string",
-						"label": "Subtitle"
-					},
+                    {
+                        "id": "subtitle",
+                        "type": "text",
+                        "label": "Subtitle",
+                        "settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+                    },
 					{
 						"id": "authorName",
 						"type": "string",
