@@ -5050,10 +5050,12 @@ code {
     margin-top: 1.25rem;
 }
 
-.block .list-cards--cols-2.list-cards .list__item {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+@media (min-width: 992px) {
+    .block .list-cards--cols-2.list-cards .list__item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 @media (min-width: 992px) {
