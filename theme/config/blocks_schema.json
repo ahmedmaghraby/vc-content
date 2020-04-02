@@ -3553,8 +3553,12 @@
 				"id": "numberOfColumns",
 				"label": "Number of columns",
 				"type": "select",
-				"default": "2",
+				"default": "1",
 				"options": [
+					{
+						"value": "1",
+						"label": "1"
+					},
 					{
 						"value": "2",
 						"label": "2"
