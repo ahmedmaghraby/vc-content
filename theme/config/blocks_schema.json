@@ -1028,6 +1028,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -1075,6 +1079,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -2504,6 +2515,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -2551,6 +2566,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -2969,6 +2991,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -3016,6 +3042,13 @@
                         "default": "Enter the value",
 						"group": "Field name settings"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required field",
@@ -3434,6 +3467,10 @@
 								"label": "Email"
 							},
 							{
+								"value": "hidden",
+								"label": "Hidden"
+							},
+							{
 								"value": "phone",
 								"label": "Phone"
 							},
@@ -3463,6 +3500,13 @@
                         "label": "Placeholder",
                         "type": "string"
                     },
+					{
+						"id": "fieldValue",
+						"label": "Value",
+						"type": "string",
+						"default": "",
+						"group": "Field name settings"
+					},
                     {
                         "id": "required",
                         "label": "Required",

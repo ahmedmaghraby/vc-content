@@ -90,6 +90,8 @@
                                         {% include 'input-validation-attributes' inputItem: item %}></textarea>
                                         {% include 'form-validation-message' inputItem: item %}
                                     </div>
+                                {% elsif item.fieldType == 'hidden' %}
+                                    <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
                                 {% endif %}
                             {% endfor %}
                             {% if block.note != '' %}
