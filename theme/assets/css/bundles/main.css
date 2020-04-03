@@ -5777,11 +5777,11 @@ code {
 }
 
 .section__descr--medium {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .section__descr--large {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 900;
     line-height: 1.2;
 }
