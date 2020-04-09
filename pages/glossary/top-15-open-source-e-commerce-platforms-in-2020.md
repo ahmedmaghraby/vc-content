@@ -1,7 +1,7 @@
 ---
 date: 2020-01-17
 layout: glossary
-title: Open source E-commerce platform guide for 2020
+title: Open source ecommerce platform guide for 2020
 description: This article includes a list of top 15 e-commerce platforms with open code and a deeper look at each one of them. You can use this article to choose the best open source e-commerce platform in the upcoming 2020.
 permalink: glossary/open-source-ecommerce-platform
 ---
@@ -13,7 +13,8 @@ permalink: glossary/open-source-ecommerce-platform
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Top 15 open source e-commerce platforms in 2020</h1>
             </div>
-             <p class="text">
+            <p class="glosary-date">Updated: February 15, 2020 | Ilse Lauwens, Marketing Director</p>
+            <p class="text">
                 A lot of different e-commerce store owners, from small to huge, are trying to work with free open source e-commerce platforms. It’s true that selling things online isn’t
                 cheap. On the other hand, using free open source software means at least less monthly fees that you have to pay.
             </p>
@@ -21,11 +22,11 @@ permalink: glossary/open-source-ecommerce-platform
                 Open source solutions are the frequent visitors of all kinds of platform “top 10” lists. The most popular one out there - WooCommerce - is also open source at its core.
             </p>
             <p class="text">
-                There are two main cases of work with open source e-commerce platforms. One way to approach it is to be skilled enough (and have enough time) to work with CSS, HTML, Ruby
+                There are two main cases of work with open source e-commerce platform. One way to approach it is to be skilled enough (and have enough time) to work with CSS, HTML, Ruby
                 on Rails or any other programming language while visiting code forums in your free time. The other way to work with open source platforms is if you have no time, but do
                 have sufficient funds - you can hire someone to do the job for you, using every nook and cranny in platform’s code to make your e-commerce site exactly how you want it to be.
             </p>
-            <h2>Top 15 e-commerce open source platforms</h2>
+            <h2>Top 15 open source e-commerce platforms list</h2>
             <ul class="text" style="margin-left:30px">
                 <li>
                     <a href="{{page}}/#wooCommerce">WooCommerce</a>

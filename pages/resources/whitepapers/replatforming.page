@@ -1,0 +1,247 @@
+[
+    {
+        "type": "settings",
+        "title": "The 5 pitfalls that make leading enterprise e-commerce want to replatform",
+        "permalink": "download-replatforming-whitepaper",
+        "layout": "theme",
+        "id": 1,
+        "header": "The 5 pitfalls that make leading enterprise e-commerce want to replatform",
+        "description": "The 5 pitfalls that make leading enterprise e-commerce want to replatform"
+    },
+    {
+        "id": 2,
+        "type": "case-study-form",
+        "name": "Form Case Study",
+        "title": "The 5 pitfalls that make leading enterprise e-commerce want to replatform",
+        "description": "Learn how our customers have been successful in their efforts to accomplish overcoming these pitfalls and avoid being caught in legacy technology trap.",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/replatform-form-background.png",
+            "altText": null
+        },
+        "logo": {
+            "url": null
+        },
+        "color": "shadow",
+        "formId": "asset-form-wp01",
+        "formFields": [
+            {
+                "fieldName": "fullname",
+                "fieldId": "fullname",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your name",
+                "labelText": "<p>Full name</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "email",
+                "fieldId": "email",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your email",
+                "labelText": "<p>Email</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": false
+            },
+            {
+                "fieldName": "company",
+                "fieldId": "company",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your company",
+                "labelText": "<p>Company name</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "agree",
+                "fieldId": "agree",
+                "fieldType": "checkbox",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": "<p>By checking this checkbox, I agree to the Virto Commerce <a href=\"/terms\">terms</a>&nbsp;and <a href=\"/privacy\">privacy</a>.</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": true
+            },
+            {
+                "fieldName": "asset-id",
+                "fieldId": "asset-id",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "WP01",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-name",
+                "fieldId": "asset-name",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "The 5 pitfalls that make leading enterprise e-commerce want to replatform",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-url",
+                "fieldId": "asset-url",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "https://vcpro.blob.core.windows.net/wpapers/VC-Whitepaper-Replatforming.pdf",
+                "required": null,
+                "agreeTermsMessage": null
+            }
+        ],
+        "submitButtonText": "Download white paper",
+        "style": null,
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "list-and-text",
+        "name": "Text over image",
+        "title": "Download to Learn",
+        "listPosition": "list--horizontal",
+        "listEnumType": null,
+        "style": "light",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "titleStyle": null,
+        "list": [
+            {
+                "title": "",
+                "image": null,
+                "text": "<p>What should you be looking at when thinking to launch your new or&nbsp;replatform&nbsp;existing&nbsp;e-commerce&nbsp;project.</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>Why industry leading companies failed their digital commerce initiatives and how did that happen in real-world cases.&nbsp;</p>\n"
+            },
+            {
+                "title": null,
+                "image": null,
+                "text": "<p>How&nbsp;to determine your strategy and plan the execution of your e-commerce project&nbsp;based on the successes of our customers.</p>\n"
+            }
+        ],
+        "content": "",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "elementsStyle": "orangeCircle",
+        "showMessage": null,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
+    },
+    {
+        "id": 4,
+        "type": "business-leaders",
+        "name": "Business Leaders",
+        "style": "light",
+        "noTop": true,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "cards-test",
+        "name": "Text",
+        "title": "Learn from other success stories",
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "items": [
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/standaard-boekhandel-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic e-commerce platform, and came to Virto Commerce for flexibility and scalability.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "standaard-boekhandel"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/de-klok-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Dutch Beverage Distributor, De Klok Dranken quenches e-commerce thirst by launching its new commerce platform with improved user experience and technical flexibility.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "deklok"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/lavazza-logo.png.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Lavazza Nederland&nbsp;created&nbsp;a&nbsp;new, unified&nbsp;e-commerce&nbsp;platform for B2B &amp; B2C and gained insights into customer behavior.&nbsp;</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "lavazza"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text-over-image-test",
+        "name": "Text over image",
+        "title": "Looking for a stable e-commerce<br/> platform in the long run?",
+        "description": "Let us guide your through the future of your<br/> digital commerce ambition.",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/replatform-vc.png",
+            "altText": null
+        },
+        "url1": {
+            "url": "contact-us",
+            "urlText": "Get started",
+            "style": "btn--white"
+        },
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "sectionStyle": "container",
+        "titleColor": null,
+        "url2": {
+            "url": null,
+            "urlText": null,
+            "style": "btn--orange"
+        }
+    }
+]

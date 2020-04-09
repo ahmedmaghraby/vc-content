@@ -13,7 +13,8 @@ permalink: glossary/e-commerce-cms
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">15 Best e-commerce CMS platforms in 2020</h1>
             </div>
-             <p class="text">
+            <p class="glosary-date">Updated: January 20, 2020 | Ilse Lauwens, Marketing Director</p>
+            <p class="text">
                 Selecting the right e-commerce CMS platform for your webstore is one of the most important steps to consider when planning to sell something online. The choice itself
                 might be challenging as there are many different platforms available, each with their own advantages and disadvantages.
             </p>
