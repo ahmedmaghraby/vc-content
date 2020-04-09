@@ -20,7 +20,7 @@ description: Shopify competitors. Top 10 Shopify alternatives in 2020
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Shopify competitors. Top 10 Shopify alternatives. The best alternatives to Shopify in 2020.</h1>
             </div>
-            <p class="glosary-date">Updated: April 01, 2020 | Ilse Lauwens</p>
+            <p class="glosary-date">Updated: April 01, 2020 | Ilse Lauwens, Marketing Director.</p>
             <div class="glosary-article">
                 <p class="text">Shopify can be considered one of the best shopping cart platforms for an e-commerce website when it comes to balancing the convenience of setting up a website and having the control over it. The great advantage of this kind of electronic commerce platforms, including Shopify, as well as a number of various alternatives to Shopify, is that they provide you with as much control as possible without you having to use your own server. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a wide variety of tools to alter your store. The AppStore available for its users is amazing for finding interesting plugins to customize your website.</p>
                 <figure style="text-align: center;">
@@ -143,11 +143,6 @@ description: Shopify competitors. Top 10 Shopify alternatives in 2020
                 </p>
                 <p class="text"><a href="https://www.pinnaclecart.com/" rel="nofollow">PinaccleCart</a> can be treated as one of the easiest platforms to use for building a custom eCommerce website. You can easily choose from 30 free templates offered to you, or order a customized one from the company. While the templates are sufficient in their design, you are free to edit HTML or CSS to edit them or specify the layout of your products. This platform, as one of Shopify competitors, can offer you a domain and even integrate it with WordPress. Over 30 payment gateways are available to connect. Guest and PayPal checkout options are allowed and can be integrated into the mobile version, which makes it easier for customers to buy your product. For more advanced plans, you will get fraud protection with a dedicated SSL certificate which will deliver a great protection to your website and payment gateways. Customer support is a priority of PinnacleCart, with 24/7 customer support on the phone and online text. With that, online knowledge base is also available to you to help you in your ecommerce journey. The store, however, does not offer custom store email which can seem as a drawback.</p>
                 <p class="text">You can feel this particular shopping cart well-suited for you if you would like to have a great variety of features out of the box, and therefore, not lose a lot of website speed by burdening your store with lots of plugins (compare to Shopify, where you have to install multiple add ons to have these features). Another great advantage of Pinnacle cart is its absence of any credit card transaction fees with the competitive rate pricing.</p>
-            </div>
-            <div class="glosary-article">
-                <div class="glosary-videos center">
-                    {% include 'vc-b2b_b2c-banner' %}
-                </div>
             </div>
             <h2 id="virtocommerce" class="glosary-sub-t">Virto Commerce</h2>
             <div class="glosary-article">
