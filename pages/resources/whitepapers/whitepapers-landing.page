@@ -1,0 +1,142 @@
+[
+    {
+        "type": "settings",
+        "title": "B2B Ecommerce Whitepapers, Learn about complex B2B Ecommerce Platforms and Solutions",
+        "permalink": "whitepapers",
+        "header": "View Virto Commerce's Whitepapers",
+        "description": "B2B Ecommerce Whitepapers, Learn about complex B2B Ecommerce Platforms and Solutions",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "text-over-image",
+        "name": "Text over image",
+        "title": "E-commerce white papers",
+        "subTitle": "Virto Commerce E-commerce",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/blogs/william-iven-jrh5lAq-mIs-unsplash.jpg"
+        },
+        "content": "",
+        "url1": null,
+        "url2": null,
+        "noTop": false,
+        "noBottom": false,
+        "noPad": false,
+        "headerType": "h1",
+        "titleAlignment": null
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "name": "intro",
+        "title": "",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">Experts in enterprise and B2B e-commerce, Virto Commerce has put together a collection of informative white papers on the top issues companies face in their e-commerce journeys. &nbsp;Please feel free to download and share our white papers, and if you have any topics that you think we should explore, please <a href=\"/contact-us\">contact us</a>. &nbsp;We are always looking for new ways to help guide our customers through the complicated world of enterprise e-commerce.</p>\n",
+        "url": {
+            "urlText": "",
+            "url": "",
+            "style": "btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null,
+        "titleAlignment": null,
+        "headerType": null
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "name": "Text",
+        "title": "The 5 pitfalls leading to replatform",
+        "headerType": "like-h2",
+        "titleAlignment": null,
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">In this white paper, we reveal five common pitfalls to avoid when selecting digital commerce technology. Learn how our customers have been successful in their efforts to accomplish overcoming these pitfalls.</p>\n",
+        "url": {
+            "urlText": "Download white paper",
+            "url": "/download-replatforming-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "name": "Text",
+        "title": "Top 5 B2B e-commerce challenges & solutions",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">B2B e-commerce encounter specific business model and process challenges which require customized solutions. In this white paper we&#39;ll provide you with the top 5 challenges that B2B e-commerce websites face and how to solve them.</p>\n",
+        "url": {
+            "urlText": "Download white paper",
+            "url": "/download-b2b-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": null,
+        "headerType": null
+    },
+    {
+        "id": 6,
+        "type": "text",
+        "name": "cloud wp",
+        "title": "Top 5 benefits of the cloud for e-commerce",
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">Every e-commerce company is looking for ways to grow sales, improve go-to-market speed and accelerate performance. In this white paper we&#39;ll provide 5 insights and key benefits of &nbsp;switching to a cloud e-commerce solution.</p>\n",
+        "url": {
+            "urlText": "Download white paper",
+            "url": "/download-cloud-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": null,
+        "headerType": null
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "name": "top 4 ent",
+        "title": "Top 4 challenges of enterprise e-commerce",
+        "style": "light",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">In this white paper we&#39;ll provide you with the top 4 challenges that enterprise e-commerce websites face and how to solve them.</p>\n",
+        "url": {
+            "urlText": "Download white paper",
+            "url": "/enterprise-ecommerce-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": null,
+        "headerType": null
+    },
+    {
+        "id": 8,
+        "type": "text",
+        "name": "migration wp",
+        "title": "Common pains of e-commerce website migration and how to avoid them",
+        "style": "dark",
+        "decorator": "none",
+        "content": "<p style=\"text-align:center\">This white paper provides insight on how to avoid and overcome the typical e-commerce platform migration problems.</p>\n",
+        "url": {
+            "urlText": "Download white paper",
+            "url": "/migration-whitepaper",
+            "style": "btn btn--orange btn--round"
+        },
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null,
+        "titleAlignment": null,
+        "headerType": null
+    }
+]

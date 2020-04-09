@@ -1,0 +1,280 @@
+[
+    {
+        "type": "settings",
+        "title": "E-commerce loyalty platform creation story",
+        "permalink": "case-studies/bosch",
+        "layout": "theme",
+        "header": "Bosch Thermotechnik case study",
+        "description": "E-commerce loyalty platform creation story",
+        "id": 1
+    },
+    {
+        "id": 2,
+        "type": "case-study-form",
+        "name": "Form Case Study",
+        "title": "Bosch Thermotechnik gains insights from its customer loyalty portal.",
+        "description": "Learn about how Bosch Thermotechnik gains customer insights and builds customer loyalty through new e-commerce solution.",
+        "image": {
+            "url": "/assets/pages/bosch_site.jpg",
+            "altText": null
+        },
+        "logo": {
+            "url": null
+        },
+        "color": "shadow",
+        "formId": "asset-form-cs04",
+        "formFields": [
+            {
+                "fieldName": "fullname",
+                "fieldId": "fullname",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your full name",
+                "labelText": "<p>Full name</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "email",
+                "fieldId": "email",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": "Enter your email",
+                "labelText": "<p>Business email</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "company",
+                "fieldId": "company",
+                "fieldType": "text",
+                "optionalText": "",
+                "radioListItems": [],
+                "placeholder": "Enter your company name",
+                "labelText": "<p>Company</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "agree",
+                "fieldId": "agree",
+                "fieldType": "checkbox",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": "<p>By checking this checkbox,&nbsp;I&nbsp;agree to the Virto Commerce <a href=\"/terms\">terms</a>&nbsp;and <a href=\"/privacy\">privacy</a>.</p>\n",
+                "data": null,
+                "required": true,
+                "agreeTermsMessage": true
+            },
+            {
+                "fieldName": "asset-id",
+                "fieldId": "asset-id",
+                "fieldType": "hidden",
+                "optionalText": "",
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "CS04",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-name",
+                "fieldId": "asset-name",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "Bosch Thermotechnik case study",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-url",
+                "fieldId": "asset-url",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "https://vcpro.blob.core.windows.net/cases/VC-Case-Bosch.pdf",
+                "required": null,
+                "agreeTermsMessage": null
+            }
+        ],
+        "submitButtonText": "Download case study",
+        "style": "light",
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    },
+    {
+        "id": 3,
+        "type": "case-study-info",
+        "image": {
+            "altText": null,
+            "url": "/assets/pages/bosch-logo.png"
+        },
+        "description": "Bosch Thermotechnik, the thermo technology division of the Bosch Group, is one of the world’s leading suppliers of heating products and hot water solutions. Using cutting edge technology, backed by more than 13,000 employees worldwide, Bosch Thermotechnik offers customers around the world innovative and pioneering solutions for room climate, hot water, and decentralized energy management. ",
+        "footerImage": null,
+        "occupation": "Heating products and hot water solutions",
+        "country": "",
+        "content": "",
+        "sourceLink": null,
+        "noTop": null,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 4,
+        "type": "case-study-solution",
+        "showTitle": true,
+        "title": "Solution",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": "The challenges",
+                "text": "Bosch Thermotechnik traditionally did not sell to the end customer, and instead they relied on their distribution channels for that final sale. That approach, however, did not allow Bosch to have any insight into their customers, their behavior, what products they chose, or how they were using them. Bosch Thermotechnik sought a digital solution to automate the information capture and build customer loyalty as well. ",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-challenges.png"
+                },
+                "imagePosition": null,
+                "country": null,
+                "sourceLink": null,
+                "footerContent": null,
+                "footerLink": null
+            },
+            {
+                "titleStyle": "visible",
+                "title": "Result",
+                "text": "Bosch Thermotechnik now has a customer loyalty portal that allows them to understand their customers better. The Bosch Thermotechnik Customer Loyalty Portal serves as a long-term solution that grows with Bosch Thermotechnik and its future business needs. ",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-result.png"
+                },
+                "imagePosition": null,
+                "country": null,
+                "sourceLink": null,
+                "footerContent": null,
+                "footerLink": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "case-study-solution",
+        "showTitle": true,
+        "title": "",
+        "sections": [
+            {
+                "titleStyle": "visible",
+                "title": null,
+                "text": "\"We chose Virto Commerce because it is the only platform that had the customizability and support options that we need. From pre-service consultation to technical team support, Virto Commerce was responsive and informative, and most importantly, able to provide valuable insight into our core needs.\"",
+                "image": {
+                    "altText": null,
+                    "url": "/assets/pages/case-study-solution-quotes.png"
+                },
+                "imagePosition": "top",
+                "country": "",
+                "sourceLink": null,
+                "footerContent": "<p>&nbsp;</p>\n\n<p>Cornelius Munz</p>\n\n<p><span class=\"section__descr--gray\">BOSCH Digital</span></p>\n",
+                "footerLink": null
+            }
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 6,
+        "type": "text-over-image-test",
+        "name": "Text over image",
+        "title": "Looking for an e-commerce<br/>  platform for your next project?",
+        "titleColor": "white",
+        "description": "Learn how you can benefit from Virto Commerce.",
+        "image": {
+            "url": "/assets/pages/lavazza-vc.png",
+            "altText": null
+        },
+        "sectionStyle": "container",
+        "url1": {
+            "url": "contact-us",
+            "urlText": "Get started",
+            "style": "btn--orange"
+        },
+        "url2": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 7,
+        "type": "cards-test",
+        "name": "Text",
+        "title": "Learn from other success stories",
+        "upperText": null,
+        "lowerText": null,
+        "isShowBorders": false,
+        "headerType": "like-h2",
+        "titleAlignment": "section__t--left-alignment",
+        "style": "light",
+        "items": [
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/lavazza-logo.png.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Lavazza Nederland created a new, unified e-commerce platform for B2B &amp; B2C and gained insights into customer behavior.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "case-studies/lavazza"
+                }
+            },
+            {
+                "title": "",
+                "image": {
+                    "url": "/assets/pages/standaard-boekhandel-logo.png",
+                    "altText": null
+                },
+                "imageStyle": "bySize",
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic e-commerce platform, and came to Virto Commerce for flexibility and scalability.</p>\n",
+                "link": {
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "case-studies/standaard-boekhandel"
+                }
+            },
+            {
+                "title": "Do you want a personal demo?",
+                "image": {
+                    "url": "/assets/pages/alain-van-hove.png",
+                    "altText": null
+                },
+                "imageStyle": "portrait",
+                "text": "<p>Alain Van Hove</p>\n\n<p>Sales Director / EMEA</p>\n",
+                "link": {
+                    "urlText": "Contact me",
+                    "style": "btn--orange",
+                    "url": "contact-us"
+                }
+            }
+        ],
+        "noTop": null,
+        "noBottom": null,
+        "noPad": null
+    }
+]
