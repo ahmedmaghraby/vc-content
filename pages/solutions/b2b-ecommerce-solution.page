@@ -1,7 +1,7 @@
 [
     {
         "type": "settings",
-        "title": "B2B eCommerce Platform | Best B2B eCommerce Software by Virto Commerce",
+        "title": "B2B E-commerce Platform | B2B E-commerce Software Solutions",
         "permalink": "b2b-ecommerce-platform",
         "header": "Top B2B Ecommerce Platform for Enterprises",
         "description": "The agile B2B e-commerce solution. The best B2B ecommerce software developers deserve.",
@@ -57,7 +57,7 @@
                 "text": "<p>Most well known B2C e-commerce solutions doesn&rsquo;t fit the B2B market</p>\n"
             }
         ],
-        "content": "<p>The B2B e-commerce market is growing&nbsp;rapidly. Gartner research predicts that within next few years, more than half of B2B sales will be done via e-commerce channels,&nbsp; creating&nbsp;both new opportunities and threats for companies&nbsp;focused on the B2B market.</p>\n\n<p>Companies who can quickly run a digital transformation fast will have a better chance to increase their market share by acquiring slower market players. At the same time, entering the B2B market causes an additional entry to the&nbsp;B2C market for&nbsp;companies who have never before worked with end-customers directly. All together, this&nbsp;creates opportunities for companies who embark on e-commerce immediately.</p>\n\n<p>Currently, most&nbsp;B2B companies who start their <a href=\"glossary/digital-experience-platforms\">digital</a> transformation don&rsquo;t have the experience doing such e-commerce projects,&nbsp;and therefore, don&rsquo;t have&nbsp;the related expertise. Business, technical, organizational challenges all create risks for e-commerce projects.&nbsp;</p>\n\n<p>It is common practice to rely on IT implementation partners when undergoing a digital transformation. The problem is that there are very few system integrators and digital agencies who really have expertise in B2B e-commerce. B2C e-commerce experience is easier to find but it doesn&rsquo;t fit the B2B market.&nbsp;</p>\n\n<p>Quite often companies try to apply their B2C experience to B2B situations, but this doesn&rsquo;t really work. B2B e-commerce is much more complicated than B2C, and most solutions and practices, which work for B2C, don&rsquo;t fit B2B e-commerce. B2B e-commerce requires&nbsp;additional complex rules, processes, entities and even interfaces. Employee-users are not equal to physical bodies, humans are not the only kind of users in B2B, and UI is not the only interface.</p>\n",
+        "content": "<p>The B2B e-commerce market is growing&nbsp;rapidly. Gartner research predicts that within next few years, more than half of B2B sales will be done via e-commerce channels,&nbsp; creating&nbsp;both new opportunities and threats for companies&nbsp;focused on the B2B market.</p>\n\n<p>Companies who can quickly run a digital transformation fast will have a better chance to increase their market share by acquiring slower market players. At the same time, entering the B2B market causes an additional entry to the&nbsp;B2C market for&nbsp;companies who have never before worked with end-customers directly. All together, this&nbsp;creates opportunities for companies who embark on e-commerce immediately.</p>\n\n<p>Currently, most&nbsp;B2B companies who start their <a href=\"/glossary/digital-experience-platforms\">digital</a> transformation don&rsquo;t have the experience doing such e-commerce projects,&nbsp;and therefore, don&rsquo;t have&nbsp;the related expertise. Business, technical, organizational challenges all create risks for e-commerce projects.&nbsp;</p>\n\n<p>It is common practice to rely on IT implementation partners when undergoing a digital transformation. The problem is that there are very few system integrators and digital agencies who really have expertise in B2B e-commerce. B2C e-commerce experience is easier to find but it doesn&rsquo;t fit the B2B market.&nbsp;</p>\n\n<p>Quite often companies try to apply their B2C experience to B2B situations, but this doesn&rsquo;t really work. B2B e-commerce is much more complicated than B2C, and most solutions and practices, which work for B2C, don&rsquo;t fit B2B e-commerce. B2B e-commerce requires&nbsp;additional complex rules, processes, entities and even interfaces. Employee-users are not equal to physical bodies, humans are not the only kind of users in B2B, and UI is not the only interface.</p>\n",
         "noTop": null,
         "noBottom": true,
         "noPad": null,
@@ -247,13 +247,13 @@
         "id": 10,
         "type": "technologies-list",
         "style": "light",
-        "headline": "The open source e-commerce platform build using cutting-edge web technologies"
+        "headline": "B2B e-commerce platform build using cutting-edge web technologies"
     },
     {
         "id": 11,
         "type": "blogs-list",
         "style": "light",
-        "title": "The latest entries from our open source .NET e-commerce blog",
+        "title": "The latest entries from our B2B e-commerce blog",
         "count": "3",
         "isShowLast": "true",
         "items": []

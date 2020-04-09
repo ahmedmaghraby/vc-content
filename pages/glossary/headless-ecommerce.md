@@ -1,9 +1,9 @@
 ---
-date: '2020-04-01'
+excerpt: 'Headless e-commerce is something everyone has been talking  about for the last year and a half. And it’s not really surprising - it offers a new approach to the current problems of a modern business by separating the front-end and back-end of your website. Learn more about headless e-commerce and its benefits in this article.'
 layout: glossary
 permalink: glossary/headless-ecommerce
-title: Headless e-commerce
-description: Headless e-commerce is something everyone has been talking  about for the last year and a half. And it’s not really surprising - it offers a new approach to the current problems of a modern business by separating the front-end and back-end of your website. Learn more about headless e-commerce and its benefits in this article.
+title: 'Headless e-commerce'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">

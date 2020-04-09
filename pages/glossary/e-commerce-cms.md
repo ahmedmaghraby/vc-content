@@ -1,9 +1,9 @@
 ---
-date: 2020-01-16
+date: '2020-01-16'
 layout: glossary
-title: E-commerce CMS Platforms in 2020
-description: This article examines several different e-commerce CMS platforms and offers a deeper look at each one of them. Included is a list of the best e-commerce CMS platforms for 2020.
 permalink: glossary/e-commerce-cms
+title: 'E-commerce CMS Platforms in 2020'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">

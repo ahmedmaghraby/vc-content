@@ -15,7 +15,7 @@
         "title": "Bosch Thermotechnik gains insights from its customer loyalty portal.",
         "description": "Learn about how Bosch Thermotechnik gains customer insights and builds customer loyalty through new e-commerce solution.",
         "image": {
-            "url": "/assets/pages/bosch_site.jpg",
+            "url": "/assets/pages/bosch-form-background.jpg",
             "altText": null
         },
         "logo": {
@@ -30,6 +30,7 @@
                 "fieldType": "text",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": "Enter your full name",
                 "labelText": "<p>Full name</p>\n",
                 "data": null,
@@ -42,6 +43,7 @@
                 "fieldType": "text",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": "Enter your email",
                 "labelText": "<p>Business email</p>\n",
                 "data": null,
@@ -54,9 +56,48 @@
                 "fieldType": "text",
                 "optionalText": "",
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": "Enter your company name",
                 "labelText": "<p>Company</p>\n",
                 "data": null,
+                "required": true,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "region",
+                "fieldId": "region",
+                "fieldType": "select",
+                "optionalText": "Region",
+                "radioListItems": [],
+                "selectOptions": [
+                    {
+                        "text": "Please choose your region",
+                        "value": "",
+                        "selected": true,
+                        "disabled": true
+                    },
+                    {
+                        "text": "Asia-Pacific",
+                        "value": "APAC",
+                        "selected": null,
+                        "disabled": null
+                    },
+                    {
+                        "text": "Europe, Middle East & Africa",
+                        "value": "EMEA",
+                        "selected": null,
+                        "disabled": null
+                    },
+                    {
+                        "text": "North & South America",
+                        "value": "AMER",
+                        "selected": null,
+                        "disabled": null
+                    }
+                ],
+                "placeholder": "Region",
+                "labelText": "<p>Region</p>\n",
+                "data": "Please specify your region",
                 "required": true,
                 "agreeTermsMessage": null
             },
@@ -66,6 +107,7 @@
                 "fieldType": "checkbox",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": null,
                 "labelText": "<p>By checking this checkbox,&nbsp;I&nbsp;agree to the Virto Commerce <a href=\"/terms\">terms</a>&nbsp;and <a href=\"/privacy\">privacy</a>.</p>\n",
                 "data": null,
@@ -78,6 +120,7 @@
                 "fieldType": "hidden",
                 "optionalText": "",
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": null,
                 "labelText": null,
                 "data": "CS04",
@@ -90,6 +133,7 @@
                 "fieldType": "hidden",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": null,
                 "labelText": null,
                 "data": "Bosch Thermotechnik case study",
@@ -102,6 +146,7 @@
                 "fieldType": "hidden",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": null,
                 "labelText": null,
                 "data": "https://vcpro.blob.core.windows.net/cases/VC-Case-Bosch.pdf",

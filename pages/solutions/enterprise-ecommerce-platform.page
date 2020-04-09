@@ -256,12 +256,12 @@
         "style": "light",
         "url": {
             "url": "case-studies/bosch",
-            "urlText": "Download Now",
+            "urlText": "Download now",
             "style": "btn btn--orange btn--round"
         },
         "noTop": true,
         "noBottom": true,
-        "noPad": false
+        "noPad": null
     },
     {
         "id": 9,

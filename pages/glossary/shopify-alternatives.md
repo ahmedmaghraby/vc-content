@@ -1,5 +1,6 @@
 ---
 date: '2017-08-07'
+excerpt: 'Shopify competitors. Top 10 Shopify alternatives in 2020'
 layout: glossary
 permalink: glossary/shopify-alternatives
 tags:
@@ -7,8 +8,7 @@ tags:
   - 'shopping cart'
   - shopify
   - virtocommerce
-title: Shopify competitors. Top 10 Shopify alternatives in 2020
-description: Shopify competitors. Top 10 Shopify alternatives in 2020
+title: 'Shopify competitors. Top 10 Shopify alternatives in 2020'
 
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">

@@ -7,22 +7,31 @@
         "id": 1
     },
     {
-        "id": 2,
-        "type": "text-over-image",
-        "name": "Text over image",
-        "title": "Thank you, stay tuned for something awesome! ",
-        "subTitle": "",
-        "image": {
-            "url": "https://vcpro.blob.core.windows.net/blogs/pasted image 0.png",
-            "altText": null
-        },
-        "content": "",
-        "url1": null,
-        "url2": null,
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null,
-        "headerType": null,
-        "titleAlignment": null
+        "id": 3,
+        "type": "thank-you",
+        "name": "Thank you!",
+        "thankYou": "Thank you for signing up for Virto Commerce news and updates.<br /><br /><p style=\"font-size: 1rem; font-weight: normal\">By providing your e-mail address, you agree to Virto Commerce <a href=\"https://virtocommerce.com/terms\" target=\"_blank\" style=\"color: #ffffff; border-bottom: 1px solid #fff;\">terms</a> and <a href=\"https://virtocommerce.com/privacy\" target=\"_blank\" style=\"color: #ffffff; border-bottom: 1px solid #ffffff;\">privacy</a>. You may unsubscribe from these communications at any time from any our e-mails. </p>",
+        "whatsNext": "Stay tuned!",
+        "thankYouItems": [
+            {
+                "url": "https://virtocommerce.com/case-studies",
+                "icon": null,
+                "text": "Discover<br /><br />More success stories"
+            },
+            {
+                "url": "https://virtocommerce.com/enterprise-ecommerce-platform",
+                "icon": null,
+                "text": "Explore<br /><br />How enterprises overcome e-commerce challenges"
+            },
+            {
+                "url": "https://virtocommerce.com/whitepapers",
+                "icon": null,
+                "text": "Learn<br /><br />More white papers"
+            }
+        ],
+        "phone": "+1 800 980—5288",
+        "phoneLink": "tel:+18009805288",
+        "chat": "",
+        "chatLink": null
     }
 ]
