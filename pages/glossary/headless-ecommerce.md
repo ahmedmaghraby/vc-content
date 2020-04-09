@@ -14,8 +14,8 @@ description: Headless e-commerce is something everyone has been talking  about f
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">What is headless e-commerce?</h1>
             </div>
+            <p class="glosary-date">Updated: April 01, 2020 | Ilse Lauwens, Marketing Director</p>
             <img src="/assets/images/home/bg.png" />
-            <p class="glosary-date">Updated: April 01, 2020 | Ilse Lauwens</p>
             <div class="glosary-article">
                 <p class="text">
                     Headless e-commerce has been receiving a lot of attention lately and many people are switching to it as their basic approach to the way they showcase their products and
