@@ -16,4 +16,4 @@ excerpt: Virto Commerce has put together a list of the Top 5 B2B Features you ne
     <a href="/glossary/request-for-proposal">RFP Template</a> we offer a variety of tools to help you choose the right solution for your B2B company. Virto Commerce also offers a Free Proof of
     Concept to ensure that we are the right provider to become your long term ecommerce partner. Click on the infographic below to enlarge it, and feel free to share it.
 </p>
-{% include 'image-view', imageUrl:"/assets/images/blog/top-5-essential-b2b-ecommerce-functions.png", height:1000, width:400 %}
+{% include 'image-view' imageUrl:"/assets/images/blog/top-5-essential-b2b-ecommerce-functions.png", height:1000, width:400 %}

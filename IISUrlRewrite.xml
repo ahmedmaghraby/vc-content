@@ -1,9 +1,6 @@
 <rewrite>
     <rewriteMaps>
         <rewriteMap name="VC-redirects">
-			<add key="/b2b-cms" value="/glossary/e-commerce-cms" />
-			<add key="/apps/extensions/virto-cms-module" value="/apps" />
-			<add key="/blog/no-cms-approach-for-e-commerce" value="/glossary/e-commerce-cms" />
             <add key="/platform/styleguide" value="docs/vc2devguide/working-with-platform-manager/style-guide" />
             <add key="/styleguide/blade-constructor.html" value="guides/blade-constructor" />
             <add key="/platform/styleguide/blade-constructor.html" value="guides/blade-constructor" />
@@ -188,10 +185,6 @@
         </rewriteMap>
     </rewriteMaps>
     <rules>
-        <rule name="redirect demo" stopProcessing="true">
-            <match url="^demo(.*)" />
-            <action type="Redirect" url="https://demo.virtocommerce.com" redirectType="Permanent"/>
-        </rule>
         <rule name="Robots.txt for staging" stopProcessing="true">
             <match url="robots.txt" />
             <conditions>
@@ -219,10 +212,13 @@
         </rule>
         <rule name="redirect licence activate to the new admin" stopProcessing="true">
             <match url="^admin/api/licenses/activate/(.+)" />
-            <action type="Redirect" url="https://vc-admin-pro.azurewebsites.net/api/licenses/activate/{R:1}" redirectType="Permanent"/>
+            <action type="Redirect" url="https://vc-admin-prod.azurewebsites.net/api/licenses/activate/{R:1}" redirectType="Permanent"/>
         </rule>
         <!--
-    <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true"><match url="\w*b2b-ecommerce$" /><action type="Redirect" url="https://virtocommerce.com/b2b-ecommerce-platform" /></rule>
+    <rule name="Redirect b2b-ecommerce to b2b-ecommerce-platform" stopProcessing="true">
+        <match url="\w*b2b-ecommerce$" />
+        <action type="Redirect" url="https://virtocommerce.com/b2b-ecommerce-platform" />
+    </rule>
     -->
         <rule name="VC old link redirects">
             <match url=".*" ignoreCase="true" />
@@ -240,6 +236,9 @@
             </conditions>
             <action type="Redirect" redirectType="Permanent" url="{R:1}" />
         </rule>
-        <!--<rule name="Redirect to vc community" stopProcessing="true"><match url="(.*)(\/account)$" /><action type="Redirect" url="vc-community" /></rule>-->
+        <!--<rule name="Redirect to vc community" stopProcessing="true">
+            <match url="(.*)(\/account)$" />
+            <action type="Redirect" url="vc-community" />
+        </rule>-->
     </rules>
 </rewrite>

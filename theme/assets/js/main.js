@@ -164,31 +164,48 @@ $(function (){
         });
     }
   
-  	var lavazzaForm = $('#lavazza-form');
-  	if (lavazzaForm.length) {
-   		lavazzaForm.submit(function (event) {
-        	event.preventDefault();
-            if (this.checkValidity())
-                window.location.href = '/case-studies/lavazza';
-        });
-    }
-
-    var blockForms = $('.block .form');
-    if (blockForms.length) {
-        blockForms.submit(function (obj) {
-            if ($(obj.target).valid()) {
-                var redirectUrl = obj.target.dataset.targetUrl;
-                if (redirectUrl && redirectUrl != '') {
-                    document.location.href = redirectUrl;
+  	function caseStudyFormHandler(formSelector, caseStudyRedirectUrl) {
+        var form = $(formSelector);
+        if (form.length) {
+            form.submit(function (event) {
+                event.preventDefault();
+                if (!this.agree.checked) {
+                    $('#agree-error').parent().show();
+                    return;
                 }
-                return true;
-            } else {
-                $(obj.target).find('.form-error').show();
-            }
-        });
+                else
+                    $('#agree-error').parent().hide();
+
+                if (this.checkValidity())
+                    if (caseStudyRedirectUrl !== undefined) {
+                        window.location.href = caseStudyRedirectUrl;
+                    } else {
+                        return true;
+                    }
+            });
+        }
     }
 
-	
+    caseStudyFormHandler('#asset-form-wp01', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs01', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs02', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs03', 'asset-download-thank-you');
+    caseStudyFormHandler('#asset-form-cs04', 'asset-download-thank-you');
+
+    $('a[href*=#]').on('click', function (e) {
+        e.preventDefault();
+        var linkHref = $(this).attr('href');
+        var anchorId = linkHref.substr(linkHref.indexOf('#'));
+        $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
+    });
+
+    var autopilotWatcher = setInterval(function () {
+        if (Autopilot._inited) {
+            clearInterval(autopilotWatcher);
+            $('button,input[type="submit"][disabled]').removeAttr('disabled');
+        }
+    }, 1000);
+  
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
 	//  utm_term=--Asset Type--&

@@ -7,11 +7,11 @@
                         <feGaussianBlur stdDeviation="50"></feGaussianBlur>
                     </filter>
                 </defs>
-                <image width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ product.featured_image.src }}" filter="url(/apps#blur)"></image>
+                <image width="400" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ product.primary_image.url }}" filter="url(/apps#blur)"></image>
             </svg>
         </div>
         <div class="list__bg">
-            <img onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.featured_image.src }}" alt="" class="list__pic" />
+            <img onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.primary_image.url }}" alt="" class="list__pic" />
         </div>
         <h3 class="list__t">{{ product.title }}</h3>
         {% if product.metafields.properties.Description %}

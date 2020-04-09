@@ -1,9 +1,9 @@
 ---
-date: 2020-01-16
+date: '2020-01-16'
 layout: glossary
-title: E-commerce CMS Platforms in 2020
-description: This article examines several different e-commerce CMS platforms and offers a deeper look at each one of them. Included is a list of the best e-commerce CMS platforms for 2020.
 permalink: glossary/e-commerce-cms
+title: 'E-commerce CMS Platforms in 2020'
+
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
@@ -13,7 +13,8 @@ permalink: glossary/e-commerce-cms
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">15 Best e-commerce CMS platforms in 2020</h1>
             </div>
-             <p class="text">
+            <p class="glosary-date">Updated: January 20, 2020 | Ilse Lauwens, Marketing Director</p>
+            <p class="text">
                 Selecting the right e-commerce CMS platform for your webstore is one of the most important steps to consider when planning to sell something online. The choice itself
                 might be challenging as there are many different platforms available, each with their own advantages and disadvantages.
             </p>

@@ -9,9 +9,9 @@
                 <a class="list__item" href="{{ category_url | absolute_url }}">{{ "blogs.categories." | append: category | t }}</a>
             {% endfor %}
         </div>
-
+      {% assign has_more = false %}
         {% assign sticked_article = blog.articles | where: 'Url', '==', settings.blog_sticked_article_url | first %}
-        {% assign page_size = 9 %}
+        {% assign page_size = 8 %}
         <div class="blog-main">
             {% include 'blog-sticked-item' article: sticked_article %}
             {% include 'blog-subscribe'%}
@@ -27,6 +27,7 @@
             {% for article in articles %}
                 {% include 'blog-list-item' article: article, style: "single" %}
                 {% if forloop.index == page_size %}
+                    {% assign has_more = true %}
                     {% break %}
                 {% endif %}
             {% endfor %}
@@ -40,7 +41,7 @@
         </div>
     </div>
 
-    {% if articles.size > page_size %}
+    {% if has_more == true %}
         <div class="more __responsive container" ng-if="!isLastPage">
             <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
         </div>

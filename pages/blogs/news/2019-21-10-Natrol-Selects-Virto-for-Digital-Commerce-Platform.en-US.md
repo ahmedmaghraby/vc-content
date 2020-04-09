@@ -1,11 +1,13 @@
 ---
-aliases:
-  - 'Natrol Selects Virto Commerce for Digital Commerce Platform'
+author: VirtoCommerce
 category: virtocommerce-news
 date: '2019-10-21'
+excerpt: 'Retailer will improve online commerce experience and efficient ordering across its organization'
 main-image: 'https://virtocommerce.com/assets/blog-post-graphic-natrol-pr-post.png'
 permalink: blog/Natrol-Selects-Virto-for-digital-commerce-platform
 published: true
+tags:
+  - virtocommerce
 title: 'Natrol Selects Virto Commerce for Digital Commerce Platform'
 
 ---

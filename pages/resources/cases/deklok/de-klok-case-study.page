@@ -1,19 +1,21 @@
 [
     {
         "type": "settings",
-        "title": "",
-        "permalink": "/case-study/de-klok-case-study-123",
+        "title": "De Klok Dranken case study",
+        "permalink": "case-studies/deklok",
         "layout": "theme",
-        "id": 1
+        "id": 1,
+        "header": "De Klok Dranken case study",
+        "description": "De Klok Dranken case study"
     },
     {
         "id": 2,
         "type": "case-study-form",
         "name": "Form Case Study",
         "title": "De Klok Dranken: Towards increased customer loyalty.",
-        "description": "Learn how Beverage Distributor De Klok Dranken Quenches Ecommerce Thirst with Easy-to-Use Commerce Platform & Expandable Technical Options.",
+        "description": "Learn how beverage distributor De Klok Dranken quenches e-commerce thirst with easy-to-use commerce platform & expandable technical options.",
         "image": {
-            "url": "https://vcpro.blob.core.windows.net/blogs/de-klok-background.png",
+            "url": "/assets/pages/de-klok-background.jpg",
             "altText": null
         },
         "logo": {
@@ -21,7 +23,7 @@
             "altText": null
         },
         "color": "lime",
-        "formId": "de-klok-form",
+        "formId": "asset-form-cs03",
         "formFields": [
             {
                 "fieldName": "fullname",
@@ -29,6 +31,7 @@
                 "fieldType": "text",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": "Enter your name",
                 "labelText": "<p>Full name</p>\n",
                 "data": null,
@@ -41,10 +44,62 @@
                 "fieldType": "email",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": "Enter your email",
-                "labelText": "<p>Email</p>\n",
+                "labelText": "<p>Business email</p>\n",
                 "data": null,
                 "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "company",
+                "fieldId": "company",
+                "fieldType": "text",
+                "optionalText": null,
+                "radioListItems": [],
+                "selectOptions": [],
+                "placeholder": "Enter your company name",
+                "labelText": "<p>Company name</p>\n",
+                "data": null,
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "region",
+                "fieldId": "region",
+                "fieldType": "select",
+                "optionalText": "Region",
+                "radioListItems": [],
+                "selectOptions": [
+                    {
+                        "text": "Please choose your region",
+                        "value": "",
+                        "selected": true,
+                        "disabled": true
+                    },
+                    {
+                        "text": "Asia-Pacific",
+                        "value": "APAC",
+                        "selected": null,
+                        "disabled": null
+                    },
+                    {
+                        "text": "Europe, Middle East & Africa",
+                        "value": "EMEA",
+                        "selected": null,
+                        "disabled": null
+                    },
+                    {
+                        "text": "North & South America",
+                        "value": "AMER",
+                        "selected": null,
+                        "disabled": null
+                    }
+                ],
+                "placeholder": "Region",
+                "labelText": "<p>Region</p>\n",
+                "data": null,
+                "required": true,
                 "agreeTermsMessage": null
             },
             {
@@ -53,14 +108,54 @@
                 "fieldType": "checkbox",
                 "optionalText": null,
                 "radioListItems": [],
+                "selectOptions": [],
                 "placeholder": null,
-                "labelText": "<p>By checking this checkbox,&nbsp;I&#39;m agree to the Virto Commerce <a href=\"/terms\">Terms</a> and <a href=\"/privacy\">Privacy</a>.</p>\n",
+                "labelText": "<p>By checking this checkbox, I&nbsp;agree to the Virto Commerce <a href=\"/terms\">terms</a>&nbsp;and <a href=\"/privacy\">privacy</a>.</p>\n",
                 "data": null,
-                "required": null,
+                "required": true,
                 "agreeTermsMessage": true
+            },
+            {
+                "fieldName": "asset-id",
+                "fieldId": "asset-id",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "selectOptions": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "CS03",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-name",
+                "fieldId": "asset-name",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "selectOptions": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "De Klok Dranken case study",
+                "required": null,
+                "agreeTermsMessage": null
+            },
+            {
+                "fieldName": "asset-url",
+                "fieldId": "asset-url",
+                "fieldType": "hidden",
+                "optionalText": null,
+                "radioListItems": [],
+                "selectOptions": [],
+                "placeholder": null,
+                "labelText": null,
+                "data": "https://vcpro.blob.core.windows.net/cases/VC-Case-DeKlok.pdf",
+                "required": null,
+                "agreeTermsMessage": null
             }
         ],
-        "submitButtonText": "Download Case Study",
+        "submitButtonText": "Download case study",
         "style": null,
         "noTop": true,
         "noBottom": true,
@@ -80,7 +175,12 @@
             "url": "http://www.deklokdranken.nl",
             "urlText": "www.deklokdranken.nl",
             "style": null
-        }
+        },
+        "footerImage": null,
+        "content": null,
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
         "id": 4,
@@ -88,8 +188,8 @@
         "sections": [
             {
                 "titleStyle": "visible",
-                "title": "The Challenges",
-                "text": "To provide improved and rich customer experience, De Klok Dranken wanted to future-proof, flexible, and scalable platform that would have robust capabilities with no limitations within the long-term vision and strategy.",
+                "title": "The challenges",
+                "text": "To provide improved and rich customer experience, De Klok Dranken wanted a future-proof, flexible, and scalable platform that would have robust capabilities with no limitations within the long-term vision and strategy.",
                 "image": {
                     "altText": null,
                     "url": "https://vcpro.blob.core.windows.net/blogs/case-study-solution-challenges.png"
@@ -97,7 +197,8 @@
                 "imagePosition": "top",
                 "country": null,
                 "sourceLink": null,
-                "footerContent": null
+                "footerContent": null,
+                "footerLink": null
             },
             {
                 "titleStyle": "visible",
@@ -110,24 +211,39 @@
                 "imagePosition": "top",
                 "country": null,
                 "sourceLink": null,
-                "footerContent": null
-            },
+                "footerContent": null,
+                "footerLink": null
+            }
+        ],
+        "showTitle": true,
+        "title": "Solution",
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
+    },
+    {
+        "id": 5,
+        "type": "case-study-solution",
+        "showTitle": false,
+        "title": "",
+        "sections": [
             {
                 "titleStyle": "visible",
                 "title": "Partner",
-                "text": "Innovaids has over 25 years of experience building innovative and delivering smart industry and e-commerce solutions.",
+                "text": "Innovadis has over 25 years of experience building innovative and delivering smart industry and e-commerce solutions.",
                 "image": {
                     "altText": null,
-                    "url": "https://vcpro.blob.core.windows.net/blogs/innovadis-logo.png"
+                    "url": "/assets/pages/innovadis-logo.png"
                 },
                 "imagePosition": "bottom-float-left",
                 "country": "The Netherlands",
                 "sourceLink": {
-                    "url": "https://www.innovadis.com",
+                    "url": "https://www.innovadis.com/",
                     "urlText": "www.innovadis.com",
                     "style": null
                 },
-                "footerContent": null
+                "footerContent": null,
+                "footerLink": null
             },
             {
                 "titleStyle": "none",
@@ -135,39 +251,46 @@
                 "text": "Virto Commerce is a highly scalable e-commerce platform, providing the flexibility to easily create your own unique solution.",
                 "image": {
                     "altText": null,
-                    "url": "https://vcpro.blob.core.windows.net/blogs/case-study-solution-quotes.png"
+                    "url": "/assets/pages/case-study-solution-quotes-2.png"
                 },
                 "imagePosition": "float-left",
                 "country": null,
                 "sourceLink": null,
-                "footerContent": null
+                "footerContent": null,
+                "footerLink": null
             }
-        ]
+        ],
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null
     },
     {
-        "id": 5,
+        "id": 6,
         "type": "text-over-image-test",
         "name": "Text over image",
-        "title": "Looking for an ecommerce<br/>  platform for your next project?",
-        "description": "Learn how you and your customers can<br/>  benefit from Virto Commerce.",
+        "title": "Looking for an e-commerce<br/>  platform for your next project?",
+        "description": "Learn how you can benefit from Virto Commerce.",
         "image": {
             "url": "https://vcpro.blob.core.windows.net/blogs/de-klok-vc.png",
             "altText": null
         },
         "url1": {
-            "url": "become-partner",
-            "urlText": "Start Success Story Now",
+            "url": "contact-us",
+            "urlText": "Get started",
             "style": "btn--orange"
         },
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "sectionStyle": "container",
+        "titleColor": null,
+        "url2": null
     },
     {
-        "id": 6,
+        "id": 7,
         "type": "cards-test",
         "name": "Text",
-        "title": "Learn other success stories",
+        "title": "Learn from other success stories",
         "headerType": "like-h2",
         "titleAlignment": "section__t--left-alignment",
         "style": "light",
@@ -179,11 +302,11 @@
                     "altText": null
                 },
                 "imageStyle": "bySize",
-                "text": "<p>Created new, unified ecommerce platform for B2B &amp; B2C and gained insights into customer behavior.</p>\n",
+                "text": "<p>Lavazza Nederland created a new, unified e-commerce platform for B2B &amp; B2C and gained insights into customer behavior.</p>\n",
                 "link": {
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round",
-                    "url": "#"
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "case-studies/lavazza"
                 }
             },
             {
@@ -193,11 +316,11 @@
                     "altText": null
                 },
                 "imageStyle": "bySize",
-                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic ecommerce platform, and came to Virto for flexibility and scalability.</p>\n",
+                "text": "<p>Standaard Boekhandel, Belgium&#39;s largest book seller, outgrew their monolithic e-commerce platform, and came to Virto Commerce for flexibility and scalability.</p>\n",
                 "link": {
-                    "urlText": "Read more",
-                    "style": "btn--orange btn--round",
-                    "url": "#"
+                    "urlText": "Learn more",
+                    "style": "btn--orange",
+                    "url": "case-studies/standaard-boekhandel"
                 }
             },
             {
@@ -209,14 +332,17 @@
                 "imageStyle": "portrait",
                 "text": "<p>Alain Van Hove</p>\n\n<p>Sales Director / EMEA</p>\n",
                 "link": {
-                    "urlText": "",
-                    "style": "btn--orange btn--round",
-                    "url": "#"
+                    "urlText": "Contact me",
+                    "style": "btn--orange",
+                    "url": "contact-us"
                 }
             }
         ],
-        "noTop": null,
-        "noBottom": null,
-        "noPad": null
+        "noTop": true,
+        "noBottom": true,
+        "noPad": null,
+        "upperText": null,
+        "lowerText": null,
+        "isShowBorders": null
     }
 ]

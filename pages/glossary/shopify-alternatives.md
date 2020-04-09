@@ -1,5 +1,6 @@
 ---
 date: '2017-08-07'
+excerpt: 'Shopify competitors. Top 10 Shopify alternatives in 2020'
 layout: glossary
 permalink: glossary/shopify-alternatives
 tags:
@@ -7,7 +8,7 @@ tags:
   - 'shopping cart'
   - shopify
   - virtocommerce
-title: 'Shopify competitors. Top 10 Shopify alternatives in 2019'
+title: 'Shopify competitors. Top 10 Shopify alternatives in 2020'
 
 ---
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
@@ -17,9 +18,9 @@ title: 'Shopify competitors. Top 10 Shopify alternatives in 2019'
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
-                <h1 itemprop="headline" class="glosary-t">Shopify competitors. Top 10 Shopify alternatives. The best alternatives to Shopify in 2019.</h1>
+                <h1 itemprop="headline" class="glosary-t">Shopify competitors. Top 10 Shopify alternatives. The best alternatives to Shopify in 2020.</h1>
             </div>
-            <p class="glosary-date">Updated: November 06, 2019 | Virtocommerce | 6 Comments</p>
+            <p class="glosary-date">Updated: April 01, 2020 | Ilse Lauwens</p>
             <div class="glosary-article">
                 <p class="text">Shopify can be considered one of the best shopping cart platforms for an e-commerce website when it comes to balancing the convenience of setting up a website and having the control over it. The great advantage of this kind of electronic commerce platforms, including Shopify, as well as a number of various alternatives to Shopify, is that they provide you with as much control as possible without you having to use your own server. If you are a small business owner, the first thing you will notice about Shopify is their great support base, which offers you a wide variety of tools to alter your store. The AppStore available for its users is amazing for finding interesting plugins to customize your website.</p>
                 <figure style="text-align: center;">
