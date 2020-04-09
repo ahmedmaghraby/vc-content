@@ -5,7 +5,7 @@
     <div class="apps__detail row">
         <div class="col-md-auto">
             <div class="apps__detail-item">
-                <img src="{% if product.featured_image.src %}{{ product.featured_image.src }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" alt="">
+                <img src="{% if product.primary_image.url %}{{ product.primary_image.url }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" alt="">
             </div>
         </div>
         <div class="col-md">
