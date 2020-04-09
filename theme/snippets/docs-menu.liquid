@@ -1,61 +1,76 @@
 {% assign top_level_items = docs_tree | where: 'level', '==', '2' | sort_list: 'priority' %}
 <div class="docs__sidebar" id="topics">
     <ul class="nav flex-column">
-        {% for item_1 in top_level_items %}
-        <li class="nav__item{% if item_1.path == page.url %} nav__item--active{% endif %}">
-            {% assign item_1_children_with_current_url = item_1.all_children | where: 'path', '==', page.url %}
-            {% include 'docs-menu-item' menu_item: item_1, active_children: item_1_children_with_current_url %}
-            {% if item_1.children.size > 0 and item_1_children_with_current_url.size > 0 or page.url contains item_1.path %}
-            <ul class="nav nav--sub">
-                {% for item_2 in item_1.children %}
-                <li class="nav__item{% if item_2.path == page.url %} nav__item--active{% endif %}">
-                    {% assign item_2_children_with_current_url = item_2.all_children | where: 'path', '==', page.url %}
-                    {% include 'docs-menu-item' menu_item: item_2, active_children: item_2_children_with_current_url %}
-                    {% if item_2.children.size > 0 and item_2_children_with_current_url.size > 0 or page.url contains item_2.path %}
-                    <ul class="nav nav--sub">
-                        {% for item_3 in item_2.children %}
-                        <li class="nav__item{% if item_3.path == page.url %} nav__item--active{% endif %}">
-                            {% assign item_3_children_with_current_url = item_3.all_children | where: 'path', '==', page.url %}
-                            {% include 'docs-menu-item' menu_item: item_3, active_children: item_3_children_with_current_url %}
-                            {% if item_3.children.size > 0 and item_3_children_with_current_url.size > 0 or page.url contains item_3.path %}
-                            <ul class="nav nav--sub">
-                                {% for item_4 in item_3.children %}
-                                <li class="nav__item{% if item_4.path == page.url %} nav__item--active{% endif %}">
-                                    {% assign item_4_children_with_current_url = item_4.all_children | where: 'path', '==', page.url %}
-                                    {% include 'docs-menu-item' menu_item: item_4, active_children: item_4_children_with_current_url %}
-                                    {% if item_4.children.size > 0 and item_4_children_with_current_url.size > 0 or page.url contains item_4.path %}
-                                    <ul class="nav nav--sub">
-                                        {% for item_5 in item_4.children %}
-                                        <li class="nav__item{% if item_5.path == page.url %} nav__item--active{% endif %}">
-                                            {% assign item_5_children_with_current_url = item_5.all_children | where: 'path', '==', page.url %}
-                                            {% include 'docs-menu-item' menu_item: item_5, active_children: item_5_children_with_current_url %}
-                                            {% if item_5.children.size > 0 and item_5_children_with_current_url.size > 0 or page.url contains item_5.path %}
-                                            <ul class="nav nav--sub">
-                                                {% for item_6 in item_5.children %}
-                                                <li class="nav__item{% if item_6.path == page.url %} nav__item--active{% endif %}">
-                                                    {% assign item_6_children_with_current_url = item_6.all_children | where: 'path', '==', page.url %}
-                                                    {% include 'docs-menu-item' menu_item: item_6, active_children: item_6_children_with_current_url %}
-                                                </li>
-                                                {% endfor %}
-                                            </ul>
-                                            {% endif %}
-                                        </li>
-                                        {% endfor %}
-                                    </ul>
-                                    {% endif %}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                            {% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </li>
-        {% endfor %}
+        {% if page.url != null and page.url != '' %}
+            {% for item_1 in top_level_items %}
+            <li class="nav__item{% if item_1.path == page.url %} nav__item--active{% endif %}">
+                {% assign item_1_children_with_current_url = item_1.all_children | where: 'path', '==', page.url %}
+                {% include 'docs-menu-item' menu_item: item_1, active_children: item_1_children_with_current_url %}
+                {% if item_1.children.size > 0 and item_1_children_with_current_url.size > 0 or page.url contains item_1.path %}
+                <ul class="nav nav--sub">
+                    {% for item_2 in item_1.children %}
+                    <li class="nav__item{% if item_2.path == page.url %} nav__item--active{% endif %}">
+                        {% assign item_2_children_with_current_url = item_2.all_children | where: 'path', '==', page.url %}
+                        {% include 'docs-menu-item' menu_item: item_2, active_children: item_2_children_with_current_url %}
+                        {% if item_2.children.size > 0 and item_2_children_with_current_url.size > 0 or page.url contains item_2.path %}
+                        <ul class="nav nav--sub">
+                            {% for item_3 in item_2.children %}
+                            <li class="nav__item{% if item_3.path == page.url %} nav__item--active{% endif %}">
+                                {% assign item_3_children_with_current_url = item_3.all_children | where: 'path', '==', page.url %}
+                                {% include 'docs-menu-item' menu_item: item_3, active_children: item_3_children_with_current_url %}
+                                {% if item_3.children.size > 0 and item_3_children_with_current_url.size > 0 or page.url contains item_3.path %}
+                                <ul class="nav nav--sub">
+                                    {% for item_4 in item_3.children %}
+                                    <li class="nav__item{% if item_4.path == page.url %} nav__item--active{% endif %}">
+                                        {% assign item_4_children_with_current_url = item_4.all_children | where: 'path', '==', page.url %}
+                                        {% include 'docs-menu-item' menu_item: item_4, active_children: item_4_children_with_current_url %}
+                                        {% if item_4.children.size > 0 and item_4_children_with_current_url.size > 0 or page.url contains item_4.path %}
+                                        <ul class="nav nav--sub">
+                                            {% for item_5 in item_4.children %}
+                                            <li class="nav__item{% if item_5.path == page.url %} nav__item--active{% endif %}">
+                                                {% assign item_5_children_with_current_url = item_5.all_children | where: 'path', '==', page.url %}
+                                                {% include 'docs-menu-item' menu_item: item_5, active_children: item_5_children_with_current_url %}
+                                                {% if item_5.children.size > 0 and item_5_children_with_current_url.size > 0 or page.url contains item_5.path %}
+                                                <ul class="nav nav--sub">
+                                                    {% for item_6 in item_5.children %}
+                                                    <li class="nav__item{% if item_6.path == page.url %} nav__item--active{% endif %}">
+                                                        {% assign item_6_children_with_current_url = item_6.all_children | where: 'path', '==', page.url %}
+                                                        {% include 'docs-menu-item' menu_item: item_6, active_children: item_6_children_with_current_url %}
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                                {% endif %}
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        {% else %}
+            {% for item_1 in top_level_items %}
+            <li class="nav__item">
+                {% include 'docs-menu-item' menu_item: item_1 %}
+                <ul class="nav nav--sub">
+                    {% for item_2 in item_1.children %}
+                    <li class="nav__item">
+                        {% include 'docs-menu-item' menu_item: item_2 %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        {% endif %}
     </ul>
 </div>
