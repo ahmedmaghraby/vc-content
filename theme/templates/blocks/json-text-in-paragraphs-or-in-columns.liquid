@@ -6,7 +6,7 @@
     <div class="block__inner container">
         {% if block.title != '' %}
             <div class="block__t">
-                {% include 'seo-text' text: block.title %}
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
             </div>
             <div class="block__space"></div>
         {% endif %}
