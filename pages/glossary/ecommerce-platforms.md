@@ -1,5 +1,5 @@
 ---
-title: 20 best ecommerce platforms for websites in 2020. Top ecommerce platforms list
+title: How to choose among the 20 best ecommerce platforms in 2020?
 description: 20 best ecommerce platforms for websites in April 2020. Top ecommerce platforms list
 date: 2018-05-12
 canonical: https://virtocommerce.com/glossary/ecommerce-platforms
@@ -24,9 +24,9 @@ tags:
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
-                <h1 itemprop="headline" class="glosary-t">20 best e-commerce platforms for websites in April 2020. Top e-commerce platforms list</h1>
+                <h1 itemprop="headline" class="glosary-t">20 best ecommerce platforms in 2020. Using RFP approach to select the best ecommerce platform.</h1>
             </div>
-            <p class="glosary-date">Updated: February 10, 2020 | Ilse Lauwens, Marketing Director</p>
+            <p class="glosary-date">Updated: February 20, 2020 | Ilse Lauwens, Marketing Director</p>
             <div class="glosary-article">
                 <div class="glosary-inner">
                     <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -108,7 +108,7 @@ tags:
                     Moving to the topic of specific questions that you should ask when choosing a platform for yourself – any platform provider should be able to incorporate all of the
                     different functions in one platform-sized package. The most important groups of features include:
                 </p>
-                <ul class="text">
+                <ul class="text" style="margin-left:2rem">
                     <li>Marketing</li>
                     <li>Customer support</li>
                     <li>Order management</li>
@@ -129,7 +129,7 @@ tags:
                 <p class="text">
                     On the other hand, the overall method of RFP’s work allows you to at least segregate all of your questions you want to ask into several categories, like:
                 </p>
-                <ul class="text">
+                <ul class="text" style="margin-left:2rem">
                     <li>General questions</li>
                     <li>Site’s UI/UX questions</li>
                     <li>Hosting questions</li>
@@ -146,7 +146,7 @@ tags:
                     process in general. Most of these categories are pretty obvious, and each one of them might include a lot of questions. As an example, “Site’s UI/UX questions”
                     category would include questions like:
                 </p>
-                <ul class="text">
+                <ul class="text" style="margin-left:2rem">
                     <li>Is there an option to install and use custom web forms?</li>
                     <li>Can we make the shopping cart persistent across multiple devices?</li>
                     <li>Is there any kind of mobile-optimized checkout already available?</li>
