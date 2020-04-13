@@ -1,37 +1,55 @@
 [
     {
         "type": "settings",
-        "title": ".NET Ecommerce Platform for Startups",
+        "title": "Startup Ecommerce Platform. Best Ecommerce Platform for Startups",
         "permalink": "startup-ecommerce-platform",
         "id": 1,
         "header": ".NET Ecommerce Platform for Startups",
-        "description": ".NET Ecommerce Platform for Startups"
+        "description": "Due to our customizable and extensible platform and modular architecture, the Virto Commerce startup ecommerce platform is designed to be adoptive and flexible. We provide enablers for building up a solution of any complexity on top of the platform with minimal time, costs and risks."
     },
     {
-        "id": 2,
-        "type": "decorated-hero",
-        "name": "Text over image",
-        "title": "How startups can get an advantage by leveraging ecommerce platforms",
-        "content": "<p>For any startup there is a choice- to use an existing ecommerce solution, or design and develop an in-house solution. It often seems that developing in-house will fit your MVP better, however, using an existing solution may bring your MVP vision to life more quickly.</p>\n",
+        "id": 10,
+        "type": "video",
+        "name": "Video and text",
+        "title": "Startup Ecomerce Platform",
+        "headerType": "h1",
+        "content": "<h2>Best Ecommerce Platform for Startups</h2>\n\n<p>For any startup there is a choice- to use an existing ecommerce platform, or design and develop an in-house solution. It often seems that developing startup ecommerce platform in-house will fit your MVP better, however, using an existing solution may bring your MVP vision to life more quickly.</p>\n",
+        "style": "light",
+        "image": {
+            "url": "https://vcpro.blob.core.windows.net/pages/video-screen-4_OBUSj68rY6.png",
+            "altText": null
+        },
+        "avatar": {
+            "url": "https://vcpro.blob.core.windows.net/pages/garren-perkins_5nMmMgMov6.png",
+            "altText": null
+        },
+        "videoName": "Presented by Garren Parkins",
+        "videoUrl": "https://www.youtube.com/watch?v=QpRG-HOlrbc",
+        "align": "right",
         "noTop": null,
         "noBottom": null,
-        "noPad": null,
-        "headerType": "h1"
+        "noPad": null
     },
     {
         "id": 3,
         "type": "list-and-text",
         "name": "Text over image",
-        "title": "What Are the Top Ecommerce Challenges Faced by Startups?",
+        "title": "What Are the Top Ecommerce Platform Challenges Faced by Startups?",
         "style": "light",
         "list": [
             {
+                "title": null,
+                "image": null,
                 "text": "Out-of-the box solutions don’t fit startups"
             },
             {
+                "title": null,
+                "image": null,
                 "text": "<p>Licensing doesn&rsquo;t fit many&nbsp;startup business models</p>\n"
             },
             {
+                "title": null,
+                "image": null,
                 "text": "<p>It&#39;s challenging to to find qualified experts to build your MVP fast</p>\n"
             }
         ],
@@ -40,7 +58,15 @@
         "noBottom": true,
         "noPad": null,
         "titleAlignment": "section__t--left-alignment",
-        "titleStyle": "section__t--gray"
+        "titleStyle": "section__t--gray",
+        "elementsStyle": null,
+        "listPosition": null,
+        "listEnumType": null,
+        "headerType": null,
+        "showMessage": null,
+        "messageTitle": null,
+        "messageText": null,
+        "messageLink": null
     },
     {
         "id": 4,
@@ -186,7 +212,7 @@
         "id": 9,
         "type": "list-with-images",
         "name": "List with images",
-        "title": "How to Get a Real Estate Startup To Be Successful in Six Months",
+        "title": "How to Get a Startup To Be Successful in E-commerce in 6 Months?",
         "titleStyle": "section__t--gray",
         "intro": "",
         "style": "light",
@@ -199,6 +225,7 @@
                 "title": "",
                 "text": "<p>Before finding Virto Commerce, the team initially built the site in a basic website builder called Tilda, and immediately saw its limitations upon launch. The main disadvantage was that they could not create a catalog online with search or filter functionalities.</p>\n\n<p>&nbsp;</p>\n\n<p>Despite its challenges, the site kept growing, so they knew it was important to develop the site infrastructure further. In the first year, they collected 840 purchase applications, grew a newsletter list to&nbsp;1,322 contacts, sold 29 properties for a total of &euro;4.2 million, and hosted 2,300 webpages.</p>\n\n<p>&nbsp;</p>\n\n<p>The team transferred the current version of the Estate-Spain.com front end to a new Virto Commerce platform in three months, within budget, and on time. The solution also included a robust administrator panel. The team collaborated to tackle a lengthy list of technical requirements, business requirements, and desired features.</p>\n\n<p>&nbsp;</p>\n",
                 "iconStyle": "",
+                "iconAlign": null,
                 "url": {
                     "url": "/case-studies/estatespain",
                     "urlText": "Download the Full Case Study",
@@ -209,6 +236,7 @@
         "noTop": true,
         "noBottom": null,
         "noPad": null,
-        "titleAlignment": "section__t--left-alignment"
+        "titleAlignment": "section__t--left-alignment",
+        "headerType": null
     }
 ]
