@@ -205,6 +205,28 @@ $(function (){
             $('button,input[type="submit"][disabled]').removeAttr('disabled');
         }
     }, 1000);
+
+    $('form').submit(function (e) {
+        e.preventDefault();
+
+        var submittedForm = $(this);
+        $.ajax({
+            type: 'GET',
+            url: 'https://api.ipdata.co/?api-key=902056cd0c4ed3f43c4374fdc0ab53967c1127b6ec12ed0efc4f771c',
+            accepts: {
+                'Accept': 'application/json'
+            },
+            async: false,
+            success: function (data) {
+                submittedForm[0].elements['user_country'] = $(`<input type="text" name="user_country" value="${data.country_name}" style="display:none" />`);
+                submittedForm[0].elements['user_region'] = $(`<input type="text" name="user_region" value="${data.region}" style="display:none" />`);
+            },
+            error: function () {
+
+            }
+        });
+        return false;
+    });
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
