@@ -24,7 +24,7 @@ tags:
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
-                <h1 itemprop="headline" class="glosary-t">20 best ecommerce platforms in 2020. Using RFP approach to select the best ecommerce platform.</h1>
+                <h1 itemprop="headline" class="glosary-t">20 BEST E-COMMERCE PLATFORMS FOR WEBSITES IN 2020. TOP E-COMMERCE PLATFORMS LIST</h1>
             </div>
             <p class="glosary-date">Updated: February 20, 2020 | Ilse Lauwens, Marketing Director</p>
             <div class="glosary-article">
