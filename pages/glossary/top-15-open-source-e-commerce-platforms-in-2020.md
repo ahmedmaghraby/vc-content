@@ -8,12 +8,13 @@ permalink: glossary/open-source-ecommerce-platform
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
     <meta itemprop="datePublished" content="2020-01-17">
+    <meta itemprop="dateModified" content="2020-04-09">
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Top 15 open source e-commerce platforms in 2020</h1>
             </div>
-            <p class="glosary-date">Updated: February 15, 2020 | Ilse Lauwens, Marketing Director</p>
+            <p class="glosary-date">Updated: April 09, 2020 | Ilse Lauwens, Marketing Director</p>
             <p class="text">
                 A lot of different e-commerce store owners, from small to huge, are trying to work with free open source e-commerce platforms. It’s true that selling things online isn’t
                 cheap. On the other hand, using free open source software means at least less monthly fees that you have to pay.
