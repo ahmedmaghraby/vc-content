@@ -13,13 +13,13 @@ title: 'Top B2B e commerce sites and companies'
 <div class="glosary" itemscope itemtype="http://schema.org/Article">
     <meta itemprop="author" content="Virtocommerce">
     <meta itemprop="datePublished" content="2017-09-06">
-    <meta itemprop="dateModified" content="2018-02-22">
+    <meta itemprop="dateModified" content="2020-04-09">
     <div itemprop="articleBody">
         <div class="responsive">
             <div itemprop="mainEntityOfPage">
                 <h1 itemprop="headline" class="glosary-t">Top B2B e commerce sites and companies</h1>
             </div>
-            <p class="glosary-date">Updated: March 30, 2018 | Virtocommerce | 0 Comments</p>
+            <p class="glosary-date">Updated: April 09, 2020 | Ilse Lauwens, Marketing Director</p>
             <div class="glosary-article">
                 <div class="glosary-videos center">
                     <div class="list-item">
@@ -42,23 +42,16 @@ title: 'Top B2B e commerce sites and companies'
                             There has been a drastic shift in the e-commerce from <a href="{{ '/glossary/what-is-b2c-ecommerce' | absolute_url }}">B2C (business to consumer)</a> to B2B. B2B e-commerce sites are more complex and contain way more features than B2C. In this article, we would like to present you the top B2B e commerce sites.
                         </p>
                     </div>
-                    <div class="col-md-5">
-                        <div class="block">
-                            <h3 class="section-title-h3">Top 5 B2B challenges and solutions</h3>
-                            <p class="text">
-                                <a href="/glossary/what-is-b2b-ecommerce">B2B ecommerce</a> has specific business model and process challenges which require customized solutions or special <a href="/b2b-ecommerce-platform">software platform</a>. In this whitepaper we'll provide top 5 challenges that B2B ecommerce websites face and their best solutions.
-                            </p>
-                            <a href="/download-b2b-whitepaper">
-                                <img src="../assets/images/whitepaper-download.png" style="width:80px; height:80px; display: block; margin: 0 auto;" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
+            <h2 class="glosary-sub-t">Top 5 B2B challenges and solutions</h2>
             <div class="glosary-article">
-                <div class="glosary-videos center">
-                    {% include 'vc-b2b_b2c-banner' %}
-                </div>
+                <p class="text">
+                    <a href="/glossary/what-is-b2b-ecommerce">B2B ecommerce</a> has specific business model and process challenges which require customized solutions or special <a href="/b2b-ecommerce-platform">software platform</a>. In this whitepaper we'll provide top 5 challenges that B2B ecommerce websites face and their best solutions.
+                </p>
+                <a href="/download-b2b-whitepaper">
+                    <img src="../assets/images/whitepaper-download.png" style="width:80px; height:80px; display: block; margin: 0 auto;" />
+                </a>
             </div>
             <h2 class="glosary-sub-t">B2B Ecommerce Case Studies from Virto Commerce</h2>
             <div class="glosary-article">
@@ -182,11 +175,6 @@ title: 'Top B2B e commerce sites and companies'
                 <img class="glosary-pic" alt="ThomasNet B2B e-commerce site" src="assets/images/ThomasNet.png"></img>
                 <p class="text">The history of ThomasNet dates back to over a century ago, and still, nowadays, it connects manufacturing and industrial buyers and sellers. It is the leading online platform for B2B vendor search and product sourcing and is visited by more than 1.9 million customers each month. ThomasNet attracts a lot of engineers, facility managers and purchasing agents from around the world. The platform is entirely free. It makes it simple to find a supplier thanks to its semantic product search technology with informative company profiles. This marketplace promotes more than 650,000 distributors, manufacturers and service companies within 67,000 industrial categories. The only downside of ThomasNet is that unlike Alibaba it does not allow a buyer to publish a general “Request for Quote.”</p>
             </div>
-            <div class="glosary-article">
-                <div class="glosary-videos center">
-                    {% include 'vc-b2b_b2c-banner' %}
-                </div>
-            </div>
             <h2 class="glosary-sub-t">Trade Key</h2>
             <div class="glosary-article">
                 <img class="glosary-pic" alt="Trade Key B2B ecommerce company" src="assets/images/TradeKey1.png"></img>
@@ -206,11 +194,6 @@ title: 'Top B2B e commerce sites and companies'
             <div class="glosary-article">
                 <img class="glosary-pic" alt="Quill B2B e commerce site" src="assets/images/quill.png"></img>
                 <p class="text">Being owned by Staples, Quill.com is the largest office supplier, which is purposefully created for B2B e-commerce. The company’s website is prominent for its user-friendly interface, a wide variety of educational and office supplies, offering many great customer-benefit coupons, special deals, and rewards. Businesses of all sizes value the site for the variety of its general office supplies, electronics, furniture, cleaning supplies and break room products. The benefits of using Quill.com include a balanced marketing package that includes logo design, SEO, and social coupon services. Quill’s customer service is quite decent, offering to e-mail, call or chat with an advisor in case you need any help. The great thing you can do when shopping on this website is subscribe to their newsletter to receive exclusive e-mail coupons and deals, offering a huge variety of bulk-buy discounts for businesses of all sizes.</p>
-            </div>
-            <div class="glosary-article">
-                <div class="glosary-videos center">
-                    {% include 'vc-b2b_b2c-banner' %}
-                </div>
             </div>
             <h2 class="glosary-sub-t">Ferguson</h2>
             <div class="glosary-article">
@@ -240,7 +223,7 @@ title: 'Top B2B e commerce sites and companies'
             </div>
             {% include 'micro-mark-publisher' %}
             {% include 'micro-mark-rating' bestRating: 5, ratingValue: 4.7, ratingCount: 785 %}
-            <div class="buttons" style="padding-bottom:20px;">
+            <div class="buttons" style="padding-bottom:20px;text-align:center">
                 <a class="btn btn--orange" href="/download-b2b-whitepaper">Download B2B Whitepaper</a>
                 <a class="btn btn--orange" href="/contact-us">Request Information & Demo</a>
             </div>
