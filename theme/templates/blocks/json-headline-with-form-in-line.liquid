@@ -49,6 +49,7 @@
                         {% assign counter = counter | plus: 1 %}
                     {% endif %}
                 {% endfor %}
+                {% include 'user-location-form-inputs' %}
             </form>
         {% endif %}
         <div class="block__note2">{{block.note}}</div>

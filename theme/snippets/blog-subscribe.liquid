@@ -7,6 +7,7 @@
             <div class="input-validation-error" style="color: #e32646; font-size: small;" ng-if="(blogSubscribeForm['Blog[Email]'].$dirty || blogSubscribeForm.$submitted) && blogSubscribeForm['Blog[Email]'].$error.pattern">
                 {{ 'apps.forms.email_format_validation_message' | t }}
             </div>
+            {% include 'user-location-form-inputs' %}
             <button ng-click="displayResult()" class="btn btn--orange" type="submit">Subscribe</button>
         </form>
         <p>... or follow the events on <br />social networks</p>

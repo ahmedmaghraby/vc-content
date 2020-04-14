@@ -83,6 +83,7 @@
                         <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
                     {% endif %}
                 {% endfor %}
+                {% include 'user-location-form-inputs' %}
             </form>
         {% endif %}
         {% if block.note != '' %}

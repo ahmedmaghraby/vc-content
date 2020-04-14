@@ -64,6 +64,8 @@
                         <input id="{{ item.name }}" data-segment-name="{{ item.segmentFieldName }}" type="text" style="display: none;" name="{{ item.name }}" value="{{ item.data }}" />
                     {% endif %}
                 {% endfor %}
+                
+                {% include 'user-location-form-inputs' %}
 
                 <div class="form-group row">
                     <div class="col-md">
