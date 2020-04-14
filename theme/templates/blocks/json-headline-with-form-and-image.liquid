@@ -94,8 +94,6 @@
                                     <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
                                 {% endif %}
                             {% endfor %}
-                            <input type="text" name="user_country" style="display:none" />
-                            <input type="text" name="user_region" style="display:none" />
                             {% if block.note != '' %}
                                 <div class="block__note2">{{block.note}}</div>
                             {% endif %}

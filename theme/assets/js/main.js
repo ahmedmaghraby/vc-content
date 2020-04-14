@@ -209,7 +209,7 @@ $(function (){
     $('form').submit(function (e) {
         e.preventDefault();
 
-        var submittedForm = this;
+        var submittedForm = $(this);
         $.ajax({
             type: 'GET',
             url: 'https://api.ipdata.co/?api-key=902056cd0c4ed3f43c4374fdc0ab53967c1127b6ec12ed0efc4f771c',
@@ -218,11 +218,14 @@ $(function (){
             },
             async: false,
             success: function (data) {
-                submittedForm.user_country.value = data.country_name;
-                submittedForm.user_region.value = data.region;
+                submittedForm[0].elements['user_country'] = $(`<input type="text" name="user_country" value="${data.country_name}" style="display:none" />`);
+                submittedForm[0].elements['user_region'] = $(`<input type="text" name="user_region" value="${data.region}" style="display:none" />`);
+            },
+            error: function () {
+
             }
         });
-        return true;
+        return false;
     });
   
 	// ?utm_source=asset_downloads&
