@@ -205,6 +205,21 @@ $(function (){
             $('button,input[type="submit"][disabled]').removeAttr('disabled');
         }
     }, 1000);
+
+    $.ajax({
+        type: 'GET',
+        url: 'https://api.ipdata.co/?api-key=902056cd0c4ed3f43c4374fdc0ab53967c1127b6ec12ed0efc4f771c',
+        accepts: {
+            'Accept': 'application/json'
+        },
+        async: false,
+        success: function (data) {
+            var inputs = $('form :input');
+            inputs.filter('[name="user_country"]').prop('value', data.country_name);
+            inputs.filter('[name="user_region"]').prop('value', data.continent_name);
+            inputs.filter('[name="user_city"]').prop('value', data.city);
+        }
+    });
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&

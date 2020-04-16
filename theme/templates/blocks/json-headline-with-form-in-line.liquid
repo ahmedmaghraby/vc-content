@@ -2,7 +2,7 @@
 
 <div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'cover-background-settings' %}>
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'background-settings' %}>
     <div class="block__inner container">
         <div class="block__text {{block.textAreaWidth}}">
             {% if block.title != '' %}
@@ -49,6 +49,7 @@
                         {% assign counter = counter | plus: 1 %}
                     {% endif %}
                 {% endfor %}
+                {% include 'user-location-form-inputs' %}
             </form>
         {% endif %}
         <div class="block__note2">{{block.note}}</div>

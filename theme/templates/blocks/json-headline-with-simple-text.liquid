@@ -1,8 +1,8 @@
+{% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
+
 <div class="block {{block.containerAlignment}} {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
-    {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
-    {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}>
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'background-settings' %}>
     <div class="block__inner container">
         <div class="block__text {{block.textAreaWidth}}">
             {% if block.note != '' %}

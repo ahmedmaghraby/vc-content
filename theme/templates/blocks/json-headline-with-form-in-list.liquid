@@ -2,7 +2,7 @@
 
 <div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'cover-background-settings' %}">
+    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'background-settings' %}">
     <div class="block__inner container">
         {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
@@ -83,6 +83,7 @@
                         <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
                     {% endif %}
                 {% endfor %}
+                {% include 'user-location-form-inputs' %}
             </form>
         {% endif %}
         {% if block.note != '' %}
