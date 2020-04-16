@@ -14,12 +14,13 @@
             <img onerror="this.onerror=null;this.src='{{ 'no-image.png' | asset_url }}';" src="{{ product.primary_image.url }}" alt="" class="list__pic" />
         </div>
         <h3 class="list__t">{{ product.title }}</h3>
-        {% if product.metafields.properties.Description %}
+        {% if product.properties['Description'] %}
         <div class="list__vendor">By {{ product.vendor.name }}</div>
         <div class="list__descr">
-            {{ product.metafields.properties.Description }}
+            {{ product.properties['Description'].value }}
         </div>
         {% endif %}
         <div class="list__price mt-auto">{% include 'product-pricing' %}</div>
+        <!-- {{ product.properties | json }} -->
     </a>
 </div>
