@@ -212,6 +212,22 @@
         {
             text-decoration: line-through;
         }
+
+        &--normal
+        {
+            font-size: 1.125rem;
+        }
+
+        &--medium
+        {
+            font-size: 1.5rem;
+        }
+
+        &--large
+        {
+            font-size: 1.75rem;
+            line-height: 1.2;
+        }
     }
 
 	&__t

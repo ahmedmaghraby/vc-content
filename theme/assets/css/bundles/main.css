@@ -5777,11 +5777,11 @@ code {
 }
 
 .section__descr--medium {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .section__descr--large {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1.2;
 }
@@ -7819,6 +7819,19 @@ code {
 
 .block__descr--lt {
     text-decoration: line-through;
+}
+
+.block__descr--normal {
+    font-size: 1.125rem;
+}
+
+.block__descr--medium {
+    font-size: 1.5rem;
+}
+
+.block__descr--large {
+    font-size: 1.75rem;
+    line-height: 1.2;
 }
 
 .block__t {

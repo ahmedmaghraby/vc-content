@@ -3704,7 +3704,7 @@
 				"type": "text",
 				"default": "Anything you've even dreamed about is possible to realise just at the moment when you decided to win.",
 				"tab": "Content",
-				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Maximize", "Source" ]
+				"settings": [ "TextColor", "NumberedList", "BulletedList", "Bold", "Italic", "Link", "Unlink", "Format", "Maximize", "Source" ]
 			}
 		]
 	},
