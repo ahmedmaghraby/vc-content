@@ -216,7 +216,7 @@ $(function (){
         success: function (data) {
             var inputs = $('form :input');
             inputs.filter('[name="user_country"]').prop('value', data.country_name);
-            inputs.filter('[name="user_region"]').prop('value', data.continent_name + ' ' + data.country_name);
+            inputs.filter('[name="user_region"]').prop('value', data.continent_name);
             inputs.filter('[name="user_city"]').prop('value', data.city);
         }
     });
