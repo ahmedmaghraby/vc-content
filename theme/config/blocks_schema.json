@@ -1434,6 +1434,54 @@
 				"group": "Background"
 			},
 			{
+				"id": "backgroundOverlayColor",
+				"label": "Overlay colour",
+				"type": "select",
+				"default": "none",
+				"options": [
+					{
+						"value": "none",
+						"label": "None"
+					},
+					{
+						"value": "black",
+						"label": "Black"
+					},
+					{
+						"value": "white",
+						"label": "White"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundOverlayColorHex",
+				"label": "Overlay colour HEX",
+				"type": "color",
+				"default": "",
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
+				"id": "backgroundScrollEffect",
+				"label": "Scroll effect",
+				"type": "select",
+				"default": "block--cover-static",
+				"options": [
+					{
+						"value": "block--cover-fixed",
+						"label": "Fixed"
+					},
+					{
+						"value": "block--cover-static",
+						"label": "Static"
+					}
+				],
+				"tab": "Settings",
+				"group": "Background"
+			},
+			{
 				"id": "title",
 				"label": "Title",
 				"type": "text",
@@ -1456,6 +1504,13 @@
 				"default": "Our company",
 				"tab": "Content",
 				"settings": [ "TextColor", "Link", "Unlink" ]
+			},
+			{
+				"id": "background",
+				"label": "Background",
+				"type": "image",
+				"tab": "Content",
+				"group": "Background"
 			},
 			{
 				"id": "firstButton",

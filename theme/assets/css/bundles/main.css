@@ -8531,6 +8531,10 @@ code {
     position: relative;
 }
 
+.block--cover--not-fixed {
+    min-height: initial;
+}
+
 .block--cover__note, .block--cover__t, .block--cover__descr {
     margin: 0;
     max-width: 37.5rem;
