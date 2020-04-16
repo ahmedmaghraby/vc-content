@@ -17,7 +17,7 @@
                 {% if block.referenceStyle == 'directSpeech' %}
                     {% if block.title != '' %}
                         <div class="block__t">
-                            {% include 'seo-text' text: block.title %}
+                            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
                         </div>
                     {% endif %}
                     <div class="author">
@@ -28,7 +28,7 @@
                 {% if block.referenceStyle == 'reference' %}
                     <img src="{{block.image.url}}" title="{{block.image.altText}}" class="block__quote" />
                     <div class="block__t mt-auto">
-                        {% include 'seo-text' text: block.title %}
+                        {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
                     </div>
                 {% endif %}
             </div>
