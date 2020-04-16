@@ -976,25 +976,30 @@
 		.list__descr
 		{
 			align-items: flex-start;
-			display: flex;
 
-			.list__quote
-			{
-				flex: 0 0 3.75rem;
-				margin-right: 1.25rem;
-				max-height: 3.75rem;
-				max-width: 3.75rem;
-			}
-
-			@include media-breakpoint-down(lg) {
+			@include media-breakpoint-down(lg)
+            {
 				flex-direction: column;
-
-				.list__quote
-				{
-					margin-bottom: 1.25rem;
-				}
 			}
 		}
+
+        .list__quote
+		{
+			flex: 0 0 3.75rem;
+			margin-right: 1.25rem;
+			max-height: 3.75rem;
+			max-width: 3.75rem;
+
+            @include media-breakpoint-down(lg)
+            {
+                margin-bottom: 1.25rem;
+            }
+		}
+
+        .list__item--flex
+        {
+            display: flex;
+        }
 	}
 }
 

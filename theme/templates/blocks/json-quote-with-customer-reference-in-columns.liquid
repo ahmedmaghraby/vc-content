@@ -37,14 +37,18 @@
                             </div>
                         </div>
                     {% else %}
-                        <div class="list__item">
-                            <div class="list__descr">
+                        <div class="list__item list__item--flex">
+                            <div>
                                 <img src="{{item.image.url}}" title="{{item.image.altText}}" class="list__quote" />
-                                {{item.text}}
                             </div>
-                            <div class="list__links">
-                                <div class="list__links-item">{{item.name}}</div>
-                                <div class="list__pos">{{item.jobTitle}}</div>
+                            <div class="list__reviewer">
+                                <div class="list__descr">
+                                    {{item.text}}
+                                </div>
+                                <div class="list__links">
+                                    <div class="list__links-item">{{item.name}}</div>
+                                    <div class="list__pos">{{item.jobTitle}}</div>
+                                </div>
                             </div>
                         </div>
                     {% endif %}
