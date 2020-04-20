@@ -192,6 +192,21 @@ $(function (){
     caseStudyFormHandler('#asset-form-cs03', 'asset-download-thank-you');
     caseStudyFormHandler('#asset-form-cs04', 'asset-download-thank-you');
 
+    var blockForms = $('.block .form');
+    if (blockForms.length) {
+        blockForms.submit(function (obj) {
+            if ($(obj.target).valid()) {
+                var redirectUrl = obj.target.dataset.targetUrl;
+                if (redirectUrl && redirectUrl != '') {
+                    document.location.href = redirectUrl;
+                }
+                return true;
+            } else {
+                $(obj.target).find('.form-error').show();
+            }
+        });
+    }
+
     $('a[href*=#]').on('click', function (e) {
         e.preventDefault();
         var linkHref = $(this).attr('href');
