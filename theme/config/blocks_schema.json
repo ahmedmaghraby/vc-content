@@ -3631,6 +3631,32 @@
 				"group": "Main block settings"
 			},
 			{
+				"id": "textAreaWidth",
+				"label": "Text area width",
+				"type": "select",
+				"default": "col-lg px-0",
+				"options": [
+					{
+						"value": "col-lg px-0",
+						"label": "Full width"
+					},
+					{
+						"value": "col-lg-10 px-0",
+						"label": "10 cols"
+					},
+					{
+						"value": "col-lg-8 px-0",
+						"label": "8 cols"
+					},
+					{
+						"value": "col-lg-6 px-0",
+						"label": "6 cols"
+					}
+				],
+				"tab": "Settings",
+				"group": "Main block settings"
+			},
+			{
 				"id": "topPadding",
 				"label": "Top padding",
 				"type": "select",
@@ -3715,6 +3741,13 @@
 				],
 				"tab": "Settings",
 				"group": "Typography"
+			},
+			{
+				"id": "overlayGradient",
+				"label": "Overlay gradient",
+				"type": "checkbox",
+				"default": false,
+				"tab": "Settings"
 			},
 			{
 				"id": "backgroundColor",
