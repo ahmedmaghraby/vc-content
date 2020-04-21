@@ -211,7 +211,9 @@ $(function (){
         e.preventDefault();
         var linkHref = $(this).attr('href');
         var anchorId = linkHref.substr(linkHref.indexOf('#'));
-        $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
+        var header = $('.header').height();
+        var finalOffset = parseInt($(anchorId).offset().top - header) + 'px';
+        $('html, body').animate({ scrollTop: finalOffset }, 1250);
     });
 
     var autopilotWatcher = setInterval(function () {
