@@ -1203,6 +1203,14 @@
 				"group": "Form"
             },
 			{
+				"id": "showFormLabels",
+				"label": "Show form labels",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Content",
+				"group": "Form"
+			},
+			{
 				"id": "firstButton",
 				"label": "First button",
 				"type": "url",
@@ -2743,7 +2751,15 @@
                 ],
                 "tab": "Content",
 				"group": "Form"
-            }
+            },
+			{
+				"id": "showFormLabels",
+				"label": "Show form labels",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Content",
+				"group": "Form"
+			}
 		]
 	},
 	"headline-with-form-in-list": {
@@ -3219,7 +3235,15 @@
                 ],
                 "tab": "Content",
 				"group": "Form"
-            }
+            },
+			{
+				"id": "showFormLabels",
+				"label": "Show form labels",
+				"type": "checkbox",
+				"default": true,
+				"tab": "Content",
+				"group": "Form"
+			}
 		]
 	},
 	"headline-with-form-in-line": {
