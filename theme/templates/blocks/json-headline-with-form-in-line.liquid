@@ -1,57 +1,57 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}}
-    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'background-settings' %}>
-    <div class="block__inner container">
-        <div class="block__text {{block.textAreaWidth}}">
-            {% if block.title != '' %}
-                <h2 class="block__t">{{block.title}}</h2>
-                <div class="block__space"></div>
-            {% endif %}
-            {% if block.subtitle != '' %}
-                <div class="block__descr">{{block.subtitle}}</div>
-                <div class="block__space"></div>
-            {% endif %}
-        </div>
-        {% if block.formFields.size > 0 %}
-            {% assign counter = 1 %}
-            <form id="{{block.formId}}" name="{{block.formName}}" class="form form--inline" {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
-                {% for item in block.formFields %}
-                    {% if item.fieldType == 'checkbox' %}
-                        <div class="form__divider"></div>
-                        <div class="form-checkbox">
-                            <input id="agree" type="checkbox" class="form-checkbox__input"
-                            {% if item.required == 'True' %}
-                                data-val="true" data-val-mandatory="{% if item.checkboxValidationMessage != '' %}{{item.checkboxValidationMessage}}{% else %}Please choose this checkbox{% endif %}"
-                                {% if block.checkboxId != '' %} id="{{item.fieldId}}" {% endif %}
-                                {% if item.fieldName != '' %} name="{{item.fieldName}}" {% endif %}
-                            {% endif %} />
-                            <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'button' %}
-                        <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
-                    {% elsif item.fieldType == 'hidden' %}
-                        <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
-                    {% else %}
-                        {% if counter < 3 %}
-                            <input type="text" class="form-control"
-                            {% if item.required == 'True' %}
-                                data-val="true" data-val-required="" aria-required="true" aria-invalid="true"
-                                {% if item.fieldType == 'email' %} data-val-email="" {% endif %}
-                                {% if item.fieldType == 'phone' %} data-val-regex="" data-val-regex-pattern="[0-9]{11,}" {% endif %}
+<div class="{% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}} {% include 'background-settings' %}>
+        <div class="block__inner container">
+            <div class="block__text {{block.textAreaWidth}}">
+                {% if block.title != '' %}
+                    <h2 class="block__t">{{block.title}}</h2>
+                    <div class="block__space"></div>
+                {% endif %}
+                {% if block.subtitle != '' %}
+                    <div class="block__descr">{{block.subtitle}}</div>
+                    <div class="block__space"></div>
+                {% endif %}
+            </div>
+            {% if block.formFields.size > 0 %}
+                {% assign counter = 1 %}
+                <form id="{{block.formId}}" name="{{block.formName}}" class="form form--inline" {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
+                    {% for item in block.formFields %}
+                        {% if item.fieldType == 'checkbox' %}
+                            <div class="form__divider"></div>
+                            <div class="form-checkbox">
+                                <input id="agree" type="checkbox" class="form-checkbox__input"
+                                {% if item.required == 'True' %}
+                                    data-val="true" data-val-mandatory="{% if item.checkboxValidationMessage != '' %}{{item.checkboxValidationMessage}}{% else %}Please choose this checkbox{% endif %}"
+                                    {% if block.checkboxId != '' %} id="{{item.fieldId}}" {% endif %}
+                                    {% if item.fieldName != '' %} name="{{item.fieldName}}" {% endif %}
+                                {% endif %} />
+                                <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'button' %}
+                            <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
+                        {% elsif item.fieldType == 'hidden' %}
+                            <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
+                        {% else %}
+                            {% if counter < 3 %}
+                                <input type="text" class="form-control"
+                                {% if item.required == 'True' %}
+                                    data-val="true" data-val-required="" aria-required="true" aria-invalid="true"
+                                    {% if item.fieldType == 'email' %} data-val-email="" {% endif %}
+                                    {% if item.fieldType == 'phone' %} data-val-regex="" data-val-regex-pattern="[0-9]{11,}" {% endif %}
+                                {% endif %}
+                                {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %}
+                                {% if item.fieldName != '' %} name="{{item.fieldName}}" aria-describedby="{{item.fieldName}}-error" {% endif %}
+                                {% if item.placeholder != '' %} placeholder="{{item.placeholder}}" {% endif %} />
                             {% endif %}
-                            {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %}
-                            {% if item.fieldName != '' %} name="{{item.fieldName}}" aria-describedby="{{item.fieldName}}-error" {% endif %}
-                            {% if item.placeholder != '' %} placeholder="{{item.placeholder}}" {% endif %} />
+                            {% assign counter = counter | plus: 1 %}
                         {% endif %}
-                        {% assign counter = counter | plus: 1 %}
-                    {% endif %}
-                {% endfor %}
-                {% include 'user-location-form-inputs' %}
-            </form>
-        {% endif %}
-        <div class="block__note2">{{block.note}}</div>
+                    {% endfor %}
+                    {% include 'user-location-form-inputs' %}
+                </form>
+            {% endif %}
+            <div class="block__note2">{{block.note}}</div>
+        </div>
     </div>
 </div>

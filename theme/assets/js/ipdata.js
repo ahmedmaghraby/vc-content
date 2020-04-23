@@ -252,7 +252,7 @@ $(function () {
 
     $.ajax({
         type: 'GET',
-        url: 'https://api.ipdata.co/?api-key=902056cd0c4ed3f43c4374fdc0ab53967c1127b6ec12ed0efc4f771c',
+        url: 'https://api.ipdata.co/?api-key=d55d3413982d00ce1d4ef0008d06578d74f3a96deed0ae2f0f6f10da',
         accepts: {
             'Accept': 'application/json'
         },
