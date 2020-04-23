@@ -194,20 +194,24 @@ $(function (){
 
     var blockForms = $('.block .form');
     if (blockForms.length) {
-        blockForms.submit(function (obj) {
-            if ($(obj.target).valid()) {
-                var redirectUrl = obj.target.dataset.targetUrl;
+        $(document).on('change', '.form-checkbox__input', function () {
+            $(this).val(this.checked);
+        });
+
+        blockForms.submit(function (e) {
+            if ($(e.target).valid()) {
+                var redirectUrl = e.target.dataset.targetUrl;
                 if (redirectUrl && redirectUrl != '') {
                     document.location.href = redirectUrl;
                 }
                 return true;
             } else {
-                $(obj.target).find('.form-error').show();
+                $(e.target).find('.form-error').show();
             }
         });
     }
 
-    $('a[href*=#]').on('click', function (e) {
+    $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         var linkHref = $(this).attr('href');
         var anchorId = linkHref.substr(linkHref.indexOf('#'));
