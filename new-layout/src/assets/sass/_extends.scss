@@ -486,6 +486,15 @@
         border: 1px solid #e1e1e1;
         border-radius: 0.25rem;
         padding: 1.875rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list__descr
+    {
+        margin-bottom: 1.25rem;
     }
 
     .list__img
@@ -497,13 +506,12 @@
     {
         display: block;
         max-width: 100%;
-        max-height: 1.875rem;
     }
 
     .btn
     {
         font-weight: bold;
-        margin-top: 1.25rem;
+        margin-top: auto;
 
         @extend %font-headings;
     }
