@@ -3,7 +3,7 @@
     {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
     {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}>
-    <div class="block__inner container">
+    <div class="block__inner container {{block.textAreaWidth}}">
         {% if block.title != '' %}
             <div class="block__t">
                 {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
@@ -11,8 +11,31 @@
             <div class="block__space"></div>
         {% endif %}
         {% if block.paragraph != '' %}
+            {% if block.overlayGradient == 'True' %}
+                {% if block.backgroundColor == 'block--bg-light' %}
+                    {% assign gradientColor = '#f8f8f8' %}
+                {% elsif block.backgroundColor == 'block--bg-orange' %}
+                    {% assign gradientColor = '#ff9a05' %}
+                {% else %}
+                    {% assign gradientColor = '#ffffff' %}
+                {% endif %}
+                <style>
+                    .block__descr--fade-{{block.id}} {
+                        position: relative;
+                    }
+                    .block__descr--fade-{{block.id}}:after {
+                        content: ' ';
+                        height: 50px;
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0;
+                        background: linear-gradient(transparent, {% if block.backgroundColorHex != '' %} {{block.backgroundColorHex}} {% else %} {{gradientColor}} {% endif %});
+                        background-image: -webkit-linear-gradient (transparent, {% if block.backgroundColorHex != '' %} {{block.backgroundColorHex}} {% else %} {{gradientColor}} {% endif %});
+                    }
+                </style>
+            {% endif %}
             {% if block.numberOfColumns == '1' %}
-                <div class="block__descr">{{block.paragraph}}</div>
+                <div class="block__descr {% if block.overlayGradient == 'True' %} block__descr--fade-{{block.id}} {% endif %}">{{block.paragraph}}</div>
             {% else %}
                 <div class="row">
                     {% assign words = block.paragraph | split: " " %}

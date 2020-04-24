@@ -1,93 +1,107 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}}
-    {% if block.topDivider == 'True' %} block--divider-top {% endif %}
-    {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %} {% include 'background-settings' %}">
-    <div class="block__inner container">
-        {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+<div class="{% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
+    <div class="block block--align-center {{block.topPadding}} {{block.bottomPadding}} {% include 'background-settings' %}">
+        <div class="block__inner container">
+            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
-        {% if block.subtitle != '' %}
-            <div class="block__space"></div>
-            <div class="block__descr {{block.textAreaWidth}}">{{block.subtitle}}</div>
-            <div class="block__space block__space--size-lg"></div>
-        {% else %}
-            <div class="block__space block__space--size-lg"></div>
-        {% endif %}
+            {% if block.subtitle != '' %}
+                <div class="block__space"></div>
+                <div class="block__descr {{block.textAreaWidth}}">{{block.subtitle}}</div>
+                <div class="block__space block__space--size-lg"></div>
+            {% else %}
+                <div class="block__space block__space--size-lg"></div>
+            {% endif %}
 
-        {% if block.formFields.size > 0 %}
-            <form class="form" {% if block.formId != '' %}id="{{block.formId}}" data-segment-name="{{block.formId}}"{% endif %}
-            {% if block.formName != '' %}name="{{block.formName}}"{% endif %}
-            {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
-                {% for item in block.formFields %}
-                    {% if item.fieldType == 'text' %}
-                        <div class="form-group">
-                            <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
-                                    placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %} />
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'email' %}
-                        <div class="form-group">
-                            <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
-                                    placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
-                                    data-val-email="{{item.placeholder}} is invalid" />
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'phone' %}
-                        <div class="form-group">
-                            <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
-                                    placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
-                                    data-val-regex="{{item.placeholder}} is invalid" data-val-regex-pattern="[0-9]{11,}" />
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'checkbox' %}
-                        <div class="form-group">
-                            <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} {% if item.fieldName != '' %} name="{{item.fieldName}}" {% endif %}
-                            {% if item.required == 'True' %}
-                                data-val="true" data-val-mandatory="{% if item.validationMessage == '' %} Please choose this checkbox {% else %} {{item.validationMessage}} {% endif %}"
-                            {% endif %} />
-                            <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'select' %}
-                        <div class="form-group">
-                            <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
-                            {% include 'select-form-input' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'radio' %}
-                        <div class="form-group">
-                            <div class="radio-list">
-                                {% for radio in item.radioListItems %}
-                                    <div class="radio-list__item">
-                                        <input class="radio-list__input" type="radio" id="{{radio.id}}" name="{{item.fieldName}}" value="{{radio.value}}"
-                                        {% if radio.isChecked == 'True' %} checked {% endif %}
-                                        {% if radio.isDisabled == 'True' %} disabled {% endif %}
-                                        {% include 'input-validation-attributes' inputItem: item %} />
-                                        <label class="radio-list__label" for="{{radio.id}}">
-                                            <span class="radio-list__t">{{radio.title}}</span>
-                                            <span class="radio-list__descr">{{radio.text}}</span>
-                                        </label>
-                                    </div>
-                                {% endfor %}
+            {% if block.formFields.size > 0 %}
+                <form class="form" {% if block.formId != '' %}id="{{block.formId}}" data-segment-name="{{block.formId}}"{% endif %}
+                {% if block.formName != '' %}name="{{block.formName}}"{% endif %}
+                {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
+                    {% for item in block.formFields %}
+                        {% if item.fieldType == 'text' %}
+                            <div class="form-group">
+                                {% if block.showFormLabels == 'True' %}
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% endif %}
+                                <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                        placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %} />
+                                {% include 'form-validation-message' inputItem: item %}
                             </div>
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'button' %}
-                        <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
-                    {% elsif item.fieldType == 'textarea' %}
-                        <div class="form-group">
-                            <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}"
-                            {% include 'input-validation-attributes' inputItem: item %}></textarea>
-                            {% include 'form-validation-message' inputItem: item %}
-                        </div>
-                    {% elsif item.fieldType == 'hidden' %}
-                        <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
-                    {% endif %}
-                {% endfor %}
-                {% include 'user-location-form-inputs' %}
-            </form>
-        {% endif %}
-        {% if block.note != '' %}
-            <div class="block__note2">{{block.note}}</div>
-        {% endif %}
+                        {% elsif item.fieldType == 'email' %}
+                            <div class="form-group">
+                                {% if block.showFormLabels == 'True' %}
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% endif %}
+                                <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                        placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
+                                        data-val-email="{{item.placeholder}} is invalid" />
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'phone' %}
+                            <div class="form-group">
+                                {% if block.showFormLabels == 'True' %}
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% endif %}
+                                <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
+                                        placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
+                                        data-val-regex="{{item.placeholder}} is invalid" data-val-regex-pattern="[0-9]{11,}" />
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'checkbox' %}
+                            <div class="form-group">
+                                <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} {% if item.fieldName != '' %} name="{{item.fieldName}}" {% endif %}
+                                {% if item.required == 'True' %}
+                                    data-val="true" data-val-mandatory="{% if item.validationMessage == '' %} Please choose this checkbox {% else %} {{item.validationMessage}} {% endif %}"
+                                {% endif %} />
+                                <label class="form-checkbox__label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'select' %}
+                            <div class="form-group">
+                                {% if block.showFormLabels == 'True' %}
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% endif %}
+                                {% include 'select-form-input' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'radio' %}
+                            <div class="form-group">
+                                <div class="radio-list">
+                                    {% for radio in item.radioListItems %}
+                                        <div class="radio-list__item">
+                                            <input class="radio-list__input" type="radio" id="{{radio.id}}" name="{{item.fieldName}}" value="{{radio.value}}"
+                                            {% if radio.isChecked == 'True' %} checked {% endif %}
+                                            {% if radio.isDisabled == 'True' %} disabled {% endif %}
+                                            {% include 'input-validation-attributes' inputItem: item %} />
+                                            <label class="radio-list__label" for="{{radio.id}}">
+                                                <span class="radio-list__t">{{radio.title}}</span>
+                                                <span class="radio-list__descr">{{radio.text}}</span>
+                                            </label>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'button' %}
+                            <input type="submit" class="{{block.formSubmitButtonStyle}}" value="{{item.labelText}}" />
+                        {% elsif item.fieldType == 'textarea' %}
+                            <div class="form-group">
+                                {% if block.showFormLabels == 'True' %}
+                                    <label class="form-label" {% if item.fieldId != '' %} for="{{item.fieldId}}" {% endif %}>{{item.labelText}}</label>
+                                {% endif %}
+                                <textarea class="form-control" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" placeholder="{{item.placeholder}}"
+                                {% include 'input-validation-attributes' inputItem: item %}></textarea>
+                                {% include 'form-validation-message' inputItem: item %}
+                            </div>
+                        {% elsif item.fieldType == 'hidden' %}
+                            <input type="text" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}" value="{{item.fieldValue}}" style="display:none" />
+                        {% endif %}
+                    {% endfor %}
+                    {% include 'user-location-form-inputs' %}
+                </form>
+            {% endif %}
+            {% if block.note != '' %}
+                <div class="block__note2">{{block.note}}</div>
+            {% endif %}
+        </div>
     </div>
 </div>

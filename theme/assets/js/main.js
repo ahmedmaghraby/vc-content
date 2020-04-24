@@ -192,11 +192,32 @@ $(function (){
     caseStudyFormHandler('#asset-form-cs03', 'asset-download-thank-you');
     caseStudyFormHandler('#asset-form-cs04', 'asset-download-thank-you');
 
-    $('a[href*=#]').on('click', function (e) {
+    var blockForms = $('.block .form');
+    if (blockForms.length) {
+        $(document).on('change', '.form-checkbox__input', function () {
+            $(this).val(this.checked);
+        });
+
+        blockForms.submit(function (e) {
+            if ($(e.target).valid()) {
+                var redirectUrl = e.target.dataset.targetUrl;
+                if (redirectUrl && redirectUrl != '') {
+                    document.location.href = redirectUrl;
+                }
+                return true;
+            } else {
+                $(e.target).find('.form-error').show();
+            }
+        });
+    }
+
+    $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         var linkHref = $(this).attr('href');
         var anchorId = linkHref.substr(linkHref.indexOf('#'));
-        $('html, body').animate({ scrollTop: $(anchorId).offset().top }, 1250);
+        var header = $('.header').height();
+        var finalOffset = parseInt($(anchorId).offset().top - header) + 'px';
+        $('html, body').animate({ scrollTop: finalOffset }, 1250);
     });
 
     var autopilotWatcher = setInterval(function () {
@@ -205,21 +226,6 @@ $(function (){
             $('button,input[type="submit"][disabled]').removeAttr('disabled');
         }
     }, 1000);
-
-    $.ajax({
-        type: 'GET',
-        url: 'https://api.ipdata.co/?api-key=902056cd0c4ed3f43c4374fdc0ab53967c1127b6ec12ed0efc4f771c',
-        accepts: {
-            'Accept': 'application/json'
-        },
-        async: false,
-        success: function (data) {
-            var inputs = $('form :input');
-            inputs.filter('[name="user_country"]').prop('value', data.country_name);
-            inputs.filter('[name="user_region"]').prop('value', data.continent_name);
-            inputs.filter('[name="user_city"]').prop('value', data.city);
-        }
-    });
   
 	// ?utm_source=asset_downloads&
 	//  utm_medium=email&
