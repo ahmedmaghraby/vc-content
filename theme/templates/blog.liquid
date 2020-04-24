@@ -9,8 +9,8 @@
                 <a class="list__item" href="{{ category_url | absolute_url }}">{{ "blogs.categories." | append: category | t }}</a>
             {% endfor %}
         </div>
-      {% assign has_more = false %}
-        {% assign sticked_article = blog.articles | where: 'Url', '==', settings.blog_sticked_article_url | first %}
+        {% assign has_more = false %}
+        {% assign sticked_article = blog.articles | where: 'IsSticked', '==', true | sort_list: 'publishedAt:desc' | first %}
         {% assign page_size = 8 %}
         <div class="blog-main">
             {% include 'blog-sticked-item' article: sticked_article %}
