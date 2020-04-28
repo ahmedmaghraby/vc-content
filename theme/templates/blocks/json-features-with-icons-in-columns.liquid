@@ -16,7 +16,7 @@
         
         <div class="block__space block__space--size-lg"></div>
         {% if block.columns.size > 0 %}
-            <div class="list list-items list-items--cols-{{block.columnsCount}} {% if block.iconsType == 'letters' %} list-items--type-letters {% endif %}">
+            <div class="list list-items list-items--cols-{{block.columnsCount}} {% if block.iconsType == 'letters' %} list-items--type-letters {% endif %} w-100">
                 {% for column in block.columns %}
                     <div class="list__item">
                         {% if block.iconsType == 'numbers' or block.iconsType == 'letters' %}
