@@ -3,7 +3,7 @@
 <div class="{% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
     <div class="block {{block.topPadding}} {{block.bottomPadding}} {% include 'background-settings' %}>
         <div class="block__inner container">
-            <div class="row align-items-center">
+            <div class="row align-items-center w-100">
                 {% if block.horizontalAlignment == 'left' %}
                     <div class="col-lg-auto">
                         <div class="block__media">
@@ -14,7 +14,7 @@
                     </div>
                 {% endif %}
 
-                <div class="col-lg mr-auto">
+                <div class="col-lg">
                     <div class="block__text">
                         {% if block.title != '' %}
                             {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
