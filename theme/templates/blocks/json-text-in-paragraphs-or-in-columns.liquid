@@ -21,18 +21,27 @@
                     {% else %}
                         {% assign gradientColor = '#ffffff' %}
                     {% endif %}
+                    {% if block.backgroundColorHex != '' %}
+                        {% assign gradientColor = block.backgroundColorHex %}
+                    {% endif %}
+                    {% assign gradientColorFullOpacity = gradientColor | replace ")", ",0)" %}
+                    {% assign gradientColorNoOpacity = gradientColor | replace ")", ",1)" %}
                     <style>
                         .block__descr--fade-{{block.id}} {
                             position: relative;
                         }
-                        .block__descr--fade-{{block.id}}:after {
+                        .block__descr--fade-{{block.id}}::after {
                             content: ' ';
-                            height: 50px;
+                            height: 100%;
                             width: 100%;
                             position: absolute;
                             bottom: 0;
-                            background: linear-gradient(transparent, {% if block.backgroundColorHex != '' %} {{block.backgroundColorHex}} {% else %} {{gradientColor}} {% endif %});
-                            background-image: -webkit-linear-gradient (transparent, {% if block.backgroundColorHex != '' %} {{block.backgroundColorHex}} {% else %} {{gradientColor}} {% endif %});
+                            background: -moz-linear-gradient(top, {{gradientColorFullOpacity}} 0%, {{gradientColorNoOpacity}} 100%);
+                            background: -webkit-gradient(left top, left bottom, color-stop(0%, {{gradientColorFullOpacity}}), color-stop(100%, {{gradientColorNoOpacity}}));
+                            background: -webkit-linear-gradient(top, {{gradientColorFullOpacity}} 0%, {{gradientColorNoOpacity}} 100%);
+                            background: -o-linear-gradient(top, {{gradientColorFullOpacity}} 0%, {{gradientColorNoOpacity}} 100%);
+                            background: -ms-linear-gradient(top, {{gradientColorFullOpacity}} 0%, {{gradientColorNoOpacity}} 100%);
+                            background: linear-gradient(to bottom, {{gradientColorFullOpacity}} 0%, {{gradientColorNoOpacity}} 100%);
                         }
                     </style>
                 {% endif %}
