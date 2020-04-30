@@ -15,11 +15,11 @@
             {% if block.paragraph != '' %}
                 {% if block.overlayGradient == 'True' %}
                     {% if block.backgroundColor == 'block--bg-light' %}
-                        {% assign gradientColor = '#f8f8f8' %}
+                        {% assign gradientColor = 'rgba(248,248,248)' %}
                     {% elsif block.backgroundColor == 'block--bg-orange' %}
-                        {% assign gradientColor = '#ff9a05' %}
+                        {% assign gradientColor = 'rgba(255,154,5)' %}
                     {% else %}
-                        {% assign gradientColor = '#ffffff' %}
+                        {% assign gradientColor = 'rgba(255,255,255)' %}
                     {% endif %}
                     {% if block.backgroundColorHex != '' %}
                         {% assign gradientColor = block.backgroundColorHex %}
