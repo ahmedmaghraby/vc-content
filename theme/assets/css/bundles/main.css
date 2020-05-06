@@ -8089,6 +8089,12 @@ code {
     min-width: 20rem;
 }
 
+@media (min-width: 992px) {
+    .block .form--in-list .form-group {
+        max-width: 20rem;
+    }
+}
+
 .block .form__divider {
     margin: 0.25rem 0;
     width: 100%;

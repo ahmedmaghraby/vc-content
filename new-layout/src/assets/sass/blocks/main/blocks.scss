@@ -464,6 +464,17 @@
 		max-width: 36rem;
 		min-width: 20rem;
 
+        &--in-list
+        {
+            .form-group
+            {
+                @include media-breakpoint-up(lg)
+                {
+                    max-width: 20rem;
+                }
+            }
+        }
+
 		&__divider
 		{
 			margin: 0.25rem 0;
