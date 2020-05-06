@@ -5377,7 +5377,11 @@
                     {
                         "value": "images",
                         "label": "Images"
-                    }
+                    },
+					{
+						"value": "customIcon",
+						"label": "Custom icon"
+					}
                 ],
                 "tab": "Settings",
                 "group": "Items"
