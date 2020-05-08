@@ -318,6 +318,7 @@
 	&--align-right .block__inner
 	{
 		align-items: flex-end;
+        text-align: right;
 
 		.block__actions
 		{
@@ -463,6 +464,17 @@
 		margin-bottom: 1rem;
 		max-width: 36rem;
 		min-width: 20rem;
+
+        &--in-list
+        {
+            .form-group
+            {
+                @include media-breakpoint-up(lg)
+                {
+                    max-width: 20rem;
+                }
+            }
+        }
 
 		&__divider
 		{

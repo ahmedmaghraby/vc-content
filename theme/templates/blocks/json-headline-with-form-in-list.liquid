@@ -14,7 +14,7 @@
             {% endif %}
 
             {% if block.formFields.size > 0 %}
-                <form class="form" {% if block.formId != '' %}id="{{block.formId}}" data-segment-name="{{block.formId}}"{% endif %}
+                <form class="form form--in-list" {% if block.formId != '' %}id="{{block.formId}}" data-segment-name="{{block.formId}}"{% endif %}
                 {% if block.formName != '' %}name="{{block.formName}}"{% endif %}
                 {% if block.formSubmitRedirectUrl != '' %} data-target-url="{{block.formSubmitRedirectUrl}}" {% endif %}>
                     {% for item in block.formFields %}

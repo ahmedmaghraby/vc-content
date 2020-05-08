@@ -24,7 +24,12 @@
                         {% endif %}
                         {% if block.iconsType == 'images' %}
                             {% if column.image.url != '' %}
-                                <img src="{{column.image.url}}" alt="" class="list__ico" />
+                                <div class="list__image" title="{{column.image.altText}}" style="background-image: url({{column.image.url}})"></div>
+                            {% endif %}
+                        {% endif %}
+                        {% if block.iconsType == 'customIcon' %}
+                            {% if column.image.url != '' %}
+                                <img src="{{column.image.url}}" title="{{column.image.altText}}" class="list__ico" />
                             {% endif %}
                         {% endif %}
                         {% if column.title != '' %}

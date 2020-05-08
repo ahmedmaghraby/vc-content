@@ -159,6 +159,28 @@
                     "tab": "Settings",
                     "group": "Main block settings"
                 },
+				{
+                    "id": "verticalAlignment",
+                    "label": "Vertical alignment",
+                    "type": "select",
+                    "default": "align-self-start",
+                    "options": [
+                        {
+                            "value": "align-self-start",
+                            "label": "Top"
+                        },
+						{
+							"value": "align-self-middle",
+							"label": "Middle"
+						},
+                        {
+                            "value": "align-self-end",
+                            "label": "Bottom"
+                        }
+                    ],
+                    "tab": "Settings",
+                    "group": "Main block settings"
+                },
                 {
                     "id": "backgroundColor",
                     "label": "Colour",
@@ -5377,7 +5399,11 @@
                     {
                         "value": "images",
                         "label": "Images"
-                    }
+                    },
+					{
+						"value": "customIcon",
+						"label": "Custom icon"
+					}
                 ],
                 "tab": "Settings",
                 "group": "Items"

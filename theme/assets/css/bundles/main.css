@@ -4732,7 +4732,13 @@ code {
 }
 
 .block .list-items .list__item {
+    -ms-flex-align: start;
+    align-items: flex-start;
     counter-increment: list;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex: 0 0 33.3333%;
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
@@ -4752,6 +4758,21 @@ code {
     position: relative;
     width: 100%;
     z-index: 5;
+}
+
+.block .list-items .list__image {
+    background-position: 50%;
+    background-size: cover;
+    height: 10rem;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .block .list-items .list__image {
+        height: 15rem;
+    }
 }
 
 .block .list-items .list__num,
@@ -4970,6 +4991,14 @@ code {
     line-height: 1rem;
     font-weight: bold;
     margin-top: 1.25rem;
+}
+
+.block .list-items .list__descr {
+    margin-bottom: 1rem;
+}
+
+.block .list-items .btn {
+    margin-top: auto;
 }
 
 .block .list-items--cols-1.list-items .list__item {
@@ -7925,6 +7954,7 @@ code {
 .block--align-right .block__inner {
     -ms-flex-align: end;
     align-items: flex-end;
+    text-align: right;
 }
 
 .block--align-right .block__inner .block__actions {
@@ -8058,6 +8088,12 @@ code {
     margin-bottom: 1rem;
     max-width: 36rem;
     min-width: 20rem;
+}
+
+@media (min-width: 992px) {
+    .block .form--in-list .form-group {
+        max-width: 20rem;
+    }
 }
 
 .block .form__divider {
@@ -11016,6 +11052,7 @@ textarea {
     margin: 0;
     padding: 0.9375rem;
     position: relative;
+    height: 100%;
 }
 
 .radio-list__t {
@@ -11028,6 +11065,7 @@ textarea {
     display: block;
     font-size: 0.8125rem;
     margin-top: 0.5rem;
+    overflow-wrap: break-word;
 }
 
 @media (max-width: 575.98px) {

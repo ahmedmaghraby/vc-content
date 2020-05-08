@@ -158,7 +158,10 @@
 
     .list__item
     {
+        align-items: flex-start;
         counter-increment: list;
+        display: flex;
+        flex-direction: column;
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
         padding: 0 1.25rem 2.5rem;
@@ -178,6 +181,20 @@
         position: relative;
         width: 100%;
         z-index: 5;
+    }
+
+    .list__image
+    {
+        background-position: 50%;
+        background-size: cover;
+        height: 10rem;
+        margin-bottom: 1.25rem;
+        overflow: hidden;
+        width: 100%;
+
+        @include media-breakpoint-down(sm) {
+            height: 15rem;
+        }
     }
 
     .list__num,
@@ -414,6 +431,16 @@
             font-weight: bold;
             margin-top: 1.25rem;
         }
+    }
+
+    .list__descr
+    {
+        margin-bottom: 1rem;
+    }
+
+    .btn
+    {
+        margin-top: auto;
     }
 
     &.list-items--cols-1
