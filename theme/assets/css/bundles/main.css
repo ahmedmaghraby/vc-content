@@ -7954,6 +7954,7 @@ code {
 .block--align-right .block__inner {
     -ms-flex-align: end;
     align-items: flex-end;
+    text-align: right;
 }
 
 .block--align-right .block__inner .block__actions {
@@ -11051,6 +11052,7 @@ textarea {
     margin: 0;
     padding: 0.9375rem;
     position: relative;
+    height: 100%;
 }
 
 .radio-list__t {
@@ -11063,6 +11065,7 @@ textarea {
     display: block;
     font-size: 0.8125rem;
     margin-top: 0.5rem;
+    overflow-wrap: break-word;
 }
 
 @media (max-width: 575.98px) {
