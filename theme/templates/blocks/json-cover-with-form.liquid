@@ -4,7 +4,7 @@
     <div class="block__inner container">
         <div class="row align-items-center w-100">
             {% if block.horizontalAlignment == 'right' %}
-                <div class="col-lg">
+                <div class="col-lg {{block.verticalAlignment}}">
                     {% if block.note != '' %}
                         <div class="block__note">{{block.note}}</div>
                     {% endif %}
@@ -116,7 +116,7 @@
             </div>
 
             {% if block.horizontalAlignment == 'left' %}
-                <div class="col-lg">
+                <div class="col-lg {{block.verticalAlignment}}">
                     {% if block.note != '' %}
                         <div class="block__note">{{block.note}}</div>
                     {% endif %}
