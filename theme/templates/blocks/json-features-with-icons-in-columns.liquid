@@ -22,12 +22,12 @@
                         {% if block.iconsType == 'numbers' or block.iconsType == 'letters' %}
                             <div class="list__num list__num-{{block.iconsFilling}} {% if block.iconsAreFilled == 'True' %} list__num--filled-{{block.iconsFilling}} {% endif %}"></div>
                         {% endif %}
-                        {% if block.iconsType == 'images' %}
+                        {% if block.iconsType == 'customIcon' %}
                             {% if column.image.url != '' %}
                                 <div class="list__image" title="{{column.image.altText}}" style="background-image: url({{column.image.url}})"></div>
                             {% endif %}
                         {% endif %}
-                        {% if block.iconsType == 'customIcon' %}
+                        {% if block.iconsType == 'images' %}
                             {% if column.image.url != '' %}
                                 <img src="{{column.image.url}}" title="{{column.image.altText}}" class="list__ico" />
                             {% endif %}
