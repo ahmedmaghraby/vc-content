@@ -4731,6 +4731,14 @@ code {
     margin: 0 -1.25rem;
 }
 
+.block .list-items .list__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
 .block .list-items .list__item {
     -ms-flex-align: start;
     align-items: flex-start;
@@ -7912,6 +7920,7 @@ code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-top: auto;
 }
 
 @media (max-width: 575.98px) {
