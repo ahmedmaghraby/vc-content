@@ -156,6 +156,13 @@
     flex-wrap: wrap;
     margin: 0 -1.25rem;
 
+    .list__inner
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
     .list__item
     {
         align-items: flex-start;
