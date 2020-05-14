@@ -4,18 +4,20 @@
     {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
-        <div class="block__text {{block.textAreaWidth}}">
-            {% if block.title != '' %}
-                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
-            {% endif %}
+        <div class="row">
+            <div class="block__text {{block.textAreaWidth}}">
+                {% if block.title != '' %}
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                {% endif %}
 
-            {% if block.subtitle != '' %}
-                <div class="block__space"></div>
-                <div class="block__descr">{{block.subtitle}}</div>
-                <div class="block__space block__space--size-lg"></div>
-            {% else %}
-                <div class="block__space block__space--size-lg"></div>
-            {% endif %}
+                {% if block.subtitle != '' %}
+                    <div class="block__space"></div>
+                    <div class="block__descr">{{block.subtitle}}</div>
+                    <div class="block__space block__space--size-lg"></div>
+                {% else %}
+                    <div class="block__space block__space--size-lg"></div>
+                {% endif %}
+            </div>
         </div>
         <div class="review">
             <div class="review__img">

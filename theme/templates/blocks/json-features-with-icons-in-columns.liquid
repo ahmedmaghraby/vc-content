@@ -5,12 +5,14 @@
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
         {% if block.title != '' %}
-            <div class="block__text {{block.textAreaWidth}}">
-                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
-                {% if block.subtitle != '' and block.subtitlePosition == 'upper' %}
-                    <div class="block__space"></div>
-                    <div class="block__descr">{{block.subtitle}}</div>
-                {% endif %}
+            <div class="row">
+                <div class="block__text {{block.textAreaWidth}}">
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                    {% if block.subtitle != '' and block.subtitlePosition == 'upper' %}
+                        <div class="block__space"></div>
+                        <div class="block__descr">{{block.subtitle}}</div>
+                    {% endif %}
+                </div>
             </div>
         {% endif %}
         

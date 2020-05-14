@@ -4,15 +4,17 @@
     {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
-        <div class="block__text {{block.textAreaWidth}}">
-            {% if block.title != '' %}
-                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
-            {% endif %}
-            {% if block.subtitle != '' %}
-                <div class="block__space"></div>
-                <div class="block__descr">{{block.subtitle}}</div>
-                <div class="block__space block__space--size-lg"></div>
-            {% endif %}
+        <div class="row justify-content-center">
+            <div class="block__text {{block.textAreaWidth}}">
+                {% if block.title != '' %}
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                {% endif %}
+                {% if block.subtitle != '' %}
+                    <div class="block__space"></div>
+                    <div class="block__descr">{{block.subtitle}}</div>
+                    <div class="block__space block__space--size-lg"></div>
+                {% endif %}
+            </div>
         </div>
 
         {% if block.logotypes.size > 0 %}

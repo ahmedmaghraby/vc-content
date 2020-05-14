@@ -180,7 +180,6 @@
         font-size: 1.25rem;
         font-weight: bold;
         line-height: 1.625;
-        margin-top: 1.25rem;
     }
 
     &__t
@@ -257,7 +256,7 @@
 
         &__note
         {
-        	font-size: 1.25rem;
+        	font-size: 1rem;
         }
     }
 
@@ -279,6 +278,8 @@
 
 		.btn
 		{
+            font-weight: bold;
+
 			@include media-breakpoint-down(xs) {
 				justify-content: center;
 				margin-bottom: 1.25rem;
@@ -286,7 +287,10 @@
 			}
 
 			@include media-breakpoint-up(sm) {
-				margin-right: 1.25rem;
+                & ~ .btn
+                {
+				    margin-left: 1.25rem;
+                }
 			}
 		}
 	}
@@ -309,10 +313,16 @@
 			justify-content: center;
 		}
 
-		.list-items--reviews.list-items .list__img
+		.list-items--reviews.list-items
 		{
-			margin-left: auto;
-			margin-right: auto;
+            & .list__img,
+            & .list__t,
+            & .list__pos,
+            & .list__company
+            {
+			    margin-left: auto;
+			    margin-right: auto;
+            }
 		}
 	}
 
@@ -1097,3 +1107,100 @@
 	}
 }
 
+// Block author
+.block--author {
+	.block__photo {
+		background-position: 50%;
+		background-size: cover;
+		max-width: 31.25rem;
+		padding-top: 100%;
+		position: relative;
+		width: 100%;
+
+		&--pattern-1 {
+			margin-bottom: 4.5rem;
+		}
+
+		&--pattern-1::after,
+		&--pattern-2::after {
+			content: ' ';
+			position: absolute;
+		}
+
+		&--pattern-1::after {
+			background: url('../../images/redesign/pattern-1.svg') 0 0 no-repeat;
+			bottom: -4.5rem;
+			height: 11rem;
+			left: -4.5rem;
+			width: 11rem;
+		}
+
+		&--pattern-2::after {
+			background: url('../../images/redesign/pattern-2.svg') 0 0 no-repeat;
+			height: 17.125rem;
+			left: -7.375rem;
+			top: 0;
+			width: 14.75rem;
+		}
+	}
+
+	.author-info {
+		font-size: 0.8125rem;
+		margin-top: 3.75rem;
+
+		.block__descr {
+			color: #aaa;
+			font-size: 0.8125rem;
+			font-weight: normal;
+			line-height: 28px;
+		}
+
+		.block__name {
+			color: #000;
+			font-weight: bold;
+			margin-top: 1.25rem;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.block__photo {
+			&--pattern-1,
+			&--pattern-2 {
+				&::after {
+					background-size: cover;
+				}
+			}
+
+			&--pattern-2 {
+				&::after {
+					height: 7.5rem;
+					left: -3.25rem;
+					width: 6.5625rem;
+				}
+			}
+		}
+	}
+
+	@include media-breakpoint-down(xs) {
+		.block__photo {
+			&--pattern-1 {
+				margin-bottom: 2.75rem;
+
+				&::after {
+					bottom: -2.75rem;
+					height: 6.875rem;
+					left: -2.75rem;
+					width: 6.875rem;
+				}
+			}
+
+			&--pattern-2 {
+				&::after {
+					height: 3.125rem;
+					left: -1.375rem;
+					width: 2.625rem;
+				}
+			}
+		}
+	}
+}
