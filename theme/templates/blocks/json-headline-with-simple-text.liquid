@@ -3,27 +3,29 @@
 <div class="{% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}">
     <div class="block {{block.containerAlignment}} {{block.topPadding}} {{block.bottomPadding}} {% include 'background-settings' %}>
         <div class="block__inner container">
-            <div class="block__text {{block.textAreaWidth}}">
-                {% if block.note != '' %}
-                    <div class="block__note">{{block.note}}</div>
-                    <div class="block__space"></div>
-                {% endif %}
+            <div class="row {% if block.containerAlignment == 'block--align-center' %} justify-content-center {% endif %} {% if block.containerAlignment == 'block--align-right' %} justify-content-end {% endif %}">
+                <div class="block__text {{block.textAreaWidth}}">
+                    {% if block.note != '' %}
+                        <div class="block__note">{{block.note}}</div>
+                        <div class="block__space"></div>
+                    {% endif %}
 
-                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
-                {% if block.subtitle != '' %}
-                <div class="block__space"></div>
-                    <div class="block__descr">{{block.subtitle}}</div>
-                {% endif %}
-                {% if block.firstButton != '' and block.firstButton.urlText != '' %}
+                    {% if block.subtitle != '' %}
                     <div class="block__space"></div>
-                    <div class="block__actions">
-                        <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
-                        {% if block.secondButton != '' and block.secondButton.urlText != '' %}
-                            <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
-                        {% endif %}
-                    </div>
-                {% endif %}
+                        <div class="block__descr">{{block.subtitle}}</div>
+                    {% endif %}
+                    {% if block.firstButton != '' and block.firstButton.urlText != '' %}
+                        <div class="block__space"></div>
+                        <div class="block__actions">
+                            <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
+                            {% if block.secondButton != '' and block.secondButton.urlText != '' %}
+                                <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>

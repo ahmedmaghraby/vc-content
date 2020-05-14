@@ -180,7 +180,6 @@
         font-size: 1.25rem;
         font-weight: bold;
         line-height: 1.625;
-        margin-top: 1.25rem;
     }
 
     &__t
@@ -257,7 +256,7 @@
 
         &__note
         {
-        	font-size: 1.25rem;
+        	font-size: 1rem;
         }
     }
 
@@ -279,6 +278,8 @@
 
 		.btn
 		{
+            font-weight: bold;
+
 			@include media-breakpoint-down(xs) {
 				justify-content: center;
 				margin-bottom: 1.25rem;
@@ -286,7 +287,10 @@
 			}
 
 			@include media-breakpoint-up(sm) {
-				margin-right: 1.25rem;
+                & ~ .btn
+                {
+				    margin-left: 1.25rem;
+                }
 			}
 		}
 	}
@@ -309,10 +313,16 @@
 			justify-content: center;
 		}
 
-		.list-items--reviews.list-items .list__img
+		.list-items--reviews.list-items
 		{
-			margin-left: auto;
-			margin-right: auto;
+            & .list__img,
+            & .list__t,
+            & .list__pos,
+            & .list__company
+            {
+			    margin-left: auto;
+			    margin-right: auto;
+            }
 		}
 	}
 

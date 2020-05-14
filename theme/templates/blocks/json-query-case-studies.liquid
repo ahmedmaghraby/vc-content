@@ -4,16 +4,18 @@
     {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
-        <div class="block__text {{block.textAreaWidth}}">
-            {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+        <div class="row">
+            <div class="block__text {{block.textAreaWidth}}">
+                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
 
-            {% if block.subtitle != '' %}
-                <div class="block__space"></div>
-                <div class="block__descr">{{block.subtitle}}</div>
+                {% if block.subtitle != '' %}
+                    <div class="block__space"></div>
+                    <div class="block__descr">{{block.subtitle}}</div>
+                    <div class="block__space block__space--size-lg"></div>
+                {% else %}
                 <div class="block__space block__space--size-lg"></div>
-            {% else %}
-            <div class="block__space block__space--size-lg"></div>
-            {% endif %}
+                {% endif %}
+            </div>
         </div>
 
         {% if block.items.size > 0 %}

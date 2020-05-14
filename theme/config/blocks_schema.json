@@ -236,22 +236,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -1365,22 +1365,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -2931,22 +2931,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -3433,22 +3433,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -3852,22 +3852,22 @@
 				"id": "textAreaWidth",
 				"label": "Text area width",
 				"type": "select",
-				"default": "col-lg px-0",
+				"default": "col-lg",
 				"options": [
 					{
-						"value": "col-lg px-0",
+						"value": "col-lg",
 						"label": "Full width"
 					},
 					{
-						"value": "col-lg-10 px-0",
+						"value": "col-lg-10",
 						"label": "10 cols"
 					},
 					{
-						"value": "col-lg-8 px-0",
+						"value": "col-lg-8",
 						"label": "8 cols"
 					},
 					{
-						"value": "col-lg-6 px-0",
+						"value": "col-lg-6",
 						"label": "6 cols"
 					}
 				],
@@ -4258,22 +4258,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -4536,22 +4536,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -4780,22 +4780,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -5017,22 +5017,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -5252,22 +5252,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -5638,22 +5638,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -5926,22 +5926,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -6153,22 +6153,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -6423,22 +6423,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -6829,22 +6829,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],
@@ -7133,22 +7133,22 @@
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
-                "default": "col-lg px-0",
+                "default": "col-lg",
                 "options": [
                     {
-                        "value": "col-lg px-0",
+                        "value": "col-lg",
                         "label": "Full width"
                     },
                     {
-                        "value": "col-lg-10 px-0",
+                        "value": "col-lg-10",
                         "label": "10 cols"
                     },
                     {
-                        "value": "col-lg-8 px-0",
+                        "value": "col-lg-8",
                         "label": "8 cols"
                     },
                     {
-                        "value": "col-lg-6 px-0",
+                        "value": "col-lg-6",
                         "label": "6 cols"
                     }
                 ],

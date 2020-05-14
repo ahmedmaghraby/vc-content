@@ -7841,7 +7841,6 @@ code {
     font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.625;
-    margin-top: 1.25rem;
 }
 
 .block__t {
@@ -7903,7 +7902,7 @@ code {
     }
 
     .block__note {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -7923,6 +7922,10 @@ code {
     margin-top: auto;
 }
 
+.block__actions .btn {
+    font-weight: bold;
+}
+
 @media (max-width: 575.98px) {
     .block__actions .btn {
         -ms-flex-pack: center;
@@ -7933,8 +7936,8 @@ code {
 }
 
 @media (min-width: 576px) {
-    .block__actions .btn {
-        margin-right: 1.25rem;
+    .block__actions .btn ~ .btn {
+        margin-left: 1.25rem;
     }
 }
 
@@ -7955,7 +7958,10 @@ code {
     justify-content: center;
 }
 
-.block--align-center .block__inner .list-items--reviews.list-items .list__img {
+.block--align-center .block__inner .list-items--reviews.list-items .list__img,
+    .block--align-center .block__inner .list-items--reviews.list-items .list__t,
+    .block--align-center .block__inner .list-items--reviews.list-items .list__pos,
+    .block--align-center .block__inner .list-items--reviews.list-items .list__company {
     margin-left: auto;
     margin-right: auto;
 }

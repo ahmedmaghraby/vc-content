@@ -5,11 +5,14 @@
     {% if block.backgroundColorHex != '' %}style="background-color:{{block.backgroundColorHex}}"{% endif %}">
     <div class="block__inner container">
         {% if block.title != '' %}
-            <div class="block__text {{block.textAreaWidth}}">
-                {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+            <div class="row justify-content-center">
+                <div class="block__text {{block.textAreaWidth}}">
+                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                </div>
             </div>
-            <div class="block__space block__space--size-lg"></div>
         {% endif %}
+
+        <div class="block__space block__space--size-lg"></div>
 
         {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.imageOverlayColor, customColor: block.imageOverlayColorHex %}
 
