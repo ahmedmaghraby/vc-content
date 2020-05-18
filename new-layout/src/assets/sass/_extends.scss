@@ -619,6 +619,12 @@
         @include media-breakpoint-down(xs)
         {
             justify-content: center;
+
+            .list__pic
+            {
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
     }
 
