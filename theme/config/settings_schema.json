@@ -1205,107 +1205,142 @@
       }
     ]
   },
-  {
-    "name": "Social media",
-    "icon": "share-alt",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Accounts"
-      },
-      {
-        "type": "text",
-        "id": "social_facebook_link",
-        "label": "Facebook",
-        "info": "https:\/\/www.facebook.com\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_twitter_link",
-        "label": "Twitter",
-        "info": "https:\/\/twitter.com\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_pinterest_link",
-        "label": "Pinterest",
-        "info": "https:\/\/www.pinterest.com\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_instagram_link",
-        "label": "Instagram",
-        "info": "https:\/\/instagram.com\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_google_plus_link",
-        "label": "Google plus",
-        "info": "https:\/\/plus.google.com\/+shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_tumblr_link",
-        "label": "Tumblr",
-        "info": "http:\/\/shopify.tumblr.com"
-      },
-      {
-        "type": "text",
-        "id": "social_youtube_link",
-        "label": "Youtube",
-        "info": "https:\/\/www.youtube.com\/user\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_vimeo_link",
-        "label": "Vimeo",
-        "info": "https:\/\/vimeo.com\/shopify"
-      },
-      {
-        "type": "text",
-        "id": "social_fancy_link",
-        "label": "Fancy",
-        "info": "http:\/\/fancy.com\/Shopify"
-      },
-      {
-        "type": "header",
-        "content": "Sharing options"
-      },
-      {
-        "type": "checkbox",
-        "id": "social_sharing_products",
-        "label": "Enable sharing for products"
-      },
-      {
-        "type": "checkbox",
-        "id": "social_sharing_blog",
-        "label": "Enable sharing for blog articles"
-      },
-      {
-        "type": "checkbox",
-        "id": "share_facebook",
-        "label": "Share on Facebook"
-      },
-      {
-        "type": "checkbox",
-        "id": "share_twitter",
-        "label": "Tweet on Twitter"
-      },
-      {
-        "type": "checkbox",
-        "id": "share_pinterest",
-        "label": "Pin on Pinterest"
-      },
-      {
-        "type": "checkbox",
-        "id": "share_fancy",
-        "label": "Add to Fancy"
-      },
-      {
-        "type": "checkbox",
-        "id": "share_google",
-        "label": "+1 on Google Plus"
-      }
-    ]
-  }
+    {
+        "name": "Social media",
+        "icon": "share-alt",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Accounts"
+            },
+            {
+                "type": "text",
+                "id": "social_facebook_link",
+                "label": "Facebook",
+                "info": "https:\/\/www.facebook.com\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_twitter_link",
+                "label": "Twitter",
+                "info": "https:\/\/twitter.com\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_pinterest_link",
+                "label": "Pinterest",
+                "info": "https:\/\/www.pinterest.com\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_instagram_link",
+                "label": "Instagram",
+                "info": "https:\/\/instagram.com\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_google_plus_link",
+                "label": "Google plus",
+                "info": "https:\/\/plus.google.com\/+shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_tumblr_link",
+                "label": "Tumblr",
+                "info": "http:\/\/shopify.tumblr.com"
+            },
+            {
+                "type": "text",
+                "id": "social_youtube_link",
+                "label": "Youtube",
+                "info": "https:\/\/www.youtube.com\/user\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_vimeo_link",
+                "label": "Vimeo",
+                "info": "https:\/\/vimeo.com\/shopify"
+            },
+            {
+                "type": "text",
+                "id": "social_fancy_link",
+                "label": "Fancy",
+                "info": "http:\/\/fancy.com\/Shopify"
+            },
+            {
+                "type": "header",
+                "content": "Sharing options"
+            },
+            {
+                "type": "checkbox",
+                "id": "social_sharing_products",
+                "label": "Enable sharing for products"
+            },
+            {
+                "type": "checkbox",
+                "id": "social_sharing_blog",
+                "label": "Enable sharing for blog articles"
+            },
+            {
+                "type": "checkbox",
+                "id": "share_facebook",
+                "label": "Share on Facebook"
+            },
+            {
+                "type": "checkbox",
+                "id": "share_twitter",
+                "label": "Tweet on Twitter"
+            },
+            {
+                "type": "checkbox",
+                "id": "share_pinterest",
+                "label": "Pin on Pinterest"
+            },
+            {
+                "type": "checkbox",
+                "id": "share_fancy",
+                "label": "Add to Fancy"
+            },
+            {
+                "type": "checkbox",
+                "id": "share_google",
+                "label": "+1 on Google Plus"
+            }
+        ]
+    },
+    {
+        "name": "Micro markups",
+        "icon": "clipboard",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Micro markups"
+            },
+            {
+                "type": "string",
+                "id": "markup_corporation_name",
+                "label": "Corporation name",
+                "default": "Virto Commerce"
+            },
+            {
+                "type": "string",
+                "id": "markup_corporation_url",
+                "label": "Corporation URL",
+                "default": "https://virtocommerce.com/"
+            },
+            {
+                "type": "string",
+                "id": "markup_website_description",
+                "label": "Website Description"
+            },
+            {
+                "type": "image",
+                "id": "default_image.jpg",
+                "label": "Image",
+                "max-width": 1800,
+                "info": "1400px wide minimum"
+            }
+
+        ]
+    }
 ]
