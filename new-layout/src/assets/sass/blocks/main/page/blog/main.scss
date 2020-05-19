@@ -465,6 +465,9 @@
             font-size: 1.125rem;
             font-weight: 900;
             line-height: 1.33;
+            a {
+                color: inherit;
+            }
         }
 
         .list__descr {
