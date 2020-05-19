@@ -5159,6 +5159,11 @@ code {
         -ms-flex-pack: center;
         justify-content: center;
     }
+
+    .block .list-partners .list__img .list__pic {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .block .list-partners .list__pic {
