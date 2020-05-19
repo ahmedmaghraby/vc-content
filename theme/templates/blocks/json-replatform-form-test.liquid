@@ -1,4 +1,4 @@
-<div ng-controller="replatformController" class="section {% if block.style == 'dark' %} section--gray {% endif %}
+<div id="{{ block.__id }}" ng-controller="replatformController" class="section {% if block.style == 'dark' %} section--gray {% endif %}
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
@@ -14,21 +14,21 @@
             <div class="col-lg-auto section__info">
                 {% include 'blocks/block-title' block: block %}
                 <div class="row">
-					<form name="replatformForm" ng-submit="submit()" class="form col-sm-6">
-						<div class="section__descr section__descr--tiny" ng-init="setReplatformForm(replatformForm)">{{ block.content }}</div>
+                    <form name="replatformForm" ng-submit="submit()" class="form col-sm-6">
+                        <div class="section__descr section__descr--tiny" ng-init="setReplatformForm(replatformForm)">{{ block.content }}</div>
                         <div class="form-group">
-						    <input id="email" type="text" name="email" ng-model="email" class="form-control" placeholder="What’s your business mail" required ng-pattern="emailPattern" />
+                            <input id="email" type="text" name="email" ng-model="email" class="form-control" placeholder="What’s your business mail" required ng-pattern="emailPattern" />
                         </div>
                         <div class="form-group" id="username-wrapper" style="display: none;">
-						    <input id="username" type="text" name="username" ng-model="username" class="form-control" placeholder="Enter your preffered name" />
+                            <input id="username" type="text" name="username" ng-model="username" class="form-control" placeholder="Enter your preffered name" />
                         </div>
-						<div class="form-helper-holder">
-							<a data-target-show="username-wrapper" href="#">+ Add your name (optional)</a>
-						</div>
+                        <div class="form-helper-holder">
+                            <a data-target-show="username-wrapper" href="#">+ Add your name (optional)</a>
+                        </div>
                         {% include 'user-location-form-inputs' %}
                         <button class="btn btn--orange btn--block">Download</button>
-					</form>
-				</div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

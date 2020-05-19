@@ -1,4 +1,4 @@
-<div class="block block--padding-half {% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
+<div id="{{ block.__id }}" class="block block--padding-half {% if block.topDivider == 'True' %} block--divider-top {% endif %} {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
     {% if block.backgroundColorHex == '' %} {{block.backgroundColor}}" {% else %}" style="background-color:{{block.backgroundColorHex}}" {% endif %}>
     <div class="block__inner container">
         <div class="block__learn {% if block.titleAlignment == 'center' %} block__learn--center {% endif %} {{block.titleColor}}">

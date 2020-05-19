@@ -1,29 +1,29 @@
-<div class="section section--form section--animated {% if block.image.url != '' %} dark {% endif %}" {% if block.image.url != '' %} style="background-image: url({{ block.image.url }});" {% endif %}>
-	<div class="section__inner container">
-		<div class="section__header">
-			<div class="section__logo"></div>
-			<div class="section__links">
-				<a href="block.phoneLink" class="section__links-item" data-name="phone">{{ block.phone }}</a>
+<div id="{{ block.__id }}" class="section section--form section--animated {% if block.image.url != '' %} dark {% endif %}" {% if block.image.url != '' %} style="background-image: url({{ block.image.url }});" {% endif %}>
+    <div class="section__inner container">
+        <div class="section__header">
+            <div class="section__logo"></div>
+            <div class="section__links">
+                <a href="block.phoneLink" class="section__links-item" data-name="phone">{{ block.phone }}</a>
                 {% if block.chatLink != '' %}
-				<a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">{{ block.chat }}</a>
+                <a href="{{ block.chatLink }}" class="section__links-item" data-name="chat">{{ block.chat }}</a>
                 {% endif %}
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
                 {% if block.logo != '' %}
-				<div class="section__logo d-none d-sm-block">
-					<img src="{{ block.logo.url }}" alt="" />
-				</div>
+                <div class="section__logo d-none d-sm-block">
+                    <img src="{{ block.logo.url }}" alt="" />
+                </div>
                 {% endif %}
-				<div class="section__t">{{ block.title }}</div>
-				<div class="section__descr">
-					{{ block.content }}
-				</div>
-				<div class="arrow"></div>
-			</div>
-			<div class="col-lg-6">
-				<form class="form" data-animated-submit id="{{ block.formName }}" data-segment-name="{{ block.formName }}" >
+                <div class="section__t">{{ block.title }}</div>
+                <div class="section__descr">
+                    {{ block.content }}
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="col-lg-6">
+                <form class="form" data-animated-submit id="{{ block.formName }}" data-segment-name="{{ block.formName }}" >
                     {% for item in block.formFields %}
                         {% if item.fieldType == 'hidden' %}
                             <input id="{{ item.fieldId }}" type="text" style="display: none;" name="{{ item.fieldName }}" value="{{ item.data }}" />
@@ -34,8 +34,8 @@
                         {% if item.type != 'hidden' %}
                             <div class="form-group">
                                 {% if item.fieldType == 'text' %}
-						            <label {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
-						            <input {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" {% if item.required %} placeholder="Required input field" data-val="true" data-val-required="The required field" {% endif %} type="text" class="form-control" />
+                                    <label {% if item.fieldId != '' %} for="{{ item.fieldId }}" {% endif %}>{{ item.labelText }}</label>
+                                    <input {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} name="{{ item.fieldName }}" {% if item.required %} placeholder="Required input field" data-val="true" data-val-required="The required field" {% endif %} type="text" class="form-control" />
                                 {% elsif item.fieldType == 'checkbox' %}
                                     <div class="form-checkbox">
                                         <input type="checkbox" class="form-checkbox__input" {% if item.fieldId != '' %} id="{{ item.fieldId }}" {% endif %} />
@@ -49,23 +49,23 @@
                     {% endfor %}
                     {% include 'user-location-form-inputs' %}
                     <div class="form-group">
-						<button type="submit" class="btn btn--orange btn--block">{{ block.submitButtonText }}</button>
-					</div>
-				</form>
-				<!-- <div class="form">
-					<div class="thanks">
-						<div class="thanks__ico"></div>
-						<div class="thanks__t">Thank you! <br>We will be in <br>touch soon.</div>
-						<div class="thanks__descr">
-							In the meanwhile, we would like to know a little more about yourself in order to be able.
-						</div>
-					</div>
-					<div class="form-group">
-						<a href="#" class="btn btn--orange btn--block">Send again</a>
-					</div>
-				</div> -->
-			</div>
-		</div>
+                        <button type="submit" class="btn btn--orange btn--block">{{ block.submitButtonText }}</button>
+                    </div>
+                </form>
+                <!-- <div class="form">
+                    <div class="thanks">
+                        <div class="thanks__ico"></div>
+                        <div class="thanks__t">Thank you! <br>We will be in <br>touch soon.</div>
+                        <div class="thanks__descr">
+                            In the meanwhile, we would like to know a little more about yourself in order to be able.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <a href="#" class="btn btn--orange btn--block">Send again</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
         <div class="thank-you">
             <div class="list">
                 {% for item in block.thankYouItems %}
@@ -83,5 +83,5 @@
                 {% endfor %}
             </div>
         </div>
-	</div>
+    </div>
 </div>

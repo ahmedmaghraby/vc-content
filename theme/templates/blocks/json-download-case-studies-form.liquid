@@ -1,22 +1,22 @@
-<div ng-controller="caseStudyController" class="section {% if block.style == 'dark' %} section--gray {% endif %}
+<div id="{{ block.__id }}" ng-controller="caseStudyController" class="section {% if block.style == 'dark' %} section--gray {% endif %}
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="section__inner container">
         <div class="section__info">
-			{% include 'blocks/block-title' block: block %}
-			<form class="form-horizontal" ng-submit="submit('{{ block.downloadUrl }}')" name="caseStudyForm">
+            {% include 'blocks/block-title' block: block %}
+            <form class="form-horizontal" ng-submit="submit('{{ block.downloadUrl }}')" name="caseStudyForm">
                 <input type="text" style="display: none;" id="FormIdentifier" name="formIdentifier" value="{{ block.formIdentifier }}" />
                 <div ng-init="setCaseStudyForm(caseStudyForm)"></div>
-				<input type="text" id="CaseStudy[Email]" class="form-control" name="CaseStudy[Email]" placeholder="Your email" ng-model="email" required ng-pattern="emailPattern" />
-				<input type="text" id="CaseStudy[Name]" class="form-control" name="CaseStudy[Name]" placeholder="John Smith" ng-model="name" required />
+                <input type="text" id="CaseStudy[Email]" class="form-control" name="CaseStudy[Email]" placeholder="Your email" ng-model="email" required ng-pattern="emailPattern" />
+                <input type="text" id="CaseStudy[Name]" class="form-control" name="CaseStudy[Name]" placeholder="John Smith" ng-model="name" required />
                 {% include 'user-location-form-inputs' %}
                 <input type="submit" class="btn btn--orange" id="{{ block.buttonId }}" value="{{ block.buttonText }}" />
-				<div class="form-descr">
-					{{ block.description }}
-				</div>
-			</form>
-		</div>
+                <div class="form-descr">
+                    {{ block.description }}
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
