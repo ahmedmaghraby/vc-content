@@ -112,6 +112,40 @@
             }
         ]
     },
+    "webpage-settings": {
+        "name": "Micro markup",
+        "contentType": "pages",
+        "static": "top",
+        "icon": "header",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Micro markup"
+            },
+            {
+                "id": "markup_title",
+                "label": "Page title",
+                "type": "string"
+            },
+            {
+                "id": "markup_meta_description",
+                "label": "Page meta description",
+                "type": "string"
+            },
+            {
+                "type": "image",
+                "id": "webpage_image.jpg",
+                "label": "Image",
+                "max-width": 1800,
+                "info": "1400px wide minimum"
+            },
+            {
+                "id": "markup_date_created",
+                "label": "Date",
+                "type": "calendar"
+            }
+        ]
+    },
     "footer": {
         "name": "Footer",
         "static": "-bottom",
@@ -159,7 +193,7 @@
                     "tab": "Settings",
                     "group": "Main block settings"
                 },
-				{
+                {
                     "id": "verticalAlignment",
                     "label": "Vertical alignment",
                     "type": "select",
@@ -169,10 +203,10 @@
                             "value": "align-self-start",
                             "label": "Top"
                         },
-						{
-							"value": "align-self-center",
-							"label": "Middle"
-						},
+                        {
+                            "value": "align-self-center",
+                            "label": "Middle"
+                        },
                         {
                             "value": "align-self-end",
                             "label": "Bottom"
@@ -1265,14 +1299,14 @@
                 "group": "Form"
             },
             {
-				"id": "showFormLabels",
-				"label": "Show form labels",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Content",
-				"group": "Form"
-			},
-			{
+                "id": "showFormLabels",
+                "label": "Show form labels",
+                "type": "checkbox",
+                "default": true,
+                "tab": "Content",
+                "group": "Form"
+            },
+            {
                 "id": "firstButton",
                 "label": "First button",
                 "type": "url",
@@ -1340,7 +1374,7 @@
         "category": "Covers and Hero",
         "includeShared": "cover-blocks",
         "settings": [
-			{
+            {
                 "id": "textAreaWidth",
                 "label": "Text area width",
                 "type": "select",
@@ -1366,7 +1400,7 @@
                 "tab": "Settings",
                 "group": "Main block settings"
             },
-			{
+            {
                 "id": "pattern",
                 "label": "Pattern",
                 "type": "select",
@@ -1490,8 +1524,8 @@
                     "BulletedList",
                     "Bold",
                     "Italic",
-					"Underline",
-					"Strike",
+                    "Underline",
+                    "Strike",
                     "Link",
                     "Unlink",
                     "Maximize",
@@ -3165,14 +3199,14 @@
                 "tab": "Content",
                 "group": "Form"
             },
-			{
-				"id": "showFormLabels",
-				"label": "Show form labels",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Content",
-				"group": "Form"
-			}
+            {
+                "id": "showFormLabels",
+                "label": "Show form labels",
+                "type": "checkbox",
+                "default": true,
+                "tab": "Content",
+                "group": "Form"
+            }
         ]
     },
     "headline-with-form-in-list": {
@@ -3667,14 +3701,14 @@
                 "tab": "Content",
                 "group": "Form"
             },
-			{
-				"id": "showFormLabels",
-				"label": "Show form labels",
-				"type": "checkbox",
-				"default": true,
-				"tab": "Content",
-				"group": "Form"
-			}
+            {
+                "id": "showFormLabels",
+                "label": "Show form labels",
+                "type": "checkbox",
+                "default": true,
+                "tab": "Content",
+                "group": "Form"
+            }
         ]
     },
     "headline-with-form-in-line": {
@@ -4104,32 +4138,32 @@
                 "group": "Main block settings"
             },
             {
-				"id": "textAreaWidth",
-				"label": "Text area width",
-				"type": "select",
-				"default": "col-lg",
-				"options": [
-					{
-						"value": "col-lg",
-						"label": "Full width"
-					},
-					{
-						"value": "col-lg-10",
-						"label": "10 cols"
-					},
-					{
-						"value": "col-lg-8",
-						"label": "8 cols"
-					},
-					{
-						"value": "col-lg-6",
-						"label": "6 cols"
-					}
-				],
-				"tab": "Settings",
-				"group": "Main block settings"
-			},
-			{
+                "id": "textAreaWidth",
+                "label": "Text area width",
+                "type": "select",
+                "default": "col-lg",
+                "options": [
+                    {
+                        "value": "col-lg",
+                        "label": "Full width"
+                    },
+                    {
+                        "value": "col-lg-10",
+                        "label": "10 cols"
+                    },
+                    {
+                        "value": "col-lg-8",
+                        "label": "8 cols"
+                    },
+                    {
+                        "value": "col-lg-6",
+                        "label": "6 cols"
+                    }
+                ],
+                "tab": "Settings",
+                "group": "Main block settings"
+            },
+            {
                 "id": "topPadding",
                 "label": "Top padding",
                 "type": "select",
@@ -4214,13 +4248,13 @@
                 ],
                 "tab": "Settings",
                 "group": "Typography"
-			},
-			{
-				"id": "overlayGradient",
-				"label": "Overlay gradient",
-				"type": "checkbox",
-				"default": false,
-				"tab": "Settings"
+            },
+            {
+                "id": "overlayGradient",
+                "label": "Overlay gradient",
+                "type": "checkbox",
+                "default": false,
+                "tab": "Settings"
             },
             {
                 "id": "backgroundColor",
@@ -5655,10 +5689,10 @@
                         "value": "images",
                         "label": "Custom icon"
                     },
-					{
-						"value": "customIcon",
-						"label": "Image"
-					}
+                    {
+                        "value": "customIcon",
+                        "label": "Image"
+                    }
                 ],
                 "tab": "Settings",
                 "group": "Items"

@@ -1309,12 +1309,12 @@
         ]
     },
     {
-        "name": "Micro markups",
+        "name": "Micro markup",
         "icon": "clipboard",
         "settings": [
             {
                 "type": "header",
-                "content": "Micro markups"
+                "content": "Micro markup"
             },
             {
                 "type": "string",
