@@ -1,6 +1,6 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div id="{{ block.__id }}" class="section {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
+<div id="{{ block.__id }}" class="section block {{block.topPadding}} {{block.bottomPadding}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         {% if block.logotypeImage.url != '' %}
             <img src="{{block.logotypeImage.url}}" />
