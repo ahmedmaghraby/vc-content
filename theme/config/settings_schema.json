@@ -1319,14 +1319,12 @@
             {
                 "type": "string",
                 "id": "markup_corporation_name",
-                "label": "Corporation name",
-                "default": "Virto Commerce"
+                "label": "Corporation name"
             },
             {
                 "type": "string",
                 "id": "markup_corporation_url",
-                "label": "Corporation URL",
-                "default": "https://virtocommerce.com/"
+                "label": "Corporation URL"
             },
             {
                 "type": "string",
@@ -1335,7 +1333,7 @@
             },
             {
                 "type": "image",
-                "id": "default_image.jpg",
+                "id": "markup_website_default_image",
                 "label": "Image",
                 "max-width": 1800,
                 "info": "1400px wide minimum"

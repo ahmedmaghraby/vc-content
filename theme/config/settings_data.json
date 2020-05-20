@@ -18,8 +18,11 @@
         "blog_trending_article_url_3": "blog/development-plans-roadmap",
         "markup_corporation_name": "Virto Commerce",
         "markup_corporation_url": "https://virtocommerce.com/",
-        "markup_website_description": null,
-        "default_image.jpg": null
+        "markup_website_description": "websit e markups descr",
+        "markup_website_default_image": {
+            "url": "http://localhost/admin/assets/pages/002_qi7i_fvtTk.jpg",
+            "altText": "pic 4 mrkp"
+        }
     },
     "presets": {
         "Default": {

@@ -123,25 +123,25 @@
                 "content": "Micro markup"
             },
             {
-                "id": "markup_title",
+                "id": "markup_webpage_title",
                 "label": "Page title",
                 "type": "string"
             },
             {
-                "id": "markup_meta_description",
+                "id": "markup_webpage_description",
                 "label": "Page meta description",
                 "type": "string"
             },
             {
                 "type": "image",
-                "id": "webpage_image.jpg",
-                "label": "Image",
+                "id": "markup_webpage_image",
+                "label": "Page image",
                 "max-width": 1800,
                 "info": "1400px wide minimum"
             },
             {
-                "id": "markup_date_created",
-                "label": "Date",
+                "id": "markup_webpage_date_created",
+                "label": "Date created",
                 "type": "calendar"
             }
         ]

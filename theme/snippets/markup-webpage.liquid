@@ -1,0 +1,50 @@
+<!-- WebPage -->
+{% assign blocks = page.content | parse_json %}
+
+{% for item in blocks -%}
+    {% if item.type == 'settings' %}
+        {% assign page_settings = item -%}
+    {% endif %}
+{% endfor -%}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type":"WebPage",
+    "name": "{{- page_settings.markup_webpage_title -}}",
+    "description": "{{- page_settings.markup_webpage_description -}}",
+    "url": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
+    "image": "{{- settings.markup_website_default_image -}}",
+
+    "author": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "publisher": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    }
+}
+</script>
