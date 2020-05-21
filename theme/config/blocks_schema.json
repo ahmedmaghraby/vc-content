@@ -113,14 +113,14 @@
         ]
     },
     "webpage-settings": {
-        "name": "Micro markup",
+        "name": "Structured data",
         "contentType": "pages",
         "static": "top",
         "icon": "header",
         "settings": [
             {
                 "type": "header",
-                "content": "Micro markup"
+                "content": "Structured data"
             },
             {
                 "id": "markup_webpage_title",
@@ -136,8 +136,7 @@
                 "type": "image",
                 "id": "markup_webpage_image",
                 "label": "Page image",
-                "max-width": 1800,
-                "info": "1400px wide minimum"
+                "inline": true
             },
             {
                 "id": "markup_webpage_date_created",

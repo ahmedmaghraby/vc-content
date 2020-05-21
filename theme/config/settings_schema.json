@@ -1,4 +1,37 @@
 [
+    {
+        "name": "Structured data",
+        "icon": "header",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Structured data"
+            },
+            {
+                "type": "string",
+                "id": "markup_corporation_name",
+                "label": "Corporation name"
+            },
+            {
+                "type": "string",
+                "id": "markup_corporation_url",
+                "label": "Corporation URL"
+            },
+            {
+                "type": "string",
+                "id": "markup_website_description",
+                "label": "Website Description"
+            },
+            {
+                "type": "image",
+                "id": "markup_website_default_image",
+                "label": "Image",
+                "max-width": 1800,
+                "info": "1400px wide minimum"
+            }
+
+        ]
+    },
   {
     "name": "Colors",
     "icon": "eyedropper",
@@ -1306,39 +1339,6 @@
                 "id": "share_google",
                 "label": "+1 on Google Plus"
             }
-        ]
-    },
-    {
-        "name": "Micro markup",
-        "icon": "clipboard",
-        "settings": [
-            {
-                "type": "header",
-                "content": "Micro markup"
-            },
-            {
-                "type": "string",
-                "id": "markup_corporation_name",
-                "label": "Corporation name"
-            },
-            {
-                "type": "string",
-                "id": "markup_corporation_url",
-                "label": "Corporation URL"
-            },
-            {
-                "type": "string",
-                "id": "markup_website_description",
-                "label": "Website Description"
-            },
-            {
-                "type": "image",
-                "id": "markup_website_default_image",
-                "label": "Image",
-                "max-width": 1800,
-                "info": "1400px wide minimum"
-            }
-
         ]
     }
 ]

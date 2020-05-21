@@ -11,11 +11,15 @@
 {
     "@context": "http://schema.org",
     "@type":"WebPage",
-    "name": "{{- page_settings.markup_webpage_title -}}",
-    "description": "{{- page_settings.markup_webpage_description -}}",
+    {%- if page_settings.markup_webpage_title -%}
+    "name": "{{ page_settings.markup_webpage_title }}",
+    {%- else -%}
+    "name": "{{ page_title }}",
+    {%- endif -%}
+    "description": "{{ page_settings.markup_webpage_description }}",
     "url": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
-    "image": "{{- settings.markup_website_default_image -}}",
-
+    "mainEntityOfPage": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
+    "image": "{{- page_settings.markup_webpage_image -}}",
     "author": {
         "@type": "Corporation",
         "name": "{{- settings.markup_corporation_name -}}",
