@@ -1346,6 +1346,10 @@
     "category": "Covers and Hero",
     "includeShared": "cover-blocks",
     "settings": [
+	  {
+		"id": "horizontalAlignment",
+		"default": "right"
+	  },
       {
         "id": "textAreaWidth",
         "label": "Text area width",
