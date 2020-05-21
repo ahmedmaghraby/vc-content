@@ -1,0 +1,21 @@
+<!-- OpenGraph -->
+    {% if page_settings.markup_webpage_title %}
+    <meta property="og:title" content="{{ page_settings.markup_webpage_title }}" />
+    {% else %}
+        {% if page_title != '' %}
+        <meta property="og:title" content="{{ page_title }}" />
+        {% else %}
+        <meta property="og:title" content="ASP.NET ecommerce platform - Virto Commerce" />
+        {% endif %}
+    {% endif %}
+    {% if page_settings.markup_webpage_description %}
+    <meta property="og:description" content="{{ page_settings.markup_webpage_description | escape }}" />
+    {% else %}
+        {% if page_description != '' %}
+        <meta property="og:description" content="{{ page_description | escape }}" />
+        {% else %}
+        <meta property="og:description" content="VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users." />
+        {% endif %}
+    {% endif %}
+    <meta property="og:url" content="{{ canonical_url | absolute_url }}" />
+    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
