@@ -7,7 +7,6 @@
     <meta name="author" content="Virto Commerce" />
     {% if page_description != '' %}
     <meta name="description" content="{{ page_description | escape }}" />
-    <meta property="og:description" content="{{ page_description | escape }}" />
     {% else %}
     <meta name="description" content="VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users." />
     {% endif %}
@@ -15,13 +14,10 @@
     <meta itemprop="name" content="Virto Commerce" />
     <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
     <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
-    <meta property="og:url" content="{{ canonical_url }}" />
-    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
     <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
     <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
     {% if page_title != '' %}
     <title>{{ page_title }}</title>
-    <meta property="og:title" content="{{ page_title }}" />
     {% else %}
     <title>ASP.NET ecommerce platform - Virto Commerce</title>
     {% endif %}
@@ -35,10 +31,10 @@
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
     {% include 'autopilot' %}
-
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
     {% include 'markup-webpage' %}
+    {% include 'markup-opengraph' %}
 </head>
 <body>
     {% include 'google-tag-manager-body' %}
