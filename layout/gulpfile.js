@@ -1,7 +1,6 @@
 "use strict";
 
 var gulp = require("gulp"),
-    autoprefixer = require("gulp-autoprefixer"),
     cssbeautify = require("gulp-cssbeautify"),
     removeComments = require('gulp-strip-css-comments'),
     rename = require("gulp-rename"),
@@ -69,13 +68,9 @@ gulp.task("webserver", function () {
 });
 
 gulp.task("css:build", function () {
-    gulp.src(path.src.css)
+    return gulp.src(path.src.css)
         .pipe(plumber())
         .pipe(sass())
-        .pipe(autoprefixer({
-            browsers: ["last 5 versions"],
-            cascade: true
-        }))
         .pipe(removeComments())
         .pipe(cssbeautify())
         .pipe(gulp.dest(path.build.css))
@@ -86,7 +81,7 @@ gulp.task("css:build", function () {
 
 
 gulp.task("js:build", function () {
-    gulp.src(path.src.js)
+    return gulp.src(path.src.js)
         .pipe(plumber())
         .pipe(rigger())
         .pipe(gulp.dest(path.build.js))
@@ -98,13 +93,13 @@ gulp.task("js:build", function () {
 
 
 gulp.task("fonts:build", function () {
-    gulp.src(path.src.fonts)
+    return gulp.src(path.src.fonts)
         .pipe(gulp.dest(path.build.fonts));
 });
 
 
 gulp.task("image:build", function () {
-    gulp.src(path.src.img)
+    return gulp.src(path.src.img)
         .pipe(imagemin({
             optimizationLevel: 3,
             progressive: true,
@@ -120,15 +115,14 @@ gulp.task("clean", function (cb) {
 });
 
 
-gulp.task('build', function (cb) {
-    run(
+gulp.task('build', gulp.series(
         "clean",
         "css:build",
         "js:build",
         "fonts:build",
         "image:build"
-        , cb);
-});
+    )
+);
 
 
 gulp.task("watch", function () {
