@@ -112,6 +112,39 @@
       }
     ]
   },
+    "webpage-settings": {
+        "name": "Structured data",
+        "contentType": "pages",
+        "static": "top",
+        "icon": "header",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Structured data"
+            },
+            {
+                "id": "markup_webpage_title",
+                "label": "Page title",
+                "type": "string"
+            },
+            {
+                "id": "markup_webpage_description",
+                "label": "Page meta description",
+                "type": "string"
+            },
+            {
+                "type": "image",
+                "id": "markup_webpage_image",
+                "label": "Page image",
+                "inline": true
+            },
+            {
+                "id": "markup_webpage_date_created",
+                "label": "Date created",
+                "type": "calendar"
+            }
+        ]
+    },
   "footer": {
     "name": "Footer",
     "static": "-bottom",
