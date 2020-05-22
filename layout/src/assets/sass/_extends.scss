@@ -156,6 +156,14 @@
     flex-wrap: wrap;
     margin: 0 -1.25rem;
 
+    li
+    {
+        &::before
+        {
+            display: flex;
+        }
+    }
+
     .list__inner
     {
         display: flex;

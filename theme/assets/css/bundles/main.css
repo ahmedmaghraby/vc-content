@@ -4373,6 +4373,10 @@ code {
     margin: 0 -1.25rem;
 }
 
+.block .list-items li::before {
+    display: flex;
+}
+
 .block .list-items .list__inner {
     display: flex;
     flex-direction: column;
