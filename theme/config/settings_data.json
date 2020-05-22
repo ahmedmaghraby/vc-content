@@ -18,8 +18,8 @@
         "blog_trending_article_url_3": "blog/development-plans-roadmap",
         "markup_corporation_name": "Virto Commerce",
         "markup_corporation_url": "https://virtocommerce.com/",
-        "markup_website_description": "websit e markups descr",
-        "markup_website_default_image": "http://localhost/vccom-admin/assets/pages/897d83893e57fcbd4c61b78fb9cc5dbb_s-1_TFAoy5HicK.jpg"
+        "markup_website_description": "VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users.",
+        "markup_website_default_image": "https://virtocommerce.com/assets/images/logo.jpg"
     },
     "presets": {
         "Default": {
