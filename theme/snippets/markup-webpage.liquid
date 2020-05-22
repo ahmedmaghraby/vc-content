@@ -1,7 +1,7 @@
 <!-- WebPage -->
-{% assign blocks = page.content | parse_json %}
+{% assign web_page_blocks = page.content | parse_json %}
 
-{% for item in blocks -%}
+{% for item in web_page_blocks -%}
     {% if item.type == 'settings' %}
         {% assign page_settings = item -%}
     {% endif %}
