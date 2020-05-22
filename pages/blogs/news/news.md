@@ -1,8 +1,9 @@
 ---
 categories:
   - technical
-  - release
-  - virtocommerce-news
+  - events
+  - blogs
+  - pressreleases
 category: virtocommerce-news
 layout: blog-layout
 permalink: blog

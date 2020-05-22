@@ -269,6 +269,9 @@
         "categories": {
             "virtocommerce-news": "Virto Commerce News",
             "technical": "Technical",
+            "events": "Events",
+            "blogs": "Blogs",
+            "pressreleases": "Press releases",
             "release": "Release",
             "ecommerce": "Ecommerce",
             "important": "Important"
