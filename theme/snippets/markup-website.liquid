@@ -4,7 +4,7 @@
     "@context": "http://schema.org",
     "@type":"WebSite",
     "name": "{{- settings.markup_corporation_name -}}",
-    "description": "{{- settings.markup_website_description -}}",
+    "description": "{{- settings.markup_website_description | escape -}}",
     "url": "{{- settings.markup_corporation_url -}}",
     "image": "{{- settings.markup_website_default_image -}}",
     "copyrightHolder": {

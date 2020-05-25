@@ -19,9 +19,9 @@
         "name": "ASP.NET ecommerce platform - Virto Commerce",
     {% endif %}
     {% if page_settings.markup_webpage_description %}
-        "description": "{{- page_settings.markup_webpage_description -}}",
+        "description": "{{- page_settings.markup_webpage_description | escape -}}",
     {% elsif page_description != '' %}
-        "description": "{{- page_description -}}",
+        "description": "{{- page_description | escape -}}",
     {% else %}
         "description": "VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users.",
     {% endif %}

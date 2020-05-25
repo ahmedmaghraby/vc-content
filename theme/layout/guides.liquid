@@ -54,6 +54,10 @@
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
+    {% include 'markup-corporation' %}
+    {% include 'markup-website' %}
+    {% include 'markup-webpage' %}
+    {% include 'markup-opengraph' %}
 </head>
 <body ng-app="storefrontApp">
     <div id="layout">
