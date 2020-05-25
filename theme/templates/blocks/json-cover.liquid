@@ -1,4 +1,4 @@
-<div class="{% if block.style == 'dark' %} section--gray {% endif %}
+<div id="{{ block.__id }}" class="{% if block.style == 'dark' %} section--gray {% endif %}
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
@@ -21,7 +21,7 @@
          </style>
      {% endif %}
 
-     <div class="block {{block.backgroundScrollEffect}} {{alignment}} 
+     <div class="section block {{block.backgroundScrollEffect}} {{alignment}} 
      {% if block.backgroundColor == 'none' and block.backgroundColorHex == '' %} block--cover {% endif %}
      {% if block.backgroundColor != 'none' and block.backgroundColorHex == '' %} {{block.backgroundColor}} {% endif %}
      {% if block.backgroundOverlayColorHex != '' %} has-hex-{{counter}} {% endif %}"

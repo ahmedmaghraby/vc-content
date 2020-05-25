@@ -1,3 +1,4 @@
+{%- include 'prepare_layout' -%}
 <!DOCTYPE html>
 <html ng-app="storefrontApp">
 <head>
@@ -31,10 +32,10 @@
     {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
     {{ '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}
-    {{ 'main-styles.min.css' | asset_url | stylesheet_tag }}
+    {{ 'style.min.css?v=' | append css_version | asset_url | stylesheet_tag }}
     {% endcomment %}
     {% include 'segment' %}
-    {{ 'style.min.css?v=1.05' | asset_url | stylesheet_tag }}
+    {{ 'style.min.css?v=' | concat 'css_version' | asset_url | stylesheet_tag }}
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     <link rel="canonical" href="{{ canonical_url }}" />

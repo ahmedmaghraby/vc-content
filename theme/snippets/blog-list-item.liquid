@@ -2,7 +2,7 @@
     <a class="list__bg" href="{{ article.url | absolute_url }}" style="background-image: url({% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></a>
     <div class="list__category" data-name="{{ article.category }}">{{ article.category }}</div>
     <div class="list__info">
-        <div class="list__t">{{ article.title }}</div>
+        <div class="list__t"><a href="{{ article.url | absolute_url }}">{{ article.title }}</a></div>
         <div class="list__descr">
             {{ article.excerpt }}
         </div>

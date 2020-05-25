@@ -1,6 +1,6 @@
 <div class="blog" itemtype="http://schema.org/Blog" itemscope ng-controller="blogController">
     <div class="posts __responsive container" itemprop="blogPosts">
-        <h1 class="blog__t">Virto Commerce Enterprise eCommerce Blog</h1>
+        <h1 class="blog__t">{{blog.title}}</h1>
         <div class="list list--tags">
             {% for category in blog.categories %}
                 {% assign category_handle = category | handleize %}

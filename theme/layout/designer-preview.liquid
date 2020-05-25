@@ -1,3 +1,4 @@
+{%- include 'prepare_layout' -%}
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 
     <title>{{ shop.name }}</title>
 
-    {{ 'style.min.css' | asset_url | stylesheet_tag }}
+    {{ 'style.min.css?v=' | append css_version | asset_url | stylesheet_tag }}
     <base href="{{ '/' | absolute_url }}" />
     {{ content_for_header }}
 </head>

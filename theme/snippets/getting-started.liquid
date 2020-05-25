@@ -10,122 +10,35 @@
             </div>
             <div class="header-nav col-auto d-none d-lg-block">
                 <ul class="nav">
+                    <!--tabs-->
+                    {%- assign menu_tabs = linklists['main-menu'] -%}
+                    {%- for tab in menu_tabs.links -%}
                     <li class="nav__item">
-                        <a class="nav__link nav__link--dropdown">Products</a>
+                        <a class="nav__link nav__link--dropdown">{{ tab.title }}</a>
                         <div class="dropdown-menu">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Products</div>
-                                        <a class="dropdown-menu__item" href="/products/b2b-portal">B2B Portal</a>
-                                        <a class="dropdown-menu__item" href="/products/b2c-webshop">B2C Webshop</a>
-                                        <a class="dropdown-menu__item" href="/products/e-commerce-content">E-commerce content</a>
-                                        <a class="dropdown-menu__item" href="/products/seller-portal">Vendor portal</a>
-                                        <a class="dropdown-menu__item" href="/products/page-builder">Page builder</a>
+                                    <!--blocks-->
+                                    {%- assign tab_blocks = linklists[tab.url].links -%}
+                                    {%- for current_block in tab_blocks -%}
+                                    {%- if tab_blocks.size > 3 -%}
+                                    <div class="col">
+                                    {%- else -%}
+                                    <div class="col-3">
+                                    {%- endif -%}
+                                        {%- assign current_links = linklists[current_block.url] -%}
+                                        <div class="dropdown-menu__t">{{ current_block.title }}</div>
+                                        <!--links-->
+                                        {%- for link in current_links.links -%}
+                                        <a class="dropdown-menu__item" href="{{ link.url }}">{{ link.title }}</a>
+                                        {%- endfor -%}
                                     </div>
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Digital commerce platform</div>
-                                        <a class="dropdown-menu__item" href="/enterprise-ecommerce-architecture">Architecture Overview</a>
-                                        {% comment %}
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-implementation">Delivery Strategy</a>
-                                        {% endcomment %}
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-services">Services</a>
-                                        <a class="dropdown-menu__item" href="/roadmap">Roadmap</a>
-                                    </div>
-                                    {% comment %}
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Business Need</div>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-catalog-management">Catalog &amp; Product Management</a>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-marketing-tools">Marketing &amp; Promotions</a>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-pricing-tools">Pricing Tools</a>
-                                        <a class="dropdown-menu__item" href="/b2b-cms">CMS</a>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-order-management">Order Management</a>
-                                    </div>
-                                    {% endcomment %}
+                                    {%- endfor -%}
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link">Solutions</a>
-                        <div class="dropdown-menu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">By Business Size</div>
-                                        <a class="dropdown-menu__item" href="/enterprise-ecommerce-platform">Enterprise</a>
-                                        <a class="dropdown-menu__item" href="/b2b-midmarket-ecommerce-platform">Mid-Market</a>
-                                        {% comment %}
-                                        <a class="dropdown-menu__item" href="/ecommerce-platform-small-business">Small Business</a>
-                                        {% endcomment %}
-                                        <a class="dropdown-menu__item" href="/startup-ecommerce-platform">Start Ups</a>
-                                    </div>
-                                    {% comment %}
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">By Use Case</div>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-platform">B2B Solutions</a>
-                                        <a class="dropdown-menu__item" href="/b2x-b2c-ecommerce">B2X (B2C, B2B2C, B2G)</a>
-                                        <a class="dropdown-menu__item" href="/b2b-ecommerce-digital-transformation">Digital Transformation</a>
-                                        <a class="dropdown-menu__item" href="/ecommerce-whitelabel">White Label Solutions</a>
-                                    </div>
-                                    {% endcomment %}
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link">Partners</a>
-                        <div class="dropdown-menu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="dropdown-menu__t">Partner community</div>
-                                        <a class="dropdown-menu__item" href="/partner-community">Partner Community</a>
-                                        <a class="dropdown-menu__item" href="/partner-become-solution-partner">Solution partner</a>
-                                        <a class="dropdown-menu__item" href="/partner-technology-partner">Technology partner</a>
-                                        <a class="dropdown-menu__item" href="/partner-community-experts">Community experts</a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Become a partner</div>
-                                        <a class="dropdown-menu__item" href="/partner-form-become-solution-partner">Become a solution partner</a>
-                                        <a class="dropdown-menu__item" href="/partner-form-become-technology-partner">Become a technology partner</a>
-                                        <a class="dropdown-menu__item" href="/partner-form-community-experts">Become a Virto commerce expert</a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Find a partner</div>
-                                        <a class="dropdown-menu__item" href="/partner-choose-solution-partner">Choose a solution partner</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link">Resources</a>
-                        <div class="dropdown-menu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">About Virto Commerce</div>
-                                        <a class="dropdown-menu__item" href="/about-us">Our Team &amp; Story</a> 
-                                        <a class="dropdown-menu__item" href="/case-studies">Case Studies</a>
-                                        <a class="dropdown-menu__item" href="/whitepapers">White Papers</a> 
-                                        <a class="dropdown-menu__item" href="/blog">Blog</a> 
-                                        <a class="dropdown-menu__item" href="/contact-us">Contact Us</a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="dropdown-menu__t">Tools</div>
-                                        <a class="dropdown-menu__item" href="/glossary">Ecommerce Education</a>
-                                        <a class="dropdown-menu__item" href="/apps">Appstore</a>
-                                        <a class="dropdown-menu__item" href="/docs">Documentation</a> 
-                                        <a class="dropdown-menu__item" href="https://community.virtocommerce.com" rel="nofollow" target="_blank">Community</a> 
-                                        <a class="dropdown-menu__item" href="https://github.com/VirtoCommerce/vc-community" rel="nofollow" target="_blank">GitHub Repository</a> 
-                                        <a class="dropdown-menu__item" href="https://admin-demo.virtocommerce.com/docs/ui/index" rel="nofollow">API Reference</a> 
-                                        <a class="dropdown-menu__item" href="/contribute-agreement">How to Contribute</a> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                    {%- endfor -%}
                 </ul>
             </div>
             <div class="header-phone ml-auto col-auto d-none d-lg-block">

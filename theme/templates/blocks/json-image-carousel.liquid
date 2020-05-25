@@ -3,7 +3,7 @@
 {% else %}
     {% assign cssStyle = '' %}
 {% endif %}
-<section class="section {{ cssStyle }} section--bg">
+<section id="{{ block.__id }}" class="section {{ cssStyle }} section--bg">
     <div class="section__inner container">
         {% if block.title != '' %}
         <h2 class="section__t">{{ block.title }}</h2>

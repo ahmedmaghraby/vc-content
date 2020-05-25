@@ -1,5 +1,26 @@
 {
-    "current": "Default",
+    "current": {
+        "disqus_site": "virto-commerce",
+        "blog_social_visible": "twitter",
+        "blog_social_heading": "Latest Tweets",
+        "twitterwidget_username": "virtocommerce",
+        "\"twitterwidget_id\"": "646234978192195584",
+        "\"twitterwidget_numtweets\"": "120",
+        "\"twitterwidget_link_colour\"": "#ffffff",
+        "\"twitterwidget_scheme\"": "light",
+        "facebook_username": "https://www.facebook.com/virtocommerce",
+        "freshsales_enable": true,
+        "freshsales_url": "//virtocommerce.freshsales.io",
+        "freshsales_token": "79179bb0c06b1985baf823d0c33d23d6",
+        "blog_sticked_article_url": "blog/virtocommerce-product-release-notes-february-2019",
+        "blog_trending_article_url_1": "blog/top5-b2b-ecommerce-challenges",
+        "blog_trending_article_url_2": "blog/difference-between-b2b-and-b2c-ecommerce-solution",
+        "blog_trending_article_url_3": "blog/development-plans-roadmap",
+        "markup_corporation_name": "Virto Commerce",
+        "markup_corporation_url": "https://virtocommerce.com/",
+        "markup_website_description": "VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users.",
+        "markup_website_default_image": "https://virtocommerce.com/assets/images/logo.jpg"
+    },
     "presets": {
         "Default": {
             "disqus_site": "virto-commerce",

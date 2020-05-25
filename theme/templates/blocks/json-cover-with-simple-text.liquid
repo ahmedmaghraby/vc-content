@@ -8,7 +8,7 @@
 
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div class="block {{alignment}} {% include 'cover-background-settings' %}>
+<div id="{{ block.__id }}" class="section block {{alignment}} {% include 'cover-background-settings' %}>
     <div class="block__inner container">
         <div class="row justify-content-center">
             <div class="block__text {{block.textAreaWidth}}">

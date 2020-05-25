@@ -1,5 +1,36 @@
 [
   {
+    "name": "Structured data",
+    "icon": "header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Structured data"
+      },
+      {
+        "type": "string",
+        "id": "markup_corporation_name",
+        "label": "Corporation name"
+      },
+      {
+        "type": "string",
+        "id": "markup_corporation_url",
+        "label": "Corporation URL"
+      },
+      {
+        "type": "string",
+        "id": "markup_website_description",
+        "label": "Website Description"
+      },
+      {
+        "type": "image",
+        "id": "markup_website_default_image",
+        "label": "Image",
+        "inline": true
+      }
+    ]
+  },
+  {
     "name": "Colors",
     "icon": "eyedropper",
     "settings": [
@@ -358,13 +389,12 @@
           }
         ]
       },
-	{
+      {
         "type": "color",
         "id": "color_body_bg",
         "label": "Background",
         "default": "#ffffff"
       },
-
       {
         "type": "select",
         "id": "type_header_base_size",

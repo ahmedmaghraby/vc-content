@@ -1,0 +1,102 @@
+<!-- WebPage -->
+{% assign web_page_blocks = page.content | parse_json %}
+
+{% for item in web_page_blocks -%}
+    {% if item.type == 'settings' %}
+        {% assign page_settings = item -%}
+    {% endif %}
+{% endfor -%}
+
+<script id="webPageLd" type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type":"WebPage",
+    {% if page_settings.markup_webpage_title %}
+        "name": "{{- page_settings.markup_webpage_title -}}",
+    {% elsif page_title != '' %}
+        "name": "{{- page_title -}}",
+    {% else %}
+        "name": "ASP.NET ecommerce platform - Virto Commerce",
+    {% endif %}
+    {% if page_settings.markup_webpage_description %}
+        "description": "{{- page_settings.markup_webpage_description -}}",
+    {% elsif page_description != '' %}
+        "description": "{{- page_description -}}",
+    {% else %}
+        "description": "VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users.",
+    {% endif %}
+    "url": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
+    "mainEntityOfPage": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
+    "inLanguage": "en_us",
+    {% if current_page.meta_info["header"] | first %}
+        "headline": "{{- current_page.meta_info["header"] | first -}}",
+    {% elsif page_title != '' %}
+        "headline": "{{- page_title -}}",
+    {% else %}
+        "headline": "ASP.NET ecommerce platform - Virto Commerce",
+    {% endif %}
+    "author": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "publisher": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    }
+}
+</script>
+
+<script id="ldBuilder">
+    var imgUrl = "{{ page_settings.markup_webpage_image }}" ? "{{ page_settings.markup_webpage_image }}" : "{{ settings.markup_website_default_image }}";
+    function getMeta(callback) {
+        var img = new Image();
+        if (imgUrl){
+            img.src = imgUrl;
+            img.onload = function() { callback(this); }
+            return;
+        }
+        document.getElementById('webPageLd').removeAttribute('id');
+        document.getElementById('ldBuilder').remove();
+    }
+    
+    getMeta(
+      createWebPageLd
+    );
+
+    function createWebPageLd(imgInfo){
+        var webPageLdEl = document.getElementById('webPageLd');
+        var webPageLd = JSON.parse(webPageLdEl.text);
+        webPageLd.image = {
+            "@type": "ImageObject",
+             "url": imgInfo.src,
+             "width": imgInfo.width,
+             "height": imgInfo.height
+        };
+        webPageLdEl.text = JSON.stringify(webPageLd, null, "\t");
+        
+        webPageLdEl.removeAttribute('id');
+        document.getElementById('ldBuilder').remove();
+    }
+</script>

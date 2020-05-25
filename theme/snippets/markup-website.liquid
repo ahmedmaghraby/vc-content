@@ -1,0 +1,34 @@
+<!-- WebSite -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type":"WebSite",
+    "name": "{{- settings.markup_corporation_name -}}",
+    "description": "{{- settings.markup_website_description -}}",
+    "url": "{{- settings.markup_corporation_url -}}",
+    "image": "{{- settings.markup_website_default_image -}}",
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "author": {
+        "@type": "Corporation",
+        "name": "{{- settings.markup_corporation_name -}}",
+        "url": "{{- settings.markup_corporation_url -}}",
+        "location": {
+            "@type": "Place",
+            "name": "{{- settings.markup_corporation_name -}}",
+            "url": "{{- settings.markup_corporation_url -}}" 
+        }
+    },
+    "creator": {
+        "@type": "Organization" 
+    }
+}
+</script>
