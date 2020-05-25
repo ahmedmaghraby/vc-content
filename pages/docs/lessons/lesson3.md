@@ -5,8 +5,6 @@ layout: docs
 date: 2019-10-16
 priority: 3
 ---
-# How to create Virto commerce module (API)
-
 ## Summary
 
 Use this guide to create a custom module for Virto Commerce Platform. There will be an API created for product reviews management: create, update, delete, search. Hereinafter, this module will be called as "Customer Reviews" module.
