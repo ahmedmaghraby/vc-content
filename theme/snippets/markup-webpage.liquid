@@ -11,30 +11,30 @@
 {
     "@context": "http://schema.org",
     "@type":"WebPage",
-    {%- if page_settings.markup_webpage_title -%}
-        "name": "{{ page_settings.markup_webpage_title }}",
-    {%- elsif page_title != '' -%}
-        "name": "{{ page_title }}",
-    {%- else -%}
+    {% if page_settings.markup_webpage_title %}
+        "name": "{{- page_settings.markup_webpage_title -}}",
+    {% elsif page_title != '' %}
+        "name": "{{- page_title -}}",
+    {% else %}
         "name": "ASP.NET ecommerce platform - Virto Commerce",
-    {%- endif -%}
-    {%- if page_settings.markup_webpage_description -%}
-        "description": "{{ page_settings.markup_webpage_description }}",
-    {%- elsif page_description != '' -%}
-        "description": "{{ page_description }}",
-    {%- else -%}
+    {% endif %}
+    {% if page_settings.markup_webpage_description %}
+        "description": "{{- page_settings.markup_webpage_description -}}",
+    {% elsif page_description != '' %}
+        "description": "{{- page_description -}}",
+    {% else %}
         "description": "VirtoCommerce is the enterprise-level Microsoft .NET ecommerce platform for complex ecommerce. Virto Commerce is a flexible B2B ecommerce solution based on Microsoft.NET that offers powerful tools for enterprise business users.",
-    {%- endif -%}
+    {% endif %}
     "url": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
     "mainEntityOfPage": "{{- settings.markup_corporation_url -}}{{- page_settings.permalink -}}",
     "inLanguage": "en_us",
-    {%- if current_page.meta_info["header"] | first -%}
-        "headline": "{{ current_page.meta_info["header"] | first }}",
-    {%- elsif page_title != '' -%}
-        "headline": "{{ page_title }}",
-    {%- else -%}
+    {% if current_page.meta_info["header"] | first %}
+        "headline": "{{- current_page.meta_info["header"] | first -}}",
+    {% elsif page_title != '' %}
+        "headline": "{{- page_title -}}",
+    {% else %}
         "headline": "ASP.NET ecommerce platform - Virto Commerce",
-    {%- endif -%}
+    {% endif %}
     "author": {
         "@type": "Corporation",
         "name": "{{- settings.markup_corporation_name -}}",
