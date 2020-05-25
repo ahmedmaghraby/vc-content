@@ -7,21 +7,22 @@
             <div class="apps__detail-item">
                 <img src="{% if product.primary_image.url %}{{ product.primary_image.url }}{% else %}{{ 'no-image.png' | asset_url }}{% endif %}" alt="">
             </div>
-        </div>
+        </div>
+
         <div class="col-md">
             <div class="apps__detail-info row">
                 <div class="apps__detail-general col-lg">
                     <h1 class="apps__detail-t">{{ product.selected_or_first_available_variant.title }}</h1>
                     <a class="apps__detail-link apps__detail-link--review" style="cursor:pointer;" ng-click="showWriteAReviewForm()">{{ 'apps.product.write_a_review' | t }}</a>
-                    {% if product.metafields.properties.Description.size > 0 %}
-                        <div class="apps__detail-descr">{{ product.metafields.properties.Description }}</div>
+                    {% if product.properties['Description'].value %}
+                        <div class="apps__detail-descr">{{ product.properties['Description'].value }}</div>
                     {% endif %}
                     <div class="apps__detail-actions">
-                        {% if product.metafields.properties.ProjectLink.size > 0%}
-                            <a href="{{ product.metafields.properties.ProjectLink }}" class="btn btn--orange" target="_blank">Project</a>
+                        {% if product.properties['ProjectLink'].value %}
+                            <a href="{{ product.properties['ProjectLink'].value }}" class="btn btn--orange" target="_blank">Project</a>
                             {% endif %}
-                            {% if product.metafields.properties.DownloadLink.size > 0%}
-                            <a href="{{ product.metafields.properties.DownloadLink }}" class="btn btn--orange" target="_blank">Download</a>
+                            {% if product.properties['DownloadLink'].value > 0%}
+                            <a href="{{ product.properties['DownloadLink'].value }}" class="btn btn--orange" target="_blank">Download</a>
                         {% endif %}
                     </div>
                 </div>
@@ -50,13 +51,13 @@
         </div>
 
     </div>
-    {% if product.metafields.properties.Overview.size > 0 %}
+    {% if product.properties['Overview'].value %}
     <div class="tabs">
         <input class="tabs__input" type="radio" name="tabs" id="tab-1" checked>
         <label for="tab-1" class="tabs__item">{{ 'apps.product.overview' | t }}</label>
 
         <div class="tabs__content">
-            {{ product.metafields.properties.Overview }}
+            {{ product.properties['Overview'].value }}
         </div>
     </div>
     {% endif %}
