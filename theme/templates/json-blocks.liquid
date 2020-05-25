@@ -1,9 +1,11 @@
 {% assign blocks = page.content | parse_json %}
 
+{% assign page_settings = blocks | first %}
+
 {% for item in blocks -%}
     {% if item.hidden != 'True' %}
         {% assign templateName = "blocks/json-"|append:item.type -%}
         <!-- {{ item.type }} -->
-        {% include templateName block: item -%}
+        {% include templateName block: item, page_settings: page_settings, blocks: blocks -%}
     {% endif %}
 {% endfor -%}
