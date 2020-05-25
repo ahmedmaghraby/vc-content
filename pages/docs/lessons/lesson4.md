@@ -5,8 +5,6 @@ layout: docs
 date: 2020-01-30
 priority: 3
 ---
-# How to build and customize Platform Manager Web UI (AngularJS)
-
 ## Summary
 
 Use this guide to create Platform Manager UI for the Virto Commerce "Customer Reviews" module (created in the [Lesson 3](./lesson3.md)).
