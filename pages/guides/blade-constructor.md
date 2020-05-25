@@ -1,4 +1,6 @@
 ---
+title: Blade Constructor - Virto Commerce
+description: Create your custom blades for Virto Commerce
 permalink: guides/blade-constructor
 layout: guides
 date: 2015-10-12T14:25:02.197Z
@@ -210,7 +212,7 @@ priority: 4
                 </div>  
                 <div class="content" ng-controller="TestController">
                     <section class="cblade">
-                        <h1 class="title" id="blade_constructor">Blade constructor</h1>
+                        <h2 class="title" id="blade_constructor">Blade constructor</h2>
                         <div class="note">Create your own blade</div>
                         <div class="example __center __bg __construct">
                             <div id="tplblade"></div>
