@@ -1,4 +1,6 @@
 ---
+title: Style-guide - Virto Commerce
+description: Style-guide for Virto Commerce Admin UI
 permalink: guides/style-guide
 layout: guides
 date: 2015-10-12T14:25:02.197Z
@@ -157,7 +159,7 @@ priority: 4
                 </div>  
                 <div class="content" ng-controller="TestController">
                     <section>
-                        <h1 class="title" id="icons">Icons</h1>
+                        <h2 class="title" id="icons">Icons</h2>
                         <div class="note">We utilize special font for icons <span class="exmpl">FontAwesome</span>, more info <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>. In order to start using icons add the folowing html: <span class="exmpl">&lt;i class="fa fa-folder"&gt;</span> and it will display folder icon like this</div>
                         <div class="example">
                             <i class="fa fa-folder"></i>
