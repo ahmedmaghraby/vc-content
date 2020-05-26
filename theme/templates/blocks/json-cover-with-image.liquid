@@ -1,56 +1,58 @@
 {% include 'overlay-color-hex-style-with-counter' predefinedColor: block.backgroundOverlayColor, customColor: block.backgroundOverlayColorHex %}
 
-<div id="{{ block.__id }}" class="block {% include 'cover-background-settings' %}>
-    <div class="block__inner container">
-        <div class="w-100">
-            <div class="row align-items-center">
-                {% if block.horizontalAlignment == 'left' %}
-                    <div class="col-lg-auto">
-                        <div class="block__media">
-                            {% if block.containerImage != '' %}
-                                {% if block.containerImage.url != '' %}
-                                    <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
+<div id="{{ block.__id }}">
+    <div class="block {% include 'cover-background-settings' %}>
+        <div class="block__inner container">
+            <div class="w-100">
+                <div class="row align-items-center">
+                    {% if block.horizontalAlignment == 'left' %}
+                        <div class="col-lg-auto">
+                            <div class="block__media">
+                                {% if block.containerImage != '' %}
+                                    {% if block.containerImage.url != '' %}
+                                        <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
+                                    {% endif %}
                                 {% endif %}
-                            {% endif %}
+                            </div>
                         </div>
-                    </div>
-                {% endif %}
+                    {% endif %}
                 
-                <div class="col-lg {{block.verticalAlignment}}">
-                    {% if block.note != '' %}
-                        <div class="block__note">{{block.note}}</div>
-                    {% endif %}
-                    <div class="block__space"></div>
+                    <div class="col-lg {{block.verticalAlignment}}">
+                        {% if block.note != '' %}
+                            <div class="block__note">{{block.note}}</div>
+                        {% endif %}
+                        <div class="block__space"></div>
 
-                    {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
+                        {% include 'seo-text' tag: block.titleSeoTag, text: block.title %}
                     
-                    {% if block.subtitle != '' %}
-                        <div class="block__space"></div>
-                        <div class="block__descr">{{block.subtitle}}</div>
-                    {% endif %}
+                        {% if block.subtitle != '' %}
+                            <div class="block__space"></div>
+                            <div class="block__descr">{{block.subtitle}}</div>
+                        {% endif %}
                     
-                    {% if block.firstButton != '' and block.firstButton.urlText != '' %}
-                        <div class="block__space"></div>
-                        <div class="block__actions">
-                            <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
-                            {% if block.secondButton != '' and block.secondButton.urlText != '' %}
-                                <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
-                            {% endif %}
+                        {% if block.firstButton != '' and block.firstButton.urlText != '' %}
+                            <div class="block__space"></div>
+                            <div class="block__actions">
+                                <a href="{{block.firstButton.url}}" class="{{block.firstButton.style}}" {% if block.firstButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.firstButton.urlText}}</a>
+                                {% if block.secondButton != '' and block.secondButton.urlText != '' %}
+                                    <a href="{{block.secondButton.url}}" class="{{block.secondButton.style}}" {% if block.secondButton.openInNewTab == 'True' %} target="_blank" {% endif %}>{{block.secondButton.urlText}}</a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    </div>
+                
+                    {% if block.horizontalAlignment == 'right' %}
+                        <div class="col-lg-auto">
+                            <div class="block__media">
+                                {% if block.containerImage != '' %}
+                                    {% if block.containerImage.url != '' %}
+                                        <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
+                                    {% endif %}
+                                {% endif %}
+                            </div>
                         </div>
                     {% endif %}
                 </div>
-                
-                {% if block.horizontalAlignment == 'right' %}
-                    <div class="col-lg-auto">
-                        <div class="block__media">
-                            {% if block.containerImage != '' %}
-                                {% if block.containerImage.url != '' %}
-                                    <img src="{{block.containerImage.url}}" title="{{block.containerImage.altText}}" class="block__pic" />
-                                {% endif %}
-                            {% endif %}
-                        </div>
-                    </div>
-                {% endif %}
             </div>
         </div>
     </div>

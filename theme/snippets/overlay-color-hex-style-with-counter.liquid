@@ -4,7 +4,7 @@
 {% endif %}
 {% assign hexCounter = hexCounter | plus: 1 %}
 <style>
-    #{{block.__id}}:after
+    #{{block.__id}} > .block:after
     {
         background: {{colorHex}};
         opacity:.7;
