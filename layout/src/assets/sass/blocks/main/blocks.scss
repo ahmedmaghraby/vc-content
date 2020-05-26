@@ -3,7 +3,7 @@
 	align-items: center;
 	display: flex;
 	font-family: Helvetica, sans-serif;
-	padding: 3.75rem 6.25rem;
+	padding: 3.75rem 0;
 
 	.w-100
 	{
@@ -18,7 +18,7 @@
 	}
 
 	@include media-breakpoint-up(xl) {
-		padding: 6.25rem;
+		padding: 6.25rem 0;
 	}
 
 	&--divider
@@ -374,6 +374,21 @@
 			font-size: 0.875rem;
 		}
 	}
+	
+	.block__descr
+    {
+        p,
+        ul,
+        ol
+        {
+            margin-bottom: 1.875rem;
+
+			li
+			{
+				display: list-item;
+			}
+        }
+    }
 
 	.btn--white
 	{
