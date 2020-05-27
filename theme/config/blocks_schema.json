@@ -62,24 +62,20 @@
         "type": "select",
         "options": [
           {
-            "value": "virtocommerce-news",
-            "label": "Virto Commerce News"
-          },
-          {
             "value": "technical",
             "label": "Technical"
           },
           {
-            "value": "release",
-            "label": "Release"
+            "value": "events",
+            "label": "Events"
           },
           {
-            "value": "ecommerce",
-            "label": "Ecommerce"
+            "value": "blogs",
+            "label": "Blogs"
           },
           {
-            "value": "important",
-            "label": "Important"
+            "value": "pressreleases",
+            "label": "Press Releases"
           }
         ]
       },
