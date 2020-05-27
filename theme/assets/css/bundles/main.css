@@ -9160,11 +9160,6 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin-bottom: 1.25rem;
 }
 
-.blog-content p {
-    font-size: 0.875rem;
-    margin-bottom: 1.875rem;
-}
-
 .blog-content ul,
     .blog-content ol {
     margin-bottom: 1.25rem;
