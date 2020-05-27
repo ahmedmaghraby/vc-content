@@ -8,7 +8,7 @@
         "id": 1
     },
     {
-        "id": 2,
+        "id": 1,
         "type": "video",
         "name": "Video and text",
         "title": "Microsoft ASP.NET E-commerce Platform",
@@ -28,10 +28,11 @@
         "align": "right",
         "noTop": null,
         "noBottom": null,
-        "noPad": null
+        "noPad": null,
+        "__id": "videoi5R3"
     },
     {
-        "id": 3,
+        "id": 2,
         "type": "list-and-text",
         "name": "Text over image",
         "title": "Common Issues with Other Microsoft ASP.NET E-commerce Platforms",
@@ -68,10 +69,11 @@
         "showMessage": null,
         "messageTitle": null,
         "messageText": null,
-        "messageLink": null
+        "messageLink": null,
+        "__id": "listandtextKtse"
     },
     {
-        "id": 4,
+        "id": 3,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Without Virto Commerce, how do these problems impact companies using the Microsoft tech stack?",
@@ -113,10 +115,11 @@
         "noTop": true,
         "noBottom": true,
         "noPad": null,
-        "headerType": null
+        "headerType": null,
+        "__id": "listwithimagesVdIG"
     },
     {
-        "id": 5,
+        "id": 4,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -137,10 +140,11 @@
         "noBottom": true,
         "noPad": null,
         "headerStyle": null,
-        "headerType": null
+        "headerType": null,
+        "__id": "text3wk6"
     },
     {
-        "id": 6,
+        "id": 5,
         "type": "list-with-images",
         "name": "List with images",
         "title": "How Virto Commerce's Microsoft .NET E-commerce Platform Solves These Issues",
@@ -185,10 +189,11 @@
         "noTop": true,
         "noBottom": true,
         "noPad": null,
-        "headerType": null
+        "headerType": null,
+        "__id": "listwithimages59g2"
     },
     {
-        "id": 7,
+        "id": 6,
         "type": "text",
         "name": "Text",
         "title": "",
@@ -209,10 +214,11 @@
         "noBottom": true,
         "noPad": null,
         "headerStyle": null,
-        "headerType": null
+        "headerType": null,
+        "__id": "textJWGZ"
     },
     {
-        "id": 8,
+        "id": 7,
         "type": "text-with-button",
         "name": "Text",
         "text": "Download architecture overview",
@@ -224,10 +230,11 @@
         },
         "noTop": true,
         "noBottom": true,
-        "noPad": null
+        "noPad": null,
+        "__id": "textwithbuttonjw9"
     },
     {
-        "id": 9,
+        "id": 8,
         "type": "list-with-images",
         "name": "List with images",
         "title": "Virto Commerce .Net E-Commerce Platform Capabilities",
@@ -330,21 +337,42 @@
         "noTop": null,
         "noBottom": null,
         "noPad": null,
-        "headerType": null
+        "headerType": null,
+        "__id": "listwithimagesvhUl"
+    },
+    {
+        "id": 9,
+        "type": "technologies-list",
+        "style": "light",
+        "headline": "Microsoft e-commerce platform build using cutting-edge web technologies",
+        "__id": "technologieslistFHrm"
     },
     {
         "id": 10,
-        "type": "technologies-list",
-        "style": "light",
-        "headline": "Microsoft e-commerce platform build using cutting-edge web technologies"
-    },
-    {
-        "id": 11,
         "type": "blogs-list",
         "style": "light",
         "count": "3",
         "isShowLast": true,
         "items": [],
-        "title": "The latest entries from our .NET e-commerce blog"
+        "title": "The latest entries from our .NET e-commerce blog",
+        "__id": "blogslistiFVw"
+    },
+    {
+        "id": 11,
+        "type": "text-in-paragraphs-or-in-columns",
+        "__id": "textinparagraphsorincolumnsEc46",
+        "numberOfColumns": "1",
+        "textAreaWidth": "col-lg",
+        "topPadding": "block--padding-top-large",
+        "bottomPadding": "block--padding-bottom-large",
+        "topDivider": null,
+        "bottomDivider": null,
+        "titleSeoTag": "div",
+        "overlayGradient": null,
+        "backgroundColor": "block--bg-white",
+        "backgroundColorHex": null,
+        "title": "Bring your ideas to life",
+        "paragraph": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n\n<ul>\n\t<li>col1</li>\n\t<li><strong>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</strong> Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</li>\n\t<li>col2</li>\n\t<li>&nbsp;</li>\n</ul>\n",
+        "name": null
     }
 ]

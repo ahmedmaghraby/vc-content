@@ -51,11 +51,6 @@
     {% else %}
     {% assign page_image_full_url = full_base_url | append: 'themes/assets/logox2.jpg' %}
     {% endif %}
-    <meta content="{{ page_image_full_url }}" property="og:image" />
-
-    <meta property="og:url" content="{{ canonical_url }}" />
-    <meta content="{{ description }}" property="og:description" />
-    <meta content="{{ title }}" property="og:title" />
 
     <meta content="{{ blog.title }}" property="og:site_name" />
 
@@ -107,6 +102,9 @@
 
     <base href="{{ '/' | absolute_url }}" />
 
+    {% include 'markup-corporation' %}
+    {% include 'markup-website' %}
+    {% include 'markup-webpage' %}
     <!-- html5.js for IE less than 9 -->
     <!--[if lt IE 9]>
         <script src="/js/ie.js"></script>
@@ -155,6 +153,7 @@
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
+    {% include 'markup-opengraph' %}
 </head>
 <body>
     {% include 'google-tag-manager-body' %}

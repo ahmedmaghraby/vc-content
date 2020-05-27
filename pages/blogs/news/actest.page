@@ -1,0 +1,47 @@
+[
+    {
+        "type": "settings",
+        "title": "actest title adminka",
+        "permalink": "blog/actest",
+        "layout": "theme",
+        "header": "actest header",
+        "description": "actest description adminka",
+        "name": null,
+        "markup_webpage_title": "actest title builder",
+        "markup_webpage_description": "actest descr builder",
+        "markup_webpage_image": null,
+        "markup_webpage_date_created": null
+    },
+    {
+        "id": 1,
+        "type": "headline-with-simple-text",
+        "__id": "headlinewithsimpletextQsM",
+        "containerAlignment": "block--align-center",
+        "textAreaWidth": "col-lg",
+        "topPadding": "block--padding-top-large",
+        "bottomPadding": "block--padding-bottom-large",
+        "topDivider": null,
+        "bottomDivider": null,
+        "titleSeoTag": "div",
+        "backgroundColor": "block--bg-white",
+        "backgroundColorHex": null,
+        "backgroundOverlayColor": "none",
+        "backgroundOverlayColorHex": null,
+        "backgroundScrollEffect": "block--cover-static",
+        "title": "<p>actest blog</p>\n",
+        "subtitle": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n",
+        "note": "<p>Our company</p>\n",
+        "background": null,
+        "firstButton": {
+            "url": "",
+            "urlText": "Call to action",
+            "style": "btn btn--orange"
+        },
+        "secondButton": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--orange"
+        },
+        "name": null
+    }
+]

@@ -1,4 +1,4 @@
-<div id="{{ block.__id }}" class="section block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
+<div id="{{ block.__id }}" class="block {{block.containerAlignment}} {{block.backgroundColor}} {{block.topPadding}} {{block.bottomPadding}}
     {% if block.topDivider == 'True' %} block--divider-top {% endif %}
     {% if block.bottomDivider == 'True' %} block--divider-bottom {% endif %}
     {% if block.backgroundColorHex == '' %}{{block.backgroundColor}}{% endif %}"
@@ -12,8 +12,8 @@
                 {% if block.subtitle != '' %}
                     <div class="block__space"></div>
                     <div class="block__descr">{{block.subtitle}}</div>
-                    <div class="block__space block__space--size-lg"></div>
                 {% endif %}
+                <div class="block__space block__space--size-lg"></div>
             </div>
         </div>
 

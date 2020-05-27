@@ -8,7 +8,6 @@
     <meta name="author" content="Virto Commerce" />
     {% if page_description != '' %}
         <meta name="description" content="{{ page_description | escape }}" />
-        <meta property="og:description" content="{{ page_description | escape }}" />
     {% else %}
         <meta name="description" content="Virto Commerce - enterprise .NET Microsoft Ecommerce Platform for B2B & B2C solutions" />
     {% endif %}
@@ -17,13 +16,10 @@
     <meta itemprop="name" content="Virto Commerce" />
     <meta itemprop="description" content="Multi Channel Ecommerce Platform | Enterprise Shopping Cart Software | VirtoCommerce" />
     <meta itemprop="image" content="{{ 'virtocommerce.png' | asset_url }}" />
-    <meta property="og:url" content="{{ canonical_url }}" />
-    <meta property="og:image" content="{{ 'virtocommerce.png' | asset_url }}" />
     <meta name="google-site-verification" content="U2sXV9qIWUb-RceW8MpL-EfFnwvOqCo_jLWIDL8c6xI" />
     <link type="image/x-icon" rel="shortcut icon" href="{{ 'favicon.ico' | asset_url }}" />
     {% if page_title != '' %}
         <title>{{ page_title }}</title>
-        <meta property="og:title" content="{{ page_title }}" />
     {% else %}
         <title>Virto Commerce - Enterprise ASP.NET open-source Microsoft e-commerce platform</title>
     {% endif %}
@@ -45,6 +41,9 @@
     {{ content_for_header }}
     <base href="{{ '/' | absolute_url }}" />
     {% include 'autopilot' %}
+    {% include 'markup-corporation' %}
+    {% include 'markup-website' %}
+    {% include 'markup-opengraph' %}
 </head>
 <body ng-controller="mainController">
     {% include 'google-tag-manager-body' %}
