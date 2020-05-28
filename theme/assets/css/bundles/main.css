@@ -4381,6 +4381,7 @@ code {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
 }
 
 .block .list-items .list__item {
@@ -7411,6 +7412,10 @@ code {
     }
 }
 
+.block__actions .btn--w-auto {
+    width: auto;
+}
+
 .block--align-center .block__inner {
     align-items: center;
     text-align: center;
@@ -9158,11 +9163,6 @@ input.ng-touched.ng-invalid, .input-validation-error {
     font-size: 1.125rem;
     font-weight: 900;
     margin-bottom: 1.25rem;
-}
-
-.blog-content p {
-    font-size: 0.875rem;
-    margin-bottom: 1.875rem;
 }
 
 .blog-content ul,
