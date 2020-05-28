@@ -44,7 +44,7 @@
                             {% if column.button != '' and column.button.urlText != '' %}
                                 <div class="block__space"></div>
                                 <div class="block__actions">
-                                    <a href="{{column.button.url}}" class="{{column.button.style}}" {% if column.buttonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{column.button.urlText}}</a>
+                                    <a href="{{column.button.url}}" class="{{column.button.style}} btn--w-auto" {% if column.buttonIsNewWindow == 'True' %} target="_blank" {% endif %}>{{column.button.urlText}}</a>
                                 </div>
                         {% endif %}
                         </div>

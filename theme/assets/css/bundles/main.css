@@ -7412,6 +7412,10 @@ code {
     }
 }
 
+.block__actions .btn--w-auto {
+    width: auto;
+}
+
 .block--align-center .block__inner {
     align-items: center;
     text-align: center;
