@@ -47,7 +47,7 @@
                         </style>
                     {% endif %}
                     {% if block.numberOfColumns == '1' %}
-                        <div class="block__descr {% if block.overlayGradient == 'True' %} block__descr--fade-{{block.id}} {% endif %}">{{block.paragraph}}</div>
+                        <div class="block__descr--normal {% if block.overlayGradient == 'True' %} block__descr--fade-{{block.id}} {% endif %}">{{block.paragraph}}</div>
                     {% else %}
                         <div class="row">
                             {% assign words = block.paragraph | split: " " %}
