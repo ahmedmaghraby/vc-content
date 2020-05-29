@@ -198,6 +198,16 @@ $(function (){
             $(this).val(this.checked);
         });
 
+        $.validator.addMethod('email-is-business', function (value) {
+            var notAllowedDomains = ['gmail', 'yahoo', 'hotmail', 'aol', 'msn', 'wanadoo', 'orange', 'comcast', 'live', 'rediffmail', 'free', 'gmx', 'web', 'ymail', 'yandex', 'libero', 'outlook', 'uol', 'bol', 'mail', 'cox', 'sbcglobal', 'sfr', 'verizon', 'googlemail', 'ig', 'bigpond', 'terra', 'neuf', 'alice', 'rocketmail', 'att', 'laposte', 'facebook', 'bellsouth', 'charter', 'rambler', 'tiscali', 'shaw', 'sky', 'earthlink', 'optonline', 'freenet', 't-online', 'aliceadsl', 'virgilio', 'home', 'qq', 'telenet', 'me', 'voila', 'planet', 'tin', 'ntlworld', 'arcor', 'frontiernet', 'hetnet', 'zonnet', 'club-internet', 'juno', 'optusnet', 'blueyonder', 'bluewin', 'skynet', 'sympatico', 'windstream', 'mac', 'centurytel', 'chello', 'aim', 'gmx.de'];
+            value = value.toLowerCase();
+            for (var domain of notAllowedDomains) {
+                if (value.indexOf('@' + domain) > -1)
+                    return false;
+            }
+            return true;
+        }, 'You have entered the personal email instead of the work email. Please, use your business email.');
+
         blockForms.submit(function (e) {
             if ($(e.target).valid()) {
                 var redirectUrl = e.target.dataset.targetUrl;

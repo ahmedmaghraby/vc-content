@@ -38,7 +38,7 @@
                                 {% endif %}
                                 <input data-segment-name="{{item.fieldName}}" {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %} name="{{item.fieldName}}"
                                         placeholder="{{item.placeholder}}" type="text" class="form-control" {% include 'input-validation-attributes' inputItem: item %}
-                                        data-val-email="{{item.placeholder}} is invalid" />
+                                        data-val-email="{{item.placeholder}} is invalid" data-rule-email-is-business="true" />
                                 {% include 'form-validation-message' inputItem: item %}
                             </div>
                         {% elsif item.fieldType == 'phone' %}

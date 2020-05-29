@@ -42,7 +42,7 @@
                                 <input type="text" class="form-control"
                                 {% if item.required == 'True' %}
                                     data-val="true" data-val-required="" aria-required="true" aria-invalid="true"
-                                    {% if item.fieldType == 'email' %} data-val-email="" {% endif %}
+                                    {% if item.fieldType == 'email' %} data-val-email="" data-rule-email-is-business="true" {% endif %}
                                     {% if item.fieldType == 'phone' %} data-val-regex="" data-val-regex-pattern="[0-9]{11,}" {% endif %}
                                 {% endif %}
                                 {% if item.fieldId != '' %} id="{{item.fieldId}}" {% endif %}
