@@ -5159,13 +5159,13 @@ code {
 
 @media (min-width: 992px) {
     .header .dropdown-menu .container {
-        padding-left: 11.875rem;
+        padding-left: 5rem;
     }
 }
 
 @media (min-width: 1200px) {
     .header .dropdown-menu .container {
-        padding-left: 19.625rem;
+        padding-left: 5rem;
     }
 }
 
