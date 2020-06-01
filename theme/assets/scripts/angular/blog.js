@@ -2,14 +2,14 @@ var storefrontApp = angular.module('storefrontApp');
 
 storefrontApp.service('blogService', ['$http', function ($http) {
     return {
-        getArticles: function (blogName, criteria) {
-            return $http.post('storefrontapi/blog/' + blogName + '/search', { criteria: criteria });
+        getArticles: function (blogName, criteria, pageNumber, pageSize) {
+            return $http.post('storefrontapi/blog/' + blogName + '/search', { criteria: criteria, pageNumber: pageNumber, pageSize: pageSize });
         }
     };
 }]);
 
 storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 'dialogService', function ($scope, $window, blogService, dialogService) {
-    $scope.pageNumber = 2;
+    $scope.pageNumber = 1;
     $scope.articles = [];
     $scope.emailPattern = new RegExp(/((^|((?!^)([,;]|\r|\r\n|\n)))([a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))+$/);
 
@@ -17,12 +17,10 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
         var blogSearchCriteria = {
             category: $window.currentBlogCategory,
             tag: $window.currentBlogTag,
-            pageNumber: pageNumber,
-            pageSize: $window.pageSize,
             excludedArticleHandles: $window.excludedArticleHandles
         };
         $scope.isLoading = true;
-        blogService.getArticles($window.blogName, blogSearchCriteria).then(function (response) {
+        blogService.getArticles($window.blogName, blogSearchCriteria, pageNumber, $window.pageSize).then(function (response) {
             _.each(response.data, function (article) {
                 article.imageUrl = BASE_URL + (article.imageUrl || 'themes/assets/blue-abstract-background.jpg');
                 article.authorImageUrl = BASE_URL + 'themes/assets/logo-mini.png';

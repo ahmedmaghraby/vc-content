@@ -11,41 +11,23 @@
         </div>
         {% assign has_more = false %}
         {% assign sticked_article = blog.articles | where: 'IsSticked', '==', true | sort_list: 'publishedAt:desc' | first %}
-        {% assign page_size = 8 %}
+        {% assign page_size = 10 %}
         <div class="blog-main">
             {% include 'blog-sticked-item' article: sticked_article %}
-            {% include 'blog-subscribe'%}
-        </div>
-        {% assign articles = blog.articles | where: 'Url', '!=', sticked_article.url %}
-        {% if blog_search.category != nil %}
-            {% assign articles = articles | where: 'Category', '==', blog_search.category %}
-        {% elseif blog_search.tag != nil %}
-            {% assign articles = articles | where: 'Tags', 'contains', blog_search.tag %}
-        {% endif %}
-        {% assign articles = articles | sort_list: 'publishedAt:desc' %}
-        <div class="list list--posts">
-            {% for article in articles %}
-                {% include 'blog-list-item' article: article, style: "single" %}
-                {% if forloop.index == page_size %}
-                    {% assign has_more = true %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
+            {% include 'blog-subscribe' %}
         </div>
         {{ settings.blog.sticked_article_url }}
     </div>
-
-    <div class="posts __responsive container" ng-if="articles || articles.length">
+    
+    <div class="posts __responsive container" ng-init="getArticles(1)" ng-if="articles || articles.length">
         <div class="list list--posts">
             {% include 'blog-list-item-js' %}
         </div>
     </div>
 
-    {% if has_more == true %}
-        <div class="more __responsive container" ng-if="!isLastPage">
-            <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
-        </div>
-    {% endif %}
+    <div class="more __responsive container" ng-if="!isLastPage">
+        <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
+    </div>
 
     {% include 'blog-trending-list' %}
 
