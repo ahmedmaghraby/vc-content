@@ -112,11 +112,11 @@
     .dropdown-menu .container
     {
         @include media-breakpoint-up(lg) {
-            padding-left: 11.875rem;
+            padding-left: 5rem;
         }
 
         @include media-breakpoint-up(xl) {
-            padding-left: 19.625rem;
+            padding-left: 5rem;
         }
     }
 
