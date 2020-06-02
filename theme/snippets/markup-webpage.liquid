@@ -1,3 +1,4 @@
+{% unless page.content and page.content contains "<div" %}
 <!-- WebPage -->
 {% assign web_page_blocks = page.content | parse_json %}
 
@@ -100,3 +101,4 @@
         document.getElementById('ldBuilder').remove();
     }
 </script>
+{% endunless %}
