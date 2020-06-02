@@ -8863,11 +8863,6 @@ input.ng-touched.ng-invalid, .input-validation-error {
     font-size: 1.125rem;
 }
 
-.glossary__content p {
-    font-size: .875rem;
-    margin: 1rem 0;
-}
-
 .glossary__content img {
     display: block;
     margin: 1rem 0;
