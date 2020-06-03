@@ -2,14 +2,15 @@
     <div class="posts __responsive container" itemprop="blogPosts">
         <h1 class="blog__t">{{blog.title}}</h1>
         <div class="list list--tags">
+            <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentTag('', '');">All</a>
             {% for category in blog.categories %}
                 {% assign category_handle = category | handleize %}
                 {% assign blog_url = '~/blogs/' | append: blog.handle  %}
                 {% assign category_url = '/blog/category/' | append: category %}
-                <a class="list__item" href="{{ category_url | absolute_url }}">{{ "blogs.categories." | append: category | t }}</a>
+                {% assign tagName = "blogs.categories." | append: category | t %}
+                <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentTag('{{category}}', '{{tagName}}');">{{tagName}}</a>
             {% endfor %}
         </div>
-        {% assign has_more = false %}
         {% assign sticked_article = blog.articles | where: 'IsSticked', '==', true | sort_list: 'publishedAt:desc' | first %}
         {% assign page_size = 10 %}
         <div class="blog-main">
@@ -18,15 +19,18 @@
         </div>
         {{ settings.blog.sticked_article_url }}
     </div>
-    
-    <div class="posts __responsive container" ng-init="getArticles(1)" ng-if="articles || articles.length">
+
+    <div class="posts __responsive container" ng-init="getArticles()" ng-if="articles || articles.length">
+        {% raw %}
+            <div class="blog__t" ng-if="currentTag && currentTag != '' && articles.length > 0">Articles by tag "{{currentTagLabel}}"</div>
+            <div class="blog__t" ng-if="!isLoading && currentTag != '' && articles.length == 0">No articles by tag "{{currentTagLabel}}"</div>
+        {% endraw %}
         <div class="list list--posts">
             {% include 'blog-list-item-js' %}
         </div>
     </div>
-
     <div class="more __responsive container" ng-if="!isLastPage">
-        <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles(pageNumber)">Older</a>
+        <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles()">Older</a>
     </div>
 
     {% include 'blog-trending-list' %}

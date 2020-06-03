@@ -2,15 +2,17 @@
     <a class="list__bg" href="{{ article.url | absolute_url }}" style="background-image: url({% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></a>
     <div class="list__category" data-name="{{ article.category }}">{{ article.category }}</div>
     <div class="list__info">
-        <div class="list__t"><a href="{{ article.url | absolute_url }}">{{ article.title }}</a></div>
+        <div class="list__t">
+            <a href="{{ article.url | absolute_url }}">{{ article.title }}</a>
+        </div>
         <div class="list__descr">
             {{ article.excerpt }}
         </div>
         {% if article.tags.size > 0 %}
         <div class="list list--tags">
             {% for tag in article.tags limit:3 %}
-                {% assign tag_url = '/blog/tag/' | append: tag  %}
-                <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
+            {% assign tag_url = '/blog/tag/' | append: tag  %}
+            <a class="list__item" ng-click="setCurrentTag('{{tag}}', '{{ 'blogs.tags.' | append: tag | t }}');">{{ "blogs.tags." | append: tag | t }}</a>
             {% endfor %}
         </div>
         {% endif %}
@@ -18,9 +20,8 @@
             <div class="list__author-logo"></div>
             <div class="list__author-text">
                 <div class="list__author-name">{{ article.author }}</div>
-                <div class="list__author-date">{{ article.created_at | date: "%b %d, %Y" }}</div>
+                <div class="list__author-date">{{ article.created_date | date: "MMM %d, yyyy" }}</div>
             </div>
         </div>
     </div>
 </div>
-

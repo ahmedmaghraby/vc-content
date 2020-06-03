@@ -9074,6 +9074,10 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin-left: auto;
 }
 
+.blog .posts ~ .posts {
+    margin-top: 1.5rem;
+}
+
 .blog .blog__t {
     align-items: center;
     display: flex;

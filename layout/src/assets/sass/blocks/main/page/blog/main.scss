@@ -28,6 +28,10 @@
         }
     }
 
+    .posts ~ .posts {
+        margin-top: 1.5rem;
+    }
+
     .blog__t {
         align-items: center;
         display: flex;

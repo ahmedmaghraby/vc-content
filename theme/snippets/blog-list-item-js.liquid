@@ -7,7 +7,7 @@
             {% raw %}{{ article.excerpt }}{% endraw %}
         </div>
         <div class="list list--tags" ng-if="article.tags.length > 0">
-            <a class="list__item" ng-repeat="tag in article.tags | limitTo: 3" ng-href="/blog/tag/{% raw %}{{ tag }}{% endraw %}" ng-bind="'blogs.tags.' + tag | translate"></a>
+            <a class="list__item" ng-repeat="tag in article.tags | limitTo: 3" {% raw %} ng-click="setCurrentTag(tag, ('blogs.tags.' + tag | translate));" {% endraw %} ng-bind="'blogs.tags.' + tag | translate"></a>
         </div>
         <div class="list__author">
             <div class="list__author-logo"></div>
