@@ -2,7 +2,9 @@
     <a class="list__bg" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
     <div class="list__category" ng-if="article.category" ng-bind="'blogs.categories.' + article.category | translate"></div>
     <div class="list__info">
-        <div class="list__t" ng-bind="article.title"></div>
+        <div class="list__t">
+            <a href="{{ article.url | absolute_url }}">{{ article.title }}</a>
+        </div>
         <div class="list__descr">
             {% raw %}{{ article.excerpt }}{% endraw %}
         </div>
