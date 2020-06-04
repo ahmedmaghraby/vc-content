@@ -2,13 +2,13 @@
     <div class="posts __responsive container" itemprop="blogPosts">
         <h1 class="blog__t">{{blog.title}}</h1>
         <div class="list list--tags">
-            <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentTag('', '');">All</a>
+            <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentCategory('');">All</a>
             {% for category in blog.categories %}
                 {% assign category_handle = category | handleize %}
                 {% assign blog_url = '~/blogs/' | append: blog.handle  %}
                 {% assign category_url = '/blog/category/' | append: category %}
-                {% assign tagName = "blogs.categories." | append: category | t %}
-                <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentTag('{{category}}', '{{tagName}}');">{{tagName}}</a>
+                {% assign categoryName = "blogs.categories." | append: category | t %}
+                <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentCategory('{{category}}');">{{categoryName}}</a>
             {% endfor %}
         </div>
         {% assign sticked_article = blog.articles | where: 'IsSticked', '==', true | sort_list: 'publishedAt:desc' | first %}
