@@ -1,21 +1,21 @@
 <div class="list__item" ng-repeat="article in articles">
     <a class="list__bg" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
-    <div class="list__category" ng-if="article.category" ng-bind="'blogs.categories.' + article.category | translate"></div>
     <div class="list__info">
-        <div class="list__t">
-            <a href="{{ article.url | absolute_url }}">{{ article.title }}</a>
-        </div>
+        <div class="list__t" ng-bind="article.title"></div>
         <div class="list__descr">
-            {% raw %}{{ article.excerpt }}{% endraw %}
+            {% raw %}
+            <a class="list__descr" href="{{article.url}}">{{article.excerpt}}</a>
+            <div class="block__space"></div>
+            <div ng-bind="article.createdDate | date: 'd MMMM y'"></div>
+            {% endraw %}
         </div>
         <div class="list list--tags" ng-if="article.tags.length > 0">
-            <a class="list__item" ng-repeat="tag in article.tags | limitTo: 3" {% raw %} ng-click="setCurrentTag(tag, ('blogs.tags.' + tag | translate));" {% endraw %} ng-bind="'blogs.tags.' + tag | translate"></a>
+            <a class="list__item" ng-if="article.category" ng-click="setCurrentCategory(article.category)" ng-bind="'blogs.categories.' + article.category | translate"></a>
         </div>
         <div class="list__author">
             <div class="list__author-logo"></div>
             <div class="list__author-text">
-                <div class="list__author-name" ng-bind="article.author || 'VirtoCommerce'"></div>
-                <div class="list__author-date" ng-bind="article.createdDate | date: format: 'MMMM d, y'"></div>
+                <div class="list__author-name" ng-bind="article.author"></div>
             </div>
         </div>
     </div>
