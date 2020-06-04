@@ -19,7 +19,11 @@
         <div class="list__author">
             <div class="list__author-logo"></div>
             <div class="list__author-text">
+            {% if article.author %}
                 <div class="list__author-name">{{ article.author }}</div>
+            {% else %}
+                <div class="list__author-name">VirtoCommerce</div>
+            {% endif %}
                 <div class="list__author-date">{{ article.created_date | date: "MMM %d, yyyy" }}</div>
             </div>
         </div>
