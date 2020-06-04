@@ -15,7 +15,7 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
 
     $scope.getArticles = function () {
         var blogSearchCriteria = {
-            category: $window.currentBlogCategory,
+            category: $scope.currentCategory,
             pageNumber: $scope.pageNumber,
             pageSize: $window.pageSize,
             tag: $scope.currentTag,
@@ -46,6 +46,11 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
         } else {
             event.preventDefault();
         }
+    };
+
+    $scope.setCurrentCategory = function (category) {
+        $scope.currentCategory = category;
+        $scope.setCurrentTag('', '');
     };
 
     $scope.setCurrentTag = function (tag, tagLabel) {
