@@ -32,9 +32,6 @@
     <div class="more __responsive container" ng-if="!isLastPage">
         <a class="btn btn--lg" style="justify-content: center; width: 100%; margin: 20px 0;" ng-class="{ 'loading': isLoading }" ng-click="getArticles()">Older</a>
     </div>
-
-    {% include 'blog-trending-list' %}
-
 </div>
 <script>
     window.blogName = '{{ blog.handle }}';
