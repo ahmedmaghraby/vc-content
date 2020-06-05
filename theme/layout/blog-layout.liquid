@@ -89,7 +89,7 @@
     {{ '//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js' | script_tag }}
     {{ 'app.js' | asset_url | script_tag }}
     {{ 'services.js' | asset_url | script_tag }}
-    {{ 'blog.js' | asset_url | script_tag }}
+    {{ 'blog.js?v=1.03' | asset_url | script_tag }}
     {{ 'feedback.js' | asset_url | script_tag }}
     {{ 'main.js' | asset_url | script_tag }}
 
@@ -104,7 +104,11 @@
 
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
-    {% include 'markup-webpage' %}
+    {% if article %}
+        {% include 'markup-blog' %}
+    {% else %}
+        {% include 'markup-webpage' %}
+    {% endif %}
     <!-- html5.js for IE less than 9 -->
     <!--[if lt IE 9]>
         <script src="/js/ie.js"></script>
@@ -114,42 +118,6 @@
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-    {% if article %}
-    <script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "mainEntityOfPage":{
-        "@type":"WebPage",
-        "@id":"{{ canonical_url }}"
-        },
-        "headline": "{{ article.title }}",
-        "image": {
-        "@type": "ImageObject",
-        "url": "{{ page_image_url | absolute_url }}",
-        "height": 800,
-        "width": 800
-        },
-        "datePublished": "{{ article.created_at }}",
-        "dateModified": "{{ article.created_at }}",
-        "author": {
-        "@type": "Person",
-        "name": "{{ article.author }}"
-        },
-        "publisher": {
-        "@type": "Organization",
-        "name": "{{ article.author }}",
-        "logo": {
-        "@type": "ImageObject",
-        "url": "{{}}",
-        "width": 600,
-        "height": 60
-        }
-        },
-        "description": "{{ page_description }}"
-        }
-    </script>
-    {% endif %}
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
@@ -171,7 +139,7 @@
             {% include 'footer' %}
         </div>
     </div>
-    {{ 'js/main.js?v=1.01' | asset_url | script_tag }}
+    {{ 'js/main.js?v=' | append main_js_version | asset_url | script_tag }}
     {{ 'js/ipdata.js?v=1.01' | asset_url | script_tag }}
     {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>

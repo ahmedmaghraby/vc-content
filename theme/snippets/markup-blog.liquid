@@ -1,0 +1,35 @@
+<!-- BlogPosting -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage":{
+        "@type":"WebPage",
+        "@id":"{{ canonical_url }}"
+    },
+    "headline": "{{ article.title }}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ page_image_url | absolute_url }}",
+        "height": 800,
+        "width": 800
+    },
+    "datePublished": "{{ article.created_at }}",
+    "dateModified": "{{ article.created_at }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ article.author }}"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ article.author }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{}}",
+            "width": 600,
+            "height": 60
+        }
+    },
+    "description": "{{ page_description }}"
+}
+</script>
