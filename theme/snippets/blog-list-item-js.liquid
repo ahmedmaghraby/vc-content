@@ -9,7 +9,7 @@
             <div ng-bind="article.createdDate | date: 'd MMMM y'"></div>
             {% endraw %}
         </div>
-        <div class="list list--tags" ng-if="article.tags.length > 0">
+        <div class="list list--tags">
             <a class="list__item" ng-if="article.category" ng-click="setCurrentCategory(article.category)" ng-bind="'blogs.categories.' + article.category | translate"></a>
         </div>
         <div class="list__author">
