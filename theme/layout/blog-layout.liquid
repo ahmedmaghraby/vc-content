@@ -89,7 +89,7 @@
     {{ '//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js' | script_tag }}
     {{ 'app.js' | asset_url | script_tag }}
     {{ 'services.js' | asset_url | script_tag }}
-    {{ 'blog.js' | asset_url | script_tag }}
+    {{ 'blog.js?v=' | append blog_js_version | asset_url | script_tag }}
     {{ 'feedback.js' | asset_url | script_tag }}
     {{ 'main.js' | asset_url | script_tag }}
 

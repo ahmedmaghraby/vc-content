@@ -92,7 +92,8 @@
       {
         "id": "excerpt",
         "label": "Excerpt",
-        "type": "text"
+        "type": "text",
+        "multiline": true
       },
       {
         "id": "main-image",

@@ -3,7 +3,7 @@ var storefrontApp = angular.module('storefrontApp');
 storefrontApp.service('blogService', ['$http', function ($http) {
     return {
         getArticles: function (blogName, criteria) {
-            return $http.post('storefrontapi/blog/' + blogName + '/search', { criteria: criteria });
+            return $http.post('storefrontapi/blog/' + blogName + '/search', criteria);
         }
     };
 }]);
@@ -24,7 +24,7 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
         $scope.isLoading = true;
         blogService.getArticles($window.blogName, blogSearchCriteria).then(function (response) {
             _.each(response.data, function (article) {
-                article.imageUrl = BASE_URL + (article.imageUrl || 'themes/assets/blue-abstract-background.jpg');
+                article.imageUrl = article.imageUrl || 'themes/assets/blue-abstract-background.jpg';
                 article.authorImageUrl = BASE_URL + 'themes/assets/logo-mini.png';
                 $scope.articles.push(article);
             });
