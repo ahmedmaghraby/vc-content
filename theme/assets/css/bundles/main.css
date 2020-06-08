@@ -9543,7 +9543,7 @@ input.ng-touched.ng-invalid, .input-validation-error {
     align-items: center;
     display: flex;
     height: 3rem;
-    margin-top: 0.5rem;
+    margin-top: auto;
 }
 
 .blog .list--posts .list__author-logo {
