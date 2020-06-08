@@ -1,4 +1,4 @@
-<div class="blog" itemtype="http://schema.org/Article" itemscope>
+<div class="blog" itemtype="http://schema.org/Article" itemscope ng-controller="blogController">
     <div class="container">
         <h1 class="blog__t">
             <a class="blog__t-ico" href="{{ '/blog' | absolute_url }}">
@@ -7,14 +7,12 @@
             {{ article.title }}
         </h1>
         <div class="blog__meta">
-            <div class="blog__date">{{ article.created_at | date: "%b %d, %Y" }}</div>
-            <div class="list list--tags list--tags-small ml-auto">
-                {% for tag in article.tags %}
-                    {% assign tag_url = '/blog/tag/' | append: tag  %}
-                    <a class="list__item" href="{{ tag_url | absolute_url }}">{{ "blogs.tags." | append: tag | t }}</a>
-                {% endfor %}
+            <div class="blog__date">Published on {{article.created_date | date: "%d MMMM yyyy"}} in</div>
+            <div class="list list--tags list--tags-small">
+                <a class="list__item" ng-click="setCurrentCategoryFromArticle('{{article.category}}')" ng-bind="'blogs.categories.' + '{{article.category}}' | translate">{{ "blogs.categories." | append: article.category | t }}</a>
             </div>
         </div>
+        
         <!-- Blog main -->
         <div class="blog-main">
             <div class="blog-content">

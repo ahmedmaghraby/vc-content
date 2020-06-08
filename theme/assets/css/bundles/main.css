@@ -9102,6 +9102,7 @@ input.ng-touched.ng-invalid, .input-validation-error {
 
 .blog .blog__date {
     margin-left: 4.375rem;
+    margin-right: .35rem;
 }
 
 @media (min-width: 768px) {

@@ -21,10 +21,6 @@
     </div>
 
     <div class="posts __responsive container" ng-init="getArticles()" ng-if="articles || articles.length">
-        {% raw %}
-            <div class="blog__t" ng-if="currentTag && currentTag != '' && articles.length > 0">Articles by tag "{{currentTagLabel}}"</div>
-            <div class="blog__t" ng-if="!isLoading && currentTag != '' && articles.length == 0">No articles by tag "{{currentTagLabel}}"</div>
-        {% endraw %}
         <div class="list list--posts">
             {% include 'blog-list-item-js' %}
         </div>
