@@ -1,7 +1,9 @@
 <div class="list__item" ng-repeat="article in articles">
     <a class="list__bg" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
     <div class="list__info">
-        <div class="list__t" ng-bind="article.title"></div>
+        <div class="list__t">
+            <a href="{% raw %}{{article.url}}{% endraw %}" ng-bind="article.title"></a>
+        </div>
         <div class="list__descr">
             {% raw %}
             <a class="list__descr" href="{{article.url}}">{{article.excerpt}}</a>
