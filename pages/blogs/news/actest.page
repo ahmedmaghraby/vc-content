@@ -11,11 +11,11 @@
         "markup_webpage_description": "actest descr builder",
         "markup_webpage_image": null,
         "markup_webpage_date_created": null,
-        "category": null,
+        "category": "pressreleases",
         "date": "2020-05-26T00:00:00.000Z",
-        "excerpt": "<p>This letters I will see on blog list page.</p>\n",
+        "excerpt": "This letters I will see on blog list page.\n",
         "main-image": "http://localhost/admin/assets/blogs/IMG_20200401_010253_1_plVJnZ-PTl.jpg",
-        "is-sticked": null
+        "is-sticked": true
     },
     {
         "id": 1,
