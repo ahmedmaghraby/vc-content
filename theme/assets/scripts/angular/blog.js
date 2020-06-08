@@ -11,6 +11,7 @@ storefrontApp.service('blogService', ['$http', function ($http) {
 storefrontApp.controller('blogController', ['$scope', '$window', '$cookies', 'blogService', 'dialogService', function ($scope, $window, $cookies, blogService, dialogService) {
     $scope.pageNumber = 1;
     $scope.articles = [];
+    $scope.currentCategory = '';
     $scope.emailPattern = new RegExp(/((^|((?!^)([,;]|\r|\r\n|\n)))([a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))+$/);
 
     var articleCategory = $cookies.get('currentCategory');

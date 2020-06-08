@@ -9402,13 +9402,13 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin-bottom: 0.9375rem;
     margin-right: 0.9375rem;
     padding: 0 0.625rem;
+    cursor: pointer;
 }
 
 .blog .list--tags .list__item--active {
     background: #ffc107;
     border-color: #ffc107;
     color: #fff;
-    pointer-events: none;
 }
 
 .blog .list--tags .list__item:hover {
