@@ -1,9 +1,9 @@
 {% if tag == 'h1' %}
-    <h1 class="block__t">{{text}}</h1>
+    <h1 class="block__t">{{text | strip_html}}}</h1>
 {% elsif tag == 'h2' %}
-    <h2 class="block__t">{{text}}</h2>
+    <h2 class="block__t">{{text | strip_html}}}</h2>
 {% elsif tag == 'h3' %}
-    <h3 class="block__t">{{text}}</h3>
+    <h3 class="block__t">{{text | strip_html}}}</h3>
 {% else %}
     <div class="block__t">{{text}}</div>
 {% endif %}
