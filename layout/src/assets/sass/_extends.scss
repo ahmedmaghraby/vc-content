@@ -195,7 +195,7 @@
     {
         display: block;
         position: relative;
-        width: 100%;
+        max-height: 100%;
         z-index: 5;
     }
 
@@ -423,6 +423,13 @@
             min-height: 0;
             width: 4.375rem;
 
+            &--big
+            {
+                flex: 0 0 8.75rem;
+                height: 8.75rem;
+                width: 8.75rem;
+            }
+
             &::after
             {
                 border-radius: 100%;
@@ -432,6 +439,11 @@
         .list__pic
         {
             border-radius: 100%;
+
+            &--not-rounded
+            {
+                border-radius: initial;
+            }
         }
 
         .list__pos
@@ -445,7 +457,7 @@
             font-size: 1rem;
             line-height: 1rem;
             font-weight: bold;
-            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
         }
     }
 
