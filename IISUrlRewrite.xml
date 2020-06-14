@@ -1,8 +1,9 @@
 <rewrite>
     <rewriteMaps>
         <rewriteMap name="VC-redirects">
-			<add key="/blog/ai-challenges-and-solutions" value="/blog/ai-in-ecommerce" />
-			<add key="/meds" value="/solutions/meds" />
+			 <add key="/case-studies/lavazza" value="/case-studies/lavazza-nederland" />
+            <add key="/blog/ai-challenges-and-solutions" value="/blog/ai-in-ecommerce" />
+            <add key="/meds" value="/solutions/meds" />
             <add key="/b2b-cms" value="/glossary/e-commerce-cms" />
             <add key="/apps/extensions/virto-cms-module" value="/apps" />
             <add key="/blog/no-cms-approach-for-e-commerce" value="/glossary/e-commerce-cms" />
