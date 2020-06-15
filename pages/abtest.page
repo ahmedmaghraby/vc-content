@@ -1,0 +1,91 @@
+[
+    {
+        "type": "settings",
+        "title": "",
+        "permalink": "abtest",
+        "layout": "theme",
+        "header": "abtest"
+    },
+    {
+        "id": 1,
+        "type": "cover-with-simple-text",
+        "__id": "coverwithsimpletextOm6G",
+        "horizontalAlignment": "center",
+        "textAreaWidth": "col-lg",
+        "titleSeoTag": "div",
+        "backgroundColorHex": null,
+        "backgroundOverlayColor": "none",
+        "backgroundOverlayColorHex": null,
+        "backgroundScrollEffect": "block--cover-static",
+        "title": "<p>Bring <span style=\"color:#9b59b6\">your ideas to life</span></p>\n",
+        "subtitle": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n",
+        "note": "<p>Our company</p>\n",
+        "background": null,
+        "firstButton": {
+            "url": "",
+            "urlText": "Call to action",
+            "style": "btn btn--orange"
+        },
+        "secondButton": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--orange"
+        },
+        "verticalAlignment": "align-self-start",
+        "backgroundColor": "block--bg-white",
+        "name": null
+    },
+    {
+        "id": 2,
+        "type": "features-with-icons-in-columns",
+        "__id": "featureswithiconsincolumnsRoyH",
+        "columnsCount": "3",
+        "textAreaWidth": "col-lg",
+        "topDivider": null,
+        "bottomDivider": null,
+        "topPadding": "block--padding-top-large",
+        "bottomPadding": "block--padding-bottom-large",
+        "titleSeoTag": "h2",
+        "subtitlePosition": "upper",
+        "iconsType": "numbers",
+        "iconsAreFilled": null,
+        "iconsFilling": "orange",
+        "backgroundColor": "block--bg-white",
+        "backgroundColorHex": null,
+        "title": "<p>Bring y<span style=\"color:#2980b9\">our ideas to life</span></p>\n",
+        "subtitle": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n",
+        "columns": [
+            {
+                "title": "Access to customer insights yields competitive advantage",
+                "subtitle": null,
+                "image": null,
+                "button": {
+                    "url": "",
+                    "urlText": "Call to action",
+                    "style": "btn btn--orange"
+                }
+            },
+            {
+                "title": "Access to customer insights yields competitive advantage",
+                "subtitle": null,
+                "image": null,
+                "button": {
+                    "url": "",
+                    "urlText": "Call to action",
+                    "style": "btn btn--orange"
+                }
+            },
+            {
+                "title": "Access to customer insights yields competitive advantage",
+                "subtitle": null,
+                "image": null,
+                "button": {
+                    "url": "",
+                    "urlText": "Call to action",
+                    "style": "btn btn--orange"
+                }
+            }
+        ],
+        "name": null
+    }
+]

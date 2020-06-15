@@ -15,7 +15,16 @@
         "date": "2020-05-26T00:00:00.000Z",
         "excerpt": "This letters I will see on blog list page.\n",
         "main-image": "http://localhost/admin/assets/blogs/IMG_20200401_010253_1_plVJnZ-PTl.jpg",
-        "is-sticked": true
+        "is-sticked": true,
+        "author": {
+            "id": "d42c28de31374b609278014c88ca9759",
+            "firstName": "test",
+            "lastName": "employee",
+            "photoUrl": "https://vcpro.blob.core.windows.net/cms-content/Pages/vccom/assets/images/team/12.jpg",
+            "jobTitle": "SEO Manager",
+            "biography": "This is our first test employee. Now he is VC Author!",
+            "linkedinLink": "http://bash.im"
+        }
     },
     {
         "id": 1,
