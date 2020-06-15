@@ -29,6 +29,7 @@
             <div class="blog-content">
                 <div class="blog-hero" style="background-image: url({% if article.image_url != '' %}{{ article.image_url }}{% else %}blue-abstract-background.jpg{% endif %});"></div>
                 {% include 'json-blocks' page: article -%}
+                {% include 'article-author' article_author: page_settings.author -%}
                 <div class="blog__meta">
                     <div class="list list--tags list--tags-small">
                         {% for tag in article.tags %}
