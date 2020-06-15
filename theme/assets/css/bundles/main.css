@@ -7148,7 +7148,7 @@ code {
     padding: 3.75rem 0;
 }
 
-.block .w-100, .block .row {
+.block .w-100 {
     width: 100%;
 }
 
