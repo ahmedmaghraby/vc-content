@@ -93,7 +93,7 @@
         "id": "excerpt",
         "label": "Excerpt",
         "type": "string",
-		"multiline": true
+        "multiline": true
       },
       {
         "id": "main-image",
@@ -106,42 +106,85 @@
         "label": "Sticked",
         "type": "checkbox",
         "default": false
+      },
+      {
+        "id": "author",
+        "label": "Author",
+        "type": "select",
+        "equalKey": "id",
+        "request": {
+          "url": "api/members/search",
+          "method": "post",
+          "label": "fullName",
+          "value": [
+            "id",
+            "firstName",
+            "lastName",
+            "photoUrl",
+            {
+              "key": "jobTitle",
+              "query": "$..dynamicProperties[?(@.name=='jobTitle')].values..value",
+              "isArray": false
+            },
+            {
+              "key": "biography",
+              "query": "$..dynamicProperties[?(@.name=='biography')].values..value",
+              "isArray": false
+            },
+            {
+              "key": "linkedinLink",
+              "query": "$..dynamicProperties[?(@.name=='linkedinLink')].values..value",
+              "isArray": false
+            }
+          ],
+          "params": {
+            "memberId": null,
+            "deepSearch": true,
+            "responseGroup": "Full",
+            "sort": "memberType:desc;name:asc",
+            "searchPhrase": "isAuthor:true"
+          }
+        },
+        "options": []
       }
     ]
   },
-    "webpage-settings": {
-        "name": "Structured data",
-        "contentType": [ "pages", "blogs" ],
-        "static": "top",
-        "icon": "header",
-        "settings": [
-            {
-                "type": "header",
-                "content": "Structured data"
-            },
-            {
-                "id": "markup_webpage_title",
-                "label": "Page title",
-                "type": "string"
-            },
-            {
-                "id": "markup_webpage_description",
-                "label": "Page meta description",
-                "type": "string"
-            },
-            {
-                "type": "image",
-                "id": "markup_webpage_image",
-                "label": "Page image",
-                "inline": true
-            },
-            {
-                "id": "markup_webpage_date_created",
-                "label": "Date created",
-                "type": "calendar"
-            }
-        ]
-    },
+  "webpage-settings": {
+    "name": "Structured data",
+    "contentType": [
+      "pages",
+      "blogs"
+    ],
+    "static": "top",
+    "icon": "header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Structured data"
+      },
+      {
+        "id": "markup_webpage_title",
+        "label": "Page title",
+        "type": "string"
+      },
+      {
+        "id": "markup_webpage_description",
+        "label": "Page meta description",
+        "type": "string"
+      },
+      {
+        "type": "image",
+        "id": "markup_webpage_image",
+        "label": "Page image",
+        "inline": true
+      },
+      {
+        "id": "markup_webpage_date_created",
+        "label": "Date created",
+        "type": "calendar"
+      }
+    ]
+  },
   "footer": {
     "name": "Footer",
     "static": "-bottom",
@@ -1376,10 +1419,10 @@
     "category": "Covers and Hero",
     "includeShared": "cover-blocks",
     "settings": [
-	  {
-		"id": "horizontalAlignment",
-		"default": "right"
-	  },
+      {
+        "id": "horizontalAlignment",
+        "default": "right"
+      },
       {
         "id": "textAreaWidth",
         "label": "Text area width",
@@ -6071,12 +6114,12 @@
         "tab": "Settings",
         "group": "Background"
       },
-	  {
-		"id": "logotypesSize",
-		"label": "Logotypes size",
-		"type": "select",
-		"default": "small",
-		"options": [
+    {
+    "id": "logotypesSize",
+    "label": "Logotypes size",
+    "type": "select",
+    "default": "small",
+    "options": [
           {
             "value": "big",
             "label": "Big"
@@ -6086,15 +6129,15 @@
             "label": "Small"
           }
         ],
-		"tab": "Settings"
-	  },
-	  {
-		"id": "logotypesIsRounded",
-		"label": "Rounded logotypes",
-		"type": "checkbox",
-		"default": true,
-		"tab": "Settings"
-	  },
+    "tab": "Settings"
+    },
+    {
+    "id": "logotypesIsRounded",
+    "label": "Rounded logotypes",
+    "type": "checkbox",
+    "default": true,
+    "tab": "Settings"
+    },
       {
         "id": "title",
         "label": "Title",
@@ -6147,7 +6190,7 @@
             "id": "company",
             "type": "text",
             "label": "Company",
-			"settings": ["TextColor"]
+      "settings": ["TextColor"]
           },
           {
             "id": "review",
@@ -6165,32 +6208,32 @@
               "Source"
             ]
           },
-		  {
-			"id": "casestudyLink",
-			"type": "url",
-			"label": "Casestudy link",
-			"urlLabel": "Url",
-			"textLabel": "Button text",
-			"styleLabel": "Link style",
-			"styles": [
-			  {
-				"value": "",
-				"label": "Default"
-			  },
-			  {
-				"value": "btn btn--black",
-				"label": "Black button"
-			  },
-			  {
-				"value": "btn btn--orange",
-				"label": "Orange button"
-			  },
-			  {
-				"value": "btn btn--white",
-				"label": "White button"
-			  }
-			]
-		  },
+      {
+      "id": "casestudyLink",
+      "type": "url",
+      "label": "Casestudy link",
+      "urlLabel": "Url",
+      "textLabel": "Button text",
+      "styleLabel": "Link style",
+      "styles": [
+        {
+        "value": "",
+        "label": "Default"
+        },
+        {
+        "value": "btn btn--black",
+        "label": "Black button"
+        },
+        {
+        "value": "btn btn--orange",
+        "label": "Orange button"
+        },
+        {
+        "value": "btn btn--white",
+        "label": "White button"
+        }
+      ]
+      },
           {
             "id": "image",
             "type": "image",
