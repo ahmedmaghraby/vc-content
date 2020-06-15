@@ -1,0 +1,33 @@
+{%- if article_author -%}
+    <div class="block block--align-left block--padding-top-none block--padding-bottom-none block--bg-white">
+        <div class="block__inner container">
+            <div class="row ">
+                <div class="block__text col-lg">
+                    <div class="block__t">
+                        <h2 class="block__t">About the author of this article</h2>
+                    </div>
+                    <div class="block__space block__space--size-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="list list-items list-items--cols-2 list-items--reviews">
+                <div class="list__item">
+                    <div id="block-11-item-0" class="list__img ">
+                        <img src="{{ article_author.photoUrl }}" title="" class="list__pic ">
+                    </div>
+                    <div class="list__t">
+                        {{ article_author.firstName }} {{ article_author.lastName }}
+                    </div>
+                    <div class="list__pos">
+                        {{ article_author.jobTitle }}
+                    </div>
+                    <div class="list__descr">
+                        <p>{{ article_author.biography }}</p>
+                        <p>&nbsp;</p>
+                        <p><a href="{{ article_author.linkedinLink }}">LinkedIn profile</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{%- endif -%}
