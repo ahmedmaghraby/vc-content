@@ -4404,7 +4404,7 @@ code {
 .block .list-items .list__pic {
     display: block;
     position: relative;
-    width: 100%;
+    max-height: 100%;
     z-index: 5;
 }
 
@@ -4606,12 +4606,22 @@ code {
     width: 4.375rem;
 }
 
+.block .list-items--reviews.list-items .list__img--big {
+    flex: 0 0 8.75rem;
+    height: 8.75rem;
+    width: 8.75rem;
+}
+
 .block .list-items--reviews.list-items .list__img::after {
     border-radius: 100%;
 }
 
 .block .list-items--reviews.list-items .list__pic {
     border-radius: 100%;
+}
+
+.block .list-items--reviews.list-items .list__pic--not-rounded {
+    border-radius: initial;
 }
 
 .block .list-items--reviews.list-items .list__pos {
@@ -4623,7 +4633,7 @@ code {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: bold;
-    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .block .list-items .list__descr {
