@@ -58,6 +58,7 @@
 
     .blog__date {
         margin-left: 4.375rem;
+        margin-right: .35rem;
     }
 
     @include media-breakpoint-up(md) {
@@ -345,12 +346,12 @@
             margin-bottom: 0.9375rem;
             margin-right: 0.9375rem;
             padding: 0 0.625rem;
+            cursor: pointer;
 
             &--active {
                 background: $yellow;
                 border-color: $yellow;
                 color: $white;
-                pointer-events: none;
             }
 
             &:hover {

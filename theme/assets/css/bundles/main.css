@@ -4404,7 +4404,7 @@ code {
 .block .list-items .list__pic {
     display: block;
     position: relative;
-    width: 100%;
+    max-height: 100%;
     z-index: 5;
 }
 
@@ -4606,12 +4606,22 @@ code {
     width: 4.375rem;
 }
 
+.block .list-items--reviews.list-items .list__img--big {
+    flex: 0 0 8.75rem;
+    height: 8.75rem;
+    width: 8.75rem;
+}
+
 .block .list-items--reviews.list-items .list__img::after {
     border-radius: 100%;
 }
 
 .block .list-items--reviews.list-items .list__pic {
     border-radius: 100%;
+}
+
+.block .list-items--reviews.list-items .list__pic--not-rounded {
+    border-radius: initial;
 }
 
 .block .list-items--reviews.list-items .list__pos {
@@ -4623,7 +4633,7 @@ code {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: bold;
-    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .block .list-items .list__descr {
@@ -7148,7 +7158,7 @@ code {
     padding: 3.75rem 0;
 }
 
-.block .w-100 {
+.block .w-100, .block .row {
     width: 100%;
 }
 
@@ -8875,27 +8885,6 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin: 1rem 0;
 }
 
-.glossary__content ol {
-    counter-reset: list;
-    padding-left: 1.25rem;
-    list-style: none;
-}
-
-.glossary__content ol li {
-    margin-left: -1.25rem;
-    padding-left: 1.25rem;
-    text-indent: -1.25rem;
-    margin-bottom: .625rem;
-}
-
-.glossary__content ol li::before {
-    content: counter(list, decimal) ". ";
-    counter-increment: list;
-    width: 1.25rem;
-    display: inline-block;
-    text-indent: 0;
-}
-
 .glossary__content .business-cnt {
     overflow: hidden;
 }
@@ -9102,6 +9091,7 @@ input.ng-touched.ng-invalid, .input-validation-error {
 
 .blog .blog__date {
     margin-left: 4.375rem;
+    margin-right: .35rem;
 }
 
 @media (min-width: 768px) {
@@ -9401,13 +9391,13 @@ input.ng-touched.ng-invalid, .input-validation-error {
     margin-bottom: 0.9375rem;
     margin-right: 0.9375rem;
     padding: 0 0.625rem;
+    cursor: pointer;
 }
 
 .blog .list--tags .list__item--active {
     background: #ffc107;
     border-color: #ffc107;
     color: #fff;
-    pointer-events: none;
 }
 
 .blog .list--tags .list__item:hover {

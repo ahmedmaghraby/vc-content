@@ -8,12 +8,21 @@ storefrontApp.service('blogService', ['$http', function ($http) {
     };
 }]);
 
-storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 'dialogService', function ($scope, $window, blogService, dialogService) {
+storefrontApp.controller('blogController', ['$scope', '$window', '$cookies', 'blogService', 'dialogService', function ($scope, $window, $cookies, blogService, dialogService) {
     $scope.pageNumber = 1;
     $scope.articles = [];
+    $scope.currentCategory = '';
     $scope.emailPattern = new RegExp(/((^|((?!^)([,;]|\r|\r\n|\n)))([a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))+$/);
 
+    var articleCategory = $cookies.get('currentCategory');
+
     $scope.getArticles = function () {
+        if (articleCategory) {
+            $scope.currentCategory = articleCategory;
+            $cookies.remove('currentCategory');
+            articleCategory = undefined;
+        }
+
         var blogSearchCriteria = {
             category: $scope.currentCategory,
             pageNumber: $scope.pageNumber,
@@ -48,16 +57,15 @@ storefrontApp.controller('blogController', ['$scope', '$window', 'blogService', 
         }
     };
 
+    $scope.setCurrentCategoryFromArticle = function (category) {
+        $cookies.put('currentCategory', category);
+        $window.location.href = '/blog';
+    }
+
     $scope.setCurrentCategory = function (category) {
         $scope.currentCategory = category;
-        $scope.setCurrentTag('', '');
-    };
-
-    $scope.setCurrentTag = function (tag, tagLabel) {
         $scope.articles = [];
         $scope.pageNumber = 1;
-        $scope.currentTag = tag;
-        $scope.currentTagLabel = tagLabel;
         $scope.getArticles();
     };
 }]);

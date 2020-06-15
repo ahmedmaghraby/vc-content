@@ -44,8 +44,9 @@
 
                 <div class="list__item">
                     {% if item.image != '' and item.image.url != '' %}
-                        <div {% if item.overlayColor != 'Null' or item.overlayColor != 'none' or item.overlayColorHex != 'Null' %}id="block-{{block.id}}-item-{{forloop.index}}"{% endif %} class="list__img">
-                            <img src="{{item.image.url}}" title="{{item.image.altText}}" class="list__pic" />
+                        <div {% if item.overlayColor != 'Null' or item.overlayColor != 'none' or item.overlayColorHex != 'Null' %}id="block-{{block.id}}-item-{{forloop.index}}"{% endif %}
+                            class="list__img {% if block.logotypesSize == 'big' %} list__img--big {% endif %}">
+                            <img src="{{item.image.url}}" title="{{item.image.altText}}" class="list__pic {% if block.logotypesIsRounded == 'False' %}list__pic--not-rounded{% endif %}" />
                         </div>
                     {% endif %}
 
@@ -56,13 +57,19 @@
                     {% if item.jobTitle != '' %}
                         <div class="list__pos">{{item.jobTitle}}</div>
                     {% endif %}
+                    
+                    {% if item.company != '' %}
+                        <div class="list__company">{{item.company}}</div>
+                    {% endif %}
 
                     {% if item.review != '' %}
                         <div class="list__descr">{{item.review}}</div>
                     {% endif %}
 
-                    {% if item.company != '' %}
-                        <div class="list__company">{{item.company}}</div>
+                    {% if item.casestudyLink != '' and item.casestudyLink.urlText != '' %}
+                        <div class="block__actions">
+                            <a href="{{item.casestudyLink.url}}" class="{{item.casestudyLink.style}}" {% if item.casestudyLink.openInNewTab == 'True' %} target="_blank" {% endif %}>{{item.casestudyLink.urlText}}</a>
+                        </div>
                     {% endif %}
                 </div>
             {% endfor %}

@@ -2,13 +2,13 @@
     <div class="posts __responsive container" itemprop="blogPosts">
         <h1 class="blog__t">{{blog.title}}</h1>
         <div class="list list--tags">
-            <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentCategory('');">All</a>
+            <a class="list__item" ng-class="{ 'list__item--active': currentCategory == '' }" ng-disabled="isLoading" ng-click="setCurrentCategory('');">All</a>
             {% for category in blog.categories %}
                 {% assign category_handle = category | handleize %}
                 {% assign blog_url = '~/blogs/' | append: blog.handle  %}
                 {% assign category_url = '/blog/category/' | append: category %}
                 {% assign categoryName = "blogs.categories." | append: category | t %}
-                <a class="list__item" ng-disabled="isLoading" ng-click="setCurrentCategory('{{category}}');">{{categoryName}}</a>
+                <a class="list__item" ng-class="{ 'list__item--active': currentCategory == '{{category}}' }" ng-disabled="isLoading" ng-click="setCurrentCategory('{{category}}');">{{categoryName}}</a>
             {% endfor %}
         </div>
         {% assign sticked_article = blog.articles | where: 'IsSticked', '==', true | sort_list: 'publishedAt:desc' | first %}
@@ -21,10 +21,6 @@
     </div>
 
     <div class="posts __responsive container" ng-init="getArticles()" ng-if="articles || articles.length">
-        {% raw %}
-            <div class="blog__t" ng-if="currentTag && currentTag != '' && articles.length > 0">Articles by tag "{{currentTagLabel}}"</div>
-            <div class="blog__t" ng-if="!isLoading && currentTag != '' && articles.length == 0">No articles by tag "{{currentTagLabel}}"</div>
-        {% endraw %}
         <div class="list list--posts">
             {% include 'blog-list-item-js' %}
         </div>
