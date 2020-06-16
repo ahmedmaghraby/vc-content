@@ -15,9 +15,11 @@
             <a class="list__item" ng-if="article.category" ng-click="setCurrentCategory(article.category)" ng-bind="'blogs.categories.' + article.category | translate"></a>
         </div>
         <div class="list__author">
-            <div class="list__author-logo"></div>
+            <div class="list__author-logo">
+                <img ng-if="article.metaInfo.author.photoUrl" src="{% raw %}{{ article.metaInfo.author.photoUrl }}{% endraw %}" title="" style="max-height: 100%;">
+            </div>
             <div class="list__author-text">
-                <div class="list__author-name" ng-bind="article.author || 'VirtoCommerce'"></div>
+                <div class="list__author-name" ng-bind="article.metaInfo.author.firstName ? (article.metaInfo.author.firstName + ' ' + article.metaInfo.author.lastName) : article.metaInfo.author || article.author || 'VirtoCommerce'"></div>
             </div>
         </div>
     </div>
