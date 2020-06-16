@@ -42,7 +42,7 @@
         "backgroundOverlayColor": "none",
         "backgroundOverlayColorHex": null,
         "backgroundScrollEffect": "block--cover-static",
-        "title": "<p>actest blog</p>\n",
+        "title": "<p>ac<span style=\"color:#2980b9;\">te</span>st b<span style=\"color:#8e44ad;\">l</span>og</p>\n",
         "subtitle": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n",
         "note": "<p>Our company</p>\n",
         "background": null,

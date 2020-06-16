@@ -1,5 +1,5 @@
 <div class="list__item" ng-repeat="article in articles">
-    <a class="list__bg" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
+    <a class="list__bg lazyload" href="{% raw %}{{ article.url }}{% endraw %}" ng-style="{ 'background-image': 'url(' + article.imageUrl + ')' }"></a>
     <div class="list__info">
         <div class="list__t">
             <a href="{% raw %}{{article.url}}{% endraw %}" ng-bind="article.title"></a>

@@ -92,6 +92,7 @@
     {{ 'blog.js?v=' | append blog_js_version | asset_url | script_tag }}
     {{ 'feedback.js' | asset_url | script_tag }}
     {{ 'main.js' | asset_url | script_tag }}
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" async=""></script>
 
     {{ '//fonts.googleapis.com/css?family=Roboto:400,100,300,700' | stylesheet_tag }}
     {{ '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' | stylesheet_tag }}

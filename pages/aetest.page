@@ -1,0 +1,40 @@
+[
+    {
+        "type": "settings",
+        "title": "aetest",
+        "permalink": "aetest",
+        "layout": "empty",
+        "noindex": false,
+        "header": "aetest",
+        "description": "aetest"
+    },
+    {
+        "id": 1,
+        "type": "cover-with-simple-text",
+        "__id": "coverwithsimpletextH7XP",
+        "horizontalAlignment": "center",
+        "textAreaWidth": "col-lg",
+        "titleSeoTag": "div",
+        "backgroundColorHex": null,
+        "backgroundOverlayColor": "none",
+        "backgroundOverlayColorHex": null,
+        "backgroundScrollEffect": "block--cover-static",
+        "title": "<p><span style=\"color:#e74c3c;\">Br</span>ing your ideas to life</p>\n",
+        "subtitle": "<p>Anything you&#39;ve even dreamed about is possible to realise just at the moment when you decided to win.</p>\n",
+        "note": "<p>Our company</p>\n",
+        "background": null,
+        "firstButton": {
+            "url": "",
+            "urlText": "Call to action",
+            "style": "btn btn--orange"
+        },
+        "secondButton": {
+            "url": "",
+            "urlText": "",
+            "style": "btn btn--orange"
+        },
+        "verticalAlignment": "align-self-start",
+        "backgroundColor": "block--bg-white",
+        "name": null
+    }
+]
