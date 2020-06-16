@@ -38,10 +38,11 @@
 <body>
     <div id="layout">
         <div class="layout-canvas">
+            {% include 'getting-started' %}
             <article class="main" role="main">
                 {{ content_for_layout }}
             </article>
-            <footer style="height: 5rem; background: #eee;"></footer>
+            {% include 'footer' %}
         </div>
     </div>
     {{ 'jquery-3.5.0.min.js' | asset_url | script_tag }}
