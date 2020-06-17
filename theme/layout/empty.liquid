@@ -31,6 +31,7 @@
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
+    {% include 'segment' %}
     {% include 'autopilot' %}
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
@@ -55,5 +56,6 @@
     {{ 'jquery.fancybox.min.js' | asset_url | script_tag }}
     {{ 'js/app.js' | asset_url | script_tag }}
     {{ 'js/main.js?v=' | append main_js_version | asset_url | script_tag }}
+    {{ 'segment-form-handler.js' | asset_url | script_tag }}
 </body>
 </html>
