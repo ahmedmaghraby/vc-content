@@ -1,6 +1,6 @@
 <div class="blog-content">
     <div class="blog-post">
-        <div class="blog-post__bg" style="background-image: url('{{ article.image_url }}');"></div>
+        <div class="blog-post__bg lazyload" style="background-image: url('{{ article.image_url }}');"></div>
         <div class="blog-post__category" data-name="{{ article.category }}">{{ "blogs.categories." | append: article.category | t }}</div>
         <div class="blog-post__text">
             <div class="blog-post__t">{{ article.title }}</div>

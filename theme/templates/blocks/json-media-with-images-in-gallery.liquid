@@ -26,10 +26,10 @@
                     <div class="list__item">
                         {% if item.url != '' %}
                             <a href="{{item.url}}" {% if item.openInNewTab == 'True' %}target="_blank"{% endif %}>
-                                <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                                <div class="list__img lazyload" style="background-image: url('{{item.image.url}}')"></div>
                             </a>
                         {% else %}
-                            <div class="list__img" style="background-image: url('{{item.image.url}}')"></div>
+                            <div class="list__img lazyload" style="background-image: url('{{item.image.url}}')"></div>
                         {% endif %}
                     </div>
                 {% endfor %}

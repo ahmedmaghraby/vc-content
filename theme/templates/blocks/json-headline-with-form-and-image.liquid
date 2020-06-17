@@ -9,7 +9,7 @@
                         <div class="col-lg-auto">
                             <div class="block__media">
                                 {% if block.containerImage != '' and block.containerImage.url != '' %}
-                                    <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic" />
+                                    <img src="{{block.containerImage.url}}" title="{{block.containerImage.alt}}" class="block__pic lazyload" />
                                 {% endif %}
                             </div>
                         </div>

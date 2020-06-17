@@ -2,7 +2,7 @@
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
-    <div {% if block.sectionStyle == 'container' %} class="section__info section__info--container" {% else %} class="section__bg" {% endif %} style="background-image: url('{{ block.image.url }}');">
+    <div {% if block.sectionStyle == 'container' %} class="section__info section__info--container lazyload" {% else %} class="section__bg lazyload" {% endif %} style="background-image: url('{{ block.image.url }}');">
         {% if block.title != '' %}
         <div class="section__t like-h2 {% if block.sectionStyle == 'container' %} container-title {% endif %}" style="color:{{block.titleColor}}">{{ block.title }}</div>
         {% endif %}

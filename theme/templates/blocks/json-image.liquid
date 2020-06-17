@@ -3,7 +3,7 @@
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
     <div class="{% if block.size != 'page' %} section__inner container {% endif %}">
-        <img src="{{ block.image.url }}" alt="{{ item.image.altText }}" class="{% if block.size == 'middle' %} section__pic {% endif %} {% if block.size != 'middle' and block.size != 'normal' %} section__pic--full {% endif %}">
+        <img src="{{ block.image.url }}" alt="{{ item.image.altText }}" class="{% if block.size == 'middle' %} section__pic {% endif %} {% if block.size != 'middle' and block.size != 'normal' %} section__pic--full {% endif %} lazyload">
     </div>
 </div>
 

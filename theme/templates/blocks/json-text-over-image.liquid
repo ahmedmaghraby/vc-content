@@ -1,8 +1,8 @@
-<divid="{{ block.__id }}" class="section section--cover {% if block.style == 'dark' %} section--gray {% endif %}
+<div id="{{ block.__id }}" class="section section--cover {% if block.style == 'dark' %} section--gray {% endif %}
      {% if block.noTop == 'True' %} section--small-top {% endif %}
      {% if block.noBottom == 'True' %} section--small-bottom {% endif %}
      {% if block.noPad == 'True' %} section--no-padding {% endif %}">
-    <div class="section__bg" style="background-image: url('{{ block.image.url }}');">
+    <div class="section__bg lazyload" style="background-image: url('{{ block.image.url }}');">
         {% if block.subTitle != '' %}
         <div class="section__sub-t">{{ block.subTitle }}</div>
         {% endif %}
