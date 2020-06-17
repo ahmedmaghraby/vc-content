@@ -58,5 +58,14 @@
     {{ 'js/main.js?v=' | append main_js_version | asset_url | script_tag }}
     {{ 'js/ipdata.js?v=1.01' | asset_url | script_tag }}
     {{ 'segment-form-handler.js' | asset_url | script_tag }}
+    <script>
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
+    </script>
 </body>
 </html>
