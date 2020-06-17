@@ -38,6 +38,9 @@
 <body>
     <div id="layout">
         <div class="layout-canvas">
+            <div class="swipe">
+                {% include 'main-menu-mobile' %}
+            </div>
             {% include 'getting-started' %}
             <article class="main" role="main">
                 {{ content_for_layout }}
