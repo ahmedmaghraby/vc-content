@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html ng-app="storefrontApp">
 <head>
+    {% include 'google-tag-manager-head' %}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Virto Commerce" />
@@ -30,12 +31,15 @@
     <script>
         var BASE_URL = '{{ "/" | full_url }}';
     </script>
+    {% include 'segment' %}
+    {% include 'autopilot' %}
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
     {% include 'markup-webpage' %}
     {% include 'markup-opengraph' %}
 </head>
 <body>
+    {% include 'google-tag-manager-body' %}
     <div id="layout">
         <div class="layout-canvas">
             <div class="swipe">
@@ -52,5 +56,16 @@
     {{ 'jquery.fancybox.min.js' | asset_url | script_tag }}
     {{ 'js/app.js' | asset_url | script_tag }}
     {{ 'js/main.js?v=' | append main_js_version | asset_url | script_tag }}
+    {{ 'js/ipdata.js?v=1.01' | asset_url | script_tag }}
+    {{ 'segment-form-handler.js' | asset_url | script_tag }}
+    <script>
+        $(function () {
+            $('#cookieConsentAccept').on('click', function (event) {
+                event.preventDefault();
+                document.cookie = '{{consent_cookie }}';
+                $('.cookie-bar').hide();
+            });
+        });
+    </script>
 </body>
 </html>
