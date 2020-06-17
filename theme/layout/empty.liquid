@@ -47,5 +47,7 @@
     </div>
     {{ 'jquery-3.5.0.min.js' | asset_url | script_tag }}
     {{ 'jquery.fancybox.min.js' | asset_url | script_tag }}
+    {{ 'js/app.js' | asset_url | script_tag }}
+    {{ 'js/main.js?v=' | append main_js_version | asset_url | script_tag }}
 </body>
 </html>
