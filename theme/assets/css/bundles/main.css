@@ -7985,13 +7985,8 @@ code {
     font-size: 1.125rem;
 }
 
-.block .list-items,
-  .block .list-cards {
-    margin-bottom: -2.5rem;
-}
-
 .block .list-items .list__t,
-    .block .list-cards .list__t {
+  .block .list-cards .list__t {
     font-size: 1.25rem;
     font-weight: 900;
     line-height: 1.625rem;
@@ -7999,7 +7994,7 @@ code {
 }
 
 .block .list-items .list__descr,
-    .block .list-cards .list__descr {
+  .block .list-cards .list__descr {
     font-size: 1rem;
     line-height: 1.5rem;
 }
