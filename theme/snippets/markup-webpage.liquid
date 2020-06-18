@@ -8,7 +8,7 @@
     {% endif %}
 {% endfor -%}
 
-<script id="webPageLd" type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type":"WebPage",
@@ -56,6 +56,16 @@
             "url": "{{- settings.markup_corporation_url -}}" 
         }
     },
+    "image": {
+        "@type": "ImageObject",
+        {% if page_settings.markup_webpage_image %}
+            "url": "{{- page_settings.markup_webpage_image -}}",
+        {% else %}
+            "url": "{{- settings.markup_website_default_image -}}",
+        {% endif %}
+        "width": 600,
+        "height": 400
+    },
     "publisher": {
         "@type": "Corporation",
         "name": "{{- settings.markup_corporation_name -}}",
@@ -67,38 +77,5 @@
         }
     }
 }
-</script>
-
-<script id="ldBuilder">
-    var imgUrl = "{{ page_settings.markup_webpage_image }}" ? "{{ page_settings.markup_webpage_image }}" : "{{ settings.markup_website_default_image }}";
-    function getMeta(callback) {
-        var img = new Image();
-        if (imgUrl){
-            img.src = imgUrl;
-            img.onload = function() { callback(this); }
-            return;
-        }
-        document.getElementById('webPageLd').removeAttribute('id');
-        document.getElementById('ldBuilder').remove();
-    }
-    
-    getMeta(
-      createWebPageLd
-    );
-
-    function createWebPageLd(imgInfo){
-        var webPageLdEl = document.getElementById('webPageLd');
-        var webPageLd = JSON.parse(webPageLdEl.text);
-        webPageLd.image = {
-            "@type": "ImageObject",
-             "url": imgInfo.src,
-             "width": imgInfo.width,
-             "height": imgInfo.height
-        };
-        webPageLdEl.text = JSON.stringify(webPageLd, null, "\t");
-        
-        webPageLdEl.removeAttribute('id');
-        document.getElementById('ldBuilder').remove();
-    }
 </script>
 {% endunless %}

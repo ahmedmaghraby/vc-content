@@ -1,4 +1,15 @@
 <!-- BlogPosting -->
+{% assign web_page_blocks = page.content | parse_json %}
+{%- assign article_body = '' -%}
+{%- for item in web_page_blocks -%}
+    {%- if item.type != 'settings' -%}
+        {%- assign article_body = article_body | append item.title -%}
+        {%- assign article_body = article_body | append item.subtitle -%}
+        {%- assign article_body = article_body | append item.note -%}
+        {%- assign article_body = article_body | append item.paragraph -%}
+    {%- endif -%}
+{%- endfor -%}
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -11,25 +22,28 @@
     "image": {
         "@type": "ImageObject",
         "url": "{{ page_image_url | absolute_url }}",
-        "height": 800,
-        "width": 800
+        "width": 600,
+        "height": 400
     },
-    "datePublished": "{{ article.created_at }}",
-    "dateModified": "{{ article.created_at }}",
+    "datePublished": "{{ page_settings.date }}",
+    "dateModified": "{{ page_settings.date }}",
     "author": {
         "@type": "Person",
-        "name": "{{ article.author }}"
+        "name": "{{ page_settings.author.firstName }} {{ page_settings.author.lastName }}",
+        "jobTitle": "{{ page_settings.author.jobTitle }}",
+        "url": "{{ page_settings.author.linkedinLink }}"
     },
     "publisher": {
         "@type": "Organization",
-        "name": "{{ article.author }}",
+        "name": "{{ settings.markup_corporation_name }}",
         "logo": {
             "@type": "ImageObject",
-            "url": "{{}}",
-            "width": 600,
-            "height": 60
+            "url": "{{ settings.markup_website_default_image }}",
+            "width": 150,
+            "height": 56
         }
     },
-    "description": "{{ page_description }}"
+    "description": "{{ page_settings.description }}",
+    "articleBody": "{{ article_body | strip_html }}"
 }
 </script>

@@ -35,7 +35,11 @@
     {% include 'autopilot' %}
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
-    {% include 'markup-webpage' %}
+    {% if article %}
+        {% include 'markup-blog' %}
+    {% else %}
+        {% include 'markup-webpage' %}
+    {% endif %}
     {% include 'markup-opengraph' %}
 </head>
 <body>

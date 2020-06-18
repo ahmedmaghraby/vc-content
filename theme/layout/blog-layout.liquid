@@ -105,11 +105,7 @@
 
     {% include 'markup-corporation' %}
     {% include 'markup-website' %}
-    {% if article %}
-        {% include 'markup-blog' %}
-    {% else %}
-        {% include 'markup-webpage' %}
-    {% endif %}
+    {% include 'markup-webpage' %}
     <!-- html5.js for IE less than 9 -->
     <!--[if lt IE 9]>
         <script src="/js/ie.js"></script>
